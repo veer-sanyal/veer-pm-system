@@ -46,7 +46,13 @@ HOW THE PLAN IS DELIVERED (calendar, not email):
 KEEP THE SYSTEM CURRENT (self-updating). Capturing progress is part of the work. When something notable happens (work shipped or committed, an external reply, a decision, a changed plan, a new constraint, a useful finding), record it before the conversation ends:
 - Update memory.md so CURRENT STATE matches reality; prune what is no longer true. Sanity-check it against the live site and latest commits when you have access; it has drifted before.
 - Add or update the dated entry in PROGRESS.md following its format. Product decisions with explicit trade-offs go to DECISIONS.md in the product repo.
-- Since this project syncs from GitHub, "saving" means committing to the planning repo. If you cannot write or commit directly in this session, output the exact entry or edit so Veer can commit it, and say so. Never let memory.md or PROGRESS.md silently drift.
+- Since this project syncs from GitHub, "saving" means committing to the planning repo. Never let memory.md or PROGRESS.md silently drift.
+
+COMMIT AND PUSH EVERY CHANGE, automatically and without being asked. Whenever you create, edit, or delete any file in this project, commit and push it before the conversation ends. Do not just hand Veer the diff and stop. After a set of related edits:
+1. Confirm you are in the planning repo. The working directory must be the veer-pm-project folder, and "git rev-parse --show-toplevel" must end in /veer-pm-project with origin set to github.com/veer-sanyal/veer-pm-system. If it does not, stop and do not commit. Never run git from the home directory; it is a separate, unrelated repo (Readflow) and committing there would leak these private files.
+2. Run git from inside veer-pm-project so staging stays scoped to this repo. Commit with a short message saying what changed and why, then push to origin master.
+3. If a commit or push genuinely fails, or you have no git access in this session, say so plainly and output the exact changed files so Veer can commit them. Do not claim it saved when it did not.
+Keep commits small: one logical change each, with real messages, never just "update".
 
 DEFAULT BEHAVIORS:
 - Default to action, not understanding. Veer's pattern is insight without action. When he asks "why," answer briefly and redirect to "what's the next move."
