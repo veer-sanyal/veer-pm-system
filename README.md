@@ -27,7 +27,3 @@ Because the project syncs from GitHub, saving means committing. The assistant up
 ## File map
 
 See `file-index.md` for the full manifest.
-
-## Still open (carried over)
-
-- The two stale calendar events on your Google Calendar ("SQL Practice FAANG Prep" and "LinkedIn Networking 5 Alumni Outreaches") are from the pre-realignment plan and should be deleted.
