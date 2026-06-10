@@ -57,6 +57,8 @@ Four additional research docs live only in `docs/` (no separate full original): 
 | `chart_A_consulting.png` | Feed-ready chart for the first LinkedIn post: India's consulting exports 13x since 2005 vs flat rest of "other business services" (WTO TiSMoS, rebuilt from `site/data.js` in the site palette). |
 | `chart_B_ip_licensing.png` | Alternate post chart: the ~10x placeholder vs the computed 29.4x IP-licensing growth, 2005-2025 (WTO DDS). Illustrates the no-hardcoded-numbers build rule. |
 | `post-01-v2.md` | Fresh first-post draft (2026-06-10), written from scratch off the research structure with the accurate Entry 009 error-catch story. Includes posting notes (chart B, links-in-body rationale, golden-hour guidance). Supersedes post-01-draft.md. |
+| `post-01-v3.md` | Alternate first-post draft (2026-06-10), no Entry 009 story per Veer: leads with the consulting 13x finding and the exposure index (chart A). Superseded by v4. |
+| `post-01-v4.md` | Current first-post draft (2026-06-10), built from the full research original + the product repo's DECISIONS.md: consulting hook (Entry 011), named user/policy anchor (Entry 012), $90B vs 92k firms (Entry 010), v0-honesty (Entry 008). Chart A. Includes traceability + posting notes. |
 
 ---
 

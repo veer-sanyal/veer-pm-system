@@ -143,7 +143,9 @@ Pillar 3:
 ### 2026-06-10 (Wed)
 
 Pillar 3:
-- First post redrafted from scratch (`files/linkedin/post-01-v2.md`), per Veer's call to discard the old draft. Built on the research structure (hook/tension/substance/takeaway/invitation) with the accurate Entry 009 story: the no-hardcoded-numbers rule catching the ~10x placeholder (computed 29.4x, $0.67B to $19.8B). Chart B attached; links stay in the body per the 06-09 decision. Next: Veer reviews, posts when he has 60-90 min to engage, then alumni messages start
+- First post redrafted from scratch (`files/linkedin/post-01-v2.md`), per Veer's call to discard the old draft. Built on the research structure (hook/tension/substance/takeaway/invitation) with the accurate Entry 009 story: the no-hardcoded-numbers rule catching the ~10x placeholder (computed 29.4x, $0.67B to $19.8B). Chart B attached; links stay in the body per the 06-09 decision
+- Second angle drafted on request (`post-01-v3.md`): Veer asked for a version not built on the Entry 009 error-catch. v3 leads with the consulting 13x / exposure-index finding, chart A
+- v4 drafted (`post-01-v4.md`) after reading the full research original + the product repo's DECISIONS.md per Veer: keeps v3's finding hook, adds the named user/policy anchor (Entry 012), the $90B-vs-92k-firms contrast (Entry 010), and the ship-v0-honestly framing (Entry 008). Current pick. Next: Veer reviews, posts when he has 60-90 min to engage, then alumni messages start
 
 ---
 
