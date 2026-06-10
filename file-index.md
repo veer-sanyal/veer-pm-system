@@ -56,6 +56,7 @@ Four additional research docs live only in `docs/` (no separate full original): 
 |------|---------|
 | `chart_A_consulting.png` | Feed-ready chart for the first LinkedIn post: India's consulting exports 13x since 2005 vs flat rest of "other business services" (WTO TiSMoS, rebuilt from `site/data.js` in the site palette). |
 | `chart_B_ip_licensing.png` | Alternate post chart: the ~10x placeholder vs the computed 29.4x IP-licensing growth, 2005-2025 (WTO DDS). Illustrates the no-hardcoded-numbers build rule. |
+| `post-01-v2.md` | Fresh first-post draft (2026-06-10), written from scratch off the research structure with the accurate Entry 009 error-catch story. Includes posting notes (chart B, links-in-body rationale, golden-hour guidance). Supersedes post-01-draft.md. |
 
 ---
 

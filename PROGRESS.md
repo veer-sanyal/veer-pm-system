@@ -140,6 +140,11 @@ Pillar 3:
 - StudyFlowForge dated honestly on the profile: now Feb 2026 - Apr 2026 (was "Present"). Decision: don't restart it, don't remove it — one anchor project, SFF stands as a finished past artifact
 - First LinkedIn post drafted (sitting unposted in the composer): dashboard announcement with live + repo links in the body (chose artifact-access over the link-in-comment reach tactic — audience is alumni/recruiters who click through, not the algorithm). Veer is rewriting it himself: the draft's "10x from an earlier note" framing misrepresented the error-catch — the accurate story is the no-hardcoded-numbers build rule catching a placeholder (Entry 009). Two feed-ready charts generated from `site/data.js` and saved to `files/linkedin/` (chart_A_consulting.png: 13x consulting surge; chart_B_ip_licensing.png: the ~10x placeholder vs computed 29.4x). Post goes up before the first alumni messages
 
+### 2026-06-10 (Wed)
+
+Pillar 3:
+- First post redrafted from scratch (`files/linkedin/post-01-v2.md`), per Veer's call to discard the old draft. Built on the research structure (hook/tension/substance/takeaway/invitation) with the accurate Entry 009 story: the no-hardcoded-numbers rule catching the ~10x placeholder (computed 29.4x, $0.67B to $19.8B). Chart B attached; links stay in the body per the 06-09 decision. Next: Veer reviews, posts when he has 60-90 min to engage, then alumni messages start
+
 ---
 
 ## Pillar 2 running ledger (technical)
