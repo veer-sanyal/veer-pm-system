@@ -150,6 +150,7 @@ Pillar 3:
 System:
 - Purdue clubs/resources question answered from `research-purdue-network-recruiting.md`. Junior-year club priority confirmed: (1) PM Club @ Purdue (confirm undergrad access — MEM-incubated), (2) Data Mine (10-13 hrs/wk vs fall recruiting crunch, weigh at Sunday session), (3) Morgan Center optional; keep SMIF + EPICS, add nothing else. Tactical add this week: PM Club DM tacked onto Thursday's small item (already in LinkedIn for the alumni message)
 - **Week 4 candidates for the Sunday session: Data Mine registration check (seats commit before fall — if in, act this month); CCO resume review timing (slots after resume v1, due mid-July)**
+- Context system restructured for token efficiency (deep-research-backed): new `context/` tier holds compressed working copies (14 docs, ~45% smaller, all facts/dates/citations preserved); the system prompt now reads `context/` instead of `docs/`; the five `docs/` summaries of two-tier research reports were deleted (replaced by compressed copies; full originals stay in `files/`). Three docs left uncompressed for now (interview reality check, adjacent roles, Purdue network) — read from `docs/`.
 
 ---
 

@@ -20,6 +20,10 @@ The old setup tried to deliver a daily plan by scheduled Gmail send, which the G
 - Each Sunday session retitles that week's three work blocks with the specific action and writes six 9:00 Morning Briefing events. The block titles are the triggers; the briefing holds yesterday's question, "this week feeds," and an optional citation.
 - Full spec in `docs/daily-email-instructions.md`.
 
+## Token-lean reading convention (2026-06-10)
+
+The assistant reads compressed working copies in `context/`, not the originals. `docs/` keeps the uncompressed originals for reference; `files/` keeps the full deep-research reports. The compressed copies preserve every fact, number, date, and citation at roughly half the tokens — this cuts per-session context load and improves instruction-following (long context measurably degrades recall). When a doc changes, its `context/` copy is refreshed in the same session.
+
 ## Keeping it current
 
 Because the project syncs from GitHub, saving means committing. The assistant updates `memory.md` (current state) and `PROGRESS.md` (the log), or outputs the exact edits for you to commit. Product decisions still go to `DECISIONS.md` in the dashboard repo.

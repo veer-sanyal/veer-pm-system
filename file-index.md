@@ -1,52 +1,56 @@
 # File Index
 
-A manifest of every file in this project, what it is for, and what is inside it.
+A manifest of every file in this project, what it is for, and where to read it.
 
 Project: Veer's PM-internship execution system targeting a Summer-2027 PM internship (Google APM or equivalent). This is the planning and coaching system. The dashboard product lives in a separate repo (`veer-sanyal/india-msme-digital-trade-exposure`).
 
-> Research two-tier convention: each research report lives in BOTH `docs/` and `files/`. The `docs/` copy is the trimmed working summary (carries a `> Working summary of files/...` provenance header) and is what the system reads day to day. The `files/` copy is the full original. Go to the original when the summary is not enough.
+> Three-tier reading convention (2026-06-10): `context/` holds compressed working copies — the system READS THESE, not the originals. `docs/` holds uncompressed originals, reference only (open when a compressed copy lacks detail). `files/` holds the full deep-research originals for deep dives. Compressed copies preserve every fact, number, date, name, and citation at roughly half the tokens. When a doc is added or substantively edited, refresh its `context/` copy in the same session.
 
 ---
 
-## 1. Setup and system state (root)
+## 1. Setup and system state (root — read live, no compressed copies)
 
 | File | Purpose |
 |------|---------|
 | `SYSTEM-PROMPT.md` | The text to paste into the cowork project's custom-instructions field. Not read as a doc; it is the project's standing prompt. |
 | `README.md` | What this project is and how to set it up (GitHub repo, cowork project, Calendar connector). |
-| `memory.md` | CURRENT STATE only: what's shipped, active focus, next moves, durable operating principles, tools. Strategy lives in `direction.md`; the day-by-day narrative lives in `PROGRESS.md`. |
+| `memory.md` | CURRENT STATE only: what's shipped, active focus, next moves, durable operating principles, tools. Strategy lives in `context/direction.md`; the day-by-day narrative lives in `PROGRESS.md`. |
 | `PROGRESS.md` | The everything-log. Running day-by-day narrative across all four pillars, external conversations (Dr. G, alumni), and system signals. PRIVATE (real names + strategy): keep this repo private. |
 | `alumni-tracker.md` | Pillar 3 outreach spine: the 10-name verified alumni shortlist (+ bench), per-contact message/reply/call tracking, LinkedIn Alumni Tool recipes and Boolean queries, targeting criteria, the 5-part message blueprint, and the running ledger. Started 2026-06-09. PRIVATE (real names). |
 | `file-index.md` | This file. |
 
 ---
 
-## 2. Operating docs (`docs/`) — how the system runs
+## 2. Operating docs — read the `context/` copy; `docs/` original is reference
 
-| File | Purpose |
-|------|---------|
-| `about-me.md` | Operational profile + comms guidelines: the planner's default decision lens. Identity, capabilities and gaps, the "insight without action" pattern, daily non-negotiables. |
-| `direction.md` | Canonical strategy: the goal + four pillars + phase plan + decision rules. |
-| `scheduling-blueprint.md` | Evidence-based rules for daily and weekly structure (consistency over surges, cued behavior, visible progress, recovery as execution, the Sunday session). |
-| `daily-email-instructions.md` | How the daily plan is composed and delivered. Delivery is Google Calendar, not email (the Gmail connector cannot send). Filename kept for reference continuity. |
-| `key-dates.md` | Recruiting timeline worked back from deadlines (Google APM closes ~early-mid Oct 2026) + program open/close table. |
-| `infisum-dashboard-roadmap.md` | Build plan for Pillar 1 (the India MSME digital-trade-exposure dashboard): vision, phased plan, stack, success criteria. |
-| `veer-full-profile.md` | Deep psychological/coaching profile for personalization. Reference, not day-to-day lens. |
+| Doc | Read (`context/`) | Original (`docs/`) | Purpose |
+|-----|-------------------|--------------------|---------|
+| About me | `about-me.md` | same name | Operational profile + comms guidelines: the planner's default decision lens. Identity, capabilities and gaps, the "insight without action" pattern, daily non-negotiables. |
+| Direction | `direction.md` | same name | Canonical strategy: the goal + four pillars + phase plan + decision rules. |
+| Scheduling blueprint | `scheduling-blueprint.md` | same name | Evidence-based rules for daily and weekly structure (consistency over surges, cued behavior, visible progress, recovery as execution, the Sunday session). |
+| Daily briefing spec | `daily-email-instructions.md` | same name | How the daily plan is composed and delivered. Delivery is Google Calendar, not email (the Gmail connector cannot send). Filename kept for reference continuity. |
+| Key dates | `key-dates.md` | same name | Recruiting timeline worked back from deadlines (Google APM closes ~early-mid Oct 2026) + program open/close table. |
+| Dashboard roadmap | `infisum-dashboard-roadmap.md` | same name | Build plan for Pillar 1 (the India MSME digital-trade-exposure dashboard): vision, phased plan, stack, success criteria. |
+| Full profile | `veer-full-profile.md` | same name | Deep psychological/coaching profile for personalization. Reference, not day-to-day lens. |
 
 ---
 
-## 3. Research library (`docs/` summary + `files/` original)
+## 3. Research library
 
-| Topic | `docs/` summary | `files/` original |
-|-------|-----------------|-------------------|
-| Interview reality | `PM_Internship_Interview_Reality_Check.md` | same name |
-| Recruiting market | `Product_Management_Internship_Recruiting_for_Summer_2027.md` | same name |
-| Networking | `Genuine_Networking_for_Competitive_PM_Internships.md` | same name |
-| Sustained execution | `Sustained_Execution_on_Long-Horizon_Goals.md` | same name |
-| College-as-leverage | `The_College-as_Leverage_Thesis_Examined_Honestly.md` | same name |
-| LinkedIn presence (posting/content) | `research-linkedin-presence.md` | same name |
+| Topic | Read | Full original |
+|-------|------|---------------|
+| Interview reality | `docs/PM_Internship_Interview_Reality_Check.md` (not yet compressed) | `files/` same name |
+| Recruiting market | `context/Product_Management_Internship_Recruiting_for_Summer_2027.md` | `files/` same name |
+| Networking | `context/Genuine_Networking_for_Competitive_PM_Internships.md` | `files/` same name |
+| Sustained execution | `context/Sustained_Execution_on_Long-Horizon_Goals.md` | `files/` same name |
+| College-as-leverage | `context/The_College-as_Leverage_Thesis_Examined_Honestly.md` | `files/` same name |
+| LinkedIn presence (posting/content) | `context/research-linkedin-presence.md` | `files/` same name |
+| Metrics fluency curriculum | `context/research-metrics-fluency-curriculum.md` | `docs/` same name |
+| Adjacent roles to PM | `docs/research-adjacent-roles-to-pm.md` (not yet compressed) | — |
+| Purdue network recruiting | `docs/research-purdue-network-recruiting.md` (not yet compressed) | — |
+| Dashboard user problem | `context/research-infisum-dashboard-user-problem.md` | `docs/` same name |
 
-Four additional research docs live only in `docs/` (no separate full original): `research-metrics-fluency-curriculum.md`, `research-adjacent-roles-to-pm.md`, `research-purdue-network-recruiting.md`, `research-infisum-dashboard-user-problem.md`.
+Note: the former `docs/` "working summary" copies of the five two-tier reports (Recruiting market, Networking, Sustained execution, College-as-leverage, LinkedIn presence) were removed 2026-06-10 — the `context/` compressed copies replace them. Their full originals remain in `files/`.
 
 ---
 
