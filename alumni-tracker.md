@@ -34,6 +34,20 @@ All 10 verified live on LinkedIn 2026-06-09 (titles from current profiles/headli
 
 ---
 
+## Externship contacts (incoming — assigned Week 1, ~Jul 7-11)
+
+The Purdue Daniels Summer Externship (Jul 6 – Aug 1) assigns three warm Pillar-3 contacts at near-zero initiation cost. Add rows + names here once assignments land in Week 1, then work them as relationships (not cold outreach):
+
+| Role | Who | Status | Notes |
+|------|-----|--------|-------|
+| Alumni mentor | TBD (assigned Wk 1) | pending | Daniels alum — strongest built-in informational-interview relationship of the summer. Ask about their path; report back on advice taken. |
+| Business client owner | TBD (assigned Wk 1) | pending | Real stakeholder for the 4-week engagement; reference + product-story source. |
+| Externship teammates | TBD (assigned Wk 1) | pending | Peer network; some may be in PM/consulting recruiting now. |
+
+These are relationship-building, not the 3/week cold-message funnel — keep them separate from the shortlist count.
+
+---
+
 ## How to fill rows 4-10 (15-20 min)
 
 **Targeting criteria** (from the research):
