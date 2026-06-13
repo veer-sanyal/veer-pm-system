@@ -59,7 +59,9 @@ Note: the former `docs/` "working summary" copies of the five two-tier reports (
 | File | Purpose |
 |------|---------|
 | `chart_A_consulting.png` | Feed-ready chart for the first LinkedIn post: India's consulting exports 13x since 2005 vs flat rest of "other business services" (WTO TiSMoS, rebuilt from `site/data.js` in the site palette). |
-| `chart_B_ip_licensing.png` | Alternate post chart: the ~10x placeholder vs the computed 29.4x IP-licensing growth, 2005-2025 (WTO DDS). Illustrates the no-hardcoded-numbers build rule. |
+| `chart_B_ip_licensing.png` | Original post chart (2026-06-10): the ~10x placeholder vs the computed 29.4x IP-licensing growth, 2005-2025 (WTO DDS). Error-catch framing. Superseded by v2 for post v5. |
+| `chart_B_ip_licensing_v2.png` | **Current chart for post v5.** Same IP-licensing series rebuilt from the real `ipImp` values in the product repo's `site/data.js` (0.67B->19.8B = 29.4x), retitled to the build-discipline framing ("I compute every figure from source instead of hardcoding it") rather than the error-catch. |
+| `make_chart_B.py` | Reproducible generator for `chart_B_ip_licensing_v2.png`. Holds the `ipImp` series copied from `site/data.js`; re-run after a data refresh. Matplotlib, house palette (warm paper / indigo). |
 | `post-01-v2.md` | Fresh first-post draft (2026-06-10), written from scratch off the research structure with the accurate Entry 009 error-catch story. Includes posting notes (chart B, links-in-body rationale, golden-hour guidance). Supersedes post-01-draft.md. |
 | `post-01-v3.md` | Alternate first-post draft (2026-06-10), no Entry 009 story per Veer: leads with the consulting 13x finding and the exposure index (chart A). Superseded by v4. |
 | `post-01-v4.md` | First-post draft (2026-06-10), built from the full research original + the product repo's DECISIONS.md: consulting hook (Entry 011), named user/policy anchor (Entry 012), $90B vs 92k firms (Entry 010), v0-honesty (Entry 008). Chart A. Superseded by v5. |
