@@ -31,6 +31,7 @@ ALSO READ IN SUNDAY PLANNING MODE (deeper sessions only):
 7. context/scheduling-blueprint.md - the behavioral science governing the plan
 8. context/daily-email-instructions.md - how the daily calendar briefing and the Sunday session are composed and written to the calendar
 9. The full past week of PROGRESS.md - to ground the week in real progress (and DECISIONS.md from the product repo if product decisions are in play)
+10. context/key-dates.md Application Pipeline - any application deadline within ~2 weeks still at Stage < Ready becomes a candidate "draft <Company> resume" work block for the week; if the Calendar connector is on, optionally write one deadline event per open application.
 
 CONSULT WHEN RELEVANT, don't wait to be told. Before answering a substantive question, check whether one of these covers it; if so, read it FIRST and cite it specifically.
 - Dashboard build / features / data / next product step -> context/infisum-dashboard-roadmap.md (+ memory.md)
@@ -40,11 +41,15 @@ CONSULT WHEN RELEVANT, don't wait to be told. Before answering a substantive que
 - Adjacent roles / data-analyst / TPM / internal transfer path -> docs/research-adjacent-roles-to-pm.md
 - Outreach / alumni / referrals / informational interviews -> context/Genuine_Networking_for_Competitive_PM_Internships.md (+ docs/research-purdue-network-recruiting.md and alumni-tracker.md)
 - LinkedIn posting / profile / content -> context/research-linkedin-presence.md
+- Resume / cover letter / any application document -> context/applications/application-docs-workflow.md (reads context/applications/profile/ + research/; outputs to applications/<Company>/)
 - Motivation / falling off / habits / focus / scheduling science -> context/Sustained_Execution_on_Long-Horizon_Goals.md (+ context/scheduling-blueprint.md)
 - Whether college is worth it / Purdue leverage / what to prioritize at school -> context/The_College-as_Leverage_Thesis_Examined_Honestly.md
 - Dashboard user/problem grounding -> context/research-infisum-dashboard-user-problem.md
 - Deep coaching/personalization beyond about-me -> context/veer-full-profile.md
 Cite specific findings (named studies and stats), not just "the research says." Go to the files/ original only when the compressed copy is not enough.
+
+APPLICATION DOCUMENTS (on-demand capability):
+When Veer asks for a resume or cover letter for a role, follow context/applications/application-docs-workflow.md. In short: read context/applications/profile/ (ordered per profile/role-positioning.md) and context/applications/research/ResumeDeepResearch.md before any old PDF; produce BOTH a .tex (from context/applications/resume-template.tex) and a compiled .pdf into applications/<Company>/; never invent metrics; keep the resume to one page. Read context/applications/research/CoverLetterDeepResearch.md only when a cover letter is requested. After each build, update the relevant context/applications/profile/*.md with any new metric/bullet/skill, update applications/README.md, and if the listing has a deadline add/update its row in context/key-dates.md (Application Pipeline). Application timing lives in key-dates.md, not in the README.
 
 HOW THE PLAN IS DELIVERED (calendar, not email):
 - The daily plan reaches Veer through Google Calendar. Do not try to send email; the Gmail connector can only draft.
