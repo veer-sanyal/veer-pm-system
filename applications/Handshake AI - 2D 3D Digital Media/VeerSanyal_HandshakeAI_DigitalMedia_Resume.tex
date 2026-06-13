@@ -1,0 +1,92 @@
+\documentclass[10pt,letterpaper]{article}
+
+% ATS-safe, single-column resume
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.6in,right=0.6in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\hrule\vspace{3pt}]
+\titlespacing{\section}{0pt}{4pt}{2pt}
+
+% List formatting
+\setlist[itemize]{leftmargin=1.3em,topsep=1pt,itemsep=0pt,parsep=0pt,label=\textbullet}
+
+% Entry header helper: \entry{Title}{Location}{Subtitle}{Dates}
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\[1pt]
+  \textit{#3}\hfill \textit{#4}\\[2pt]
+}
+
+\begin{document}
+
+% ===== HEADER =====
+\begin{center}
+  {\LARGE \textbf{Veer Sanyal}}\\[3pt]
+  Sammamish, WA $\cdot$ 360-643-9424 $\cdot$ vsanyal@purdue.edu $\cdot$ linkedin.com/in/veersanyal
+\end{center}
+
+% ===== EDUCATION =====
+\section*{Education}
+\textbf{Purdue University --- Mitch Daniels School of Business}\hfill West Lafayette, IN\\[1pt]
+\textit{B.S. Integrated Business and Engineering (IBE), Expected May 2028}\hfill \textit{Aug. 2024 -- Present}
+\begin{itemize}
+  \item Relevant Coursework: Engineering Design \& Project Execution, Statistics, Microeconomics, Managerial Accounting, Financial Accounting
+\end{itemize}
+
+% ===== DESIGN EXPERIENCE =====
+\section*{Design Experience}
+\entry{Etsy Digital Products Shop}{Remote}{Independent Designer \& Shop Owner}{2023 -- Present}
+\begin{itemize}
+  \item Designed and sold 50+ original digital products (printable and editable planners, habit and fitness trackers, travel checklists, intake forms) end-to-end as sole designer and operator.
+  \item Built a cohesive visual system for each product line --- custom layouts, color palettes, and typography in Adobe Photoshop and Illustrator --- holding brand consistency across an entire product family.
+  \item Produced full marketing media per listing --- device mockups, thumbnails, multi-image galleries, and a product demo video --- to drive conversions in a competitive marketplace.
+  \item Delivered both fillable-PDF and print-ready versions of every product, balancing visual design with usability and print specifications.
+\end{itemize}
+
+% ===== DESIGN PROJECTS =====
+\section*{Design Projects}
+\textbf{Graphic Design Portfolio}\hfill \textit{2021 -- Present}\\[1pt]
+\textit{Adobe Illustrator, Photoshop, Lightroom}
+\begin{itemize}
+  \item Designed branding and full report layouts for two 10-page DECA business-plan competition papers --- MYCOFIX (custom wordmark and molecular icon mark) and Green Torch Solutions (complete brand identity) --- producing polished, competition-ready documents.
+  \item Created original logo and brand-identity explorations for self-initiated concept ventures (BAGBABY, PAPER ELEPHANT), developing wordmarks, color systems, and overall visual direction.
+  \item Retouched professional headshots at 300 PPI in Photoshop (layer masking, background compositing) and edited photography in Lightroom.
+  \item Built vector illustrations and sports graphics, including a Purdue Pete vs. Oregon Duck mascot vector and basketball pieces.
+\end{itemize}
+
+\textbf{StudyFlowForge --- Independent Product Build}\hfill \textit{Feb. 2026 -- Present}\\[1pt]
+\textit{React, TypeScript, Gemini API}
+\begin{itemize}
+  \item Designed and shipped 18 user-facing screens end-to-end --- UX flows, a reusable component library, and visual + information architecture.
+  \item Integrated and evaluated AI-generated content (Gemini API), reviewing model outputs for accuracy and relevance before surfacing them to users --- directly analogous to creating and evaluating AI training data.
+\end{itemize}
+
+% ===== ADDITIONAL EXPERIENCE =====
+\section*{Additional Experience}
+\textbf{Firmly} --- \textit{Product \& Engineering Intern} \hfill \textit{Jun. 2025 -- Aug. 2025}
+\begin{itemize}
+  \item Reviewed and validated product output against written guidelines across \textasciitilde15 edge cases with close attention to detail; worked independently and asynchronously across time zones.
+\end{itemize}
+% ===== LEADERSHIP =====
+\section*{Leadership \& Activities}
+\textbf{Engineering Projects in Community Service (EPICS)} --- \textit{Communications Officer \& Build Lead} \hfill \textit{Aug. 2025 -- Dec. 2025}
+\begin{itemize}
+  \item Led a 7-person team and presented design tradeoffs and visual updates to faculty, sponsors, and stakeholders across two formal design reviews.
+\end{itemize}
+
+% ===== SKILLS =====
+\section*{Skills}
+\textbf{Design \& Creative:} Adobe Photoshop, Illustrator, Lightroom (transferable to GIMP, Inkscape, Krita); brand identity, logo design, print \& layout design, photo retouching, typography, mockup production, UI/UX design\\[2pt]
+\textbf{AI \& Digital:} AI-output evaluation \& QA, LLM/Gemini API integration, generative-content workflows\\[2pt]
+\textbf{Technical:} React, TypeScript, SQL, Git/GitHub\\[2pt]
+\textbf{Other:} Microsoft Excel, PowerPoint, e-commerce merchandising, attention to detail, independent async remote work
+
+\end{document}

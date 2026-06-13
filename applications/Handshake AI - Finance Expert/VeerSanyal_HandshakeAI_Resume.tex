@@ -1,0 +1,85 @@
+\documentclass[10pt,letterpaper]{article}
+
+% ATS-safe, single-column resume
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.6in,right=0.6in,top=0.55in,bottom=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\hrule\vspace{3pt}]
+\titlespacing{\section}{0pt}{6pt}{2pt}
+
+% List formatting
+\setlist[itemize]{leftmargin=1.3em,topsep=1pt,itemsep=1pt,parsep=0pt,label=\textbullet}
+
+% Entry header helper: \entry{Title}{Location}{Subtitle}{Dates}
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\[1pt]
+  \textit{#3}\hfill \textit{#4}\\[2pt]
+}
+
+\begin{document}
+
+% ===== HEADER =====
+\begin{center}
+  {\LARGE \textbf{Veer Sanyal}}\\[3pt]
+  Sammamish, WA $\cdot$ 360-643-9424 $\cdot$ vsanyal@purdue.edu $\cdot$ linkedin.com/in/veersanyal
+\end{center}
+
+% ===== EDUCATION =====
+\section*{Education}
+\textbf{Purdue University --- Mitch Daniels School of Business}\hfill West Lafayette, IN\\[1pt]
+\textit{B.S. Integrated Business and Engineering (IBE), Expected May 2028}\hfill \textit{Aug. 2024 -- Present}
+\begin{itemize}
+  \item Relevant Coursework: Financial Accounting, Managerial Accounting, Microeconomics, Statistics, Engineering Design \& Project Execution
+\end{itemize}
+
+% ===== EXPERIENCE =====
+\section*{Experience}
+\entry{Student Managed Investment Fund (SMIF)}{West Lafayette, IN}{Equity Research Analyst}{Jan. 2025 -- Present}
+\begin{itemize}
+  \item Conducted financial analysis on a public company (U.S. Bancorp) within a \textasciitilde\$400K AUM real-money portfolio; interpreted financial statements to identify revenue drivers, competitive dynamics, and key risks.
+  \item Built a 3-statement financial model in Excel (DCF, comps, sensitivity analysis) to quantify profitability across upside and downside scenarios; defended assumptions with analytical rigor under committee questioning.
+  \item Co-authored a 20-page client-style equity report recommending Buy at a \$57.35 target (\textasciitilde11.5\% implied upside); led the competitive analysis and risk-assessment sections with close attention to detail.
+  \item Distilled segment-level analysis into a 10-slide pitch for a 30+ member investment committee, communicating quantitative reasoning and financial terminology clearly to a mixed-experience audience.
+\end{itemize}
+
+\entry{Firmly (Fintech / E-Commerce Platform)}{Remote}{Product and Engineering Intern}{Jun. 2025 -- Aug. 2025}
+\begin{itemize}
+  \item Reviewed and validated software output against written requirements across \textasciitilde15 high-risk edge cases, applying structured judgment to flag inaccuracies before release.
+  \item Built a repeatable QA workflow (20+ test cases plus a release checklist) adopted as the team standard for evaluating output accuracy and consistency across releases.
+  \item Worked independently and asynchronously across time zones, following written guidelines and authoring handoff documentation that reduced ambiguity and back-and-forth.
+\end{itemize}
+
+% ===== PROJECTS =====
+\section*{Projects}
+\textbf{StudyFlowForge --- Independent Product Build}\hfill \textit{Feb. 2026 -- Present}\\[1pt]
+\textit{React, TypeScript, Supabase (PostgreSQL), Gemini API}
+\begin{itemize}
+  \item Integrated and evaluated AI-generated content (Gemini API), reviewing model outputs for accuracy and relevance before surfacing them to users --- directly analogous to AI-response evaluation work.
+  \item Engineered a multi-factor scoring model (weighted, parameterized inputs with scenario analysis) in TypeScript, mirroring factor-weighting logic used in financial models.
+\end{itemize}
+
+% ===== LEADERSHIP =====
+\section*{Leadership \& Activities}
+\textbf{Engineering Projects in Community Service (EPICS)}\hfill West Lafayette, IN\\[1pt]
+\textit{Communications Officer \& Build Lead}\hfill \textit{Aug. 2025 -- Dec. 2025}
+\begin{itemize}
+  \item Led a 7-person cross-functional team and presented structured tradeoff analyses with supporting data to faculty, sponsors, and stakeholders across two formal design reviews.
+\end{itemize}
+
+% ===== SKILLS =====
+\section*{Skills}
+\textbf{Financial Analysis \& Modeling:} 3-statement modeling, DCF, comps, sensitivity \& scenario analysis, financial statement interpretation, valuation, Excel (pivot tables)\\[2pt]
+\textbf{Research \& Communication:} Equity research, client-style written reports, investment pitches, competitive analysis, quantitative reasoning, attention to detail\\[2pt]
+\textbf{AI \& Quantitative:} AI-output evaluation \& QA, LLM/Gemini API integration, multi-factor scoring models, SQL, Python\\[2pt]
+\textbf{Tools \& Workflow:} PowerPoint, Word, Git/GitHub, independent async remote work, structured handoff documentation
+
+\end{document}
