@@ -16,6 +16,7 @@ Dates sourced from "Product Management Internship Recruiting for Summer 2027" re
 | Sun May 24 | First Sunday session — plan week of May 25 in detail |
 | ~May 30 | Follow-up window opens for Dr. Gopalakrishnan if no reply |
 | ~Jun 5 | Dashboard v1 target ship date (rank MSME-relevant service sub-sectors by exposure to WTO e-commerce moratorium) |
+| Jul 6 – Aug 1, 2026 | **Purdue Daniels Summer Externship** (accepted Jun 8). 4-week virtual, team-based consulting for a local-business client; assigned alumni mentor. Wk 1 Accenture intro modules + NACE competencies + team/business/mentor assignments + client outreach; Wks 2-3 research + solution; Wk 4 final proposal presentation. Weekly hours TBD. |
 
 ---
 
@@ -26,7 +27,7 @@ Dates sourced from "Product Management Internship Recruiting for Summer 2027" re
 | 1–2 | Setup, dashboard data scout, project commit |
 | 3–4 | Dashboard v1 shipped (moratorium sector-exposure ranking), Gopalakrishnan follow-up sent |
 | 5–8 | Dashboard iteration, metrics + statistics fluency (Khan Academy Statistics & Probability + Amplitude Academy), first alumni outreach |
-| 9–12 | Resume v1, mock interview reps begin, fall application prep |
+| 9–12 | Resume v1 (add the Daniels externship line, "selected for"), mock interview reps begin, fall application prep. **Purdue Daniels Externship runs Jul 6 – Aug 1** — overlaps resume v1 + metrics/stats study + outreach; protect dashboard minimum iteration through these weeks. |
 
 ---
 
