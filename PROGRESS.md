@@ -154,8 +154,15 @@ System:
 
 ### 2026-06-13 (Sat)
 
+Pillar 1:
+- Closed the week's open dashboard items (the telemetry add, the iteration item, and the decision-log entry that had slipped Mon-Fri) via a Claude Code session. Instrumented the published walkthrough with **GoatCounter** usage telemetry: one hosted async script in `<head>` plus custom events wired into `walkthrough.js`, all routed through a guarded `track()` helper so the page degrades silently if the script is blocked, still loading, or unconfigured. Five named custom events beyond auto page views: `<section>-viewed` (each titled Act fires once per load when it scrolls into view, e.g. `act4-viewed`); `flow-toggle-exp` / `flow-toggle-imp` (the Act I exports/imports toggle, the page's one such control); `score-table-interact` (first interaction with the Act IV full score table); `expander-open` (any methodology/breakdown `<details>` opened); and `sublink-click` (outbound source-link clicks — binds to nothing in v0, begins reporting if a link is added). Live site code wired (`veersanyal.goatcounter.com`), the `YOUR_CODE` placeholder replaced.
+- Surfaced the central credibility caveat in the UI at the Act IV ranking: the **EBOPS→ISIC crosswalk** (from the WTO correspondence) that joins each sector to its NIC/ISIC industry is a modeled assumption that a sector's firms trade what their industry code implies, not an observed join — no public dataset records which individual MSMEs actually export digitally delivered services, so the trade intensity attributed to each sector is inferred and read as direction, not a calibrated measurement.
+- DECISIONS.md **Entry 013** (telemetry instrumentation): GoatCounter for v0 over Amplitude — free, privacy-friendly, cookieless, so a public static site needs no consent banner; one async script, no build step, no new dependency. Revises Entry 012's Amplitude note for v0; Amplitude kept as the documented later option if the questions outgrow flat event counts.
+- Still open: the **telemetry readout** (the Fri Jun 12 item) is deferred until ~1 week of live data accrues; the only remaining manual step is confirming the wired events actually fire on the live site.
+
 Pillar 3 / External:
 - **Accepted into the Purdue Daniels School of Business Summer Externship** (acceptance email Jun 8, Storie Pedley). 4-week virtual program, **Jul 6 – Aug 1, 2026**, team-based consulting for a local business: Wk 1 (Jul 7-11) Accenture intro-to-consulting modules + NACE competencies + team/business/alumni-mentor assignments + client outreach; Wks 2-3 (Jul 14-25) research + solution; Wk 4 (Jul 28-Aug 1) final proposal presentation. Implications: warm Pillar-3 contacts (assigned alumni mentor + business owner + teammates) at near-zero initiation cost — exactly the surface his cold-outreach aversion blocks; Pillar-4 behavioral stories (client mgmt, teamwork, persuasion, leadership w/o authority); a Daniels-branded line for resume v1 (mid-July, "selected for"). Watch-out: runs the last 4 weeks of summer, overlapping resume v1 + metrics/stats study + outreach — assigned team work (low initiation cost) must not crowd out the self-directed dashboard (the differentiator). Open: weekly hours TBD; scheduling integration deferred to the Jun 14 Sunday session.
+- **Nudge to Dr. G (Infisum) drafted** — saved as a Gmail reply in the existing thread (to badri@infisum.com), pending send. Carries the telemetry + Act IV caveat update and one focused question: whether the modeled EBOPS→NIC crosswalk is defensible to ship as a flagged screening heuristic. He has been silent since the June 2 follow-up.
 
 System:
 - Integrated the resume / cover-letter system into the planning repo (copy-only; originals untouched). Profile source-of-truth (12 files) → `context/applications/profile/`; merged the two instruction docs into `context/applications/application-docs-workflow.md`; extracted a canonical ATS-safe LaTeX template (`context/applications/resume-template.tex`, compiles clean); deep-research docs → `files/applications/` with compressed copies of the two large ones in `context/applications/research/` (Resume 417→131, CoverLetter 427→171 lines); 12 legacy company outputs + master resume → `applications/`. Wired application deadlines into `context/key-dates.md` (new Application Pipeline table) + a Sunday-session rule in SYSTEM-PROMPT. Only 2 of 12 legacy companies have `.tex` sources; rest are PDF-only, flagged for on-demand regeneration. Spec + plan in `specs/2026-06-13-application-docs-integration-*.md`.
@@ -200,8 +207,9 @@ Status: not started.
 ### Dr. Badri Narayanan Gopalakrishnan (Infisum)
 - 2026-05-17: Resume sent
 - 2026-06-02: Substantive follow-up sent — live guided-walkthrough site + de-identified repo + the exposure-score methodology question (Entry 008)
-- Status: awaiting reply
-- Next move: if no reply by the agreed window, a brief nudge; otherwise respond to whatever he raises on methodology
+- 2026-06-13: Nudge drafted, Gmail in-thread, pending send — carries the telemetry + Act IV caveat update and the EBOPS→NIC-crosswalk-as-screening-heuristic question. Silent since 2026-06-02
+- Status: nudge drafted, pending send
+- Next move: send the nudge, then respond on methodology when he replies
 
 ### Alumni / PM professionals
 (Empty — Pillar 3 outreach starts week 3)
