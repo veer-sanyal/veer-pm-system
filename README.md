@@ -31,3 +31,7 @@ Because the project syncs from GitHub, saving means committing. The assistant up
 ## File map
 
 See `file-index.md` for the full manifest.
+
+## Application documents (resume / cover letter)
+
+This project also houses Veer's resume / cover-letter system (folded in 2026-06-13). Ask for a resume or cover letter for a role and the assistant follows `context/applications/application-docs-workflow.md`: it reads the profile in `context/applications/profile/`, drafts from `context/applications/resume-template.tex`, and writes `.tex` + `.pdf` into `applications/<Company>/`. Application deadlines live in `context/key-dates.md` (Application Pipeline) and can flow into the Sunday plan.

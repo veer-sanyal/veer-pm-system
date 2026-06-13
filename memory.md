@@ -1,7 +1,7 @@
 > This file holds CURRENT STATE only — what's shipped, the active focus, and next moves.
 > Strategy (goal, four pillars, targets, decision rules) lives in `direction.md`.
 > The full day-by-day narrative lives in `PROGRESS.md` (project root).
-> Last refreshed 2026-06-09. Sanity-check against the live site and latest GitHub commits before trusting — this file has drifted before.
+> Last refreshed 2026-06-13. Sanity-check against the live site and latest GitHub commits before trusting — this file has drifted before.
 
 **Current state**
 
@@ -14,6 +14,7 @@
 - **Exposure score v0 is built and live.** Formula = two min-max-normalised components (MSME scale in the mapped ISIC section(s) + Mode 1 trade in USD bn), summed. v0 scores: Other business services 2.00, Transport 1.37. "Other business services" is further **disaggregated** into sub-sector exposure (consulting/accounting/legal/architecture/advertising supply most firms). Read as direction, not calibrated magnitude.
 - **Dr. G (Infisum) follow-up: sent 2026-06-02 — awaiting reply.** Went out with the live site link + de-identified repo + the exposure-score methodology question (Entry 008).
 - `DECISIONS.md` is current through **Entry 011**. The exposure-score methodology is logged (Entry 008) — not an open item.
+- **Application-docs capability folded in (2026-06-13):** resume/cover-letter generation now lives in this repo. Profile source-of-truth in `context/applications/profile/`, workflow in `context/applications/application-docs-workflow.md`, outputs in `applications/` (12 legacy companies migrated, copy-only). Deadlines tracked in `context/key-dates.md` (Application Pipeline).
 
 ---
 
