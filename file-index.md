@@ -74,6 +74,23 @@ Note: the former `docs/` "working summary" copies of the five two-tier reports (
 
 ---
 
+## 6. Application documents (resume / cover letter system)
+
+On-demand capability folded in 2026-06-13. Workflow: `context/applications/application-docs-workflow.md`.
+
+| Path | Tier | Purpose |
+|------|------|---------|
+| `context/applications/application-docs-workflow.md` | instructions | How to produce tailored resumes/cover letters end-to-end. |
+| `context/applications/resume-template.tex` | template | Canonical ATS-safe single-column LaTeX template; start every resume here. |
+| `context/applications/profile/` | source-of-truth (read these) | Veer's contact, education, experiences (Firmly, SMIF), project (StudyFlowForge), design portfolio (Etsy), leadership (EPICS), skills, role-positioning, reusable bullets, + MEMORY index. |
+| `context/applications/research/` | compressed research (read these) | Compressed ResumeDeepResearch + CoverLetterDeepResearch. |
+| `files/applications/` | deep research (full) | Full ResumeDeepResearch, CoverLetterDeepResearch, Summer2026_Internship_Research (last read directly, uncompressed). |
+| `applications/` | output | Per-company tailored resumes/cover letters (.tex + .pdf), `_master/` master resume, `README.md` inventory. |
+
+Application timing lives in `context/key-dates.md` (Application Pipeline table), not in the applications/ README. Spec: `specs/2026-06-13-application-docs-integration-design.md`; plan: `specs/2026-06-13-application-docs-integration-plan.md`.
+
+---
+
 ## Delivery note
 
 The daily plan is delivered through Google Calendar (Pacific). A recurring spine holds the times; each Sunday session retitles that week's blocks and writes six 9:00 Morning Briefing events. The Gmail connector can only draft, not send, so email was retired as the delivery channel.
