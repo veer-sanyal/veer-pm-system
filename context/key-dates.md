@@ -134,3 +134,20 @@ From September 2026 forward, check careers pages of 8–10 target companies week
 - Check careers pages of all 8–10 target companies once a month
 - When a posting goes live, apply within 2 weeks
 - Additional sources: `research-adjacent-roles-to-pm.md`, `research-purdue-network-recruiting.md`, `research-infisum-dashboard-user-problem.md`, `research-metrics-fluency-curriculum.md`
+
+---
+
+## Application Pipeline
+
+Single source of truth for application timing. The on-demand application-docs workflow
+(`context/applications/application-docs-workflow.md`) writes outputs to `applications/<Company>/`
+and updates the row here. Stage ∈ {Researching, Drafting, Ready, Submitted}.
+
+**Sunday rule:** any deadline within ~2 weeks still at Stage < Ready becomes a candidate
+"draft `<Company>` resume" work block for the week (see SYSTEM-PROMPT).
+
+| Company / Role | Deadline (absolute) | Stage | Docs |
+|---|---|---|---|
+| _(none active — 12 legacy applications archived in `applications/`)_ | — | — | `applications/` |
+
+Add a row when a new target is identified; convert any relative deadline to an absolute date.
