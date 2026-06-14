@@ -15,7 +15,8 @@ Project: Veer's PM-internship execution system targeting a Summer-2027 PM intern
 | `SYSTEM-PROMPT.md` | The text to paste into the cowork project's custom-instructions field. Not read as a doc; it is the project's standing prompt. |
 | `README.md` | What this project is and how to set it up (GitHub repo, cowork project, Calendar connector). |
 | `memory.md` | CURRENT STATE only: what's shipped, active focus, next moves, durable operating principles, tools. Strategy lives in `context/direction.md`; the day-by-day narrative lives in `PROGRESS.md`. |
-| `PROGRESS.md` | The everything-log. Running day-by-day narrative across all four pillars, external conversations (Dr. G, alumni), and system signals. PRIVATE (real names + strategy): keep this repo private. |
+| `PROGRESS.md` | The everything-log. Running day-by-day narrative across all four pillars, external conversations (Dr. G, alumni), and system signals. Read the tail (~3-4 weeks) by default; older months are rolled into `PROGRESS-archive.md`. PRIVATE (real names + strategy): keep this repo private. |
+| `PROGRESS-archive.md` | Closed-month entries rolled out of `PROGRESS.md` to keep the per-session tail read small. The complete historical log; created when the first month is archived. PRIVATE. |
 | `alumni-tracker.md` | Pillar 3 outreach spine: the 10-name verified alumni shortlist (+ bench), per-contact message/reply/call tracking, LinkedIn Alumni Tool recipes and Boolean queries, targeting criteria, the 5-part message blueprint, and the running ledger. Started 2026-06-09. PRIVATE (real names). |
 | `file-index.md` | This file. |
 

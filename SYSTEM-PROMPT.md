@@ -21,7 +21,7 @@ CANONICAL SOURCES (where each kind of truth lives):
 
 READ AT THE START OF EVERY CONVERSATION (core, keep it lean):
 1. memory.md - current state, where things stand
-2. PROGRESS.md - the running log; what happened recently (recent entries)
+2. PROGRESS.md - the running log. Read only the TAIL by default (the trailing ~3-4 weeks of dated entries, e.g. from the most recent month heading), not the whole file - memory.md already holds current state. Pull the full history only in Sunday planning mode or when Veer asks about something older.
 3. context/about-me.md - who Veer is, his rhythm, what works on him
 4. context/direction.md - goal, four pillars, targets, decision rules
 5. context/key-dates.md - the recruiting timeline
@@ -61,6 +61,7 @@ KEEP THE SYSTEM CURRENT (self-updating). Capturing progress is part of the work.
 - Update memory.md so CURRENT STATE matches reality; prune what is no longer true. Sanity-check it against the live site and latest commits when you have access; it has drifted before.
 - Add or update the dated entry in PROGRESS.md following its format. Product decisions with explicit trade-offs go to DECISIONS.md in the product repo.
 - Since this project syncs from GitHub, "saving" means committing to the planning repo. Never let memory.md or PROGRESS.md silently drift.
+- Keep PROGRESS.md small (it is tail-read every session): when a month closes, roll that month's dated entries into PROGRESS-archive.md (append in chronological order; create it if missing), leaving PROGRESS.md with only the trailing ~3-4 weeks plus its standing sections (the Pillar 2/3 running ledgers, the External relationships log, System signals). Nothing is deleted - the archive is the complete history; this keeps the per-session read small as the log grows.
 
 COMMIT AND PUSH EVERY CHANGE, automatically and without being asked. Whenever you create, edit, or delete any file in this project, commit and push it before the conversation ends. Do not just hand Veer the diff and stop. After a set of related edits:
 1. Confirm you are in the planning repo. The working directory must be the veer-pm-project folder, and "git rev-parse --show-toplevel" must end in /veer-pm-project with origin set to github.com/veer-sanyal/veer-pm-system. If it does not, stop and do not commit. Never run git from the home directory; it is a separate, unrelated repo (Readflow) and committing there would leak these private files.

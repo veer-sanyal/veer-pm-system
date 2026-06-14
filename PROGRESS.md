@@ -43,6 +43,8 @@ Notes:
 **Rules:**
 - `DECISIONS.md` stays the curated product log. This stays the everything log.
 - One entry per day. Don't backfill more than 3 days — anything older becomes a Sunday-session note instead.
+- Read the tail by default: at the start of a conversation, read only the trailing ~3-4 weeks of dated entries here (memory.md holds current state). Pull older history only in Sunday planning mode or when asked about something specific.
+- Archive monthly: when a month closes, move its dated entries into `PROGRESS-archive.md` (chronological order; create it if missing), keeping this file to the trailing ~3-4 weeks. The standing sections below the daily entries (Pillar 2/3 running ledgers, External relationships log, System signals) stay here. Nothing is deleted — the archive holds the complete history.
 - The Sunday session reviews the past week of entries to populate the Sunday email "last week's reflection."
 - Pull GitHub commits before writing an entry so it matches what actually shipped.
 
@@ -166,6 +168,11 @@ Pillar 3 / External:
 
 System:
 - Integrated the resume / cover-letter system into the planning repo (copy-only; originals untouched). Profile source-of-truth (12 files) → `context/applications/profile/`; merged the two instruction docs into `context/applications/application-docs-workflow.md`; extracted a canonical ATS-safe LaTeX template (`context/applications/resume-template.tex`, compiles clean); deep-research docs → `files/applications/` with compressed copies of the two large ones in `context/applications/research/` (Resume 417→131, CoverLetter 427→171 lines); 12 legacy company outputs + master resume → `applications/`. Wired application deadlines into `context/key-dates.md` (new Application Pipeline table) + a Sunday-session rule in SYSTEM-PROMPT. Only 2 of 12 legacy companies have `.tex` sources; rest are PDF-only, flagged for on-demand regeneration. Spec + plan in `specs/2026-06-13-application-docs-integration-*.md`.
+
+### 2026-06-14 (Sun)
+
+System:
+- Made PROGRESS.md a tail-read so the log stops eating context as it grows. SYSTEM-PROMPT's start-of-conversation step now says read only the trailing ~3-4 weeks (full history only in Sunday mode or on request). Added a monthly-archive rule: when a month closes, roll its entries into `PROGRESS-archive.md` and keep this file to ~3-4 weeks plus the standing ledgers/logs — nothing deleted. Documented in PROGRESS Rules + file-index. Not archiving yet (file is small today).
 
 ---
 
