@@ -171,6 +171,9 @@ System:
 
 ### 2026-06-14 (Sun)
 
+Pillar 3 (network):
+- First LinkedIn post draft updated in the composer to v5 (build-discipline spine, replacing the old error-catch draft) and saved as a LinkedIn draft, via Claude driving Chrome. Body only: Chart B v2 (`files/linkedin/chart_B_ip_licensing_v2.png`) still needs a manual attach because LinkedIn's image upload is a native OS file picker the browser tools cannot drive. Next: Veer attaches the chart, then posts.
+
 System:
 - Made PROGRESS.md a tail-read so the log stops eating context as it grows. SYSTEM-PROMPT's start-of-conversation step now says read only the trailing ~3-4 weeks (full history only in Sunday mode or on request). Added a monthly-archive rule: when a month closes, roll its entries into `PROGRESS-archive.md` and keep this file to ~3-4 weeks plus the standing ledgers/logs — nothing deleted. Documented in PROGRESS Rules + file-index. Not archiving yet (file is small today).
 
