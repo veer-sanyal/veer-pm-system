@@ -189,7 +189,7 @@ topic_id format: `P4.<area>.<topic>`
 - Round 1: behavioral + resume walkthrough -- line-by-line probe of technical projects, languages, APIs.
 - Round 2: product sense / strategy via unconventional prompts ("design a parking lot"; "walk through your calendar and map it to PM behaviors").
 - Round 3: team-specific -- may include Responsible AI, privacy, data-ethics tradeoffs; asks which AI tools you use and why.
-- **Re-verify when 2027 postings drop.** No Microsoft intern claims survived the 2026 research verification run; structure drawn from `docs/PM_Internship_Interview_Reality_Check.md`.
+- **Re-verify when 2027 postings drop.** No Microsoft intern claims survived the 2026 research verification run; structure drawn from `context/PM_Internship_Interview_Reality_Check.md`.
 
 ### Airbnb
 

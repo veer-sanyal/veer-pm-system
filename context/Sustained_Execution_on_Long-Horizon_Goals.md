@@ -1,4 +1,4 @@
-> Compressed 2026-06-10 from `docs/Sustained_Execution_on_Long-Horizon_Goals.md`. Full deep-research original: `files/Sustained_Execution_on_Long-Horizon_Goals.md`.
+> Compressed 2026-06-10. Full deep-research original: `files/Sustained_Execution_on_Long-Horizon_Goals.md`.
 
 # Sustained Execution on Long-Horizon Goals
 

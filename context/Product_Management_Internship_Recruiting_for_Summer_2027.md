@@ -1,4 +1,4 @@
-> Compressed 2026-06-10 from `docs/Product_Management_Internship_Recruiting_for_Summer_2027.md`. Full deep-research original: `files/Product_Management_Internship_Recruiting_for_Summer_2027.md`.
+> Compressed 2026-06-10. Full deep-research original: `files/Product_Management_Internship_Recruiting_for_Summer_2027.md`.
 
 # PM Internship Recruiting — Summer 2027
 

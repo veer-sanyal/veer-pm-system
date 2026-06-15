@@ -1,4 +1,4 @@
-> Compressed 2026-06-10 from `docs/research-metrics-fluency-curriculum.md` (kept for reference).
+> Compressed 2026-06-10. Canonical working copy (docs/ tier removed 2026-06-15).
 
 # Product Metrics & Applied Statistics for PM Interviews: Beginner Curriculum
 

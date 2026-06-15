@@ -1,4 +1,4 @@
-> Compressed 2026-06-10 from `docs/research-linkedin-presence.md`. Full deep-research original: `files/research-linkedin-presence.md`.
+> Compressed 2026-06-10. Full deep-research original: `files/research-linkedin-presence.md`.
 
 # LinkedIn Presence for a Student Aspiring PM
 

@@ -1,4 +1,4 @@
-> Compressed 2026-06-10 from `docs/research-infisum-dashboard-user-problem.md` (kept for reference).
+> Compressed 2026-06-10. Canonical working copy (docs/ tier removed 2026-06-15).
 
 # Research: "Digital Trade Exposure Index" Dashboard — India MSME Sector
 

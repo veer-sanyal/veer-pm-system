@@ -1,6 +1,6 @@
 # Alumni outreach tracker (Pillar 3)
 
-Started 2026-06-09. The spine of the networking plan: ~3 personalized messages/week, alumni-angle first (20-40% reply vs 5-15% generic). Full method in `docs/research-purdue-network-recruiting.md` and `docs/Genuine_Networking_for_Competitive_PM_Internships.md`.
+Started 2026-06-09. The spine of the networking plan: ~3 personalized messages/week, alumni-angle first (20-40% reply vs 5-15% generic). Full method in `context/research-purdue-network-recruiting.md` and `context/Genuine_Networking_for_Competitive_PM_Internships.md`.
 
 **Funnel math (conservative):** 25% reply rate x 65% reply-to-call = ~124 messages over 12 months for 20+ conversations. This week's target: shortlist 10, message 3.
 

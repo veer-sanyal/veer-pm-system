@@ -1,4 +1,4 @@
-> Compressed 2026-06-10 from `docs/veer-full-profile.md` (kept for reference).
+> Compressed 2026-06-10. Canonical working copy (docs/ tier removed 2026-06-15).
 
 # Veer Full Psychological Profile
 

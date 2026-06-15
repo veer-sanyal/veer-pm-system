@@ -1,4 +1,4 @@
-> Compressed 2026-06-10 from `docs/Genuine_Networking_for_Competitive_PM_Internships.md`. Full deep-research original: `files/Genuine_Networking_for_Competitive_PM_Internships.md`.
+> Compressed 2026-06-10. Full deep-research original: `files/Genuine_Networking_for_Competitive_PM_Internships.md`.
 
 # Genuine Networking for Competitive PM Internships
 

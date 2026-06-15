@@ -1,4 +1,4 @@
-> Compressed 2026-06-10 from `docs/The_College-as_Leverage_Thesis_Examined_Honestly.md`. Full deep-research original: `files/The_College-as_Leverage_Thesis_Examined_Honestly.md`.
+> Compressed 2026-06-10. Full deep-research original: `files/The_College-as_Leverage_Thesis_Examined_Honestly.md`.
 
 # College-as-Leverage: Working Summary
 

@@ -1,4 +1,4 @@
-> Compressed 2026-06-10 from `docs/key-dates.md` (kept for reference).
+> Compressed 2026-06-10. Canonical working copy (docs/ tier removed 2026-06-15).
 
 # Key Dates
 
