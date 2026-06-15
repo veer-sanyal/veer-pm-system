@@ -57,16 +57,28 @@ All read copies are in `context/`. A `files/` entry means the full uncompressed 
 
 ## 4. Assets (`files/linkedin/`)
 
+**Charts (4) + generators (2):**
+
 | File | Purpose |
 |------|---------|
-| `chart_A_consulting.png` | Feed-ready chart for the first LinkedIn post: India's consulting exports 13x since 2005 vs flat rest of "other business services" (WTO TiSMoS, rebuilt from `site/data.js` in the site palette). |
-| `chart_B_ip_licensing.png` | Original post chart (2026-06-10): the ~10x placeholder vs the computed 29.4x IP-licensing growth, 2005-2025 (WTO DDS). Error-catch framing. Superseded by v2 for post v5. |
-| `chart_B_ip_licensing_v2.png` | **Current chart for post v5.** Same IP-licensing series rebuilt from the real `ipImp` values in the product repo's `site/data.js` (0.67B->19.8B = 29.4x), retitled to the build-discipline framing rather than the error-catch. |
-| `make_chart_B.py` | Reproducible generator for `chart_B_ip_licensing_v2.png`. Holds the `ipImp` series copied from `site/data.js`; re-run after a data refresh. Matplotlib, house palette. |
-| `post-01-v2.md` | Fresh first-post draft (2026-06-10), error-catch story. Superseded. |
-| `post-01-v3.md` | Alternate first-post draft (2026-06-10), consulting 13x lead. Superseded by v4. |
+| `chart_A_consulting.png` | **Lead image of the LIVE post (v7).** India's consulting exports 13.4x 2005-2022 ($6.83B->$91.86B) vs flat remainder of "other business services" (WTO TiSMoS Mode 1, EBOPS SJXSJ34). Restyled 2026-06-14 to the live dashboard palette (IBM Plex; warm paper / cool ink; indigo). |
+| `make_chart_A.py` | Reproducible generator for `chart_A_consulting.png`; values read off the product repo's live Plotly traces (computed-from-source). House palette. |
+| `chart_B_ip_licensing.png` | Original IP-licensing chart (2026-06-09): the ~10x placeholder vs the computed 29.4x growth, 2005-2025 (WTO DDS). Error-catch framing. Superseded. |
+| `chart_B_ip_licensing_v2.png` | IP-licensing chart rebuilt 2026-06-13 from the real `ipImp` series (0.67B->19.8B = 29.4x), retitled to build-discipline framing. Paired with post v5. Superseded by v3. |
+| `chart_B_ip_licensing_v3.png` | **Current Chart B (2026-06-14).** Same 29.4x IP-licensing series, v6 reframe ("a round 30x would have been right; the point is not hardcoding even a number you'd get right by hand"). For a discipline-themed follow-up post; the live v7 post leads with Chart A instead. |
+| `make_chart_B.py` | Reproducible generator for `chart_B_ip_licensing_v3.png`. Holds the `ipImp` series copied from `site/data.js`; re-run after a data refresh. Matplotlib, house palette. |
+
+**Post drafts (chronological; v7 is final and live):**
+
+| File | Purpose |
+|------|---------|
+| `post-01-draft.md` | First-post draft (2026-06-09), Chart A, error-catch story (10x->29.4x). Superseded. |
+| `post-01-v2.md` | First-post draft (2026-06-10), Entry 009 error-catch story. Superseded. |
+| `post-01-v3.md` | First-post draft (2026-06-10), consulting-13x lead. Superseded by v4. |
 | `post-01-v4.md` | First-post draft (2026-06-10): consulting hook + named user/policy anchor + $90B vs 92k firms + v0-honesty. Superseded by v5. |
-| `post-01-v5.md` | **Current first-post draft (2026-06-13).** Spined on build discipline; 29.4x IP-licensing as the concrete example; one body link. Pairs with retitled Chart B. Supersedes v2-v4. |
+| `post-01-v5.md` | First-post draft (2026-06-13): build-discipline spine; dropped the $90B/92k overstate; one body link. Superseded by v6. |
+| `post-01-v6.md` | First-post draft (2026-06-14): reframed the error-catch into the honest "29.4x rounds to a clean 30x, and the discipline is not hardcoding it anyway." Superseded by v7. |
+| `post-01-v7.md` | **FINAL — the LIVE post (posted 2026-06-14).** Finding-led angle: leads with the surprising consulting-over-software finding (Chart A), keeping build discipline as a one-paragraph credibility beat. Supersedes draft + v2-v6. |
 
 ---
 
