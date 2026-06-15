@@ -2,3 +2,9 @@
 .Rhistory
 .Rapp.history
 .claude/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+build.log
