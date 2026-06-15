@@ -1,5 +1,5 @@
 # PM Interview Reality: Verified Research Report
-*Run A — 2026-06-14. 24 sources, 95 claims extracted, 25 verified, 17 confirmed, 8 refuted.*
+*Run A, 2026-06-14. 24 sources, 95 claims extracted, 25 verified, 17 confirmed, 8 refuted.*
 
 ---
 

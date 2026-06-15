@@ -1,7 +1,7 @@
 > Compressed 2026-06-14 from files/study/research-pm-interview-reality.md (full original).
 
 # PM Interview Reality: Compressed Research Report
-*Run A — 2026-06-14. 24 sources, 95 claims, 17/25 verified, 8 refuted.*
+*Run A, 2026-06-14. 24 sources, 95 claims, 17/25 verified, 8 refuted.*
 
 ---
 

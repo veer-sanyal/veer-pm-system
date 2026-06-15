@@ -1,5 +1,5 @@
 # Spacing Science: Verified Research Report
-*Run B — 2026-06-14. 23 sources, 101 claims extracted, 25 verified, 21 confirmed, 4 refuted.*
+*Run B, 2026-06-14. 23 sources, 101 claims extracted, 25 verified, 21 confirmed, 4 refuted.*
 
 ---
 

@@ -1,7 +1,7 @@
 > Compressed 2026-06-14 from files/study/research-spacing-science.md (full original).
 
 # Spacing Science: Compressed Research Report
-*Run B — 2026-06-14. 23 sources, 101 claims, 21/25 verified, 4 refuted.*
+*Run B, 2026-06-14. 23 sources, 101 claims, 21/25 verified, 4 refuted.*
 
 ---
 
