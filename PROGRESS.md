@@ -201,6 +201,13 @@ New opportunity — Claude Corps Fellow (CodePath + Anthropic):
 Claude Corps application:
 - Polished the tailored resume (`applications/Claude Corps/VeerSanyal_ClaudeCorps_Resume.tex/.pdf`) against the live FAQ (anthropic.com/claude-corps/fellow). Three commits: (1) retuned the summary tagline from builder-first to mission-first ("uses AI to ship real tools for civic, small-business, and community problems") to hit the societal-impact selection criterion the resume was thinnest on; (2) reframed the dashboard's lead bullet to open with why it matters (helping a researcher ground a policy call in data) before the scoped/shipped mechanics; (3) trimmed the StudyFlowForge stack tags to `React, TypeScript, Supabase, Gemini API` (dropped redundant SQL/PostgreSQL, kept the LLM/AI signal). Trimmed the tagline to one line. Confirmed the page is not cramped and stays one page. Added a `.gitignore` rule for LaTeX build artifacts (*.aux/*.log/*.out).
 - Confirmed admission is rolling: Jul 17 is the Cohort 1 hard deadline (starts Oct 19, 2026); later applicants roll to the Jan/Aug 2027 cohorts. Earlier submission = earlier review + more of the ~100 Cohort-1 slots open. Real blocker remains the two Skilljar courses (AI Fluency + Claude 101) that gate submission, not the resume.
+- **Registered for Claude 101 on Anthropic's Skilljar** (~11:30pm PT) and created the Anthropic Education account. The gating course track is now started, not just identified. Still open: finish Claude 101, do AI Fluency, upload both certificates, confirm the [CONFIRM] fields, submit.
+
+**Sunday planning session (run Mon Jun 15, a day late):**
+- Recon (Gmail + Calendar, past 7 / next 14 days): **Dr. G's reply confirmed in-thread** ("Thanks a lot Veer, let's catch up soon," Jun 14 03:20 UTC). **Veer's scheduling reply is still an unsent DRAFT** (composed Jun 15 03:27 UTC, to badri@infisum.com). This is the highest-leverage open action and it is stuck exactly where the system predicts. Named it: a vague "soon" dies if not pinned; send the draft, book the 30-min slot. Next 14 days are clear (summer, home) apart from the recurring spine and the Jun 21/28 Sunday sessions. No alumni replies (outreach not yet started). No new application emails beyond the Skilljar registration.
+- Pattern named: insight-without-action is showing up as two finished things sitting one click from done (the Dr. G reply in Drafts; the Claude Corps app blocked only on two short courses). The week's job is to convert both, plus turn Pillar 3 on for real now that the LinkedIn-post gate is cleared.
+- Week's commitments by pillar: **P1** verify GoatCounter events fire (Mon), then write the first telemetry readout from ~1 week of data (Fri draft, Sat write) — the "measured usage" evidence. **P2 (lead)** metrics/stats fluency begins: Khan Academy stats (significance, CIs/p-values, A/B reading) + first PM-tutor sessions (metric trees, NSM/guardrail, numerator-denominator). **P3** send the Dr. G reply + first 3 alumni messages by Saturday (Anicito, LaCroix, one cold lead). **Claude Corps** finish both Skilljar courses, upload certs, review + submit.
+- Calendar written directly (connector on): all 18 Mon-Sat block titles retitled and six 9:00 Morning Briefings created.
 
 ---
 
@@ -234,6 +241,7 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 - 2026-06-02: Substantive follow-up sent — live guided-walkthrough site + de-identified repo + the exposure-score methodology question (Entry 008)
 - 2026-06-13: Nudge sent (Gmail in-thread) — telemetry + Act IV caveat update + the EBOPS→NIC-crosswalk-as-screening-heuristic question
 - 2026-06-14: Dr. G replied — "Thanks a lot Veer, let's catch up soon." Did not answer the methodology question in writing
+- 2026-06-15: scheduling reply confirmed STILL UNSENT (sitting in Gmail Drafts, composed Jun 15). Queued as Monday's small item this week
 - Status: reply drafted to lock a 30-min call slot, pending Veer's send
 - Next move: send the scheduling reply / book the slot; prep the crosswalk + composite-index discussion for the call (he did not answer it by email)
 
