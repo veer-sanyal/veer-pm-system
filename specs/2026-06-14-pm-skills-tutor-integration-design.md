@@ -198,7 +198,7 @@ Two deep-research runs (fan-out search → fetch → 3-vote adversarial verifica
 
 ## 14. Open questions / re-verify before relying
 
-1. **Milestone dates** — finalize the P2/P4 "exam-equivalents" + dates in `key-dates.md` (decision, not research).
+1. **Milestone dates** — recruiting dates re-verified 2026-06-14 (web, multi-source) and corrected in `key-dates.md`: Google APM closes mid-to-late Oct 2026 (short 4-14 day window — apply within days of opening); Microsoft rolling from ~July; Meta RPM is full-time (Aug 27–Sep 10), not a summer intern; Atlassian AU/NZ recruits Feb–June rolling (runs Nov–Feb); Snowflake fall/January; Stripe has no PM intern (its New Grad Accelerator closed Apr 24, 2026). ⚠️ Open strategic item surfaced by the check: Google APM eligibility is *penultimate-year = rising senior*, which interacts with Veer's 2028 grad timing — resolve against `direction.md`. Still self-set: the P2/P4 mock dates that drive session shape.
 2. **Microsoft + Airbnb loops** — not freshly verified; rely on `PM_Internship_Interview_Reality_Check.md` and re-verify when 2027 postings drop.
 3. **No public internal scales exist** — never fabricate them; grade on dimensions (§9).
 4. **Minimum maintenance cadence / many-topics-at-limited-hours** — Run B budget-dropped these angles from final verification; the 30-day cap + due-first ordering is a reasoned heuristic, revisit after real usage.

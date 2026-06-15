@@ -4,6 +4,8 @@
 
 Dates sourced from "Product Management Internship Recruiting for Summer 2027" research. Estimated dates are marked; re-verify before each deadline.
 
+> **Re-verified 2026-06-14 (web, multi-source).** Confirmed: Google APM closes mid-to-late Oct (S2025 Oct 8→Oct 21, 2024; S2026 Sept 23→Oct 7, 2025); windows are short (4-14 days). Microsoft pay $5,460-$10,680/mo, rolling/ongoing. Meta RPM is full-time new-grad (not a summer intern), window Aug 27→Sep 10. Snowflake PM-intern pay $60-70/hr (official posted range). Atlassian AU/NZ recruiting Feb-June (rolling), internship runs Nov→Feb. Databricks closed Dec 9, 2025, $54-56/hr SF. Stripe has no PM intern; its full-time New Grad Accelerator closed Apr 24, 2026. Purdue fall 2026 starts Mon Aug 24, 2026. Corrected below: dropped the unsupported "trend getting earlier" (Google), "5-day minimum" (Microsoft), and "~mid-April close" (Atlassian); flagged Google eligibility wording (penultimate-year = rising senior, not rising junior).
+
 ---
 
 ## Immediate
@@ -35,12 +37,12 @@ Dates sourced from "Product Management Internship Recruiting for Summer 2027" re
 
 | Approx Date | What |
 |---|---|
-| Late August 2026 | Purdue fall semester begins |
+| Aug 24, 2026 (Mon) | Purdue fall semester begins (official 2026-27 calendar) |
 | Mid-September 2026 | Google APM application window expected to open |
 | **~Early-to-mid October 2026** | **Google APM expected to close — hard deadline that pulls everything forward** |
 | Oct–Dec 2026 | Microsoft regional postings, Databricks, possible Snowflake postings |
 | Dec 2026 | Databricks usually closed |
-| Feb–Jun 2027 | Atlassian APM (AU/NZ) cycle |
+| Feb–Jun 2026 (rolling) | Atlassian APM (AU/NZ) Intern recruiting; internship runs Nov 2026–Feb 2027 |
 
 By end of September 2026, needed: shipped dashboard v1 with telemetry and iteration history, resume v2, metrics + statistics fluency, basic mock interview reps, clean PM story.
 
@@ -52,22 +54,22 @@ By end of September 2026, needed: shipped dashboard v1 with telemetry and iterat
 
 | Company | Program | Expected Open | Expected Close | Pay (most recent cycle) | Eligibility |
 |---|---|---|---|---|---|
-| Google | APM Intern | Mid-September 2026 | **~Early-to-mid Oct 2026** (Oct 21, 2024 for Summer 2025; Oct 7, 2025 for Summer 2026; trend is *earlier*) | $90K–$106K annualized ($43–51/hr) | Penultimate year (rising junior returning to school). This is the APM **Intern** (summer-2027 target for a 2028 grad), distinct from the full-time new-grad APM (summer-2028 target). Confirm wording at posting time. |
-| Microsoft | PM Intern | Rolling regional postings throughout fall and winter | Often "open 5 days minimum, then rolling" | $5,460–$10,680/month US; up to $11,640 SF/NYC | At least one semester remaining after internship. CS/Engineering preferred. |
-| Atlassian | APM Intern (AU/NZ) | February–June recruiting | ~Mid-April in most recent cycle | Not publicly recovered | Penultimate-year APM **Intern** (summer-2027 target for a 2028 grad), distinct from full-time new-grad APM (summer-2028 target). Confirm wording at posting time. |
-| Snowflake | PM Intern | February–April postings | Not consistently disclosed | ~$60–70/hr | Unclear class-year cutoff publicly. |
+| Google | APM Intern | Late Sept–early Oct 2026 (short 4-14 day window) | **~Early-to-mid Oct 2026** (Oct 21, 2024 for S2025; Oct 7, 2025 for S2026 — no consistent "earlier" trend; apply within days of opening) | ~$90K–$125K annualized (rising: $43–51/hr in 2025, ~$60/hr reported 2026) | **Penultimate year = rising SENIOR** (junior→senior, one year left after the internship), not rising junior. APM **Intern** (summer-2027 target for a 2028 grad), distinct from full-time new-grad APM (summer-2028 target). ⚠️ Confirm exact eligibility wording at posting — interacts with Veer's 2028 grad timing (see direction.md). |
+| Microsoft | PM Intern | Rolling/ongoing; regional postings (PM intern listings appear ~July onward) | Rolling — applications accepted until filled; apply by ~October | $5,460–$10,680/month US; up to $11,640 SF/NYC | At least one semester remaining after internship. CS/Engineering preferred. |
+| Atlassian | APM Intern (AU/NZ) | February–June recruiting (rolling; per Atlassian early-careers page) | Rolling — closes when filled, apply early ("~mid-April" was unverified); internship runs Nov–Feb | Not publicly recovered (Glassdoor ~A$44/hr across all Atlassian interns, not PM-specific) | Penultimate-year APM **Intern** (summer-2027 target for a 2028 grad), distinct from full-time new-grad APM (summer-2028 target). Confirm wording at posting time. |
+| Snowflake | PM Intern | Primarily fall/January for the following summer (April re-post seen already inactive) | Rolling; apply by Q1 | $60–70/hr (official posted S2026 range, Menlo Park) | Unclear class-year cutoff publicly. |
 | Databricks | PM Intern | Open in fall; removed Dec 9 in 2025 cycle | Before winter break | $54–56/hr SF Bay; $51.50–53.50/hr Bellevue | CS or related engineering + SQL/Python. |
 
 ### Companies Without Public PM Intern Pipelines
 
-Stripe, Airbnb, Linear, Figma, Notion, Uber, DoorDash, Coinbase: no publicly visible PM internship postings found in the most recent accessible cycle. Path is warm outreach, off-cycle openings, or adjacent-role applications:
+Stripe, Airbnb, Linear, Figma, Notion, Uber, DoorDash, Coinbase: no publicly visible PM internship postings found in the most recent accessible cycle. (Stripe confirmed: no PM intern; its full-time **PM New Grad Accelerator** — 12-month, new grad / 0-2 yrs, $120K–$180K — closed Apr 24, 2026, not a summer intern.) Path is warm outreach, off-cycle openings, or adjacent-role applications:
 1. Direct alumni outreach with substantive ask
 2. Adjacent-role internships (data, ops, strategy, founder's office) that convert
 3. Watch careers pages monthly
 
 ### Meta RPM (not a summer internship)
 
-18-month full-time rotational role for new grads. Application window historically late August–early September. Apply after junior year, before senior-year graduation. Not relevant for summer 2027 unless plans change.
+18-month full-time rotational role for new grads (confirmed: not a summer internship). Application window opens once/year for ~2 weeks, late August–early September (2026 cohort: Aug 27–Sep 10, 2025). Apply after junior year, before senior-year graduation. Not relevant for summer 2027 unless plans change.
 
 ---
 
@@ -81,7 +83,7 @@ From September 2026 forward, check careers pages of 8–10 target companies week
 | Google APM | Fall cycle, rolling review. ~Early-to-mid October close. |
 | Databricks | Open in fall, close before winter break. Apply quickly when posted. |
 | Snowflake | Opens later (~April). Don't assume early closure. |
-| Stripe Accelerator | Spring close; full-time new-grad only, not summer intern. |
+| Stripe Accelerator | Spring close (Apr 24 in 2026); full-time new-grad only, not summer intern. |
 
 ---
 
