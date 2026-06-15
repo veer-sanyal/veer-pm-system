@@ -244,7 +244,7 @@ Mapped format: P4.estimation.game_framework
 
 | Company | Prompt | Source |
 |---|---|---|
-| Google | "How many gas stations are there in the US?" | Exponent Google APM guide (verified, exponent.dev) |
+| (generic) | "How many gas stations are there in the US?" | Generic Fermi-estimation warm-up (not company-attributed) |
 | Google | "Estimate the number of queries Google Search handles per second." | Exponent Google APM guide |
 
 ### Technical Credibility
