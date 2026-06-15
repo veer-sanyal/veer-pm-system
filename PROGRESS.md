@@ -208,6 +208,7 @@ Claude Corps application:
 - Pattern named: insight-without-action is showing up as two finished things sitting one click from done (the Dr. G reply in Drafts; the Claude Corps app blocked only on two short courses). The week's job is to convert both, plus turn Pillar 3 on for real now that the LinkedIn-post gate is cleared.
 - Week's commitments by pillar: **P1** verify GoatCounter events fire (Mon), then write the first telemetry readout from ~1 week of data (Fri draft, Sat write) — the "measured usage" evidence. **P2 (lead)** metrics/stats fluency begins: Khan Academy stats (significance, CIs/p-values, A/B reading) + first PM-tutor sessions (metric trees, NSM/guardrail, numerator-denominator). **P3** send the Dr. G reply + first 3 alumni messages by Saturday (Anicito, LaCroix, one cold lead). **Claude Corps** finish both Skilljar courses, upload certs, review + submit.
 - Calendar written directly (connector on): all 18 Mon-Sat block titles retitled and six 9:00 Morning Briefings created.
+- **Later 2026-06-15: Claude 101 Skilljar course COMPLETED** — certificate of completion earned and saved to `applications/Claude Corps/Skilljar_Claude101_Certificate.pdf`. One of the two gating courses is now done; only AI Fluency remains. Calendar adjusted: Wed small item pulled forward to AI Fluency, Fri small item becomes upload-both-certs + confirm [CONFIRM] fields.
 
 ---
 
