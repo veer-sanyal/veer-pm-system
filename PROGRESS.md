@@ -196,6 +196,12 @@ New opportunity — Claude Corps Fellow (CodePath + Anthropic):
 - **Application work done this session:** built a Claude-Corps-tailored 1-page resume (`applications/Claude Corps/VeerSanyal_ClaudeCorps_Resume.tex` + `.pdf`, compiles clean) leading with end-to-end builds (MSME dashboard, StudyFlowForge), AI/Claude fluency, and EPICS community/teaching; drafted both 350-word short answers (community impact = EPICS museum build; setback = Firmly QA "definition of done" failure → edge-case matrix, reinforced by the dashboard compute-from-source rule); assembled a full paste-ready form answer key. All in `applications/Claude Corps/Claude-Corps-Application.md`. Pipeline row added to key-dates.md (Stage: Drafting).
 - **Gating items only Veer can do:** (1) complete both Skilljar courses (AI Fluency + Claude 101) and upload the completion certificates — required, and they grade how he prompts; (2) confirm the personal fields left marked [CONFIRM] (work authorization/sponsorship, age, email choice, education-level dropdown, demographics, how-heard); (3) final review + submit (not auto-submitted — personal data + irreversible).
 
+### 2026-06-15 (Mon)
+
+Claude Corps application:
+- Polished the tailored resume (`applications/Claude Corps/VeerSanyal_ClaudeCorps_Resume.tex/.pdf`) against the live FAQ (anthropic.com/claude-corps/fellow). Three commits: (1) retuned the summary tagline from builder-first to mission-first ("uses AI to ship real tools for civic, small-business, and community problems") to hit the societal-impact selection criterion the resume was thinnest on; (2) reframed the dashboard's lead bullet to open with why it matters (helping a researcher ground a policy call in data) before the scoped/shipped mechanics; (3) trimmed the StudyFlowForge stack tags to `React, TypeScript, Supabase, Gemini API` (dropped redundant SQL/PostgreSQL, kept the LLM/AI signal). Trimmed the tagline to one line. Confirmed the page is not cramped and stays one page. Added a `.gitignore` rule for LaTeX build artifacts (*.aux/*.log/*.out).
+- Confirmed admission is rolling: Jul 17 is the Cohort 1 hard deadline (starts Oct 19, 2026); later applicants roll to the Jan/Aug 2027 cohorts. Earlier submission = earlier review + more of the ~100 Cohort-1 slots open. Real blocker remains the two Skilljar courses (AI Fluency + Claude 101) that gate submission, not the resume.
+
 ---
 
 ## Pillar 2 running ledger (technical)
