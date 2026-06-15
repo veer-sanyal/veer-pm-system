@@ -39,7 +39,7 @@ Central pattern: **insight without action** — reflects clearly, articulates wh
 - Sophomore, Purdue IBE (Integrated Business and Engineering), graduation 2028
 - Involved in SMIF and EPICS; home for sophomore summer (not in West Lafayette)
 - Summer window: May 18 – ~Aug 7, 2026 (~12 weeks); no internship
-- Opportunity: Dr. Badri Narayanan Gopalakrishnan, Infinite Sum Modelling (Infisum/ISM), global econ/management consulting. Resume sent May 17, 2026; waiting on possible client-facing dashboard project. Follow-up ~May 30 if no response.
+- Mentor/opportunity: Dr. Badri Narayanan Gopalakrishnan, Infinite Sum Modelling (Infisum/ISM), global econ/management consulting. He is the dashboard's intended user. (Live status of the relationship and the dashboard is owned by `memory.md`, not here.)
 
 ## Starting profile (not a beginner)
 
@@ -57,17 +57,9 @@ Central pattern: **insight without action** — reflects clearly, articulates wh
 
 ## The goal
 
-Land a FAANG-tier or equivalent PM internship for summer 2027 (junior summer).
+Land a FAANG-tier or equivalent PM internship for summer 2027 (junior summer). The canonical goal, target tiers, and adjacent-role priority are owned by `direction.md` (do not restate them here; read it for specifics).
 
-| Tier | Companies |
-|---|---|
-| Primary public PM pipelines | Google APM Intern, Microsoft PM, Atlassian APM Intern, Snowflake PM, Databricks PM |
-| Low-visibility / warm-outreach-only | Stripe, Airbnb, Linear, Figma, Notion, Uber, DoorDash, Coinbase |
-| Post-grad only | Meta RPM (2028 full-time rotational — not a summer-2027 target) |
-
-Adjacent-roles is the primary route — FAANG-PM intern odds are single digits per program. Priority: product/data-analyst intern (#1); TPM/product-ops; SWE re-up as floor; BizOps/chief-of-staff at startup as networked stretch.
-
-Goal: become legibly builder-shaped — "smart sophomore with good GPA" is no longer differentiated.
+The one durable framing this file adds: the job is to become legibly builder-shaped — "smart sophomore with good GPA" is no longer differentiated. Adjacent roles (product/data-analyst first) are the realistic primary route, not a footnote.
 
 ## Strengths
 
@@ -114,11 +106,6 @@ Reward specificity and honesty. Do not reward polished but empty responses.
 
 ## Success in 12 months
 
-- Shipped product owned end-to-end: sector-level digital-trade policy-exposure tool (ranking India's MSME-relevant service sub-sectors by exposure to the WTO e-commerce moratorium); real user = mentor as policy-research analyst, not a firm-level index
-- 20+ substantive informational interviews with alumni and PM professionals
-- 10+ mock PM interviews with 5+ different partners; case format fluency under pressure. 30 is explicit stretch ceiling, not the bar.
-- Metrics + statistics fluency, API/data-model literacy, one programming language; SQL as needed
-- Late rounds of 4–6 top-tier PM intern programs
-- Life intact: friendships, health, identity his own
+The measurable pillar success criteria (shipped product, 20+ informational interviews, 10+ mocks, metrics/stats fluency, late rounds at 4-6 programs) are owned by `direction.md` — read them there.
 
-Last criterion is not decorative: sustainable consistency outperforms heroic surges; hollowed-out optimized life is a real failure mode.
+The criterion this file owns, because it is about who Veer is and not about strategy: **life intact — friendships, health, identity his own.** Not decorative. Sustainable consistency outperforms heroic surges; a hollowed-out optimized life is a real failure mode, and protecting the relational substrate is a hard constraint on the plan, not a reward for finishing it.

@@ -18,7 +18,7 @@ Land a PM internship for summer 2027 at a FAANG-tier or equivalent company.
 
 In 2024-2026, public PM intern supply concentrated in 5-6 firms; secondary path requires warm outreach, off-cycle openings, or adjacent-role applications (data, ops, strategy, founder's office).
 
-Eligibility note: Google's and Atlassian's new-grad APM programs differ from their penultimate-year APM Intern. The Intern is the summer-2027 target for a 2028 grad. Verify exact wording when 2027 postings drop.
+Eligibility note: Google's and Atlassian's new-grad APM programs differ from their penultimate-year APM Intern. The Intern is the summer-2027 target for a 2028 grad. Verify exact wording when 2027 postings drop. **Contingency:** if the 2027 APM Intern posting excludes Veer's class year, Microsoft PM Intern and Databricks PM Intern become the primary public targets (repeat intern pipelines, lighter class-year gating). A single-program ineligibility does not stall the cycle; the strategy is breadth across 5-6 programs, not single-logo.
 
 **Adjacent-role route (primary realistic path, not a footnote):** Direct PM/APM internships are sub-1% at top programs. NACE: 63.1% intern-to-full-time conversion; ~28% of PMs in most-cited sample entered via internal move. Priority: (1) product/data-analyst intern at a product company (highest supply, best-evidenced feeder), (2) TPM/product-ops intern with SWE re-up as floor, (3) BizOps/chief-of-staff at growth-stage startup via referrals (highest breadth, thinnest supply). Apply Sep 2026-Feb 2027, after PM/APM windows (Aug-Oct 2026).
 

@@ -29,7 +29,7 @@ Dates sourced from "Product Management Internship Recruiting for Summer 2027" re
 | 1–2 | Setup, dashboard data scout, project commit |
 | 3–4 | Dashboard v1 shipped (moratorium sector-exposure ranking), Gopalakrishnan follow-up sent |
 | 5–8 | Dashboard iteration, metrics + statistics fluency (Khan Academy Statistics & Probability + Amplitude Academy), first alumni outreach |
-| 9–12 | Resume v1 (add the Daniels externship line, "selected for"), mock interview reps begin, fall application prep. **Purdue Daniels Externship runs Jul 6 – Aug 1** — overlaps resume v1 + metrics/stats study + outreach; protect dashboard minimum iteration through these weeks. |
+| 9–12 | Resume v1 (mid-July per direction.md; carries the **"Selected for Purdue Daniels Summer Externship"** line, valid since acceptance Jun 8 — no need to wait for the externship to finish). Mock interview reps begin; fall application prep. **Purdue Daniels Externship runs Jul 6 – Aug 1** — overlaps resume v1 + metrics/stats study + outreach. **Hours contingency:** if the (TBD) weekly externship load runs high, the Secondary block yields first; protect the Deep block (dashboard minimum iteration) and the metrics/stats minimum through these weeks. |
 
 ---
 
@@ -42,7 +42,7 @@ Dates sourced from "Product Management Internship Recruiting for Summer 2027" re
 | **~Early-to-mid October 2026** | **Google APM expected to close — hard deadline that pulls everything forward** |
 | Oct–Dec 2026 | Microsoft regional postings, Databricks, possible Snowflake postings |
 | Dec 2026 | Databricks usually closed |
-| Feb–Jun 2026 (rolling) | Atlassian APM (AU/NZ) Intern recruiting; internship runs Nov 2026–Feb 2027 |
+| Feb–Jun 2026 (rolling) | Atlassian APM (AU/NZ) Intern recruiting — **window is at/past its close as of 2026-06-15.** Note this cycle's internship runs Nov 2026–Feb 2027 (southern-hemisphere summer, during Veer's junior fall), so it is not the Summer-2027 placement. **Re-verify the next AU/NZ cycle** that would place Veer in (its) summer 2027; the Phase-3 plan (direction.md) assumes a Nov 2026–Feb 2027 window that needs confirming against the actual posting. |
 
 By end of September 2026, needed: shipped dashboard v1 with telemetry and iteration history, resume v2, metrics + statistics fluency, basic mock interview reps, clean PM story.
 
@@ -89,10 +89,12 @@ From September 2026 forward, check careers pages of 8–10 target companies week
 
 ## Internal Milestones (Working Backward from Applications)
 
+> This section schedules the four-pillar work against dates. It does not redefine it: the canonical phase plan and pillar success criteria are owned by `direction.md`. Where a number here would conflict with direction.md, direction.md wins.
+
 ### Now – End of August 2026
 - Pick project, define smallest viable version
 - Ship project v1 with at least one external user by mid-August
-- 5 alumni messages sent, 2–3 conversations completed
+- Alumni outreach at the **3 messages/week baseline** (owned by direction.md / scheduling-blueprint.md); first 2–3 informational interviews completed
 - Metrics + statistics fluency (Khan Academy Statistics & Probability + Amplitude Academy) — funnels, retention/cohorts, significance reading
 - Python: comfortable with basic data manipulation
 - Resume v1 drafted
