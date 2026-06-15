@@ -7,7 +7,12 @@ metadata:
   originSessionId: d1c7393b-dec2-4f9e-9418-6fe8d7164e48
 ---
 
-**Languages:** Python, SQL (PostgreSQL), JavaScript, TypeScript
+> **PROFICIENCY CALIBRATION (read before listing any skill — added 2026-06-15).** Veer's real coding background is limited: he is functional in Python (one course a while back, now rusty), and builds primarily by directing Claude Code. He understands Git/GitHub and engineering best practices, which is what lets him ship real projects despite limited from-scratch CS fluency. Distinguish two kinds of claim and never blur them:
+> - **Stands behind directly (safe to list as proficiency; can be quizzed on):** Python, HTML/CSS, Git/GitHub.
+> - **Built with, AI-assisted (list as "built with" / describe via the artifact, NOT as standalone proficiency):** TypeScript, JavaScript, React, Node.js/Express, SQL/PostgreSQL, REST APIs, Gemini API, Plotly.
+> Project bullets ("built X in TypeScript") are fine — they describe a real artifact he scoped and can discuss. A flat Skills list implying fluency in all of these is the inflation risk (direction.md: stack inflation is a top rejection signal; Pillar 4 failure mode #6 — Microsoft walks projects line-by-line, Stripe's HackerRank exposes bluffing). In interviews, use calibrated honesty, never a bluff. Do not auto-list everything below as equal proficiency.
+
+**Languages:** Python (stands behind); SQL/PostgreSQL, JavaScript, TypeScript (built-with, AI-assisted — see calibration above)
 
 **Frameworks / Backend:** React, Node.js, Express, Supabase (PostgreSQL), REST APIs
 

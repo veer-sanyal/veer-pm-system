@@ -32,6 +32,7 @@ Pay rate is set by the domain (finance), so position as a domain expert FIRST (l
 Hybrid: lead Firmly (PayPal checkout = payments domain) then StudyFlowForge. Use "Full-Stack & Product" category.
 
 **Universal rules:**
+- **Honest proficiency (added 2026-06-15):** Skills lists must not imply fluency Veer can't defend in an interview. Only Python, HTML/CSS, and Git/GitHub go in a direct proficiency line. TypeScript/JavaScript/React/Node/SQL/APIs are framed as "built with" (AI-assisted) or described through the project bullet, never as standalone proficiencies. See [[user-skills-inventory]] calibration block. Project bullets describing real artifacts are fine; flat skill claims are the inflation risk.
 - Resume is 1 page hard cap.
 - Always include EPICS for leadership signal (1–2 bullets).
 - Match skills category names to job description framing.

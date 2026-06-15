@@ -85,14 +85,16 @@ I would rather find the hole myself and fix it quietly than defend work that doe
 - Volunteered 6+ months with one organization — **[CONFIRM]** EPICS ran ~5 months (Aug–Dec 2025), just under; check only if accurate.
 - Community organizing / service program (AmeriCorps etc.) — no.
 
+> **Honesty note (important):** This question is about *personal proficiency* — could you open a file and work without help. Answer it conservatively. The *next* question ("which have you built") is about artifacts and is where you claim everything true, because what you've shipped is real regardless of how much Claude Code helped. Don't conflate the two. Claude Corps explicitly wants honesty here and says no coding background is required.
+
 ### "Which are you comfortable using?" (open a file and work without a tutorial)
 - **Python** ✓
-- **JavaScript / TypeScript** ✓
-- **SQL** ✓
 - **HTML / CSS** ✓
-- Google Apps Script / no-code (Zapier, Airtable) — **[CONFIRM]** check only if true.
+- JavaScript / TypeScript — **leave unchecked.** You build in these with Claude Code, but the bar here is working without help. Claim them under "which have you built" instead.
+- SQL — **leave unchecked**, same reason.
+- Google Apps Script / no-code (Zapier, Airtable) — only if genuinely true.
 
-### "Which of these have you built?" (any context)
+### "Which of these have you built?" (any context — be expansive, these are all true and defensible)
 - **A script that cleans, merges, or analyzes data** ✓ (Python data pipeline for the dashboard)
 - **A dashboard or data visualization** ✓ (the MSME dashboard; StudyFlowForge dashboards)
 - **A simple website or web page** ✓ (the static dashboard site)
