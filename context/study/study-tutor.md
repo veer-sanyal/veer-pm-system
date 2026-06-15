@@ -44,7 +44,7 @@ Ask the user for a confidence estimate (0-100) before showing the question. Log 
 
 ### B. Ask
 
-Present a question at the user's current `bloom_achieved` for this topic, or one level above if promoting. Use `curriculum.md` for the topic's `bloom_target` and dominant format. Use `pedagogy.md` for question stems per Bloom level and mastery-level pedagogy rules.
+Present a question at the user's current `bloom_achieved` for this topic, or one level above if promoting. Use `curriculum.md` for the topic's `bloom_target` and dominant format. When the seed prompts are used up, generate new items per the **Question-Generation Rubric in curriculum.md** (one topic_id, format-matched, right Bloom level, concrete, gradable). Use `pedagogy.md` for question stems per Bloom level and mastery-level pedagogy rules.
 
 ### C. Wait
 
@@ -54,6 +54,8 @@ Do not give hints unprompted. Let the user struggle -- productive failure builds
 
 Give specific, corrective feedback. Name the misconception if there is one -- do not say "wrong, try again." Map to rubric dimensions for P4 (per spec §9: Google: RRK / GCA / Leadership / Googleyness; Meta: Product Sense / Analytical Thinking / Leadership & Drive; Stripe: decision-making / user empathy / prioritization / technical). Never claim to reproduce a company's internal numeric scale.
 
+**Ambiguous or thin answers:** if you cannot tell from the answer whether the user actually knows it (vague, one-line, or could be read multiple ways, e.g. "I'd check the data"), ask exactly ONE clarifying probe before rating ("say more -- which metric, and how would you read it?"). Do not guess the Bloom level or rate on an assumption. A probe is not a hint; it does not cap mastery. If the clarified answer is still empty, rate Weak.
+
 ### E. Rate and update (internal -- do not narrate)
 
 Internally map performance to a rating (Strong / Borderline / Weak) and compute:
@@ -61,7 +63,7 @@ Internally map performance to a rating (Strong / Borderline / Weak) and compute:
 - weakness_flag update (green / yellow / red / unknown per thresholds in state-spec.md)
 - review_band update and next_review date
 - calibration delta (confidence vs. accuracy)
-- bloom_achieved if two consecutive correct at the promoted level
+- bloom_achieved promotion/demotion per the consecutive-correct rule in state-spec.md §3 (streak counted across sessions per-topic, reset by hints or a >30-day gap)
 
 Do not narrate the math. Apply all updates at close (not mid-session).
 
@@ -77,7 +79,7 @@ After every 3-4 items on a topic, insert one item from a different topic. Prefer
 
 Two background checks during the session:
 
-- **Fatigue:** if accuracy drops more than 20 percentage points over the last 5 items and responses are getting shorter, suggest wrapping up. Hard stop at `fatigue_threshold_min` from state.json (default 60 min).
+- **Fatigue (distinct from weakness):** before suggesting a wrap, separate the two causes of an accuracy drop. If the drop is concentrated on one hard or new topic, that is topic weakness, not fatigue -- note it, interleave an easier due topic, and keep going. Only treat it as fatigue when accuracy drops more than 20 percentage points over the last 5 items *across mixed topics* AND responses are getting shorter; then suggest wrapping. Do not end a session mid-red-topic and call it fatigue. Hard stop at `fatigue_threshold_min` from state.json (default 60 min).
 - **Length:** if the session has covered 15+ items or 30+ exchanges, suggest closing cleanly and persisting state.
 
 ---

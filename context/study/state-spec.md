@@ -185,6 +185,21 @@ Do not surface per-topic calibration insights (show `calibration.mean_overconfid
 
 Before that threshold, collect judgments silently. Early calibration numbers are noise.
 
+### Bloom promotion and demotion (defines "2 consecutive correct")
+
+`bloom_achieved` is the highest Bloom level demonstrated. "Consecutive" is counted over the topic's own attempt history, NOT within a single sitting:
+
+- **Promote** one level when the last 2 *attempts on this topic at the candidate level* are both rated Strong with no hints used. Interleaved items on other topics in between do not break the streak (the streak is per-topic). A Borderline/Weak rating, or a correct answer that needed a hint, resets the streak to 0.
+- **Cross-session:** the streak carries across sessions. Two Strong attempts on different days still promote.
+- **Gap / going cold:** if `last_practiced` is more than 30 days old, do not trust a previously earned `bloom_achieved`. Require one clean Strong (no hint) at that level to re-confirm it before testing one level higher; treat the streak counter as reset by the gap.
+- **Demote** one level on 2 consecutive Weak ratings at the achieved level, or whenever the red-flag reset fires (mastery <0.5 with >=5 attempts). Demotion also resets `review_band` to `new` per Section 2.
+
+The streak counter is computed from `format_breakdown` / recent ratings at write time; it is not a stored field.
+
+### Error-note retention
+
+`error_notes` keeps the 5 most recent misconception strings (newest wins). Additionally, drop a note when the same topic later earns a Strong rating on an item that targets that misconception -- a fixed misconception should not keep surfacing as a live weakness. When in doubt, keep it; a stale note is cheaper than a missed one.
+
 ### Write protocol (replaces manual paste)
 
 The tutor writes state at session close. No manual copy-paste. No separate dashboard file.

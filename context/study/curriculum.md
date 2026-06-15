@@ -266,3 +266,19 @@ Mapped formats: P4.behavioral.star_stories and sub-topic entries
 | Meta | "Tell me about a time you failed. What did you learn?" | IGotAnOffer Meta Leadership and Drive |
 | Google | "Tell me about a time you had to persuade a skeptical stakeholder." | Exponent Google APM guide |
 | Microsoft | "Tell me about a conflict with a teammate. How did you resolve it?" | PM_Internship_Interview_Reality_Check.md |
+
+---
+
+## Question-Generation Rubric
+
+The seed bank above is a starter (~one prompt per topic), not a limit. When it is exhausted -- which happens fast -- generate new items, but a generated item is only valid if it passes this checklist. Generating freely without it drifts away from real interview format, which is the whole point of practice.
+
+A valid generated item:
+
+1. **Targets exactly one `topic_id`** and exercises the scope named in that topic's `name` field. E.g. `P2.analysis.funnel_analysis` must force drop-off localization across specific funnel stages, not a generic "how would you improve this metric."
+2. **Matches the topic's `dominant_format`**, and in company mode the target company's format from the Company Exam-Format Map (honors the 60%-match rule, study-tutor §7.4). Meta -> Product Sense or Analytical Thinking; Google -> design / estimation / strategy graded on RRK + GCA; Microsoft -> resume-line probe or unconventional design; Stripe -> technical / system-design.
+3. **Is pitched at the right Bloom level:** at `bloom_achieved` for consolidation, exactly one level above for a promotion attempt (never more than one above). Apply = run the procedure on a concrete case; Analyze = diagnose or decompose an ambiguous situation; Evaluate = make and defend a judgment under an explicit trade-off.
+4. **Is concrete and grounded in a real surface** -- a named product, feature, change, or number -- not abstract ("how do you think about engagement?"). Borrow the shape of the verified seed prompts: one specific product, one specific change or number, one clear ask.
+5. **Has a known good answer you can grade before you ask it.** If you cannot articulate what a Strong answer contains (and which rubric dimensions it hits), do not ask the question.
+
+Anchor generated items to the seed prompts' shape. Do not invent company-specific facts, and do not claim a prompt came from a company's real loop unless it is in the seed bank above.
