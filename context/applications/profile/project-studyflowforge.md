@@ -16,7 +16,7 @@ metadata:
 
 **Key scope numbers:**
 - 18 user-facing screens shipped (study, analytics, onboarding)
-- 4 Agile sprints
+- 4 development iterations
 - Target users: Purdue students with fragmented study workflows
 
 **Headline accomplishments (proof bullets):**
@@ -29,7 +29,7 @@ metadata:
 - Identified high-impact opportunities through user research; translated insights into features including an exam-aware prioritization engine and exception-handling views for at-risk students.
 - Researched competing study tools and learning-science best practices to inform feature prioritization.
 
-**Skills demonstrated:** Full-stack React/TypeScript, SQL schema design, PostgreSQL, LLM/Gemini API integration, product spec writing, UX/IA design, KPI dashboarding, user research, Agile sprints, AI-assisted development (Claude Code).
+**Skills demonstrated:** Full-stack React/TypeScript, SQL schema design, PostgreSQL, LLM/Gemini API integration, product spec writing, UX/IA design, KPI dashboarding, user research, AI-assisted development (Claude Code).
 
 **Tailoring notes:**
 - SWE: lead with full-stack + 18 screens + SQL schemas + multi-factor scoring model
