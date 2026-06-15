@@ -176,6 +176,12 @@ Pillar 3 (network):
   - Media call: **lead image = `chart_A_consulting.png`** (it is the hook: consulting 13x, $92B vs $16B; clean and on-message). Restyled 2026-06-14 to match the live dashboard: IBM Plex Serif/Sans/Mono + the dashboard palette (paper #FBFAF7, indigo #2E6FB0, grey #858B96, grid #ECEAE3), data read straight off the live Plotly traces. Generator now committed as `make_chart_A.py` (was a bare PNG before). Optional 2nd = a screenshot of the live Act IV "Exposure ranking by category" view (shows the product + the visible modeled-assumption caveat). Chart B / the 30x discipline angle is now OFF this post and kept as a ready **second-post** seed (post-01-v6.md + chart_B_ip_licensing_v3.png).
   - Still manual for Veer: attaching the image (LinkedIn image upload is a native OS file picker the browser tools cannot drive) and hitting Post. Text + draft are done.
   - Earlier in the session: drafted v5 in composer, then v6 (round-30x reframe, declining the false "I typed 30x" version since the real placeholder was ~10x per product DECISIONS Entry 009), before Veer redirected to a full best-post pass (v7).
+  - **UPDATE (later 2026-06-14): the first LinkedIn post went LIVE — Veer posted it.** This clears the gate that was holding Pillar-3 outreach; 3 alumni messages/week now start.
+
+Pillar 3 / External (Dr. G):
+- **Nudge sent** (2026-06-13 ~5:30pm PT, in-thread to badri@infisum.com) — the telemetry + Act IV caveat update + the EBOPS→NIC-crosswalk-as-screening-heuristic question.
+- **Dr. G replied 2026-06-14: "Thanks a lot Veer, let's catch up soon."** He did not answer the crosswalk/methodology question in writing — do not treat the reply as validation of the approach; that conversation moves to the call. The reply is a warm opening from someone who already offered to route Veer to clients.
+- **Move made:** drafted a short in-thread reply to convert "soon" into a booked 30-min slot on his calendar (same path as the May 14 call). Pending Veer's send. Naming the pattern: a vague "soon" dies if not pinned — this is the insight-without-action trap, so the action is to lock the time now.
 
 System:
 - Made PROGRESS.md a tail-read so the log stops eating context as it grows. SYSTEM-PROMPT's start-of-conversation step now says read only the trailing ~3-4 weeks (full history only in Sunday mode or on request). Added a monthly-archive rule: when a month closes, roll its entries into `PROGRESS-archive.md` and keep this file to ~3-4 weeks plus the standing ledgers/logs — nothing deleted. Documented in PROGRESS Rules + file-index. Not archiving yet (file is small today).
@@ -220,9 +226,10 @@ Status: not started.
 ### Dr. Badri Narayanan Gopalakrishnan (Infisum)
 - 2026-05-17: Resume sent
 - 2026-06-02: Substantive follow-up sent — live guided-walkthrough site + de-identified repo + the exposure-score methodology question (Entry 008)
-- 2026-06-13: Nudge drafted, Gmail in-thread, pending send — carries the telemetry + Act IV caveat update and the EBOPS→NIC-crosswalk-as-screening-heuristic question. Silent since 2026-06-02
-- Status: nudge drafted, pending send
-- Next move: send the nudge, then respond on methodology when he replies
+- 2026-06-13: Nudge sent (Gmail in-thread) — telemetry + Act IV caveat update + the EBOPS→NIC-crosswalk-as-screening-heuristic question
+- 2026-06-14: Dr. G replied — "Thanks a lot Veer, let's catch up soon." Did not answer the methodology question in writing
+- Status: reply drafted to lock a 30-min call slot, pending Veer's send
+- Next move: send the scheduling reply / book the slot; prep the crosswalk + composite-index discussion for the call (he did not answer it by email)
 
 ### Alumni / PM professionals
 (Empty — Pillar 3 outreach starts week 3)
