@@ -6,7 +6,11 @@
 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[left=0.55in,right=0.55in,top=0.45in,bottom=0.4in]{geometry}
+\usepackage{lmodern}
+\usepackage{microtype}
+% ATS fix: disable ligatures (fi/fl/ffi) so they copy-paste as real letters
+\DisableLigatures{encoding = *, family = *}
+\usepackage[left=0.5in,right=0.5in,top=0.4in,bottom=0.35in]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{hyperref}
@@ -15,26 +19,31 @@
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
 
+% ATS fix: embed ToUnicode map so fi/ffi/ff ligatures and en dashes copy-paste correctly
+\input{glyphtounicode}
+\pdfgentounicode=1
+
 \titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\hrule\vspace{3pt}]
-\titlespacing{\section}{0pt}{6pt}{2pt}
-\setlist[itemize]{leftmargin=1.3em,topsep=1pt,itemsep=1pt,parsep=0pt,label=\textbullet}
+\titlespacing{\section}{0pt}{3pt}{1pt}
+\setlist[itemize]{leftmargin=1.3em,topsep=0pt,itemsep=1pt,parsep=0pt,label=\textbullet}
 
 \newcommand{\entry}[4]{%
   \textbf{#1}\hfill #2\\[1pt]
-  \textit{#3}\hfill \textit{#4}\\[2pt]
+  \textit{#3}\hfill \textit{#4}\\[1pt]
 }
 
 \begin{document}
 
 \begin{center}
 {\LARGE \textbf{Veer Sanyal}}\\[3pt]
-Sammamish, WA \quad|\quad 360-643-9424 \quad|\quad vsanyal@purdue.edu \quad|\quad linkedin.com/in/veersanyal \quad|\quad github.com/veer-sanyal
+{\small Sammamish, WA~~\textbar~~360-643-9424~~\textbar~~vsanyal@purdue.edu~~\textbar~~linkedin.com/in/veersanyal~~\textbar~~github.com/veer-sanyal}\\[3pt]
+\textit{Builder who scopes and ships end-to-end with AI tooling, for real users across small-business, civic, and education problems.}
 \end{center}
 
 \section{Education}
 \entry{Purdue University, Mitch Daniels School of Business}{West Lafayette, IN}{B.S. Integrated Business and Engineering (IBE), Expected May 2028}{Aug. 2024 -- Present}
 \begin{itemize}
-  \item Selective hybrid program combining a full business core with an engineering curriculum. Coursework: Statistics, Engineering Design \& Project Execution, Financial Accounting, Microeconomics.
+  \item Selective hybrid of a full business core and an engineering curriculum. Coursework: Statistics, Engineering Design, Financial Accounting, Microeconomics.
 \end{itemize}
 
 \section{Projects}
@@ -56,7 +65,7 @@ Sammamish, WA \quad|\quad 360-643-9424 \quad|\quad vsanyal@purdue.edu \quad|\qua
 \entry{Firmly (Fintech / E-commerce Platform)}{Remote}{Product \& Engineering Intern}{Jun. 2025 -- Aug. 2025}
 \begin{itemize}
   \item Shipped a PayPal checkout failure-recovery flow end-to-end; defined requirements, partnered with senior engineers, and validated fixes across $\sim$15 high-risk payment edge cases, replacing a dead-end error page with a guided recovery flow.
-  \item Built a repeatable QA workflow (edge-case matrix + release checklist, 20+ cases) adopted as the team standard for verifying fixes; added server-side error logging (Node.js/Express) that improved incident triage.
+  \item Built a repeatable QA workflow (edge-case matrix + release checklist, 20+ cases) adopted as the team standard for verifying fixes and still used after the internship ended; added server-side error logging (Node.js/Express) that improved incident triage.
 \end{itemize}
 \entry{Student Managed Investment Fund (SMIF)}{West Lafayette, IN}{Equity Research Analyst}{Jan. 2025 -- Present}
 \begin{itemize}
@@ -66,12 +75,13 @@ Sammamish, WA \quad|\quad 360-643-9424 \quad|\quad vsanyal@purdue.edu \quad|\qua
 \section{Leadership \& Community}
 \entry{Engineering Projects in Community Service (EPICS)}{West Lafayette, IN}{Communications Officer \& Build Lead}{Aug. 2025 -- Dec. 2025}
 \begin{itemize}
-  \item Led a 7-person team building a working display prototype for a local museum client; coordinated weekly tasks, drove a manufacturability trade-off (18 vs. 22 prisms), and presented decisions in two formal reviews to faculty, sponsors, and non-technical museum stakeholders.
+  \item Led the build of a working display prototype for a local museum through Purdue's service-learning program; as Communications Officer, coordinated a 7-person team and kept faculty sponsors and the client aligned across the semester.
+  \item Drove a manufacturability trade-off (18 vs. 22 prisms) from engineering checks and presented decisions in two formal reviews to non-technical museum stakeholders.
 \end{itemize}
 
 \section{Skills}
 \textbf{Languages \& tools:} Python, HTML/CSS, Git/GitHub\\
-\textbf{Built with (shipped projects, AI-assisted development):} React, TypeScript, Node.js/Express, SQL/PostgreSQL, REST APIs, Gemini API, Plotly\\
-\textbf{AI \& workflow:} Claude / Claude Code, telemetry instrumentation, dashboards \& data visualization, problem scoping, spec writing, QA/verification, presenting to non-technical audiences
+\textbf{Built with (AI-assisted):} React, TypeScript, Node.js/Express, SQL/PostgreSQL, REST APIs, Gemini API, Plotly\\
+\textbf{AI \& workflow:} Claude / Claude Code, telemetry instrumentation, data visualization, problem scoping, spec writing, QA/verification, presenting to non-technical audiences
 
 \end{document}
