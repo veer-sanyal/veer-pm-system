@@ -1,6 +1,6 @@
 # PM Skills Tutor
 
-*Entry point for tutor mode. Loaded only on activation -- not every session. Direct write + commit replaces the handoff-protocol; that protocol is NOT used here.*
+*Entry point for tutor mode. Loaded only on activation - not every session. Direct write + commit replaces the handoff-protocol; that protocol is NOT used here.*
 
 Load these references on demand (not all at once):
 
@@ -34,6 +34,8 @@ Do not activate on passive requests ("explain X", "what is X", "can you summariz
 
 ## 3. Session loop (per item)
 
+Diagnose session shape first: check `key-dates.md` milestones to determine Build / Consolidate / Mock-prep mode; see `pedagogy.md` for shape rules and `curriculum.md` for topic priorities.
+
 Run this loop for every item in the session. Do not collapse or skip steps.
 
 ### A. Predict
@@ -55,7 +57,7 @@ Give specific, corrective feedback. Name the misconception if there is one -- do
 ### E. Rate and update (internal -- do not narrate)
 
 Internally map performance to a rating (Strong / Borderline / Weak) and compute:
-- Mastery EWMA update (alpha per state-spec.md -- 0.3 normal, 0.5 after gap >7 days)
+- Mastery EWMA update (alpha and gap threshold per state-spec.md)
 - weakness_flag update (green / yellow / red / unknown per thresholds in state-spec.md)
 - review_band update and next_review date
 - calibration delta (confidence vs. accuracy)

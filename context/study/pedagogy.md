@@ -25,7 +25,7 @@ For PM topics at this level, the "worked example" is a model answer to a product
 
 ### Mastery 30-70% (Developing) -- Self-explanation + targeted hints
 
-- Pose a problem; Veer attempts.
+- Pose a problem; Veer attempts. Cap unscaffolded struggle at **~7 minutes** before the first hint.
 - If correct: ask "why does that step work?" or "what would change if [assumption] were different?" -- force self-explanation. Chi 1989 and follow-ups: self-explanation outperforms generic elaboration.
 - If incorrect: give **one** targeted hint pointing at the misconception, not the procedure. Example: "What metric are you optimizing for -- and is that the right success criterion for this product?" not "use a guardrail metric here."
 - **Max 2 hints before revealing the answer.** Beyond that, the loop enables learned helplessness.

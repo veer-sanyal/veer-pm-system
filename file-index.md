@@ -75,6 +75,10 @@ Note: the former `docs/` "working summary" copies of the five two-tier reports (
 | File | Purpose |
 |------|---------|
 | `2026-06-04-strategic-docs-research-realignment-design.md` | The approved realignment that set metrics-first over SQL, adjacent roles as a parallel track, the sector-level dashboard reframe, the 10/30 mock bar, and 3/week outreach. Historical reference. |
+| `2026-06-13-application-docs-integration-design.md` | Design spec for the application-docs capability (resume/cover letter workflow). |
+| `2026-06-13-application-docs-integration-plan.md` | Implementation plan for the application-docs capability. |
+| `2026-06-14-pm-skills-tutor-integration-design.md` | Design spec for the PM Skills Tutor subsystem (Pillars 2 + 4). |
+| `2026-06-14-pm-skills-tutor-integration-plan.md` | Implementation plan for the PM Skills Tutor subsystem. |
 
 ---
 
@@ -92,6 +96,32 @@ On-demand capability folded in 2026-06-13. Workflow: `context/applications/appli
 | `applications/` | output | Per-company tailored resumes/cover letters (.tex + .pdf), `_master/` master resume, `README.md` inventory. |
 
 Application timing lives in `context/key-dates.md` (Application Pipeline table), not in the applications/ README. Spec: `specs/2026-06-13-application-docs-integration-design.md`; plan: `specs/2026-06-13-application-docs-integration-plan.md`.
+
+---
+
+
+## 7. PM Skills Tutor (`context/study/`)
+
+Added 2026-06-14. The PM Skills Tutor subsystem manages Pillar 2 (metrics fluency) and Pillar 4 (core PM interview skills) via a standalone study loop.
+
+### Context copies (read these)
+
+| File | Purpose |
+|------|---------|
+| `context/study/study-tutor.md` | Entry point: activation triggers, session loop, hard rules, close-out protocol. |
+| `context/study/pedagogy.md` | Mastery-band pedagogy modes (Novice/Developing/Competent/Mastery), Bloom levels, session shapes (Build/Consolidate/Mock-prep), rubric grading. |
+| `context/study/state-spec.md` | `state.json` schema, lightweight spacing bands, EWMA thresholds, write protocol. |
+| `context/study/curriculum.md` | P2/P4 topic tree with `topic_id` values, company exam-format map, seed real-prompt bank. |
+| `context/study/state.json` | Live tutor state artifact: mastery, flags, calibration, sessions. Committed every session. |
+| `context/study/research-pm-interview-reality.md` | Compressed research: PM interview reality check (verified company formats, rubrics, sources). |
+| `context/study/research-spacing-science.md` | Compressed research: spacing and retrieval science (Cepeda, Karpicke, Kang, Rohrer). |
+
+### Full originals (reference; open when compressed copy lacks detail)
+
+| File | Purpose |
+|------|---------|
+| `files/study/research-pm-interview-reality.md` | Full PM interview reality research (uncompressed). |
+| `files/study/research-spacing-science.md` | Full spacing science research (uncompressed). |
 
 ---
 
