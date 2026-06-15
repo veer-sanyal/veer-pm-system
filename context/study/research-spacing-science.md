@@ -54,7 +54,7 @@ Bands keyed to mastery, hard-capped at 30 days:
 
 | Band | Condition | Interval |
 |---|---|---|
-| new | never practiced, or red flag (mastery < 0.5 after >=5 attempts) | 1-3 days |
+| new | never practiced, or red weakness flag | 1-3 days |
 | short | mastery < 0.5 | ~7 days |
 | medium | mastery 0.5-0.8 | 14 days |
 | long | mastery >= 0.8 | 28 days |

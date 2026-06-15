@@ -89,7 +89,7 @@ Sources:
 
 Kornell and Bjork (2008): 78% of participants performed better with spaced/interleaved study, yet 78% believed massing was as good or better. Learners' in-session fluency under blocking (practice feels easier) misleads them into concluding they learned more.
 
-This means self-directed practice will default to blocking and massing unless the system enforces interleaving. It also means confidence predictions before answering track actual overconfidence and serve as a calibration training mechanism -- learners who predict before they attempt develop more accurate self-assessment over time.
+This means self-directed practice will default to blocking and massing unless the system enforces interleaving. It also means confidence predictions before answering track actual overconfidence and may serve as a calibration tool; whether requiring pre-answer confidence predictions reliably improves calibration accuracy over time was not directly verified (see Uncovered).
 
 Confidence: medium. Single primary source (Kornell 2008) for the 78/78 statistic; the metacognitive training implication is inferred from that result plus general calibration literature.
 
