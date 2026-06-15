@@ -160,7 +160,7 @@ topic_id format: `P4.<area>.<topic>`
 
 - **5 interviews total, ~45 min each.**
 - Screen: 1x Product Sense + 1x Analytical Thinking.
-- Onsite: 2x Product Sense + 2x Analytical Thinking + 1x Leadership and Drive.
+- Onsite: 1x Product Sense + 1x Analytical Thinking + 1x Leadership and Drive.
 - Analytical Thinking subtypes: (1) goal-setting / metric definition, (2) metric-drop debugging, (3) trade-off navigation.
 - Interviewers grade on judgment and convergence to a decision, not framework completeness.
 - Guardrail gaming and metric conflicts are standard follow-up pressure.
@@ -244,7 +244,7 @@ Mapped format: P4.estimation.game_framework
 
 | Company | Prompt | Source |
 |---|---|---|
-| Google | "How many piano tuners are there in Chicago?" | canonical GAME framework example |
+| Google | "How many gas stations are there in the US?" | Exponent Google APM guide (verified, exponent.dev) |
 | Google | "Estimate the number of queries Google Search handles per second." | Exponent Google APM guide |
 
 ### Technical Credibility
