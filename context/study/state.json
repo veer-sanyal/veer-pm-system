@@ -1,0 +1,552 @@
+{
+  "schema_version": "1.0",
+  "user": {
+    "name": "Veer",
+    "goal": "Summer-2027 PM internship"
+  },
+  "pillars": {
+    "P2": {
+      "topics": [
+        {
+          "topic_id": "P2.trees.metric_tree_construction",
+          "name": "Metric trees -- goal to NSM to input metrics",
+          "bloom_target": "Apply",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.metrics.nsm_guardrail_primary_secondary",
+          "name": "NSM / guardrail / primary / secondary metric hierarchy",
+          "bloom_target": "Apply",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Airbnb"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.metrics.numerator_denominator_discipline",
+          "name": "Numerator-denominator precision -- defining metrics implementably",
+          "bloom_target": "Apply",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Microsoft",
+            "Airbnb"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.metrics.leading_vs_lagging",
+          "name": "Leading vs. lagging indicators and measurement windows",
+          "bloom_target": "Apply",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.analysis.funnel_analysis",
+          "name": "Funnel analysis -- drop-off localization across AARRR stages",
+          "bloom_target": "Analyze",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft",
+            "Airbnb"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.analysis.retention_cohort",
+          "name": "Retention and cohort analysis -- curve flattening and smile curve",
+          "bloom_target": "Analyze",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Airbnb"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.stats.ab_test_reading",
+          "name": "A/B test reading -- p-value, confidence interval, peeking trap",
+          "bloom_target": "Apply",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Stripe",
+            "Airbnb"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.stats.significance_foundations",
+          "name": "Stats foundations -- significance tests, confidence intervals, power",
+          "bloom_target": "Apply",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Stripe"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.diagnosis.metric_drop_diagnosis",
+          "name": "Metric-drop diagnosis -- clarify, segment-first, MECE internal/external, walk funnel, check instrumentation",
+          "bloom_target": "Analyze",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.diagnosis.mece_cause_framework",
+          "name": "MECE cause classification -- internal (bug/release/feature) vs. external (seasonality/competitor/tracking)",
+          "bloom_target": "Analyze",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Microsoft"
+          ],
+          "error_notes": []
+        }
+      ]
+    },
+    "P4": {
+      "topics": [
+        {
+          "topic_id": "P4.sense.product_design_improvement",
+          "name": "Product sense -- design and improvement questions",
+          "bloom_target": "Analyze",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft",
+            "Airbnb"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.strategy.product_strategy",
+          "name": "Product strategy -- market entry, ecosystem, big-bet prioritization",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Google",
+            "Stripe"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.estimation.game_framework",
+          "name": "Estimation and analytical -- GAME framework (Goals, Actions, Metrics, Evaluation)",
+          "bloom_target": "Analyze",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Google",
+            "Meta",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.star_stories",
+          "name": "Behavioral and leadership -- STAR story framework",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Microsoft",
+            "Google",
+            "Stripe"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.conflict_story",
+          "name": "STAR sub-topic -- conflict resolution story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.failure_story",
+          "name": "STAR sub-topic -- failure and recovery story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.learning_story",
+          "name": "STAR sub-topic -- learning and growth story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.ownership_story",
+          "name": "STAR sub-topic -- ownership and initiative story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.persuasion_story",
+          "name": "STAR sub-topic -- persuasion and influencing without authority story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.leadership_without_authority_story",
+          "name": "STAR sub-topic -- leadership without formal authority story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.technical_collaboration_story",
+          "name": "STAR sub-topic -- technical collaboration story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Microsoft",
+            "Stripe",
+            "Google"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.technical.credibility_defense",
+          "name": "Technical-credibility defense -- projects, APIs, languages, system-design lite",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Microsoft",
+            "Stripe",
+            "Google"
+          ],
+          "error_notes": []
+        }
+      ]
+    }
+  },
+  "habits": {
+    "sessions": [],
+    "median_session_min": null,
+    "fatigue_threshold_min": 60
+  },
+  "calibration_overall": {
+    "mean_overconfidence": null,
+    "n_judgments": 0
+  },
+  "milestones": {}
+}
