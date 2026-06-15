@@ -40,7 +40,7 @@
 
 | Field | Type | Notes |
 |---|---|---|
-| `schema_version` | string | `"1.0"` — bump if schema changes |
+| `schema_version` | string | `"1.0"` - bump if schema changes |
 | `user.name` | string | Veer |
 | `user.goal` | string | Human-readable goal driving study |
 | `pillars.P2.topics` | array | P2 topic objects (metrics fluency) |
@@ -195,12 +195,12 @@ The tutor writes state at session close. No manual copy-paste. No separate dashb
 2. Update `state.json` in place: overwrite the file at `context/study/state.json` with the new values. Do not accumulate a second JSON or output a code block for manual pasting.
 3. Append a dated one-liner to `PROGRESS.md` in this format:
    ```
-   YYYY-MM-DD: P2/P4 session — N items, X% accuracy, topics: [topic names]. Weak: [red/yellow flags if any].
+   YYYY-MM-DD: P2/P4 session - N items, X% accuracy, topics: [topic names]. Weak: [red/yellow flags if any].
    ```
 4. Stage and commit:
    ```
    git add context/study/state.json PROGRESS.md
-   git commit -m "Study session YYYY-MM-DD: [pillar] [session_type] — N items, X% accuracy"
+   git commit -m "Study session YYYY-MM-DD: [pillar] [session_type] - N items, X% accuracy"
    ```
 
 **Anti-patterns to avoid:**
