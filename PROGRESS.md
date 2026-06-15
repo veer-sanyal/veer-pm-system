@@ -48,6 +48,10 @@ Notes:
 - The Sunday session reviews the past week of entries to populate the Sunday email "last week's reflection."
 - Pull GitHub commits before writing an entry so it matches what actually shipped.
 
+
+**Study/practice trace:** study/practice (tutor mode) sessions append a one-line dated trace at close (the commit-equivalent for Pillars 2 & 4), e.g. `Pillar 2: 18-item metrics session, 72% acc, metric-drop still red`.
+
+
 ---
 
 ## Week 1 (May 18-24, 2026) — Foundation
@@ -190,12 +194,7 @@ System:
 
 ## Pillar 2 running ledger (technical)
 
-- SQL: 0 hrs
-- Python outside project work: 0 hrs (Python is used heavily *inside* the project — `build_processed.py`, `build_msme_nic.py`, `build_site_data.py` — but dedicated pillar-2 skill-building has not started)
-- System design: 0 hrs
-- APIs: none yet
-
-Status: not started. Gated behind the Pillar 1 milestone, which is now met — confirm start in a Sunday session.
+Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
 
 ---
 
@@ -212,12 +211,7 @@ Note: Dr. G (Infisum) is the one live external thread — see the external relat
 
 ## Pillar 4 running ledger (interview prep)
 
-- Mock interviews: 0
-- Solo reps recorded: 0
-- PM books read: 0
-- Frameworks practiced (CIRCLES, GAME, STAR): 0
-
-Status: not started.
+Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
 
 ---
 

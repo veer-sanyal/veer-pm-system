@@ -140,6 +140,20 @@ From September 2026 forward, check careers pages of 8–10 target companies week
 
 ---
 
+## Learning milestones (Pillars 2 & 4)
+
+Session-shape drivers for study/practice planning. Hard anchor: Google APM opens mid-September 2026, closes ~early-to-mid October 2026 - apply within days of opening.
+
+| Phase | Window | Target |
+|---|---|---|
+| Metrics/stats foundation (P2) | May - July 2026 | Khan Academy Statistics & Probability + Amplitude Academy units complete |
+| First solo mocks (P4) | Phase 2, Aug-Oct 2026 | First solo out-loud recorded reps begin. **Specific first-mock date: TBD - Veer to set at a Sunday session.** |
+| Ramp to 2-3 mocks/week (P4) | By Feb 2027 | Consistent mock cadence ahead of late-cycle recruiting (Atlassian, Microsoft, late postings) |
+| Real interview loops (P4) | Spring 2027 | Live interview practice through actual loops and any on-campus events |
+
+Notes: Do not invent specific first-mock dates - they are set at a Sunday session once Veer reviews state.json. The Google APM ~mid-to-late Oct 2026 hard anchor is confirmed per the re-verification above.
+
+
 ## Application Pipeline
 
 Single source of truth for application timing. The on-demand application-docs workflow

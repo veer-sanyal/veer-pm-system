@@ -71,6 +71,11 @@ Also lives in the Sunday event description.
 
 If Veer wants to skip Sunday or requests mid-week restructure, push back. The Sunday cadence is the keystone.
 
+## Study targets in Sunday planning (Pillars 2 & 4)
+
+In the Sunday session, after reading `context/study/state.json`, the chosen P2/P4 study targets are written into that week's Deep/Secondary block titles. Each title names the specific study/practice action, e.g. "Drill: metric-drop diagnosis (Apply)" or "Mock: CIRCLES framework on Spotify Wrapped (P4)". The relevant Morning Briefing carries the day's study focus + any due/cold topic. Consistent with the block/briefing mechanics above: the title is the phone-visible trigger; the briefing description gives the one-sentence link to the week's deliverable.
+
+
 ## Arc events (set rarely)
 
 All-day banners mark when pillars and phases turn on. Update only when phases actually shift.

@@ -19,6 +19,26 @@
 - **Accepted into the Purdue Daniels Summer Externship (email Jun 8):** 4-week virtual, team-based consulting for a local-business client, **Jul 6 – Aug 1, 2026**, with an assigned alumni mentor; ends in a final proposal presentation. Adds a Pillar-3 warm-contact surface (mentor + business owner + teammates, near-zero initiation cost), Pillar-4 client/teamwork stories, and a Daniels-branded resume line. **Supplements, does not replace, the dashboard** — that stays the only end-to-end-owned artifact and the differentiator. Weekly hours TBD.
 - **Application-docs capability folded in (2026-06-13):** resume/cover-letter generation now lives in this repo. Profile source-of-truth in `context/applications/profile/`, workflow in `context/applications/application-docs-workflow.md`, outputs in `applications/` (12 legacy companies migrated, copy-only). Deadlines tracked in `context/key-dates.md` (Application Pipeline).
 
+
+---
+
+**Pillar 2 & 4 learning state**
+
+Regenerated from `context/study/state.json` each Sunday. Doubles as the tutor's session-start dashboard.
+
+Fields tracked:
+- Topics tracked: all topics in the metrics/stats + interview-prep curriculum
+- Weak (red/yellow) topics: topics where accuracy is below threshold or confidence exceeds accuracy (over-confidence flag)
+- Calibration: overall over/under-confidence signal across last N attempts
+- Last-practiced: timestamp per topic; flags any topic going cold (no practice in >10 days)
+- Next focus: top 1-2 topics by urgency (due/weak topics + days-to-next-milestone)
+
+Initial state (as of tutor install, 2026-06-14):
+- All topics: new (not yet attempted)
+- None practiced yet
+- Calibration: n/a (no data)
+- Tutor just installed; first session will set baseline mastery estimates
+
 ---
 
 **Next moves**

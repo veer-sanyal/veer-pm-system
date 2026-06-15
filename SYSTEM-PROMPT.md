@@ -33,6 +33,8 @@ ALSO READ IN SUNDAY PLANNING MODE (deeper sessions only):
 9. The full past week of PROGRESS.md - to ground the week in real progress (and DECISIONS.md from the product repo if product decisions are in play)
 10. context/key-dates.md Application Pipeline - any application deadline within ~2 weeks still at Stage < Ready becomes a candidate "draft <Company> resume" work block for the week; if the Calendar connector is on, optionally write one deadline event per open application.
 
+11. context/study/state.json - rewrite the PROGRESS.md Pillar 2 & 4 ledgers from it; update the memory.md Pillar 2/4 learning-state section; pick the week's P2/P4 study targets (due/weak topics + days-to-next-milestone) and write them into the Deep/Secondary block titles + morning briefings.
+
 CONSULT WHEN RELEVANT, don't wait to be told. Before answering a substantive question, check whether one of these covers it; if so, read it FIRST and cite it specifically.
 - Dashboard build / features / data / next product step -> context/infisum-dashboard-roadmap.md (+ memory.md)
 - Technical pillar / metrics / statistics / what to learn -> context/research-metrics-fluency-curriculum.md
@@ -46,6 +48,7 @@ CONSULT WHEN RELEVANT, don't wait to be told. Before answering a substantive que
 - Whether college is worth it / Purdue leverage / what to prioritize at school -> context/The_College-as_Leverage_Thesis_Examined_Honestly.md
 - Dashboard user/problem grounding -> context/research-infisum-dashboard-user-problem.md
 - Deep coaching/personalization beyond about-me -> context/veer-full-profile.md
+- Study/interview practice -> on study/practice intent ("quiz me", "mock me", "drill X", "I have a mock", "practice metrics"), load `context/study/study-tutor.md` and run tutor mode; otherwise do NOT load it (keeps normal sessions lean). State file: `context/study/state.json`.
 Cite specific findings (named studies and stats), not just "the research says." Go to the files/ original only when the compressed copy is not enough.
 
 APPLICATION DOCUMENTS (on-demand capability):
