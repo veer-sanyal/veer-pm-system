@@ -1,0 +1,77 @@
+% Veer Sanyal - Claude Corps Fellow tailored resume
+% Tailored for: end-to-end building, AI/Claude fluency, social-impact/community,
+% teaching & communicating to non-technical audiences, judgment.
+% Compile: pdflatex VeerSanyal_ClaudeCorps_Resume.tex
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.55in,right=0.55in,top=0.45in,bottom=0.4in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\hrule\vspace{3pt}]
+\titlespacing{\section}{0pt}{6pt}{2pt}
+\setlist[itemize]{leftmargin=1.3em,topsep=1pt,itemsep=1pt,parsep=0pt,label=\textbullet}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\[1pt]
+  \textit{#3}\hfill \textit{#4}\\[2pt]
+}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Veer Sanyal}}\\[3pt]
+Sammamish, WA \quad|\quad 360-643-9424 \quad|\quad vsanyal@purdue.edu \quad|\quad linkedin.com/in/veersanyal \quad|\quad github.com/veer-sanyal
+\end{center}
+
+\section{Education}
+\entry{Purdue University, Mitch Daniels School of Business}{West Lafayette, IN}{B.S. Integrated Business and Engineering (IBE), Expected May 2028}{Aug. 2024 -- Present}
+\begin{itemize}
+  \item Selective hybrid program combining a full business core with an engineering curriculum. Coursework: Statistics, Engineering Design \& Project Execution, Financial Accounting, Microeconomics.
+\end{itemize}
+
+\section{Projects}
+\textbf{India MSME Digital-Trade Exposure Dashboard} \hfill May 2026 -- Present\\
+\textit{Solo build; live for a policy-research user} \hfill \textit{Static HTML/CSS, Plotly, Python}\\[2pt]
+\begin{itemize}
+  \item Scoped, built, and shipped an interactive data dashboard end-to-end that ranks India's small-business (MSME) service sectors by exposure to digital-trade policy; live on the web for a real policy-researcher user and iterated over 8+ weeks against a public decision log.
+  \item Built a transparent exposure index from public WTO and government data, every proxy labeled and linked to source, and surfaced the central modeled-assumption caveat directly in the interface instead of burying it.
+  \item Computed every figure from source data rather than hardcoding (caught a published statistic off by $\sim$3x); instrumented the live site with usage telemetry; built with AI-assisted development (Claude Code) and a versioned decision log.
+\end{itemize}
+\vspace{2pt}
+\textbf{StudyFlowForge: AI-Powered Study Planner} \hfill Feb. 2026 -- Apr. 2026\\
+\textit{Sole developer} \hfill \textit{React, TypeScript, Supabase (PostgreSQL), SQL, Gemini API}\\[2pt]
+\begin{itemize}
+  \item Scoped and shipped 18 user-facing screens end-to-end as sole developer for fellow students with fragmented study workflows; integrated an LLM (Gemini API) to generate personalized study plans and built a multi-factor scoring model (spaced repetition, forgetting-curve decay) in TypeScript.
+\end{itemize}
+
+\section{Experience}
+\entry{Firmly (Fintech / E-commerce Platform)}{Remote}{Product \& Engineering Intern}{Jun. 2025 -- Aug. 2025}
+\begin{itemize}
+  \item Shipped a PayPal checkout failure-recovery flow end-to-end; defined requirements, partnered with senior engineers, and validated fixes across $\sim$15 high-risk payment edge cases, replacing a dead-end error page with a guided recovery flow.
+  \item Built a repeatable QA workflow (edge-case matrix + release checklist, 20+ cases) adopted as the team standard for verifying fixes; added server-side error logging (Node.js/Express) that improved incident triage.
+\end{itemize}
+\entry{Student Managed Investment Fund (SMIF)}{West Lafayette, IN}{Equity Research Analyst}{Jan. 2025 -- Present}
+\begin{itemize}
+  \item Researched a public company end-to-end and co-authored a 20-page report; distilled it into a 10-slide pitch and presented the thesis to a 30+ member investment committee, defending assumptions in live questioning.
+\end{itemize}
+
+\section{Leadership \& Community}
+\entry{Engineering Projects in Community Service (EPICS)}{West Lafayette, IN}{Communications Officer \& Build Lead}{Aug. 2025 -- Dec. 2025}
+\begin{itemize}
+  \item Led a 7-person team building a working display prototype for a local museum client; coordinated weekly tasks, drove a manufacturability trade-off (18 vs. 22 prisms), and presented decisions in two formal reviews to faculty, sponsors, and non-technical museum stakeholders.
+\end{itemize}
+
+\section{Skills}
+\textbf{Building:} Python, JavaScript/TypeScript, SQL, HTML/CSS, React, Node.js/Express, REST APIs, schema design\\
+\textbf{AI \& data:} Claude / Claude Code, Gemini API (LLM integration), telemetry instrumentation, dashboards, data visualization\\
+\textbf{Working style:} Problem scoping, spec writing, QA/verification, presenting to non-technical audiences, Git, Agile
+
+\end{document}

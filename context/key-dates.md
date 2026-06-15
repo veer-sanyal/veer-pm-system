@@ -165,6 +165,7 @@ and updates the row here. Stage ∈ {Researching, Drafting, Ready, Submitted}.
 
 | Company / Role | Deadline (absolute) | Stage | Docs |
 |---|---|---|---|
-| _(none active — 12 legacy applications archived in `applications/`)_ | — | — | `applications/` |
+| Claude Corps Fellow (CodePath + Anthropic) | 2026-07-17 (Cohort 1) | Drafting | `applications/Claude Corps/` |
+| _(12 legacy applications archived in `applications/`)_ | — | — | `applications/` |
 
 Add a row when a new target is identified; convert any relative deadline to an absolute date.
