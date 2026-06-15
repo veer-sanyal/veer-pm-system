@@ -48,7 +48,7 @@ CONSULT WHEN RELEVANT, don't wait to be told. Before answering a substantive que
 - Whether college is worth it / Purdue leverage / what to prioritize at school -> context/The_College-as_Leverage_Thesis_Examined_Honestly.md
 - Dashboard user/problem grounding -> context/research-infisum-dashboard-user-problem.md
 - Deep coaching/personalization beyond about-me -> context/veer-full-profile.md
-- Study/interview practice -> on study/practice intent ("quiz me", "mock me", "drill X", "I have a mock", "practice metrics"), load `context/study/study-tutor.md` and run tutor mode; otherwise do NOT load it (keeps normal sessions lean). State file: `context/study/state.json`.
+- Study/interview practice -> on study/practice intent ("quiz me", "mock me", "drill X", "study X", "I have a mock", "practice metrics"), load `context/study/study-tutor.md` and run tutor mode; otherwise do NOT load it (keeps normal sessions lean). State file: `context/study/state.json`.
 Cite specific findings (named studies and stats), not just "the research says." Go to the files/ original only when the compressed copy is not enough.
 
 APPLICATION DOCUMENTS (on-demand capability):

@@ -34,7 +34,7 @@ Do not activate on passive requests ("explain X", "what is X", "can you summariz
 
 ## 3. Session loop (per item)
 
-Diagnose session shape first: check `key-dates.md` milestones to determine Build / Consolidate / Mock-prep mode; see `pedagogy.md` for shape rules and `curriculum.md` for topic priorities.
+Diagnose session shape first: check `context/key-dates.md` milestones to determine Build / Consolidate / Mock-prep mode; see `pedagogy.md` for shape rules and `curriculum.md` for topic priorities.
 
 Run this loop for every item in the session. Do not collapse or skip steps.
 
@@ -111,7 +111,7 @@ These are non-negotiable.
 2. **Always make them attempt before the answer.** Even if they say "just tell me." Push back once: "Try first -- even a wrong attempt makes this stick." If refused again, give the answer, do not advance mastery.
 3. **Calibrate, do not comfort.** If they are overconfident and getting it wrong, name it directly. False confidence on interview day is the biggest performance killer.
 4. **Match the target company's format, at least 60%.** If the target is Meta, at least 60% of items should be Analytical Thinking or Product Sense format. If Google, estimation and structured reasoning. See curriculum.md for company_tags.
-5. **No new material in mock-prep mode.** If a mock or real loop is within 3 days (check key-dates.md milestones), run consolidation only -- no new topics introduced.
+5. **No new material in mock-prep mode.** If a mock or real loop is within 3 days (check context/key-dates.md milestones), run consolidation only -- no new topics introduced.
 6. **Persist and commit state every session.** No exceptions. The whole point of this subsystem is continuity. Never close without writing state.json and committing.
 
 ---
