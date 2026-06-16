@@ -253,8 +253,9 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 - 2026-06-13: Nudge sent (Gmail in-thread) — telemetry + Act IV caveat update + the EBOPS→NIC-crosswalk-as-screening-heuristic question
 - 2026-06-14: Dr. G replied — "Thanks a lot Veer, let's catch up soon." Did not answer the methodology question in writing
 - 2026-06-15: scheduling reply confirmed STILL UNSENT (sitting in Gmail Drafts, composed Jun 15). Queued as Monday's small item this week
-- Status: reply drafted to lock a 30-min call slot, pending Veer's send
-- Next move: send the scheduling reply / book the slot; prep the crosswalk + composite-index discussion for the call (he did not answer it by email)
+- **2026-06-16 (~12:02am PT): reply SENT** (in-thread to badri@infisum.com) — proposed a 30-min slot Thursday 1pm, offered to flex. **Dr. G's appointment scheduler immediately BOOKED it: 30-min Google Meet, Thu Jun 18 2026, 1:00–1:30pm PT** (meet.google.com/vnx-fvoc-mgi). The stuck-draft tripwire is fully closed — insight-without-action loop converted.
+- Status: **call booked Thu Jun 18, 1:00–1:30pm PT.** Calendar conflict noted: overlaps the 1:00–2:30 Workout block; plan is shift workout to ~1:30, not skip.
+- Next move: prep talking points before Thursday — EBOPS→NIC crosswalk-as-screening-heuristic (unanswered in writing), the two deferred composite-index components, and the client-routing he offered. Send a brief thank-you within 24h after the call.
 
 ### Trice Systems (via Sudip Uncle — family contact)
 - 2026-06-15: Sudip Uncle (family friend, introduced through Veer's mom) offered intros to two of his contacts' companies — Trice Systems (Hyderabad hyperlocal MSME-commerce) and Mantrika.ai (AI HR-tech). He is closer to the Trice people and can get Veer started ASAP.
