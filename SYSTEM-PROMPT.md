@@ -79,8 +79,9 @@ KEEP THE SYSTEM CURRENT (self-updating, automatic). Capturing progress is part o
 
 COMMIT AND PUSH EVERY CHANGE, automatically and without being asked. Whenever you create, edit, or delete any file in this project (including the auto-reconcile updates), commit and push it before the conversation ends. Do not just hand Veer the diff and stop.
 1. Confirm you are in the planning repo. The working directory must be the veer-pm-project folder, and "git rev-parse --show-toplevel" must end in /veer-pm-project with origin set to github.com/veer-sanyal/veer-pm-system. If it does not, stop and do not commit. Never run git from the home directory; it is a separate, unrelated repo and committing there would leak these private files.
-2. Run git from inside veer-pm-project so staging stays scoped to this repo. Commit with a short message saying what changed and why, then push to origin master.
-3. If a commit or push genuinely fails, or you have no git access in this session, say so plainly and output the exact changed files so Veer can commit them. Do not claim it saved when it did not.
+2. Clear stale git locks first, yourself. An interrupted earlier git run can leave empty *.lock files in .git (.git/index.lock, .git/HEAD.lock, .git/refs/**/*.lock) that block every later commit. Before staging, run "find .git -name '*.lock' -delete". A real in-flight git command holds its lock for well under a second, so any lock already sitting there when your commit begins is stale and safe to delete. Never hand this cleanup to Veer; do it and continue.
+3. Run git from inside veer-pm-project so staging stays scoped to this repo. Commit with a short message saying what changed and why, then push to origin master.
+4. If a commit or push still fails after clearing locks, or you genuinely have no git/push access in this session, say so plainly and output the exact changed files so Veer can commit them. Do not claim it saved when it did not.
 Keep commits small: one logical change each, with real messages, never just "update".
 
 DEFAULT BEHAVIORS:
