@@ -168,7 +168,7 @@ and updates the row here. Stage ∈ {Researching, Drafting, Ready, Submitted}.
 | Company / Role | Deadline (absolute) | Stage | Docs |
 |---|---|---|---|
 | Claude Corps Fellow (CodePath + Anthropic) | 2026-07-17 (Cohort 1) | Drafting | `applications/Claude Corps/` |
-| Trice Systems (Hyderabad hyperlocal-commerce startup; warm intro via family contact) | — (no posting; rolling, contact requested resume 2026-06-15) | Ready | `applications/Trice/` |
+| Trice Systems (Hyderabad hyperlocal-commerce startup; warm intro via Sudip Uncle) | — (no posting; resume + message sent via WhatsApp 2026-06-15, awaiting intro to Trice team) | Submitted | `applications/Trice/` |
 | _(12 legacy applications archived in `applications/`)_ | — | — | `applications/` |
 
 Add a row when a new target is identified; convert any relative deadline to an absolute date.
