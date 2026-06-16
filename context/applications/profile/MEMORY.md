@@ -9,6 +9,7 @@ and Veer's preferences live in `../application-docs-workflow.md`.
 - [Firmly internship](experience-firmly.md) — Product/Eng Intern, Summer 2025, PayPal checkout flow
 - [SMIF analyst](experience-smif.md) — Equity Research, $400K AUM, U.S. Bancorp report
 - [Etsy + design portfolio](experience-etsy-design.md) — Etsy digital-products shop (~50 sold), Photoshop/Illustrator/Lightroom design
+- [India MSME Dashboard project](project-msme-dashboard.md) — flagship Pillar-1 shipped product; live, instrumented, iterated for a real policy-research user; lead project for PM/product/India-commerce roles
 - [StudyFlowForge project](project-studyflowforge.md) — AI study platform, React/TS/Supabase/Gemini
 - [EPICS leadership](leadership-epics.md) — Build Lead, museum billboard prototype
 - [Skills inventory](skills-inventory.md) — full list grouped by category

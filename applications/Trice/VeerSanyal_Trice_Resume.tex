@@ -1,0 +1,87 @@
+% Veer Sanyal - Trice Systems tailored resume
+% Tailored for: Trice (Hyderabad hyperlocal community-commerce startup digitizing
+% local micro-entrepreneurs / MSMEs). Emphasis: shipping consumer/commerce product
+% end-to-end, the India small-business domain, payments/order flows, telemetry + iteration.
+% Compile: pdflatex VeerSanyal_Trice_Resume.tex
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+% ATS fix: disable ligatures (fi/fl/ffi) so they copy-paste as real letters
+\DisableLigatures{encoding = *, family = *}
+\usepackage[left=0.5in,right=0.5in,top=0.4in,bottom=0.35in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% ATS fix: embed ToUnicode map so fi/ffi/ff ligatures and en dashes copy-paste correctly
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\hrule\vspace{3pt}]
+\titlespacing{\section}{0pt}{3pt}{1pt}
+\setlist[itemize]{leftmargin=1.3em,topsep=0pt,itemsep=1pt,parsep=0pt,label=\textbullet}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\[1pt]
+  \textit{#3}\hfill \textit{#4}\\[1pt]
+}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Veer Sanyal}}\\[3pt]
+{\small Sammamish, WA~~\textbar~~360-643-9424~~\textbar~~vsanyal@purdue.edu~~\textbar~~linkedin.com/in/veersanyal~~\textbar~~github.com/veer-sanyal}\\[3pt]
+\textit{Builder focused on commerce and small-business products. Ships, instruments, and iterates real tools end-to-end.}
+\end{center}
+
+\section{Education}
+\entry{Purdue University, Mitch Daniels School of Business}{West Lafayette, IN}{B.S. Integrated Business and Engineering (IBE), Expected May 2028}{Aug. 2024 -- Present}
+\begin{itemize}
+  \item Selective hybrid of a full business core and an engineering curriculum. Coursework: Statistics, Engineering Design, Managerial Accounting, Microeconomics.
+\end{itemize}
+
+\section{Projects}
+\textbf{India MSME Digital-Trade Exposure Dashboard} \hfill May 2026 -- Present\\
+\textit{Solo build; live for a policy-research user} \hfill \textit{Static HTML/CSS, Plotly, Python}\\[2pt]
+\begin{itemize}
+  \item Built and shipped a live tool that flags which of India's small businesses (MSMEs) are most exposed to digital-trade policy, so a researcher can ground the call in data rather than guesswork; scoped and iterated it end-to-end over 8+ weeks against a public decision log.
+  \item Constructed a transparent exposure index from public WTO and Indian government (MoMSME Udyam) data, every proxy labeled and linked to source, and surfaced the central modeled-assumption caveat directly in the interface rather than burying it.
+  \item Instrumented the live site with usage telemetry (custom event tracking) to measure how the tool is actually used; computed every figure from source data instead of hardcoding (caught a published statistic off by $\sim$3x). Built with AI-assisted development (Claude Code).
+\end{itemize}
+\vspace{2pt}
+\textbf{StudyFlowForge: AI-Powered Study Planner} \hfill Feb. 2026 -- Apr. 2026\\
+\textit{Sole developer} \hfill \textit{React, TypeScript, Supabase, Gemini API}\\[2pt]
+\begin{itemize}
+  \item Scoped and shipped 18 user-facing screens end-to-end as sole developer for students with fragmented study workflows; integrated an LLM (Gemini API) to generate personalized plans and built a multi-factor scoring model (spaced repetition, forgetting-curve decay) in TypeScript.
+\end{itemize}
+
+\section{Experience}
+\entry{Firmly (Fintech / E-commerce Platform)}{Remote}{Product \& Engineering Intern}{Jun. 2025 -- Aug. 2025}
+\begin{itemize}
+  \item Shipped a PayPal checkout failure-recovery flow end-to-end for an e-commerce payments product; defined requirements, partnered with senior engineers, and validated fixes across $\sim$15 high-risk payment edge cases, replacing a dead-end error page with a guided recovery flow.
+  \item Built a repeatable QA workflow (edge-case matrix + release checklist, 20+ cases) adopted as the team standard and still used after the internship ended; added server-side error logging (Node.js/Express) that improved incident triage, and tracked error and recovery rates to inform decisions.
+\end{itemize}
+\entry{Student Managed Investment Fund (SMIF)}{West Lafayette, IN}{Equity Research Analyst}{Jan. 2025 -- Present}
+\begin{itemize}
+  \item Researched a public company end-to-end in a $\sim$\$400K real-money portfolio and co-authored a 20-page report; distilled it into a 10-slide pitch and presented the thesis to a 30+ member committee, defending assumptions in live questioning.
+\end{itemize}
+
+\section{Leadership \& Community}
+\entry{Engineering Projects in Community Service (EPICS)}{West Lafayette, IN}{Communications Officer \& Build Lead}{Aug. 2025 -- Dec. 2025}
+\begin{itemize}
+  \item Led the build of a working display prototype for a local museum through Purdue's service-learning program; coordinated a 7-person team and kept faculty sponsors and the client aligned across the semester, presenting decisions in two formal reviews to non-technical stakeholders.
+\end{itemize}
+
+\section{Skills}
+\textbf{Languages \& tools:} Python, HTML/CSS, Git/GitHub\\
+\textbf{Built with (AI-assisted):} React, TypeScript, Node.js/Express, SQL/PostgreSQL, REST APIs, Gemini API, Plotly\\
+\textbf{Product \& workflow:} Product scoping \& spec writing, user/market research, KPI dashboarding, telemetry instrumentation, QA/verification, presenting to non-technical audiences
+
+\end{document}
