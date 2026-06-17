@@ -36,6 +36,7 @@ SINGLE SOURCE OF TRUTH (each fact has exactly one owner; everything else links, 
 If you find the same fact restated in a non-owner file, replace the copy with a pointer to the owner. Do not maintain two copies of one fact.
 
 READ AT THE START OF EVERY CONVERSATION (core, keep it lean):
+NON-NEGOTIABLE: read every file in this list, in full, before any other work, no matter how small, quick, tactical, or one-off the user's ask appears. A short question ("pull up the metrics," "what's the link," "quick check") does NOT exempt you. Do not skip a file because you think you already know its contents from a prior session, because the ask seems unrelated, or to save time or tokens. If a file cannot be read this session (missing or connector down), say so explicitly rather than silently skipping it. The same applies to the AUTO-RECONCILE pass above: run it first, every time, before answering. Treating a quick ask as license to skip the reads is the exact failure this rule exists to prevent.
 1. memory.md - current state, where things stand
 2. PROGRESS.md - the running log. Read only the TAIL by default (the trailing ~3-4 weeks of dated entries, e.g. from the most recent month heading). Pull the full history only in Sunday planning mode or when Veer asks about something older.
 3. context/about-me.md - who Veer is, his rhythm, what works on him
