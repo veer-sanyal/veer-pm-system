@@ -260,8 +260,9 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 - 2026-06-14: Dr. G replied — "Thanks a lot Veer, let's catch up soon." Did not answer the methodology question in writing
 - 2026-06-15: scheduling reply confirmed STILL UNSENT (sitting in Gmail Drafts, composed Jun 15). Queued as Monday's small item this week
 - **2026-06-16 (~12:02am PT): reply SENT** (in-thread to badri@infisum.com) — proposed a 30-min slot Thursday 1pm, offered to flex. **Dr. G's appointment scheduler immediately BOOKED it: 30-min Google Meet, Thu Jun 18 2026, 1:00–1:30pm PT** (meet.google.com/vnx-fvoc-mgi). The stuck-draft tripwire is fully closed — insight-without-action loop converted.
-- Status: **call booked Thu Jun 18, 1:00–1:30pm PT.** Calendar conflict noted: overlaps the 1:00–2:30 Workout block; plan is shift workout to ~1:30, not skip.
-- Next move: prep talking points before Thursday — EBOPS→NIC crosswalk-as-screening-heuristic (unanswered in writing), the two deferred composite-index components, and the client-routing he offered. Send a brief thank-you within 24h after the call.
+- **2026-06-18: call RESCHEDULED to 3:45–4:15pm PT** (Dr. G's scheduler moved it the evening of Jun 17 from the original 1:00–1:30pm slot; same Meet link meet.google.com/vnx-fvoc-mgi). The new slot no longer collides with the workout (1:30–3:00).
+- Status: **call TODAY Thu Jun 18, 3:45–4:15pm PT.** Prep sheet ready (`dr-g-call-prep-2026-06-18.md`).
+- Next move: on the call lead with EBOPS→NIC crosswalk-as-screening-heuristic (unanswered in writing), the two deferred composite-index components, and the client-routing he offered. Send a brief, specific thank-you within 24h after.
 
 ### Trice Systems (via Sudip Uncle — family contact)
 - 2026-06-15: Sudip Uncle (family friend, introduced through Veer's mom) offered intros to two of his contacts' companies — Trice Systems (Hyderabad hyperlocal MSME-commerce) and Mantrika.ai (AI HR-tech). He is closer to the Trice people and can get Veer started ASAP.
