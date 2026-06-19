@@ -232,6 +232,9 @@ Pillar 3 / External (Dr. G):
 - **Call happened (rescheduled to 3:45pm PT) and went well.** Two concrete outcomes: (1) Dr. G will **share the dashboard with policy contacts in India and check whether they have data Veer could use** — a potential source for the modeled EBOPS→NIC crosswalk join and/or the deferred digital-adoption component; (2) he said **he could use something similar for the US**, but flagged that Veer should **first check whether a US equivalent already exists** before building one. The relationship moved from "let's catch up" to active routing.
 - Open follow-through: (a) send a specific thank-you within 24h (reference the India share + the US idea, confirm the next step); (b) run a prior-art check on a US version before committing to build it; (c) await his India intros/data.
 
+Claude Corps:
+- **AI Fluency: Framework & Foundations Skilljar course DONE** (certificate saved to `applications/Claude Corps/Skilljar_AIFluency_Certificate.pdf`). With Claude 101 (Jun 15), **both gating courses are now complete.** The application is no longer blocked on coursework. Remaining (all small, all on Veer): upload both certificates into the application, confirm the [CONFIRM] personal fields, final review + submit. Deadline Jul 17 (rolling; earlier = better).
+
 ---
 
 ## Pillar 2 running ledger (technical)
