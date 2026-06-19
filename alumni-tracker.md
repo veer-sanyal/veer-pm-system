@@ -15,8 +15,8 @@ All 10 verified live on LinkedIn 2026-06-09 (titles from current profiles/headli
 | 1 | Allan Pooluan Tan | Google | New Product Program Manager | Purdue Engineering | Purdue | linkedin.com/in/allan-pooluan-tan-8a74a016 | | | | Based in Kuala Lumpur — async-friendly ask |
 | 2 | Monica Marathe | Amazon (Amazon Music) | Product | Purdue (verify yr) | Purdue | linkedin.com/in/monica-marathe | | | | SF Bay Area |
 | 3 | Akash Ravi | Microsoft | AI PM (SharePoint/Copilot) | Purdue grad, ex-Cisco | Purdue | linkedin.com/in/akash-ravi | | | | Active poster — comment on a post before messaging. Research doc had him at Amazon; corrected |
-| 4 | Daniel Anicito | Fidelity Investments | Incoming Associate PM | Purdue (verify yr) | 2nd degree; mutuals: Cole Miller, Bharadwaj Duggaraju +2 | linkedin.com/in/daniel-anicito | | | | Peer-level but in the APM recruiting game right now — ask about process |
-| 5 | Steven LaCroix | Elanco | Apprentice Product Manager | Purdue, Data Sci & Stats | 2nd degree; mutual: Josh Katof; Data Mine Portfolio Mgr | linkedin.com/in/stevenjlacroix | | | | Data Mine tie — warm angle |
+| 4 | Daniel Anicito | Fidelity Labs | Incoming Associate PM (digital assets) | Purdue student (FMA VP Education) | 2nd degree; mutuals: Christopher, Ian +5 | linkedin.com/in/daniel-anicito | | | | Peer who just ran the APM process — ask about process. Mutuals corrected 2026-06-18 |
+| 5 | Steven LaCroix | Elanco | Associate Product Manager | Purdue (recent grad), Data Sci & Stats | 2nd degree; mutual: Josh; Data Mine TA/PM | linkedin.com/in/stevenjlacroix | | | | Data-to-PM path (CV intern → Apprentice → Associate PM). Cleanest send |
 | 6 | Nikhil Panse | Microsoft | Product Manager 2 | Purdue (verify yr) | Purdue | linkedin.com/in/npanse | | | | Right seniority band (3-8 yrs) |
 | 7 | Sharoon Srivastava | Microsoft | Principal Product Manager | Purdue (verify yr) | Purdue; Chicago Booth MBA | linkedin.com/in/sharoonsrivastava | | | | Senior — referral-capable |
 | 8 | Kirtana Venkatraman | Meta | GenAI Product Manager | Purdue (verify yr) | Purdue | linkedin.com/in/kirtana | | | | AI PM angle fits dashboard hook |
@@ -91,18 +91,18 @@ Concrete hook you have that most sophomores don't: the live MSME digital-trade e
 
 ## Drafted messages — ready to send (week of Jun 15)
 
-Paste-and-send. All under 400 characters (the +22%-response band). Alumni tie + one specific reason + a 15-min learning ask, no referral. Send via LinkedIn connect-note or message.
+Verified against live LinkedIn profiles 2026-06-18. All ≤300 chars so each works as a connection-request note (the tighter cap), and as a direct message/InMail. Structure: alumni tie + one specific reason + a 15-min learning ask, no referral (per `Genuine_Networking_for_Competitive_PM_Internships.md`).
 
-**1. Daniel Anicito** (Fidelity, Incoming APM — 2nd degree, mutuals Cole Miller + Bharadwaj Duggaraju). Peer who just ran the APM gauntlet; ask about process.
-> Hi Daniel, fellow Boilermaker here, and I think we share a few connections (Cole Miller, Bharadwaj Duggaraju). Congrats on the Fidelity APM. I'm a Purdue IBE sophomore aiming at PM internships, and I just shipped a live India digital-trade policy dashboard. Since you just went through the APM process, would you be up for 15 min on what actually moved the needle? Totally fine if not.
+**1. Daniel Anicito** (Incoming Associate PM, Fidelity Labs — 2nd degree). Current Purdue student / peer who just ran the APM process; FMA VP of Education, case-comp circuit. Mutuals are **Christopher + Ian** (NOT Cole Miller / Bharadwaj — corrected). Send as a connection note.
+> Hi Daniel, fellow Boilermaker, we share a few mutual connections (Christopher, Ian). Congrats on the incoming Fidelity Labs APM. I'm a Purdue IBE sophomore aiming at PM internships and just shipped a live trade-policy dashboard. Could I get 15 min on how you ran the APM process? No worries if not.
 
-**2. Steven LaCroix** (Elanco, Apprentice PM — 2nd degree, mutual Josh Katof; Data Mine tie). Data/stats angle.
-> Hi Steven, Purdue connection here (I think we both know Josh Katof). Your path from the Data Mine into an apprentice PM role caught my eye. I'm a sophomore building the data side of PM for internships, and I just shipped a live MSME digital-trade dashboard. Would you be open to 15 min on how the Data Mine to PM jump actually worked? No worries if timing is tight.
+**2. Steven LaCroix** (Associate PM @ Elanco — 2nd degree, mutual Josh). Cleanest send. Real data-to-PM path: Data Analytics intern (computer-vision model) → Apprentice PM → Associate PM; Data Mine TA/PM. Send as a connection note.
+> Hi Steven, Purdue connection here (I think we both know Josh). Your Data Mine to Associate PM path at Elanco is the exact data-to-PM jump I'm working toward as a sophomore, I just shipped a live MSME trade dashboard. Could I get 15 min on how you made that move? No pressure if timing's tight.
 
-**3. Akash Ravi** (Microsoft, AI PM SharePoint/Copilot — Purdue, ex-Cisco). AI-PM angle fits the dashboard hook. NOTE: he is an active poster — leave a genuine comment on a recent post first, then send this a day later.
-> Hi Akash, Purdue grad to current student here. I've been reading your posts on AI PM work. I'm a sophomore who just shipped a live dashboard scoring India's MSME sectors for digital-trade exposure, and I'm trying to build real judgment around AI products. Could I ask you one specific question about how you scope AI features at Microsoft? 15 min whenever is easy.
+**3. Akash Ravi** (AI PM @ Microsoft, SharePoint/Copilot — Purdue, ex-Cisco). **3rd degree**, so a free connection note may be gated: first Follow him and leave a genuine comment on his "Skills for AI in SharePoint" post, then a day later send this as a message/InMail. Hook is his weekend local-SLM project (he respects people who ship).
+> Hi Akash, Purdue grad to current student. Your local-SLM grammar-checker project stuck with me. I just shipped a live dashboard scoring India's MSME sectors for digital-trade exposure and I'm building AI-PM judgment. Could I ask one specific question on how you scope AI features in SharePoint?
 
-_Swap option for #3 if you'd rather go straight at a target company: Allan Tan (Google, New Product PM — KL, async-friendly) or Kirtana Venkatraman (Meta, GenAI PM). Ask and I'll draft either._
+_Swap option for #3 if you'd rather a 2nd-degree send: Allan Tan (Google, New Product PM) or Kirtana Venkatraman (Meta, GenAI PM). Ask and I'll draft either._
 
 After sending, fill the Msg date / Reply / Call columns in the shortlist above and bump the ledger.
 
