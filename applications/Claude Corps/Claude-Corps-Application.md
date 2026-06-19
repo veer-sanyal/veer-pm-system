@@ -22,9 +22,9 @@ In my second year at Purdue I joined EPICS, a program where student teams build 
 
 The real problem was not engineering. It was that nobody owned the gap between a nice concept and a thing that exists. I broke the build into weekly tasks, ran the check-ins, and made the unglamorous calls. The hardest one was prism count. The original design called for 22 rotating prisms, but our checks on dimensions and cut angles showed that 18 would hold tolerance and still rotate cleanly. Cutting four prisms felt like losing ambition. It was actually the difference between a prototype the museum could use and one that looked good in a review and then broke.
 
-What drove me was something I had been honest with myself about. I am quick to see what should be done and slower to do it. EPICS put a group of people and a real client on the other side of that gap, which made closing it non-optional. I did not want to hand a museum a polished slide deck when what it needed was a working object. We presented at two formal reviews to faculty, sponsors, and the museum, defended the trade-offs, and handed off something buildable.
+What drove me was something I had been honest with myself about. I am quick to see what should be done and slower to do it, and EPICS put a real client on the other side of that gap, which made closing it non-optional. By the end, we had taken the museum from a stalled paper concept to a finalized design and a working prototype it could build the final display from. We presented at two formal reviews to faculty, sponsors, and the museum, and defended the trade-offs. We did not finish the final build, but we moved the project from stuck to buildable, which is the thing the museum could not do on its own.
 
-The lesson stuck. The part of this work I care about is not the idea. It is whether something real exists and keeps running after you walk away. That is most of why this fellowship pulls at me. The whole point is to leave behind something that still works once you are gone.
+That is most of why this fellowship pulls at me. The part of this work I care about is not the idea. It is whether something real gets built and keeps running after you walk away, and whether you leave a group better able to finish than they were when you arrived.
 
 ---
 
@@ -36,7 +36,7 @@ Early in my internship at Firmly, a fintech checkout platform, I shipped a fix f
 
 That one stung because it was a payment flow, the exact moment a customer is trying to give the company money. I had validated against the single path I was handed and assumed the rest would hold. They did not.
 
-What changed is how I treat my own work. I stopped trusting that something works because it worked once. I built an edge-case matrix for the checkout flow covering around fifteen high-risk failure paths, plus a release checklist, and ran every fix through it before calling anything done. The team adopted it as the standard for verifying fixes, and our cannot-reproduce loops dropped.
+What changed is how I treat my own work. I stopped trusting that something works because it worked once. I built an edge-case matrix for the checkout flow covering around fifteen high-risk failure paths, plus a release checklist, and ran every fix through it before calling anything done. The team adopted it as the standard for verifying fixes, and the bugs we couldn't reproduce dropped off.
 
 The deeper shift was assuming I am probably wrong until I have checked. It shows up in everything I build now. On a data dashboard I shipped this spring, I made a rule to compute every number from the source data instead of typing it in, and that rule caught a figure I had carried over that was off by roughly three times. Same instinct Firmly taught me: catch your own mistakes before a user does.
 
