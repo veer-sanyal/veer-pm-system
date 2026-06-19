@@ -226,6 +226,12 @@ Pillar 1 — telemetry:
 System signals:
 - **System upgrade shipped (2026-06-15), spec `specs/2026-06-15-dynamic-tracking-system-upgrade.md`.** Five structural changes, each its own commit: (1) **Auto-reconcile** — the system prompt now reconciles state against reality (product-repo commits + calendar + Gmail drafts) at the start of every session and commits the diff, so memory.md/PROGRESS.md stop drifting. (2) **Closed-loop accountability** — Morning Briefings carry a done-check on yesterday's block; any item stuck >2 sessions is auto-decomposed to the smallest physical next action instead of re-listed (the Dr. G draft is the live test case). (3) **Two-tier docs** — collapsed `docs/` into `context/` (read) + `files/` (deep research); removed the manual mirror-refresh that drifted. (4) **Single source of truth** — each fact now has one owner (direction.md = strategy, memory.md = current state, PROGRESS.md = narrative, key-dates.md = timeline, state.json = learning); duplicated facts replaced with pointers, and the outreach-cadence contradiction (3/week vs "5 by August") fixed. (5) **Stale fixes + tutor micro-rules** — Atlassian window flagged closed, APM-ineligibility + Daniels-hours contingencies added, resume v1 timing resolved; tutor got a question-generation rubric, a precise Bloom-promotion window, and ambiguous-answer / fatigue-vs-weakness handling. This was a system change, not pillar work; the anti-avoidance guard still applies (system-optimization is not a substitute for sending the Dr. G reply).
 
+### 2026-06-18 (Thu)
+
+Pillar 3 / External (Dr. G):
+- **Call happened (rescheduled to 3:45pm PT) and went well.** Two concrete outcomes: (1) Dr. G will **share the dashboard with policy contacts in India and check whether they have data Veer could use** — a potential source for the modeled EBOPS→NIC crosswalk join and/or the deferred digital-adoption component; (2) he said **he could use something similar for the US**, but flagged that Veer should **first check whether a US equivalent already exists** before building one. The relationship moved from "let's catch up" to active routing.
+- Open follow-through: (a) send a specific thank-you within 24h (reference the India share + the US idea, confirm the next step); (b) run a prior-art check on a US version before committing to build it; (c) await his India intros/data.
+
 ---
 
 ## Pillar 2 running ledger (technical)
@@ -261,8 +267,9 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 - 2026-06-15: scheduling reply confirmed STILL UNSENT (sitting in Gmail Drafts, composed Jun 15). Queued as Monday's small item this week
 - **2026-06-16 (~12:02am PT): reply SENT** (in-thread to badri@infisum.com) — proposed a 30-min slot Thursday 1pm, offered to flex. **Dr. G's appointment scheduler immediately BOOKED it: 30-min Google Meet, Thu Jun 18 2026, 1:00–1:30pm PT** (meet.google.com/vnx-fvoc-mgi). The stuck-draft tripwire is fully closed — insight-without-action loop converted.
 - **2026-06-18: call RESCHEDULED to 3:45–4:15pm PT** (Dr. G's scheduler moved it the evening of Jun 17 from the original 1:00–1:30pm slot; same Meet link meet.google.com/vnx-fvoc-mgi). The new slot no longer collides with the workout (1:30–3:00).
-- Status: **call TODAY Thu Jun 18, 3:45–4:15pm PT.** Prep sheet ready (`dr-g-call-prep-2026-06-18.md`).
-- Next move: on the call lead with EBOPS→NIC crosswalk-as-screening-heuristic (unanswered in writing), the two deferred composite-index components, and the client-routing he offered. Send a brief, specific thank-you within 24h after.
+- **2026-06-18: call DONE, went well.** Outcomes: Dr. G will share the dashboard with India policy contacts and check for usable data; he raised a US version as a possible direction (Veer to check prior art first). See the 2026-06-18 daily entry.
+- Status: **call complete; relationship now in active-routing mode.**
+- Next move: thank-you within 24h (specific, references the India share + US idea, confirms next step); prior-art check on a US version; await his India intros/data.
 
 ### Trice Systems (via Sudip Uncle — family contact)
 - 2026-06-15: Sudip Uncle (family friend, introduced through Veer's mom) offered intros to two of his contacts' companies — Trice Systems (Hyderabad hyperlocal MSME-commerce) and Mantrika.ai (AI HR-tech). He is closer to the Trice people and can get Veer started ASAP.
