@@ -5,12 +5,9 @@
 **Cohort 1 deadline:** July 17, 2026 (rolling review). Cohort 1 starts October 19, 2026.
 **Decision on record:** Veer is applying and is willing to take a leave of absence from Purdue for the fellowship year (Oct 2026 – Oct 2027).
 
-This is everything ready to paste in. Two things gate submission and only Veer can do them:
+This is everything ready to paste in. Course gate is CLEARED (both Skilljar courses done: Claude 101 2026-06-15, AI Fluency 2026-06-18; certificates in this folder, merged into `Skilljar_Certificates_Combined.pdf` for the single-document upload). What remains:
 
-1. **Complete both Skilljar courses and download the completion certificates** (the application requires this AND an upload of the certificates as one document):
-   - AI Fluency: https://anthropic.skilljar.com/ai-fluency-framework-foundations
-   - Claude 101: https://anthropic.skilljar.com/claude-101
-   These also quietly grade how you prompt, so do them yourself and take them seriously.
+1. **Confirm the [CONFIRM] fields below** (work authorization, visa, age, email, education level, how-heard, optional self-ID).
 2. **Final review + submit.** I'm not auto-submitting an application that carries your personal data. Review, then submit.
 
 A few fields below I left for you to confirm because I shouldn't guess them (work authorization, age, how you heard, demographics). They're marked **[CONFIRM]**.
@@ -74,8 +71,8 @@ I would rather find the hole myself and fix it quietly than defend work that doe
 | Can you commit to a full-time, in-person, one-year fellowship? | **Yes** |
 | Willing to relocate? | **Yes** |
 | 18 or older as of October 19, 2026? | **[CONFIRM]** — almost certainly yes; confirm. |
-| Completed BOTH Claude 101 and AI Fluency? | **Not yet — do this first** (see gating items at top). Answer "Yes" only once done. |
-| Upload completion certificates (one document) | Pending the two courses. |
+| Completed BOTH Claude 101 and AI Fluency? | **Yes** — Claude 101 (2026-06-15), AI Fluency (2026-06-18). |
+| Upload completion certificates (one document) | **Ready:** upload `Skilljar_Certificates_Combined.pdf` (both certs merged into one document, in this folder). |
 | Earliest date you could start full-time | Recommend **10/19/2026** (cohort start). Put an earlier date only if you're prepared to leave Purdue sooner. |
 
 ### "Which of these have you done?" (check all that apply)
