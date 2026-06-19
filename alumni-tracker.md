@@ -93,11 +93,13 @@ Concrete hook you have that most sophomores don't: the live MSME digital-trade e
 
 Verified against live LinkedIn profiles 2026-06-18. All ≤300 chars so each works as a connection-request note (the tighter cap), and as a direct message/InMail. Structure: alumni tie + one specific reason + a 15-min learning ask, no referral (per `Genuine_Networking_for_Competitive_PM_Internships.md`).
 
-**1. Daniel Anicito** (Incoming Associate PM, Fidelity Labs — 2nd degree). Current Purdue student / peer who just ran the APM process; FMA VP of Education, case-comp circuit. Mutuals are **Christopher + Ian** (NOT Cole Miller / Bharadwaj — corrected). Send as a connection note.
-> Hi Daniel, fellow Boilermaker, we share a few mutual connections (Christopher, Ian). Congrats on the incoming Fidelity Labs APM. I'm a Purdue IBE sophomore aiming at PM internships and just shipped a live trade-policy dashboard. Could I get 15 min on how you ran the APM process? No worries if not.
+No name-drops: the Purdue tie carries the warm angle, and a named mutual only helps if it's a real relationship (a hedged "I think we both know X" reads as fishing). Lead with the specific hook instead.
 
-**2. Steven LaCroix** (Associate PM @ Elanco — 2nd degree, mutual Josh). Cleanest send. Real data-to-PM path: Data Analytics intern (computer-vision model) → Apprentice PM → Associate PM; Data Mine TA/PM. Send as a connection note.
-> Hi Steven, Purdue connection here (I think we both know Josh). Your Data Mine to Associate PM path at Elanco is the exact data-to-PM jump I'm working toward as a sophomore, I just shipped a live MSME trade dashboard. Could I get 15 min on how you made that move? No pressure if timing's tight.
+**1. Daniel Anicito** (Incoming Associate PM, Fidelity Labs — 2nd degree). Current Purdue student / peer who just ran the APM process; FMA VP of Education, case-comp circuit. Send as a connection note.
+> Hi Daniel, fellow Boilermaker here. Congrats on the incoming Fidelity Labs APM. I'm a Purdue IBE sophomore aiming at PM internships and just shipped a live trade-policy dashboard. Since you just ran the APM process, could I get 15 min on what actually moved the needle? No worries if not.
+
+**2. Steven LaCroix** (Associate PM @ Elanco — 2nd degree). Cleanest send. Real data-to-PM path: Data Analytics intern (computer-vision model) → Apprentice PM → Associate PM; Data Mine TA/PM. Send as a connection note.
+> Hi Steven, fellow Boilermaker here. Your Data Mine to Associate PM path at Elanco is the exact data-to-PM jump I'm working toward as a sophomore, and I just shipped a live MSME trade dashboard. Could I get 15 min on how you made that move? No pressure if timing's tight.
 
 **3. Akash Ravi** (AI PM @ Microsoft, SharePoint/Copilot — Purdue, ex-Cisco). **3rd degree**, so a free connection note may be gated: first Follow him and leave a genuine comment on his "Skills for AI in SharePoint" post, then a day later send this as a message/InMail. Hook is his weekend local-SLM project (he respects people who ship).
 > Hi Akash, Purdue grad to current student. Your local-SLM grammar-checker project stuck with me. I just shipped a live dashboard scoring India's MSME sectors for digital-trade exposure and I'm building AI-PM judgment. Could I ask one specific question on how you scope AI features in SharePoint?
