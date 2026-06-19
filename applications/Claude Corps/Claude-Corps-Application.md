@@ -52,34 +52,34 @@ I would rather find the hole myself and fix it quietly than defend work that doe
 | First Name | Veer |
 | Last Name | Sanyal |
 | Preferred First Name | Veer |
-| Email | **[CONFIRM]** Recommend your personal email (veer.orgami@gmail.com) over the Purdue one, since the fellowship may run during/after a leave from Purdue and you don't want to lose access mid-process. |
+| Email | veer.orgami@gmail.com (personal — confirmed). |
 | Country | United States |
 | Phone | 360-643-9424 |
 | Location (City) | Sammamish, WA |
 | Resume/CV | Upload `VeerSanyal_ClaudeCorps_Resume.pdf` (in this folder) |
 | Pronouns | **[CONFIRM]** optional — fill if you want |
-| Highest level of education completed | **[CONFIRM]** You're mid-degree, so the honest answer is "High school diploma/GED" or "Some college, no degree" — pick whichever the dropdown offers that matches "currently in college, no degree yet." |
+| Highest level of education completed | Some college, no degree (pick the dropdown option matching "currently in college, no degree yet"). |
 | LinkedIn Profile | linkedin.com/in/veersanyal |
 | GitHub/portfolio/personal site | https://veer-sanyal.github.io/india-msme-digital-trade-exposure/ (or github.com/veer-sanyal) |
 
 ### Eligibility / commitment
 | Field | Answer |
 |---|---|
-| Legally authorized to work in the US? | **[CONFIRM]** — your call; the program cannot sponsor visas, so authorization is required to be eligible. |
-| Will you ever require visa sponsorship (incl. F-1/CPT/OPT → H-1B)? | **[CONFIRM]** — answer honestly based on your status. |
+| Legally authorized to work in the US? | **Yes** (authorized without sponsorship — confirmed). |
+| Will you ever require visa sponsorship (incl. F-1/CPT/OPT → H-1B)? | **No** (confirmed). |
 | Fewer than 2 years of full-time professional experience? | **Yes** (internships and work-while-enrolled don't count toward the limit). |
 | Can you commit to a full-time, in-person, one-year fellowship? | **Yes** |
 | Willing to relocate? | **Yes** |
-| 18 or older as of October 19, 2026? | **[CONFIRM]** — almost certainly yes; confirm. |
+| 18 or older as of October 19, 2026? | **Yes** (confirmed). |
 | Completed BOTH Claude 101 and AI Fluency? | **Yes** — Claude 101 (2026-06-15), AI Fluency (2026-06-18). |
 | Upload completion certificates (one document) | **Ready:** upload `Skilljar_Certificates_Combined.pdf` (both certs merged into one document, in this folder). |
-| Earliest date you could start full-time | Recommend **10/19/2026** (cohort start). Put an earlier date only if you're prepared to leave Purdue sooner. |
+| Earliest date you could start full-time | **10/13/2026** (a few days before the cohort start — signals availability; the program itself begins 10/19). |
 
 ### "Which of these have you done?" (check all that apply)
 - **Built tech for a community org** — yes (EPICS: built a display prototype for a museum client).
-- **Taught, tutored, or mentored** — **[CONFIRM]** check it if you've tutored/mentored anyone (you led/coordinated a 7-person EPICS team, which is arguably mentoring; your call).
+- **Taught, tutored, or mentored** — **Yes, check it** (you led/coordinated a 7-person EPICS team).
 - Worked or interned at a nonprofit — no (unless you count something I don't have).
-- Volunteered 6+ months with one organization — **[CONFIRM]** EPICS ran ~5 months (Aug–Dec 2025), just under; check only if accurate.
+- Volunteered 6+ months with one organization — **Leave unchecked** (EPICS ran ~5 months, just under).
 - Community organizing / service program (AmeriCorps etc.) — no.
 
 > **Honesty note (important):** This question is about *personal proficiency* — could you open a file and work without help. Answer it conservatively. The *next* question ("which have you built") is about artifacts and is where you claim everything true, because what you've shipped is real regardless of how much Claude Code helped. Don't conflate the two. Claude Corps explicitly wants honesty here and says no coding background is required.
@@ -110,8 +110,8 @@ Alternatives if you'd rather: Financial health and economic opportunity; Workfor
 ### Other
 | Field | Answer |
 |---|---|
-| How did you hear about Claude Corps? | **[CONFIRM]** (e.g., Anthropic website) |
-| CodePath member or alum? | No (**[CONFIRM]**) |
+| How did you hear about Claude Corps? | Word of mouth — from family (his father). Pick the closest dropdown option (e.g., "Friend/Referral" or "Word of mouth"). |
+| CodePath member or alum? | No (confirmed). |
 | Accommodations for interview? | **[CONFIRM]** your call |
 | Research opt-in (optional) | **[CONFIRM]** your call; opting in or out does not affect selection |
 | Voluntary self-identification (gender, race, veteran, disability) | **[CONFIRM]** entirely voluntary — your call, does not affect selection |
