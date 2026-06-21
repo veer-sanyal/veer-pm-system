@@ -27,6 +27,7 @@ Project: Veer's PM-internship execution system targeting a Summer-2027 PM intern
 | Doc | File (`context/`) | Owns / purpose |
 |-----|-------------------|----------------|
 | About me | `about-me.md` | Operational profile + comms guidelines: the planner's default decision lens. Identity, capabilities and gaps, the "insight without action" pattern, daily non-negotiables. (Goal/targets/success criteria are owned by `direction.md`; live status is owned by `memory.md`.) |
+| Patterns | `patterns.md` | OWNS the recurring-behavioral-pattern ledger: each pattern with dated evidence + a build-around, so the week can be designed around known patterns. Self-updating (2-instance bar; updated during reconcile + Sunday). about-me.md owns the static manual; this is the dynamic layer. Read at the start of every conversation. |
 | Direction | `direction.md` | OWNS strategy: the goal + four pillars + success criteria + phase plan + decision rules. |
 | Scheduling blueprint | `scheduling-blueprint.md` | OWNS the weekly/daily structure rules (consistency over surges, cued behavior, visible progress, recovery as execution, the Sunday session, weekly volume targets). |
 | Daily briefing spec | `daily-email-instructions.md` | OWNS how the daily plan + Morning Briefings + Sunday session are composed and written to the calendar. Delivery is Google Calendar, not email (the Gmail connector cannot send). Filename kept for reference continuity. |

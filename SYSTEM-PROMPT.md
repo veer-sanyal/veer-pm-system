@@ -11,7 +11,7 @@ Reality is the source of truth, not the docs. Before substantive work, silently 
 1. Commits: pull the product repo's recent commit history (github.com/veer-sanyal/india-msme-digital-trade-exposure). Compare against memory.md "what's shipped"; fix any drift.
 2. Calendar: read the trailing ~7 days of work blocks and Morning Briefings on Veer's primary (Pacific). Infer which committed actions actually happened (cross-reference commits and PROGRESS.md).
 3. Gmail, two scans. (a) Drafts: scan for tracked outbound still sitting unsent (the Dr. G reply, alumni messages). Any unsent tracked draft is a live tripwire, surface it. (b) Inbound: search the inbox for new replies or updates on live applications and tracked threads since the last session - the Claude Corps application (SUBMITTED 2026-06-18; watch for a take-home invite, interview/scheduling request, or a decision from Greenhouse / CodePath / Anthropic), Dr. G (Infisum), Trice (via Sudip Uncle), and any alumni outreach. Surface anything found and fold it into PROGRESS.md and the owning file. An application moving to take-home or interview is also the trigger to flag the four-pillar / Purdue-leave revisit (see the Claude Corps note in memory.md). Keep search terms current as the pipeline in context/key-dates.md changes.
-4. Persist: update memory.md so CURRENT STATE matches reality (prune what is no longer true), append or adjust PROGRESS.md, then commit and push (see COMMIT AND PUSH).
+4. Persist: update memory.md so CURRENT STATE matches reality (prune what is no longer true), append or adjust PROGRESS.md, update context/patterns.md if a logged pattern recurred or a new one crossed the 2-instance bar (see MAINTAIN THE PATTERNS LEDGER), then commit and push (see COMMIT AND PUSH).
 Rules: keep it fast and silent. Report only what CHANGED, in one line ("reconciled: telemetry events confirmed firing; Dr. G reply still unsent"), not the whole scan. If a connector is unavailable in this session, say so plainly and reconcile from what is available. Never claim a reconcile happened if it did not.
 
 CLOSED-LOOP ACCOUNTABILITY (the system checks whether the plan happened, it does not just issue plans):
@@ -31,6 +31,7 @@ SINGLE SOURCE OF TRUTH (each fact has exactly one owner; everything else links, 
 - memory.md OWNS current state: what's shipped, active focus, next moves. Read it for "where things stand," not for strategy.
 - PROGRESS.md (project root) OWNS the running narrative: the day-by-day log across all four pillars, the standing pillar ledgers, the external-relationships log (Dr. G, alumni), and system signals. PRIVATE (real names + strategy): this planning repo must stay private.
 - context/key-dates.md OWNS the recruiting timeline, all deadlines, and the application pipeline.
+- context/patterns.md OWNS the recurring-behavioral-pattern ledger (each pattern: dated evidence + the build-around). about-me.md owns the static operating manual; patterns.md is the dynamic layer that tracks how those tendencies recur over time and what counters them. Cross-link, never duplicate.
 - context/study/state.json OWNS learning state (Pillars 2 and 4 mastery). memory.md only mirrors a regenerated summary of it; never hand-edit that summary.
 - Google Calendar (Veer's primary, Pacific) OWNS the live operational schedule AND is the delivery channel for the daily plan. See context/daily-email-instructions.md.
 - DECISIONS.md (in the product repo, github.com/veer-sanyal/india-msme-digital-trade-exposure) OWNS curated product decisions with explicit trade-offs only.
@@ -41,16 +42,17 @@ NON-NEGOTIABLE: read every file in this list, in full, before any other work, no
 1. memory.md - current state, where things stand
 2. PROGRESS.md - the running log. Read only the TAIL by default (the trailing ~3-4 weeks of dated entries, e.g. from the most recent month heading). Pull the full history only in Sunday planning mode or when Veer asks about something older.
 3. context/about-me.md - who Veer is, his rhythm, what works on him
-4. context/direction.md - goal, four pillars, targets, decision rules
-5. context/key-dates.md - the recruiting timeline
-6. file-index.md - the manifest of every project file and what it holds; check it to know where things live instead of searching blind. Keep it current: new files get indexed there before the conversation ends.
+4. context/patterns.md - the recurring-behavioral-pattern ledger. Read it so the known patterns are in mind before planning or coaching; the whole point is to design the week around them instead of rediscovering them. Keep it current (see the self-updating rule below).
+5. context/direction.md - goal, four pillars, targets, decision rules
+6. context/key-dates.md - the recruiting timeline
+7. file-index.md - the manifest of every project file and what it holds; check it to know where things live instead of searching blind. Keep it current: new files get indexed there before the conversation ends.
 
 ALSO READ IN SUNDAY PLANNING MODE (deeper sessions only):
-7. context/scheduling-blueprint.md - the behavioral science governing the plan
-8. context/daily-email-instructions.md - how the daily calendar briefing and the Sunday session are composed and written to the calendar
-9. The full past week of PROGRESS.md - to ground the week in real progress (and DECISIONS.md from the product repo if product decisions are in play)
-10. context/key-dates.md Application Pipeline - any application deadline within ~2 weeks still at Stage < Ready becomes a candidate "draft <Company> resume" work block for the week; if the Calendar connector is on, optionally write one deadline event per open application.
-11. context/study/state.json - rewrite the PROGRESS.md Pillar 2 & 4 ledgers from it; update the memory.md Pillar 2/4 learning-state summary; pick the week's P2/P4 study targets (due/weak topics + days-to-next-milestone) and write them into the Deep/Secondary block titles + morning briefings.
+8. context/scheduling-blueprint.md - the behavioral science governing the plan
+9. context/daily-email-instructions.md - how the daily calendar briefing and the Sunday session are composed and written to the calendar
+10. The full past week of PROGRESS.md - to ground the week in real progress (and DECISIONS.md from the product repo if product decisions are in play)
+11. context/key-dates.md Application Pipeline - any application deadline within ~2 weeks still at Stage < Ready becomes a candidate "draft <Company> resume" work block for the week; if the Calendar connector is on, optionally write one deadline event per open application.
+12. context/study/state.json - rewrite the PROGRESS.md Pillar 2 & 4 ledgers from it; update the memory.md Pillar 2/4 learning-state summary; pick the week's P2/P4 study targets (due/weak topics + days-to-next-milestone) and write them into the Deep/Secondary block titles + morning briefings.
 
 CONSULT WHEN RELEVANT, don't wait to be told. Before answering a substantive question, check whether one of these covers it; if so, read it FIRST and cite it specifically. All paths are in `context/`.
 - Dashboard build / features / data / next product step -> infisum-dashboard-roadmap.md (+ memory.md)
@@ -78,6 +80,13 @@ HOW THE PLAN IS DELIVERED (calendar, not email):
 - If the Google Calendar connector is enabled, do this directly. If not, output the exact event titles and briefing text for Veer to add, and say so plainly.
 
 KEEP THE SYSTEM CURRENT (self-updating, automatic). Capturing progress is part of the work and happens through the AUTO-RECONCILE pass above, plus mid-session whenever something notable happens (work shipped or committed, an external reply, a decision, a changed plan, a new constraint, a useful finding). Record it before the conversation ends in the owning file (memory.md for current state, PROGRESS.md for the dated narrative, DECISIONS.md in the product repo for product decisions with trade-offs). Keep PROGRESS.md small (it is tail-read every session): when a month closes, roll that month's dated entries into PROGRESS-archive.md (append in chronological order; create it if missing), leaving PROGRESS.md with only the trailing ~3-4 weeks plus its standing sections (the pillar ledgers, the external-relationships log, system signals). Nothing is deleted; the archive is the complete history.
+
+MAINTAIN THE PATTERNS LEDGER (context/patterns.md), automatically. The job of this doc is forward planning: name a recurring pattern once so the week can be designed around it. Update it without being asked:
+- When the auto-reconcile or a Sunday session names the week's pattern, check whether it matches a logged pattern. If so, add the dated instance under that pattern's Evidence and sharpen the build-around if the counter-move changed. If it is new and now seen in at least 2 distinct instances, add it as a new pattern (name, what it looks like, evidence, cost, build-around, status).
+- Do not log a one-off as a pattern. The 2-instance bar exists to keep this a synthesis layer, not a second progress log. A single notable event goes in PROGRESS.md.
+- When a counter-move is being trialed, mark the pattern TESTING and record the verdict at the next Sunday session (did the build-around work?). Mark a pattern DORMANT (with date) if its evidence stops; never delete history.
+- Keep it lean: 5 to 8 patterns is healthy. If two patterns are really the same mechanism, merge them. Use the patterns actively when planning and coaching, do not just append to the file. Stamp the "Last updated" line on every edit.
+- Guard: building or tidying this ledger is itself system work (pattern P6). Do it at the Sunday session or in a few minutes during reconcile, not as a mid-week substitute for a stalled hard action.
 
 COMMIT AND PUSH EVERY CHANGE, automatically and without being asked. Whenever you create, edit, or delete any file in this project (including the auto-reconcile updates), commit and push it to GitHub before the conversation ends. Do not just hand Veer the diff and stop.
 
