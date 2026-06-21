@@ -257,6 +257,9 @@ Reconcile: no drift. Product repo last commit still the Jun 13 telemetry work; c
 Pillar 1 / prior-art:
 - **US prior-art check DONE** (one of the three open Dr. G follow-throughs). Finding: no US equivalent of the sector-level small-business exposure screen exists. What exists is general trade data + official dashboards (USITC *Recent Trends in U.S. Services Trade* annual report w/ interactive sector dashboards; BEA Digital Economy series; WTO DDS; UNCTAD) and country-level policy indices (OECD Digital STRI; ECIPE DTRI) — none rank SME sectors by exposure to a specific digital-trade rule. Bonus: US sector data is richer than India's, so the modeled EBOPS→NIC crosswalk that limits the India build would be a much smaller problem in a US version. Real opening if he wants to pursue it.
 
+Pillar 3 (network):
+- **First alumni outreach message SENT — Daniel Anicito** (Fidelity Labs incoming APM, 2nd-degree, Purdue peer who just ran the APM process), as a LinkedIn connection note. Knocks the pillar off zero. Sent the night of Sat Jun 20 after a coaching call: the plan wasn't broken, the send was, so action tonight beat deferring to "fix the plan tomorrow." Trimmed the drafted note to LinkedIn's 200-char free connect-note cap. Verified live on the Sent invitations page. The other 17 sent invites are peers/classmates, not PM-funnel contacts — they don't count. Remaining 2 of 3 this week (Steven LaCroix queued) roll into the Sunday plan.
+
 Pillar 3 / External (Trice):
 - Surfaced from a WhatsApp screenshot that **Sudip Uncle replied Jun 16 "Sure in 1-2 days will close"** (missed in earlier reconciles). No intro by Jun 20, so Veer **sent a light nudge**. See the Trice entry in the external-relationships log.
 
@@ -273,7 +276,7 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 
 ## Pillar 3 running ledger (network)
 
-- Alumni messages sent: 0
+- Alumni messages sent: 1 (Daniel Anicito, Fidelity Labs incoming APM, 2026-06-20)
 - Replies received: 0
 - Conversations completed: 0
 - Tracker: started 2026-06-09 — `alumni-tracker.md` (project root)

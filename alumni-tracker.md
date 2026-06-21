@@ -15,7 +15,7 @@ All 10 verified live on LinkedIn 2026-06-09 (titles from current profiles/headli
 | 1 | Allan Pooluan Tan | Google | New Product Program Manager | Purdue Engineering | Purdue | linkedin.com/in/allan-pooluan-tan-8a74a016 | | | | Based in Kuala Lumpur — async-friendly ask |
 | 2 | Monica Marathe | Amazon (Amazon Music) | Product | Purdue (verify yr) | Purdue | linkedin.com/in/monica-marathe | | | | SF Bay Area |
 | 3 | Akash Ravi | Microsoft | AI PM (SharePoint/Copilot) | Purdue grad, ex-Cisco | Purdue | linkedin.com/in/akash-ravi | | | | Active poster — comment on a post before messaging. Research doc had him at Amazon; corrected |
-| 4 | Daniel Anicito | Fidelity Labs | Incoming Associate PM (digital assets) | Purdue student (FMA VP Education) | 2nd degree; mutuals: Christopher, Ian +5 | linkedin.com/in/daniel-anicito | | | | Peer who just ran the APM process — ask about process. Mutuals corrected 2026-06-18 |
+| 4 | Daniel Anicito | Fidelity Labs | Incoming Associate PM (digital assets) | Purdue student (FMA VP Education) | 2nd degree; mutuals: Christopher, Ian +5 | linkedin.com/in/daniel-anicito | 2026-06-20 (connect note) | | | Peer who just ran the APM process — ask about process. Mutuals corrected 2026-06-18. SENT (trimmed to LinkedIn's 200-char free-note cap) |
 | 5 | Steven LaCroix | Elanco | Associate Product Manager | Purdue (recent grad), Data Sci & Stats | 2nd degree; mutual: Josh; Data Mine TA/PM | linkedin.com/in/stevenjlacroix | | | | Data-to-PM path (CV intern → Apprentice → Associate PM). Cleanest send |
 | 6 | Nikhil Panse | Microsoft | Product Manager 2 | Purdue (verify yr) | Purdue | linkedin.com/in/npanse | | | | Right seniority band (3-8 yrs) |
 | 7 | Sharoon Srivastava | Microsoft | Principal Product Manager | Purdue (verify yr) | Purdue; Chicago Booth MBA | linkedin.com/in/sharoonsrivastava | | | | Senior — referral-capable |
@@ -95,8 +95,10 @@ Verified against live LinkedIn profiles 2026-06-18. All ≤300 chars so each wor
 
 No name-drops: the Purdue tie carries the warm angle, and a named mutual only helps if it's a real relationship (a hedged "I think we both know X" reads as fishing). Lead with the specific hook instead.
 
-**1. Daniel Anicito** (Incoming Associate PM, Fidelity Labs — 2nd degree). Current Purdue student / peer who just ran the APM process; FMA VP of Education, case-comp circuit. Send as a connection note.
-> Hi Daniel, fellow Boilermaker here. Congrats on the incoming Fidelity Labs APM. I'm a Purdue IBE sophomore aiming at PM internships and just shipped a live trade-policy dashboard. Since you just ran the APM process, could I get 15 min on what actually moved the needle? No worries if not.
+**1. Daniel Anicito** (Incoming Associate PM, Fidelity Labs — 2nd degree). Current Purdue student / peer who just ran the APM process; FMA VP of Education, case-comp circuit. **SENT 2026-06-20** as a connection note. The original 288-char draft exceeded LinkedIn's 200-char free-note cap; sent this trimmed version (dropped the dashboard hook — fine for a peer, not an evaluator):
+> Hi Daniel, fellow Boilermaker. Congrats on the Fidelity Labs APM. I'm an IBE sophomore in PM recruiting. You just ran the APM process so could I get 15 min on what moved the needle? No worries if not.
+
+Lesson for future sends: LinkedIn free connection notes cap at 200 chars (and ~3-5 personalized invites/month) — keep connect-note drafts ≤200, or connect-without-note / comment-then-message for the rest.
 
 **2. Steven LaCroix** (Associate PM @ Elanco — 2nd degree). Cleanest send. Real data-to-PM path: Data Analytics intern (computer-vision model) → Apprentice PM → Associate PM; Data Mine TA/PM. Send as a connection note.
 > Hi Steven, fellow Boilermaker here. Your Data Mine to Associate PM path at Elanco is the exact data-to-PM jump I'm working toward as a sophomore, and I just shipped a live MSME trade dashboard. Could I get 15 min on how you made that move? No pressure if timing's tight.
@@ -112,7 +114,7 @@ After sending, fill the Msg date / Reply / Call columns in the shortlist above a
 
 ## Running ledger
 
-- Messages sent: 0
+- Messages sent: 1 (Daniel Anicito, 2026-06-20)
 - Replies: 0
 - Calls completed: 0
 - Referrals: 0
