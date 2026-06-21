@@ -266,11 +266,34 @@ Pillar 3 / External (Trice):
 Pillar 3 / External (Dr. G):
 - **Post-call thank-you SENT 2026-06-20** (in-thread to badri@infisum.com). References (1) the India share + data check, (2) the US-version idea grounded in the prior-art finding, commits to building a US version (he had nudged Veer toward it): will start now and send an update at significant progress; confirms he'll follow up. Kept short to respect his time. The overdue tripwire is fully closed (insight-without-action loop converted again). **Flag for the Sunday Jun 21 session: a US version is now a committed Pillar-1 track — slot it into the plan there (scope, how it fits against the India dashboard + Daniels + study) rather than over-planning mid-week.**
 
+### 2026-06-21 (Sun) — Sunday planning session
+
+Reconcile (commits + calendar + Gmail, past 7 / next 14 days):
+- **Product repo:** no new commits since Jun 13 (last is the GoatCounter site-code wire). The Jun 20 deep block "write the telemetry readout → PROGRESS + DECISIONS" did **not** happen — no DECISIONS entry, no readout. That day's real work was the US prior-art check + first alumni message + Dr. G thank-you. Telemetry readout still owed (slipped since ~Jun 12).
+- **Dr. G thank-you: confirmed SENT** (final in-thread message 2026-06-21 05:30 UTC = late Jun 20 PT). Two earlier same-thread drafts (05:16, 05:19 UTC) are superseded versions, now redundant — flagged to trash.
+- **Inbound:** Claude Corps "application is in" (already logged Jun 18); no take-home/interview yet. Nothing new from Trice (WhatsApp channel) or alumni. No other live tracked tripwires in Drafts.
+
+**Scheduled-vs-done for the week (Jun 15–20):**
+- Shipped: GoatCounter verify (Jun 16), AI Fluency course (Jun 18), Claude Corps SUBMITTED (Jun 18), Dr. G call (Jun 18, went well), US prior-art check (Jun 20), alumni msg 1 — Anicito (Jun 20), Dr. G thank-you (Jun 20).
+- **Slipped hard — Pillar 2 metrics study went to ZERO.** Six study blocks were on the calendar (Mon Khan, Tue PM tutor, Wed Khan, Thu PM tutor, Fri Khan, Sat PM tutor consolidate) and `state.json` confirms zero sessions, every topic still "new," 0 attempts. The Jun 19 reconcile flagged alumni (0/3 at the time) but **missed that study was also at zero.**
+- Slipped — alumni finished at 1 of 3 (only Anicito; LaCroix + cold lead never sent). Telemetry readout never written.
+
+**Pattern named (no deep diagnosis):** the week had two big external events (the Dr. G call, the Claude Corps submission). Everything with a person waiting on the other end got done; the self-directed compounding work with no external deadline — metrics study — got sacrificed entirely. This is the insight-without-action pattern in its "reactive over proactive" form. The fix is not more study blocks (last week had six and got zero) but protecting fewer, cued, concrete study reps in the deep slot, in a week with no big external event to crowd them out.
+
+**Week of Jun 22–27 commitments by pillar (calendar written directly, connector on):**
+- **P2 (the week's priority):** establish the metrics habit. Study is the protected DEEP block 4 days — Mon (metric-tree baseline), Tue (NSM/guardrail + numerator-denominator), Thu (Khan: significance/CIs/p-values), Sat (metric-drop diagnosis + consolidate); plus a lighter secondary touch midweek. Implementation intention: *when I sit down with morning coffee, I open the tutor and do the first rep for 25 min before anything else.* First session just sets a baseline (lowest activation energy).
+- **P1:** finish the owed telemetry readout (Wed deep → PROGRESS + DECISIONS); scope the **US version** as a tight v0 only (Fri deep scope + Thu secondary data pull) — reuse the India architecture, do not start a second build. The US version is now a committed track (told Dr. G he'd build it), but the India dashboard stays the differentiator and finishes its open items first.
+- **P3:** 3 alumni messages, **front-loaded Mon–Wed** (LaCroix Mon, Akash Ravi Tue after a Mon comment, Allan Tan Wed) so they don't slip to a Saturday scramble. Draft for Allan in Tue secondary.
+- Externship (Jul 6) is 2 weeks out; resume v1 (mid-July, carries the Daniels line) is the next pipeline item after that. Not this week.
+
 ---
 
 ## Pillar 2 running ledger (technical)
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
+
+- **As of 2026-06-21: zero sessions logged.** All 10 P2 topics still `new` (mastery 0.0, 0 attempts, last_practiced null). Tutor installed 2026-06-14; no practice has happened in the 7 days since. Calibration: n/a (no data).
+- **This is a pillar at zero for the week** — flagged at the Sunday session; the week of Jun 22 makes establishing the first reps the priority (metric trees, NSM/guardrail, numerator-denominator, significance/CIs, metric-drop diagnosis).
 
 ---
 
@@ -280,6 +303,7 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 - Replies received: 0
 - Conversations completed: 0
 - Tracker: started 2026-06-09 — `alumni-tracker.md` (project root)
+- Week of Jun 22 target: 3 sends (LaCroix, Akash Ravi, Allan Tan), front-loaded Mon–Wed. Note the LinkedIn free-connect-note cap (~3–5 personalized invites/month, ≤200 chars) — Anicito used one; mix connect-notes with comment-then-message for 3rd-degree contacts.
 
 Note: Dr. G (Infisum) is the one live external thread — see the external relationships log.
 
@@ -288,6 +312,8 @@ Note: Dr. G (Infisum) is the one live external thread — see the external relat
 ## Pillar 4 running ledger (interview prep)
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
+
+- As of 2026-06-21: all 13 P4 topics still `new`, 0 attempts. Expected — interview prep ramps in Phase 2 (Aug–Oct per direction.md); not a focus this summer beyond keeping stories warm. Shipping + metrics study win through August.
 
 ---
 
@@ -303,8 +329,9 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 - **2026-06-18: call RESCHEDULED to 3:45–4:15pm PT** (Dr. G's scheduler moved it the evening of Jun 17 from the original 1:00–1:30pm slot; same Meet link meet.google.com/vnx-fvoc-mgi). The new slot no longer collides with the workout (1:30–3:00).
 - **2026-06-18: call DONE, went well.** Outcomes: Dr. G will share the dashboard with India policy contacts and check for usable data; he raised a US version as a possible direction (Veer to check prior art first). See the 2026-06-18 daily entry.
 - **2026-06-20: thank-you SENT** (in-thread) — references the India share + the US-version idea, commits to building a US version (will start now, update at significant progress), confirms follow-up. **US prior-art check DONE** (no US equivalent of the SME-sector exposure screen exists; data building blocks do, and US sector data is richer so the crosswalk caveat shrinks).
-- Status: **call complete; relationship now in active-routing mode.**
-- Next move: thank-you sent (Jun 20); start the US version and send Dr. G a progress update at a real milestone; await his India intros/data.
+- **2026-06-21 (reconcile): thank-you send CONFIRMED** (final in-thread message, SENT). Two leftover same-thread drafts are superseded versions — to be trashed.
+- Status: **call complete; relationship now in active-routing mode.** A **US version is now a committed Pillar-1 track** (Veer told Dr. G he'd start it and send an update at significant progress).
+- Next move: scope the US v0 tightly this week (reuse India architecture, do not rebuild); send Dr. G a progress update only at a real milestone; await his India intros/data.
 
 ### Trice Systems (via Sudip Uncle — family contact)
 - 2026-06-15: Sudip Uncle (family friend, introduced through Veer's mom) offered intros to two of his contacts' companies — Trice Systems (Hyderabad hyperlocal MSME-commerce) and Mantrika.ai (AI HR-tech). He is closer to the Trice people and can get Veer started ASAP.
