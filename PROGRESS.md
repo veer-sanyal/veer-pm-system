@@ -257,6 +257,9 @@ Reconcile: no drift. Product repo last commit still the Jun 13 telemetry work; c
 Pillar 1 / prior-art:
 - **US prior-art check DONE** (one of the three open Dr. G follow-throughs). Finding: no US equivalent of the sector-level small-business exposure screen exists. What exists is general trade data + official dashboards (USITC *Recent Trends in U.S. Services Trade* annual report w/ interactive sector dashboards; BEA Digital Economy series; WTO DDS; UNCTAD) and country-level policy indices (OECD Digital STRI; ECIPE DTRI) — none rank SME sectors by exposure to a specific digital-trade rule. Bonus: US sector data is richer than India's, so the modeled EBOPS→NIC crosswalk that limits the India build would be a much smaller problem in a US version. Real opening if he wants to pursue it.
 
+Pillar 3 / External (Trice):
+- Surfaced from a WhatsApp screenshot that **Sudip Uncle replied Jun 16 "Sure in 1-2 days will close"** (missed in earlier reconciles). No intro by Jun 20, so Veer **sent a light nudge**. See the Trice entry in the external-relationships log.
+
 Pillar 3 / External (Dr. G):
 - **Post-call thank-you SENT 2026-06-20** (in-thread to badri@infisum.com). References (1) the India share + data check, (2) the US-version idea grounded in the prior-art finding, commits to building a US version (he had nudged Veer toward it): will start now and send an update at significant progress; confirms he'll follow up. Kept short to respect his time. The overdue tripwire is fully closed (insight-without-action loop converted again). **Flag for the Sunday Jun 21 session: a US version is now a committed Pillar-1 track — slot it into the plan there (scope, how it fits against the India dashboard + Daniels + study) rather than over-planning mid-week.**
 
@@ -303,7 +306,9 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 ### Trice Systems (via Sudip Uncle — family contact)
 - 2026-06-15: Sudip Uncle (family friend, introduced through Veer's mom) offered intros to two of his contacts' companies — Trice Systems (Hyderabad hyperlocal MSME-commerce) and Mantrika.ai (AI HR-tech). He is closer to the Trice people and can get Veer started ASAP.
 - 2026-06-15: Veer chose Trice and **sent a thank-you message + the Trice resume over WhatsApp to Sudip Uncle**. Awaiting the intro to the right person at Trice.
-- Next move: when Sudip Uncle connects him, find out role family / hours / remote-vs-onsite before committing; protect dashboard + Daniels. If no reply in ~3-4 days, send a light nudge.
+- 2026-06-16: **Sudip Uncle replied "Sure in 1-2 days will close"** (he expected to close the intro within 1-2 days). Logged from a WhatsApp screenshot Jun 20 — the reply had been missed in earlier reconciles.
+- 2026-06-20: still no intro (4 days on, past his own 1-2 day estimate), so **Veer sent a light nudge over WhatsApp** ("checking in on the Trice intro whenever you have a moment, no rush").
+- Next move: await the intro; when connected, find out role family / hours / remote-vs-onsite before committing; protect dashboard + Daniels. If no movement in another ~3-4 days, nudge once more or treat as cooled.
 
 ### Alumni / PM professionals
 (Empty — Pillar 3 outreach starts week 3)
