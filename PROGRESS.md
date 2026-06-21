@@ -250,6 +250,16 @@ Mid-week reconcile (calendar):
 System:
 - **New standing rule added to SYSTEM-PROMPT.md (CLOSED-LOOP ACCOUNTABILITY): "Ahead-of-schedule replan."** When a scheduled block's task is finished before its day, the auto-reconcile now (a) retitles the original as done so the record is honest and (b) backfills the freed future block with the next-highest-value action from the existing backlog (memory.md Next moves + key-dates Pipeline + open pillar criteria + any pillar at zero), matched to the block type (deep/secondary/small) and capped at 3 substantive items/day, preferring the most time-sensitive open tripwire. Explicitly scoped as mid-week reconcile that refills from the existing backlog only — not a structural replan, which still happens only on Sunday; elapsed blocks are just marked done, never backfilled. This is the rule behind today's Claude-Corps-early → Dr.-G-thank-you swap.
 
+### 2026-06-20 (Sat)
+
+Reconcile: no drift. Product repo last commit still the Jun 13 telemetry work; calendar matches the log; no new inbound on any tracked thread (Claude Corps "application is in" already logged Jun 18, no take-home/interview yet; nothing from Trice; no alumni replies). Confirmed against Gmail that the Dr. G thank-you had not been started (no draft existed).
+
+Pillar 1 / prior-art:
+- **US prior-art check DONE** (one of the three open Dr. G follow-throughs). Finding: no US equivalent of the sector-level small-business exposure screen exists. What exists is general trade data + official dashboards (USITC *Recent Trends in U.S. Services Trade* annual report w/ interactive sector dashboards; BEA Digital Economy series; WTO DDS; UNCTAD) and country-level policy indices (OECD Digital STRI; ECIPE DTRI) — none rank SME sectors by exposure to a specific digital-trade rule. Bonus: US sector data is richer than India's, so the modeled EBOPS→NIC crosswalk that limits the India build would be a much smaller problem in a US version. Real opening if he wants to pursue it.
+
+Pillar 3 / External (Dr. G):
+- **Post-call thank-you DRAFTED** (in-thread reply to badri@infisum.com, sitting in Gmail Drafts, pending Veer's send). References (1) the India share + data check, (2) the US-version idea grounded in the prior-art finding, with an offer to sketch a US version; confirms he'll follow up. The overdue tripwire is now one click from done, not unstarted. Still not closed until Veer hits send.
+
 ---
 
 ## Pillar 2 running ledger (technical)
@@ -286,8 +296,9 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 - **2026-06-16 (~12:02am PT): reply SENT** (in-thread to badri@infisum.com) — proposed a 30-min slot Thursday 1pm, offered to flex. **Dr. G's appointment scheduler immediately BOOKED it: 30-min Google Meet, Thu Jun 18 2026, 1:00–1:30pm PT** (meet.google.com/vnx-fvoc-mgi). The stuck-draft tripwire is fully closed — insight-without-action loop converted.
 - **2026-06-18: call RESCHEDULED to 3:45–4:15pm PT** (Dr. G's scheduler moved it the evening of Jun 17 from the original 1:00–1:30pm slot; same Meet link meet.google.com/vnx-fvoc-mgi). The new slot no longer collides with the workout (1:30–3:00).
 - **2026-06-18: call DONE, went well.** Outcomes: Dr. G will share the dashboard with India policy contacts and check for usable data; he raised a US version as a possible direction (Veer to check prior art first). See the 2026-06-18 daily entry.
+- **2026-06-20: thank-you DRAFTED** (in-thread, pending Veer's send) — references the India share + the US-version idea, offers to sketch a US version, confirms follow-up. **US prior-art check DONE** (no US equivalent of the SME-sector exposure screen exists; data building blocks do, and US sector data is richer so the crosswalk caveat shrinks).
 - Status: **call complete; relationship now in active-routing mode.**
-- Next move: thank-you within 24h (specific, references the India share + US idea, confirms next step); prior-art check on a US version; await his India intros/data.
+- Next move: Veer sends the drafted thank-you; await his India intros/data; the US sketch is on offer if he bites.
 
 ### Trice Systems (via Sudip Uncle — family contact)
 - 2026-06-15: Sudip Uncle (family friend, introduced through Veer's mom) offered intros to two of his contacts' companies — Trice Systems (Hyderabad hyperlocal MSME-commerce) and Mantrika.ai (AI HR-tech). He is closer to the Trice people and can get Veer started ASAP.
