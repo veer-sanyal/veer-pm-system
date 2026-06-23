@@ -128,6 +128,7 @@ Added 2026-06-14. Manages Pillar 2 (metrics fluency) and Pillar 4 (core PM inter
 | `context/study/state.json` | OWNS learning state: mastery, flags, calibration, sessions. Committed every session. |
 | `context/study/research-pm-interview-reality.md` | Compressed research: PM interview reality check (verified company formats, rubrics, sources). |
 | `context/study/research-spacing-science.md` | Compressed research: spacing and retrieval science (Cepeda, Karpicke, Kang, Rohrer). |
+| `context/study/research-first-contact-acquisition.md` | Added 2026-06-23. Deep-research on teach-first vs attempt-first for novices: productive failure needs a prior-knowledge floor, worked-example effect, the teach-first-then-fade rule. Justifies the first-contact teach mode in pedagogy.md/study-tutor.md. |
 
 ### Full originals (`files/study/`; open when the compressed copy lacks detail)
 

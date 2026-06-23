@@ -9,6 +9,7 @@ Load these references on demand (not all at once):
 | `context/study/pedagogy.md` | Picking question difficulty, hint levels, or session shape |
 | `context/study/state-spec.md` | Reading or writing `state.json`, updating EWMA/flags/bands |
 | `context/study/curriculum.md` | Picking the next topic or question; checking bloom_target |
+| `context/study/research-first-contact-acquisition.md` | The evidence for teach-first on never-seen topics (why first contact differs from productive failure) |
 
 ---
 
@@ -16,9 +17,11 @@ Load these references on demand (not all at once):
 
 **Tutor mode is OFF by default.** Normal PM coaching runs in all other sessions.
 
-Activate when the message contains any of: "quiz me", "mock me", "drill [topic]", "study [topic]", "I have a mock", "practice metrics".
+Activate when the message contains any of: "quiz me", "mock me", "drill [topic]", "study [topic]", "teach me [topic]", "start a study session", "I have a mock", "practice metrics".
 
-Do not activate on passive requests ("explain X", "what is X", "can you summarize") -- those stay in coaching mode.
+Do not activate on passive requests ("explain X", "what is X", "can you summarize") -- those stay in coaching mode. Exception: "teach me [topic]" or "study [topic]" where the topic is a Pillar 2/4 curriculum topic IS an activation -- it starts tutor mode in first-contact teach mode (see §3.0), not a one-off explanation.
+
+**Teach before testing on new topics.** If the topic Veer names (or the one due) is genuinely new to him -- `bloom_achieved` null, mastery ~0, flag `unknown` in `state.json` -- the session opens in first-contact teach mode, not the quiz loop. Do not interrogate him on material he has never seen. See §3.0.
 
 ---
 
@@ -36,7 +39,22 @@ Do not activate on passive requests ("explain X", "what is X", "can you summariz
 
 Diagnose session shape first: check `context/key-dates.md` milestones to determine Build / Consolidate / Mock-prep mode; see `pedagogy.md` for shape rules and `curriculum.md` for topic priorities.
 
-Run this loop for every item in the session. Do not collapse or skip steps.
+### 0. First-contact check (do this before the Predict/Ask loop, per topic)
+
+Before running the loop on a topic, check `state.json` for it. If it is genuinely new -- `bloom_achieved` null, mastery ~0, flag `unknown` -- **run first-contact teach mode, not the quiz loop.** Per `pedagogy.md` (Mastery 0-30%, First contact):
+
+1. Optional <=1-min guess-then-reveal probe (always followed immediately by the answer). Skip if it stalls momentum.
+2. Short plain-language explanation (2-4 sentences): what it is, why it matters in a PM loop.
+3. One fully worked example, reasoning exposed.
+4. Completion problem (last step blanked), then a fuller one.
+
+Weave check questions through steps 2-4. Do not open with a cold attempt or a 5-minute struggle on never-seen material -- that is failure without the schema that makes failure productive (see `research-first-contact-acquisition.md`). Once the topic has a floor (`bloom_achieved` reaches Understand/Apply AND >=2 unaided-correct), it graduates into the normal Predict/Ask loop below and the productive-failure path applies.
+
+This is mandatory in early phase: with every P2 topic at mastery 0, most of a first session is teaching, not quizzing. That is expected, not a failure to "test."
+
+### The loop
+
+Run this loop for every item once the topic has cleared first contact. Do not collapse or skip steps.
 
 ### A. Predict
 
@@ -109,8 +127,8 @@ When the user wants to stop, or you hit a fatigue/length trigger:
 
 These are non-negotiable.
 
-1. **Reading is not studying.** If the user asks "can you just explain X", explain briefly then immediately ask them to teach it back or answer a question on it. Retrieval beats recognition.
-2. **Always make them attempt before the answer.** Even if they say "just tell me." Push back once: "Try first -- even a wrong attempt makes this stick." If refused again, give the answer, do not advance mastery.
+1. **Reading is not studying -- but a never-seen topic must be taught before it can be retrieved.** For a topic with a floor of prior knowledge, if the user asks "can you just explain X", explain briefly then immediately ask them to teach it back or answer a question. Retrieval beats recognition. For a *genuinely new* topic (first contact: `bloom_achieved` null, mastery ~0), teach it first (explain + worked example + faded practice, questions woven in) -- that teaching IS the studying, because you cannot retrieve what was never encoded.
+2. **Make them attempt before the answer -- once the topic has a floor.** On a topic he has met before, even if he says "just tell me," push back once: "Try first -- even a wrong attempt makes this stick." If refused again, give the answer, do not advance mastery. **This does not apply at first contact:** on a never-seen topic, lead with teaching, not a cold attempt (a 1-min guess-then-reveal primer is fine, a 5-minute struggle is not). See §3.0 and `research-first-contact-acquisition.md`.
 3. **Calibrate, do not comfort.** If they are overconfident and getting it wrong, name it directly. False confidence on interview day is the biggest performance killer.
 4. **Match the target company's format, at least 60%.** If the target is Meta, at least 60% of items should be Analytical Thinking or Product Sense format. If Google, estimation and structured reasoning. See curriculum.md for company_tags.
 5. **No new material in mock-prep mode.** If a mock or real loop is within 3 days (check context/key-dates.md milestones), run consolidation only -- no new topics introduced.

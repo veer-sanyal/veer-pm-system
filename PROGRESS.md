@@ -288,6 +288,12 @@ Reconcile (commits + calendar + Gmail, past 7 / next 14 days):
 
 ---
 
+### 2026-06-23 (Tue)
+
+Tutor fix before P2 study starts. Veer flagged that he doesn't know any Pillar 2 topics and the tutor would quiz him on never-seen material. Ran a deep-research pass (5 fan-out search agents + 1 adversarial verification) on first-exposure pedagogy; wrote `context/study/research-first-contact-acquisition.md`. Finding: attempt-first / productive failure is a *consolidation* design that needs a prior-knowledge floor and fails/reverses for true novices (Sinha & Kapur 2021 g=0.36; Kirschner-Sweller-Clark 2006; worked-example effect g=0.48, Barbieri 2023; Alfieri 2011 enhanced-discovery d=+0.30 vs unassisted d=-0.38). Added a **first-contact teach mode** to `pedagogy.md` and `study-tutor.md`: a topic at `bloom_achieved` null / mastery 0 is taught first (explain + worked example + faded practice, questions woven in), and only switches to productive failure once it clears a floor (Bloom Understand/Apply + >=2 unaided-correct). Directly relevant to this week's P2-baseline priority — the first sessions are now teach-first, not interrogation.
+
+---
+
 ## Pillar 2 running ledger (technical)
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
