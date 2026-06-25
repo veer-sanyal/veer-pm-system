@@ -158,10 +158,11 @@ The "feels worse" property is precisely why interleaving is not optional: learne
 ### Mastery EWMA
 
 ```
-mastery_new = (1 - alpha) * mastery_old + alpha * session_accuracy
+mastery_new = (1 - alpha) * mastery_old + alpha * item_score
 
-alpha = 0.3  (normal -- prevents a single bad session from tanking a solid topic)
-alpha = 0.5  (after a gap >7 days -- recent performance matters more after a long break)
+item_score = 1.0 Strong / 0.5 Borderline / 0.0 Weak. The EWMA now updates once per graded item (state is written incrementally), not once per session.
+alpha = 0.3  (normal -- a single weak item cannot tank a solid topic; the weakness_flag also gates on attempts >=5)
+alpha = 0.5  (on the first item back after a gap >7 days -- recent performance matters more after a long break)
 ```
 
 A single bad session does not trigger a flag change. Only when the EWMA crosses a threshold does the `weakness_flag` update.
@@ -200,27 +201,35 @@ The streak counter is computed from `format_breakdown` / recent ratings at write
 
 `error_notes` keeps the 5 most recent misconception strings (newest wins). Additionally, drop a note when the same topic later earns a Strong rating on an item that targets that misconception -- a fixed misconception should not keep surfacing as a live weakness. When in doubt, keep it; a stale note is cheaper than a missed one.
 
-### Write protocol (replaces manual paste)
+### Write protocol (incremental -- write per item, commit at close)
 
-The tutor writes state at session close. No manual copy-paste. No separate dashboard file.
+The tutor writes state continuously, after every graded item, not only at close. No manual copy-paste, no separate dashboard file. Rationale: a session that ends abruptly (the tab closes, the chat ends, context runs out) must never lose work already done. The 2026-06-23 session was lost this way until manually re-saved two days later; incremental writes prevent a repeat.
 
-**At session close, in order:**
+**After every graded item (incremental, silent -- do this BEFORE asking the next question):**
 
-1. Compute all session updates in memory: new attempts, updated mastery EWMA, Bloom promotions or demotions, calibration deltas, habit log entry, any new error notes.
-2. Update `state.json` in place: overwrite the file at `context/study/state.json` with the new values. Do not accumulate a second JSON or output a code block for manual pasting.
-3. Append a dated one-liner to `PROGRESS.md` in this format:
+1. Compute that item's updates in memory: increment `attempts`; update the mastery EWMA with the item score; recompute `weakness_flag` / `review_band` / `next_review`; update the topic `calibration` fields and `calibration_overall.n_judgments`; apply any Bloom streak change; add an `error_note` if a new misconception surfaced; update `format_breakdown`; set `last_practiced` to today.
+2. Overwrite `context/study/state.json` in place with the new values. This write is silent (never shown to the user) and is the durability guarantee.
+
+**At session close (or a fatigue/length trigger):**
+
+1. Confirm the final item's write landed, then add or refresh the `habits.sessions` entry for this session (`date`, `duration_min`, `session_type`, `items`, `accuracy`) and `habits.median_session_min`. The per-topic fields are already current from the incremental writes -- verify, do not re-derive from scratch.
+2. Append a dated one-liner to `PROGRESS.md`:
    ```
    YYYY-MM-DD: P2/P4 session - N items, X% accuracy, topics: [topic names]. Weak: [red/yellow flags if any].
    ```
-4. Stage and commit:
+3. Stage and commit (via the clean sandbox-clone protocol in SYSTEM-PROMPT, not the mounted .git):
    ```
    git add context/study/state.json PROGRESS.md
    git commit -m "Study session YYYY-MM-DD: [pillar] [session_type] - N items, X% accuracy"
    ```
 
+**Commit cadence:** write the file every item; commit once at close. Do NOT commit per item -- each commit is a full clone-and-push, and per-item commits would make the session crawl. The per-item disk writes (not commits) are the in-session durability guarantee.
+
+**Safety net:** because `state.json` on disk is always current, a session that ends without a clean close is recovered by the next start-of-session reconcile, which reads `state.json`, detects the drift against the last commit, and commits it. Progress is never lost even if close-out never runs.
+
 **Anti-patterns to avoid:**
 
-- Do not dump `state.json` content to the user unless debugging. Reading is silent.
-- Do not batch edit state mid-session. All updates apply at close.
+- Do not dump `state.json` content to the user unless debugging. Reading and writing are silent.
+- Do not commit on every item (too slow). Write the file every item; commit at close.
 - Do not create a separate `dashboard.md` file. The human-readable current-state view lives in `memory.md`'s P2/P4 section, which is already read at session start.
 - Do not add schema fields without bumping `schema_version` and documenting the change.

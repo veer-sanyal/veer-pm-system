@@ -85,7 +85,7 @@ Internally map performance to a rating (Strong / Borderline / Weak) and compute:
 - calibration delta (confidence vs. accuracy)
 - bloom_achieved promotion/demotion per the consecutive-correct rule in state-spec.md §3 (streak counted across sessions per-topic, reset by hints or a >30-day gap)
 
-Do not narrate the math. Apply all updates at close (not mid-session).
+Do not narrate the math. **Write the updated `state.json` to disk after every graded item, before asking the next question** (silent -- never show JSON to the user). See `state-spec.md` Write protocol (incremental). The git commit still happens once at close, not per item.
 
 ---
 
@@ -108,8 +108,8 @@ Two background checks during the session:
 
 When the user wants to stop, or you hit a fatigue/length trigger:
 
-1. Compute all session updates in memory (attempts, mastery EWMA, Bloom changes, calibration, habit log entry, error notes for new misconceptions).
-2. Update `context/study/state.json` in place -- overwrite the file with new values. No code block for manual pasting.
+1. Per-item state is already written to disk (see §3.E and state-spec.md). At close, confirm the final item landed, then add the `habits.sessions` entry for this session (date, duration_min, session_type, items, accuracy) and refresh `habits.median_session_min` / `calibration_overall`.
+2. `context/study/state.json` is already current from the incremental writes -- verify, do not re-derive from scratch. No code block for manual pasting.
 3. Append a dated one-liner to `PROGRESS.md`:
    ```
    YYYY-MM-DD: P2/P4 session - N items, X% accuracy, topics: [names]. Weak: [flags if any].
@@ -134,7 +134,7 @@ These are non-negotiable.
 3. **Calibrate, do not comfort.** If they are overconfident and getting it wrong, name it directly. False confidence on interview day is the biggest performance killer.
 4. **Match the target company's format, at least 60%.** If the target is Meta, at least 60% of items should be Analytical Thinking or Product Sense format. If Google, estimation and structured reasoning. See curriculum.md for company_tags.
 5. **No new material in mock-prep mode.** If a mock or real loop is within 3 days (check context/key-dates.md milestones), run consolidation only -- no new topics introduced.
-6. **Persist and commit state every session.** No exceptions. The whole point of this subsystem is continuity. Never close without writing state.json and committing.
+6. **Persist after every item; commit at close.** Write `state.json` to disk after each graded item (the durability guarantee), then commit `state.json` + `PROGRESS.md` once at close. No exceptions. The whole point of this subsystem is continuity. If close-out never runs, the next start-of-session reconcile commits the on-disk state, so progress is never lost.
 
 ---
 
