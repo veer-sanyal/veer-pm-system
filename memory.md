@@ -37,7 +37,7 @@ State as of 2026-06-21 (Sunday session):
 - All 23 topics (10 P2 + 13 P4): still **new**, 0 attempts, last_practiced null. **Zero study sessions in the 7 days since the tutor was installed (Jun 14).**
 - Calibration: n/a (no data)
 - This is a **pillar at zero** — flagged this session. P2 metrics study is the week-of-Jun-22 priority; establishing the first reps (metric trees, NSM/guardrail, numerator-denominator, significance/CIs, metric-drop) is the job. P4 stays dormant until Phase 2 (Aug+).
-- **Update (Jun 25 mid-week reconcile): still zero.** `state.json` unchanged through Thu Jun 25 — Mon/Tue study deep blocks slipped (Tue went to tutor-system work). Second straight zero week; the Jun 21 "protect the deep slot" build-around failed its first clean test (see patterns.md P2). Getting the first rep on the board this week is now the single most important action.
+- **Update (Jun 25 reconcile, corrected): pillar-at-zero BROKEN.** A 35-min first-contact session ran Jun 23 — metric trees to an Apply floor (mastery 0.45, yellow; goal-vs-NSM trap hit then corrected), NSM/guardrail introduced. The session had not been persisted to `state.json` until Jun 25, so the initial reconcile misread it as zero. First reps are on the board; the Jun 21 cued-deep-block build-around produced its first rep. Both topics due for cold re-test Jun 25; calibration (confidence-number-first) not yet sticking. (Full regenerated summary refreshes at the Sunday session.)
 
 ---
 

@@ -35,11 +35,11 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 
 **Evidence.**
 - Week of 2026-06-15: the Dr. G call and the Claude Corps submission both landed; Pillar 2 metrics study went to absolute zero (6 scheduled blocks, 0 sessions) and alumni finished 1 of 3.
-- Week of 2026-06-22 (through Thu Jun 25): study at zero a **second straight week** despite this being the protected-priority week with **no big external event** — the exact condition the Jun 21 build-around relied on. The Tue deep slot was spent on tutor-system work, not a rep. The "protect the cued deep block" counter-move failed its first clean test.
+- Week of 2026-06-22: the cued deep block produced the **first ever study rep** — a 35-min first-contact session Jun 23 (metric trees to an Apply floor; NSM introduced). The Jun 21 build-around got its first rep on the board (tentative win). Caveats: only 1 of ~4 planned study blocks ran, and the session nearly read as zero because the tutor did not persist `state.json` until prompted — a tooling gap, not avoidance. Verdict on whether the full-week habit holds is a Sunday call.
 
 **Cost.** The biggest technical gap (metrics and statistics fluency) is precisely the work most likely to get dropped, because no one is waiting on it.
 
-**Build-around (sharpened 2026-06-25).** Protecting the deep slot alone is not sufficient — it failed on a week with no competing external event. Next counter-move to trial: make the very first rep a teach-first 10-minute read (lowest activation energy, now that first-contact teach mode exists), bound to an existing daily cue, with the done-check answered live rather than self-reported. Keep the original guards: cued start (first 25 min non-negotiable) over the secondary slot that yields first; pre-commit a non-zero floor in big-external-event weeks. Full structural revisit belongs at the Sunday session, not mid-week (P6 guard).
+**Build-around (updated 2026-06-25).** First clean test produced a rep: cued deep block + first-contact teach mode (taught, not interrogated) got the first session done. Keep it — cued start (first 25 min non-negotiable) over the secondary slot that yields first; first-contact teach mode for any topic at mastery 0; pre-commit a non-zero floor in big-external-event weeks. Watch item: persist `state.json` at session close so progress is actually visible (a missed write nearly hid this rep). Verdict on full-week consistency stays a Sunday call.
 
 ---
 
@@ -96,4 +96,4 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 
 ---
 
-_Last updated: 2026-06-25 (mid-week reconcile) — P2 sharpened after study hit zero a second straight week; build-around's first clean test failed._
+_Last updated: 2026-06-25 (mid-week reconcile) — P2 corrected: first study rep landed Jun 23 (initially misread as zero from an unsaved state.json); build-around produced its first rep._
