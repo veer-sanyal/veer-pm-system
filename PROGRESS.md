@@ -296,6 +296,16 @@ Reconcile (start-of-session, Tue Jun 23): **Claude Corps REJECTED** — Greenhou
 
 ---
 
+### 2026-06-25 (Thu)
+
+Reconcile (start-of-session, mid-week). Drift found against the Jun 21 plan:
+- **P2 metrics study at ZERO again.** `state.json` shows 0 sessions, every topic still `new`, 0 attempts. Mon's metric-tree-baseline and Tue's NSM/guardrail + numerator-denominator deep study blocks did not happen; the Tue Jun 23 session went to tutor-system work (first-contact pedagogy research) instead of a rep. This is the **second consecutive week study hit zero**, and the Jun 21 build-around (protect cued reps in the deep slot in a week with no big external event) failed its first test — this week had no big external event and still got nothing. Logged as a P2 instance.
+- **Telemetry readout still unwritten.** Product repo last commit is still Jun 13 (GoatCounter wire); no DECISIONS entry, no PROGRESS readout. Wed Jun 24's deep block slipped. The item has stalled since ~Jun 12 across many sessions — decomposed to the smallest physical action: paste the already-captured Jun 16 numbers (101 visits, 66% from LinkedIn, section-view funnel ~13→6) as a 5-line DECISIONS entry and commit. Marked a tripwire; naming it plainly — this is a parked task, not a hard one.
+- **Alumni (LaCroix / Akash Ravi / Allan Tan): unverifiable from here.** No PROGRESS record of sends and LinkedIn outbound can't be confirmed via Gmail. Flagged for Veer to confirm; if they slipped, P5 (batch-to-deadline) is recurring despite the front-load fix.
+- Two superseded Dr. G drafts (Jun 21) still in Drafts (today's small-item cleanup, not yet done). No new inbound on tracked threads since the Jun 23 Claude Corps rejection.
+
+---
+
 ## Pillar 2 running ledger (technical)
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.

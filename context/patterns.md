@@ -35,10 +35,11 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 
 **Evidence.**
 - Week of 2026-06-15: the Dr. G call and the Claude Corps submission both landed; Pillar 2 metrics study went to absolute zero (6 scheduled blocks, 0 sessions) and alumni finished 1 of 3.
+- Week of 2026-06-22 (through Thu Jun 25): study at zero a **second straight week** despite this being the protected-priority week with **no big external event** — the exact condition the Jun 21 build-around relied on. The Tue deep slot was spent on tutor-system work, not a rep. The "protect the cued deep block" counter-move failed its first clean test.
 
 **Cost.** The biggest technical gap (metrics and statistics fluency) is precisely the work most likely to get dropped, because no one is waiting on it.
 
-**Build-around.** Protect self-directed work in the cued deep slot (first 25 minutes non-negotiable), not the secondary slot that yields first. Give it artificial external accountability via the Morning Briefing done-check. Schedule the heaviest self-directed push in weeks with no big external event. When a week has a major external event, pre-commit a reduced but non-zero floor for the self-directed pillar rather than assuming it survives.
+**Build-around (sharpened 2026-06-25).** Protecting the deep slot alone is not sufficient — it failed on a week with no competing external event. Next counter-move to trial: make the very first rep a teach-first 10-minute read (lowest activation energy, now that first-contact teach mode exists), bound to an existing daily cue, with the done-check answered live rather than self-reported. Keep the original guards: cued start (first 25 min non-negotiable) over the secondary slot that yields first; pre-commit a non-zero floor in big-external-event weeks. Full structural revisit belongs at the Sunday session, not mid-week (P6 guard).
 
 ---
 
@@ -95,4 +96,4 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 
 ---
 
-_Last updated: 2026-06-21 (Sunday session) — doc created and seeded with P1 to P6._
+_Last updated: 2026-06-25 (mid-week reconcile) — P2 sharpened after study hit zero a second straight week; build-around's first clean test failed._
