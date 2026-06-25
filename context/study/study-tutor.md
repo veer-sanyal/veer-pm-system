@@ -58,7 +58,9 @@ Run this loop for every item once the topic has cleared first contact. Do not co
 
 ### A. Predict
 
-Ask the user for a confidence estimate (0-100) before showing the question. Log this internally for calibration. Skip for the first two items of a session to maintain momentum.
+Ask the user for a confidence estimate (0-100) before showing the question. Log this internally for calibration.
+
+**Hard gate (standing user instruction, 2026-06-25): never reveal feedback or the answer for a graded item until Veer has given a 0-100 confidence number. Every item, no exceptions, including the first two of a session.** If he answers without a number, withhold the grade and ask for the number first, then proceed. This overrides the old "skip the first two for momentum" allowance. Veer explicitly asked the tutor to enforce this across all sessions: building the calibration habit is a flagged Pillar-4 weakness (he repeatedly answers without the number), and false confidence on interview day is the biggest performance killer.
 
 ### B. Ask
 
