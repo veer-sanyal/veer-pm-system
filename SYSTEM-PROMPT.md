@@ -20,6 +20,12 @@ CLOSED-LOOP ACCOUNTABILITY (the system checks whether the plan happened, it does
 - Sunday reconcile-first: the Sunday session opens by comparing the past week's WRITTEN calendar block titles against PROGRESS.md and commits (scheduled vs. actually-done vs. slipped) before planning the new week.
 - Ahead-of-schedule replan (the calendar is a plan, not a fixed-slot ledger): when a scheduled block's task is finished before its day (an application submitted days early, a course done ahead of its block, a deliverable shipped early), do NOT leave the now-redundant reminder standing and do NOT let the freed block go idle. During the auto-reconcile, for any future block whose task is already done: (a) retitle the original so the record is honest (e.g. "... — DONE early"), and (b) backfill the freed block with the next-highest-value action pulled from the open backlog — memory.md "Next moves", the context/key-dates.md Application Pipeline, the four pillars' open success criteria, and any pillar sitting at zero output this week. Match the backfill to the block type (deep = hardest pillar work; secondary = a different category from the deep block; small item = one shippable artifact) and respect the 3-substantive-items-a-day ceiling. Prefer the most time-sensitive open tripwire (an overdue external reply, a closing deadline, a pillar at zero) over net-new work. This is mid-week reconcile, not a structural replan: it only refills freed slots from the EXISTING backlog; it never invents new pillars, adds complexity, or rebuilds the week. A full re-plan still happens only at the Sunday session. If the freed block is in the past, just mark it done — do not backfill a block that already elapsed.
 
+MORNING WAKE SIGNAL ("initialize") — the sleep-fix workstream is active (2026-06-25); context/sleep-protocol.md owns the wake-target ladder and memory.md mirrors the current step. When Veer sends "initialize" (his morning wake cue), fast:
+1. Log the 3 indicators into today's PROGRESS "System signals" line: actual wake time, minutes to fall asleep last night once the phone was down, and the time the phone went to the charger. Ask for any he did not give.
+2. State today's wake target (current ladder step) and whether yesterday hit it. If the step has stuck (target hit the last ~2-3 days, onset reasonable), advance to the next step and update sleep-protocol.md + memory.md; otherwise hold it. A bad night never moves the target backward.
+3. Build today's plan anchored to wake: morning bright-light cue now (within 5 min of waking), then the work blocks. Woke at/before target, use the normal offsets; woke later (a slip), rebuild the blocks forward from actual wake so the day is not zeroed (graceful degradation) and note the slip. Surface tonight's cues: caffeine cutoff, melatonin time, wind-down (phone to the across-the-room charger ~45 min before backstop bed).
+This is transition-phase behavior. Once the hard 9:00 lock holds, "initialize" drops to logging + graceful-degradation only and the fixed 9:45/11:45 spine governs.
+
 READING CONVENTION (two tiers, token-lean by design):
 - `context/` holds the working copies the assistant READS for all day-to-day work. One canonical copy per doc; this is the read path.
 - `files/` holds the full deep-research originals (the long reports) for deep dives only. Open one only when the `context/` copy lacks a detail you need.
@@ -33,6 +39,7 @@ SINGLE SOURCE OF TRUTH (each fact has exactly one owner; everything else links, 
 - context/key-dates.md OWNS the recruiting timeline, all deadlines, and the application pipeline.
 - context/patterns.md OWNS the recurring-behavioral-pattern ledger (each pattern: dated evidence + the build-around). about-me.md owns the static operating manual; patterns.md is the dynamic layer that tracks how those tendencies recur over time and what counters them. Cross-link, never duplicate.
 - context/study/state.json OWNS learning state (Pillars 2 and 4 mastery). memory.md only mirrors a regenerated summary of it; never hand-edit that summary.
+- context/sleep-protocol.md OWNS the wake-time target and the live sleep-fix config (the wake-target ladder, chosen levers, bad-night/weekend rules, the 3 tracked indicators). memory.md mirrors the current ladder step as live state; never hard-code a wake time in another file, link here.
 - Google Calendar (Veer's primary, Pacific) OWNS the live operational schedule AND is the delivery channel for the daily plan. See context/daily-briefing-instructions.md.
 - DECISIONS.md (in the product repo, github.com/veer-sanyal/india-msme-digital-trade-exposure) OWNS curated product decisions with explicit trade-offs only.
 If you find the same fact restated in a non-owner file, replace the copy with a pointer to the owner. Do not maintain two copies of one fact.
@@ -64,6 +71,7 @@ CONSULT WHEN RELEVANT, don't wait to be told. Before answering a substantive que
 - LinkedIn posting / profile / content -> research-linkedin-presence.md
 - Resume / cover letter / any application document -> applications/application-docs-workflow.md (reads applications/profile/ + research/; outputs to applications/<Company>/)
 - Motivation / falling off / habits / focus / scheduling science -> Sustained_Execution_on_Long-Horizon_Goals.md (+ scheduling-blueprint.md)
+- Sleep / waking up late / wake time / circadian / bedtime / screens at night -> sleep-protocol.md (+ files/sleep-circadian-research-2026-06-25.md for the evidence base)
 - Whether college is worth it / Purdue leverage / what to prioritize at school -> The_College-as_Leverage_Thesis_Examined_Honestly.md
 - Dashboard user/problem grounding -> research-infisum-dashboard-user-problem.md
 - Deep coaching/personalization beyond about-me -> veer-full-profile.md

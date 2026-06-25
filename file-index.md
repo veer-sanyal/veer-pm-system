@@ -31,6 +31,7 @@ Project: Veer's PM-internship execution system targeting a Summer-2027 PM intern
 | Direction | `direction.md` | OWNS strategy: the goal + four pillars + success criteria + phase plan + decision rules. |
 | Scheduling blueprint | `scheduling-blueprint.md` | OWNS the weekly/daily structure rules (consistency over surges, cued behavior, visible progress, recovery as execution, the Sunday session, weekly volume targets). |
 | Daily briefing spec | `daily-briefing-instructions.md` | OWNS how the daily plan + Morning Briefings + Sunday session are composed and written to the calendar. Delivery is Google Calendar, not email (the Gmail connector cannot send). Renamed 2026-06-25 from `daily-email-instructions.md` for clarity (the old name implied an inbox). |
+| Sleep protocol | `sleep-protocol.md` | OWNS the wake-time target + live sleep-fix config: the wake-target ladder, chosen levers (light + 0.5mg melatonin + phone friction), bad-night/weekend rules, the 3 tracked indicators, and the "initialize" wake-signal behavior. Added 2026-06-25. Evidence base in `files/sleep-circadian-research-2026-06-25.md`. |
 | Key dates | `key-dates.md` | OWNS the recruiting timeline, all deadlines, and the Application Pipeline. Worked back from Google APM (~early-mid Oct 2026). |
 | Dashboard roadmap | `infisum-dashboard-roadmap.md` | Build plan for Pillar 1 (the India MSME digital-trade-exposure dashboard): vision, phased plan, stack, success criteria. |
 | Full profile | `veer-full-profile.md` | Deep psychological/coaching profile for personalization. Reference, not day-to-day lens. Full original in `files/veer-full-profile.md`. |
@@ -53,6 +54,7 @@ All read copies are in `context/`. A `files/` entry means the full uncompressed 
 | Adjacent roles to PM | `research-adjacent-roles-to-pm.md` | — (context-only) |
 | Purdue network recruiting | `research-purdue-network-recruiting.md` | — (context-only) |
 | Dashboard user problem | `research-infisum-dashboard-user-problem.md` | — (context-only) |
+| Sleep / circadian (2026-06-25) | operational protocol in `sleep-protocol.md` | `files/sleep-circadian-research-2026-06-25.md` |
 
 ---
 

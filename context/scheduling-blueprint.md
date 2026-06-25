@@ -20,7 +20,7 @@
 
 **Small-but-visible item (15-30 min):** One shipped artifact -- alumni message, resume bullet, Anki review, practice problem out loud. Prevents zero-output days.
 
-**Recovery -- not optional:** 7-8 hr sleep (deprivation impairs cognition; supports memory consolidation). Preserve workout and skincare at night (end-of-day cue). One genuine social or non-instrumental moment -- guards against "optimized but hollow" failure mode.
+**Recovery -- not optional:** 7-8 hr sleep (deprivation impairs cognition; supports memory consolidation). Preserve workout and skincare at night (end-of-day cue). One genuine social or non-instrumental moment -- guards against "optimized but hollow" failure mode. The wake time and sleep schedule are owned by context/sleep-protocol.md (fixed-wake-time advance, currently active); the nightly wind-down cue is the end-of-day anchor.
 
 ---
 
@@ -90,7 +90,7 @@ Recurring blocks: deep 9:45, secondary 11:45, workout 1:00, small item 2:30 (Pac
 
 ## What the system does NOT do
 
-- Track mood, energy, or feeling; track hours beyond pillar minutes
+- Track mood, energy, or feeling; track hours beyond pillar minutes. (Exception from 2026-06-25: the 3 behavioral sleep indicators in sleep-protocol.md — wake time, sleep-onset latency, phone-down time — ARE tracked. They are behavioral, not mood/energy, and predict the wake schedule moving earlier.)
 - Send motivational messages or adjust based on how Veer feels
 - Add features for Veer's optimization urges
 - Use streaks (cause perfectionism collapse; research supports recoverable consistency over unbroken chains)

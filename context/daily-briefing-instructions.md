@@ -17,8 +17,13 @@ Two layers: **recurring spine** (set once, never rewritten) and **content layer*
 | Workout + lunch | Daily | 1:00–2:30 | — |
 | Small item + admin | Mon–Sat | 2:30–3:30 | At start |
 | Sunday planning | Sun | 4:00 | Per protocol |
+| Wind-down cue | Daily | ~45 min before backstop bed (sleep-protocol.md step) | Phone to the across-the-room charger; lights down |
 
 Reminders fire at block start — the trigger, not 45 minutes early.
+
+## Wake-anchored delivery (transition phase, from 2026-06-25)
+
+Until the hard 9:00 wake lock holds (see sleep-protocol.md), the spine rides the wake target, not the clock. Each morning Veer signals "initialize"; the day's blocks build from the current step's wake target (deep at wake + ~45 min, then the usual offsets). If he wakes later than target, blocks rebuild forward from actual wake so the day is not zeroed, and the target does not move back. During this phase the 9:00 Morning Briefing leads with the 3-indicator log (wake time, minutes-to-sleep, phone-down time). Once 9:00 is locked, the fixed times below govern and "initialize" drops to logging only.
 
 ## Content layer (written each Sunday)
 
@@ -115,7 +120,7 @@ If anything in today's plan has shifted, note it for the Sunday session. We adju
 - Answers to daily question not captured
 - One pillar at zero output
 - Veer asking to rebuild mid-week
-- Sleep regularly below 6 hours
+- Wake time drifting >1h off the current sleep-protocol.md target for 2+ days (the social-jetlag / relapse signal), or sleep regularly below 6 hours
 - Workout slipping (leading indicator)
 
 Response: reduce volume, fix cues, or find the off-system pressure eating bandwidth. Diagnose and adjust at Sunday.
