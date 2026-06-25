@@ -16,7 +16,7 @@ All 10 verified live on LinkedIn 2026-06-09 (titles from current profiles/headli
 | 2 | Monica Marathe | Amazon (Amazon Music) | Product | Purdue (verify yr) | Purdue | linkedin.com/in/monica-marathe | | | | SF Bay Area |
 | 3 | Akash Ravi | Microsoft | AI PM (SharePoint/Copilot) | Purdue grad, ex-Cisco | Purdue | linkedin.com/in/akash-ravi | | | | Active poster — comment on a post before messaging. Research doc had him at Amazon; corrected |
 | 4 | Daniel Anicito | Fidelity Investments | Associate PM (now started) | Purdue student (FMA VP Education) | 2nd degree; mutuals: Christopher, Ian +5 | linkedin.com/in/daniel-anicito | 2026-06-20 (connect note) | **2026-06-25 (YES)** | scheduling — reply SENT Jun 25 proposing Tue Jun 30 5:30pm ET; awaiting confirm → then send calendar invite | First alumni reply. Warm yes to a call. Peer who just ran the APM process — ask what moved the needle. **Call prep: `networking/Anicito-Fidelity-call-prep.md`** |
-| 5 | Steven LaCroix | Elanco | Associate Product Manager | Purdue (recent grad), Data Sci & Stats | 2nd degree; mutual: Josh; Data Mine TA/PM | linkedin.com/in/stevenjlacroix | | | | Data-to-PM path (CV intern → Apprentice → Associate PM). Cleanest send |
+| 5 | Steven LaCroix | Elanco | Associate Product Manager | Purdue (recent grad), Data Sci & Stats | 2nd degree; mutuals: Josh, Balthazar | linkedin.com/in/stevenjlacroix | 2026-06-25 (connect note) | | | Data-to-PM path (CV intern → Apprentice → Associate PM). SENT via Chrome — trimmed to 194/200; "rising junior" framing; Data Mine attributed to him only (not implying Veer is in it); easy-out kept |
 | 6 | Nikhil Panse | Microsoft | Product Manager 2 | Purdue (verify yr) | Purdue | linkedin.com/in/npanse | | | | Right seniority band (3-8 yrs) |
 | 7 | Sharoon Srivastava | Microsoft | Principal Product Manager | Purdue (verify yr) | Purdue; Chicago Booth MBA | linkedin.com/in/sharoonsrivastava | | | | Senior — referral-capable |
 | 8 | Kirtana Venkatraman | Meta | GenAI Product Manager | Purdue (verify yr) | Purdue | linkedin.com/in/kirtana | | | | AI PM angle fits dashboard hook |
@@ -100,8 +100,10 @@ No name-drops: the Purdue tie carries the warm angle, and a named mutual only he
 
 Lesson for future sends: LinkedIn free connection notes cap at 200 chars (and ~3-5 personalized invites/month) — keep connect-note drafts ≤200, or connect-without-note / comment-then-message for the rest.
 
-**2. Steven LaCroix** (Associate PM @ Elanco — 2nd degree). Cleanest send. Real data-to-PM path: Data Analytics intern (computer-vision model) → Apprentice PM → Associate PM; Data Mine TA/PM. Send as a connection note.
-> Hi Steven, fellow Boilermaker here. Your Data Mine to Associate PM path at Elanco is the exact data-to-PM jump I'm working toward as a sophomore, and I just shipped a live MSME trade dashboard. Could I get 15 min on how you made that move? No pressure if timing's tight.
+**2. Steven LaCroix** (Associate PM @ Elanco — 2nd degree). **SENT 2026-06-25** as a connection note via Chrome. The original 265-char draft exceeded LinkedIn's 200-char free-note cap; trimmed in three passes with Veer (194/200): dropped the dashboard hook + "at Elanco" for room, reworded so the Data Mine reads as Steven's path only (Veer is NOT in the Data Mine — caught by Veer), updated "sophomore" → "rising junior" (accurate for summer + on-cycle positioning), kept the easy-out. Final sent text:
+> Hi Steven, fellow Boilermaker. Your Data Mine to Associate PM path is the kind of data-to-PM move I'm working toward as a rising junior. Could I get 15 min on how you made it? No worries if not.
+
+Original draft (superseded): "Hi Steven, fellow Boilermaker here. Your Data Mine to Associate PM path at Elanco is the exact data-to-PM jump I'm working toward as a sophomore, and I just shipped a live MSME trade dashboard. Could I get 15 min on how you made that move? No pressure if timing's tight."
 
 **3. Akash Ravi** (AI PM @ Microsoft, SharePoint/Copilot — Purdue, ex-Cisco). **3rd degree**, so a free connection note may be gated: first Follow him and leave a genuine comment on his "Skills for AI in SharePoint" post, then a day later send this as a message/InMail. Hook is his weekend local-SLM project (he respects people who ship).
 > Hi Akash, Purdue grad to current student. Your local-SLM grammar-checker project stuck with me. I just shipped a live dashboard scoring India's MSME sectors for digital-trade exposure and I'm building AI-PM judgment. Could I ask one specific question on how you scope AI features in SharePoint?
@@ -114,7 +116,7 @@ After sending, fill the Msg date / Reply / Call columns in the shortlist above a
 
 ## Running ledger
 
-- Messages sent: 1 (Daniel Anicito, 2026-06-20)
+- Messages sent: 2 (Daniel Anicito, 2026-06-20; Steven LaCroix, 2026-06-25)
 - Replies: 1 (Daniel Anicito, 2026-06-25 — yes to a call; scheduling for next week)
 - Calls completed: 0
 - Referrals: 0

@@ -38,7 +38,7 @@ The block times above assume the 9:00 wake. If Veer wakes past 9:00 on a given d
 
 ## Identity and context
 
-- Sophomore, Purdue IBE (Integrated Business and Engineering), graduation 2028
+- Rising junior, Purdue IBE (Integrated Business and Engineering), graduation 2028 (as of summer 2026: finished sophomore year; junior year begins ~Aug 24, 2026 — use plain "junior" from then). Use "rising junior" in summer-2026 outreach/intros, not "sophomore."
 - Involved in SMIF and EPICS; home for sophomore summer (not in West Lafayette)
 - Summer window: May 18 – ~Aug 7, 2026 (~12 weeks); no internship
 - Mentor/opportunity: Dr. Badri Narayanan Gopalakrishnan, Infinite Sum Modelling (Infisum/ISM), global econ/management consulting. He is the dashboard's intended user. (Live status of the relationship and the dashboard is owned by `memory.md`, not here.)
