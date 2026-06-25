@@ -70,13 +70,15 @@
           "name": "Numerator-denominator precision -- defining metrics implementably",
           "bloom_target": "Apply",
           "bloom_achieved": null,
-          "mastery": 0.0,
+          "mastery": 0.4,
           "weakness_flag": "unknown",
-          "attempts": 0,
-          "last_practiced": null,
-          "review_band": "new",
-          "next_review": null,
-          "format_breakdown": {},
+          "attempts": 2,
+          "last_practiced": "2026-06-25",
+          "review_band": "short",
+          "next_review": "2026-07-02",
+          "format_breakdown": {
+            "metric definition": 2
+          },
           "calibration": {
             "mean_confidence": null,
             "mean_accuracy": null,
@@ -87,7 +89,9 @@
             "Microsoft",
             "Airbnb"
           ],
-          "error_notes": []
+          "error_notes": [
+            "2026-06-25: First retrieval (taught same session). Defined reply-rate numerator loosely as 'responses to messages' and reached for 'per day / per active user' as the denominator -- conflated a RATE (proportion over an eligible base) with per-unit VOLUME/intensity. Missed: rate = (messages replied-to within a window) / (messages eligible to be replied to), plus a stated window. Re-rep next: pin numerator event + eligible-base denominator + window; keep rate distinct from per-user-per-day intensity."
+          ]
         },
         {
           "topic_id": "P2.metrics.leading_vs_lagging",
@@ -191,13 +195,15 @@
           "name": "Stats foundations -- significance tests, confidence intervals, power",
           "bloom_target": "Apply",
           "bloom_achieved": null,
-          "mastery": 0.0,
+          "mastery": 0.3,
           "weakness_flag": "unknown",
-          "attempts": 0,
-          "last_practiced": null,
-          "review_band": "new",
-          "next_review": null,
-          "format_breakdown": {},
+          "attempts": 1,
+          "last_practiced": "2026-06-25",
+          "review_band": "short",
+          "next_review": "2026-07-02",
+          "format_breakdown": {
+            "analytical thinking": 1
+          },
           "calibration": {
             "mean_confidence": null,
             "mean_accuracy": null,
@@ -208,7 +214,9 @@
             "Google",
             "Stripe"
           ],
-          "error_notes": []
+          "error_notes": [
+            "2026-06-25: First contact (taught same session) + first retrieval correct. Read p=0.20 > 0.05 as not significant, 95% CI [-0.2%, +1.0%] includes 0, decided not to ship -- right judgment on both tools. Articulation fuzzy ('included in the CI', 'makes it ineffective') and underconfident (conf 60 on a correct read). Re-rep: tighten language and add the trap -- not significant != proven no effect, it is inconclusive (direction unknown when the CI straddles 0)."
+          ]
         },
         {
           "topic_id": "P2.diagnosis.metric_drop_diagnosis",
@@ -566,22 +574,24 @@
       {
         "date": "2026-06-25",
         "type": "build / consolidate",
-        "duration_min": 25,
+        "duration_min": 45,
         "topics": [
           "P2.trees.metric_tree_construction",
-          "P2.metrics.nsm_guardrail_primary_secondary"
+          "P2.metrics.nsm_guardrail_primary_secondary",
+          "P2.metrics.numerator_denominator_discipline",
+          "P2.stats.significance_foundations"
         ],
-        "items": 3,
-        "accuracy": 1.0,
-        "notes": "Metric-trees cold re-test passed unaided (goal-vs-NSM crux holds). Guardrails taught then 2 correct unaided retrievals -- graduated past first-contact (bloom Apply). Calibration is now a hard gate (no grade without a confidence number); he gave 90 on both guardrail reps, both correct."
+        "items": 6,
+        "accuracy": 0.92,
+        "notes": "Catch-up session, cleared the week's due P2 topics. Metric-trees cold re-test passed unaided (goal-vs-NSM crux holds). Guardrails taught + 2 unaided-correct -> graduated past first-contact (Apply). Numerator-denominator taught: 1 borderline (reached for per-day/per-user volume instead of an eligible base) then 1 clean rep. Significance/CIs taught + 1 correct read (p>0.05 + CI includes 0 -> don't ship). Calibration now a hard gate; tell is underconfidence (60-80 on correct reads), not overconfidence."
       }
     ],
-    "median_session_min": 30,
+    "median_session_min": 40,
     "fatigue_threshold_min": 60
   },
   "calibration_overall": {
-    "mean_overconfidence": -0.1,
-    "n_judgments": 3
+    "mean_overconfidence": -0.15,
+    "n_judgments": 6
   },
   "milestones": {}
 }
