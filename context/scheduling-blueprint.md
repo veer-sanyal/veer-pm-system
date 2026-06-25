@@ -90,7 +90,7 @@ Recurring blocks: deep 9:45, secondary 11:45, workout 1:00, small item 2:30 (Pac
 
 ## What the system does NOT do
 
-- Track mood, energy, or feeling; track hours beyond pillar minutes. (Exception from 2026-06-25: the 3 behavioral sleep indicators in sleep-protocol.md — wake time, sleep-onset latency, phone-down time — ARE tracked. They are behavioral, not mood/energy, and predict the wake schedule moving earlier.)
+- Track mood, energy, or feeling; track hours beyond pillar minutes. (Exception from 2026-06-25: the 2 behavioral sleep indicators in sleep-protocol.md — wake time and the time Veer decides to sleep — ARE tracked. They are behavioral, not mood/energy, and predict the wake schedule moving earlier.)
 - Send motivational messages or adjust based on how Veer feels
 - Add features for Veer's optimization urges
 - Use streaks (cause perfectionism collapse; research supports recoverable consistency over unbroken chains)

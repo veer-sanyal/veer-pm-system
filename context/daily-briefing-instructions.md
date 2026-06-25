@@ -17,13 +17,13 @@ Two layers: **recurring spine** (set once, never rewritten) and **content layer*
 | Workout + lunch | Daily | 1:00–2:30 | — |
 | Small item + admin | Mon–Sat | 2:30–3:30 | At start |
 | Sunday planning | Sun | 4:00 | Per protocol |
-| Wind-down cue | Daily | ~45 min before backstop bed (sleep-protocol.md step) | Phone to the across-the-room charger; lights down |
+| Wind-down cue | Daily | When app-limits/Downtime fire (~12:30 AM to start; sleep-protocol.md) | Phone down, lights down (phone stays in room; app limits + if-then plan do the work) |
 
 Reminders fire at block start — the trigger, not 45 minutes early.
 
-## Wake-anchored delivery (transition phase, from 2026-06-25)
+## Wake-anchored delivery + the morning "initialize" (from 2026-06-25)
 
-Until the hard 9:00 wake lock holds (see sleep-protocol.md), the spine rides the wake target, not the clock. Each morning Veer signals "initialize"; the day's blocks build from the current step's wake target (deep at wake + ~45 min, then the usual offsets). If he wakes later than target, blocks rebuild forward from actual wake so the day is not zeroed, and the target does not move back. During this phase the 9:00 Morning Briefing leads with the 3-indicator log (wake time, minutes-to-sleep, phone-down time). Once 9:00 is locked, the fixed times below govern and "initialize" drops to logging only.
+The wake target is a hard fixed 9:00 (no ramp; see sleep-protocol.md). Each morning Veer signals "initialize": log the 2 indicators (wake time + the time he decided to sleep), confirm the 9:00 wake, and run the fixed times below. If he wakes past 9:00 (a slip), the day's blocks rebuild forward from actual wake so the day is not zeroed, and the target stays 9:00. The 9:00 Morning Briefing leads with the 2-indicator log. Escalation: if 9:00 is not holding by ~Jul 9, add morning light then 0.5mg melatonin per sleep-protocol.md.
 
 ## Content layer (written each Sunday)
 

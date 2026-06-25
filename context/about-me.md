@@ -21,18 +21,18 @@ Central pattern: **insight without action** — reflects clearly, articulates wh
 
 | Time | Block |
 |---|---|
-| Wake (per `sleep-protocol.md`) | Fixed time all 7 days — currently advancing 11:15 toward 9:00 (hard-9:00 lock targeted ~Jul 5). The <1h weekend-drift rule is the social-jetlag control. |
+| Wake (per `sleep-protocol.md`) | Hard fixed 9:00 all 7 days, from Fri Jun 26 (no ramp, cold-turkey). The <1h weekend-drift rule is the social-jetlag control. |
 | 9:45–11:15 AM | Deep work (90 min) — hardest pillar work |
 | 11:15–11:45 AM | Break, walk, snack |
 | 11:45 AM–1:00 PM | Secondary block (~75 min) — different category from morning |
 | 1:00–2:30 PM | Workout + lunch |
 | 2:30–3:30 PM | Admin: alumni message, app checks, Anki, etc. |
 | 3:30 PM+ | Protected: friends, rest, hobbies. |
-| Night | Wind-down cue ~45 min before backstop bed (phone to across-the-room charger, lights down); skincare as the stable end-of-day cue. Backstop bed per the current `sleep-protocol.md` step (converges to ~1:00–1:30 AM at the 9:00 lock). |
+| Night | Wind-down cue when phone app-limits/Downtime fire (~12:30 AM to start, earlier as onset migrates): phone down, lights down; skincare as the stable end-of-day cue. Bed migrates toward ~1:00–1:30 AM as sleep pressure rebuilds (per `sleep-protocol.md`). |
 
 ~4–4.5 hrs focused work/day, sustainable for 12 weeks. When volume is tight, reduce pillar work — do not eat into evenings or the relational substrate.
 
-The block times above are the 9:00-locked end state. During the `sleep-protocol.md` transition the blocks ride the daily wake target via the "initialize" signal (see daily-briefing-instructions.md), so a later wake shifts them later that day rather than zeroing the day.
+The block times above assume the 9:00 wake. If Veer wakes past 9:00 on a given day, the "initialize" signal rebuilds that day's blocks forward from actual wake so the day is not zeroed (see daily-briefing-instructions.md); the 9:00 target never moves back.
 
 ---
 
