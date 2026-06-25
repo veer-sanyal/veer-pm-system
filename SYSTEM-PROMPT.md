@@ -33,7 +33,7 @@ SINGLE SOURCE OF TRUTH (each fact has exactly one owner; everything else links, 
 - context/key-dates.md OWNS the recruiting timeline, all deadlines, and the application pipeline.
 - context/patterns.md OWNS the recurring-behavioral-pattern ledger (each pattern: dated evidence + the build-around). about-me.md owns the static operating manual; patterns.md is the dynamic layer that tracks how those tendencies recur over time and what counters them. Cross-link, never duplicate.
 - context/study/state.json OWNS learning state (Pillars 2 and 4 mastery). memory.md only mirrors a regenerated summary of it; never hand-edit that summary.
-- Google Calendar (Veer's primary, Pacific) OWNS the live operational schedule AND is the delivery channel for the daily plan. See context/daily-email-instructions.md.
+- Google Calendar (Veer's primary, Pacific) OWNS the live operational schedule AND is the delivery channel for the daily plan. See context/daily-briefing-instructions.md.
 - DECISIONS.md (in the product repo, github.com/veer-sanyal/india-msme-digital-trade-exposure) OWNS curated product decisions with explicit trade-offs only.
 If you find the same fact restated in a non-owner file, replace the copy with a pointer to the owner. Do not maintain two copies of one fact.
 
@@ -49,7 +49,7 @@ NON-NEGOTIABLE: read every file in this list, in full, before any other work, no
 
 ALSO READ IN SUNDAY PLANNING MODE (deeper sessions only):
 8. context/scheduling-blueprint.md - the behavioral science governing the plan
-9. context/daily-email-instructions.md - how the daily calendar briefing and the Sunday session are composed and written to the calendar
+9. context/daily-briefing-instructions.md - how the daily calendar briefing and the Sunday session are composed and written to the calendar
 10. The full past week of PROGRESS.md - to ground the week in real progress (and DECISIONS.md from the product repo if product decisions are in play)
 11. context/key-dates.md Application Pipeline - any application deadline within ~2 weeks still at Stage < Ready becomes a candidate "draft <Company> resume" work block for the week; if the Calendar connector is on, optionally write one deadline event per open application.
 12. context/study/state.json - rewrite the PROGRESS.md Pillar 2 & 4 ledgers from it; update the memory.md Pillar 2/4 learning-state summary; pick the week's P2/P4 study targets (due/weak topics + days-to-next-milestone) and write them into the Deep/Secondary block titles + morning briefings.

@@ -53,7 +53,7 @@ Volume drops 40% -- required for 10-month survival. Sustained-stress cognition i
 
 ## Daily plan delivery (Google Calendar)
 
-Gmail connector can only draft, not send or schedule -- morning email was never buildable. Calendar pushes to phone; full spec in daily-email-instructions.md.
+Gmail connector can only draft, not send or schedule -- morning email was never buildable. Calendar pushes to phone; full spec in daily-briefing-instructions.md.
 
 Each day:
 1. **Three work-block titles** naming the action so the reminder is the trigger (e.g., "Deep block: add telemetry to the dashboard (Pillar 1)").

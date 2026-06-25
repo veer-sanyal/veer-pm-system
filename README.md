@@ -18,7 +18,7 @@ The old setup tried to deliver a daily plan by scheduled Gmail send, which the G
 
 - Google Calendar (your primary, Pacific) is the channel. The recurring spine is already on it: Deep block 9:45, Secondary 11:45, Workout 1:00, Small item 2:30 (Mon-Sat), and the Sunday planning session at 4:00.
 - Each Sunday session retitles that week's three work blocks with the specific action and writes six 9:00 Morning Briefing events. The block titles are the triggers; the briefing holds yesterday's question, "this week feeds," and an optional citation.
-- Full spec in `context/daily-email-instructions.md`.
+- Full spec in `context/daily-briefing-instructions.md`.
 
 ## Token-lean reading convention (two tiers, simplified 2026-06-15)
 

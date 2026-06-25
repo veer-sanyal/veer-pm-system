@@ -2,7 +2,7 @@
 
 # Daily Briefing Instructions (calendar-delivered)
 
-**Filename note:** kept as `daily-email-instructions.md` so references in `scheduling-blueprint.md`, `direction.md`, `key-dates.md`, and the realignment spec still resolve. Gmail can only draft — cannot send or schedule. Delivery is Google Calendar (pushes to Veer's phone without him initiating). Plan lives on Veer's primary Google Calendar (Pacific time). Nothing emailed. Sunday session writes the week; Google pushes each reminder at the cue time.
+**Filename note:** renamed 2026-06-25 from `daily-email-instructions.md` to `daily-briefing-instructions.md` for clarity — the plan is delivered by Google Calendar, not email, and the old name wrongly implied an inbox. Live references were updated in the same change; dated specs and PROGRESS log entries keep the old name as historical record. Gmail can only draft — cannot send or schedule. Delivery is Google Calendar (pushes to Veer's phone without him initiating). Plan lives on Veer's primary Google Calendar (Pacific time). Nothing emailed. Sunday session writes the week; Google pushes each reminder at the cue time.
 
 Two layers: **recurring spine** (set once, never rewritten) and **content layer** (written each Sunday).
 
