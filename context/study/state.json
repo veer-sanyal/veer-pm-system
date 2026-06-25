@@ -11,37 +11,41 @@
           "topic_id": "P2.trees.metric_tree_construction",
           "name": "Metric trees -- goal to NSM to input metrics",
           "bloom_target": "Apply",
-          "bloom_achieved": null,
-          "mastery": 0.0,
-          "weakness_flag": "unknown",
-          "attempts": 0,
-          "last_practiced": null,
-          "review_band": "new",
-          "next_review": null,
-          "format_breakdown": {},
+          "bloom_achieved": "Apply",
+          "mastery": 0.45,
+          "weakness_flag": "yellow",
+          "attempts": 5,
+          "last_practiced": "2026-06-23",
+          "review_band": "learning",
+          "next_review": "2026-06-25",
+          "format_breakdown": {
+            "goal-setting / metric decomposition": 5
+          },
           "calibration": {
-            "mean_confidence": null,
-            "mean_accuracy": null,
-            "mean_overconfidence": null
+            "mean_confidence": 0.9,
+            "mean_accuracy": 1.0,
+            "mean_overconfidence": -0.1
           },
           "company_tags": [
             "Meta",
             "Google",
             "Microsoft"
           ],
-          "error_notes": []
+          "error_notes": [
+            "2026-06-23: Initially chose revenue (the business GOAL) as the North Star, conflating goal with NSM -- the canonical mistake. Corrected after one prompt; then chose 'completed deliveries' (value proxy that leads revenue), decomposed cleanly into active users x deliveries per user, and correctly placed average delivery time as a deeper driver feeding both branches. Re-test COLD next session: does the goal-vs-NSM separation hold without prompting? That is the interview crux."
+          ]
         },
         {
           "topic_id": "P2.metrics.nsm_guardrail_primary_secondary",
           "name": "NSM / guardrail / primary / secondary metric hierarchy",
           "bloom_target": "Apply",
           "bloom_achieved": null,
-          "mastery": 0.0,
+          "mastery": 0.1,
           "weakness_flag": "unknown",
           "attempts": 0,
-          "last_practiced": null,
+          "last_practiced": "2026-06-23",
           "review_band": "new",
-          "next_review": null,
+          "next_review": "2026-06-25",
           "format_breakdown": {},
           "calibration": {
             "mean_confidence": null,
@@ -53,7 +57,9 @@
             "Google",
             "Airbnb"
           ],
-          "error_notes": []
+          "error_notes": [
+            "2026-06-23: Guardrail concept INTRODUCED (taught: a guardrail catches when winning on the NSM causes damage elsewhere; almost any NSM can be gamed). The NSM-vs-goal distinction was practiced via the metric-trees topic. No unaided guardrail attempt yet -- session ended before he answered. First retrieval owed next session: name a guardrail for an NSM and the specific failure it guards against."
+          ]
         },
         {
           "topic_id": "P2.metrics.numerator_denominator_discipline",
@@ -540,13 +546,26 @@
     }
   },
   "habits": {
-    "sessions": [],
-    "median_session_min": null,
+    "sessions": [
+      {
+        "date": "2026-06-23",
+        "type": "build / first-contact",
+        "duration_min": 35,
+        "topics": [
+          "P2.trees.metric_tree_construction",
+          "P2.metrics.nsm_guardrail_primary_secondary"
+        ],
+        "items": 5,
+        "accuracy": 0.8,
+        "notes": "First ever tutor session; the pillar-at-zero is broken. Metric trees taught first-contact and cleared to a floor (Apply). Guardrails introduced but not yet retrieved. Calibration habit not sticking: skipped the confidence number on 2 of 3 prompts -- hold him to number-first every item next session."
+      }
+    ],
+    "median_session_min": 35,
     "fatigue_threshold_min": 60
   },
   "calibration_overall": {
-    "mean_overconfidence": null,
-    "n_judgments": 0
+    "mean_overconfidence": -0.1,
+    "n_judgments": 1
   },
   "milestones": {}
 }

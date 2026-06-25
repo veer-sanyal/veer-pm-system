@@ -294,6 +294,8 @@ Tutor fix before P2 study starts. Veer flagged that he doesn't know any Pillar 2
 
 Reconcile (start-of-session, Tue Jun 23): **Claude Corps REJECTED** — Greenhouse decision email arrived today; application not advanced for Cohort 1 (no take-home/interview reached), invited to reapply to future cohorts. This **closes the fork**: the four-pillar Summer-2027 PM plan stays the single primary track and the Purdue leave-of-absence question is moot (no four-pillar revisit triggered — the revisit was conditional on *advancing*, which didn't happen). Updated memory.md + key-dates.md pipeline row. No other live tripwires: two leftover superseded Dr. G drafts still sit in Drafts (harmless, flagged-to-trash since Jun 21); nothing new from Trice or alumni.
 
+**Pillar 2: first tutor session ever — the pillar-at-zero is broken.** ~5 items, ~80% acc, first-contact/build mode. Metric trees taught and cleared to a floor (bloom Apply, mastery 0.45, yellow): he made the canonical mistake first — picking revenue (the goal) as the North Star — corrected after one prompt, then chose "completed deliveries" and decomposed it cleanly (active users x deliveries per user; placed avg delivery time as a deeper driver). Guardrails introduced but session ended before an unaided attempt (owed next session). Calibration habit not sticking: skipped the confidence number on 2 of 3 prompts. Next review of both topics: 2026-06-25. Emotional note: Veer took the Claude Corps rejection hard ("sad I got rejected so soon") and paused mid-session before resuming; handled directly, reframed as variance + fork-closing, then he came back and finished the reps.
+
 ---
 
 ### 2026-06-25 (Thu)
