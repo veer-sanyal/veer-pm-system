@@ -39,7 +39,7 @@ SINGLE SOURCE OF TRUTH (each fact has exactly one owner; everything else links, 
 - context/key-dates.md OWNS the recruiting timeline, all deadlines, and the application pipeline.
 - context/patterns.md OWNS the recurring-behavioral-pattern ledger (each pattern: dated evidence + the build-around). about-me.md owns the static operating manual; patterns.md is the dynamic layer that tracks how those tendencies recur over time and what counters them. Cross-link, never duplicate.
 - context/study/state.json OWNS learning state (Pillars 2 and 4 mastery). memory.md only mirrors a regenerated summary of it; never hand-edit that summary.
-- context/sleep-protocol.md OWNS the wake-time target and the live sleep-fix config (the wake-target ladder, chosen levers, bad-night/weekend rules, the 3 tracked indicators). memory.md mirrors the current ladder step as live state; never hard-code a wake time in another file, link here.
+- context/sleep-protocol.md OWNS the wake-time target and the live sleep-fix config (hard fixed 9:00 wake, chosen levers, bad-night/weekend rules, the 2 tracked indicators, the ~Jul 9 escalation). memory.md mirrors the live config; never hard-code a wake time in another file, link here.
 - Google Calendar (Veer's primary, Pacific) OWNS the live operational schedule AND is the delivery channel for the daily plan. See context/daily-briefing-instructions.md.
 - DECISIONS.md (in the product repo, github.com/veer-sanyal/india-msme-digital-trade-exposure) OWNS curated product decisions with explicit trade-offs only.
 If you find the same fact restated in a non-owner file, replace the copy with a pointer to the owner. Do not maintain two copies of one fact.
