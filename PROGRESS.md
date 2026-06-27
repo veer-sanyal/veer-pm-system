@@ -322,6 +322,19 @@ Pillar 3 (network) — **FIRST ALUMNI REPLY, and a yes.** Daniel Anicito (now As
 
 ---
 
+### 2026-06-27 (Sat)
+
+Reconcile (start-of-session). Connectors available: Gmail + Calendar. The product repo (`india-msme-digital-trade-exposure`) is outside this session's GitHub scope, so product commits could not be re-pulled — product state carried from memory (HEAD a9c4ce4, telemetry Entry 014). Stated plainly rather than skipped.
+
+- **Pillar 3 — SECOND ALUMNI REPLY: Steven LaCroix (Associate PM @ Elanco).** The Jun 25 connect note landed: Steven **accepted the connection and messaged back Jun 26** (LinkedIn `messaging-digest` "Steven just messaged you", 13:52 ET + an invitations@ accept). Caught via the SYSTEM-PROMPT step-3c LinkedIn-via-Gmail scan — exactly the Pillar-3 reply an email-thread-only scan would miss. Message body is not readable from here (LinkedIn content isn't in Gmail), so it is surfaced as a tripwire: open LinkedIn, read it, respond today; if he's open, pin a concrete slot and book it (mirror the Anicito flow — a vague "sometime" dies, per P1/P4). Two cold sends → two replies; the warm-alumni angle is converting. Tracker row 5 + ledger updated (Replies 1→2).
+- **Anicito call (Tue Jun 30, 5:30pm ET) — still no confirm digest.** No newer "Daniel just messaged you" since the Jun 25 reply, so his confirm on the proposed slot hasn't landed (or hasn't digested). Call is 3 days out; if silent by Sun/Mon, send a light nudge or just send the calendar invite (the invite is the mechanism — he never sent a scheduling link). Prep stands at `networking/Anicito-Fidelity-call-prep.md`.
+- Drafts: the two superseded Dr. G drafts (Jun 21) are still in Drafts — harmless, already known; the Gmail connector can't trash them. No new unsent tracked outbound.
+- No new inbound on Dr. G, Trice, or any application thread. (Inbox noise only: promos + LinkedIn job alerts, incl. a Zoom "PM Intern, AI Services & Agentic Search" listing — a possible pipeline candidate to weigh at the Sunday session, not acted on now.)
+
+For tomorrow's Sunday session (not done today — these are structural/weekly calls): metrics study finished the week light again (the wake-anchoring root cause from Jun 25); the P5 front-loading verdict; nights 1–2 of the hard 9:00 wake (started Fri Jun 26); and the wake-anchored scheduling system build flagged Jun 25.
+
+---
+
 ## Pillar 2 running ledger (technical)
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
@@ -334,7 +347,7 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 ## Pillar 3 running ledger (network)
 
 - Alumni messages sent: 2 (Daniel Anicito, Fidelity Investments APM, 2026-06-20; Steven LaCroix, Associate PM @ Elanco, 2026-06-25)
-- Replies received: 1 (Daniel Anicito, 2026-06-25 — yes to a call; scheduling for next week after 5pm ET)
+- Replies received: 2 (Daniel Anicito, 2026-06-25 — yes to a call, scheduling after 5pm ET; Steven LaCroix, 2026-06-26 — accepted + messaged, body unread, tripwire to respond)
 - Conversations completed: 0
 - Tracker: started 2026-06-09 — `alumni-tracker.md` (project root)
 - Week of Jun 22 target: 3 sends (LaCroix, Akash Ravi, Allan Tan), front-loaded Mon–Wed. Note the LinkedIn free-connect-note cap (~3–5 personalized invites/month, ≤200 chars) — Anicito used one; mix connect-notes with comment-then-message for 3rd-degree contacts.
@@ -375,7 +388,8 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 - Next move: await the intro; when connected, find out role family / hours / remote-vs-onsite before committing; protect dashboard + Daniels. If no movement in another ~3-4 days, nudge once more or treat as cooled.
 
 ### Alumni / PM professionals
-- **Daniel Anicito (Associate PM, Fidelity Investments — Purdue peer, just ran the APM process).** 2026-06-20: connection note sent (alumni tie + 15-min ask on what moved the needle in the APM process). **2026-06-25: replied YES** — offered his calendar next week after 5pm ET. First reply of the funnel; converts to a call. **Reply SENT 2026-06-25 proposing Tue Jun 30, 5:30pm ET** (offered a calendar invite + Meet link). Next: on his confirm, send the invite; prep in `networking/Anicito-Fidelity-call-prep.md`.
+- **Daniel Anicito (Associate PM, Fidelity Investments — Purdue peer, just ran the APM process).** 2026-06-20: connection note sent (alumni tie + 15-min ask on what moved the needle in the APM process). **2026-06-25: replied YES** — offered his calendar next week after 5pm ET. First reply of the funnel; converts to a call. **Reply SENT 2026-06-25 proposing Tue Jun 30, 5:30pm ET** (offered a calendar invite + Meet link). As of 2026-06-27 no confirm digest yet — if silent by Sun/Mon, nudge or just send the invite (it's the mechanism). Next: on his confirm, send the invite; prep in `networking/Anicito-Fidelity-call-prep.md`.
+- **Steven LaCroix (Associate PM, Elanco — Purdue recent grad, Data Sci & Stats; data-to-PM path).** 2026-06-25: connection note sent via Chrome (data-to-PM hook, "rising junior" framing). **2026-06-26: accepted the connection and messaged back** (LinkedIn messaging-digest "Steven just messaged you" + invitations@ accept; caught by the step-3c Gmail scan). Second reply of the funnel. Message body not yet read (LinkedIn content isn't in Gmail) — tripwire: open LinkedIn, read it, respond today; if he's open, pin a concrete slot. A call-prep sheet (mirroring Anicito's) gets built once his message is read.
 
 ---
 

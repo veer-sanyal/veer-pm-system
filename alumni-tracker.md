@@ -16,7 +16,7 @@ All 10 verified live on LinkedIn 2026-06-09 (titles from current profiles/headli
 | 2 | Monica Marathe | Amazon (Amazon Music) | Product | Purdue (verify yr) | Purdue | linkedin.com/in/monica-marathe | | | | SF Bay Area |
 | 3 | Akash Ravi | Microsoft | AI PM (SharePoint/Copilot) | Purdue grad, ex-Cisco | Purdue | linkedin.com/in/akash-ravi | | | | Active poster — comment on a post before messaging. Research doc had him at Amazon; corrected |
 | 4 | Daniel Anicito | Fidelity Investments | Associate PM (now started) | Purdue student (FMA VP Education) | 2nd degree; mutuals: Christopher, Ian +5 | linkedin.com/in/daniel-anicito | 2026-06-20 (connect note) | **2026-06-25 (YES)** | scheduling — reply SENT Jun 25 proposing Tue Jun 30 5:30pm ET; awaiting confirm → then send calendar invite | First alumni reply. Warm yes to a call. Peer who just ran the APM process — ask what moved the needle. **Call prep: `networking/Anicito-Fidelity-call-prep.md`** |
-| 5 | Steven LaCroix | Elanco | Associate Product Manager | Purdue (recent grad), Data Sci & Stats | 2nd degree; mutuals: Josh, Balthazar | linkedin.com/in/stevenjlacroix | 2026-06-25 (connect note) | | | Data-to-PM path (CV intern → Apprentice → Associate PM). SENT via Chrome — trimmed to 194/200; "rising junior" framing; Data Mine attributed to him only (not implying Veer is in it); easy-out kept |
+| 5 | Steven LaCroix | Elanco | Associate Product Manager | Purdue (recent grad), Data Sci & Stats | 2nd degree; mutuals: Josh, Balthazar | linkedin.com/in/stevenjlacroix | 2026-06-25 (connect note) | **2026-06-26 (replied + accepted invite)** | tripwire — read his LinkedIn message and respond; if he's open, book the call (mirror the Anicito flow) | Second alumni reply. Connection accepted + message landed Jun 26 (messaging-digest hit; body not yet read — open LinkedIn). Data-to-PM path (CV intern → Apprentice → Associate PM). SENT via Chrome — trimmed to 194/200; "rising junior" framing; Data Mine attributed to him only (not implying Veer is in it); easy-out kept |
 | 6 | Nikhil Panse | Microsoft | Product Manager 2 | Purdue (verify yr) | Purdue | linkedin.com/in/npanse | | | | Right seniority band (3-8 yrs) |
 | 7 | Sharoon Srivastava | Microsoft | Principal Product Manager | Purdue (verify yr) | Purdue; Chicago Booth MBA | linkedin.com/in/sharoonsrivastava | | | | Senior — referral-capable |
 | 8 | Kirtana Venkatraman | Meta | GenAI Product Manager | Purdue (verify yr) | Purdue | linkedin.com/in/kirtana | | | | AI PM angle fits dashboard hook |
@@ -117,6 +117,8 @@ After sending, fill the Msg date / Reply / Call columns in the shortlist above a
 ## Running ledger
 
 - Messages sent: 2 (Daniel Anicito, 2026-06-20; Steven LaCroix, 2026-06-25)
-- Replies: 1 (Daniel Anicito, 2026-06-25 — yes to a call; scheduling for next week)
+- Replies: 2 (Daniel Anicito, 2026-06-25 — yes to a call, scheduling; Steven LaCroix, 2026-06-26 — accepted + messaged, body unread)
 - Calls completed: 0
 - Referrals: 0
+
+Reply rate so far: 2 sent → 2 replied. Small n, but both warm 2nd-degree Purdue alumni replied — the alumni-tie angle is converting.
