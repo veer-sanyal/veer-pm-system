@@ -16,7 +16,7 @@ All 10 verified live on LinkedIn 2026-06-09 (titles from current profiles/headli
 | 2 | Monica Marathe | Amazon (Amazon Music) | Product | Purdue (verify yr) | Purdue | linkedin.com/in/monica-marathe | | | | SF Bay Area |
 | 3 | Akash Ravi | Microsoft | AI PM (SharePoint/Copilot) | Purdue grad, ex-Cisco | Purdue | linkedin.com/in/akash-ravi | | | | Active poster — comment on a post before messaging. Research doc had him at Amazon; corrected |
 | 4 | Daniel Anicito | Fidelity Investments | Associate PM (now started) | Purdue student (FMA VP Education) | 2nd degree; mutuals: Christopher, Ian +5 | linkedin.com/in/daniel-anicito | 2026-06-20 (connect note) | **2026-06-25 (YES)** | scheduling — reply SENT Jun 25 proposing Tue Jun 30 5:30pm ET; awaiting confirm → then send calendar invite | First alumni reply. Warm yes to a call. Peer who just ran the APM process — ask what moved the needle. **Call prep: `networking/Anicito-Fidelity-call-prep.md`** |
-| 5 | Steven LaCroix | Elanco | Associate Product Manager | Purdue (recent grad), Data Sci & Stats | 2nd degree → now 1st | linkedin.com/in/stevenjlacroix | 2026-06-25 (connect note) | **2026-06-26 (YES)** | **week of Jul 6** (he's on vacation Jun 29 wk, back Jul 6); Veer proposed Tue Jul 7 / Wed Jul 8 ~5pm ET — confirm slot + send invite. **Prep: `networking/LaCroix-Elanco-call-prep.md`** | Second alumni reply, warm yes. Pre-empted the strategy question ("no real strategy, right place right time") — mine the situation, don't fight it. Data-to-PM path (CV intern → Apprentice → Associate PM, via the Data Mine); ties to Veer's Pillar-2 metrics gap |
+| 5 | Steven LaCroix | Elanco | Associate Product Manager | Purdue (recent grad), Data Sci & Stats | 2nd degree → now 1st | linkedin.com/in/stevenjlacroix | 2026-06-25 (connect note) | **2026-06-26 (YES)** | **BOOKED: Tue Jul 7, 5:00pm ET / 2:00pm PT, 15 min** (Steven picked it Jun 27). Next: get his email, send calendar invite + video link. **Prep: `networking/LaCroix-Elanco-call-prep.md`** | Second alumni reply, warm yes. Pre-empted the strategy question ("no real strategy, right place right time") — mine the situation, don't fight it. Data-to-PM path (CV intern → Apprentice → Associate PM, via the Data Mine); ties to Veer's Pillar-2 metrics gap. First informational interview booked |
 | 6 | Nikhil Panse | Microsoft | Product Manager 2 | Purdue (verify yr) | Purdue | linkedin.com/in/npanse | | | | Right seniority band (3-8 yrs) |
 | 7 | Sharoon Srivastava | Microsoft | Principal Product Manager | Purdue (verify yr) | Purdue; Chicago Booth MBA | linkedin.com/in/sharoonsrivastava | | | | Senior — referral-capable |
 | 8 | Kirtana Venkatraman | Meta | GenAI Product Manager | Purdue (verify yr) | Purdue | linkedin.com/in/kirtana | | | | AI PM angle fits dashboard hook |
@@ -118,7 +118,8 @@ After sending, fill the Msg date / Reply / Call columns in the shortlist above a
 
 - Messages sent: 2 (Daniel Anicito, 2026-06-20; Steven LaCroix, 2026-06-25)
 - Replies: 2 (Daniel Anicito, 2026-06-25 — yes to a call, scheduling; Steven LaCroix, 2026-06-26 — yes to a call, week of Jul 6)
+- Calls booked: 1 (Steven LaCroix — Tue Jul 7, 5:00pm ET)
 - Calls completed: 0
 - Referrals: 0
 
-Reply rate so far: 2 sent → 2 replied. Small n, but both warm 2nd-degree Purdue alumni replied — the alumni-tie angle is converting.
+Reply rate so far: 2 sent → 2 replied → 1 booked. Small n, but both warm 2nd-degree Purdue alumni replied and one is already on the calendar — the alumni-tie angle is converting.
