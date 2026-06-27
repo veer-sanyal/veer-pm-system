@@ -18,7 +18,7 @@ Project: Veer's PM-internship execution system targeting a Summer-2027 PM intern
 | `PROGRESS.md` | OWNS the running narrative: day-by-day log across all four pillars, the standing pillar ledgers, external conversations (Dr. G, alumni), and system signals. Read the tail (~3-4 weeks) by default; older months roll into `PROGRESS-archive.md`. PRIVATE (real names + strategy): keep this repo private. |
 | `PROGRESS-archive.md` | Closed-month entries rolled out of `PROGRESS.md` to keep the per-session tail read small. The complete historical log; created when the first month is archived. PRIVATE. |
 | `alumni-tracker.md` | Pillar 3 outreach spine: the 10-name verified alumni shortlist (+ bench), per-contact message/reply/call tracking, LinkedIn Alumni Tool recipes and Boolean queries, targeting criteria, the 5-part message blueprint, and the running ledger. Started 2026-06-09. PRIVATE (real names). |
-| `networking/` | Per-contact informational-interview call-prep sheets (one file per scheduled call), grounded in the networking research docs. Created 2026-06-25 with `Anicito-Fidelity-call-prep.md` (first alumni call). PRIVATE (real names). Scales as the 20+ informational interviews land; each new call gets a sheet here, cross-linked to its `alumni-tracker.md` row. |
+| `networking/` | Per-contact informational-interview call-prep sheets (one file per scheduled call), grounded in the networking research docs. Created 2026-06-25 with `Anicito-Fidelity-call-prep.md`; `LaCroix-Elanco-call-prep.md` added 2026-06-27 (second alumni call, week of Jul 6). PRIVATE (real names). Scales as the 20+ informational interviews land; each new call gets a sheet here, cross-linked to its `alumni-tracker.md` row. |
 | `file-index.md` | This file. |
 
 ---
