@@ -335,22 +335,57 @@ For tomorrow's Sunday session (not done today — these are structural/weekly ca
 
 ---
 
+### 2026-06-28 (Sun) — Sunday planning session
+
+Reconcile (Gmail + Calendar, past 7 / next 14 days). Connectors: Gmail + Calendar available. Product repo (`india-msme-digital-trade-exposure`) is outside this session's GitHub scope, so product commits were not re-pulled — product state carried from memory (HEAD a9c4ce4, telemetry Entry 014). Stated plainly, not skipped.
+- **NEW tripwire — Steven LaCroix messaged again Jun 27 ~5:11pm PT** (LinkedIn `messaging-digest` "Steven just messaged you", caught by the step-3c scan), after the Jul 7 call was booked. The digest carries no body, so the content is on LinkedIn — most likely his email for the calendar invite (the pending next step). Veer to check LinkedIn and send the Jul 7 invite + video link.
+- **Anicito (Tue Jun 30 5:30pm ET call): still no confirm digest** — no new "Daniel just messaged you" since the Jun 25 reply. Call is 2 days out. This week's move: light nudge to lock it, then send the invite (the invite is the mechanism; he never sent a scheduling link).
+- Inbound otherwise: nothing on Dr. G, Trice, or any application thread — inbox is promos/noise only. Drafts: the two superseded Dr. G drafts (Jun 21) still sit there (harmless; connector can't trash). No new unsent tracked outbound.
+- Calendar next 14 days: week of Jun 29–Jul 4 was still the generic spine (this session wrote it). Constraints found: **Cosentino Case Interview Workshop Mon Jun 29 7pm** (free, Purdue — optional P4); **Wed Jul 1** banners (FAANG/Amazon reminder; Daniels Fall 2026 Career Fair registration opens); **Daniels Externship starts Jul 6** (next week); **Monthly STAR Story Audit Jul 6 5pm**. Created calendar holds for both alumni calls (Anicito Jun 30 2:30pm PT, LaCroix Jul 7 2:00pm PT).
+
+**Scheduled-vs-done for the week (Jun 22–27):**
+- Shipped: telemetry readout SHIPPED (DECISIONS Entry 014, Jun 25 — the ~2-week-stalled tripwire, finally closed); LaCroix alumni note sent (Jun 25); **two alumni replies landed** (Anicito Jun 25, LaCroix Jun 26) and **the first informational interview got booked** (LaCroix, Tue Jul 7); two P2 tutor sessions ran (Jun 23 + Jun 25) clearing the week's due topics; sleep protocol started (Fri Jun 26).
+- Slipped: **P2 study ran 2 of 4 deep blocks** (Mon Jun 22 and Sat Jun 27 metric-drop never happened — `state.json` shows metric_drop_diagnosis still 0 attempts). **Alumni new-cold-sends finished 1 of 3** (LaCroix only; Akash + Allan never went, and LaCroix slipped to Thu not Mon). **US version v0 scoping never started** (Fri Jun 26 deep block). 
+- Better than the prior week (study was ZERO; this week 2 sessions + the funnel converted), but the full cadence did not hold.
+
+**Pattern named (no deep diagnosis):** the slips are downstream of one root cause, the same one flagged Jun 25 — the 9am-anchored calendar fires while Veer is asleep (waking 11–1), so morning blocks elapse before he engages. The per-pillar fixes keep half-landing because the wake is the upstream variable. The sleep protocol (hard 9:00 wake, started Fri Jun 26) is the actual lever; **this week is week 1 of it.** Verdicts: **P2 build-around** (cued deep-block reps) is working *when Veer is awake for it* — 2 sessions this week after 1 last week — so the gating variable is now sleep, not the study cue. **P5 (front-load alumni)** did not get a clean test: the Mon–Wed sends fired during sleep hours, so front-loading failed for the wake reason, not batching-to-deadline; and the funnel is now converting on replies, making raw send-count less binding. Re-test P5 once the wake holds.
+
+**Structural call — did NOT rebuild the scheduling system this week (P6 guard).** The wake-anchored scheduling rebuild flagged Jun 25 stays unbuilt by design: the protocol is only 2 nights in (the protocol itself says roughest nights 2–4, ~1–2 week arrival), so there is nothing to redesign yet — the fixed-9:00 plan is correct, the job is to hold the wake and gather a week of `initialize` data. The ~Jul 9 escalation check (add morning light, then 0.5mg melatonin) is already on the protocol. Re-evaluate at the Jul 5 Sunday session with a week of wake data.
+
+**Week of Jun 29–Jul 4 commitments by pillar (calendar written directly, connector on):**
+- **Keystone: lock the 9:00 wake.** Daily `initialize`, log the 2 indicators; caffeine cutoff 2pm; wind-down on the app-limit cue. Every briefing this week leads with the wake.
+- **P2 (lead, deep block):** consolidate the three topics due Jul 2 (numerator-denominator 0.40, significance/CIs 0.30, NSM/guardrail 0.56) with cold re-tests, finally run metric-drop diagnosis (the Sat miss), and introduce funnel analysis + leading-vs-lagging. 3–4 study deep blocks.
+- **P3 (convert the live funnel — higher value this week than raw new sends):** lock + run the Anicito call (Tue Jun 30); read Steven's new msg, get his email, send the Jul 7 invite; prep both off the `networking/` sheets. New touches via comment-then-message (Akash Ravi, who is 3rd-degree) rather than burning the near-exhausted LinkedIn free-connect-note quota (2 of ~3–5/month used). Register for the Daniels Fall career fair (opens Jul 1).
+- **P1 (secondary):** US version v0 — scope the smallest shippable cut + data-source map, then pull/sanity-check the first USITC/BEA dataset and make a first ranked cut. Reuse the India architecture; do not start a second build (P3 anchor-project discipline). India dashboard stays the differentiator.
+- **P4 (optional, low-cost):** Cosentino case workshop Mon 7pm if he wants it; Phase 2 interview prep does not formally start until Aug.
+- Sat Jul 4: kept light (holiday) — short consolidate + flex, protect the day, hold the wake within an hour.
+
+---
+
 ## Pillar 2 running ledger (technical)
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
 
-- **As of 2026-06-21: zero sessions logged.** All 10 P2 topics still `new` (mastery 0.0, 0 attempts, last_practiced null). Tutor installed 2026-06-14; no practice has happened in the 7 days since. Calibration: n/a (no data).
-- **This is a pillar at zero for the week** — flagged at the Sunday session; the week of Jun 22 makes establishing the first reps the priority (metric trees, NSM/guardrail, numerator-denominator, significance/CIs, metric-drop diagnosis).
+- **As of 2026-06-28 (regenerated from `state.json`): 2 sessions logged, 5 of 10 P2 topics now touched.** The pillar is off zero and the habit is forming (1 session week of Jun 15 → wait, first session was Jun 23; then Jun 25). Active topics:
+  - **Metric trees** (`P2.trees.metric_tree_construction`): mastery **0.62**, yellow, Bloom Apply, 6 attempts. Goal-vs-NSM crux now holds cold (passed unaided Jun 25). Next review **Jul 9**. Next sharpening: frame the NSM as the leading proxy for value that drives the lagging revenue goal.
+  - **NSM / guardrail** (`...nsm_guardrail_primary_secondary`): mastery **0.56**, Bloom Apply, 2 attempts, graduated past first-contact (2 unaided-correct Jun 25). Due **Jul 2** — cold re-test that he does not revert to input metrics; push toward a wellbeing/satisfaction guardrail.
+  - **Numerator-denominator** (`...numerator_denominator_discipline`): mastery **0.40**, 2 attempts, weakest of the active set. Confuses a rate (event / eligible base + window) with per-user-per-day volume. Due **Jul 2**.
+  - **Significance / CIs** (`...significance_foundations`): mastery **0.30**, 1 attempt, taught + 1 correct read (p>0.05 + CI includes 0 → don't ship). Due **Jul 2**. Sharpen language: "not significant ≠ proven no effect, it's inconclusive."
+  - **Metric trees** done; the rest of P2 (leading-vs-lagging, funnel, retention/cohort, A/B reading, metric-drop diagnosis, MECE causes) still **new, 0 attempts.**
+- **Calibration:** overall mean overconfidence −0.15 over 6 judgments — the tell is **underconfidence** (60–80 confidence on correct reads), not overconfidence. Confidence-number-first is now a hard gate (no grade until he gives a 0–100).
+- **This week's P2 targets** (in the Deep/Secondary titles): consolidate the three due-Jul-2 topics with cold re-tests; finally run **metric-drop diagnosis** (the Sat Jun 27 miss, still 0 attempts); introduce **funnel analysis** + **leading-vs-lagging**.
 
 ---
 
 ## Pillar 3 running ledger (network)
 
 - Alumni messages sent: 2 (Daniel Anicito, Fidelity Investments APM, 2026-06-20; Steven LaCroix, Associate PM @ Elanco, 2026-06-25)
-- Replies received: 2 (Daniel Anicito, 2026-06-25 — yes to a call, scheduling after 5pm ET; Steven LaCroix, 2026-06-26 — yes to a call, week of Jul 6)
+- Replies received: 2 (Daniel Anicito, 2026-06-25 — yes to a call; Steven LaCroix, 2026-06-26 — yes to a call). **Reply rate 2/2.**
+- Calls booked: 1 (Steven LaCroix — Tue Jul 7, 5:00pm ET / 2:00pm PT). Anicito proposed Tue Jun 30 5:30pm ET — awaiting confirm.
 - Conversations completed: 0
-- Tracker: started 2026-06-09 — `alumni-tracker.md` (project root)
-- Week of Jun 22 target: 3 sends (LaCroix, Akash Ravi, Allan Tan), front-loaded Mon–Wed. Note the LinkedIn free-connect-note cap (~3–5 personalized invites/month, ≤200 chars) — Anicito used one; mix connect-notes with comment-then-message for 3rd-degree contacts.
+- Tracker: started 2026-06-09 — `alumni-tracker.md` (project root). Call-prep sheets in `networking/`.
+- **Open tripwires (as of Jun 28):** (1) Steven messaged again Jun 27 — check LinkedIn, get email, send the Jul 7 invite. (2) Anicito hasn't confirmed Jun 30 — nudge, then send the invite.
+- Week of Jun 29 plan: **convert the live funnel** (run Anicito, lock LaCroix logistics, prep both) over raw new sends. New touches via comment-then-message (Akash Ravi, 3rd-degree) — the LinkedIn free-connect-note quota is near its monthly cap (2 of ~3–5 used, ≤200 chars).
 
 Note: Dr. G (Infisum) is the one live external thread — see the external relationships log.
 
@@ -360,7 +395,7 @@ Note: Dr. G (Infisum) is the one live external thread — see the external relat
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
 
-- As of 2026-06-21: all 13 P4 topics still `new`, 0 attempts. Expected — interview prep ramps in Phase 2 (Aug–Oct per direction.md); not a focus this summer beyond keeping stories warm. Shipping + metrics study win through August.
+- As of 2026-06-28: all 13 P4 topics still `new`, 0 attempts. Expected — interview prep ramps in Phase 2 (Aug–Oct per direction.md); not a focus this summer beyond keeping stories warm. Shipping + metrics study win through August. (Low-cost exception this week: a free Cosentino case-interview workshop Mon Jun 29 7pm is on the calendar — optional.)
 
 ---
 

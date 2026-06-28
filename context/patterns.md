@@ -41,6 +41,8 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 
 **Build-around (updated 2026-06-25).** First clean test produced a rep: cued deep block + first-contact teach mode (taught, not interrogated) got the first session done. Keep it — cued start (first 25 min non-negotiable) over the secondary slot that yields first; first-contact teach mode for any topic at mastery 0; pre-commit a non-zero floor in big-external-event weeks. Watch item: persist `state.json` at session close so progress is actually visible (a missed write nearly hid this rep). Verdict on full-week consistency stays a Sunday call.
 
+**Verdict (2026-06-28 Sunday).** Build-around HOLDS *conditionally*: the cued deep block produced 2 sessions this week (after 1 last week), clearing the week's due topics. But only 2 of 4 study blocks ran, and the misses trace to the 11–1 wake (the morning block elapsed before he was up), not to the study cue. So the gating variable has moved upstream to **sleep** (see the sleep-fix workstream). The study build-around is no longer the binding constraint; holding the 9:00 wake is. Keep the cue; the leverage this week is the wake.
+
 ---
 
 ## P3. Starts strong, then fades (the week-4 / mid-project drop) — ACTIVE
@@ -50,10 +52,11 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 **Evidence.**
 - StudyFlowForge ran Feb to Apr 2026 and was dated honestly as a finished past artifact rather than restarted.
 - Stated tendency confirmed across the profile: starts projects, does not finish.
+- **2026-06-28: Veer restarted StudyFlowForge** ("a project I want to work on") — the exact move this pattern warns against (returning to an old project / second anchor) at a moment when the dashboard still has open items (the US-version commitment to Dr. G), the externship starts Jul 6, and the metrics habit is only two sessions old. Reversal of the Jun 9 "keep SFF a finished artifact, one anchor" decision. Flagged for a genuine-pull-vs-avoidance check, not folded into the plan.
 
-**Cost.** Effort that does not compound into a shipped, iterated artifact.
+**Cost.** Effort that does not compound into a shipped, iterated artifact; focus split across two unfinished projects so neither reaches iterated-with-users.
 
-**Build-around.** Bias to lower sustainable weekly volume (one that survives week 4, 9, 16). Ship v1 in 1 to 2 weeks, iterate weekly, refuse rebuilds of working work. One anchor project, not many. The India dashboard is the anchor; the US version is deliberately scoped as a tight v0 to avoid this pattern.
+**Build-around.** Bias to lower sustainable weekly volume (one that survives week 4, 9, 16). Ship v1 in 1 to 2 weeks, iterate weekly, refuse rebuilds of working work. One anchor project, not many. The India dashboard is the anchor; the US version is deliberately scoped as a tight v0 to avoid this pattern. When a second project resurfaces, ask whether it is a genuine pull or avoidance of the harder anchor work before it earns calendar time.
 
 ---
 
@@ -81,6 +84,8 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 
 **Build-around (testing, week of Jun 22).** Front-load the 3 sends to Monday through Wednesday instead of spreading them to Saturday. Verdict to be recorded at the Sunday Jun 28 session: did front-loading raise the hit rate?
 
+**Verdict (2026-06-28 Sunday): no clean test — confounded by the wake problem.** New cold sends finished 1 of 3 again (LaCroix only, and it slipped to Thu); Akash + Allan never went. But the Mon–Wed slots fired during the 11–1 wake window, so front-loading failed for the sleep reason, not batching-per-se. Two mitigating facts: the funnel is now converting on *replies* (2 sent → 2 replies → 1 call booked), so raw send-count is a weaker bottleneck than relationship conversion; and the free-connect-note quota (~3–5/month) caps volume anyway. Action: re-test front-loading once the 9:00 wake holds; meanwhile weight P3 toward converting live calls + comment-then-message over hitting a rigid 3-cold-send number. Stays TESTING.
+
 ---
 
 ## P6. System-optimization can become the work — WATCH
@@ -96,4 +101,4 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 
 ---
 
-_Last updated: 2026-06-25 (mid-week reconcile) — P2 corrected: first study rep landed Jun 23 (initially misread as zero from an unsaved state.json); build-around produced its first rep._
+_Last updated: 2026-06-28 (Sunday session) — P2 verdict: build-around holds but the gating variable moved to sleep; P5 verdict: no clean front-load test (confounded by the 11–1 wake), funnel converting on replies, stays TESTING; P3: new evidence — SFF restart on Jun 28._
