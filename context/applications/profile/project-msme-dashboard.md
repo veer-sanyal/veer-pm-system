@@ -26,7 +26,7 @@ The flagship Pillar-1 artifact: a real product, real user, real instrumentation,
 - "Compute every figure from source" build rule caught a published/placeholder figure off by ~3x (IP-licensing growth: corrected to a computed ~29.4x).
 
 **Headline accomplishments (proof bullets):**
-- Built and shipped a live tool that flags which of India's small businesses (MSMEs) are most exposed to digital-trade policy, so a researcher grounds the call in data rather than guesswork; scoped and iterated end-to-end over 8+ weeks against a public decision log.
+- Built and shipped a live tool that flags which of India's small businesses (MSMEs) are most exposed to digital-trade policy, so a researcher grounds the call in data rather than guesswork; scoped and iterated end-to-end against a public decision log. (Duration note: the build began ~May 18, 2026; when a resume cites a week count, compute it from that start — ≈6 weeks as of late June 2026 — do NOT hardcode a stale number.)
 - Constructed a transparent exposure index from public WTO + Indian government (MoMSME Udyam) data, every proxy labeled and linked to source; surfaced the central modeled-assumption caveat directly in the interface rather than burying it.
 - Instrumented the live site with usage telemetry (custom event tracking) to measure real usage; computed every figure from source data instead of hardcoding (caught a published statistic off by ~3x). Built with AI-assisted development (Claude Code).
 
