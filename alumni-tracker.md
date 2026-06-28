@@ -118,7 +118,7 @@ After sending, fill the Msg date / Reply / Call columns in the shortlist above a
 
 - Messages sent: 2 (Daniel Anicito, 2026-06-20; Steven LaCroix, 2026-06-25)
 - Replies: 2 (Daniel Anicito, 2026-06-25 — yes to a call, scheduling; Steven LaCroix, 2026-06-26 — yes to a call, week of Jul 6)
-- Calls booked: 1 (Steven LaCroix — Tue Jul 7, 5:00pm ET)
+- Calls booked: 1 (Steven LaCroix — Tue Jul 7, 5:00–5:15pm ET / 2:00pm PT; **calendar invite SENT 2026-06-28** to slacroi@purdue.edu with a Google Meet link, awaiting his accept)
 - Calls completed: 0
 - Referrals: 0
 
