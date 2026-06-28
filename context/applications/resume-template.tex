@@ -1,0 +1,65 @@
+% Canonical ATS-safe single-column resume template for Veer Sanyal.
+% Copy this to applications/<Company>/VeerSanyal_<Company>_Resume.tex and fill the body.
+% Compile: pdflatex VeerSanyal_<Company>_Resume.tex   (or: latexmk -pdf <file>.tex)
+% Rules: 1 page hard cap; do not drop font below 10pt or margins below ~0.5in.
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.6in,right=0.6in,top=0.55in,bottom=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section formatting: bold heading + horizontal rule
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\hrule\vspace{3pt}]
+\titlespacing{\section}{0pt}{6pt}{2pt}
+
+% Tight list formatting
+\setlist[itemize]{leftmargin=1.3em,topsep=1pt,itemsep=1pt,parsep=0pt,label=\textbullet}
+
+% Entry header helper: \entry{Title}{Location}{Subtitle}{Dates}
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\[1pt]
+  \textit{#3}\hfill \textit{#4}\\[2pt]
+}
+
+\begin{document}
+
+% ===== HEADER (in body, ATS-safe — never in \pagestyle header/footer) =====
+\begin{center}
+  {\LARGE \textbf{Veer Sanyal}}\\[3pt]
+  Sammamish, WA $\cdot$ 360-643-9424 $\cdot$ vsanyal@purdue.edu $\cdot$ linkedin.com/in/veersanyal
+\end{center}
+
+% ===== EDUCATION =====
+\section*{Education}
+\textbf{Purdue University --- Mitch Daniels School of Business}\hfill West Lafayette, IN\\[1pt]
+\textit{B.S. Integrated Business and Engineering (IBE), Expected May 2028}\hfill \textit{Aug. 2024 -- Present}
+\begin{itemize}
+  \item Relevant coursework: % fill per role (see profile/education.md)
+\end{itemize}
+
+% ===== EXPERIENCE (reorder sections per profile/role-positioning.md) =====
+\section*{Experience}
+\entry{Company}{Location}{Title}{Dates}
+\begin{itemize}
+  \item % CAR/PAR bullet
+\end{itemize}
+
+% ===== PROJECTS =====
+\section*{Projects}
+\entry{Project}{}{Subtitle}{Dates}
+\begin{itemize}
+  \item % CAR/PAR bullet
+\end{itemize}
+
+% ===== SKILLS (3-4 categories, names mirroring the JD) =====
+\section*{Skills}
+\textbf{Category:} item, item, item
+
+\end{document}

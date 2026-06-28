@@ -1,0 +1,597 @@
+{
+  "schema_version": "1.0",
+  "user": {
+    "name": "Veer",
+    "goal": "Summer-2027 PM internship"
+  },
+  "pillars": {
+    "P2": {
+      "topics": [
+        {
+          "topic_id": "P2.trees.metric_tree_construction",
+          "name": "Metric trees -- goal to NSM to input metrics",
+          "bloom_target": "Apply",
+          "bloom_achieved": "Apply",
+          "mastery": 0.62,
+          "weakness_flag": "yellow",
+          "attempts": 6,
+          "last_practiced": "2026-06-25",
+          "review_band": "medium",
+          "next_review": "2026-07-09",
+          "format_breakdown": {
+            "goal-setting / metric decomposition": 6
+          },
+          "calibration": {
+            "mean_confidence": 0.9,
+            "mean_accuracy": 1.0,
+            "mean_overconfidence": -0.1
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft"
+          ],
+          "error_notes": [
+            "2026-06-23: Initially chose revenue (the business GOAL) as the North Star, conflating goal with NSM -- the canonical mistake. Corrected after one prompt; then chose 'completed deliveries' (value proxy that leads revenue), decomposed cleanly into active users x deliveries per user, and correctly placed average delivery time as a deeper driver feeding both branches. Re-test COLD next session: does the goal-vs-NSM separation hold without prompting? That is the interview crux.",
+            "2026-06-25: Cold re-test PASSED unaided -- for Spotify picked total time streamed as the NSM and separated it from revenue (the business goal) with no prompt. The goal-vs-NSM crux now holds cold. Next sharpening: frame the NSM as the leading proxy for value that drives the lagging revenue goal, not just 'revenue can be gamed.'"
+          ]
+        },
+        {
+          "topic_id": "P2.metrics.nsm_guardrail_primary_secondary",
+          "name": "NSM / guardrail / primary / secondary metric hierarchy",
+          "bloom_target": "Apply",
+          "bloom_achieved": "Apply",
+          "mastery": 0.56,
+          "weakness_flag": "unknown",
+          "attempts": 2,
+          "last_practiced": "2026-06-25",
+          "review_band": "short",
+          "next_review": "2026-07-02",
+          "format_breakdown": {
+            "goal-setting / metric definition": 2
+          },
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Airbnb"
+          ],
+          "error_notes": [
+            "2026-06-23: Guardrail concept INTRODUCED (taught: a guardrail catches when winning on the NSM causes damage elsewhere; almost any NSM can be gamed). The NSM-vs-goal distinction was practiced via the metric-trees topic. No unaided guardrail attempt yet -- session ended before he answered. First retrieval owed next session: name a guardrail for an NSM and the specific failure it guards against.",
+            "2026-06-25: First retrieval after teaching, and it landed. Initially conflated guardrail with input/decomposition metrics (guessed 'streams per user' / 'number of users'); after a short re-teach, produced two correct guardrails with named failures unaided -- Instagram time-spent guarded by churn/uninstalls (catches annoying users into leaving), YouTube watch-time guarded by average completion % (catches clickbait inflation). Graduated past first-contact (bloom Apply, 2 unaided-correct). Cold re-test next session that he does not revert to input metrics; push toward a wellbeing/satisfaction guardrail that catches harm before churn."
+          ]
+        },
+        {
+          "topic_id": "P2.metrics.numerator_denominator_discipline",
+          "name": "Numerator-denominator precision -- defining metrics implementably",
+          "bloom_target": "Apply",
+          "bloom_achieved": null,
+          "mastery": 0.4,
+          "weakness_flag": "unknown",
+          "attempts": 2,
+          "last_practiced": "2026-06-25",
+          "review_band": "short",
+          "next_review": "2026-07-02",
+          "format_breakdown": {
+            "metric definition": 2
+          },
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Microsoft",
+            "Airbnb"
+          ],
+          "error_notes": [
+            "2026-06-25: First retrieval (taught same session). Defined reply-rate numerator loosely as 'responses to messages' and reached for 'per day / per active user' as the denominator -- conflated a RATE (proportion over an eligible base) with per-unit VOLUME/intensity. Missed: rate = (messages replied-to within a window) / (messages eligible to be replied to), plus a stated window. Re-rep next: pin numerator event + eligible-base denominator + window; keep rate distinct from per-user-per-day intensity."
+          ]
+        },
+        {
+          "topic_id": "P2.metrics.leading_vs_lagging",
+          "name": "Leading vs. lagging indicators and measurement windows",
+          "bloom_target": "Apply",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.analysis.funnel_analysis",
+          "name": "Funnel analysis -- drop-off localization across AARRR stages",
+          "bloom_target": "Analyze",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft",
+            "Airbnb"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.analysis.retention_cohort",
+          "name": "Retention and cohort analysis -- curve flattening and smile curve",
+          "bloom_target": "Analyze",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Airbnb"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.stats.ab_test_reading",
+          "name": "A/B test reading -- p-value, confidence interval, peeking trap",
+          "bloom_target": "Apply",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Stripe",
+            "Airbnb"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.stats.significance_foundations",
+          "name": "Stats foundations -- significance tests, confidence intervals, power",
+          "bloom_target": "Apply",
+          "bloom_achieved": null,
+          "mastery": 0.3,
+          "weakness_flag": "unknown",
+          "attempts": 1,
+          "last_practiced": "2026-06-25",
+          "review_band": "short",
+          "next_review": "2026-07-02",
+          "format_breakdown": {
+            "analytical thinking": 1
+          },
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Stripe"
+          ],
+          "error_notes": [
+            "2026-06-25: First contact (taught same session) + first retrieval correct. Read p=0.20 > 0.05 as not significant, 95% CI [-0.2%, +1.0%] includes 0, decided not to ship -- right judgment on both tools. Articulation fuzzy ('included in the CI', 'makes it ineffective') and underconfident (conf 60 on a correct read). Re-rep: tighten language and add the trap -- not significant != proven no effect, it is inconclusive (direction unknown when the CI straddles 0)."
+          ]
+        },
+        {
+          "topic_id": "P2.diagnosis.metric_drop_diagnosis",
+          "name": "Metric-drop diagnosis -- clarify, segment-first, MECE internal/external, walk funnel, check instrumentation",
+          "bloom_target": "Analyze",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P2.diagnosis.mece_cause_framework",
+          "name": "MECE cause classification -- internal (bug/release/feature) vs. external (seasonality/competitor/tracking)",
+          "bloom_target": "Analyze",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Microsoft"
+          ],
+          "error_notes": []
+        }
+      ]
+    },
+    "P4": {
+      "topics": [
+        {
+          "topic_id": "P4.sense.product_design_improvement",
+          "name": "Product sense -- design and improvement questions",
+          "bloom_target": "Analyze",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft",
+            "Airbnb"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.strategy.product_strategy",
+          "name": "Product strategy -- market entry, ecosystem, big-bet prioritization",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Google",
+            "Stripe"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.estimation.game_framework",
+          "name": "Estimation and analytical -- GAME framework (Goals, Actions, Metrics, Evaluation)",
+          "bloom_target": "Analyze",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Google",
+            "Meta",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.star_stories",
+          "name": "Behavioral and leadership -- STAR story framework",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Microsoft",
+            "Google",
+            "Stripe"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.conflict_story",
+          "name": "STAR sub-topic -- conflict resolution story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.failure_story",
+          "name": "STAR sub-topic -- failure and recovery story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.learning_story",
+          "name": "STAR sub-topic -- learning and growth story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.ownership_story",
+          "name": "STAR sub-topic -- ownership and initiative story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.persuasion_story",
+          "name": "STAR sub-topic -- persuasion and influencing without authority story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.leadership_without_authority_story",
+          "name": "STAR sub-topic -- leadership without formal authority story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Meta",
+            "Google",
+            "Microsoft"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.behavioral.technical_collaboration_story",
+          "name": "STAR sub-topic -- technical collaboration story",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Microsoft",
+            "Stripe",
+            "Google"
+          ],
+          "error_notes": []
+        },
+        {
+          "topic_id": "P4.technical.credibility_defense",
+          "name": "Technical-credibility defense -- projects, APIs, languages, system-design lite",
+          "bloom_target": "Evaluate",
+          "bloom_achieved": null,
+          "mastery": 0.0,
+          "weakness_flag": "unknown",
+          "attempts": 0,
+          "last_practiced": null,
+          "review_band": "new",
+          "next_review": null,
+          "format_breakdown": {},
+          "calibration": {
+            "mean_confidence": null,
+            "mean_accuracy": null,
+            "mean_overconfidence": null
+          },
+          "company_tags": [
+            "Microsoft",
+            "Stripe",
+            "Google"
+          ],
+          "error_notes": []
+        }
+      ]
+    }
+  },
+  "habits": {
+    "sessions": [
+      {
+        "date": "2026-06-23",
+        "type": "build / first-contact",
+        "duration_min": 35,
+        "topics": [
+          "P2.trees.metric_tree_construction",
+          "P2.metrics.nsm_guardrail_primary_secondary"
+        ],
+        "items": 5,
+        "accuracy": 0.8,
+        "notes": "First ever tutor session; the pillar-at-zero is broken. Metric trees taught first-contact and cleared to a floor (Apply). Guardrails introduced but not yet retrieved. Calibration habit not sticking: skipped the confidence number on 2 of 3 prompts -- hold him to number-first every item next session."
+      },
+      {
+        "date": "2026-06-25",
+        "type": "build / consolidate",
+        "duration_min": 45,
+        "topics": [
+          "P2.trees.metric_tree_construction",
+          "P2.metrics.nsm_guardrail_primary_secondary",
+          "P2.metrics.numerator_denominator_discipline",
+          "P2.stats.significance_foundations"
+        ],
+        "items": 6,
+        "accuracy": 0.92,
+        "notes": "Catch-up session, cleared the week's due P2 topics. Metric-trees cold re-test passed unaided (goal-vs-NSM crux holds). Guardrails taught + 2 unaided-correct -> graduated past first-contact (Apply). Numerator-denominator taught: 1 borderline (reached for per-day/per-user volume instead of an eligible base) then 1 clean rep. Significance/CIs taught + 1 correct read (p>0.05 + CI includes 0 -> don't ship). Calibration now a hard gate; tell is underconfidence (60-80 on correct reads), not overconfidence."
+      }
+    ],
+    "median_session_min": 40,
+    "fatigue_threshold_min": 60
+  },
+  "calibration_overall": {
+    "mean_overconfidence": -0.15,
+    "n_judgments": 6
+  },
+  "milestones": {}
+}
