@@ -169,6 +169,7 @@ and updates the row here. Stage ∈ {Researching, Drafting, Ready, Submitted}.
 |---|---|---|---|
 | Claude Corps Fellow (CodePath + Anthropic) | 2026-07-17 (Cohort 1) | **Rejected (2026-06-23)** — not advanced past application; invited to reapply to future cohorts | `applications/Claude Corps/` |
 | Trice Systems (Hyderabad hyperlocal-commerce startup; warm intro via Sudip Uncle) | — (no posting; resume + message sent via WhatsApp 2026-06-15, awaiting intro to Trice team) | Submitted | `applications/Trice/` |
+| TikTok Shop — Category Management Project Intern (Operations), 2026 Start (Seattle; LinkedIn 4324981139, job code A23374B) | Rolling (no fixed close; "apply early") | **Ready** — tailored resume built 2026-06-28; Veer submits off-LinkedIn at careers.tiktok.com. ⚠️ Off-strategy: e-commerce seller-BD/ops role, 2026 start collides with junior fall (see PROGRESS Jun 28) | `applications/Tiktok - Category Mgmt Intern/` |
 | _(12 legacy applications archived in `applications/`)_ | — | — | `applications/` |
 
 Add a row when a new target is identified; convert any relative deadline to an absolute date.

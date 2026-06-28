@@ -365,6 +365,8 @@ Reconcile (Gmail + Calendar, past 7 / next 14 days). Connectors: Gmail + Calenda
 - **P4 (optional, low-cost):** Cosentino case workshop Mon 7pm if he wants it; Phase 2 interview prep does not formally start until Aug.
 - Sat Jul 4: kept light (holiday) — short consolidate + flex, protect the day, hold the wake within an hour.
 
+**Off-plan application (logged + flagged).** Veer asked to apply to a **TikTok Shop — Category Management Project Intern (Operations), 2026 Start** (Seattle, $23.75/hr, job code A23374B, LinkedIn 4324981139; rolling, 3-month commit). Flagged before building: e-commerce seller-BD / category-ops role (not PM, not the prioritized product/data-analyst feeder), and a 2026 in-person Seattle start collides with junior fall + the Aug–Oct APM crunch — reads as a P2 reactive-over-proactive move the same week SFF resurfaced (focus-split watch). Veer chose to proceed. **Tailored 1-page resume built** (`applications/Tiktok - Category Mgmt Intern/VeerSanyal_TikTok_CategoryMgmt_Resume.{tex,pdf}`): led the India MSME dashboard as the digital-commerce / small-business market-research + trackers + actionable-insights bullseye; Firmly (e-commerce platform) + SMIF (research → leadership reports) as experience; EPICS for cross-functional leadership. Submission is off-LinkedIn at careers.tiktok.com — Veer submits himself (not auto-applied). Pipeline row added to key-dates.md at Stage = Ready.
+
 ---
 
 ## Pillar 2 running ledger (technical)

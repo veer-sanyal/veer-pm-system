@@ -26,7 +26,8 @@ inventory only** — application deadlines and pipeline status live in
 | SAP | VeerSanyalResume.pdf, VeerSanyalCoverLetter.pdf | No — regenerate on demand |
 | SpaceX | Veer_Sanyal_Resume.pdf, Veer_Sanyal_Cover_Letter.pdf | No — regenerate on demand |
 | Tesla | Veer_Sanyal_Resume.pdf | No — regenerate on demand |
-| Tiktok | VeerSanyalResume.pdf | No — regenerate on demand |
+| Tiktok (legacy) | VeerSanyalResume.pdf | No — regenerate on demand |
+| Tiktok - Category Mgmt Intern (ACTIVE) | VeerSanyal_TikTok_CategoryMgmt_Resume.tex + .pdf | Yes |
 
 New applications: create `applications/<Company>/`, save `.tex` + `.pdf` (see workflow), and
 add a row here. For consistency, prefer the `VeerSanyal_<Company>_Resume.{tex,pdf}` naming on

@@ -1,0 +1,81 @@
+% Veer Sanyal - resume tailored to TikTok Shop Category Management Project Intern (Operations), 2026 Start.
+% Compile: pdflatex VeerSanyal_TikTok_CategoryMgmt_Resume.tex
+% 1 page hard cap; do not drop font below 10pt or margins below ~0.5in.
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.6in,right=0.6in,top=0.55in,bottom=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\hrule\vspace{3pt}]
+\titlespacing{\section}{0pt}{6pt}{2pt}
+
+\setlist[itemize]{leftmargin=1.3em,topsep=1pt,itemsep=1pt,parsep=0pt,label=\textbullet}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\[1pt]
+  \textit{#3}\hfill \textit{#4}\\[2pt]
+}
+
+\begin{document}
+
+% ===== HEADER =====
+\begin{center}
+  {\LARGE \textbf{Veer Sanyal}}\\[3pt]
+  Sammamish, WA $\cdot$ 360-643-9424 $\cdot$ vsanyal@purdue.edu $\cdot$ linkedin.com/in/veersanyal
+\end{center}
+
+% ===== EDUCATION =====
+\section*{Education}
+\textbf{Purdue University --- Mitch Daniels School of Business}\hfill West Lafayette, IN\\[1pt]
+\textit{B.S. Integrated Business and Engineering (IBE), Expected May 2028}\hfill \textit{Aug. 2024 -- Present}
+\begin{itemize}
+  \item Relevant coursework: Statistics, Microeconomics, Managerial Accounting, Financial Accounting, Engineering Design \& Project Execution. IBE is a selective hybrid business + engineering program.
+\end{itemize}
+
+% ===== EXPERIENCE =====
+\section*{Experience}
+\entry{Firmly (fintech / e-commerce platform)}{Remote}{Product \& Engineering Intern}{Jun. 2025 -- Aug. 2025}
+\begin{itemize}
+  \item Shipped a checkout failure-recovery flow end-to-end for an e-commerce payments platform; defined requirements and partnered cross-functionally with engineering, UX, and support to resolve $\sim$15 high-risk payment edge cases.
+  \item Built a repeatable QA workflow (edge-case tracker + release checklist, 20+ cases) adopted as the team standard for fix verification; created structured handoff documentation that reduced cross-team back-and-forth.
+  \item Built and tracked product metrics (error rate, recovery rate) via server-side logging, turning raw usage data into actionable insights for prioritization.
+\end{itemize}
+
+\entry{Student Managed Investment Fund (SMIF)}{West Lafayette, IN}{Equity Research Analyst}{Jan. 2025 -- Present}
+\begin{itemize}
+  \item Researched a public company end-to-end (competitive landscape, consumer trends, pricing, revenue drivers, risks) and synthesized findings into a 20-page client-style report with a clear, data-backed recommendation supporting investment-committee decisions.
+  \item Presented the thesis to a 30+ member committee and defended assumptions under live questioning; refined framing from stakeholder feedback. Built the supporting 3-statement model in Excel.
+\end{itemize}
+
+% ===== PROJECTS =====
+\section*{Projects}
+\entry{India MSME Digital-Trade Exposure Dashboard}{}{Independent product build; live for a policy-research user}{May 2026 -- Present}
+\begin{itemize}
+  \item Built and shipped a live tool ranking which of India's small-business sellers (MSMEs) are most exposed to digital-commerce policy, so a decision-maker grounds the call in data; scoped and iterated end-to-end over 8+ weeks against a public decision log.
+  \item Constructed a transparent exposure index from public WTO and government data using both qualitative and quantitative research, every proxy labeled and source-linked; surfaced the key modeled-assumption caveat directly in the interface.
+  \item Instrumented the live site with usage telemetry and built interactive performance trackers; computed every figure from source data, catching a published statistic off by $\sim$3x.
+\end{itemize}
+
+% ===== LEADERSHIP =====
+\section*{Leadership \& Activities}
+\entry{Engineering Projects in Community Service (EPICS)}{West Lafayette, IN}{Communications Officer \& Build Lead}{Aug. 2025 -- Dec. 2025}
+\begin{itemize}
+  \item Led a 7-person cross-functional team; coordinated weekly tasks, surfaced blockers, and presented tradeoffs in two formal reviews to faculty, sponsors, and museum stakeholders.
+\end{itemize}
+
+% ===== SKILLS =====
+\section*{Skills}
+\textbf{Research \& Analysis:} market \& competitive research, qualitative and quantitative research, survey / interview synthesis, actionable-insight reporting, financial modeling (Excel, DCF)\\[2pt]
+\textbf{E-commerce \& Product:} digital-commerce / marketplace domain, product scoping, KPI dashboards \& trackers, usage telemetry, A/B testing fundamentals\\[2pt]
+\textbf{Communication:} stakeholder presentations, written client reports, cross-functional coordination, async remote collaboration\\[2pt]
+\textbf{Tools:} Excel, PowerPoint, Python, Plotly, SQL (built-with), Git/GitHub, Claude Code
+
+\end{document}
