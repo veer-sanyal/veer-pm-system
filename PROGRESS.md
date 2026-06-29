@@ -369,6 +369,20 @@ Reconcile (Gmail + Calendar, past 7 / next 14 days). Connectors: Gmail + Calenda
 
 ---
 
+### 2026-06-29 (Mon) — week 1 of the 9:00 wake
+
+Reconcile (start-of-session, `initialize`). Connectors: Gmail + Calendar available; product repo re-pulled this session via clean clone. **Product HEAD `84ec4ca`** (Jun 25 cleanup) — no new commits, no drift.
+- **Pillar 3 — LaCroix call CONFIRMED.** Steven **accepted the Jul 7 calendar invite** (Gmail "Accepted: Veer Sanyal <> Steven LaCroix — intro chat" from slacroi@purdue.edu, 2026-06-29 ~1:20pm PT). Tue Jul 7, 5:00–5:15pm ET / 2:00pm PT, Meet link — fully locked. First informational interview confirmed on the calendar.
+- **Pillar 3 — Anicito rescheduled (Jun 30 call is OFF).** Caught via the step-3c LinkedIn-via-Gmail scan ("Daniel just messaged you", 2026-06-29 ~12:20pm PT); read on LinkedIn via Chrome. Daniel **declined Tue Jun 30** ("Tuesday isn't a great day for me, and with the commute home I probably should have said anytime after 630"), asked for **next week after 6:30pm ET**. Move: pinned a concrete slot rather than bouncing "next week" back vaguely — Veer **proposed Wed Jul 8, 7pm ET** (7pm not 6:30, a buffer past his commute — Veer's call) **and asked which email to send the invite to**; sent on LinkedIn 2:36pm PT. Awaiting his confirm + email → then send the Google Calendar invite. Prep stands at `networking/Anicito-Fidelity-call-prep.md`.
+- **Calendar cleaned (reconcile-vs-reality):** deleted the stale Jun 30 2:30pm "Call: Daniel Anicito" hold (call not happening); rewrote the Jun 30 Morning Briefing to reflect the reschedule + LaCroix confirm; reassigned the freed Jun 30 secondary block (was "Anicito call prep") to **LaCroix call prep** (Jul 7 is the nearer call).
+- Drafts: only the two superseded Dr. G drafts (Jun 21) — harmless, connector can't trash. No new inbound on Dr. G, Trice, PM Club, or any application thread.
+
+System signals (initialize): **`initialize` came at ~2:05pm PT, so the hard 9:00 wake did NOT hold today** — the morning spine (9:45 deep, 11:45 secondary) elapsed before engagement. This is week 1, **night 4** of the protocol (started Fri Jun 26); the protocol expects nights 2–4 to be the roughest, so this is the mechanism, not a failure — target stays 9:00 tomorrow regardless. Day rebuilt forward from ~2pm: the live Anicito reschedule (done), then the protected P2 deep rep (numerator-denominator + significance/CIs cold re-test). Exact wake-time + chosen-sleep-time **not yet logged — awaiting Veer** (asked; fill the 2 indicators here once given, incl. the Fri/Sat/Sun week-1 baseline).
+
+Coaching/system note: Veer flagged that the Anicito reschedule reply was drafted before reading the networking docs + the Anicito call-prep sheet — "next time do it without asking when doing relevant tasks." Correct call (the SYSTEM-PROMPT CONSULT-WHEN-RELEVANT rule already requires it). Read the docs (reply held up against the playbook, no substantive change); saved as a standing correction so the relevant context gets read proactively, not turned into a question.
+
+---
+
 ## Pillar 2 running ledger (technical)
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
