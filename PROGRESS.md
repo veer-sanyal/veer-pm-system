@@ -383,6 +383,18 @@ Coaching/system note: Veer flagged that the Anicito reschedule reply was drafted
 
 ---
 
+### 2026-06-30 (Tue) — week 1 of the 9:00 wake, night 5
+
+Reconcile (start-of-session, `initialize`). Connectors: Gmail + Calendar available; product repo re-pulled via clean clone. **Product HEAD `84ec4ca`** (Jun 25 cleanup) — no new commits, no drift.
+- **Pillar 3 — Anicito still not confirmed.** The only "Daniel just messaged you" digest (Jun 29 12:22pm PT) is his reschedule message, which predates Veer's 2:36pm PT proposal of Wed Jul 8 7pm ET + email ask. No newer Daniel digest → he hasn't confirmed the Jul 8 slot or sent his email yet. Still awaiting; nudge if silent in a day or two.
+- **Pillar 3 — LaCroix fully locked** (no change): Jul 7 5:00pm ET invite accepted Jun 29 (slacroi@purdue.edu, meet.google.com/uqv-ajsv-pdf). The Jun 30 small-item "send Steven the invite" was therefore already DONE — retitled the block + backfilled with a comment-then-message touch to Akash Ravi (bypasses the near-cap free-connect-note quota).
+- Inbound: nothing on Dr. G, Trice, PM Club, or any application thread — inbox is all promos/retail/job-digest noise (CSC, LinkedIn add-suggestion, WWDC survey, Handshake/resume-now job blasts). No tripwires. Drafts: only the two superseded Dr. G drafts (Jun 21) — harmless, connector can't trash.
+- **FANG-jobs check (Veer asked):** confirmed via web that the Summer-2027 PM-intern windows are NOT open yet — they open Aug–Nov 2026 (Google APM ~mid-Oct; Microsoft rolling from ~Aug; Indeed surfaced nothing for FAANG PM interns now). Matches key-dates.md. Nothing to apply to today; the live pipeline item is the already-submitted TikTok referral. Begin weekly careers-page checks in Sept.
+
+System signals (initialize): **`initialize` came at ~2:03pm PT — the hard 9:00 wake did NOT hold again** (same as Jun 29 ~2:05pm). Week 1, **night 5** of the protocol (started Fri Jun 26); the morning spine (9:45 deep P2, 11:45 LaCroix-prep secondary) elapsed before engagement. Day rebuilt forward from ~2pm: protected P2 deep rep (NSM/guardrail cold re-test + metric-drop first contact) + the Akash Ravi P3 touch. Exact wake-time + chosen-sleep-time **not yet logged — awaiting Veer** (fill the 2 indicators here once given). Two straight ~2pm `initialize` pings is the signal to watch for the ~Jul 9 escalation (morning light, then 0.5mg melatonin) if the wake isn't migrating by the Jul 5 Sunday session.
+
+---
+
 ## Pillar 2 running ledger (technical)
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
