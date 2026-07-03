@@ -41,14 +41,14 @@
           "name": "NSM / guardrail / primary / secondary metric hierarchy",
           "bloom_target": "Apply",
           "bloom_achieved": "Apply",
-          "mastery": 0.56,
+          "mastery": 0.54,
           "weakness_flag": "unknown",
-          "attempts": 2,
-          "last_practiced": "2026-06-25",
-          "review_band": "short",
-          "next_review": "2026-07-02",
+          "attempts": 3,
+          "last_practiced": "2026-06-30",
+          "review_band": "medium",
+          "next_review": "2026-07-14",
           "format_breakdown": {
-            "goal-setting / metric definition": 2
+            "goal-setting / metric definition": 3
           },
           "calibration": {
             "mean_confidence": null,
@@ -62,7 +62,8 @@
           ],
           "error_notes": [
             "2026-06-23: Guardrail concept INTRODUCED (taught: a guardrail catches when winning on the NSM causes damage elsewhere; almost any NSM can be gamed). The NSM-vs-goal distinction was practiced via the metric-trees topic. No unaided guardrail attempt yet -- session ended before he answered. First retrieval owed next session: name a guardrail for an NSM and the specific failure it guards against.",
-            "2026-06-25: First retrieval after teaching, and it landed. Initially conflated guardrail with input/decomposition metrics (guessed 'streams per user' / 'number of users'); after a short re-teach, produced two correct guardrails with named failures unaided -- Instagram time-spent guarded by churn/uninstalls (catches annoying users into leaving), YouTube watch-time guarded by average completion % (catches clickbait inflation). Graduated past first-contact (bloom Apply, 2 unaided-correct). Cold re-test next session that he does not revert to input metrics; push toward a wellbeing/satisfaction guardrail that catches harm before churn."
+            "2026-06-25: First retrieval after teaching, and it landed. Initially conflated guardrail with input/decomposition metrics (guessed 'streams per user' / 'number of users'); after a short re-teach, produced two correct guardrails with named failures unaided -- Instagram time-spent guarded by churn/uninstalls (catches annoying users into leaving), YouTube watch-time guarded by average completion % (catches clickbait inflation). Graduated past first-contact (bloom Apply, 2 unaided-correct). Cold re-test next session that he does not revert to input metrics; push toward a wellbeing/satisfaction guardrail that catches harm before churn.",
+            "2026-06-30: Cold re-test (Duolingo). Did NOT revert to input metrics and did NOT pick the goal -- both prior traps cleared. New gap surfaced: picked a per-attempt QUALITY RATE (spaced-recall correct rate) as the NSM, plus a quality guardrail (transfer rate) -- both quality, nothing capturing engaged value at scale / leading business growth. After one prompt, correctly converted the rate into a volume-at-scale aggregate (sum of correct spaced recalls across users = quality x scale). Borderline: needed the prompt to get the NSM's scale+leading-indicator role; articulation loose. Calibration note: conf 80 on a shaky answer = overconfident here (+0.3), unusual vs his usual underconfidence. Next: state the NSM crisply as an aggregate count of value events (not a rate), and name why it leads revenue."
           ]
         },
         {
@@ -590,8 +591,8 @@
     "fatigue_threshold_min": 60
   },
   "calibration_overall": {
-    "mean_overconfidence": -0.15,
-    "n_judgments": 6
+    "mean_overconfidence": -0.09,
+    "n_judgments": 7
   },
   "milestones": {}
 }
