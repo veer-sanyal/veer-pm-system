@@ -19,9 +19,9 @@
 
 **Live tripwires (as of Jul 3)**
 
-1. **Anicito confirm reply UNSENT ~2 days**: he said yes to Wed Jul 8 at 5:00/5:30pm ET (LinkedIn, Jul 1) but gave no email. Smallest action: open LinkedIn, one line confirming 5:30 + re-ask the email, send the invite. Calendar hold exists (Jul 8, 2:30pm PT). Prep: `networking/Anicito-Fidelity-call-prep.md`.
-2. **Externship teammate kickoff email UNSENT**, required before Jul 6 (do NOT contact mentor/client before Jul 6).
-3. Jul 1–2 were zero-trace days (no initialize, no study, no commits); due-Jul-2 cold re-tests (numerator-denominator 0.40, significance/CIs 0.30) now overdue; metric-drop diagnosis still 0 attempts.
+1. **Externship teammate kickoff email UNSENT**, required before Jul 6 (do NOT contact mentor/client before Jul 6).
+2. Jul 1–2 were zero-trace days (no initialize, no study, no commits); due-Jul-2 cold re-tests (numerator-denominator 0.40, significance/CIs 0.30) now overdue; metric-drop diagnosis still 0 attempts.
+3. **Anicito invite pending his email**: confirm SENT Jul 3 (5:30pm ET Jul 8 locked, email re-asked). When he replies with an email, send the Google Calendar invite + Meet link same day (hold exists: Jul 8, 2:30pm PT). If no email by the call, run it over LinkedIn.
 
 ---
 
@@ -37,7 +37,7 @@
 **Next moves**
 
 - **Sleep-fix workstream is the keystone** (started Jun 26; `context/sleep-protocol.md` owns config): hard fixed 9:00 wake, behavioral-first. Week 1 read: initialize came ~2pm on Jun 29 and Jun 30; Jul 1–2 unknown. Verdict + escalation check (morning light, then 0.5mg melatonin) at the Jul 5 Sunday session / ~Jul 9.
-- **Pillar 3 — convert the live funnel over raw new sends**: LaCroix call LOCKED Tue Jul 7 5:00pm ET / 2:00pm PT (invite accepted; prep `networking/LaCroix-Elanco-call-prep.md`; he flagged "no strategy, right place right time" — mine the situation). Anicito Wed Jul 8 (tripwire 1). New touches via comment-then-message (Akash Ravi) — free connect-note quota near its monthly cap (~3-5/month, 200-char limit). Funnel to date: 2 cold sends → 2 replies → 2 calls agreed.
+- **Pillar 3 — convert the live funnel over raw new sends**: LaCroix call LOCKED Tue Jul 7 5:00pm ET / 2:00pm PT (invite accepted; prep `networking/LaCroix-Elanco-call-prep.md`; he flagged "no strategy, right place right time" — mine the situation). Anicito Wed Jul 8 (tripwire 1). New touches via comment-then-message (Akash Ravi) — free connect-note quota near its monthly cap (~3-5/month, 200-char limit). Funnel to date: 2 cold sends → 2 replies → 2 calls agreed. Anicito: Jul 8 5:30pm ET locked (tripwire 3, invite awaits his email).
 - **Dr. G (Infisum)**: relationship in active-routing mode — he's sharing the dashboard with India policy contacts and checking for usable data; await intros. Thank-you sent Jun 20; loop closed.
 - **PM Club @ Purdue**: email-list form submitted + BoilerLink membership pending (Jun 28); still to do: follow @pmclubpurdue on Instagram. Run it Minimal through the Aug–Oct APM crunch (target-company speaker events = warm Pillar-3 contacts); pitch a project/teaching slot only after the APM app ships (~mid-Oct).
 - **Google APM prep**: window expected to close early-to-mid Oct 2026 — the hard anchor pulling everything forward (timeline in `context/key-dates.md`).
