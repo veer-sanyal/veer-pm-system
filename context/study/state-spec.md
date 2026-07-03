@@ -217,13 +217,13 @@ The tutor writes state continuously, after every graded item, not only at close.
    ```
    YYYY-MM-DD: P2/P4 session - N items, X% accuracy, topics: [topic names]. Weak: [red/yellow flags if any].
    ```
-3. Stage and commit (via the clean sandbox-clone protocol in SYSTEM-PROMPT, not the mounted .git):
+3. Stage and commit (native git; the old Cowork clone workaround is retired):
    ```
    git add context/study/state.json PROGRESS.md
    git commit -m "Study session YYYY-MM-DD: [pillar] [session_type] - N items, X% accuracy"
    ```
 
-**Commit cadence:** write the file every item; commit once at close. Do NOT commit per item -- each commit is a full clone-and-push, and per-item commits would make the session crawl. The per-item disk writes (not commits) are the in-session durability guarantee.
+**Commit cadence:** write the file every item; commit once at close. Do NOT commit per item -- the per-item disk writes (not commits) are the in-session durability guarantee.
 
 **Safety net:** because `state.json` on disk is always current, a session that ends without a clean close is recovered by the next start-of-session reconcile, which reads `state.json`, detects the drift against the last commit, and commits it. Progress is never lost even if close-out never runs.
 

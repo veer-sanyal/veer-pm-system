@@ -4,7 +4,7 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 
 **Ownership.** This file OWNS the recurring-pattern ledger. `about-me.md` owns the static operating manual (who Veer is, durable psychology); this file is the dynamic, evidence-accumulating layer that tracks how those tendencies actually show up over time and what counters them. Where about-me states a trait, this file logs its dated instances and the evolving counter-move. Cross-link, never duplicate.
 
-**How it self-updates** (rule also lives in SYSTEM-PROMPT.md):
+**How it self-updates** (maintained during `/reconcile` and `/sunday`):
 - A candidate becomes a logged pattern once observed in at least 2 distinct instances.
 - When a logged pattern recurs, add the dated instance under Evidence and sharpen the build-around if the counter-move changed.
 - If a counter-move is being trialed, mark the pattern TESTING and record the verdict at the next Sunday session.

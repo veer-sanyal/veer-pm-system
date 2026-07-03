@@ -163,7 +163,7 @@ Single source of truth for application timing. The on-demand application-docs wo
 and updates the row here. Stage ∈ {Researching, Drafting, Ready, Submitted}.
 
 **Sunday rule:** any deadline within ~2 weeks still at Stage < Ready becomes a candidate
-"draft `<Company>` resume" work block for the week (see SYSTEM-PROMPT).
+"draft `<Company>` resume" work block for the week (rule lives in `/sunday`).
 
 | Company / Role | Deadline (absolute) | Stage | Docs |
 |---|---|---|---|

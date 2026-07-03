@@ -1,37 +1,38 @@
 # Veer PM Execution System (planning project)
 
-This is the coaching and planning system for landing a Summer-2027 PM internship. It is separate from the dashboard product, which lives in `veer-sanyal/india-msme-digital-trade-exposure`.
+The coaching and planning system for landing a Summer-2027 PM internship. It is separate from the dashboard product, which lives in `veer-sanyal/india-msme-digital-trade-exposure`.
 
-## What changed and why this exists
+**PRIVATE.** This repo holds a psychological profile and logs with real names. Never make it public.
 
-The old setup tried to deliver a daily plan by scheduled Gmail send, which the Gmail connector cannot do (it only drafts). It was also synced to the dashboard repo, so the planning docs were never actually in the synced source and edits did not persist. This project fixes both: delivery moved to Google Calendar, and the planning docs get their own synced repo.
+## How it runs (Claude Code, since 2026-07-03)
 
-## Setup
+The system runs in **Claude Code** with this folder as the working directory. Migrated from the Cowork project 2026-07-03: the standing prompt moved from the pasted custom-instructions field into `CLAUDE.md` (auto-loaded every session), and the per-capability protocols became slash commands in `.claude/commands/`. Native git replaced the Cowork clone-commit workaround (the old sandbox mount couldn't delete git lock files; that whole class of problem is gone).
 
-1. Create a NEW, PRIVATE GitHub repo (for example `veer-pm-system`). It holds your psychological profile and PROGRESS.md with real names, so it must be private.
-2. Push the contents of this folder to that repo (keep the `context/`, `files/`, `specs/` folders as they are; the two-tier reading convention depends on the folder split).
-3. In the cowork project, paste the contents of `SYSTEM-PROMPT.md` into the project's custom-instructions field. Do not upload it as a doc; it is the standing prompt.
-4. Sync the cowork project to the private repo.
-5. Enable the Google Calendar connector on the project so the Sunday session can write the week directly. If it is not enabled, the assistant will output the events for you to add by hand.
+| Piece | Where |
+|---|---|
+| Standing prompt (durable protocol only) | `CLAUDE.md` |
+| Daily reality-sync | `/reconcile` |
+| Morning wake signal | `/initialize` |
+| Sunday planning session | `/sunday` |
+| Resume / cover letter | `/apply <company>` |
+| Study / practice (Pillars 2 & 4) | `/tutor` |
+| Current state + live tripwires | `memory.md` (always read; carries the `Last reconciled:` stamp) |
+| Running log | `PROGRESS.md` (tail) + `PROGRESS-archive.md` (history) |
+| Session telemetry | `session-log.jsonl` (one line per session; feeds the monthly health check in `/sunday`) |
+| File manifest | `file-index.md` (reference; consulted when looking for where something lives) |
 
-## How delivery works now
+Connectors: Gmail and Google Calendar come through the claude.ai connectors (MCP) in Claude Code; Gmail can only draft, never send, so the daily plan is delivered via **Google Calendar** (the recurring spine + Sunday-written block titles and Morning Briefings — spec in `context/daily-briefing-instructions.md`). LinkedIn is read via the Chrome connector when available.
 
-- Google Calendar (your primary, Pacific) is the channel. The recurring spine is already on it: Deep block 9:45, Secondary 11:45, Workout 1:00, Small item 2:30 (Mon-Sat), and the Sunday planning session at 4:00.
-- Each Sunday session retitles that week's three work blocks with the specific action and writes six 9:00 Morning Briefing events. The block titles are the triggers; the briefing holds yesterday's question, "this week feeds," and an optional citation.
-- Full spec in `context/daily-briefing-instructions.md`.
+## Setup on a new machine
 
-## Token-lean reading convention (two tiers, simplified 2026-06-15)
+1. Clone this repo (stays private) and `cd` into it.
+2. Authenticate `gh` (`gh auth login`) so `/reconcile` can pull the product repo's commits.
+3. Run `claude` in the folder. `CLAUDE.md` loads automatically; connectors are per-account (claude.ai), not per-machine.
 
-The assistant reads the working copies in `context/` for all day-to-day work; `files/` keeps the full deep-research reports for deep dives only. The `context/` copies preserve every fact, number, date, and citation at roughly half the tokens — this cuts per-session context load and improves instruction-following (long context measurably degrades recall). When a doc changes, its `context/` copy is updated in the same session. (The former `docs/` uncompressed-mirror tier was removed 2026-06-15: it duplicated `context/` and drifted whenever a session forgot to refresh it. `context/` is now the single read tier.)
+## Reading convention (two tiers)
+
+`context/` holds the working copies the assistant reads day-to-day (one canonical copy per doc, roughly half the tokens of the originals); `files/` holds the full deep-research originals for deep dives only. When a doc changes, its `context/` copy is updated in the same session. Full map in `file-index.md`.
 
 ## Keeping it current
 
-Because the project syncs from GitHub, saving means committing. The assistant updates `memory.md` (current state) and `PROGRESS.md` (the log), or outputs the exact edits for you to commit. Product decisions still go to `DECISIONS.md` in the dashboard repo.
-
-## File map
-
-See `file-index.md` for the full manifest.
-
-## Application documents (resume / cover letter)
-
-This project also houses Veer's resume / cover-letter system (folded in 2026-06-13). Ask for a resume or cover letter for a role and the assistant follows `context/applications/application-docs-workflow.md`: it reads the profile in `context/applications/profile/`, drafts from `context/applications/resume-template.tex`, and writes `.tex` + `.pdf` into `applications/<Company>/`. Application deadlines live in `context/key-dates.md` (Application Pipeline) and can flow into the Sunday plan.
+Saving means committing: every change is committed and pushed before a session ends (rule in `CLAUDE.md`). Product decisions still go to `DECISIONS.md` in the dashboard repo.

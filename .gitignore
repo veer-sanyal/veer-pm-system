@@ -1,7 +1,8 @@
 .DS_Store
 .Rhistory
 .Rapp.history
-.claude/
+.claude/*
+!.claude/commands/
 
 # LaTeX build artifacts
 *.aux

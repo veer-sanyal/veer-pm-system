@@ -39,7 +39,7 @@ Hardest pillar work in deep block; different category in secondary (reduces atte
 
 ### B. Morning Briefing event at 9:00 (15 min)
 
-**1. Yesterday's question.** One specific question about yesterday's primary commitment. No reply mechanism; self-check only. Answer goes in `PROGRESS.md`, cowork chat, or Sunday. Uncaptured 3+ days → planner flags as drift signal at Sunday. Example: "Did you finish the data scout for Option B? What did you find?"
+**1. Yesterday's question.** One specific question about yesterday's primary commitment. No reply mechanism; self-check only. Answer goes in `PROGRESS.md`, a Claude Code session, or Sunday. Uncaptured 3+ days → planner flags as drift signal at Sunday. Example: "Did you finish the data scout for Option B? What did you find?"
 
 **2. This week feeds.** One sentence linking today to the week's deliverable — not motivation, just the link. Example: "This week feeds: dashboard iteration plus the first 3 alumni messages out by Saturday."
 

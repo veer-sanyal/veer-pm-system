@@ -1,6 +1,6 @@
 # File Index
 
-A manifest of every file in this project, what it is for, and where to read it.
+A manifest of every file in this project, what it is for, and where to read it. Reference, not a per-session read: consult it when looking for where something lives; keep it current (new files get a row before the session ends).
 
 Project: Veer's PM-internship execution system targeting a Summer-2027 PM internship (Google APM or equivalent). This is the planning and coaching system. The dashboard product lives in a separate repo (`veer-sanyal/india-msme-digital-trade-exposure`).
 
@@ -12,13 +12,15 @@ Project: Veer's PM-internship execution system targeting a Summer-2027 PM intern
 
 | File | Purpose |
 |------|---------|
-| `SYSTEM-PROMPT.md` | The text to paste into the cowork project's custom-instructions field. Not read as a doc; it is the project's standing prompt. Holds the auto-reconcile protocol, closed-loop accountability, the two-tier convention, and the single-source-of-truth ownership map. |
-| `README.md` | What this project is and how to set it up (GitHub repo, cowork project, Calendar connector). |
+| `CLAUDE.md` | The standing prompt, auto-loaded by Claude Code every session. Durable protocol only: session-start tiers, ownership map, routing, default behaviors, commit + telemetry rules. Replaced `SYSTEM-PROMPT.md` at the 2026-07-03 Cowork -> Claude Code migration (old prompt in git history). |
+| `.claude/commands/` | Slash-command protocols, loaded only when invoked: `reconcile` (daily reality-sync), `initialize` (morning wake signal), `sunday` (weekly session + system maintenance + monthly health check), `apply` (resume/cover letter), `tutor` (study mode). |
+| `session-log.jsonl` | Session telemetry: one JSON line per session (schema in the file's first line). Feeds the monthly system health check in `/sunday`. |
+| `README.md` | What this project is and how it runs in Claude Code (setup, connectors, delivery). |
 | `memory.md` | OWNS current state: what's shipped, active focus, next moves, durable operating principles, tools. Mirrors a regenerated summary of `context/study/state.json` (never hand-edit that summary). Strategy lives in `context/direction.md`; the day-by-day narrative lives in `PROGRESS.md`. |
 | `PROGRESS.md` | OWNS the running narrative: day-by-day log across all four pillars, the standing pillar ledgers, external conversations (Dr. G, alumni), and system signals. Read the tail (~3-4 weeks) by default; older months roll into `PROGRESS-archive.md`. PRIVATE (real names + strategy): keep this repo private. |
-| `PROGRESS-archive.md` | Closed-month entries rolled out of `PROGRESS.md` to keep the per-session tail read small. The complete historical log; created when the first month is archived. PRIVATE. |
+| `PROGRESS-archive.md` | Older dated entries rolled out of `PROGRESS.md` to keep the tail read small (first roll 2026-07-03: weeks 1-3). The complete historical log. PRIVATE. |
 | `alumni-tracker.md` | Pillar 3 outreach spine: the 10-name verified alumni shortlist (+ bench), per-contact message/reply/call tracking, LinkedIn Alumni Tool recipes and Boolean queries, targeting criteria, the 5-part message blueprint, and the running ledger. Started 2026-06-09. PRIVATE (real names). |
-| `networking/` | Per-contact informational-interview call-prep sheets (one file per scheduled call), grounded in the networking research docs. Created 2026-06-25 with `Anicito-Fidelity-call-prep.md`; `LaCroix-Elanco-call-prep.md` added 2026-06-27 (second alumni call, week of Jul 6). PRIVATE (real names). Scales as the 20+ informational interviews land; each new call gets a sheet here, cross-linked to its `alumni-tracker.md` row. |
+| `networking/` | Per-contact call-prep sheets, one file per scheduled call, grounded in the networking research docs: `Anicito-Fidelity-call-prep.md`, `LaCroix-Elanco-call-prep.md`, `dr-g-call-prep-2026-06-18.md` (historical). PRIVATE (real names). Each new call gets a sheet here, cross-linked to its `alumni-tracker.md` row. |
 | `file-index.md` | This file. |
 
 ---
@@ -56,6 +58,7 @@ All read copies are in `context/`. A `files/` entry means the full uncompressed 
 | Purdue network recruiting | `research-purdue-network-recruiting.md` | — (context-only) |
 | Dashboard user problem | `research-infisum-dashboard-user-problem.md` | — (context-only) |
 | Sleep / circadian (2026-06-25) | operational protocol in `sleep-protocol.md` | `files/sleep-circadian-research-2026-06-25.md` |
+| Emotional regulation (2026-06-25; evidence base only, no build decision yet) | `emotional-regulation/research-emotional-regulation-synthesis.md` | — (context-only) |
 
 ---
 
@@ -72,17 +75,7 @@ All read copies are in `context/`. A `files/` entry means the full uncompressed 
 | `chart_B_ip_licensing_v3.png` | **Current Chart B (2026-06-14).** Same 29.4x IP-licensing series, v6 reframe ("a round 30x would have been right; the point is not hardcoding even a number you'd get right by hand"). For a discipline-themed follow-up post; the live v7 post leads with Chart A instead. |
 | `make_chart_B.py` | Reproducible generator for `chart_B_ip_licensing_v3.png`. Holds the `ipImp` series copied from `site/data.js`; re-run after a data refresh. Matplotlib, house palette. |
 
-**Post drafts (chronological; v7 is final and live):**
-
-| File | Purpose |
-|------|---------|
-| `post-01-draft.md` | First-post draft (2026-06-09), Chart A, error-catch story (10x->29.4x). Superseded. |
-| `post-01-v2.md` | First-post draft (2026-06-10), Entry 009 error-catch story. Superseded. |
-| `post-01-v3.md` | First-post draft (2026-06-10), consulting-13x lead. Superseded by v4. |
-| `post-01-v4.md` | First-post draft (2026-06-10): consulting hook + named user/policy anchor + $90B vs 92k firms + v0-honesty. Superseded by v5. |
-| `post-01-v5.md` | First-post draft (2026-06-13): build-discipline spine; dropped the $90B/92k overstate; one body link. Superseded by v6. |
-| `post-01-v6.md` | First-post draft (2026-06-14): reframed the error-catch into the honest "29.4x rounds to a clean 30x, and the discipline is not hardcoding it anyway." Superseded by v7. |
-| `post-01-v7.md` | **FINAL — the LIVE post (posted 2026-06-14).** Finding-led angle: leads with the surprising consulting-over-software finding (Chart A), keeping build discipline as a one-paragraph credibility beat. Supersedes draft + v2-v6. |
+**Post drafts:** `post-01-draft.md` through `post-01-v7.md` — iterations of the first LinkedIn post. **`post-01-v7.md` is FINAL and LIVE (posted 2026-06-14)**, finding-led (consulting-over-software, Chart A) with build discipline as a one-paragraph credibility beat. v1–v6 are superseded drafting history.
 
 ---
 
