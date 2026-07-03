@@ -395,6 +395,18 @@ System signals (initialize): **`initialize` came at ~2:03pm PT — the hard 9:00
 
 ---
 
+### 2026-07-03 (Fri)
+
+Reconcile (start-of-session, ~12:20am PT). Connectors: Gmail + Calendar + Chrome (LinkedIn read). Product repo re-pulled: HEAD `84ec4ca` (Jun 25 cleanup) — no new commits, no drift. No US-version repo exists yet; no StudyFlowForge pushes since the Jun 28 flag either.
+
+- **Pillar 3 — ANICITO SAID YES TO THE 8th, at a new time: Wed Jul 8, 5:00 or 5:30pm ET.** His LinkedIn message (Jul 1, 4:01am ET; digest caught by the step-3c scan, read via Chrome): *"If you could do the 8th at 5 or 530 that would be perfect."* He did NOT answer the email ask. **The reply has sat unanswered ~2 days — tripwire.** Smallest action (put in today's briefing): open LinkedIn, send one line confirming 5:30 + re-ask the email, then send the invite. Calendar hold created: Wed Jul 8, 2:30–3:00pm PT. Prep stands at `networking/Anicito-Fidelity-call-prep.md`.
+- **Externship ASSIGNED (email Jul 1, "Summer Externship - Team and Project Details"):** team = Veer + **Prisha Goswami** (pgoswami@purdue.edu) + **Jiada Li** (li5375@purdue.edu) + **Isabel Yura** (iyura@purdue.edu); alumni mentor = **Shawn Heggland** (shawn.heggland@gmail.com, linkedin.com/in/shawn-heggland/); client = **Scouting America (Sagamore Council BSA**, sagamorebsa.org). Project scope attached to the email ("Business one pager.docx" — not yet read). Week 1 (Jul 6–10) requires: 5 video modules (the Accenture videos arrived Jul 2, plus a fixed link), an internal team meeting early in the week, and the first client meeting; mentor cadence W1 initial / W2 Jul 13 midpoint / W3 Jul 20 presentation review / W4 finals. **Required BEFORE Jul 6: email teammates to schedule the internal kickoff + align roles — no trace it's been sent; do NOT contact mentor or client before Jul 6.** Mentor + client are the promised Pillar-3 warm-contact surface; log Heggland in `alumni-tracker.md` once contact opens Monday.
+- **Jul 1–2 were zero-trace days:** no `initialize`, no tutor sessions (`state.json` last practice = Jun 30), no commits anywhere. The Jun 30 rebuilt-day rep DID run (NSM/guardrail re-test: 0.56→0.54, now 3 attempts — logged), but metric-drop diagnosis is still 0 attempts and the due-Jul-2 cold re-tests (numerator-denominator 0.40, significance/CIs 0.30) are now overdue. Today's deep block already covers consolidation. Wake data for Jul 1–2 unknown — ask at the next `initialize`. Sleep verdict + the wake-week-1 read is Sunday's call (Jul 5); escalation check ~Jul 9.
+- Inbound otherwise: nothing on Dr. G, Trice, PM Club/BoilerLink, or TikTok/Greenhouse — noise only. Drafts: just the two superseded Dr. G drafts (known, harmless). LaCroix locked (Tue Jul 7, 2:00pm PT; invite accepted).
+- Calendar: week of Jul 6 is still the generic spine — written at Sunday's session (Jul 5), which now has the real externship shape (team, client, W1 obligations) to plan around. Today's Morning Briefing rewritten to lead with the Anicito reply + the teammate kickoff email.
+
+---
+
 ## Pillar 2 running ledger (technical)
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
@@ -414,10 +426,10 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 
 - Alumni messages sent: 2 (Daniel Anicito, Fidelity Investments APM, 2026-06-20; Steven LaCroix, Associate PM @ Elanco, 2026-06-25)
 - Replies received: 2 (Daniel Anicito, 2026-06-25 — yes to a call; Steven LaCroix, 2026-06-26 — yes to a call). **Reply rate 2/2.**
-- Calls booked: 1 (Steven LaCroix — Tue Jul 7, 5:00pm ET / 2:00pm PT). Anicito proposed Tue Jun 30 5:30pm ET — awaiting confirm.
+- Calls booked: 2 (Steven LaCroix — Tue Jul 7, 5:00pm ET / 2:00pm PT, invite accepted; Daniel Anicito — Wed Jul 8, agreed to 5:00/5:30pm ET on Jul 1, logistics pending: Veer's confirm reply + his email + the invite).
 - Conversations completed: 0
 - Tracker: started 2026-06-09 — `alumni-tracker.md` (project root). Call-prep sheets in `networking/`.
-- **Open tripwires (as of Jun 28):** (1) ~~Steven messaged again Jun 27 — check LinkedIn, get email, send the Jul 7 invite.~~ **CLOSED 2026-06-28:** his Jun 27 LinkedIn msg gave his Purdue email (slacroi@purdue.edu); calendar invite SENT with a Google Meet link (meet.google.com/uqv-ajsv-pdf) for Tue Jul 7 5:00–5:15pm ET, awaiting his accept. (2) Anicito hasn't confirmed Jun 30 — nudge, then send the invite (still open).
+- **Open tripwires (as of Jun 28):** (1) ~~Steven messaged again Jun 27 — check LinkedIn, get email, send the Jul 7 invite.~~ **CLOSED 2026-06-28:** his Jun 27 LinkedIn msg gave his Purdue email (slacroi@purdue.edu); calendar invite SENT with a Google Meet link (meet.google.com/uqv-ajsv-pdf) for Tue Jul 7 5:00–5:15pm ET, awaiting his accept. (2) UPDATED Jul 3: Anicito said yes to Wed Jul 8 at 5:00/5:30pm ET (LinkedIn, Jul 1) but gave no email — Veer to reply confirming 5:30 + re-ask the email, then send the invite (open).
 - Week of Jun 29 plan: **convert the live funnel** (run Anicito, lock LaCroix logistics, prep both) over raw new sends. New touches via comment-then-message (Akash Ravi, 3rd-degree) — the LinkedIn free-connect-note quota is near its monthly cap (2 of ~3–5 used, ≤200 chars).
 
 Note: Dr. G (Infisum) is the one live external thread — see the external relationships log.
