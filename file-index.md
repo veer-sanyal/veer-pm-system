@@ -38,6 +38,7 @@ Project: Veer's PM-internship execution system targeting a Summer-2027 PM intern
 | Key dates | `key-dates.md` | OWNS the recruiting timeline, all deadlines, and the Application Pipeline. Worked back from Google APM (~early-mid Oct 2026). |
 | Dashboard roadmap | `infisum-dashboard-roadmap.md` | Build plan for Pillar 1 (the India MSME digital-trade-exposure dashboard): vision, phased plan, stack, success criteria. |
 | Full profile | `veer-full-profile.md` | Deep psychological/coaching profile for personalization. Reference, not day-to-day lens. Full original in `files/veer-full-profile.md`. |
+| Externship | `externship-scouting-america.md` | OWNS the Daniels Summer Externship static facts (Jul 6–Aug 1): team + emails, mentor Heggland, client Scouting America–Sagamore Council (contact Bryon Haverstick), full project scope from the "Business one pager" (comms/marketing plan, 4 content buckets, 5 audiences, 2 deliverables), weekly cadence, program rules. Added 2026-07-03; one-pager original in Veer's Google Drive. |
 
 ---
 
