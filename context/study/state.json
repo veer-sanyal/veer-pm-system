@@ -71,14 +71,14 @@
           "name": "Numerator-denominator precision -- defining metrics implementably",
           "bloom_target": "Apply",
           "bloom_achieved": null,
-          "mastery": 0.4,
+          "mastery": 0.45,
           "weakness_flag": "unknown",
-          "attempts": 2,
-          "last_practiced": "2026-06-25",
+          "attempts": 3,
+          "last_practiced": "2026-07-03",
           "review_band": "short",
-          "next_review": "2026-07-02",
+          "next_review": "2026-07-10",
           "format_breakdown": {
-            "metric definition": 2
+            "metric definition": 3
           },
           "calibration": {
             "mean_confidence": null,
@@ -91,7 +91,8 @@
             "Airbnb"
           ],
           "error_notes": [
-            "2026-06-25: First retrieval (taught same session). Defined reply-rate numerator loosely as 'responses to messages' and reached for 'per day / per active user' as the denominator -- conflated a RATE (proportion over an eligible base) with per-unit VOLUME/intensity. Missed: rate = (messages replied-to within a window) / (messages eligible to be replied to), plus a stated window. Re-rep next: pin numerator event + eligible-base denominator + window; keep rate distinct from per-user-per-day intensity."
+            "2026-06-25: First retrieval (taught same session). Defined reply-rate numerator loosely as 'responses to messages' and reached for 'per day / per active user' as the denominator -- conflated a RATE (proportion over an eligible base) with per-unit VOLUME/intensity. Missed: rate = (messages replied-to within a window) / (messages eligible to be replied to), plus a stated window. Re-rep next: pin numerator event + eligible-base denominator + window; keep rate distinct from per-user-per-day intensity.",
+            "2026-07-03: Cold re-test (Airbnb host response rate), Borderline. Prior trap CLEARED: went straight to an eligible-base denominator, no per-day intensity reversion. Two gaps: (1) numerator had no response-deadline window ('replied to' undefined -- replied ever?); (2) unit sloppiness, counted messages not first-inquiry threads (double-counts within a thread, auto-replies uncounted). Named the rolling aggregation window but not the response deadline -- the TWO-time-boundaries structure (deadline in the numerator, rolling window over the base) is the next rep's target. Calibration: conf 80 on a Borderline, second straight overconfident-on-shaky read."
           ]
         },
         {
@@ -196,14 +197,14 @@
           "name": "Stats foundations -- significance tests, confidence intervals, power",
           "bloom_target": "Apply",
           "bloom_achieved": null,
-          "mastery": 0.3,
+          "mastery": 0.15,
           "weakness_flag": "unknown",
-          "attempts": 1,
-          "last_practiced": "2026-06-25",
+          "attempts": 2,
+          "last_practiced": "2026-07-03",
           "review_band": "short",
-          "next_review": "2026-07-02",
+          "next_review": "2026-07-10",
           "format_breakdown": {
-            "analytical thinking": 1
+            "analytical thinking": 2
           },
           "calibration": {
             "mean_confidence": null,
@@ -216,7 +217,8 @@
             "Stripe"
           ],
           "error_notes": [
-            "2026-06-25: First contact (taught same session) + first retrieval correct. Read p=0.20 > 0.05 as not significant, 95% CI [-0.2%, +1.0%] includes 0, decided not to ship -- right judgment on both tools. Articulation fuzzy ('included in the CI', 'makes it ineffective') and underconfident (conf 60 on a correct read). Re-rep: tighten language and add the trap -- not significant != proven no effect, it is inconclusive (direction unknown when the CI straddles 0)."
+            "2026-06-25: First contact (taught same session) + first retrieval correct. Read p=0.20 > 0.05 as not significant, 95% CI [-0.2%, +1.0%] includes 0, decided not to ship -- right judgment on both tools. Articulation fuzzy ('included in the CI', 'makes it ineffective') and underconfident (conf 60 on a correct read). Re-rep: tighten language and add the trap -- not significant != proven no effect, it is inconclusive (direction unknown when the CI straddles 0).",
+            "2026-07-03: Cold re-test, Weak -- walked STRAIGHT into the exact trap flagged Jun 25. Endorsed a teammate's 'p>0.05 proves no effect, kill it' claim and amplified it ('definitely not indicative of any significant information'). Mechanics held (read p>0.05 and CI-includes-0 correctly); the inference failed: treated absence of evidence as evidence of absence. Never engaged the CI's upper bound (+1.4% is a real, plausible lift) or the what-next (power/extend). This is now the topic's live crux: inconclusive != null, and the CI's WIDTH/upper bound is information. Calibration: conf 60 on a Weak (+0.6), third straight overconfident read on a shaky answer -- the tell has flipped sides."
           ]
         },
         {
@@ -591,8 +593,8 @@
     "fatigue_threshold_min": 60
   },
   "calibration_overall": {
-    "mean_overconfidence": -0.09,
-    "n_judgments": 7
+    "mean_overconfidence": 0.03,
+    "n_judgments": 9
   },
   "milestones": {}
 }

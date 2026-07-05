@@ -66,6 +66,7 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 
 **Evidence.**
 - 2026-06: the Dr. G reply complete in Drafts; the Claude Corps app complete but for two courses. Both flagged as one click from done.
+- 2026-07-05: externship teammate kickoff email drafted Jul 3, still in Drafts on Jul 5 morning with a hard Jul 6 start — two full days parked one click from send, deadline absorbing the slack (also P5-adjacent).
 
 **Cost.** The last 10% carries most of the value (the sent message, the submitted app), so stalling there forfeits the payoff of work already done.
 

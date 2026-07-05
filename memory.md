@@ -2,7 +2,7 @@
 > Strategy lives in `context/direction.md`; the day-by-day narrative lives in `PROGRESS.md`.
 > Keep it a snapshot (~1,500 words max): closed items compress to one line; the story is already in PROGRESS.md.
 
-**Last reconciled: 2026-07-03 ~00:25 PT** (Gmail + Calendar + Chrome reachable; product repo pulled, HEAD `84ec4ca`).
+**Last reconciled: 2026-07-05 ~09:40 PT** (Gmail + Calendar reachable; Chrome not used this scan; product repo HEAD `84ec4ca`, no drift).
 
 ---
 
@@ -17,11 +17,11 @@
 
 ---
 
-**Live tripwires (as of Jul 3)**
+**Live tripwires (as of Jul 5 reconcile)**
 
-1. **Externship teammate kickoff email DRAFTED, NOT SENT** (Gmail draft staged Jul 3: proposes Monday windows + the 4-role agenda). Smallest action: open Gmail Drafts, check the From line — if there's no send-as for vsanyal@purdue.edu, copy the text into the Purdue account — and send. Required before Jul 6; do NOT contact mentor/client before Jul 6.
-2. Jul 1–2 were zero-trace days (no initialize, no study, no commits); due-Jul-2 cold re-tests (numerator-denominator 0.40, significance/CIs 0.30) now overdue; metric-drop diagnosis still 0 attempts.
-3. **Anicito invite pending his email**: confirm SENT Jul 3 (5:30pm ET Jul 8 locked, email re-asked). When he replies with an email, send the Google Calendar invite + Meet link same day (hold exists: Jul 8, 2:30pm PT). If no email by the call, run it over LinkedIn.
+1. **Externship teammate kickoff email STILL IN DRAFTS — TODAY IS THE LAST DAY** (verified in Gmail Drafts Jul 5 am; staged Jul 3 ~5pm PT; program starts Mon Jul 6). Second stall on the same last step = pattern P4, named. The move is unchanged and takes under 2 minutes: open Gmail Drafts, check the From line — no vsanyal@purdue.edu send-as means copy the text into the Purdue account — and hit send. Do NOT contact mentor/client before Jul 6.
+2. Jul 1–2 AND Jul 4 were zero-trace days (state.json untouched since the Jul 3 session, last practice Jun 30; no commits; no initialize). Due-Jul-2 cold re-tests (numerator-denominator 0.40, significance/CIs 0.30) overdue; metric-drop diagnosis still 0 attempts. Sleep verdict lands at TODAY's Sunday session (4pm PT, on the calendar).
+3. **Anicito invite pending his email**: confirm SENT Jul 3 (5:30pm ET Jul 8 locked, email re-asked). No LinkedIn digest hits through Jul 5 am — no reply yet. When his email lands, send the Calendar invite + Meet link same day (hold exists: Jul 8, 2:30pm PT). If no email by the call, run it over LinkedIn.
 
 ---
 
@@ -42,7 +42,7 @@
 - **PM Club @ Purdue**: email-list form submitted + BoilerLink membership pending (Jun 28); still to do: follow @pmclubpurdue on Instagram. Run it Minimal through the Aug–Oct APM crunch (target-company speaker events = warm Pillar-3 contacts); pitch a project/teaching slot only after the APM app ships (~mid-Oct).
 - **Google APM prep**: window expected to close early-to-mid Oct 2026 — the hard anchor pulling everything forward (timeline in `context/key-dates.md`).
 - **FLAG (Jun 28): Veer restarted StudyFlowForge** — P3 pattern (second anchor, rebuild-before-launch), contradicts the Jun 9 one-anchor decision. Not folded into the plan; resolve genuine-pull-vs-avoidance before it earns calendar time (US-version + externship + fragile metrics habit all live). No SFF pushes as of Jul 3.
-- July 4th: Cole Miller's dad — show up in person (no formal apology text); the relationship is the asset. Confirm attendance by text.
+- July 4th (Cole Miller's dad) has passed — outcome unknown; ask at the Sunday session whether he went and log it.
 
 ---
 

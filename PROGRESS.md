@@ -326,6 +326,16 @@ Reconcile (start-of-session, ~12:20am PT). Connectors: Gmail + Calendar + Chrome
 - Calendar: week of Jul 6 is still the generic spine — written at Sunday's session (Jul 5), which now has the real externship shape (team, client, W1 obligations) to plan around. Today's Morning Briefing rewritten to lead with the Anicito reply + the teammate kickoff email.
 - **Later session (evening): both tripwires actioned.** (1) Anicito confirm SENT (see relationships log). (2) **Externship kickoff email DRAFTED** to Prisha/Jiada/Isabel — proposes Monday-availability reply-all + the 4-role agenda + flags the fixed video link; staged in Gmail Drafts (check From line: may need to send from the Purdue account). (3) **Project scope one-pager READ** (attachment saved to Drive via Gmail): client = Scouting America Sagamore Council, contact **Bryon Haverstick (COO)**; project = **communications + marketing plan** (schedule/frequency/channels for 4 content buckets across 5 audiences) + website/social adjustment recommendations. Full scope + contacts persisted to `context/externship-scouting-america.md` (new, indexed). Natural role ask at kickoff: Timeline & Project Manager.
 
+### 2026-07-05 (Sun)
+
+Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product repo HEAD `84ec4ca` — no new commits, no drift. Sunday planning session is on the calendar today, 4:00pm PT.
+
+- **Teammate kickoff email STILL IN DRAFTS** (verified: staged Jul 3 ~5pm PT to Prisha/Jiada/Isabel, untouched since). Program starts tomorrow. This is the second stall on the same final step — logged as a P4 instance (drafted = 90%, send = the 10% that carries the value). Today is the send-or-miss day.
+- **Jul 4 was a zero-trace day on the plan**: no commits, state.json untouched (last practice still Jun 30), no initialize. The calendar had only light blocks (holiday) and the day's real priority was Cole Miller's dad in person — whether that happened is unknown; ask at today's session. Done-check on Jul 3's blocks: the evening session ran (tripwires actioned, commits at 4:55–5:03pm), so Jul 3 was a live day.
+- **Anicito: no reply yet.** Zero LinkedIn message digests in the last 4 days; email not received. Wed Jul 8 5:30pm ET stands, invite still blocked on his address; LinkedIn fallback stays the plan.
+- Inbound otherwise: nothing new on any pipeline row (TikTok, Trice, Dr. G — noise only). No new externship mail since the Jul 2 "NEW LINK to videos". Minor: Purdue advising says Alec Gramm returns as advisor (Jul 1) — no action.
+- Calendar week of Jul 6 is still the generic spine — written at today's Sunday session, which now also owns: sleep-week-1 verdict + escalation check, externship hours sizing, and the July 4th outcome.
+
 ---
 
 ## Pillar 2 running ledger (technical)
