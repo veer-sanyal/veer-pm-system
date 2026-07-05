@@ -19,7 +19,7 @@
 
 **Live tripwires (as of Jul 5 Sunday session — week of Jul 6 planned, calendar written)**
 
-1. **Teammate replies → invite (Mon):** kickoff email sent Jul 5 10:18am from the gmail address. When the 2nd reply lands, send the team-meeting calendar invite + Meet link within 30 min. If anyone is silent Mon morning, resend from vsanyal@purdue.edu (filtering risk). Internal meeting gates mentor/client contact; at the meeting, volunteer for Timeline & Project Manager.
+1. **Team kickoff MEETING BOOKED: Mon Jul 6, 6:00pm ET / 3:00pm PT, 45 min** (meet.google.com/tfg-vbso-sup; invite sent Jul 5 ~4:25pm PT after Prisha + Izzy replied within an hour — overlap 5:30–8pm ET). Jiada silent as of the send; if he can't make it, shift within the window. At the meeting: volunteer for Timeline & Project Manager. Meeting gates mentor/client contact.
 2. **Anicito email (by Wed 2:30pm PT):** confirm sent Jul 3; no reply through Jul 5. His email arrives → invite same day (hold exists). No email by the call → run it over LinkedIn, do not reschedule.
 3. **Trice team call:** awaiting Sudip's scheduling (windows offered Jul 5: 9:30–11pm IST weekdays = 9:00–10:30am PT). Call agenda: role family, weekly hours, remote-vs-Hyderabad, + the Purdue-externship disclosure (not in the WhatsApp reply — must be said on the call). NO hour commitments before next Sunday sizes it against real externship-W1 hours.
 4. **Melatonin decision Thu Jul 9** (in that day's briefing): wake landed 9:00–10:00 on 3 of the last 4 days → hold; otherwise start 0.5mg ~8:30pm. Morning light is ACTIVE from Mon Jul 6.
