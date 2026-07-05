@@ -18,7 +18,7 @@ The weekly structural session. Everything mid-week sessions refuse to do (replan
 ## Sequence
 
 1. **Reconcile first.** Run `/reconcile`, then compare the past week's WRITTEN calendar block titles against PROGRESS.md and commits: scheduled vs actually-done vs slipped, before any planning.
-2. Review what shipped, slipped, surprised (data, not analysis). Name the week's pattern briefly; record any TESTING pattern verdicts in `context/patterns.md`.
+2. Review what shipped, slipped, surprised (data, not analysis). Name the week's pattern briefly; record any TESTING pattern verdicts in `context/patterns.md`. Include one line of StudyFlow-bundle activity (`~/Desktop/study app advisor` git log) as DATA — visible, never counted toward pillar volume, and checked against its two boundaries (no morning blocks, stops at wind-down). Ruling of 2026-07-05; revisit post-APM-app.
 3. Define next week's commitments by pillar; turn each into an implementation intention (when X, you Y).
 4. **Pipeline rule:** any application deadline within ~2 weeks still at Stage < Ready becomes a candidate "draft <Company> resume" work block.
 5. **Study targets:** from state.json, rewrite the PROGRESS.md Pillar 2 & 4 ledgers, refresh the memory.md learning-state summary, and pick the week's P2/P4 targets (due/weak topics + days-to-next-milestone); write them into block titles and briefings.
