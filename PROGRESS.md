@@ -338,20 +338,45 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 - **Later (screenshot from Veer, ~9:45am PT): TRICE CONVERTED.** Sudip Uncle replied Fri Jul 3 8:40–8:41pm: "Let me know what time suits u I mean mapped to ist timezone" + "From next week u can start". Sat unanswered ~2 days. Reply drafted for Veer to send today (IST-evening windows + ask for the team call); commitment sizing pushed to today's Sunday session — Trice's start week is externship Week 1. Full thread state in the Trice relationships entry.
 - **~10:00–10:20am PT: BOTH P4 STALLS CLOSED, same morning they were named.** (1) Trice reply sent 9:59am (see relationships log). (2) **Externship kickoff email SENT 10:18am** to Prisha/Jiada/Isabel (verified in:sent; subject "Externship kickoff - scheduling our team meeting before Monday"; went from the gmail address, watch for filtering if replies don't come). Naming the tripwire → send within minutes, twice — the P4 build-around (name the single last physical action) is holding. Coaching call made in-session: do NOT claim the PM role in the email; the email itself is the PM bid, volunteer for Timeline & Project Manager at the meeting with the scheduling work as evidence. Next edge: teammate replies → calendar invite same day; internal meeting Monday gates the Heggland + client intros.
 
+### 2026-07-05 (Sun) — Sunday planning session (run ~10:30am, ahead of the 4pm slot)
+
+**Scheduled-vs-done, week of Jun 29–Jul 4** (calendar titles vs PROGRESS + state.json + commits):
+- Shipped: Jun 29 Anicito reschedule handled + LaCroix confirmed; Jun 30 NSM/guardrail re-test ran (0.56→0.54) + FANG-window check; Jul 3 tutor session ran (numerator-denominator 0.40→0.45; significance COLD-DROPPED 0.30→0.15) + both evening tripwires actioned (Anicito confirm, kickoff draft) + externship scope read/persisted; Jul 5 (today) kickoff email SENT + Trice reply SENT.
+- Slipped: Jul 1–2 fully zero-trace (both deep blocks, career-fair registration, Akash comment); Jul 4's light blocks never ran on-plan — the morning went to StudyFlow spec work (see below), the day itself went to Cole Miller's dad (the actual priority, and it went well); metric-drop diagnosis now 4 weeks scheduled, 0 attempts; Akash Ravi comment-then-message slipped a 2nd week; US-version scope slipped a 2nd week (still not started).
+- Surprised: Trice converted ("start next week"); significance re-test exposed a real gap (0.15 — the Jun 25 "1 correct read" was thinner than it looked); the StudyFlow spec bundle turns out to be a serious, disciplined system (33 components locked, decision engine, graded research) — not idle tinkering.
+
+**Pattern named:** same as last week, sharpened. The wake is the gating variable (Jul 1–2 zeros; week-1 wake "mixed, trending earlier" per Veer) — AND the P4 same-day-close build-around demonstrably works when a tripwire is named while he's live (two closes in 20 min this morning). The system's job this week: morning light on the wake, and name-the-last-action fast on anything that parks.
+
+**Sleep verdict (week 1 of the hard 9:00):** NOT holding yet, but trending (Veer's read: mixed, some days near 9–10). Per protocol order: **escalation step 1 (morning light) starts Mon Jul 6** — outside within ~5 min of the 9:00 alarm, 10+ min. **Melatonin check Thu Jul 9** in the briefing: if wake hasn't landed 9:00–10:00 on 3 of 4 days, start 0.5mg ~8:30pm. Logged in sleep-protocol.md status.
+
+**StudyFlowForge ruling (the Jun 28 P3 flag, resolved with Veer live):** it's a genuine pull, not avoidance — he's been speccing it in a full co-work advisor bundle (`~/Desktop/study app advisor`: 33 spec components LOCKED, D-108 decisions, graded research corpus; design-first, zero code, explicitly NOT a rebuild of study-flow-forge-91). Ruling: (1) it stays OFF the committed calendar through the externship + APM window — the four pillars own the blocks; (2) it lives in after-3:30 personal time, which is genuinely his; (3) two hard boundaries: it never displaces a morning block again (it took Jul 4's), and **it stops at the wind-down cue** — the Jul 4 1:02/1:30am spec commits are a direct attack on the 9:00-wake keystone; (4) honest trade named: a zero-decisions-before-code greenfield spec ships nothing before the APM app — the India dashboard remains the shipped-artifact story, and SFF spec work is bonus PM-craft evidence, not a pillar. Revisit at the Aug recovery week or when the APM app ships.
+
+**Week of Jul 6–12 commitments by pillar** (externship W1 is the fixed structure; Secondary yields to it first per the standing contingency):
+- **Keystone (sleep):** 9:00 wake + morning light daily; melatonin decision Thu. When the 9:00 alarm fires: stand up, curtains, outside before the phone.
+- **Externship W1 (external spine):** team meeting Mon (when the 2nd teammate reply lands, invite goes out within 30 min); 5 Accenture videos by Tue; volunteer for Timeline & Project Manager at the meeting (the kickoff email is the evidence); mentor intro + first client meeting scheduled out of Monday's meeting; log Heggland + Haverstick + teammates as P3 contacts Wed.
+- **P2 (protected minimum, 3 deep blocks):** Tue significance/CIs rebuild (0.15, teach mode, Khan Academy first); Wed metric trees re-test (due Jul 9) + metric-drop diagnosis FIRST CONTACT (25 min counts as done); Fri cold re-tests due (numerator-denominator + significance). Confidence-number-first stays the gate.
+- **P3 (convert, don't cold-send):** LaCroix call Tue 2:00pm + same-day thank-you; Anicito call Wed 2:30pm (no email → run it over LinkedIn, do not reschedule) + thank-you; Akash Ravi comment Thu → message Fri. No new cold sends this week — the funnel + externship contacts are the P3 work.
+- **P1 (US version v0, 2 deep blocks):** Mon the 10-line scope + data-source map (twice slipped; the scope is 10 lines, not a build — first move: open USITC DataWeb, write line 1); Thu pull + sanity-check the first dataset; Sat first ranked cut/chart (yields to an externship deliverable if behind).
+- **Trice (info-gathering only):** call lands in the offered 9:00–10:30am window whenever Sudip schedules it; agenda = role family, weekly hours, remote-vs-Hyderabad, + the Purdue-externship disclosure (dropped from the WhatsApp reply, must be said on the call). NO hour commitments this week; sizing happens next Sunday with real externship-W1 hours known.
+
+**Calendar WRITTEN** (connector live): 18 work blocks retitled Mon–Sat + 6 Morning Briefings created at 9:00. Existing holds untouched: LaCroix Tue 2:00pm (accepted), Anicito Wed 2:30pm, STAR audit Mon 5pm, Sunday session Jul 12 4pm.
+
+**Monthly system health check (first Sunday):** telemetry only started Jul 3 (n=2 lines) — too thin for a real mix/yield read; full check moves to Aug 2. What the week's data does show: reconcile yield is high (all 3 July reconciles found drift or live tripwires — cadence stays daily-ish); tripwire latency baseline ~2 days open-to-close (kickoff email, Trice reply, Anicito confirm all ~2 days), with same-day closes when named live — the KPI to push down. PROGRESS.md archive check: dated entries reach back exactly ~4 weeks (Jun 8) — borderline, deferred to next Sunday, noted against the 90-min budget.
+
 ---
 
 ## Pillar 2 running ledger (technical)
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
 
-- **As of 2026-06-28 (regenerated from `state.json`): 2 sessions logged, 5 of 10 P2 topics now touched.** The pillar is off zero and the habit is forming (1 session week of Jun 15 → wait, first session was Jun 23; then Jun 25). Active topics:
-  - **Metric trees** (`P2.trees.metric_tree_construction`): mastery **0.62**, yellow, Bloom Apply, 6 attempts. Goal-vs-NSM crux now holds cold (passed unaided Jun 25). Next review **Jul 9**. Next sharpening: frame the NSM as the leading proxy for value that drives the lagging revenue goal.
-  - **NSM / guardrail** (`...nsm_guardrail_primary_secondary`): mastery **0.56**, Bloom Apply, 2 attempts, graduated past first-contact (2 unaided-correct Jun 25). Due **Jul 2** — cold re-test that he does not revert to input metrics; push toward a wellbeing/satisfaction guardrail.
-  - **Numerator-denominator** (`...numerator_denominator_discipline`): mastery **0.40**, 2 attempts, weakest of the active set. Confuses a rate (event / eligible base + window) with per-user-per-day volume. Due **Jul 2**.
-  - **Significance / CIs** (`...significance_foundations`): mastery **0.30**, 1 attempt, taught + 1 correct read (p>0.05 + CI includes 0 → don't ship). Due **Jul 2**. Sharpen language: "not significant ≠ proven no effect, it's inconclusive."
-  - **Metric trees** done; the rest of P2 (leading-vs-lagging, funnel, retention/cohort, A/B reading, metric-drop diagnosis, MECE causes) still **new, 0 attempts.**
-- **Calibration:** overall mean overconfidence −0.15 over 6 judgments — the tell is **underconfidence** (60–80 confidence on correct reads), not overconfidence. Confidence-number-first is now a hard gate (no grade until he gives a 0–100).
-- **This week's P2 targets** (in the Deep/Secondary titles): consolidate the three due-Jul-2 topics with cold re-tests; finally run **metric-drop diagnosis** (the Sat Jun 27 miss, still 0 attempts); introduce **funnel analysis** + **leading-vs-lagging**.
+- **As of 2026-07-05 (regenerated from `state.json`): 4 sessions logged (Jun 23, 25, 30, Jul 3), 4 of 10 P2 topics active.** Active topics:
+  - **Metric trees** (`P2.trees.metric_tree_construction`): mastery **0.62**, yellow, Bloom Apply, 6 attempts, last Jun 25. **Due Jul 9 (Thu)** — re-test in Wed's deep block.
+  - **NSM / guardrail** (`...nsm_guardrail_primary_secondary`): mastery **0.54** (0.56→0.54 on the Jun 30 cold re-test), 3 attempts. Next review **Jul 14** — next week's plan.
+  - **Numerator-denominator** (`...numerator_denominator_discipline`): mastery **0.45** (0.40→0.45, Jul 3 re-test), 3 attempts. **Due Jul 10 (Fri)** cold re-test.
+  - **Significance / CIs** (`...significance_foundations`): mastery **0.15** (COLD-DROPPED 0.30→0.15 on the Jul 3 re-test — the Jun 25 single correct read did not hold), 2 attempts. **Weakest topic in the system. Due Jul 10.** This week: full rebuild in teach mode Tue (Khan Academy significance unit first), re-test Fri.
+  - Untouched (6): leading-vs-lagging, funnel, retention/cohort, A/B reading, **metric-drop diagnosis (4 weeks scheduled, 0 attempts — Wed gets 25 min first contact, that counts as done)**, MECE causes.
+- **Calibration:** mean overconfidence −0.15 over 6 judgments — the tell stays underconfidence on correct reads. Confidence-number-first remains the hard gate; state.json writes after every item.
+- **This week's P2 targets** (in the block titles): Tue significance rebuild; Wed metric-trees re-test + metric-drop first contact; Fri the two due cold re-tests.
 
 ---
 
@@ -362,8 +387,8 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 - Calls booked: 2 (Steven LaCroix — Tue Jul 7, 5:00pm ET / 2:00pm PT, invite accepted; Daniel Anicito — Wed Jul 8, agreed to 5:00/5:30pm ET on Jul 1, logistics pending: Veer's confirm reply + his email + the invite).
 - Conversations completed: 0
 - Tracker: started 2026-06-09 — `alumni-tracker.md` (project root). Call-prep sheets in `networking/`.
-- **Open tripwires (as of Jun 28):** (1) ~~Steven messaged again Jun 27 — check LinkedIn, get email, send the Jul 7 invite.~~ **CLOSED 2026-06-28:** his Jun 27 LinkedIn msg gave his Purdue email (slacroi@purdue.edu); calendar invite SENT with a Google Meet link (meet.google.com/uqv-ajsv-pdf) for Tue Jul 7 5:00–5:15pm ET, awaiting his accept. (2) UPDATED Jul 3: Anicito said yes to Wed Jul 8 at 5:00/5:30pm ET (LinkedIn, Jul 1) but gave no email — Veer to reply confirming 5:30 + re-ask the email, then send the invite (open).
-- Week of Jun 29 plan: **convert the live funnel** (run Anicito, lock LaCroix logistics, prep both) over raw new sends. New touches via comment-then-message (Akash Ravi, 3rd-degree) — the LinkedIn free-connect-note quota is near its monthly cap (2 of ~3–5 used, ≤200 chars).
+- **Open tripwires (as of Jul 5):** (1) Anicito's email still not received (confirm sent Jul 3; no digests through Jul 5) — if none by the Wed call, run it over LinkedIn, do not reschedule. (2) Akash Ravi comment-then-message, slipped 2 weeks — Thu comment, Fri message, both in block titles.
+- Week of Jul 6 plan: **convert week** — run both calls (LaCroix Tue, Anicito Wed) with same-day thank-yous, log the three externship contact types (Heggland, Haverstick, teammates) as relationships, Akash touch Thu/Fri. No new cold sends; the July free-connect-note quota resets and stays banked until the funnel calls are done.
 
 Note: Dr. G (Infisum) is the one live external thread — see the external relationships log.
 
@@ -373,7 +398,7 @@ Note: Dr. G (Infisum) is the one live external thread — see the external relat
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
 
-- As of 2026-06-28: all 13 P4 topics still `new`, 0 attempts. Expected — interview prep ramps in Phase 2 (Aug–Oct per direction.md); not a focus this summer beyond keeping stories warm. Shipping + metrics study win through August. (Low-cost exception this week: a free Cosentino case-interview workshop Mon Jun 29 7pm is on the calendar — optional.)
+- As of 2026-07-05: all P4 topics still `new`, 0 attempts. Expected — interview prep ramps in Phase 2 (Aug–Oct per direction.md); shipping + metrics study win through August. Standing low-cost item: the monthly STAR story audit (next: Mon Jul 6, 5pm, on the calendar — 30 min, optional but cheap story-bank upkeep).
 
 ---
 
@@ -411,6 +436,7 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 - 2026-06-27: ran into Cole again; dad was "sad" Veer never reached out, and per Cole it's "a little too late now" (read: the summer role is likely filled, not the relationship dead). Veer said he'd love to work with him.
 - **2026-06-27/28 (UPDATE — reality overrides yesterday's plan): the relationship is already warm; an in-person reconnect happened.** Dropping Cole home, Veer saw the dad outside, they chatted, and the dad **invited Veer over for July 4th and floated going wakeboarding.** That behavior overrides Cole's secondhand "sad"/"too late" framing — you don't invite someone you're annoyed with to a family holiday. Veer felt awkward about not apologizing in person.
 - **Revised decision (2026-06-28): NO formal apology text, NO speculative build.** A heavy "sorry I never reached out" is now mismatched to the register (he just invited Veer wakeboarding) and would be Veer managing his own guilt more than something the dad needs (classic liking-gap overestimation of the lapse). Plan: **accept July 4th and actually show up — in-person time IS the repair.** If acknowledgment happens at all, it's ONE light in-person line in the flow ("appreciated the intern offer, I dropped the ball getting back to you, felt bad about it"), not forced. Drop the build-something-first idea. Let any internship / "could I work with you" conversation surface organically (likely at July 4th or wakeboarding); if the moment's right, offer to be useful — later, in person, not the opener.
+- **2026-07-04: WENT, and it was good** (Veer's read at the Jul 5 session). The show-up-in-person plan executed; relationship warm. Nothing forced, nothing owed. Next beat is organic — the wakeboarding invite if it comes; no system action.
 - Next move: send a short warm text to Cole or the dad confirming Veer's in for July 4th. Capture the dad's name + company name once known. Asset here is the relationship, not the role.
 
 ### Samar Husain (TikTok) — campus referral via "Sri"/uncle (family contact, through Veer's dad)

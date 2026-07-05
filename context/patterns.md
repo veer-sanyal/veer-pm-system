@@ -53,6 +53,7 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 - StudyFlowForge ran Feb to Apr 2026 and was dated honestly as a finished past artifact rather than restarted.
 - Stated tendency confirmed across the profile: starts projects, does not finish.
 - **2026-06-28: Veer restarted StudyFlowForge** ("a project I want to work on") — the exact move this pattern warns against (returning to an old project / second anchor) at a moment when the dashboard still has open items (the US-version commitment to Dr. G), the externship starts Jul 6, and the metrics habit is only two sessions old. Reversal of the Jun 9 "keep SFF a finished artifact, one anchor" decision. Flagged for a genuine-pull-vs-avoidance check, not folded into the plan.
+- **2026-07-05 (RESOLVED at the Sunday session): genuine pull, bounded.** The "restart" turned out to be a disciplined greenfield SPEC project (`~/Desktop/study app advisor`: 33 components locked, decision engine, graded research; no code, explicitly not reusing the old app). Not avoidance — but it consumed Jul 4's morning blocks and ran to 1:30am against the wind-down. Ruling: off the committed calendar through the APM window; lives in after-3:30 personal time; hard boundaries = never displaces a morning block, stops at the wind-down cue. The P3 risk being managed is no longer "will he restart it" but "will spec-world eat ship-world" — watch the boundary, not the project.
 
 **Cost.** Effort that does not compound into a shipped, iterated artifact; focus split across two unfinished projects so neither reaches iterated-with-users.
 
@@ -67,6 +68,7 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 **Evidence.**
 - 2026-06: the Dr. G reply complete in Drafts; the Claude Corps app complete but for two courses. Both flagged as one click from done.
 - 2026-07-05: externship teammate kickoff email drafted Jul 3, still in Drafts on Jul 5 morning with a hard Jul 6 start — two full days parked one click from send, deadline absorbing the slack (also P5-adjacent).
+- 2026-07-05 (counter-evidence, build-around working): both parked sends (kickoff email, Trice reply) closed within ~20 minutes of the last action being named while Veer was live in-session. Naming the single physical move works; the gap is that nothing names it between sessions. The Morning Briefing now carries the day's last-action tripwires for exactly this reason.
 
 **Cost.** The last 10% carries most of the value (the sent message, the submitted app), so stalling there forfeits the payoff of work already done.
 

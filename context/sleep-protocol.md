@@ -119,3 +119,10 @@ to advance — the only structural change is the ~Jul 9 escalation check above.
   Behavioral-first (no aids yet); phone stays near with app-limits + wind-down cue; tracking
   2 indicators. Escalation check ~Jul 9. Held through August to lock before classes ~Aug 24.
   Daily indicators logged in `PROGRESS.md`; current config mirrored in `memory.md`.
+- 2026-07-05 (week-1 verdict, Sunday session): NOT holding yet but trending — Jun 29/30
+  initialize came ~2pm; Jul 1-4 per Veer "mixed, trending earlier"; Jul 5 up before ~9:40.
+  **ESCALATION STEP 1 ACTIVE from Mon Jul 6: morning bright light** — outside within ~5 min
+  of the 9:00 alarm, 10-30 min (briefings carry the cue). **Melatonin decision Thu Jul 9**
+  (in that day's briefing): if the wake hasn't landed 9:00-10:00 on 3 of the last 4 days,
+  start 0.5mg ~8:30pm as the clock-shifter. Named risk to the keystone: late-night StudyFlow
+  spec sessions (1:30am commits Jul 4) — the wind-down cue now explicitly closes those too.

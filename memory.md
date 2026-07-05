@@ -2,7 +2,7 @@
 > Strategy lives in `context/direction.md`; the day-by-day narrative lives in `PROGRESS.md`.
 > Keep it a snapshot (~1,500 words max): closed items compress to one line; the story is already in PROGRESS.md.
 
-**Last reconciled: 2026-07-05 ~09:40 PT** (Gmail + Calendar reachable; Chrome not used this scan; product repo HEAD `84ec4ca`, no drift).
+**Last reconciled: 2026-07-05 ~09:40 PT** (Gmail + Calendar reachable; Chrome not used this scan; product repo HEAD `84ec4ca`, no drift). **Sunday session RUN Jul 5 ~10:30am** — week of Jul 6 planned, calendar written; do not re-plan this week mid-stream.
 
 ---
 
@@ -12,38 +12,41 @@
 - **Exposure score v0 live**: two min-max-normalised components (MSME scale + Mode 1 trade), summed; "Other business services" disaggregated into sub-sectors. Read as direction, not calibrated magnitude; the EBOPS→NIC crosswalk caveat is surfaced in the UI at Act IV. Components 3 (digital adoption; awaits a verified ASUSE 2023-24 substitute) and 4 (policy sensitivity; awaits OECD Digital STRI) stay deferred.
 - **Telemetry DONE**: GoatCounter + 5 custom events confirmed firing (Jun 16); readout shipped as DECISIONS Entry 014 (Jun 25). First-week data: 101 visits, 66% from LinkedIn, funnel holds (~half scroll into the Acts). Product `DECISIONS.md` current through Entry 014; product HEAD `84ec4ca`.
 - **US-version dashboard is a committed Pillar-1 track** (told Dr. G, Jun 20): no US equivalent exists (prior-art check done); scoped as a tight v0 reusing the India architecture — do not rebuild. Update Dr. G at significant progress.
-- **Purdue Daniels Summer Externship, Jul 6 – Aug 1**: ASSIGNED (Jul 1 email) — team Veer + Prisha Goswami + Jiada Li + Isabel Yura; mentor **Shawn Heggland**; client **Scouting America (Sagamore Council)**, contact **Bryon Haverstick (COO)**. **Scope READ (Jul 3): build a communications + marketing plan** — posting schedule/frequency/channels for 4 content buckets across 5 audiences, plus website/social adjustment recommendations. All static facts + contacts now in `context/externship-scouting-america.md` (one-pager original in Veer's Drive). Week 1: 5 Accenture video modules (Jul 2 "NEW LINK" email), internal team meeting BEFORE any mentor/client email, first client meeting, mentor initial meeting; W2 Jul 13 midpoint, W3 Jul 20 review, W4 finals. Weekly hours TBD — size at the Jul 5 Sunday session; Secondary block yields first, protect the deep block + metrics/stats minimum. At kickoff: ask for the Timeline & Project Manager role. Log Heggland + Haverstick as Pillar-3 contacts from Week 1.
+- **Purdue Daniels Summer Externship, Jul 6 – Aug 1**: ASSIGNED (Jul 1 email) — team Veer + Prisha Goswami + Jiada Li + Isabel Yura; mentor **Shawn Heggland**; client **Scouting America (Sagamore Council)**, contact **Bryon Haverstick (COO)**. **Scope READ (Jul 3): build a communications + marketing plan** — posting schedule/frequency/channels for 4 content buckets across 5 audiences, plus website/social adjustment recommendations. All static facts + contacts now in `context/externship-scouting-america.md` (one-pager original in Veer's Drive). Week 1: 5 Accenture video modules (Jul 2 "NEW LINK" email), internal team meeting BEFORE any mentor/client email, first client meeting, mentor initial meeting; W2 Jul 13 midpoint, W3 Jul 20 review, W4 finals. **Kickoff email SENT Jul 5 10:18am (tripwire 1: replies → invite).** W1 planned into the calendar; real weekly hours read lands next Sunday (Jul 12) and sizes W2 + Trice. Secondary block yields first; protect the deep block + metrics/stats minimum. At kickoff: ask for the Timeline & Project Manager role. Contact rows ready in `alumni-tracker.md`.
 - Application-docs capability lives in this repo (`/apply`); pipeline rows in `context/key-dates.md`. Latest: **Trice CONVERTED (Jul 3): Sudip Uncle says "from next week u can start" + asked for IST-mapped time windows** — reply pending (tripwire 4); role/hours/remote still unknown, sizing is a Sunday-session call. TikTok Category Mgmt Intern SUBMITTED via referral 2026-06-29 (off-strategy, logged + flagged); Claude Corps REJECTED 2026-06-23 (no revisit needed; four-pillar plan stays primary).
 
 ---
 
-**Live tripwires (as of Jul 5 reconcile)**
+**Live tripwires (as of Jul 5 Sunday session — week of Jul 6 planned, calendar written)**
 
-1. **Kickoff email SENT Jul 5 10:18am PT** (verified in:sent; went from the gmail address, not Purdue — if any teammate hasn't replied by Monday morning, consider a resend from vsanyal@purdue.edu in case of filtering). New live edge: **watch for teammate replies; as soon as 2+ reply with Monday windows, send the calendar invite + Meet link same day.** Internal meeting gates mentor/client contact (allowed from Jul 6, internal-first rule). At the meeting: volunteer for Timeline & Project Manager, evidence in hand.
-2. Jul 1–2 AND Jul 4 were zero-trace days (state.json untouched since the Jul 3 session, last practice Jun 30; no commits; no initialize). Due-Jul-2 cold re-tests (numerator-denominator 0.40, significance/CIs 0.30) overdue; metric-drop diagnosis still 0 attempts. Sleep verdict lands at TODAY's Sunday session (4pm PT, on the calendar).
-3. **Anicito invite pending his email**: confirm SENT Jul 3 (5:30pm ET Jul 8 locked, email re-asked). No LinkedIn digest hits through Jul 5 am — no reply yet. When his email lands, send the Calendar invite + Meet link same day (hold exists: Jul 8, 2:30pm PT). If no email by the call, run it over LinkedIn.
-4. **Trice reply SENT (Jul 5, 9:59am PT)** — gave 9:30–11pm IST weekday windows, offered to connect with the team. Now awaiting Sudip/Trice scheduling. The externship-hours flag was dropped from the sent version, so it MUST be raised on the team call, along with role family / weekly hours / remote-vs-Hyderabad. No hour commitments before the Sunday session sizes Trice against externship Week 1.
+1. **Teammate replies → invite (Mon):** kickoff email sent Jul 5 10:18am from the gmail address. When the 2nd reply lands, send the team-meeting calendar invite + Meet link within 30 min. If anyone is silent Mon morning, resend from vsanyal@purdue.edu (filtering risk). Internal meeting gates mentor/client contact; at the meeting, volunteer for Timeline & Project Manager.
+2. **Anicito email (by Wed 2:30pm PT):** confirm sent Jul 3; no reply through Jul 5. His email arrives → invite same day (hold exists). No email by the call → run it over LinkedIn, do not reschedule.
+3. **Trice team call:** awaiting Sudip's scheduling (windows offered Jul 5: 9:30–11pm IST weekdays = 9:00–10:30am PT). Call agenda: role family, weekly hours, remote-vs-Hyderabad, + the Purdue-externship disclosure (not in the WhatsApp reply — must be said on the call). NO hour commitments before next Sunday sizes it against real externship-W1 hours.
+4. **Melatonin decision Thu Jul 9** (in that day's briefing): wake landed 9:00–10:00 on 3 of the last 4 days → hold; otherwise start 0.5mg ~8:30pm. Morning light is ACTIVE from Mon Jul 6.
 
 ---
 
 **Pillar 2 & 4 learning state** (regenerated from `context/study/state.json` each Sunday; do not hand-edit)
 
-- As of 2026-06-28 + the Jun 30 rep: 3 tutor sessions logged; 5 of 10 P2 topics touched. Active: metric trees 0.62 (yellow, Apply), NSM/guardrail 0.54 (3 attempts), numerator-denominator 0.40, significance/CIs 0.30. Untouched: leading-vs-lagging, funnel, retention/cohort, A/B reading, metric-drop diagnosis, MECE causes.
+- As of 2026-07-05: 4 tutor sessions logged (Jun 23, 25, 30, Jul 3). Active: metric trees 0.62 (due **Jul 9**), NSM/guardrail 0.54 (due Jul 14), numerator-denominator 0.45 (due **Jul 10**), significance/CIs **0.15 — cold-dropped from 0.30 on the Jul 3 re-test, weakest topic** (due Jul 10; Tue rebuild in teach mode). Untouched: leading-vs-lagging, funnel, retention/cohort, A/B reading, **metric-drop diagnosis (0 attempts, 4 weeks — Wed first contact, 25 min counts)**, MECE causes.
 - Calibration: mean overconfidence −0.15 over 6 judgments (tell is UNDER-confidence on correct reads). Confidence-number-first is a hard gate; state.json writes after every item.
-- P4: all 13 topics new — interview prep ramps Phase 2 (Aug+).
-- **Gating variable is sleep, not the study cue**: misses trace to the 11–1 wake, not avoidance of the block.
+- P4: all topics new — interview prep ramps Phase 2 (Aug+). Monthly STAR audit Mon Jul 6 5pm (standing, cheap).
+- **Gating variable is sleep, not the study cue**: misses trace to the late wake, not avoidance of the block. Week 1 of the 9:00 wake: mixed, trending earlier → morning light active from Jul 6, melatonin check Jul 9.
 
 ---
 
-**Next moves**
+**Next moves (week of Jul 6–12 — calendar written at the Jul 5 Sunday session, 18 blocks + 6 briefings)**
 
-- **Sleep-fix workstream is the keystone** (started Jun 26; `context/sleep-protocol.md` owns config): hard fixed 9:00 wake, behavioral-first. Week 1 read: initialize came ~2pm on Jun 29 and Jun 30; Jul 1–2 unknown. Verdict + escalation check (morning light, then 0.5mg melatonin) at the Jul 5 Sunday session / ~Jul 9.
-- **Pillar 3 — convert the live funnel over raw new sends**: LaCroix call LOCKED Tue Jul 7 5:00pm ET / 2:00pm PT (invite accepted; prep `networking/LaCroix-Elanco-call-prep.md`; he flagged "no strategy, right place right time" — mine the situation). Anicito Wed Jul 8 (tripwire 1). New touches via comment-then-message (Akash Ravi) — free connect-note quota near its monthly cap (~3-5/month, 200-char limit). Funnel to date: 2 cold sends → 2 replies → 2 calls agreed. Anicito: Jul 8 5:30pm ET locked (tripwire 3, invite awaits his email).
-- **Dr. G (Infisum)**: relationship in active-routing mode — he's sharing the dashboard with India policy contacts and checking for usable data; await intros. Thank-you sent Jun 20; loop closed.
-- **PM Club @ Purdue**: email-list form submitted + BoilerLink membership pending (Jun 28); still to do: follow @pmclubpurdue on Instagram. Run it Minimal through the Aug–Oct APM crunch (target-company speaker events = warm Pillar-3 contacts); pitch a project/teaching slot only after the APM app ships (~mid-Oct).
-- **Google APM prep**: window expected to close early-to-mid Oct 2026 — the hard anchor pulling everything forward (timeline in `context/key-dates.md`).
-- **FLAG (Jun 28): Veer restarted StudyFlowForge** — P3 pattern (second anchor, rebuild-before-launch), contradicts the Jun 9 one-anchor decision. Not folded into the plan; resolve genuine-pull-vs-avoidance before it earns calendar time (US-version + externship + fragile metrics habit all live). No SFF pushes as of Jul 3.
-- July 4th (Cole Miller's dad) has passed — outcome unknown; ask at the Sunday session whether he went and log it.
+- **Keystone (sleep):** 9:00 wake + **morning light from Mon Jul 6** (outside within ~5 min of the alarm, 10+ min); melatonin decision Thu (tripwire 4). Wind-down cue closes EVERYTHING, including StudyFlow spec files.
+- **Externship W1 is the week's fixed structure** (Secondary yields first): Mon team meeting + videos start, 5 videos done by Tue, mentor intro + first client meeting out of Monday's meeting, role ask = Timeline & Project Manager. Contacts logged Wed (rows ready in `alumni-tracker.md`).
+- **P2 protected minimum, 3 deep blocks:** Tue significance rebuild (0.15); Wed metric-trees re-test + metric-drop first contact; Fri cold re-tests due.
+- **P3 convert week:** LaCroix Tue 2:00pm PT (locked, prep sheet ready), Anicito Wed 2:30pm PT (tripwire 2), same-day thank-yous, Akash comment Thu → message Fri. No new cold sends. Funnel: 2 sent → 2 replies → 2 calls booked → completes start Tue.
+- **P1 US version v0, 2 deep blocks:** Mon the 10-line scope (twice slipped — first move: open USITC DataWeb, write line 1); Thu first dataset pull; Sat first ranked cut.
+- **Dr. G (Infisum)**: active-routing mode; await intros. Update him at significant US-version progress.
+- **PM Club @ Purdue**: minimal through the Aug–Oct crunch; still open: follow @pmclubpurdue on Instagram.
+- **Google APM**: window closes early-to-mid Oct 2026 — the hard anchor (timeline in `context/key-dates.md`).
+- **SFF flag RESOLVED (Jul 5):** genuine pull, not avoidance — it's a disciplined spec bundle (`~/Desktop/study app advisor`, 33 components locked, no code). Ruling: off the committed calendar through the APM window; lives in after-3:30 personal time; never displaces a morning block; stops at the wind-down cue. Revisit at the Aug recovery week or when the APM app ships.
+- July 4th (Cole Miller's dad): WENT, was good — closed, logged in PROGRESS. Next beat organic (wakeboarding invite if it comes).
 
 ---
 
