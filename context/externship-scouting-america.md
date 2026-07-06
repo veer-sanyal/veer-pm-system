@@ -13,6 +13,7 @@
 - **Client:** Scouting America – Sagamore Council (www.sagamorecouncil.org). Primary contact: **Bryon Haverstick, COO / Assistant Scout Executive** (Bryon.Haverstick@Scouting.org). Additional contacts: Alan Parks, Darwin Nunn.
 - **Hard rule:** no contact with mentor or client before Jul 6.
 - **Internal-first rule:** the team must meet internally BEFORE any intro email to mentor or client, and assign four roles: Main Alumni Communicator, Main Client Communicator, Timeline & Project Manager, Deliverable & Quality Lead.
+- **Roles (assigned at the Jul 6 kickoff, 3-of-4 present):** Veer = **Timeline & Project Manager**; Isabel Yura = Main Client Communicator; Prisha Goswami = Main Alumni Communicator; Jiada Li = Deliverable & Quality Lead by default (absent — pending his confirm on the thread). Team channel: iMessage group (Jiada to be added). Standing team slot: 3:00pm PT / 6:00pm ET. File-sharing home (Drive folder) not yet set up.
 
 ## Weekly cadence
 

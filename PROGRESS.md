@@ -372,6 +372,7 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 - Done-check (mid-day, partial): no artifact trace of the morning deep block yet — the US-version 10-line scope has no commit in either repo as of 2:20pm. Not diagnosable from here; if it didn't start, it's on its **3rd carry** and the named first move stands: open USITC DataWeb, write line 1. Videos 1–3 not verifiable externally.
 - Product repo: HEAD `84ec4ca`, no drift. No new tracked drafts unsent (the two Jun-21 Infisum drafts remain known superseded leftovers, still to trash).
 - New fact: **Purdue Career Gateway** — Daniels email (Jul 6): new platform for career fairs, recruiting/networking events, and job/internship postings, effective Jul 1. Logged in key-dates.md; 10-min account setup is a Sunday-session candidate before fall recruiting.
+- **Kickoff RAN 3:00pm, 3-of-4 (evening update): Veer GOT Timeline & Project Manager** — the evidence-first ask ran as prepped and landed uncontested. Izzy = Client Communicator, Prisha = Alumni Communicator, Jiada = Deliverable & Quality Lead by default (pending his confirm on the thread). iMessage group stood up as the team channel; standing team slot 3pm PT / 6pm ET (the three present all clear). Not yet done out of the meeting: recap email to the thread (Jiada's confirm + chat add), Heggland intro scheduling (via Prisha), Haverstick scope meeting scheduling (via Izzy), and a shared-files home — Drive folder still unset. Roles logged in `context/externship-scouting-america.md`.
 
 ---
 

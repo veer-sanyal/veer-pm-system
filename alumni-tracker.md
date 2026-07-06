@@ -42,7 +42,7 @@ The Purdue Daniels Summer Externship (Jul 6 – Aug 1) assigns three warm Pillar
 |------|-----|--------|-------|
 | Alumni mentor | **Shawn Heggland** (shawn.heggland@gmail.com, linkedin.com/in/shawn-heggland/) | assigned Jul 1; contact opens Mon Jul 6, AFTER the internal team meeting | Daniels alum — strongest built-in informational-interview relationship of the summer. Mentors are told to expect several meetings; meet even with no questions. Ask about his path; report back on advice taken. |
 | Business client owner | **Bryon Haverstick, COO, Scouting America Sagamore Council** (sagamorebsa.org) | assigned Jul 1; first client meeting Wk 1 | Real stakeholder for the 4-week comms/marketing-plan engagement; reference + product-story source. |
-| Externship teammates | **Prisha Goswami** (pgoswami@purdue.edu), **Jiada Li** (li5375@purdue.edu), **Isabel Yura** (iyura@purdue.edu) | kickoff email sent Jul 5 10:18am; meeting target Mon Jul 6 | Peer network; learn their majors/recruiting tracks at the kickoff. |
+| Externship teammates | **Prisha Goswami** (pgoswami@purdue.edu, Alumni Communicator), **Jiada Li** (li5375@purdue.edu, D&Q Lead pending confirm — declined kickoff), **Isabel Yura** (iyura@purdue.edu, Client Communicator) | kickoff RAN Jul 6 3pm PT (3-of-4); Veer = Timeline & PM; iMessage group live | Peer network; majors/recruiting tracks still to learn — natural at the next 3pm sync. |
 
 These are relationship-building, not the 3/week cold-message funnel — keep them separate from the shortlist count.
 
