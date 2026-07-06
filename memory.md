@@ -2,7 +2,7 @@
 > Strategy lives in `context/direction.md`; the day-by-day narrative lives in `PROGRESS.md`.
 > Keep it a snapshot (~1,500 words max): closed items compress to one line; the story is already in PROGRESS.md.
 
-**Last reconciled: 2026-07-05 ~09:40 PT** (Gmail + Calendar reachable; Chrome not used this scan; product repo HEAD `84ec4ca`, no drift). **Sunday session RUN Jul 5 ~10:30am** — week of Jul 6 planned, calendar written; do not re-plan this week mid-stream.
+**Last reconciled: 2026-07-06 ~14:25 PT** (Gmail + Calendar reachable; Chrome/WhatsApp not used this scan; product repo HEAD `84ec4ca`, no drift). **Sunday session RUN Jul 5 ~10:30am** — week of Jul 6 planned, calendar written; do not re-plan this week mid-stream.
 
 ---
 
@@ -19,8 +19,8 @@
 
 **Live tripwires (as of Jul 5 Sunday session — week of Jul 6 planned, calendar written)**
 
-1. **Team kickoff MEETING BOOKED: Mon Jul 6, 6:00pm ET / 3:00pm PT, 45 min** (meet.google.com/tfg-vbso-sup; invite sent Jul 5 ~4:25pm PT after Prisha + Izzy replied within an hour — overlap 5:30–8pm ET). Jiada silent as of the send; if he can't make it, shift within the window. At the meeting: volunteer for Timeline & Project Manager. Meeting gates mentor/client contact.
-2. **Anicito email (by Wed 2:30pm PT):** confirm sent Jul 3; no reply through Jul 5. His email arrives → invite same day (hold exists). No email by the call → run it over LinkedIn, do not reschedule.
+1. **Team kickoff TODAY Mon Jul 6, 3:00pm PT / 6:00pm ET** (meet.google.com/tfg-vbso-sup). **Jiada DECLINED Jul 6 9:51am — bare decline, no comment, no alternative.** Izzy accepted; Prisha replied on the thread Jul 5 but no calendar RSVP. Call: RUN it 3-of-4 — the meeting gates mentor/client contact and W1 is packed. After: send Jiada the recap + role-preference ask on the email thread; only a future full-team sync shifts into the 5:30–8pm ET overlap. At the meeting: volunteer for Timeline & Project Manager.
+2. **Anicito REPLIED on LinkedIn Jul 6 ~6:54am** (digest hit; content unread — likely his email and/or the 5:30 confirm). Read + respond today; if his email is in it → Calendar invite same day (hold exists Wed Jul 8 2:30pm PT). No email → run the call over LinkedIn Wed, do not reschedule.
 3. **Trice team call:** awaiting Sudip's scheduling (windows offered Jul 5: 9:30–11pm IST weekdays = 9:00–10:30am PT). Call agenda: role family, weekly hours, remote-vs-Hyderabad, + the Purdue-externship disclosure (not in the WhatsApp reply — must be said on the call). NO hour commitments before next Sunday sizes it against real externship-W1 hours.
 4. **Melatonin decision Thu Jul 9** (in that day's briefing): wake landed 9:00–10:00 on 3 of the last 4 days → hold; otherwise start 0.5mg ~8:30pm. Morning light is ACTIVE from Mon Jul 6.
 

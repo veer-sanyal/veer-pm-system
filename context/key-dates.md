@@ -18,6 +18,7 @@ Dates sourced from "Product Management Internship Recruiting for Summer 2027" re
 | Sun May 24 | First Sunday session — plan week of May 25 in detail |
 | ~May 30 | Follow-up window opens for Dr. Gopalakrishnan if no reply |
 | ~Jun 5 | Dashboard v1 target ship date (rank MSME-relevant service sub-sectors by exposure to WTO e-commerce moratorium) |
+| Jul 1, 2026 | **Purdue Career Gateway live** — Daniels' new platform for career fairs, recruiting/networking events, and job/internship postings (announced by email Jul 6). Set up the account before fall recruiting; Sunday-session candidate. |
 | Jul 6 – Aug 1, 2026 | **Purdue Daniels Summer Externship** (accepted Jun 8). 4-week virtual, team-based consulting. **ASSIGNED Jul 1:** client **Scouting America (Sagamore Council BSA)**; mentor **Shawn Heggland**; team of 4 (Veer + Goswami, Li, Yura). Wk 1 (Jul 6–10): 5 video modules + internal team meeting + first client meeting + mentor initial meeting; W2 Jul 13 midpoint, W3 Jul 20 review, W4 final presentation. **Pre-Jul-6: teammate kickoff email.** Weekly hours still TBD (read the scope one-pager). |
 
 ---

@@ -365,6 +365,14 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 
 **Monthly system health check (first Sunday):** telemetry only started Jul 3 (n=2 lines) — too thin for a real mix/yield read; full check moves to Aug 2. What the week's data does show: reconcile yield is high (all 3 July reconciles found drift or live tripwires — cadence stays daily-ish); tripwire latency baseline ~2 days open-to-close (kickoff email, Trice reply, Anicito confirm all ~2 days), with same-day closes when named live — the KPI to push down. PROGRESS.md archive check: dated entries reach back exactly ~4 weeks (Jun 8) — borderline, deferred to next Sunday, noted against the 90-min budget.
 
+### 2026-07-06 (Mon) — reconcile, ~2:25pm
+
+- **Jiada Li DECLINED the 3:00pm kickoff** (9:51am PT, bare calendar decline — no comment, no alternative time; his mail client is in Chinese locale). Izzy accepted; Prisha replied on the thread Jul 5 but hasn't RSVP'd the invite. Call: run it 3-of-4 at 3:00pm — the meeting gates mentor/client contact and W1 has no slack; afterwards Jiada gets the recap + a role-preference ask on the email thread, and only a future full-team sync shifts within the 5:30–8pm ET overlap.
+- **Daniel Anicito replied on LinkedIn** (~6:54am PT, "Daniel just messaged you" digest; content not included). Tripwire trigger: read + respond today; if his email is in it, the Wed invite goes out same day (Jul 8 2:30pm PT hold exists). Natural slot: today's small-item block — its invite-send half was already DONE early (Jul 5). A calendar retitle to reflect that was attempted but the connector write was denied this session; block runs under its old title.
+- Done-check (mid-day, partial): no artifact trace of the morning deep block yet — the US-version 10-line scope has no commit in either repo as of 2:20pm. Not diagnosable from here; if it didn't start, it's on its **3rd carry** and the named first move stands: open USITC DataWeb, write line 1. Videos 1–3 not verifiable externally.
+- Product repo: HEAD `84ec4ca`, no drift. No new tracked drafts unsent (the two Jun-21 Infisum drafts remain known superseded leftovers, still to trash).
+- New fact: **Purdue Career Gateway** — Daniels email (Jul 6): new platform for career fairs, recruiting/networking events, and job/internship postings, effective Jul 1. Logged in key-dates.md; 10-min account setup is a Sunday-session candidate before fall recruiting.
+
 ---
 
 ## Pillar 2 running ledger (technical)
