@@ -2,7 +2,7 @@
 > Strategy lives in `context/direction.md`; the day-by-day narrative lives in `PROGRESS.md`.
 > Keep it a snapshot (~1,500 words max): closed items compress to one line; the story is already in PROGRESS.md.
 
-**Last reconciled: 2026-07-06 ~14:25 PT** (Gmail + Calendar reachable; Chrome/WhatsApp not used this scan; product repo HEAD `84ec4ca`, no drift). **Sunday session RUN Jul 5 ~10:30am** — week of Jul 6 planned, calendar written; do not re-plan this week mid-stream.
+**Last reconciled: 2026-07-07 ~14:40 PT** (Gmail + Calendar reachable; Chrome/WhatsApp/iMessage not visible this scan; product repo HEAD `84ec4ca`, no drift). **Sunday session RUN Jul 5 ~10:30am** — week of Jul 6 planned, calendar written; do not re-plan this week mid-stream.
 
 ---
 
@@ -17,12 +17,12 @@
 
 ---
 
-**Live tripwires (as of Jul 5 Sunday session — week of Jul 6 planned, calendar written)**
+**Live tripwires (as of Jul 7 reconcile — week of Jul 6 planned, calendar written)**
 
-1. **Kickoff RAN Jul 6 3:00pm PT (3-of-4; Jiada had declined).** **Veer = Timeline & Project Manager** (the ask landed); Izzy = Client Communicator; Prisha = Alumni Communicator; Jiada = Deliverable & Quality Lead by default, pending confirm. iMessage group is the team channel; standing slot 3pm PT / 6pm ET. **Open, Veer as PM: (a) recap email to the thread TODAY — roles, slot, Jiada confirm + get him into the chat; (b) Heggland intro via Prisha, target talked-to-by-WEDNESDAY; (c) Haverstick scope meeting via Izzy AFTER the mentor intro (Izzy's sequencing call, Jul 6) — but if Shawn can't meet by Wed, the Bryon email goes anyway with the meeting set Thu/Fri so it still lands in W1; (d) file-sharing home (Drive) unset. Jiada ladder: silent 48h after the recap → one direct personal note; zero engagement through W1 → raise with Heggland at the intro, not Storie.**
-2. **Anicito REPLIED on LinkedIn Jul 6 ~6:54am** (digest hit; content unread — likely his email and/or the 5:30 confirm). Read + respond today; if his email is in it → Calendar invite same day (hold exists Wed Jul 8 2:30pm PT). No email → run the call over LinkedIn Wed, do not reschedule.
-3. **Trice team call:** awaiting Sudip's scheduling (windows offered Jul 5: 9:30–11pm IST weekdays = 9:00–10:30am PT). Call agenda: role family, weekly hours, remote-vs-Hyderabad, + the Purdue-externship disclosure (not in the WhatsApp reply — must be said on the call). NO hour commitments before next Sunday sizes it against real externship-W1 hours.
-4. **Melatonin decision Thu Jul 9** (in that day's briefing): wake landed 9:00–10:00 on 3 of the last 4 days → hold; otherwise start 0.5mg ~8:30pm. Morning light is ACTIVE from Mon Jul 6.
+1. **Externship W1, Veer = Timeline & Project Manager** (kickoff RAN Jul 6 3:00pm PT, 3-of-4; Izzy = Client Comm, Prisha = Alumni Comm, Jiada = D&Q Lead by default, pending confirm; iMessage group is the channel, standing slot 3pm PT). **Recap email SENT Jul 6 3:58pm PT** (roles + Jiada confirm-and-chat-add ask) — no teammate replies yet as of Tue 2:36pm. Open: **(a) Heggland intro via Prisha — no email trace yet; target talked-to-by-WEDNESDAY (tomorrow); verify at today's 3pm sync (iMessage not visible to this system); (b)** Haverstick scope meeting via Izzy AFTER the mentor intro — guard stands: if Shawn can't meet by Wed, the Bryon email goes anyway with the meeting Thu/Fri; **(c)** file-sharing home (Drive) unset. **Jiada ladder: zero engagement since his decline; the 48h clock from the recap expires Wed ~4pm PT → one direct personal note**; zero engagement through W1 → raise with Heggland at the intro, not Storie.
+2. **Anicito call is TOMORROW (Wed Jul 8 2:30pm PT) and his Jul 6 LinkedIn reply is STILL UNREAD** (Gmail digest unread, no invite sent — the hold has no attendees; no further digests). Day 2 of "read + respond today." Last-day action: open the LinkedIn message; his email in it → Calendar invite goes today; no email → run the call over LinkedIn, do not reschedule.
+3. **Trice team call:** awaiting Sudip's scheduling (windows offered Jul 5: 9:30–11pm IST weekdays = 9:00–10:30am PT); no reply as of Jul 7. Call agenda: role family, weekly hours, remote-vs-Hyderabad, + the Purdue-externship disclosure (not in the WhatsApp reply — must be said on the call). NO hour commitments before next Sunday sizes it against real externship-W1 hours.
+4. **Melatonin decision Thu Jul 9** (in that day's briefing): wake landed 9:00–10:00 on 3 of the last 4 days → hold; otherwise start 0.5mg ~8:30pm. Morning light is ACTIVE from Mon Jul 6. **No in-system wake log for Mon/Tue (no /initialize runs this week)** — the Thu decision rides on Veer's self-report.
 
 ---
 
@@ -39,9 +39,9 @@
 
 - **Keystone (sleep):** 9:00 wake + **morning light from Mon Jul 6** (outside within ~5 min of the alarm, 10+ min); melatonin decision Thu (tripwire 4). Wind-down cue closes EVERYTHING, including StudyFlow spec files.
 - **Externship W1 is the week's fixed structure** (Secondary yields first): Mon team meeting + videos start, 5 videos done by Tue, mentor intro + first client meeting out of Monday's meeting, role ask = Timeline & Project Manager. Contacts logged Wed (rows ready in `alumni-tracker.md`).
-- **P2 protected minimum, 3 deep blocks:** Tue significance rebuild (0.15); Wed metric-trees re-test + metric-drop first contact; Fri cold re-tests due.
+- **P2 protected minimum, 3 deep blocks:** Tue significance rebuild (0.15) — **no state.json trace as of Tue 2:36pm; if it didn't run, it folds into Wed/Fri**; Wed metric-trees re-test + metric-drop first contact; Fri cold re-tests due.
 - **P3 convert week:** LaCroix Tue 2:00pm PT (locked, prep sheet ready), Anicito Wed 2:30pm PT (tripwire 2), same-day thank-yous, Akash comment Thu → message Fri. No new cold sends. Funnel: 2 sent → 2 replies → 2 calls booked → completes start Tue.
-- **P1 US version v0, 2 deep blocks:** Mon the 10-line scope (twice slipped — first move: open USITC DataWeb, write line 1); Thu first dataset pull; Sat first ranked cut.
+- **P1 US version v0, 2 deep blocks:** Mon's 10-line scope SLIPPED (no artifact in either repo — **now a 3rd carry**); Thu's deep block is the catch, already in that briefing: if the scope isn't on paper, the scope IS the block (first move: open USITC DataWeb, write line 1); Sat first ranked cut.
 - **Dr. G (Infisum)**: active-routing mode; await intros. Update him at significant US-version progress.
 - **PM Club @ Purdue**: minimal through the Aug–Oct crunch; still open: follow @pmclubpurdue on Instagram.
 - **Google APM**: window closes early-to-mid Oct 2026 — the hard anchor (timeline in `context/key-dates.md`).
