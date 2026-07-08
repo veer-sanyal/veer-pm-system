@@ -12,7 +12,7 @@ Context discipline: the scans below are noisy. Fan them out to parallel subagent
 
 ## What to scan
 
-Scan targets are read from the live files, never hard-coded here: the Application Pipeline in `context/key-dates.md` (rows not yet closed), the live names in `alumni-tracker.md`, the external-relationships log in PROGRESS.md, and any tripwires in memory.md.
+Scan targets are read from the live files, never hard-coded here: the Application Pipeline in `context/key-dates.md` (rows not yet closed), the live names in `alumni-tracker.md`, the external-relationships log in `ledgers.md`, and any tripwires in memory.md.
 
 1. **Product commits.** Pull recent commit history of the product repo: `gh api repos/veer-sanyal/india-msme-digital-trade-exposure/commits --jq '.[0:15][] | .sha[0:7] + " " + .commit.message' 2>/dev/null` (fallback: shallow-clone to a temp dir and `git log`). Compare against memory.md "what's shipped"; fix any drift.
 2. **Calendar.** Read the trailing ~7 days of work blocks and Morning Briefings on Veer's primary calendar (Pacific), via the Google Calendar connector. Infer which committed actions actually happened, cross-referencing commits and PROGRESS.md.

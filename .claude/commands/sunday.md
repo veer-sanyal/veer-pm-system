@@ -10,7 +10,7 @@ The weekly structural session. Everything mid-week sessions refuse to do (replan
 
 1. `context/scheduling-blueprint.md` (the behavioral science governing the plan)
 2. `context/daily-briefing-instructions.md` (how blocks and Morning Briefings are composed; the Sunday sequence lives there)
-3. The full past week of PROGRESS.md, plus `context/patterns.md`
+3. The full past week of PROGRESS.md, plus `ledgers.md` and `context/patterns.md`
 4. `context/key-dates.md` (timeline + Application Pipeline)
 5. `context/study/state.json` (P2/P4 learning state)
 6. `DECISIONS.md` from the product repo if product decisions are in play
@@ -21,7 +21,7 @@ The weekly structural session. Everything mid-week sessions refuse to do (replan
 2. Review what shipped, slipped, surprised (data, not analysis). Name the week's pattern briefly; record any TESTING pattern verdicts in `context/patterns.md`. Include one line of StudyFlow-bundle activity (`~/Desktop/study app advisor` git log) as DATA — visible, never counted toward pillar volume, and checked against its two boundaries (no morning blocks, stops at wind-down). Ruling of 2026-07-05; revisit post-APM-app.
 3. Define next week's commitments by pillar; turn each into an implementation intention (when X, you Y).
 4. **Pipeline rule:** any application deadline within ~2 weeks still at Stage < Ready becomes a candidate "draft <Company> resume" work block.
-5. **Study targets:** from state.json, rewrite the PROGRESS.md Pillar 2 & 4 ledgers, refresh the memory.md learning-state summary, and pick the week's P2/P4 targets (due/weak topics + days-to-next-milestone); write them into block titles and briefings.
+5. **Study targets:** from state.json, rewrite the Pillar 2 & 4 ledgers in `ledgers.md`, refresh the memory.md learning-state summary, and pick the week's P2/P4 targets (due/weak topics + days-to-next-milestone); write them into block titles and briefings.
 6. **Write the calendar** (per daily-briefing-instructions.md): retitle the week's three work blocks per day with the specific action, and write six 9:00 Morning Briefing events (done-check on yesterday's block, yesterday's question, "this week feeds," optional citation). If the Calendar connector is unavailable, output the exact titles and briefing text and say so plainly.
 7. Persist everything (memory.md, PROGRESS.md, patterns.md), commit, push.
 
@@ -33,6 +33,7 @@ Every living file has a size budget so context stays lean as the system ages. Gi
 |---|---|---|
 | `memory.md` | ~1,500 words | Compress closed items to one line each; the narrative already lives in PROGRESS.md. |
 | `PROGRESS.md` | dated entries ~4 weeks back | Roll the oldest closed weeks into `PROGRESS-archive.md` (append chronologically; the archive is the complete history). |
+| `ledgers.md` | live threads only | Pillar ledgers self-bound (regenerated each Sunday); compress closed relationship threads to a dated one-line summary. |
 | `context/patterns.md` | ~5 evidence bullets per pattern | Compress the oldest instances to one line ("+N earlier instances, Jun-Jul 2026, git history has the detail"); keep the freshest evidence and the current build-around verbatim. DORMANT patterns compress to header + one-line history. |
 | `alumni-tracker.md` | live names only in the working tables | Closed or unresponsive contacts move to a one-line-each Closed section at the bottom. |
 | `context/key-dates.md` | future dates only | Delete past deadlines outright; closed Application Pipeline rows compress to one line. |
@@ -48,6 +49,12 @@ Read `session-log.jsonl` and answer, briefly, in the Sunday summary:
 3. Tripwire latency: median days from a slug appearing in `tripwires_opened` to the same slug in `tripwires_closed`. This is the system's core KPI (it exists to close loops).
 4. Dead weight: files no session consulted this month are candidates to compress or retire; capabilities never invoked are candidates to cut.
 5. Size budgets: run the full maintenance-table sweep above; archive/prune what is over.
-6. **One live experiment.** The system improves by testing, not accreting: at most ONE structural experiment at a time (e.g. "briefing refresh at reconcile vs Sunday-only", "every-other-day reconcile"). It gets a hypothesis, the single metric that decides it, and a verdict date; record it in PROGRESS.md System signals and close it with a verdict before opening the next. No live experiment is also a valid state — do not invent one to fill the slot.
+6. **One live experiment.** The system improves by testing, not accreting: at most ONE structural experiment at a time (e.g. "briefing refresh at reconcile vs Sunday-only", "every-other-day reconcile"). It gets a hypothesis, the single metric that decides it, and a verdict date; record it in the `ledgers.md` System signals section and close it with a verdict before opening the next. No live experiment is also a valid state — do not invent one to fill the slot.
+
+**Architecture watch (armed 2026-07-08; review with each health check, build ONLY when the trigger fires):**
+
+- Tripwires → `tripwires.json` (slug, opened, due, next physical action, status; memory.md narrates on top, the banner and latency KPI read the file). Trigger: slugs prove inconsistent across sessions, or an open tripwire gets lost between memory.md prose and the telemetry log.
+- Per-contact files (`contacts/<name>.md` owning the tracker row + prep sheet + relationship history). Trigger: a reconcile misattributes state between people, or live contacts exceed ~25.
+- Daily-generated Morning Briefing (headless ~8:45am run writing the real done-check into that day's 9:00 briefing). Trigger: phone-/initialize has had a fair trial AND briefing done-checks are still stale when Veer reads them.
 
 Fold any resulting change into this session's system work (cap: the 90-minute weekly optimization budget from direction.md still applies).

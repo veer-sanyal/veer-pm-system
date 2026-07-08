@@ -10,7 +10,7 @@ This file holds only durable protocol. Volatile facts (live applications, open t
 
 1. Read `memory.md` first, always. It is the current-state snapshot and is kept small by design.
 2. Check the `Last reconciled:` stamp at the top of memory.md. Stale (not today) -> run `/reconcile` before substantive work. Fresh -> do not re-scan; trust it.
-3. If the ask touches the plan, the week, behavior, scheduling, or any pillar's status, also read the PROGRESS.md tail (entries since the most recent Sunday session, plus the relevant standing ledger) and `context/patterns.md`.
+3. If the ask touches the plan, the week, behavior, scheduling, or any pillar's status, also read the PROGRESS.md tail (entries since the most recent Sunday session), the relevant standing ledger in `ledgers.md`, and `context/patterns.md`.
 4. A pure lookup or mechanical ask needs only memory.md. But never answer a substantive question from what you remember of a prior session: read the owner file first (routing table below). Plans built on stale assumptions are the failure this system exists to prevent.
 
 If the session opened with a `=== veer-pm-system status ===` banner (the SessionStart hook), trust it for staleness, git, and telemetry-gap signals — including repairing anything a previous session left uncommitted or unlogged. memory.md remains the authoritative read.
@@ -35,7 +35,8 @@ Each fact has exactly one owner; everything else points, never restates. If you 
 | Owner | Owns |
 |---|---|
 | `memory.md` | Current state: what's shipped, active focus, next moves, live tripwires. |
-| `PROGRESS.md` | The dated running narrative + standing pillar ledgers + external-relationships log. Older months roll into `PROGRESS-archive.md`. |
+| `PROGRESS.md` | The dated running narrative. Older months roll into `PROGRESS-archive.md`. |
+| `ledgers.md` | Standing pillar ledgers (regenerated each Sunday), the external-relationships log, system signals. |
 | `context/direction.md` | Strategy: goal, four pillars, success criteria, phase plan, decision rules. |
 | `context/key-dates.md` | Recruiting timeline, deadlines, the Application Pipeline. |
 | `context/patterns.md` | Recurring-behavioral-pattern ledger (dated evidence + build-arounds). |

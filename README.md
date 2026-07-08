@@ -20,6 +20,7 @@ The system runs in **Claude Code** with this folder as the working directory. Mi
 | Session status banner (staleness, tripwires, git, telemetry gaps) | `.claude/hooks/session-start.sh` via the SessionStart hook in `.claude/settings.json` |
 | Current state + live tripwires | `memory.md` (always read; carries the `Last reconciled:` stamp) |
 | Running log | `PROGRESS.md` (tail) + `PROGRESS-archive.md` (history) |
+| Standing ledgers + relationships log + system signals | `ledgers.md` (split from PROGRESS.md 2026-07-08) |
 | Session telemetry | `session-log.jsonl` (one line per session; feeds the monthly health check in `/sunday`) |
 | File manifest | `file-index.md` (reference; consulted when looking for where something lives) |
 
