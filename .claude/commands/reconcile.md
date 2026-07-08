@@ -21,6 +21,8 @@ Scan targets are read from the live files, never hard-coded here: the Applicatio
    - **Inbound:** search for new replies or updates since the last reconcile on every live pipeline row and tracked thread (from the files above). Purdue-addressed mail (vsanyal@purdue.edu) reaches the connected gmail, so include Purdue threads. An application moving to take-home or interview stage is a flag for the Sunday session.
    - **LinkedIn replies via Gmail:** Pillar-3 outreach lives on LinkedIn, so an email-thread scan alone misses replies. LinkedIn sends a named notification per 1:1 message from `messaging-digest-noreply@linkedin.com` with subject "<Name> just messaged you". Query `from:messaging-digest-noreply@linkedin.com newer_than:<days since last reconcile>d` and match subject names against the live names in `alumni-tracker.md`; any hit is a tripwire (reply landed: draft the response, book the call). The digest can batch or lag, so treat it as a tripwire, not a clock; LinkedIn itself (via the Chrome connector if available) stays authoritative. Ignore other LinkedIn senders: `invitations@linkedin.com` connection-accepts, InMail/recruiter spam ("is waiting for your response"), and marketing.
 
+4. **iMessage (runs ONLY while the README automation section says iMessage visibility is ON — Veer's explicit opt-in).** When ON, query `~/Library/Messages/chat.db` read-only for recent messages matching the live tracked names and the externship team thread. When OFF or the DB is unreadable, keep noting "iMessage not visible" in the stamp — and never treat its absence as evidence nothing happened.
+
 ## Closed-loop checks (while scanning)
 
 - **Done-check:** record in PROGRESS.md whether yesterday's committed block actually happened.

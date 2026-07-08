@@ -16,6 +16,9 @@ fi
 echo "--- live tripwires (headers from memory.md) ---"
 awk '/^\*\*Live tripwires/{f=1;next} /^---/{f=0} f && /^[0-9]+\./' memory.md | cut -c1-140
 
+# Makes silently-unpersisted study sessions visible (the Jun 23 / Jul 7 ambiguity).
+[ -f context/study/state.json ] && echo "study state.json last write: $(date -r context/study/state.json '+%Y-%m-%d %H:%M')"
+
 if [ -n "$(git status --porcelain)" ]; then
   echo "GIT: uncommitted changes left by a previous session:"
   git status --porcelain | head -20
