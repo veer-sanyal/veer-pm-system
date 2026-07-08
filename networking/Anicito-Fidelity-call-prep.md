@@ -1,5 +1,7 @@
 # Call prep — Daniel Anicito (Associate PM, Fidelity Investments)
 
+> **HISTORICAL — call ran 2026-07-08, went well. Debrief + pointers in `ledgers.md` (relationships log). Kept for reference.**
+
 > Per-contact prep for a Pillar-3 informational interview. PRIVATE (real name). Built 2026-06-25.
 > Method grounded in `context/Genuine_Networking_for_Competitive_PM_Internships.md` +
 > `context/research-purdue-network-recruiting.md`. Tracker row: `alumni-tracker.md` #4.
