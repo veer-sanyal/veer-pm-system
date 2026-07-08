@@ -16,6 +16,8 @@ The system runs in **Claude Code** with this folder as the working directory. Mi
 | Sunday planning session | `/sunday` |
 | Resume / cover letter | `/apply <company>` |
 | Study / practice (Pillars 2 & 4) | `/tutor` |
+| Post-call debrief (same-day loop close) | `/debrief <name>` |
+| Session status banner (staleness, tripwires, git, telemetry gaps) | `.claude/hooks/session-start.sh` via the SessionStart hook in `.claude/settings.json` |
 | Current state + live tripwires | `memory.md` (always read; carries the `Last reconciled:` stamp) |
 | Running log | `PROGRESS.md` (tail) + `PROGRESS-archive.md` (history) |
 | Session telemetry | `session-log.jsonl` (one line per session; feeds the monthly health check in `/sunday`) |
@@ -27,7 +29,20 @@ Connectors: Gmail and Google Calendar come through the claude.ai connectors (MCP
 
 1. Clone this repo (stays private) and `cd` into it.
 2. Authenticate `gh` (`gh auth login`) so `/reconcile` can pull the product repo's commits.
-3. Run `claude` in the folder. `CLAUDE.md` loads automatically; connectors are per-account (claude.ai), not per-machine.
+3. Run `claude` in the folder. `CLAUDE.md` loads automatically; connectors are per-account (claude.ai), not per-machine. The tracked `.claude/settings.json` registers the SessionStart status banner; if a session opens without the `=== veer-pm-system status ===` banner, check that file.
+
+## Daily rhythm (quick reference)
+
+- **Morning (phone or laptop):** say "initialize" → wake log + today's plan, rebuilt forward if the wake slipped. This runs fine from claude.ai Code on the phone against this repo, so a laptop is not required at 9:00.
+- **First session of the day, if the banner says STALE:** `/reconcile` runs before substantive work (usually folded into /initialize).
+- **After any call:** `/debrief <name>` — log it, thank-you out same day, next tripwire opened.
+- **Anything else mid-week:** just talk; the system reads what it needs. Structural changes wait for Sunday.
+- **Sunday:** `/sunday` — week review, next week's calendar written, maintenance; first Sunday of the month adds the telemetry health check.
+
+## Automation options (opt-in, deliberately not wired)
+
+- **Phone-first /initialize** (recommended first): open this repo in Claude Code on claude.ai from the phone and run `/initialize` at wake. Fixes the missed-wake-log gap without new machinery. Verify on first run that the Calendar connector is reachable there.
+- **Headless morning reconcile:** `claude -p "/reconcile"` from cron/launchd can pre-run the daily scan. Costs money per run, acts on Gmail/Calendar unattended, and needs pre-approved permissions — only wire it if manual reconciles are actually being missed, and start with a dry week (no calendar writes).
 
 ## Reading convention (two tiers)
 

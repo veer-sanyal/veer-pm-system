@@ -8,6 +8,8 @@ Reality is the source of truth, not the docs. Run this at the first session of t
 
 Keep it fast and quiet. Report only what CHANGED, in one or two lines ("reconciled: Anicito confirmed Jul 8; teammate kickoff email still unsent"), not the whole scan. If a data source is unavailable this session, say so plainly and reconcile from what is available. Never claim a reconcile happened if it did not.
 
+Context discipline: the scans below are noisy. Fan them out to parallel subagents on a cheaper model (commits, calendar, and the three Gmail scans can run concurrently; give each the live names/rows it needs) and keep only their findings in the main session. The main context is for judgment and persistence, not raw digests.
+
 ## What to scan
 
 Scan targets are read from the live files, never hard-coded here: the Application Pipeline in `context/key-dates.md` (rows not yet closed), the live names in `alumni-tracker.md`, the external-relationships log in PROGRESS.md, and any tripwires in memory.md.
@@ -24,6 +26,7 @@ Scan targets are read from the live files, never hard-coded here: the Applicatio
 - **Done-check:** record in PROGRESS.md whether yesterday's committed block actually happened.
 - **Stuck items:** anything carried >2 sessions/days gets decomposed to the single smallest physical next action (under 2 minutes to start) and marked a tripwire. Never restate a stuck item verbatim; if it stalls a second time, name the avoidance.
 - **Ahead-of-schedule replan:** for any FUTURE calendar block whose task is already done, retitle it honestly ("... — DONE early") and backfill the freed block with the next-highest-value action from the existing backlog (memory.md next moves, the Application Pipeline, pillars at zero this week). Match backfill to block type (deep = hardest pillar work; secondary = different category; small item = one shippable artifact), respect the 3-substantive-items-a-day ceiling, and prefer the most time-sensitive open tripwire. This only refills freed slots from the existing backlog; structural replans wait for Sunday. A freed block already in the past is just marked done, never backfilled.
+- **Briefing refresh:** the Morning Briefings were written on Sunday and go stale as the week diverges. While the calendar is open, update TOMORROW's briefing if reality has moved: the done-check line names what actually happened (done, slipped, folded elsewhere), and the description carries the day's last-action tripwires (the P4 between-sessions gap). Tomorrow only; the rest of the week stays Sunday-owned.
 
 ## Persist
 
@@ -31,4 +34,4 @@ Scan targets are read from the live files, never hard-coded here: the Applicatio
 2. Append or adjust PROGRESS.md (dated entry).
 3. Update `context/patterns.md` only if a logged pattern recurred or a new one crossed the 2-instance bar.
 4. Commit and push.
-5. Append the session's line to `session-log.jsonl` at session end (type `reconcile` if this was the session's main work).
+5. Append the session's line to `session-log.jsonl` at session end (type `reconcile` if this was the session's main work). Give every tripwire a short stable slug the day it opens (`tripwires_opened`) and log the same slug the day it closes (`tripwires_closed`); the monthly health check computes loop-closing latency from those.

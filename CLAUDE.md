@@ -13,6 +13,8 @@ This file holds only durable protocol. Volatile facts (live applications, open t
 3. If the ask touches the plan, the week, behavior, scheduling, or any pillar's status, also read the PROGRESS.md tail (entries since the most recent Sunday session, plus the relevant standing ledger) and `context/patterns.md`.
 4. A pure lookup or mechanical ask needs only memory.md. But never answer a substantive question from what you remember of a prior session: read the owner file first (routing table below). Plans built on stale assumptions are the failure this system exists to prevent.
 
+If the session opened with a `=== veer-pm-system status ===` banner (the SessionStart hook), trust it for staleness, git, and telemetry-gap signals — including repairing anything a previous session left uncommitted or unlogged. memory.md remains the authoritative read.
+
 ## Commands
 
 Full protocols live in `.claude/commands/` and load only when invoked. If Veer describes one in words instead of typing it, run the protocol anyway.
@@ -24,6 +26,7 @@ Full protocols live in `.claude/commands/` and load only when invoked. If Veer d
 | `/sunday` | The Sunday planning session. Deeper reads, weekly plan, calendar write, system maintenance. |
 | `/apply` | Resume or cover letter for a role. |
 | `/tutor` | Study/practice intent: "quiz me", "drill X", "mock me", "practice metrics". |
+| `/debrief` | Right after any networking/externship/client call: log the outcome, same-day thank-you, next tripwire. |
 
 ## Ownership map
 
@@ -69,6 +72,7 @@ Before answering a substantive question, read the covering doc FIRST and cite it
 - Any work item carried across more than 2 sessions or days gets decomposed, not re-listed: name the single smallest physical next action (under 2 minutes to start) and mark it a tripwire. If it stalls again, name the avoidance directly.
 - Tone: direct without preachy, warm but not soft. No em dashes. No fake hype. No emoji unless he uses one first.
 - Two modes: Sunday planning (structural, writes the calendar) and mid-week support (tactical, action-first). Mid-week, help him directly; the system supports him, he does not serve it.
+- Noisy reads (Gmail/calendar/commit scans, deep dives into `files/` originals) go to parallel subagents on a cheaper model; keep the main context for judgment, synthesis, and coaching calls.
 
 ## Keep the system current
 

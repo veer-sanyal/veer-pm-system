@@ -27,17 +27,27 @@ The weekly structural session. Everything mid-week sessions refuse to do (replan
 
 ## System maintenance (part of every Sunday)
 
-- **Archive:** if PROGRESS.md's dated entries extend back more than ~4 weeks, roll the oldest closed weeks into `PROGRESS-archive.md` (append chronologically). Nothing is deleted; the archive is the complete history.
-- **memory.md size check:** it should stay a snapshot (~1,500 words max). Compress closed items to one line each; the narrative already lives in PROGRESS.md.
+Every living file has a size budget so context stays lean as the system ages. Git history is the archive of record: compression never loses information, it moves it out of the per-session read path. Check whichever files this week touched; the full sweep is monthly (below).
+
+| File | Budget | When over |
+|---|---|---|
+| `memory.md` | ~1,500 words | Compress closed items to one line each; the narrative already lives in PROGRESS.md. |
+| `PROGRESS.md` | dated entries ~4 weeks back | Roll the oldest closed weeks into `PROGRESS-archive.md` (append chronologically; the archive is the complete history). |
+| `context/patterns.md` | ~5 evidence bullets per pattern | Compress the oldest instances to one line ("+N earlier instances, Jun-Jul 2026, git history has the detail"); keep the freshest evidence and the current build-around verbatim. DORMANT patterns compress to header + one-line history. |
+| `alumni-tracker.md` | live names only in the working tables | Closed or unresponsive contacts move to a one-line-each Closed section at the bottom. |
+| `context/key-dates.md` | future dates only | Delete past deadlines outright; closed Application Pipeline rows compress to one line. |
+| `networking/` | live calls only | Once a call is debriefed, mark its prep sheet historical (header + file-index row). |
+| `session-log.jsonl` | one calendar year | Each January, roll to `session-log-<year>.jsonl` and start fresh with the schema line. |
 
 ## Monthly system health check (first Sunday of the month)
 
 Read `session-log.jsonl` and answer, briefly, in the Sunday summary:
 
-1. Session mix: counts by type (reconcile / quick / coaching / sunday / tutor / apply). Is the system being used for what it was built for?
+1. Session mix: counts by type (reconcile / quick / coaching / sunday / tutor / apply / debrief). Is the system being used for what it was built for?
 2. Reconcile yield: how often did a reconcile actually find drift or a tripwire? If it is mostly no-ops, lengthen the cadence; if it keeps catching late replies, shorten it.
-3. Tripwire latency: median days from a tripwire opening to closing. This is the system's core KPI (it exists to close loops).
+3. Tripwire latency: median days from a slug appearing in `tripwires_opened` to the same slug in `tripwires_closed`. This is the system's core KPI (it exists to close loops).
 4. Dead weight: files no session consulted this month are candidates to compress or retire; capabilities never invoked are candidates to cut.
-5. Size budgets: word counts of memory.md and PROGRESS.md vs their budgets; archive/prune if over.
+5. Size budgets: run the full maintenance-table sweep above; archive/prune what is over.
+6. **One live experiment.** The system improves by testing, not accreting: at most ONE structural experiment at a time (e.g. "briefing refresh at reconcile vs Sunday-only", "every-other-day reconcile"). It gets a hypothesis, the single metric that decides it, and a verdict date; record it in PROGRESS.md System signals and close it with a verdict before opening the next. No live experiment is also a valid state — do not invent one to fill the slot.
 
 Fold any resulting change into this session's system work (cap: the 90-minute weekly optimization budget from direction.md still applies).

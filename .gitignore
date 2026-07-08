@@ -3,6 +3,8 @@
 .Rapp.history
 .claude/*
 !.claude/commands/
+!.claude/hooks/
+!.claude/settings.json
 
 # LaTeX build artifacts
 *.aux
