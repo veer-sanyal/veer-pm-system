@@ -399,6 +399,7 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 - **Same-day thank-you drafted in-session** (peer register, references the laptop-camera pause-and-reason point + the mock-rep action Veer will take, **who-else-to-talk-to ask folded in** since it didn't land live). Awaiting Veer's send (LinkedIn or danicito@purdue.edu) — slug `anicito-thankyou-jul8`. Same-day close, no P4 parking; loop closes on send.
 - No referred names offered live. If Daniel names people in reply → warm-intro shortlist rows (same rule as LaCroix). The interview pointers are banked for Phase-2 mock prep (Aug+), noted in the tracker row and relationships log.
 - Prep sheet (`networking/Anicito-Fidelity-call-prep.md`) marked historical.
+- **Relationship upgraded ~30 min after the call: Daniel messaged first (3:12pm) — "Great talking to you Veer! Here's my cell if you ever have a question or want to meet up for coffee back on campus [516-404-2194]. Danny."** He initiated, gave his phone number, offered recurring in-person contact, signed informally. Read: a peer actively in Veer's corner, not a one-and-done. Thank-you revised to a warm reply that **takes the coffee offer** (fall, when both back on campus) as the concrete forward hook, keeps the who-else ask light. Cell + "Danny" logged in the tracker row and relationships log.
 
 ---
 
