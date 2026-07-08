@@ -26,7 +26,7 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 - Calls booked: 2 (Steven LaCroix — Tue Jul 7, 5:00pm ET / 2:00pm PT, invite accepted; Daniel Anicito — Wed Jul 8, 5:30pm ET / 2:30pm PT, invite sent Jul 7 w/ Meet link).
 - **Conversations completed: 2** (Steven LaCroix, 2026-07-07 — went well, keep-updated agreed; Daniel Anicito, 2026-07-08 — went well, keep-updated agreed; both debriefed in the relationships log)
 - Tracker: started 2026-06-09 — `alumni-tracker.md` (project root). Call-prep sheets in `networking/`.
-- **Open tripwires (as of Jul 8):** (1) Anicito same-day thank-you — drafted, awaiting Veer's send (slug `anicito-thankyou-jul8`). (2) Akash Ravi comment-then-message, slipped 2 weeks — Thu comment, Fri message, both in block titles.
+- **Open tripwires (as of Jul 8):** (1) ~~Anicito same-day thank-you~~ SENT Jul 8, slug `anicito-thankyou-jul8` closed same session — loop complete. (2) Akash Ravi comment-then-message, slipped 2 weeks — Thu comment, Fri message, both in block titles.
 - Week of Jul 6 plan: **convert week** — run both calls (LaCroix Tue, Anicito Wed) with same-day thank-yous, log the three externship contact types (Heggland, Haverstick, teammates) as relationships, Akash touch Thu/Fri. No new cold sends; the July free-connect-note quota resets and stays banked until the funnel calls are done.
 
 Note: Dr. G (Infisum) is the one live external thread — see the external relationships log.
