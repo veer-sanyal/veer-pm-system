@@ -1,6 +1,7 @@
 #!/bin/bash
 # SessionStart hook: print system state into context so no session starts blind.
-# The banner is a surfacing layer only; memory.md stays authoritative.
+# Surfacing layer only; memory.md stays authoritative. Auto-pushes existing
+# commits; never auto-commits (commits need a real message, written in-session).
 cd "$CLAUDE_PROJECT_DIR" 2>/dev/null || cd "$(dirname "$0")/../.." || exit 0
 
 echo "=== veer-pm-system status ($(date '+%Y-%m-%d %H:%M %Z')) ==="
@@ -16,10 +17,19 @@ echo "--- live tripwires (headers from memory.md) ---"
 awk '/^\*\*Live tripwires/{f=1;next} /^---/{f=0} f && /^[0-9]+\./' memory.md | cut -c1-140
 
 if [ -n "$(git status --porcelain)" ]; then
-  echo "GIT: uncommitted changes left by a previous session -- reconcile them into a commit before new work."
+  echo "GIT: uncommitted changes left by a previous session:"
+  git status --porcelain | head -20
+  echo "ACTION REQUIRED: first move this session = read this diff, fold it into a proper commit (real message), push. Before any other work."
 fi
+
 ahead=$(git rev-list --count @{u}..HEAD 2>/dev/null)
-[ "${ahead:-0}" -gt 0 ] 2>/dev/null && echo "GIT: $ahead unpushed commit(s) -- push."
+if [ "${ahead:-0}" -gt 0 ] 2>/dev/null; then
+  if git push -q 2>/dev/null; then
+    echo "GIT: auto-pushed $ahead commit(s) a previous session left unpushed."
+  else
+    echo "GIT: $ahead unpushed commit(s); auto-push failed (offline or auth) -- push manually this session."
+  fi
+fi
 
 last_ts=$(tail -1 session-log.jsonl | sed -E 's/.*"ts": *"([^"]+)".*/\1/')
 echo "Last telemetry line: ${last_ts:-none}"
