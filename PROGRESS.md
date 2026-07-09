@@ -404,3 +404,8 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 ---
 
 *Standing pillar ledgers, the external-relationships log, and system signals moved to `ledgers.md` (2026-07-08).*
+
+### 2026-07-09 (Thu) — Trice thread update (screenshot from Veer, ~1:24pm)
+
+- **Sudip replied (WhatsApp, Jul 8 11:13pm IST) — the handoff is set.** Naveen, a founding member of Trice Systems, will ping Veer on WhatsApp directly. Sudip's instruction: "if I don't get any message wait for a day and messg him." Naveen's number: **+91 99490 33255**; Veer can reference Sudip's name or **Mr Gautham** when reaching out. Veer replied Jul 9 1:18pm ("thank you uncle I'll keep you posted"). Thread now moves off Sudip and onto Naveen directly.
+- Tripwire #3 re-armed: **wait for Naveen's ping through Thu Jul 10; if nothing by then, Veer messages Naveen Fri Jul 11** at the number above, referencing Sudip/Gautham. Call agenda unchanged (role family, weekly hours, remote-vs-Hyderabad, + the Purdue-externship disclosure — said on the call, not in the WhatsApp opener). No hour commitments until Sunday Jul 12 sizes Trice against real externship-W1 hours.
