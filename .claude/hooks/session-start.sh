@@ -10,7 +10,7 @@ stamp_line=$(grep -m1 "Last reconciled:" memory.md)
 echo "$stamp_line"
 stamp_date=$(echo "$stamp_line" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1)
 if [ "$stamp_date" != "$(date '+%Y-%m-%d')" ]; then
-  echo "STALE: memory.md was last reconciled $stamp_date -> run /reconcile before substantive work."
+  echo "STALE: memory.md was last reconciled $stamp_date -> auto-run /reconcile as the first action (CLAUDE.md session-start rule), then answer."
 fi
 
 echo "--- live tripwires (headers from memory.md) ---"

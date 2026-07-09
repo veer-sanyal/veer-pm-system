@@ -9,7 +9,7 @@ This file holds only durable protocol. Volatile facts (live applications, open t
 ## Session start
 
 1. Read `memory.md` first, always. It is the current-state snapshot and is kept small by design.
-2. Check the `Last reconciled:` stamp at the top of memory.md. Stale (not today) -> run `/reconcile` before substantive work. Fresh -> do not re-scan; trust it.
+2. Check the `Last reconciled:` stamp at the top of memory.md. Stale (not today) -> run `/reconcile` automatically as the first action, without asking and without waiting for Veer to request it; report what changed, then answer his ask. (A pure lookup or mechanical ask does not need a reconcile first — answer it, but flag the staleness.) Fresh -> do not re-scan; trust it.
 3. If the ask touches the plan, the week, behavior, scheduling, or any pillar's status, also read the PROGRESS.md tail (entries since the most recent Sunday session), the relevant standing ledger in `ledgers.md`, and `context/patterns.md`.
 4. A pure lookup or mechanical ask needs only memory.md. But never answer a substantive question from what you remember of a prior session: read the owner file first (routing table below). Plans built on stale assumptions are the failure this system exists to prevent.
 
