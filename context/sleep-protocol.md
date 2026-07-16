@@ -126,3 +126,19 @@ to advance — the only structural change is the ~Jul 9 escalation check above.
   (in that day's briefing): if the wake hasn't landed 9:00-10:00 on 3 of the last 4 days,
   start 0.5mg ~8:30pm as the clock-shifter. Named risk to the keystone: late-night StudyFlow
   spec sessions (1:30am commits Jul 4) — the wind-down cue now explicitly closes those too.
+- 2026-07-16 (Veer check-in, ~2:45am): **anchor moved off 9:00 to a fixed ~11:00 for the
+  summer, at Veer's direction.** His report: sleep is much more consistent now (alarm-driven,
+  waking ~11), and the daily `initialize` interrogation ("when did you wake, rebuild the
+  blocks") reads as friction, not help. Ruling, consistent with the core lever above: the
+  target was never 9:00 for its own sake, it was *one fixed wake held all 7 days* so Process S
+  rebuilds and late nights collapse. A held 11:00 satisfies that. So: **operating wake = fixed
+  ~11:00 (summer)**; `initialize` strips to a 5-second wake-time stamp plus planning the spine
+  forward from 11:00 (drop the rebuild dialogue). Keep exactly ONE tracked indicator: actual
+  wake time (the schedule-holding signal). Clock-shift-to-9 is moot at an 11 anchor, so the
+  melatonin decision (memory tripwire 4) closes HOLD. **Two caveats on record:** (1)
+  NOT-YET-VERIFIED — Veer was in the STICK project at 2:41am tonight, so the fixed-wake +
+  earlier-bedtime loop is not closed; the 11:00 only works if held after a late night (no
+  recovery sleep-in). (2) **Walk-back required before classes ~Aug 24** (real mornings):
+  advance 11:00 toward ~9:00 in mid-August. **Sunday re-verifies** from a real week of wake
+  stamps; the block-schedule reflow to an 11:00 base (about-me.md's 9:45/11:45 table) is a
+  Sunday task, not done here.
