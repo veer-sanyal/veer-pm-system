@@ -92,6 +92,8 @@ All read copies are in `context/`. A `files/` entry means the full uncompressed 
 | `2026-06-14-pm-skills-tutor-integration-design.md` | Design spec for the PM Skills Tutor subsystem (Pillars 2 + 4). |
 | `2026-06-14-pm-skills-tutor-integration-plan.md` | Implementation plan for the PM Skills Tutor subsystem. |
 | `2026-06-15-dynamic-tracking-system-upgrade.md` | Design + plan for the auto-reconcile / closed-loop-accountability / two-tier-reorg / single-source-of-truth upgrade. |
+| `2026-07-15-system-audit.md` | Deep audit (Veer's ask): every workflow inventoried (commands, automatic, unnamed-recurring), telemetry + git usage analysis, ranked improvements (Q1–Q6 quick fixes, S1–S4 structural). Adoption is Sunday-session work. |
+| `system-map.tex` / `system-map.pdf` | Compilable TikZ system map (4 pages): every-session lifecycle, /reconcile subagent fan-out, command nesting + deferred protocol docs, usage table. Recompile with `pdflatex system-map.tex`. |
 
 ---
 
