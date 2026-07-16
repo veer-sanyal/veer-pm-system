@@ -19,6 +19,21 @@ awk '/^\*\*Live tripwires/{f=1;next} /^---/{f=0} f && /^[0-9]+\./' memory.md | c
 # Makes silently-unpersisted study sessions visible (the Jun 23 / Jul 7 ambiguity).
 [ -f context/study/state.json ] && echo "study state.json last write: $(date -r context/study/state.json '+%Y-%m-%d %H:%M')"
 
+# Pillar 1 = STICK. Its failure mode is not idleness, it is effort routing to prose instead of the app.
+# One number makes that visible without an audit. Baseline 2026-07-16: 1 of 250 commits touched app/.
+stick="$HOME/Desktop/stick-dev"
+if [ -d "$stick/.git" ]; then
+  s_all=$(git -C "$stick" rev-list --count HEAD 2>/dev/null)
+  s_app=$(git -C "$stick" rev-list --count HEAD -- app/ 2>/dev/null)
+  s_all14=$(git -C "$stick" rev-list --count --since=14.days HEAD 2>/dev/null)
+  s_app14=$(git -C "$stick" rev-list --count --since=14.days HEAD -- app/ 2>/dev/null)
+  echo "STICK (Pillar 1): app/ commits ${s_app:-?}/${s_all:-?} all-time | ${s_app14:-?}/${s_all14:-?} last 14d | HEAD $(git -C "$stick" log -1 --format='%cs %s' 2>/dev/null | cut -c1-70)"
+  # Fires on a pathological RATIO, not only on zero: 1-of-238 is the case this exists to catch.
+  if [ "${s_all14:-0}" -gt 0 ] 2>/dev/null && [ $(( ${s_app14:-0} * 10 )) -lt "${s_all14:-0}" ] 2>/dev/null; then
+    echo "  ^ only ${s_app14}/${s_all14} commits in 14d touched product code (<10%). Effort is routing to prose. That is the pattern running, not a quiet week -- name it, do not re-list it."
+  fi
+fi
+
 if [ -n "$(git status --porcelain)" ]; then
   echo "GIT: uncommitted changes left by a previous session:"
   git status --porcelain | head -20

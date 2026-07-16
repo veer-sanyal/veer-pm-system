@@ -14,7 +14,20 @@ Context discipline: the scans below are noisy. Fan them out to parallel subagent
 
 Scan targets are read from the live files, never hard-coded here: the Application Pipeline in `context/key-dates.md` (rows not yet closed), the live names in `alumni-tracker.md`, the external-relationships log in `ledgers.md`, and any tripwires in memory.md.
 
-1. **Product commits.** Pull recent commit history of the product repo: `gh api repos/veer-sanyal/india-msme-digital-trade-exposure/commits --jq '.[0:15][] | .sha[0:7] + " " + .commit.message' 2>/dev/null` (fallback: shallow-clone to a temp dir and `git log`). Compare against memory.md "what's shipped"; fix any drift.
+1. **Product commits — Pillar 1 is STICK (`~/Desktop/stick-dev`), local git, no remote** (re-pointed 2026-07-16; the India dashboard is a banked, finished artifact — scan it only if Veer touches it: `gh api repos/veer-sanyal/india-msme-digital-trade-exposure/commits --jq '.[0:15][] | .sha[0:7] + " " + .commit.message' 2>/dev/null`).
+
+   Recent history: `git -C ~/Desktop/stick-dev log --oneline -15`. Compare against memory.md; fix any drift. **Read `~/Desktop/stick-dev/STATE.md` for phase + owner-actions rather than inferring from commits** — that file is authoritative and it self-updates.
+
+   **The one number that matters — product code vs. prose.** STICK's failure mode is not idleness, it is that effort routes to documentation instead of the app (Jul 16 baseline: **1 of 250 commits touched `app/`**; >1.1MB of prose vs ~150KB of code). The session-start hook prints this automatically; confirm and interpret it here, don't recompute:
+
+   ```
+   git -C ~/Desktop/stick-dev rev-list --count HEAD              # all commits
+   git -C ~/Desktop/stick-dev rev-list --count HEAD -- app/      # commits touching product code
+   ```
+
+   Zero `app/` commits across a window in which doc/process commits landed is **not** a quiet week; it is the pattern running, and it gets named directly (not re-listed). A run of `app/` commits is the counter-evidence and is worth saying out loud.
+
+   **Never mirror STICK's build state into this repo.** `stick-dev` owns its own state (`STATE.md`, `DECISIONS.md`, `OPEN-DECISIONS.md`, `HISTORY.md`); memory.md points at it and records only the pillar-level read (is it moving, is it in front of a user, what's the next physical action). Two copies means one of them is lying by Tuesday.
 2. **Calendar.** Read the trailing ~7 days of work blocks and Morning Briefings on Veer's primary calendar (Pacific), via the Google Calendar connector. Infer which committed actions actually happened, cross-referencing commits and PROGRESS.md.
 3. **Gmail, three scans** (Gmail connector; it can only draft, never send):
    - **Drafts:** any tracked outbound still sitting unsent is a live tripwire; surface it.

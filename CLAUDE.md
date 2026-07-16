@@ -44,7 +44,8 @@ Each fact has exactly one owner; everything else points, never restates. If you 
 | `context/sleep-protocol.md` | Wake-time target and the live sleep-fix config. Never hard-code a wake time elsewhere. |
 | `context/study/state.json` | Learning state (Pillars 2 and 4). memory.md only mirrors a regenerated summary. |
 | Google Calendar (primary, Pacific) | The live operational schedule AND the delivery channel for the daily plan (`context/daily-briefing-instructions.md`). Gmail can only draft, never send. |
-| `DECISIONS.md` (product repo) | Curated product decisions with trade-offs. |
+| `~/Desktop/stick-dev` | **The Pillar-1 product (STICK).** Owns ALL its own build state: `STATE.md` (phase + owner-actions), `DECISIONS.md` / `OPEN-DECISIONS.md` (D/OD numbers), `HISTORY.md`, `BACKLOG.md`. This repo POINTS at it and never mirrors it; memory.md holds only the pillar-level read (moving or not, in front of a user or not, next physical action). It has its own session protocol (`LOOP.md`, `START-HERE.md`) — do not commit there from this system. |
+| `DECISIONS.md` (india-msme repo) | Curated product decisions with trade-offs for the **banked** dashboard artifact. Historical; no longer the active product. |
 
 Reading tiers: `context/` holds the working copies read day-to-day (one canonical copy per doc); `files/` holds the full deep-research originals, opened only when a `context/` copy lacks a needed detail. New or edited docs get their `context/` copy updated in the same session and a row in `file-index.md`.
 
@@ -52,7 +53,8 @@ Reading tiers: `context/` holds the working copies read day-to-day (one canonica
 
 Before answering a substantive question, read the covering doc FIRST and cite it specifically (named studies and stats, never "the research says"). All paths in `context/` unless noted.
 
-- Dashboard build / features / next product step -> `infisum-dashboard-roadmap.md` (+ memory.md)
+- **STICK build / pilot / next product step (Pillar 1) -> `~/Desktop/stick-dev`** — read its `STATE.md` FIRST (authoritative, self-updating: phase, owner-actions, open queue), then `OPEN-DECISIONS.md` for what's unresolved. Anything deeper goes to parallel subagents (its CodeGraph is initialized; the docs are ~1.1MB, do not pull them into main context). This system points, never mirrors.
+- India MSME dashboard -> **banked, finished artifact** (live site + DECISIONS through Entry 014); `infisum-dashboard-roadmap.md` is historical. The US-version track was killed 2026-07-16.
 - Metrics / statistics / what to learn -> `research-metrics-fluency-curriculum.md`
 - Interview loops / mock prep / company rounds -> `PM_Internship_Interview_Reality_Check.md`
 - Programs / deadlines / eligibility / odds -> `Product_Management_Internship_Recruiting_for_Summer_2027.md` (+ key-dates.md)
