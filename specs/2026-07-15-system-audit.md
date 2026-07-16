@@ -6,6 +6,25 @@ This is a point-in-time audit. Protocol changes it recommends are Sunday-session
 
 ---
 
+## 0. Veer's journeys (the rider's view: every path through the system)
+
+Every journey passes the same front door (hook banner + memory.md; first session of the day auto-reconciles first) and the same exit (persist owner files, commit + push, one telemetry line). Journeys chain freely in one day: initialize, then tutor, then debrief is one day, three journeys. Visual: map 1 in `system-map.pdf`.
+
+| # | Veer does | What happens | Ends as |
+|---|---|---|---|
+| J1 | Wakes up, says **initialize** | Sleep indicators logged, wake target checked | Today's plan (spine, or rebuilt forward from actual wake) |
+| J2 | Study intent: **quiz me / drill X / mock me** | Tutor loop: predict, answer, feedback; state saved every item | state.json + PROGRESS one-liner, committed |
+| J3 | Found a posting: **/apply** link | Profile read, match-map, .tex from template, compile | Tailored PDF in applications/, pipeline row in key-dates |
+| J4 | Just finished a call: **/debrief** | Outcome captured in his words, thank-you drafted same day | Loop closed, next action tripwired |
+| J5 | Sunday 4pm: **/sunday** | Week reviewed, next week planned, maintenance | Calendar written (6 briefings + retitled blocks) |
+| J6 | Mid-week ask: **help me with X / should I Y** | Tactical, action-first coaching | Help delivered; no mid-week replans (structure is Sunday's) |
+| J7 | Drops a **screenshot** (WhatsApp / iMessage / team) | Facts extracted, record corrected | Tripwires re-armed; how blind channels reach the system |
+| J8 | Lookup: **where is X at? / why?** | Answered from memory.md alone | A why gets a brief answer, then redirect to the next move |
+| J9 | System work: **audit / improve / add** | P6 avoidance check first | Structural changes park for Sunday |
+| J10 | (passive) 9:00 **Morning Briefing** on the calendar | Done-check question + today's blocks | No Claude session at all |
+
+Observed frequency (telemetry, Jul 3 to 15): J6-style reconcile/tactical sessions dominate; J4 once; J5 once (one missed); J1 and J2 never fired in-window, which is the usage gap behind the cold state.json and the empty wake log, not a missing capability.
+
 ## 1. Complete workflow inventory
 
 ### A. Named commands (6)
@@ -117,3 +136,50 @@ tripwires.json, per-contact files, generated daily briefings: none of their trig
 | User-level plugin boilerplate (outside repo) | superpowers + skill listings + MCP instructions | larger than any row above |
 
 The repo's read discipline is already tight; the leverage order is: plugins (S4) > fan-out model pin (Q1) > spawn count (Q2) > everything else.
+
+---
+
+## 6. Addendum (same day, second pass)
+
+### 6.1 The remembered "fork" does not exist; the capability does
+
+No forks and no PRs on `veer-pm-system` or the product repo. The five remote `claude/*` branches are fully merged web-session branches, zero commits ahead (safe to delete). What was remembered is the **Indeed jobs connector** attached to the Claude workspace (`search_jobs`, `get_job_details`, `get_company_data`, `get_resume`). Tested 2026-07-15: full-time PM searches return real postings; internship-filtered queries return nothing, consistent with the Summer 2027 window not opening until Aug-Oct (key-dates.md) and big-tech PM internships living on company portals, not Indeed.
+
+Verdict: a weekly scout for adjacent roles (analyst / APM-adjacent, the `research-adjacent-roles-to-pm.md` track) and off-cycle internships; not a pipeline replacement. **S5 (Sunday adoption):** one paragraph in sunday.md's pipeline step: run 2-3 fixed connector queries, add relevant new rows to the key-dates Application Pipeline.
+
+### 6.2 Usage telemetry exists; what it says is used vs idle
+
+`session-log.jsonl` is the usage telemetry (one line per session, `read` field = files consulted). From the 13-day window:
+
+- **Hot (consulted repeatedly):** memory.md, PROGRESS.md tail, ledgers.md, patterns.md, key-dates.md, alumni-tracker.md, about-me.md, direction.md, externship doc, daily-briefing-instructions.md, sleep-protocol.md, study/state.json, README.md, CLAUDE.md + commands + hook.
+- **Idle by design (on-demand routing, keep):** the research library in context/, files/ originals, application profile docs, study protocol docs. Their commands or routes simply did not fire in-window.
+- **True dead-weight candidates for the Aug 2 monthly health check:** `files/linkedin/` (post live since Jun 14, drafting history), `context/emotional-regulation/` (no build decision since Jun), `context/veer-full-profile.md` (unconsulted), pre-July specs (historical by design, cheap to keep).
+
+The measurement gap stays Q3: add `subagents` + `dur_min` fields and `initialize` to the enum; with 4+ weeks of lines the monthly check can then make retire/keep calls on data.
+
+### 6.3 Boot-up cost: where it actually is and the exact levers
+
+The repo's fixed boot cost is already small (banner + memory.md, ~100 lines; CLAUDE.md 82 lines). The heavy per-session weight is user-level and invisible to this repo: plugin SessionStart dumps (superpowers, ponytail) plus skill listings and MCP tool inventories from servers this project never uses (Supabase, Vercel, Slack, computer-use, browser, codegraph, n8n).
+
+Levers (project-scoped, verified against current Claude Code docs):
+
+```json
+// .claude/settings.json additions, this project only
+{
+  "enabledPlugins": {
+    "superpowers@<marketplace>": false,
+    "ponytail@<marketplace>": false,
+    "options-advisor@<marketplace>": false,
+    "cowork-plugin-management@<marketplace>": false
+  },
+  "disabledMcpjsonServers": ["computer-use", "claude-in-chrome", "codegraph"]
+}
+```
+
+Notes: get exact plugin IDs from `/plugin list`; connector-type servers (Gmail, Calendar, Drive, Supabase, Vercel, Slack, jobs) are managed in the app's connector UI, not `disabledMcpjsonServers`. **Never disable Gmail or Calendar for this project; /reconcile is blind without them.** Measure before/after with `/context` (shows the startup token breakdown by category).
+
+### 6.4 Sleep module: shrink, do not delete (Sunday decision)
+
+Request on the table: remove the sleep part. The record argues against deletion: memory.md names sleep as the gating variable for the P2 study misses ("misses trace to the late wake, not avoidance of the block"), and sleep-protocol.md was consulted in-window. What is actually failing is the entry point: `/initialize` fired zero times, so there is no wake log and the melatonin decision has no data. Deleting the module removes the instrument, not the problem.
+
+Shrink option for the belated Sunday: retire the standalone ceremony; fold the two indicators (actual wake time, time he decided to sleep) into the first session of any day as one question inside the existing front door. sleep-protocol.md stays as the owner of the wake target; initialize.md collapses to a stub or is absorbed. Cost drops to one question a day; the keystone signal survives.

@@ -45,8 +45,42 @@ Legend:\quad
 \tikz{\node[gate, minimum height=5mm, aspect=3]{gate};}\quad
 dashed = conditional
 
-\vspace{4mm}
-{\large\bfseries 1. Every session: the lifecycle}
+\newpage
+{\large\bfseries 1. Veer's journeys: every entry point and where it leads}
+
+\vspace{1mm}
+Every journey passes the same front door and exit. Journeys chain freely in one day: initialize $\to$ tutor $\to$ debrief is one day, three journeys.
+
+\begin{tikzpicture}
+  \node[box, fill=gatec, text width=158mm, anchor=north west] (front) at (0,0.9) {\textbf{FRONT DOOR}, every session: hook banner $\to$ read \texttt{memory.md} $\to$ stamp stale? auto-\texttt{/reconcile} first};
+
+  \newcommand{\jrow}[4]{
+    \node[main, text width=64mm, anchor=north west] (e#1) at (0,#2) {#3};
+    \node[file, text width=90mm, anchor=north west] (o#1) at (7.8,#2) {#4};
+    \draw[flow] (e#1) -- (o#1);
+  }
+  \jrow{1}{-1.25}{wakes up, says \textbf{initialize}}{sleep indicators logged, today's plan built (spine, or rebuilt forward from actual wake)}
+  \jrow{2}{-2.50}{study intent: \textbf{quiz me / drill X / mock me}}{tutor loop (predict $\to$ answer $\to$ feedback); \texttt{state.json} saved after every item}
+  \jrow{3}{-3.75}{found a posting: \textbf{/apply} \textit{link}}{tailored resume (+ letter) PDF in \texttt{applications/}, pipeline row in key-dates}
+  \jrow{4}{-5.00}{just finished a call: \textbf{/debrief}}{outcome captured, same-day thank-you drafted, next action tripwired}
+  \jrow{5}{-6.25}{Sunday 4pm: \textbf{/sunday}}{week reviewed and planned, calendar written (briefings + blocks), system maintained}
+  \jrow{6}{-7.50}{mid-week ask: \textbf{help me with X / should I Y}}{tactical help, action-first; no mid-week replans (structure is Sunday's)}
+  \jrow{7}{-8.75}{drops a \textbf{screenshot} (WhatsApp / iMessage / team)}{facts extracted, record corrected, tripwires re-armed: how blind channels reach the system}
+  \jrow{8}{-10.00}{lookup: \textbf{where is X at? / why?}}{answered from \texttt{memory.md} alone; a why gets a brief answer, then redirect to the next move}
+  \jrow{9}{-11.25}{system work: \textbf{audit / improve / add}}{P6 avoidance check first; structural changes park for Sunday}
+
+  \node[ext, text width=64mm, anchor=north west, dashed] (e10) at (0,-12.5) {9:00 \textbf{Morning Briefing} arrives on the calendar};
+  \node[ext, text width=90mm, anchor=north west, dashed] (o10) at (7.8,-12.5) {passive: done-check question + today's blocks; no Claude session at all};
+  \draw[opt] (e10) -- (o10);
+
+  \node[box, fill=gatec, text width=158mm, anchor=north west] (exit) at (0,-14.0) {\textbf{EXIT}, every session: update owner files $\to$ git commit + push $\to$ append 1 telemetry line};
+
+  \draw[flow] ([xshift=-3mm]front.south west) ++(0,0) |- (e1.west);
+  \draw[flow] (o9.east) -- ++(0.3,0) |- (exit.east);
+\end{tikzpicture}
+
+\newpage
+{\large\bfseries 2. Every session: the lifecycle}
 
 \vspace{4mm}
 \begin{tikzpicture}[node distance=6mm and 9mm]
@@ -57,7 +91,7 @@ dashed = conditional
   \node[gate, right=8mm of g1] (g2) {ask\\class?};
   \node[file, text width=30mm, right=8mm of g2] (route) {routing table:\\read the owning\\\texttt{context/} doc, cite it};
 
-  \node[main, text width=34mm, below=9mm of g1] (rec) {auto-run \texttt{/reconcile}\\first (see map 2)};
+  \node[main, text width=34mm, below=9mm of g1] (rec) {auto-run \texttt{/reconcile}\\first (see map 3)};
   \node[file, text width=32mm, below=9mm of route] (extra) {plan/week/behavior ask:\\also \texttt{PROGRESS} tail,\\\texttt{ledgers.md}, \texttt{patterns.md}};
 
   \node[main, text width=30mm, below=24mm of g2] (work) {do the ask\\(Sunday structural /\\mid-week tactical)};
@@ -84,7 +118,7 @@ dashed = conditional
 The only fixed context cost every session pays is the hook banner plus \texttt{memory.md} ($\sim$100 lines). Everything else is gated by the ask.
 
 \newpage
-{\large\bfseries 2. \texttt{/reconcile}: the one workflow that spawns subagents}
+{\large\bfseries 3. \texttt{/reconcile}: the one workflow that spawns subagents}
 
 \vspace{4mm}
 \begin{tikzpicture}[node distance=5mm and 5mm]
@@ -145,7 +179,7 @@ The only fixed context cost every session pays is the hook banner plus \texttt{m
 Scans are noisy; only findings return to the main lane, which does judgment and persistence, never raw digests. No other command spawns subagents directly; \texttt{/initialize} and \texttt{/sunday} inherit this fan-out by nesting \texttt{/reconcile}. No model is pinned anywhere; ``cheaper model'' is the only instruction (audit item Q1).
 
 \newpage
-{\large\bfseries 3. Command nesting and deferred protocol docs}
+{\large\bfseries 4. Command nesting and deferred protocol docs}
 
 \vspace{4mm}
 \begin{tikzpicture}
@@ -185,7 +219,7 @@ Scans are noisy; only findings return to the main lane, which does judgment and 
 \end{tikzpicture}
 
 \vspace{6mm}
-{\large\bfseries 4. What the usage record shows (telemetry Jul 3--15, git Jun 9--Jul 15)}
+{\large\bfseries 5. What the usage record shows (telemetry Jul 3--15, git Jun 9--Jul 15)}
 
 \vspace{3mm}
 \begin{tabular}{@{}llll@{}}
