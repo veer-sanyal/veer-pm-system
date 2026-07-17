@@ -1,0 +1,82 @@
+% Tailored resume: Veer Sanyal -> Databricks Product Management Intern (Summer 2027), P-982.
+% Compile: pdflatex VeerSanyal_Databricks_Resume.tex  (or: latexmk -pdf VeerSanyal_Databricks_Resume.tex)
+% Role family: PM (data/AI-platform weighted). Order per profile/role-positioning.md.
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.6in,right=0.6in,top=0.55in,bottom=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\hrule\vspace{3pt}]
+\titlespacing{\section}{0pt}{6pt}{2pt}
+
+\setlist[itemize]{leftmargin=1.3em,topsep=1pt,itemsep=1pt,parsep=0pt,label=\textbullet}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\[1pt]
+  \textit{#3}\hfill \textit{#4}\\[2pt]
+}
+
+\begin{document}
+
+% ===== HEADER =====
+\begin{center}
+  {\LARGE \textbf{Veer Sanyal}}\\[3pt]
+  Sammamish, WA $\cdot$ 360-643-9424 $\cdot$ vsanyal@purdue.edu $\cdot$ linkedin.com/in/veersanyal
+\end{center}
+
+% ===== EDUCATION =====
+\section*{Education}
+\textbf{Purdue University --- Mitch Daniels School of Business}\hfill West Lafayette, IN\\[1pt]
+\textit{B.S. Integrated Business and Engineering (IBE), Expected May 2028}\hfill \textit{Aug. 2024 -- Present}
+\begin{itemize}
+  \item Integrated Business and Engineering: a joint business + engineering degree pairing product strategy with technical build.
+  \item Relevant coursework: Statistics, Engineering Design \& Project Execution, Managerial Accounting, Microeconomics.
+\end{itemize}
+
+% ===== EXPERIENCE =====
+\section*{Experience}
+\entry{Firmly (fintech / e-commerce platform)}{Remote}{Product and Engineering Intern}{Jun. 2025 -- Aug. 2025}
+\begin{itemize}
+  \item Investigated checkout failure pain points and shipped a PayPal failure-recovery flow end-to-end --- defined requirements, validated the approach with senior engineers before build, and led it through design, launch, and refinement, replacing a generic error page with a guided recovery flow.
+  \item Validated fixes across $\sim$15 high-risk payment edge cases (missing billing/shipping data), building scalability, quality, and security considerations into the flow from the start.
+  \item Built a repeatable QA workflow (edge-case matrix + release checklist, 20+ test cases) adopted as the team standard for fix verification; reduced ``cannot reproduce'' loops.
+  \item Instrumented server-side error logging (Node.js/Express) and tracked error- and recovery-rate metrics, using the data to drive triage and iteration decisions.
+\end{itemize}
+
+\entry{Student Managed Investment Fund}{West Lafayette, IN}{Equity Research Analyst}{Jan. 2025 -- Present}
+\begin{itemize}
+  \item Researched U.S. Bancorp end-to-end (competitive landscape, revenue drivers, key risks) and built a 3-statement model in Excel (DCF, comps, sensitivity) within a $\sim$\$400K AUM real-money fund; synthesized findings into a data-driven Buy recommendation.
+  \item Co-authored a 20-page report and presented the thesis in a 10-slide pitch to a 30+ member investment committee, defending assumptions under live questioning.
+\end{itemize}
+
+% ===== PROJECTS =====
+\section*{Projects}
+\entry{StudyFlowForge --- AI-Powered, Data-Driven Study Platform}{}{React, TypeScript, Supabase (PostgreSQL), SQL, Gemini API}{Feb. 2026 -- Present}
+\begin{itemize}
+  \item Defined strategy and roadmap and shipped 18 user-facing screens end-to-end as sole developer, running 4 build--measure iterations grounded in user research on students' fragmented study workflows.
+  \item Designed SQL schemas and queries on a Supabase (PostgreSQL) backend powering React/TypeScript dashboards that surface mastery, retention, and at-risk metrics for data-driven prioritization.
+  \item Integrated LLM-based prioritization (Gemini API) to generate personalized study plans from course-calendar data, and used AI development tools (Claude Code) throughout the build to iterate faster.
+\end{itemize}
+
+% ===== LEADERSHIP =====
+\section*{Leadership \& Activities}
+\entry{Engineering Projects in Community Service (EPICS)}{West Lafayette, IN}{Communications Officer \& Build Lead}{Aug. 2025 -- Dec. 2025}
+\begin{itemize}
+  \item Led a 7-person cross-functional team; translated requirements into build specs, made data-informed design tradeoffs (18 vs. 22 prisms), and presented in two formal reviews to faculty, sponsors, and museum stakeholders.
+\end{itemize}
+
+% ===== SKILLS =====
+\section*{Skills}
+\textbf{Product \& Strategy:} Product requirements \& PRDs, roadmapping, customer discovery, prototyping \& validation, success metrics, competitive analysis\\[2pt]
+\textbf{Data \& Analytics:} SQL schema design, PostgreSQL, KPI dashboards, data-driven decision-making, A/B testing fundamentals, Excel modeling (DCF)\\[2pt]
+\textbf{AI \& Development:} LLM / Gemini API integration, Claude Code (AI-assisted development), Python, Git/GitHub
+
+\end{document}

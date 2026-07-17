@@ -16,6 +16,7 @@ inventory only** — application deadlines and pipeline status live in
 | Claude Corps (ACTIVE) | VeerSanyal_ClaudeCorps_Resume.tex + .pdf, Claude-Corps-Application.md (essays + form answer key) | Yes |
 | Trice (ACTIVE — warm intro) | VeerSanyal_Trice_Resume.tex + .pdf | Yes |
 | Cisco | VeerSanyal_Cisco_Resume.pdf | No — regenerate on demand |
+| Databricks (ACTIVE — PM Intern Summer 2027) | VeerSanyal_Databricks_Resume.tex + .pdf | Yes |
 | Cloudflare | VeerSanyal_Cloudflare_Resume.pdf | No — regenerate on demand |
 | Daniels Externship | Daniels_Externship_Resume.pdf, Daniels_Externship_Cover_Letter.pdf | No — regenerate on demand |
 | Handshake AI - 2D 3D Digital Media | VeerSanyal_HandshakeAI_DigitalMedia_Resume.tex + .pdf | Yes |
