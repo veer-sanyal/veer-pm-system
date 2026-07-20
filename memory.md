@@ -46,7 +46,7 @@
 - **STICK week-shape (P1):** Tue = the demo end-to-end (one seeded MA 16100 topic, one question generated + graded); Thu = second topic + screenshot; **Sat = show the demo to ONE person — the week's rejectable-artifact minimum (P7 build-around; design/prose commits count as zero).**
 - **Externship W3 (review week):** comms/marketing plan through client review (Wed/Thu/Fri per calendar); W4 finals starts Jul 27. Raise Jiada at the next internal team touch, not in front of the client.
 - **P2 restart (3 secondaries):** Tue significance rebuild; Wed trees + metric-drop first contact; Fri cold re-tests. Persist state.json + append the session row.
-- **P3 (small items):** Tue Anicito text; Wed Trice WhatsApp to Naveen if still unsent (blind — confirm with Veer first).
+- **P3 (small items):** Tue Anicito text **+ SMIF website bio form (due Tue Jul 21** — Shaheera Ali's Jul 17 email; bio drafted in PROGRESS Jul 19, awaiting Veer's 3 hobbies; headshot = LinkedIn photo, do NOT park the form on a better-photo dependency); Wed Trice WhatsApp to Naveen if still unsent (blind — confirm with Veer first).
 - **Pipeline:** Thu small item = verify Databricks P-982 still open + submit the Ready resume (built Jul 17; Veer submits himself — don't let it become a P4 park).
 - **Google APM**: opens ~mid-Sept, closes early-to-mid Oct 2026 — the hard anchor (`context/key-dates.md`).
 - **Rhodes Scholarship (asked Jul 19): parked, no 2026 action** — grad-school path, points away from APM, GPA-filtered; revisit senior year only if the goal itself changes. Logged as a P7-adjacent instance.
