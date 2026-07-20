@@ -35,6 +35,7 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 
 **Evidence.**
 - Week of 2026-06-15: the Dr. G call and the Claude Corps submission both landed; Pillar 2 metrics study went to absolute zero (6 scheduled blocks, 0 sessions) and alumni finished 1 of 3.
+- Week of 2026-07-13 (W2, unplanned): externship externals all landed (When2Meet filled Jul 7, mentor meeting ran ~Jul 15, client meeting locked) while every self-directed thread went to zero — `state.json` untouched 16 days, zero study blocks, zero outreach. The pattern at full strength whenever Sunday doesn't run.
 - Week of 2026-06-22: the cued deep block produced the **first ever study rep** — a 35-min first-contact session Jun 23 (metric trees to an Apply floor; NSM introduced). The Jun 21 build-around got its first rep on the board (tentative win). Caveats: only 1 of ~4 planned study blocks ran, and the session nearly read as zero because the tutor did not persist `state.json` until prompted — a tooling gap, not avoidance. Verdict on whether the full-week habit holds is a Sunday call.
 
 **Cost.** The biggest technical gap (metrics and statistics fluency) is precisely the work most likely to get dropped, because no one is waiting on it.
@@ -104,4 +105,20 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 
 ---
 
-_Last updated: 2026-06-28 (Sunday session) — P2 verdict: build-around holds but the gating variable moved to sleep; P5 verdict: no clean front-load test (confounded by the 11–1 wake), funnel converting on replies, stays TESTING; P3: new evidence — SFF restart on Jun 28._
+## P7. Does the version of the work that cannot reject him — ACTIVE
+
+**What it looks like.** Effort routes to the form of the work where no human or runtime can say no: documentation, specs, design passes, rubrics, system audits, researching new goals. The rejectable form of the same work (a send, a deploy, a run, a person shown) sits untouched, however small. Sharper than P1 (this isn't failure to start — he works hard, at the wrong valence) and than P6 (it covers product work, not just system work). Documentation cannot say no; a professor, an API key, or a client can.
+
+**Evidence.**
+- 2026-07-16 (STICK audit): >1.1MB of prose about a ~150KB app (8x); 97/101 spec components LOCKED behind a formal challenge-bar on an n=1 premise; 103 agents run verifying a report while `GEMINI_API_KEY` — his own STATE.md owner-action #1 — sat unset; the GenAI Studio email draft gated on "working prototype exists," condition met, never sent; zero outreach ever on the pilot.
+- 2026-07-17 to 19 (the falsifiable test, resolved): the Jul 16 test was "key set this week → demo was the blocker; another design pass → the demo was the gate." Result: +13 commits, ALL prose (D176/D177 design sweep), zero `app/`, key still unset, email still unsent. The test resolved toward the pattern, on the record.
+- 2026-06-29 to Jul 15 (US-version, 5 carries): same shape earlier — the scope doc that no one could reject never even got written; the block work it displaced was always documentation-flavored.
+- 2026-07-19 (~10:45pm, live): with `/sunday` unrun and both STICK tripwires open at 3 days, the session opened with a Rhodes Scholarship question — a maximally prestigious goal three years away that cannot reject him in 2026. Named in the moment; parked; `/sunday` ran.
+
+**Cost.** The pilot, the professor, and the demo — the things the entire Pillar-1 story depends on — receive zero minutes while the effort meter reads full. 1/265 commits touching product code is what this pattern looks like in telemetry.
+
+**Build-around.** Pillar-1 progress is counted ONLY in rejectable artifacts: something external that can fail or say no (a send, a deploy, a key set + first run, a user shown). Design/spec/doc commits count as zero toward the pillar regardless of volume — the `session-start.sh` app/-vs-prose ratio instrument makes this visible every session. Weekly minimum: one rejectable artifact, named in the Sunday plan and carried in a block title. When a design pass is proposed while a rejectable action sits open, name P7 and put the under-2-minute starter of the rejectable action in front of him instead.
+
+---
+
+_Last updated: 2026-07-19 (Sunday session) — P7 logged (formalized from the Jul 16 candidate; the falsifiable test resolved toward the pattern); P2: new evidence — W2 externals landed, self-directed at zero for 16 days. Earlier: 2026-06-28 — P2 verdict: build-around holds but the gating variable moved to sleep; P5 verdict: no clean front-load test (confounded by the 11–1 wake), funnel converting on replies, stays TESTING; P3: new evidence — SFF restart on Jun 28._

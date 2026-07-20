@@ -4,18 +4,27 @@ Owned here: the pillar running ledgers (regenerated from `context/study/state.js
 
 ---
 
+## Pillar 1 running ledger (ship)
+
+Anchor: **STICK** (`~/Desktop/stick-dev`) since 2026-07-16 — that repo owns ALL build state (`STATE.md` first); this ledger holds only the Sunday-level read. India MSME dashboard v1 = banked shipped artifact (live site + telemetry + decision log through Entry 014). US-version killed 2026-07-16.
+
+- **As of 2026-07-19:** moving = NO (in the rejectable sense — P7). +13 commits Jul 16–17, all prose (D176/D177 design sweep); `app/` ratio 1/265 all-time, 1/215 last 14d; HEAD `0e920e0` Jul 17. `GEMINI_API_KEY` unset, AI has never run, GenAI Studio email unsent. In front of a user: NO. Open tripwires: `stick-genai-studio-email`, `stick-gemini-key-demo` (both opened Jul 16, latency 3d). Next physical action: open the GenAI draft, delete the one untrue line, send (Mon deep block).
+- Weekly rejectable-artifact minimum (new, per P7 build-around): this week's is the demo shown to one person by Sat Jul 25.
+
+---
+
 ## Pillar 2 running ledger (technical)
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
 
-- **As of 2026-07-05 (regenerated from `state.json`): 4 sessions logged (Jun 23, 25, 30, Jul 3), 4 of 10 P2 topics active.** Active topics:
-  - **Metric trees** (`P2.trees.metric_tree_construction`): mastery **0.62**, yellow, Bloom Apply, 6 attempts, last Jun 25. **Due Jul 9 (Thu)** — re-test in Wed's deep block.
-  - **NSM / guardrail** (`...nsm_guardrail_primary_secondary`): mastery **0.54** (0.56→0.54 on the Jun 30 cold re-test), 3 attempts. Next review **Jul 14** — next week's plan.
-  - **Numerator-denominator** (`...numerator_denominator_discipline`): mastery **0.45** (0.40→0.45, Jul 3 re-test), 3 attempts. **Due Jul 10 (Fri)** cold re-test.
-  - **Significance / CIs** (`...significance_foundations`): mastery **0.15** (COLD-DROPPED 0.30→0.15 on the Jul 3 re-test — the Jun 25 single correct read did not hold), 2 attempts. **Weakest topic in the system. Due Jul 10.** This week: full rebuild in teach mode Tue (Khan Academy significance unit first), re-test Fri.
-  - Untouched (6): leading-vs-lagging, funnel, retention/cohort, A/B reading, **metric-drop diagnosis (4 weeks scheduled, 0 attempts — Wed gets 25 min first contact, that counts as done)**, MECE causes.
-- **Calibration:** mean overconfidence −0.15 over 6 judgments — the tell stays underconfidence on correct reads. Confidence-number-first remains the hard gate; state.json writes after every item.
-- **This week's P2 targets** (in the block titles): Tue significance rebuild; Wed metric-trees re-test + metric-drop first contact; Fri the two due cold re-tests.
+- **As of 2026-07-19 (regenerated from `state.json`): NO sessions in 16 days** — last write Jul 3 17:32; the W2 study week was a full zero (P2-pattern instance logged in patterns.md). 4 of 10 P2 topics active, **every one now overdue**:
+  - **Metric trees**: mastery **0.62**, 6 attempts, last Jun 25. Was due Jul 9 — 10 days overdue.
+  - **NSM / guardrail**: mastery **0.54**, 3 attempts, last Jun 30. Was due Jul 14. Live crux: state the NSM as an aggregate count of value events, not a rate.
+  - **Numerator-denominator**: mastery **0.45**, 3 attempts, last Jul 3. Was due Jul 10. Live crux: the two-time-boundaries structure (response deadline in the numerator, rolling window over the base).
+  - **Significance / CIs**: mastery **0.15** (cold-dropped Jul 3), 2 attempts. **Weakest topic.** Live crux: inconclusive ≠ proven-no-effect; the CI's width/upper bound is information.
+  - Untouched (6): leading-vs-lagging, funnel, retention/cohort, A/B reading, **metric-drop diagnosis (5+ weeks scheduled, 0 attempts)**, MECE causes.
+- **Calibration:** the tell has FLIPPED — three straight overconfident reads on shaky answers (conf 60–80 on Weak/Borderline). Confidence-number-first stays the hard gate; state.json writes after every item. Tooling gap noted: the Jun 30 / Jul 3 sessions updated topics but were never appended to `habits.sessions` — tutor must append the session row at close.
+- **W3 P2 targets (in the block titles):** Tue secondary — significance rebuild, teach mode; Wed secondary — metric-trees re-test + metric-drop FIRST CONTACT (25 min counts as done); Fri secondary — cold re-tests (numerator-denominator + significance).
 
 ---
 
@@ -37,7 +46,7 @@ Note: Dr. G (Infisum) is the one live external thread — see the external relat
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
 
-- As of 2026-07-05: all P4 topics still `new`, 0 attempts. Expected — interview prep ramps in Phase 2 (Aug–Oct per direction.md); shipping + metrics study win through August. Standing low-cost item: the monthly STAR story audit (next: Mon Jul 6, 5pm, on the calendar — 30 min, optional but cheap story-bank upkeep).
+- As of 2026-07-19: all P4 topics still `new`, 0 attempts. Expected — interview prep ramps in Phase 2 (Aug–Oct per direction.md); shipping + metrics study win through August. Free reps banked meanwhile: Cosentino case classes ran Jul 13 + Jul 15 (on calendar, attended per the Jul 19 reconcile); next session Mon Jul 20 8pm. Anicito's interview pointers (pause-and-reason, cut-the-loop, landed-it-means-you-belong) banked in ledgers for Phase-2 mock prep. Monthly STAR audit stays standing.
 
 ---
 
@@ -98,7 +107,8 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 
 ## System signals (Sunday-session-relevant only)
 
-- Sleep: target 7-8 hrs, bedtime 1:00-1:30 AM. Not tracked daily here; flagged if it drops below 6
+- Sleep: anchor fixed ~11:00 wake for summer (Veer's call, Jul 16; sleep-protocol.md owns it). One indicator kept: actual wake time. Walk-back toward 9:00 before classes ~Aug 24.
 - Workout: 1:00-2:30 PM. Flagged if missed
-- Sunday sessions: May 24 (logged); May 31 (architecture redesign shipped, Entry 009 — consistent with a Sunday session)
-- Reply-to-daily-email rate: TBD (daily emails not yet confirmed running)
+- Sunday sessions: May 24; May 31; Jun 28; Jul 5; **Jul 12 MISSED (system dark Jul 12–15); Jul 19 ran late-night (~11pm)** — two near-misses in a row; the Sunday cadence is the keystone and it is wobbling. Watch item for Aug 2 health check.
+- Live experiment slot: **empty by choice (Jul 19)** — no structural experiment open; the W3 job is execution, not system change.
+- Reply-to-daily-email rate: retired as a signal (delivery is calendar, not email). Briefing done-check staleness is the replacement signal (architecture watch, /sunday).

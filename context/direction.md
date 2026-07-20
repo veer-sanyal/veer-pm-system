@@ -46,36 +46,21 @@ Bar: "I identified a real user problem, scoped a narrow solution, shipped it, me
 
 **Veer's risk:** Starts projects, doesn't finish — ship v1 in 1-2 weeks, iterate weekly; rewriting-before-launch is the failure mode.
 
-**Current plan: sector-level digital-trade exposure dashboard.**
+**Current anchor (re-pointed 2026-07-16; formalized at the 2026-07-19 Sunday session): STICK** (`~/Desktop/stick-dev`) — an AI study tool (LLM question generation, server-graded MCQ, confidence ratings, FSRS scheduling) targeting a professor-sponsored pilot in Purdue MA 16100, Fall 2026. It clears this pillar's bar better than the dashboard did: a real user problem Veer understands firsthand, narrow scope, a working walking skeleton, a measurable pilot path. Build state, decisions, and next actions are OWNED by stick-dev (read its `STATE.md` first); this file holds only the strategy-level read. Point, never mirror.
 
-User: Dr. Gopalakrishnan (GTAP/Purdue, NCAER, editor of forthcoming volume on WTO and SMEs). Recurring decision: which India MSME-relevant service/trade sub-sectors to flag as most exposed when a specific digital-trade policy is in play, without rebuilding the data pull each time.
+**Gates to a real pilot (order settled 2026-07-16):**
+1. GenAI Studio email — its answer decides the model/API the build stands on (stick-dev OD-36); needs no demo.
+2. The demo: `GEMINI_API_KEY` set, one hand-seeded MA 16100 topic, one generated question graded end-to-end.
+3. Professor outreach early Aug, demo in hand.
 
-v1: ranked, filterable screen scoring ~20-30 service sub-sectors by exposure to the WTO e-commerce moratorium at MC14. India is actively contesting the moratorium.
+**Success criteria (pillar level):**
+- Demo runs end-to-end; at least ONE rejectable external artifact per week (a send, a deploy, a run, a person shown) — design/spec prose counts as zero regardless of volume (patterns.md P7; the session-start commit-ratio instrument enforces visibility)
+- One student through a manually-seeded course by early fall; usage measured; iteration documented (stick-dev already over-documents — the binding constraint is external contact, not logging)
+- Can explain in 90 seconds: user, problem, decision, trade-off, metric, what changed
 
-Exposure index — transparent screening heuristic, every proxy labeled: (i) digital-trade intensity (WTO Digitally Delivered Services + BaTIS/TiSMoS EBOPS categories), (ii) MSME platform/e-commerce dependence (ICRIER survey aggregates + Udyam/NSS sector weights), (iii) policy sensitivity (OECD Digital STRI pillars + moratorium-exposure logic). Weights adjustable; every score links to source and assumption.
+**Banked:** India MSME digital-trade dashboard v1 — live on GitHub Pages with telemetry and a decision log through Entry 014. Remains the shipped-artifact interview story until STICK reaches users. Dr. G is a warm relationship in active-routing mode, not a project to serve.
 
-**Central credibility limitation (surfaced, not buried):** No public dataset joins an Indian MSME's sector to its digitally-delivered-services trade. EBOPS-to-NIC crosswalk is a modeled assumption, not a measured link. First thing a sharp interviewer will probe.
-
-Prototype: (1) Pillar 1 evidence — shipped artifact, iterated 8-12 summer weeks; (2) substantive update for Dr. Gopalakrishnan follow-up ~May 30.
-
-**Build arc:**
-
-| Milestone | Timing |
-|---|---|
-| Data scouting (WTO/BaTIS/TiSMoS pulls, ICRIER aggregates, Udyam district x category; note data.gov.in Udyam 403) | Wed/Thu this week |
-| Lock v1 scope (moratorium sector-ranking) | Friday |
-| v1 shipped | ~June 5 (week 3) |
-| Weeks 4-12: iterate | User feedback (Dr. G → users he routes → external viewers); add telemetry; document decisions; v2 adds scenario toggles (DPDP data-localization, platform-fee shifts) |
-
-If Infisum materializes: dashboard becomes client work. If not: iterate, get 2-3 external viewers, document decision log.
-
-**Success criteria:**
-- v1 live with Dr. Gopalakrishnan within 2 weeks, ranking ~20-30 MSME sub-sectors by moratorium exposure; weights adjustable; every proxy labeled; every score linked to source
-- EBOPS-to-NIC crosswalk surfaced in UI as stated limitation
-- 8-12 weeks documented iteration; at least one real telemetry/usage data point; public decision log
-- Can explain in 90 seconds: user, problem, decision, trade-off, metric, what changed; can answer "What did you cut from scope and why?" (no firm-level or district-level claims — data can't support them)
-
-**Telemetry at this scale:** Page views, time on page, filter clicks, drop-off. Google Analytics or Plausible counts. Amplitude can double as dashboard telemetry (ties Pillars 1 and 2).
+**Killed (2026-07-16):** the US-version dashboard — 5 carries with zero artifact, no responsive user. Not to be revived.
 
 ---
 

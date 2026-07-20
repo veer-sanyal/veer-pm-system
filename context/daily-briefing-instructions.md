@@ -23,7 +23,7 @@ Reminders fire at block start — the trigger, not 45 minutes early.
 
 ## Wake-anchored delivery + the morning "initialize" (from 2026-06-25)
 
-The wake target is a hard fixed 9:00 (no ramp; see sleep-protocol.md). Each morning Veer signals "initialize": log the 2 indicators (wake time + the time he decided to sleep), confirm the 9:00 wake, and run the fixed times below. If he wakes past 9:00 (a slip), the day's blocks rebuild forward from actual wake so the day is not zeroed, and the target stays 9:00. The 9:00 Morning Briefing leads with the 2-indicator log. Escalation: if 9:00 is not holding by ~Jul 9, add morning light then 0.5mg melatonin per sleep-protocol.md.
+The wake anchor is owned by `sleep-protocol.md` — never hard-code it here. **2026-07-19 update:** the anchor is a fixed ~11:00 for the summer (Veer's call, Jul 16; walk-back toward 9:00 before classes ~Aug 24), and blocks + briefings plan forward from the live anchor: Briefing 11:00, Deep 11:30–1:00, Workout 1:00–2:30 (unchanged), Secondary 2:30–3:30, Small item 3:30–4:00. `initialize` is stripped to a wake-time stamp (one indicator kept: actual wake time). When the anchor walks back, the Sunday session re-times the week's blocks from the new anchor; the 9:45 spine below is the school-year shape, kept for reference.
 
 ## Content layer (written each Sunday)
 
