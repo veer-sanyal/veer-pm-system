@@ -70,6 +70,7 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 - 2026-06: the Dr. G reply complete in Drafts; the Claude Corps app complete but for two courses. Both flagged as one click from done.
 - 2026-07-05: externship teammate kickoff email drafted Jul 3, still in Drafts on Jul 5 morning with a hard Jul 6 start — two full days parked one click from send, deadline absorbing the slack (also P5-adjacent).
 - 2026-07-05 (counter-evidence, build-around working): both parked sends (kickoff email, Trice reply) closed within ~20 minutes of the last action being named while Veer was live in-session. Naming the single physical move works; the gap is that nothing names it between sessions. The Morning Briefing now carries the day's last-action tripwires for exactly this reason.
+- 2026-07-23: the Bryon thank-you/recap, drafted at the Mon Jul 20 debrief with "sends tonight" on record, still in Drafts Thu — 3 days parked one click from send while Bryon delivered his own promised artifact Mon night and got silence. Same shape as the kickoff email; the between-sessions gap again (no briefing carried it after Mon).
 
 **Cost.** The last 10% carries most of the value (the sent message, the submitted app), so stalling there forfeits the payoff of work already done.
 
