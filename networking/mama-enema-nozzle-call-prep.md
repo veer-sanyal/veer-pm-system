@@ -36,6 +36,7 @@ Recommended play: **Spectroplast for the first P1-P4 set** (no mould, exact duro
 ## Differentiation + users (run 1, unchanged)
 - All dominant transanal-irrigation products insert (Peristeen/Peristeen Plus balloon catheters, CP362, even the anal plug). External-sealing is differentiated at the product level; NOT novel at the concept level (see patent).
 - Populations (all currently served by inserting systems — demand for non-inserting is inferred by adjacency, not demonstrated): anal fissures 240-342k new US cases/yr, 7.8% lifetime risk; neurogenic bowel dysfunction 23-80% prevalence (SCI/MS/spina bifida/Parkinson's); LARS up to 80% post rectal-cancer surgery.
+- **Founder identified (Jul 23): Dr. Maneesh Sinha, Head of Urology, NU Hospitals Bangalore** (MCh Urology CMC Vellore, ~30 yrs). His clinical base — nephro-urology, incl. neurogenic bladder/bowel patients — maps directly to the NBD population above; likely he's seeing the first users in his own OPD. Ask on the call: is the origin a specific patient cohort he treats? That's the evidence story a VC already bought and the strongest anchor for question 4. Outreach drafts (his voice): `networking/mama-nozzle-outreach-drafts.md`.
 
 ## Questions to ask on the call
 1. What exactly did the VC fund — what milestone, what deadline?

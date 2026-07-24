@@ -1,6 +1,6 @@
-# Outreach drafts — enema nozzle prototype (to be sent by Manish Sinha)
+# Outreach drafts — enema nozzle prototype (to be sent by Dr. Maneesh Sinha)
 
-All drafts written for Manish Sinha (founder) to send. Fill in: [COMPANY] = venture name, [CITY] = registered city if not Bangalore, and attach the spec v0.3 (or the section-11 packet) where noted. Do not name the device category in subject lines to vendors' generic inboxes; the spec under NDA carries the detail.
+All drafts written for Dr. Maneesh Sinha to send (Head of Urology, NU Hospitals, Bangalore — linkedin.com/in/maneesh-sinha-40875739; MBBS Maulana Azad, MCh Urology CMC Vellore, ~30 yrs). Fill in: [COMPANY] = venture name, and attach the spec v0.3 (or the section-11 packet) where noted. Do not name the device category in subject lines to vendors' generic inboxes; the spec under NDA carries the detail.
 
 ---
 
@@ -10,7 +10,7 @@ Subject: RFQ: 4 prototype parts in TrueSil A20, medical proof-of-concept
 
 Dear Spectroplast team,
 
-I am the founder of [COMPANY], a Bangalore-based medical device startup. We are developing a soft-silicone patient-contact component (proof-of-concept stage, not for clinical use) and would like to print a first prototype set with you.
+I am a senior urologist (Head of the Department of Urology, NU Hospitals, Bangalore) and founder of [COMPANY], a medical device startup. We are developing a soft-silicone patient-contact component (proof-of-concept stage, not for clinical use) and would like to print a first prototype set with you.
 
 What we need:
 - 4 prototype variants of a small nozzle-type part (approx. 50-60 mm overall, flange OD 45-55 mm), 1 piece each
@@ -21,8 +21,9 @@ What we need:
 Could you share indicative price and lead time for such a set, plus your standard NDA so we can send the dimensioned specification?
 
 Best regards,
-Manish Sinha
-Founder, [COMPANY], Bangalore, India
+Dr. Maneesh Sinha, MCh (Urology)
+Head of Urology, NU Hospitals, Bangalore
+Founder, [COMPANY]
 [phone] | [email]
 
 ---
@@ -33,7 +34,7 @@ Subject: RFQ: custom platinum-cured silicone molded part, prototype quantity (2-
 
 Dear Ami Polymer team,
 
-I am the founder of [COMPANY], a medical device startup in Bangalore. We are prototyping a small soft-silicone component for a medical application and are looking for an Indian molding partner with medical-grade credentials — your ISO 13485 certification and cleanroom capability are why we are writing.
+I am a senior urologist (Head of Urology, NU Hospitals, Bangalore) and founder of [COMPANY], a medical device startup. We are prototyping a small soft-silicone component for a medical application and are looking for an Indian molding partner with medical-grade credentials — your ISO 13485 certification and cleanroom capability are why we are writing.
 
 Our requirement:
 - Custom compression/RTV molded part in platinum-cured silicone, Shore A 15-20 (baseline 20)
@@ -44,8 +45,9 @@ Our requirement:
 We would like your quotation for the prototype set and, separately, an indication of small-batch pricing (100-500 pcs) if the design is validated. Happy to sign an NDA before sharing the full dimensioned specification.
 
 Best regards,
-Manish Sinha
-Founder, [COMPANY], Bangalore, India
+Dr. Maneesh Sinha, MCh (Urology)
+Head of Urology, NU Hospitals, Bangalore
+Founder, [COMPANY]
 [phone] | [email]
 
 ---
@@ -56,7 +58,7 @@ Subject: RFQ: custom silicone part from CAD, 2-4 prototype pieces
 
 Dear iMake team,
 
-I am the founder of [COMPANY], a Bangalore medical device startup. We need 2-4 prototype pieces of a small custom silicone part (approx. 50-60 mm, soft skin-contact component) and understand you mold final silicone parts from customer CAD with 3D-printed tooling.
+I am a urologist and founder of [COMPANY], a Bangalore medical device startup. We need 2-4 prototype pieces of a small custom silicone part (approx. 50-60 mm, soft skin-contact component) and understand you mold final silicone parts from customer CAD with 3D-printed tooling.
 
 Before we send files, please confirm:
 1. Can you mold platinum-cured silicone at Shore A 15-20? (This is firm — peroxide-cured or harder grades will not work for us.)
@@ -66,8 +68,9 @@ Before we send files, please confirm:
 If yes on 1 and 2, we will share the dimensioned spec under NDA.
 
 Best regards,
-Manish Sinha
-Founder, [COMPANY], Bangalore, India
+Dr. Maneesh Sinha, MCh (Urology)
+Head of Urology, NU Hospitals, Bangalore
+Founder, [COMPANY]
 [phone] | [email]
 
 ---
@@ -78,7 +81,7 @@ Subject: Classification opinion + test-license roadmap for a novel Class A/B dev
 
 Dear [consultant],
 
-I am the founder of [COMPANY], Bangalore, developing a gravity-fed enema accessory (soft silicone nozzle; external-contact design, non-inserting; proof-of-concept stage). We would like a short engagement covering:
+I am a senior urologist (Head of Urology, NU Hospitals, Bangalore) and founder of [COMPANY], developing a gravity-fed enema accessory (soft silicone nozzle; external-contact design, non-inserting; proof-of-concept stage). We would like a short engagement covering:
 
 1. Classification opinion: CDSCO's list has "Gravity enema set" and "Enema tip, reusable" at Class A, but "Manual enema device" at Class B. Our device is gravity-fed only. Does it ride the Class A entries, or does the novel external-sealing design warrant a classification request to the Central Licensing Authority under the unlisted-device route (label + IFU + foreign regulatory status)?
 2. Test-license timing: we understand bench prototyping needs no licence, and Form MD-12 → MD-13 (Rule 31, CLA, Rs 500) applies once we manufacture batches for formal verification/validation or evaluation. Please confirm the trigger point and realistic processing time, and quote for handling the MD-12 filing when we reach it.
@@ -87,8 +90,9 @@ I am the founder of [COMPANY], Bangalore, developing a gravity-fed enema accesso
 Could you share your fee structure and availability for a 30-minute intro call?
 
 Best regards,
-Manish Sinha
-Founder, [COMPANY], Bangalore, India
+Dr. Maneesh Sinha, MCh (Urology)
+Head of Urology, NU Hospitals, Bangalore
+Founder, [COMPANY]
 
 ---
 
@@ -98,7 +102,7 @@ Subject: FTO check + filing strategy for a medical device (one known US patent)
 
 Dear [counsel],
 
-I am the founder of [COMPANY], a Bangalore medical device startup developing a non-inserting, external-sealing enema nozzle (soft silicone, gravity-fed). Before we invest further in design, we need:
+I am a senior urologist (Head of Urology, NU Hospitals, Bangalore) and founder of [COMPANY], a medical device startup developing a non-inserting, external-sealing enema nozzle (soft silicone, gravity-fed). Before we invest further in design, we need:
 
 1. FTO confirmation: US Patent 9,227,006 B2 ("Non-penetrating nozzle", STERILAB Inc, granted Jan 2016) claims an externally-sealing nozzle mechanism close to our concept. Google Patents shows it Active to Aug 2032, family: PCT WO2011150349A1 (ceased), EP withdrawn, CN application of unclear status, and NO Indian filing. Please confirm via USPTO Patent Center that maintenance fees are current, confirm there is no Indian family member or divisional we missed, and advise whether India manufacture + sale is clear.
 2. US strategy: if the patent is in force, an opinion on whether our specific geometry (concave flange + peripheral sealing lip + 0-5 mm dome nose) reads on claim 1, and what a design-around would need.
@@ -107,8 +111,9 @@ I am the founder of [COMPANY], a Bangalore medical device startup developing a n
 We have a 5-page dimensioned specification we can share under privilege. Could you indicate fees for items 1-3?
 
 Best regards,
-Manish Sinha
-Founder, [COMPANY], Bangalore, India
+Dr. Maneesh Sinha, MCh (Urology)
+Head of Urology, NU Hospitals, Bangalore
+Founder, [COMPANY]
 
 ---
 
@@ -117,4 +122,4 @@ Founder, [COMPANY], Bangalore, India
 2. Spectroplast + Ami Polymer + iMake RFQs — all three at once; NDAs before the spec goes out.
 3. Regulatory consultant — no urgency until V&V batches are in sight; fine to send now for fee discovery.
 
-Note: Manish's LinkedIn could not be unambiguously identified (several healthcare "Manish Sinha" profiles); company name, phone, email left as placeholders for him to fill.
+Note: identity resolved Jul 23 — Dr. Maneesh Sinha, Head of Urology, NU Hospitals Bangalore (nuhospitals.com/doctors/dr-maneesh-sinha). Company name, phone, email remain placeholders (venture name unknown). His clinical base (nephro-urology, neurogenic bladder/bowel patients) maps directly to the NBD user population in the call sheet — worth raising as the likely first-user segment.
