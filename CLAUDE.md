@@ -51,7 +51,7 @@ Reading tiers: `context/` holds the working copies read day-to-day (one canonica
 
 ## Routing
 
-Before answering a substantive question, read the covering doc FIRST and cite it specifically (named studies and stats, never "the research says"). All paths in `context/` unless noted.
+Before answering a substantive question, read the covering doc FIRST and cite it specifically (named studies and stats, never "the research says"). All paths in `context/` unless noted. Before trusting a research doc for a time-sensitive fact (deadlines, program existence, interview formats), check its tier in `context/knowledge-freshness.md`: LIVING docs carry a verified-as-of date and an event trigger; STATIC docs are durable.
 
 - **STICK build / pilot / next product step (Pillar 1) -> `~/Desktop/stick-dev`** — read its `STATE.md` FIRST (authoritative, self-updating: phase, owner-actions, open queue), then `OPEN-DECISIONS.md` for what's unresolved. Anything deeper goes to parallel subagents (its CodeGraph is initialized; the docs are ~1.1MB, do not pull them into main context). This system points, never mirrors.
 - India MSME dashboard -> **banked, finished artifact** (live site + DECISIONS through Entry 014); `infisum-dashboard-roadmap.md` is historical. The US-version track was killed 2026-07-16.

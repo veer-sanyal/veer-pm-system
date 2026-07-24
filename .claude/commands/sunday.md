@@ -40,6 +40,13 @@ Every living file has a size budget so context stays lean as the system ages. Gi
 | `networking/` | live calls only | Once a call is debriefed, mark its prep sheet historical (header + file-index row). |
 | `session-log.jsonl` | one calendar year | Each January, roll to `session-log-<year>.jsonl` and start fresh with the schema line. |
 
+**Knowledge freshness (weekly, cheap).** Read `context/knowledge-freshness.md`. For each LIVING
+doc, has its event trigger fired this week (a recruiting cycle opened, a deadline reached, a
+company entered interview prep)? If none fired, this is a no-op — say so and move on. If one
+fired, re-verify that doc's time-sensitive claims against a current source, then note "still true
+(re-verified <date>)" or update the doc + `key-dates.md`. Hard ceiling: any LIVING doc untouched
+for a full recruiting cycle gets a re-verify pass regardless. STATIC docs are not swept.
+
 **Apply-profile freshness (weekly, cheap).** The `context/applications/profile/*.md` files are a
 derived snapshot the resume workflow drafts from, and they drift as Veer's work moves. If this
 week materially changed something a resume would show — a product's stage/name/metrics (STICK),
