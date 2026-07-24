@@ -28,7 +28,16 @@ metadata:
 **SMIF — generic analyst:**
 > Analyze public equities in a ~$400K AUM student-managed portfolio; research competitive dynamics, revenue drivers, and risk factors to inform investment decisions.
 
-**StudyFlowForge — full-stack:**
+**STICK (CURRENT product — default over StudyFlowForge for AI/technical roles; re-verify numbers vs `~/Desktop/stick-dev/STATE.md`):**
+> Building STICK end-to-end as sole developer: a deployed web app (React/TypeScript + Supabase) that converts course material into a daily, exam-aware spaced-retrieval study plan using bounded LLM steps rather than an open chatbot.
+> Designed an LLM extraction pipeline (Deno edge functions) that ingested a real 14-page exam into structured questions and auto-proposed 11 of 12 answer keys at ~35¢ end-to-end (n=1 dogfooding).
+> Designed the Postgres data model and data-access security — 11 migrations, 27 row-level-security policies verified by a 62/62 probe suite — and wired an FSRS spaced-repetition scheduler to per-question correctness.
+
+**Daniels Externship (CURRENT):**
+> As project manager of a 4-person consulting team, scoped and drove a communications/marketing plan for a ~$1.6M nonprofit (Scouting America, 14-county territory); ran client discovery with the COO and set the delivery timeline.
+> Translated the client's 12-month event grid into a 156-row dated posting calendar (Aug 2026–Jul 2027) across 4 content types and 5 audiences, plus a weekly cadence and a reusable Canva template system.
+
+**StudyFlowForge — LEGACY (superseded by STICK; use only when its shipped scope reads better than STICK's earlier stage). Full-stack:**
 > Designed and shipped 18 user-facing screens (study, analytics, onboarding) end-to-end as sole developer; defined UX flows, component library, and information architecture.
 
 **StudyFlowForge — dashboards:**

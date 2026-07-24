@@ -7,7 +7,9 @@ metadata:
   originSessionId: d1c7393b-dec2-4f9e-9418-6fe8d7164e48
 ---
 
-**StudyFlowForge** — Independent product build — Feb. 2026 – Present
+> **SUPERSEDED (2026-07-23).** StudyFlowForge is a COMPLETED PAST project — Veer stopped work on it and now builds [[user-project-stick]] (STICK), a from-scratch rebuild (no code reused). Do NOT use StudyFlowForge as the current/active project, and never mix its facts into STICK (STICK has 6 pages, not 18; no "operational dashboards"; FSRS library, not a hand-rolled scoring model). Keep this entry as a real, selectable past build for roles where its shipped scope ("18 screens end-to-end") reads better than STICK's earlier stage — but default to STICK for AI/technical-PM roles. Frame in past tense.
+
+**StudyFlowForge** — Independent product build (completed; superseded by STICK) — Feb. 2026 – ~2026
 *Various subtitles used: "AI-Powered Study Planner", "Full-Stack Analytics Platform", "Data-Driven Study Platform", "Independent Product Build"*
 
 **Stack:** React, TypeScript, Supabase (PostgreSQL), SQL, Gemini API. Tools: Git/GitHub, Claude Code for AI-assisted development.

@@ -105,7 +105,7 @@ On-demand capability folded in 2026-06-13. Workflow: `context/applications/appli
 |------|------|---------|
 | `context/applications/application-docs-workflow.md` | instructions | How to produce tailored resumes/cover letters end-to-end. |
 | `context/applications/resume-template.tex` | template | Canonical ATS-safe single-column LaTeX template; start every resume here. |
-| `context/applications/profile/` | source-of-truth (read these) | Veer's contact, education, experiences (Firmly, SMIF), projects (India MSME dashboard [flagship], StudyFlowForge), design portfolio (Etsy), leadership (EPICS), skills, role-positioning, reusable bullets, + MEMORY index. |
+| `context/applications/profile/` | source-of-truth (read these) | Veer's contact, education, experiences (Firmly, SMIF, **Daniels Externship**), projects (**STICK** [current Pillar-1 build], StudyFlowForge [superseded past build], India MSME dashboard), design portfolio (Etsy), leadership (EPICS), skills, role-positioning, reusable bullets. **Derived snapshot — kept current by `/apply` Step 0 (self-heals vs. live owners: memory.md, stick-dev/STATE.md, externship doc) and a weekly Sunday freshness check.** |
 | `context/applications/research/` | compressed research (read these) | Compressed ResumeDeepResearch + CoverLetterDeepResearch. |
 | `files/applications/` | deep research (full) | Full ResumeDeepResearch, CoverLetterDeepResearch, Summer2026_Internship_Research. |
 | `applications/` | output | Per-company tailored resumes/cover letters (.tex + .pdf), `_master/` master resume, `README.md` inventory. |

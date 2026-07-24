@@ -7,6 +7,17 @@ metadata:
   originSessionId: d1c7393b-dec2-4f9e-9418-6fe8d7164e48
 ---
 
+> **CURRENT-INVENTORY UPDATE (2026-07-23).** Two changes to the ordering rules below, which
+> were written when StudyFlowForge was the active project and there was no externship:
+> - **Wherever this doc says "StudyFlowForge," read [[user-project-stick]] (STICK)** — the current
+>   product. STICK leads for AI/technical-PM/SWE roles (deployed app, LLM extraction pipeline,
+>   Postgres/RLS, FSRS). Keep StudyFlowForge only as a fallback when its shipped scope ("18
+>   screens") reads better than STICK's earlier, pre-student stage.
+> - **The Daniels Externship ([[user-experience-externship]]) is a new Experience entry.** For
+>   PM/consulting/ops/marketing roles it slots into Experience (PM order: Firmly → Externship →
+>   SMIF, most role-relevant first); drop it to Leadership & Activities when work history is
+>   stronger for a given role. It's the strongest current "led/managed + client stakeholder" proof.
+
 **Product Management / TPM**
 Order: Education → Experience (Firmly first, SMIF second) → Projects (StudyFlowForge) → Leadership (EPICS) → Skills.
 Lead Firmly bullets with requirements/roadmap/metrics framing. Highlight IBE as rare biz+eng hybrid in cover letter. Use "Product & Strategy" as first skills category.

@@ -40,6 +40,13 @@ Every living file has a size budget so context stays lean as the system ages. Gi
 | `networking/` | live calls only | Once a call is debriefed, mark its prep sheet historical (header + file-index row). |
 | `session-log.jsonl` | one calendar year | Each January, roll to `session-log-<year>.jsonl` and start fresh with the schema line. |
 
+**Apply-profile freshness (weekly, cheap).** The `context/applications/profile/*.md` files are a
+derived snapshot the resume workflow drafts from, and they drift as Veer's work moves. If this
+week materially changed something a resume would show — a product's stage/name/metrics (STICK),
+a live experience (the externship), a new project, or a real new number — fold it into the matching
+`profile/*.md` now, in past/present tense as appropriate, so the next `/apply` starts current.
+This is drift-prevention; `/apply` Step 0 is the hard guarantee that self-heals on demand.
+
 ## Monthly system health check (first Sunday of the month)
 
 Read `session-log.jsonl` and answer, briefly, in the Sunday summary:

@@ -11,9 +11,10 @@ requested.
 - `context/applications/profile/` — Veer's source-of-truth. Read the ones relevant to the
   target role, ordered per `profile/role-positioning.md`. The default resume set is:
   `contact.md`, `education.md`, `experience-firmly.md`, `experience-smif.md`,
-  `project-studyflowforge.md`, `leadership-epics.md`, `skills-inventory.md`,
-  `role-positioning.md`, `reusable-bullets.md`. Add `experience-etsy-design.md` for design /
-  digital-media / creative roles.
+  `experience-externship.md`, `project-stick.md`, `project-studyflowforge.md`,
+  `leadership-epics.md`, `skills-inventory.md`, `role-positioning.md`, `reusable-bullets.md`.
+  Add `experience-etsy-design.md` for design / digital-media / creative roles.
+  (STICK is the CURRENT product; StudyFlowForge is a superseded past build — see Step 0.)
 - `context/applications/research/ResumeDeepResearch.md` — resume best-practices (compressed
   working copy; full original in `files/applications/`).
 - `files/applications/Summer2026_Internship_Research.md` — Veer's target roles, profile
@@ -63,6 +64,22 @@ Never leave a stray PDF without its source `.tex`.
 - Address a named hiring manager when findable; else "Dear Hiring Manager."
 
 ## Workflow
+0. **Currency check (do this FIRST — the profile is a derived snapshot and drifts).** The
+   `profile/*.md` files are a hand-written view of live reality; the authoritative owners are
+   elsewhere and move faster. Before drafting, reconcile the profile against the current owners
+   and **patch any stale `profile/*.md` in place** so the resume reflects what Veer is actually
+   doing now, not a months-old snapshot:
+   - **Current focus / what's shipped** → `memory.md` (fast read).
+   - **Pillar-1 product (STICK)** → `~/Desktop/stick-dev/STATE.md` is authoritative. Do NOT pull
+     its large docs into context — spawn a subagent to return honest, quizzable resume facts +
+     current numbers, then update `profile/project-stick.md` if it drifted. STICK ≠ StudyFlowForge
+     (from-scratch rebuild); never carry StudyFlowForge's "18 screens"/dashboards into STICK.
+   - **Externship** → `context/externship-scouting-america.md` + `PROGRESS.md` tail; refresh
+     `profile/experience-externship.md`.
+   - Any NEW experience/project Veer mentions that has no profile file yet → gather real facts
+     (subagent if noisy), create the `profile/*.md`, then use it. Never invent metrics to fill a gap.
+   This is the "keep the apply stream current" guarantee: even if nobody synced the profile, apply
+   self-heals here. Then proceed.
 1. Decode the listing: top requirements, exact keywords, must-prove skills.
 2. Read profile first (per role family); only fall back to master/prior PDFs for gaps.
 3. Match-map each top requirement to the strongest proof from profile + `reusable-bullets.md`.
