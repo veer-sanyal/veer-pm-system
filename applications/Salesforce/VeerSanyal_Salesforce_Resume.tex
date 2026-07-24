@@ -1,0 +1,81 @@
+% Salesforce Summer 2027 Intern - Associate Product Manager (APM), JR348039
+% Tailored for AI/agentic PM role: LLMs, autonomous agents, data architecture,
+% market/competitor analysis, cross-functional eng+design, stakeholder presentation.
+% Compile: pdflatex VeerSanyal_Salesforce_Resume.tex
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.6in,right=0.6in,top=0.55in,bottom=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\hrule\vspace{3pt}]
+\titlespacing{\section}{0pt}{6pt}{2pt}
+
+\setlist[itemize]{leftmargin=1.3em,topsep=1pt,itemsep=1pt,parsep=0pt,label=\textbullet}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\[1pt]
+  \textit{#3}\hfill \textit{#4}\\[2pt]
+}
+
+\begin{document}
+
+% ===== HEADER =====
+\begin{center}
+  {\LARGE \textbf{Veer Sanyal}}\\[3pt]
+  Sammamish, WA $\cdot$ 360-643-9424 $\cdot$ vsanyal@purdue.edu $\cdot$ linkedin.com/in/veersanyal
+\end{center}
+
+% ===== EDUCATION =====
+\section*{Education}
+\textbf{Purdue University --- Mitch Daniels School of Business}\hfill West Lafayette, IN\\[1pt]
+\textit{B.S. Integrated Business and Engineering (IBE), Expected May 2028}\hfill \textit{Aug. 2024 -- Present}
+\begin{itemize}
+  \item Integrated Business and Engineering: a selective business + engineering hybrid degree. Relevant coursework: Statistics, Engineering Design \& Project Execution, Managerial Accounting, Microeconomics.
+\end{itemize}
+
+% ===== EXPERIENCE =====
+\section*{Experience}
+\entry{Firmly}{Remote}{Product and Engineering Intern}{Jun. 2025 -- Aug. 2025}
+\begin{itemize}
+  \item Shipped a PayPal checkout failure-recovery flow end-to-end: analyzed user needs, defined requirements, and partnered with senior engineers and UX to launch a guided recovery experience replacing a generic error page.
+  \item Validated fixes across \textasciitilde15 high-risk payment edge cases (missing billing/shipping data); built and tracked product metrics (error rate, recovery rate) via server-side logging to drive data-driven decisions.
+  \item Built a repeatable QA workflow (edge-case matrix + release checklist, 20+ test cases) adopted as the team standard; authored structured handoff docs that reduced cross-functional back-and-forth.
+\end{itemize}
+
+\entry{Student Managed Investment Fund}{West Lafayette, IN}{Equity Research Analyst}{Jan. 2025 -- Present}
+\begin{itemize}
+  \item Analyzed market trends, competitive dynamics, and revenue drivers for U.S. Bancorp in a \textasciitilde\$400K AUM real-money fund; synthesized research into a 20-page report recommending Buy at a \$57.35 target (\textasciitilde11.5\% implied upside).
+  \item Presented the thesis in a 10-slide deck to a 30+ member investment committee and defended assumptions under live questioning; refined revenue and risk framing from stakeholder feedback.
+\end{itemize}
+
+% ===== PROJECTS =====
+\section*{Projects}
+\entry{StudyFlowForge --- AI-Powered Study Planner}{}{Independent product build (React, TypeScript, Supabase, Gemini API)}{Feb. 2026 -- Present}
+\begin{itemize}
+  \item Defined product strategy and roadmap for an AI planner using LLM-based prioritization (Gemini API) to surface personalized, context-aware study plans from course-calendar data.
+  \item Integrated generative AI (Gemini API) into the data pipeline and designed the SQL / PostgreSQL data architecture (Supabase) powering real-time, drillable dashboards on mastery, retention, and at-risk metrics.
+  \item Shipped 18 user-facing screens end-to-end as sole developer; ran user research and translated pain points into an exam-aware prioritization engine and exception-handling views.
+\end{itemize}
+
+% ===== LEADERSHIP =====
+\section*{Leadership \& Activities}
+\entry{Engineering Projects in Community Service (EPICS)}{West Lafayette, IN}{Communications Officer \& Build Lead}{Aug. 2025 -- Dec. 2025}
+\begin{itemize}
+  \item Led a 7-person cross-functional team building a rotating museum billboard prototype; coordinated weekly tasks, translated requirements into build specs, and presented design tradeoffs in two formal reviews to faculty, sponsors, and museum stakeholders.
+\end{itemize}
+
+% ===== SKILLS =====
+\section*{Skills}
+\textbf{Product \& Strategy:} product strategy \& roadmaps, PRDs / specs, market \& competitive analysis, user research, success metrics, cross-functional (eng / UX)\\[2pt]
+\textbf{AI \& Data:} LLM / Gemini API integration, generative-AI product integration, Claude Code (AI-assisted development), SQL schema \& data architecture, KPI dashboarding, A/B testing fundamentals\\[2pt]
+\textbf{Engineering \& Tools:} Python, HTML/CSS, Git/GitHub; React / TypeScript, Node.js / Express (built with); Excel, PowerPoint
+
+\end{document}
