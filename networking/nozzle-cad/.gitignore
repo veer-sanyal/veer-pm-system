@@ -1,3 +1,4 @@
 nozzle_*.stl
 __pycache__/
 profiles.json
+_v_*.png
