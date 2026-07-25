@@ -3,7 +3,9 @@ __pycache__/
 profiles.json
 _v_*.png
 pg-*.png
+p1-*.png
 _check_*.png
 *.aux
 *.log
 *.out
+nozzle_prototype_files.zip
