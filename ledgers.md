@@ -8,8 +8,11 @@ Owned here: the pillar running ledgers (regenerated from `context/study/state.js
 
 Anchor: **STICK** (`~/Desktop/stick-dev`) since 2026-07-16 — that repo owns ALL build state (`STATE.md` first); this ledger holds only the Sunday-level read. India MSME dashboard v1 = banked shipped artifact (live site + telemetry + decision log through Entry 014). US-version killed 2026-07-16.
 
-- **As of 2026-07-19:** moving = NO (in the rejectable sense — P7). +13 commits Jul 16–17, all prose (D176/D177 design sweep); `app/` ratio 1/265 all-time, 1/215 last 14d; HEAD `0e920e0` Jul 17. `GEMINI_API_KEY` unset, AI has never run, GenAI Studio email unsent. In front of a user: NO. Open tripwires: `stick-genai-studio-email`, `stick-gemini-key-demo` (both opened Jul 16, latency 3d). Next physical action: open the GenAI draft, delete the one untrue line, send (Mon deep block).
-- Weekly rejectable-artifact minimum (new, per P7 build-around): this week's is the demo shown to one person by Sat Jul 25.
+- **As of 2026-07-25 (regenerated):** moving = **YES in code, and now finally yes in the rejectable sense too.** `app/` ratio **22/322 all-time, 22/156 last 14d** — every product-code commit in the repo's history landed in the last two weeks (was 1/265 on Jul 19). Slice 0 + Slice 1 closed and deployed; **Slice 2 in progress** (admin shell on the vendored design system D191, answer_verify lane, migrations 0012–0016, CAS `exp()` precedence fix, ENG-10 solve pass to `gemini-3.6-flash` at 7/7 yield D190).
+- **Gates 1 and 2 CLOSED 2026-07-25.** GenAI Studio email SENT to `rcac-help@purdue.edu` after 9 days (slug `genai-studio-email` closed); demo runs end-to-end (key set, extraction verified, solve pass green). **Gate 3 is now the only gate: a human who is not Veer using it while he watches. Still zero.**
+- **In front of a user: NO.** W3's rejectable-artifact minimum (demo shown to one person by Sat Jul 25) was **MISSED** — the deep block window passed while five build commits landed. Third clean P7 instance, and the first where the pattern wore product code instead of prose. Consequence recorded in patterns.md: the `app/`-ratio instrument is **necessary but not sufficient**; the pillar metric is the artifact shown to a human and only that.
+- **Blocking owner-actions owed to stick-dev (D192, unstarted):** install the pre-commit hook (the classifier refused the `.claude/settings.json` edit, so the trigger layer is inert), watch the first CI run (ARCH-06 CI had 0 runs across 320 commits), fix `stamp-system-map.sh`'s macOS-only `sed -i ''`. Plus charter rule 2: nobody has visually reviewed the admin shell.
+- **W4 rejectable-artifact minimum: STICK in front of at least one student, and the Neal conversation.** Next physical action: turn the laptop toward one person and say nothing.
 
 ---
 
@@ -17,14 +20,16 @@ Anchor: **STICK** (`~/Desktop/stick-dev`) since 2026-07-16 — that repo owns AL
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
 
-- **As of 2026-07-19 (regenerated from `state.json`): NO sessions in 16 days** — last write Jul 3 17:32; the W2 study week was a full zero (P2-pattern instance logged in patterns.md). 4 of 10 P2 topics active, **every one now overdue**:
+- **As of 2026-07-25 (regenerated from `state.json`): NO sessions in 22 days** — last write still Jul 3 17:32. **W2 and W3 are both full study zeros**; Wed's re-test and Fri's cold re-tests all missed. Re-scheduling identical blocks has now failed twice running, which is why the fix this week is a **change of target, not another calendar row** (see below). 4 of 10 P2 topics active, every one badly overdue:
   - **Metric trees**: mastery **0.62**, 6 attempts, last Jun 25. Was due Jul 9 — 10 days overdue.
   - **NSM / guardrail**: mastery **0.54**, 3 attempts, last Jun 30. Was due Jul 14. Live crux: state the NSM as an aggregate count of value events, not a rate.
   - **Numerator-denominator**: mastery **0.45**, 3 attempts, last Jul 3. Was due Jul 10. Live crux: the two-time-boundaries structure (response deadline in the numerator, rolling window over the base).
   - **Significance / CIs**: mastery **0.15** (cold-dropped Jul 3), 2 attempts. **Weakest topic.** Live crux: inconclusive ≠ proven-no-effect; the CI's width/upper bound is information.
   - Untouched (6): leading-vs-lagging, funnel, retention/cohort, A/B reading, **metric-drop diagnosis (5+ weeks scheduled, 0 attempts)**, MECE causes.
 - **Calibration:** the tell has FLIPPED — three straight overconfident reads on shaky answers (conf 60–80 on Weak/Borderline). Confidence-number-first stays the hard gate; state.json writes after every item. Tooling gap noted: the Jun 30 / Jul 3 sessions updated topics but were never appended to `habits.sessions` — tutor must append the session row at close.
-- **W3 P2 targets (in the block titles):** Tue secondary — significance rebuild, teach mode; Wed secondary — metric-trees re-test + metric-drop FIRST CONTACT (25 min counts as done); Fri secondary — cold re-tests (numerator-denominator + significance).
+- **RE-POINTED 2026-07-25 (direction.md, founder-primary restatement).** The curriculum stays, the target changes: P2 work now attaches to **STICK's own open statistical decisions** rather than abstract drills. Live targets: **CH-03** (is the 0.85 FSRS retention target right?) as the significance/CI rebuild, **OD-06** (cold-start seeds + mastery EMA α) as the metric-definition rep, and **is the ENG-10 solve-pass move from 1/7 to 7/7 a real effect or small-n noise?** — which is the *inconclusive ≠ proven* crux applied to his own product, with a decision riding on it.
+- **Diagnosis on the record:** this was the only pillar whose output nobody could reject. A `state.json` row cannot push back; an EMA constant that degrades the product can. That is the likeliest reason it went 22 days at zero during the most productive build fortnight on record.
+- **W4 P2 targets (in the block titles):** Tue secondary — CH-03, does the 0.85 retention target survive scrutiny (confidence number first); Thu secondary — the 1/7→7/7 read, is it real (the CI's width is the answer); Sat secondary — OD-06 metric definition, numerator/denominator with both time boundaries. **25 minutes counts as done.** Persist `state.json` and append the `habits.sessions` row at close (known tooling gap, still open).
 
 ---
 
@@ -36,9 +41,14 @@ Regenerated from `context/study/state.json` at each Sunday session - topics touc
 - **Conversations completed: 2** (Steven LaCroix, 2026-07-07 — went well, keep-updated agreed; Daniel Anicito, 2026-07-08 — went well, keep-updated agreed; both debriefed in the relationships log)
 - Tracker: started 2026-06-09 — `alumni-tracker.md` (project root). Call-prep sheets in `networking/`.
 - **Open tripwires (as of Jul 8):** (1) ~~Anicito same-day thank-you~~ SENT Jul 8, slug `anicito-thankyou-jul8` closed same session — loop complete. (2) Akash Ravi comment-then-message, slipped 2 weeks — Thu comment, Fri message, both in block titles.
-- Week of Jul 6 plan: **convert week** — run both calls (LaCroix Tue, Anicito Wed) with same-day thank-yous, log the three externship contact types (Heggland, Haverstick, teammates) as relationships, Akash touch Thu/Fri. No new cold sends; the July free-connect-note quota resets and stays banked until the funnel calls are done.
+- **As of 2026-07-25 — TWO TRACKS now (direction.md, 2026-07-25).** Track A (PM/alumni) is quiet and healthy: LaCroix + Anicito both closed keep-updated, next touches event-based, no new cold sends since Jun 25. **Zero new outreach in 4 weeks** — Veer self-reported this Jul 25 and the data agrees.
+- **Track B (builders / startup ecosystem) is the new live surface, and it is already warmer than Track A ever got:**
+  - **Neal — the only organic pull in the portfolio.** Used cairn unprompted, gave real product feedback (README jargon), praised the onboarding interview, then forked it into his own public `neal-pm-system` repo and expanded it with resume ratings and application tracking. Separately building `Conscience` (goals product, `neal-pm-recruiting.onrender.com`) and showed real product judgment critiquing his own landing page. Sees Veer in person regularly. **Open: the cofounder conversation. Rejectable, unscheduled, W4's Track-B artifact.**
+  - **Naveen (Trice) — replied Wed Jul 22** ("travelling till Saturday, ping me Saturday and we can set up a time"); ping sent by Veer Jul 25. Awaiting a scheduled time. Agenda unchanged: role family, weekly hours, remote-vs-Hyderabad, externship disclosure.
+  - **Bryon (Scouting America)** — thank-you/recap finally sent Jul 25 after 6 days (P4 escalation logged). Team now on a shared OneDrive with work split: Veer = posting calendar, Prisha = Canva templates, Izzy = website audit.
+- **Standing caution (direction.md):** ecosystem conversations count only when someone can say no or start using something. Coffee about startups is not an artifact.
 
-Note: Dr. G (Infisum) is the one live external thread — see the external relationships log.
+Note: Dr. G (Infisum) is a keep-updated thread — see the external relationships log.
 
 ---
 
@@ -46,7 +56,10 @@ Note: Dr. G (Infisum) is the one live external thread — see the external relat
 
 Regenerated from `context/study/state.json` at each Sunday session - topics touched, mastery, weak topics, calibration, last-practiced. A passed week shows as stale last_practiced dates.
 
-- As of 2026-07-19: all P4 topics still `new`, 0 attempts. Expected — interview prep ramps in Phase 2 (Aug–Oct per direction.md); shipping + metrics study win through August. Free reps banked meanwhile: Cosentino case classes ran Jul 13 + Jul 15 (on calendar, attended per the Jul 19 reconcile); next session Mon Jul 20 8pm. Anicito's interview pointers (pause-and-reason, cut-the-loop, landed-it-means-you-belong) banked in ledgers for Phase-2 mock prep. Monthly STAR audit stays standing.
+- **As of 2026-07-25: DORMANT BY DESIGN until ~Sept 2026** (formalized in direction.md this session). All 12 P4 topics still `new`, 0 attempts — and under the re-timing that is now the *correct* state, not a gap. Interview-format drilling has a shelf life of weeks and is only useful pointed at a live loop; Google APM opens ~mid-Sept and closes early-to-mid Oct, so loops land ~Oct–Dec.
+- **Turn-on trigger:** the Google APM posting going live, or the first confirmed loop at any target. Same event fires the recruiting-doc re-verify in `knowledge-freshness.md`. On trigger, P4 takes back the secondary block and ramps toward 10+ mocks with 5+ partners.
+- **Exception that keeps running:** free reps that already exist. **Cosentino Summer Case Classes, Session 1/4, Mon Jul 27 8:00–9:30pm PT** (already on the calendar; note it sits after the day's blocks, so it does not compete). Ran Jul 13 + 15. Attend; does not count as pillar volume.
+- Anicito's interview pointers (pause-and-reason, cut-the-loop, landed-it-means-you-belong) stay banked for the Sept ramp. Monthly STAR audit stays standing.
 
 ---
 
