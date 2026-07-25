@@ -2,3 +2,8 @@ nozzle_*.stl
 __pycache__/
 profiles.json
 _v_*.png
+pg-*.png
+_check_*.png
+*.aux
+*.log
+*.out

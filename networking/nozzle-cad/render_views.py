@@ -13,7 +13,7 @@ SIL = (0.91, 0.66, 0.68)          # silicone pink
 CUT = (0.78, 0.44, 0.47)          # darker face on the section cut
 
 
-def render(stl, out, clipped=False, elev=(150, -140, -70), zoom=1.45):
+def render(stl, out, clipped=False, elev=(150, -140, -70), zoom=1.18):
     r = vtk.vtkSTLReader(); r.SetFileName(stl); r.Update()
     src = r
 
@@ -74,16 +74,30 @@ if __name__ == "__main__":
     for v in ("P1", "P2", "P3", "P4"):
         tiles.append((v, render(f"nozzle_{v}.stl", f"_v_{v}.png")))
 
-    grid = Image.new("RGB", (W * 2, H * 2), "white")
+    from PIL import ImageChops
+    crops = []
+    for v, f in tiles:
+        im = Image.open(f).convert("RGB")
+        bg = Image.new("RGB", im.size, "white")
+        bbox = ImageChops.difference(im, bg).convert("L").point(lambda p: 255 if p > 6 else 0).getbbox()
+        pad = 18
+        if bbox:
+            im = im.crop((max(0, bbox[0] - pad), max(0, bbox[1] - pad),
+                          min(im.width, bbox[2] + pad), min(im.height, bbox[3] + pad)))
+        crops.append((v, im))
+
+    cw = max(im.width for _, im in crops)
+    ch = max(im.height for _, im in crops)
+    lab = 34
+    grid = Image.new("RGB", (cw * 2, (ch + lab) * 2), "white")
     d = ImageDraw.Draw(grid)
-    for i, (v, f) in enumerate(tiles):
-        x, y = (i % 2) * W, (i // 2) * H
-        grid.paste(Image.open(f), (x, y))
-        d.text((x + 22, y + 18), LABELS[v], fill=(60, 60, 70))
-        d.rectangle([x, y, x + W - 1, y + H - 1], outline=(224, 224, 230))
+    for i, (v, im) in enumerate(crops):
+        x, y = (i % 2) * cw, (i // 2) * (ch + lab)
+        grid.paste(im, (x + (cw - im.width) // 2, y + lab + (ch - im.height) // 2))
+        d.text((x + 14, y + 11), LABELS[v], fill=(60, 60, 70))
     grid.save("views_grid.png")
     print("wrote views_grid.png", grid.size)
 
     render("nozzle_P1.stl", "section.png", clipped=True,
-           elev=(120, -150, -95), zoom=1.15)
+           elev=(120, -150, -95), zoom=0.98)
     print("wrote section.png")
