@@ -13,7 +13,10 @@
 - **Client:** Scouting America – Sagamore Council (www.sagamorecouncil.org). Primary contact: **Bryon Haverstick, COO / Assistant Scout Executive** (Bryon.Haverstick@Scouting.org). Additional contacts: Alan Parks, Darwin Nunn.
 - **Hard rule:** no contact with mentor or client before Jul 6.
 - **Internal-first rule:** the team must meet internally BEFORE any intro email to mentor or client, and assign four roles: Main Alumni Communicator, Main Client Communicator, Timeline & Project Manager, Deliverable & Quality Lead.
-- **Roles (assigned at the Jul 6 kickoff, 3-of-4 present):** Veer = **Timeline & Project Manager**; Isabel Yura = Main Client Communicator; Prisha Goswami = Main Alumni Communicator; Jiada Li = Deliverable & Quality Lead by default (absent — pending his confirm on the thread). Team channel: iMessage group (Jiada to be added). Standing team slot: 3:00pm PT / 6:00pm ET. File-sharing home (Drive folder) not yet set up.
+- **Roles (assigned at the Jul 6 kickoff, 3-of-4 present):** Veer = **Timeline & Project Manager**; Isabel Yura = Main Client Communicator; Prisha Goswami = Main Alumni Communicator; Jiada Li = Deliverable & Quality Lead by default (absent — pending his confirm on the thread). Team channel: iMessage group (Jiada to be added). Standing team slot: 3:00pm PT / 6:00pm ET.
+
+- **File-sharing home: SET UP at the Thu Jul 23 team meeting** — shared Microsoft (Outlook/Teams) folder: https://outlook.office.com/host/377c982d-9686-450e-9a7c-22aeaf1bc162/7211f19f-262a-42eb-a02e-289956491741 (Purdue-authenticated; not readable by this system without Veer's logged-in browser). **Work split agreed there:** Veer = the social-media/posting calendar (uploaded), Prisha = Canva templates, Izzy = website audit.
+- **Client-comms routing (matters, and is easy to get wrong):** Izzy holds **Main Client Communicator**, so outbound client mail nominally routes through her. Veer holds **Timeline & PM**, so status on the deliverable is his content. Working rule adopted 2026-07-25: **Veer sends substantive progress updates on artifacts he owns, cc'ing Izzy and the team; Izzy owns relationship/logistics mail and originated the live Bryon thread.** Do not route a PM status update through a second person when it is already late — the handoff hop is what turns 6 days into 10.
 
 ## Weekly cadence
 
