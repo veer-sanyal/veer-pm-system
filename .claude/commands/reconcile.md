@@ -36,6 +36,20 @@ Scan targets are read from the live files, never hard-coded here: the Applicatio
 
 4. **iMessage + WhatsApp — the blind channels.** The iMessage DB read runs ONLY while the README automation section says visibility is ON (Veer's explicit opt-in): when ON, query `~/Library/Messages/chat.db` read-only for recent messages matching the live tracked names and the externship team thread. WhatsApp has no connector at all. **When a channel is blind (iMessage OFF/unreadable, or WhatsApp always), do not just annotate it — actively ask Veer.** Real relationship state lives here: the Trice/Naveen WhatsApp thread, the externship team iMessage, the family side-thread. Close the scan with ONE short question naming the specific open threads that ride on these channels ("anything on WhatsApp from Naveen, or on the team iMessage, since last reconcile?"), and fold his answer in. Note "iMessage/WhatsApp blind" in the stamp; never treat absence as evidence nothing happened.
 
+5. **PM-internship openings feed (Neal's scraper — borrowed, not built).** Neal (`nealtheseal108`) runs an ATS + tracker scraper on GitHub Actions every 8h and commits the merged PM feed to his repo. Read it, do not rebuild it:
+
+   ```bash
+   curl -sL "https://raw.githubusercontent.com/nealtheseal108/neal-pm-system/neal/Downloads/veer-pm-system-master/recruiting/feed-pm.json" | jq -r --argjson since <epoch of last reconcile> '"feed \(.updated|todate), \(.count) roles", (.roles[] | select(.firstSeen > $since) | select((.term // "") | test("2026") | not) | "\(.company) — \(.title) [\(.location)] \(.url)")'
+   ```
+
+   Third-party and unpinned: default branch is `neal`, the path carries `veer-pm-system-master` from the zip Neal forked, and either can move. If the curl or the jq returns nothing parseable, say "openings feed unreachable" and move on — never infer that no roles opened.
+
+   **Relevance is a judgment call, not a field.** The feed filters on title keywords only; it carries no major or eligibility data, which is exactly Veer's CS-major worry. Two filters in order: (a) **term** — Veer needs Summer 2027; explicit 2026 rows are the wrong cycle and are already excluded above, and `unspecified` rows are usually 2026 long-tail, so verify the term on the posting before it earns a pipeline row. (b) **degree line** — "CS or related technical field" is defensible for IBE (precedent: the Databricks P-982 and Salesforce JR348039 rows in `key-dates.md`); "CS/EE required" plus coding deliverables is a skip, and say so rather than adding the row.
+
+   **Do not auto-write pipeline rows.** Surface Summer-2027 hits that pass both filters as a short list for Veer to accept or kill; only accepted ones get a row in `context/key-dates.md`.
+
+   **Expect it quiet until ~mid-September** (as of Jul 29: 30 roles, exactly 2 Summer 2027, both already closed rows). Quiet is the correct output in July, not a broken scan. It goes live with the Google APM posting, which is the same trigger that wakes Pillar 4.
+
 ## Closed-loop checks (while scanning)
 
 - **Done-check:** record in PROGRESS.md whether yesterday's committed block actually happened.

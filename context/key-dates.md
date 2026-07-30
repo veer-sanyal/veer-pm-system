@@ -176,3 +176,5 @@ and updates the row here. Stage ∈ {Researching, Drafting, Ready, Submitted}.
 | _(12 legacy applications archived in `applications/`)_ | — | — | `applications/` |
 
 Add a row when a new target is identified; convert any relative deadline to an absolute date.
+
+**Feed source (added 2026-07-29):** new-posting discovery rides Neal's PM scraper feed, read during `/reconcile` (step 5 there owns the URL, the filter, and the eligibility test). It proposes candidates; it never writes rows here. Veer accepts or kills each one.
