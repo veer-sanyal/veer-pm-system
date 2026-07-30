@@ -1,5 +1,10 @@
 # Call prep — Naveen KL (Co-founder, Trice Systems), Wed Jul 29 2026, 8:00pm PT
 
+> **HISTORICAL — the call RAN 2026-07-29 8:00pm PT. Outcome and corrections are in `ledgers.md`
+> (Trice Systems entry) and PROGRESS.md. Two things in this sheet were superseded by the call:
+> the revenue question was never asked, so the produce-margin inference stays unconfirmed; and
+> "leave with a named deliverable" did not happen because Naveen deliberately withheld one.**
+
 > Pillar-3 / pipeline. PRIVATE (real names). Built 2026-07-29.
 > This is NOT an informational interview. The offer is already on the table.
 > Relationship history: `ledgers.md` → "Trice Systems (via Sudip Uncle)". Company facts sourced live Jul 29.
