@@ -39,7 +39,38 @@
 - **Why they matter most to the Naveen conversation:** this is a US micro-seller *already using WhatsApp as the order channel*. That is the Trice/Maya thesis validating itself in Washington State. Ask how many orders come through WhatsApp vs the Wix store, and who answers it.
 
 ### 4. Soul Kitchen — Woodinville
-- "Streets of India" menu: chaat, paneer wraps, biryani bowls, pav bhaji. soulkitchenllc.com (site blocks automated fetching, so check it in a browser).
+- "Streets of India" menu: chaat, paneer wraps, biryani bowls, pav bhaji. soulkitchenllc.com (site blocks automated fetching, so check it in a browser). Instagram handle unconfirmed.
+
+## Home-kitchen sellers — not at the market, and closer to the Trice archetype
+
+The four above are market vendors. These deliver out of a home or shared kitchen, which is nearer to what Maya actually serves.
+
+### 5. Rasoi ToGo — Sammamish / Issaquah  ← **probably the single best interview on this page**
+- "Authentic home cooked Indian food." Family-run kitchen, **rotating weekly menu**, cooks **Wednesdays and Fridays only**, **delivers to Sammamish and Issaquah**, pickup for Redmond/Bellevue.
+- Facebook: facebook.com/rasoitogowa. No Instagram found.
+- **Why this one matters most:** a home kitchen, a menu that changes every week, a fixed cook day, and delivery scoped to specific neighbourhoods. That is almost a literal description of a Trice seller — and "publish this week's menu and take pre-orders from nearby households by a cutoff" is *exactly* what Maya automates. Ask how the weekly menu goes out and how orders come back.
+
+### 6. Kaur's Kitchen — Seattle, delivers Eastside
+- Meal delivery to Bellevue, Redmond, Kirkland, Sammamish, Woodinville, Bothell. Bills itself as Seattle's oldest such service. Owner listed as Sukheet. Instagram @kaurskitchen — **two similar handles exist, confirm which is live before reaching out.**
+
+### 7. Tiffinvala — Eastside-wide
+- Homemade tiffin/meal subscription plus catering, across Bellevue, Redmond, Kirkland, Bothell, Sammamish, Issaquah, Renton. tiffinvala.com, contact@tiffinvala.com, 661-863-8001.
+
+### Lower confidence, verify before spending time
+Madras Masala Catering (Bothell), Gujarati Rotli (Bothell), Raja Rani Cuisine (Bellevue/Redmond office lunchboxes). All surfaced from listings that may be a decade stale. **Mithaas Bakery** (Woodinville) is a real storefront bakery doing Indian-sweet-inspired cakes — interesting, but it's a shop, not a micro-seller.
+
+## Other Eastside markets, if Aug 5 and Aug 12 aren't enough
+
+| Market | Day | Hours | Notes |
+|---|---|---|---|
+| **Issaquah** | Sat | 9 AM–2 PM | Pickering Barn, 1730 10th Ave NW. Runs to Sept 26. **Best second option — no clash with Sammamish.** |
+| **Bellevue** | Thu | 3–7:30 PM | Bellevue Presbyterian. Vendor list pulled: **no Indian food vendor in 2026.** |
+| **Crossroads Bellevue** | Tue | 12–6 PM | Crossroads East lot |
+| **Kirkland** | Wed | 3–7 PM | Marina Park. **Clashes with Sammamish.** |
+| **Woodinville** | Sat | 10 AM–2 PM | Chai Tapri appears here on selected Saturdays |
+| **Renton** | Tue | 3–7 PM | Piazza Park |
+
+Issaquah, Redmond Saturday, Kirkland, Crossroads and Woodinville publish no publicly fetchable vendor rosters, so their Indian vendors could be neither confirmed nor ruled out without going or calling.
 
 ## What to actually look for
 
@@ -61,12 +92,18 @@ Questions worth asking, in rough priority:
 - Two or three good conversations beats six rushed ones.
 - **Kulphi has a Redmond storefront with posted weekday hours (10–2, 6–8)**, so they are the one target reachable outside Wednesday.
 
-## Regulatory context worth knowing (do not lecture them about it)
+## Regulatory context — CORRECTED 2026-07-29, read this before repeating it to anyone
 
-Washington's **Cottage Food Operation Permit** is the license that governs home-based food sellers: **$355 for two years**, kitchen inspection required, **$35,000 annual gross sales cap**, direct-to-consumer only (farmers markets, farm stands, events), **no refrigerated products, no wholesale, no mail order, no out-of-state sales**. WSDA Food Safety Program, cottagefoods@agr.wa.gov.
+An earlier draft of this file framed Washington's **Cottage Food Operation Permit** as the law governing these sellers. **That is wrong for almost all of them, and repeating it to Naveen or to a seller would be an unforced error.**
 
-That cap and those channel restrictions are a sharp structural contrast with Trice's Indian sellers, and it is a legitimately interesting difference to report back to Naveen: **the US micro-seller is legally capped and channel-restricted in ways the Indian one is not.** It changes what an agent like Maya would even be allowed to do here.
+Cottage food in WA covers **non-potentially-hazardous foods only** — oven-baked goods, jams and jellies, vinegars, dry mixes. **No refrigeration.** $355 for two years, kitchen inspection, **$35,000 annual gross sales cap**, direct-to-consumer only, no wholesale, no mail order, no out-of-state.
+
+**Kulfi, curries, dosa, biryani, tiffin meals and pizza are all potentially-hazardous foods and fall outside the cottage food program entirely.** These sellers are operating under a different food-business licence, or out of a commercial or shared commissary kitchen. So do not walk up to Rasoi ToGo and ask about their cottage food permit.
+
+**There is also no public WSDA list of permitted cottage food operations** — no directory, no map, no search tool. A public-disclosure request is the only route to that data. Confirmed against agr.wa.gov/cottagefood and the WSDA laws-and-rules page.
+
+**The genuinely interesting regulatory point still stands, just reframed:** a US home cook who wants to sell curries cannot simply start; they need a licence and usually a commissary kitchen. That is a much higher floor than Trice's Indian sellers face, and it is a real structural difference worth reporting to Naveen — **it changes who can even become a seller here, which changes what a product like Maya would be selling into.** Ask the sellers how they got legal. That question will get you a better story than any question about software.
 
 ## Sources
 
-sammamishfarmersmarket.org (vendor list, market day), kulphis.com, chaitapricafe.com, pizzarasoi.com, agr.wa.gov/cottagefood
+sammamishfarmersmarket.org (vendor list, market day), kulphis.com, chaitapricafe.com, pizzarasoi.com, facebook.com/rasoitogowa, tiffinvala.com, bellevuefarmersmarket.org, agr.wa.gov/cottagefood + WSDA laws-and-rules
