@@ -13,7 +13,7 @@ You asked what my interest is, so a straight answer: I want to be working on my 
 that's Stick, a study tool I've built and deployed for Purdue's intro calc course. A student uploads a
 messy worksheet or exam PDF and it turns it into structured practice on a spaced-repetition schedule.
 It's an LLM agent doing unattended work for people who aren't technical, which is the same shape as
-Maya, and I should have said that on the call instead of talking about the trade dashboard.
+Maya. I forgot to mention it on the call.
 
 I'm going through Nextdoor properly, like you said. On top of that I want to hear it from sellers
 directly rather than only read about it, and I haven't spoken to any yet. There's a farmers market near
@@ -25,9 +25,12 @@ whatever actually surprised me, not a writeup.
 
 - **Answers his direct question.** He asked "what's your interest, what are you trying to do?" and
   published his criterion: genuine interest, not resume-building. Founder track is the honest answer.
-- **Names STICK.** The real miss on the call. He does not know Veer ships LLM agents for non-technical
-  users, which is the only credential that speaks to Maya. The MSME dashboard got the call; STICK is
-  what matters to the product.
+- **Names STICK.** He does not know Veer ships LLM agents for non-technical users, which is the only
+  credential that speaks to Maya. The MSME dashboard got the call; STICK is what matters to the product.
+  **Stated as a plain omission, not an apology** (Veer's call, Aug 1): the earlier draft read "I should
+  have said that instead of talking about the trade dashboard," which justified a choice that needed no
+  defending and put the dashboard down for no reason. "I forgot to mention it on the call" is the whole
+  point. Applies beyond this note: do not build self-criticism into outreach to buy credibility.
 - **Names Nextdoor** (added Aug 1, Veer's call, correctly). He gave one instruction on the call and the
   note has to show it was heard. It sits *under* the seller conversations, not instead of them, because
   a Nextdoor read on its own is the unrejectable version he pre-refused.
