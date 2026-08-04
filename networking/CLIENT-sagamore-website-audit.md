@@ -2,6 +2,7 @@
 
 **Prepared by the Purdue Daniels externship team | August 2026**
 Reviewed sagamorecouncil.org on desktop and on a phone, since most parents will arrive on a phone.
+Screenshots throughout were captured on 4 August 2026.
 
 ---
 
@@ -16,6 +17,11 @@ parent can and cannot find.
 | How to join | Two taps, then they leave for the national BeAScout page |
 | The nearest pack or troop | Not named anywhere on the site |
 | When it meets | Not stated anywhere on the site |
+
+![The site on a phone](audit-screenshots/web-02-mobile-homepage-fold.png)
+
+*The homepage as it appears on a phone. Below the header: a menu button, a second copy of the logo, then
+"Fun Things Happening in Sagamore Council" and a list of event links.*
 
 One measurement worth sitting with: **the word "join" does not appear anywhere in the text of the
 homepage as it renders on a phone.** The navigation collapses behind a Menu button, and the homepage
@@ -35,7 +41,16 @@ The Cub Scouts page and the join page both link to `http://www.beascout.org/`, w
 error page**. The correct address is `https://beascout.scouting.org/`, which your top navigation already
 uses. So the highest-intent click on the website currently ends on an error, with no way back.
 
-**Two link edits, about 10 minutes.**
+![The error page](audit-screenshots/web-05-beascout-403.png)
+
+*What a parent currently sees after tapping "CLICK HERE TO JOIN NOW!"*
+
+One thing worth noting alongside it: the body text on the join page also tells parents to "sign-up NOW by
+going to www.beascout.org," so the same dead address appears in the writing as well as the button. Your
+top navigation already uses the working address, so both the working path and the broken one are live on
+the site at the same time.
+
+**Two link edits plus one line of copy, about 10 minutes.**
 
 ### 2. Your best page has nothing linking to it
 
@@ -50,6 +65,11 @@ never find out who was interested and cannot follow up with anyone who hesitated
 Its "New Parents, Click HERE" link also has a stray prefix in it (`chrome-extension//...`), which happens
 when a URL gets copied out of a PDF viewer. That link is currently dead for every visitor. The fix is
 deleting the first 52 characters.
+
+![The join page](audit-screenshots/web-07-join-page.png)
+
+*The join page. The button is well above the fold and the photograph shows real children, including a
+girl at the front. Nothing on the site links here.*
 
 **Pointing the menu at your own join page, plus that link fix, is about 15 minutes and is probably the
 highest-value quarter hour available on the site.**
@@ -74,6 +94,12 @@ that $225 is an optional camp. Most of the hour is confirming the current counci
 
 ## Branding
 
+![The header on a phone](audit-screenshots/web-01-mobile-header-overlap.png)
+
+*The header at phone width. The patch covers the end of "America" and part of "Council," and the words
+that read most clearly are BOY SCOUTS. The page also runs off the right edge of the screen, so a phone
+visitor gets a sideways scroll.*
+
 On a phone, the council patch image overlaps the "Scouting America / Sagamore Council" wordmark, covering
 about 57% of it and cutting it off mid-word. The image sitting on top is the patch, whose largest, boldest
 text is **BOY SCOUTS OF AMERICA**. So on a phone, the biggest words in your header are the old name.
@@ -95,15 +121,24 @@ The header overlap on mobile needs someone comfortable in the site theme.**
 
 ## Pages still advertising things that already happened
 
+![Buffalo Stampede](audit-screenshots/web-08-buffalo-stampede-2025.png)
+
+*The Buffalo Stampede page, captured 4 August 2026. The 2025 event dates and the 2025 registration
+deadline sit directly beside the site's own calendar showing August 2026.*
+
 - **Buffalo Stampede**, a top-level menu item and your main public-facing community event, is entirely
   the 2025 edition. "Next event: Saturday, October 25, 2025," with 2025 registration deadlines. A cyclist
   who lands on it this month will reasonably conclude the ride is no longer running.
 - **Cub Scouts** advertises Cub Adventure Camp sessions from June 2026, now about six weeks past, on the
   most important page for new families.
 - **Friends of Scouting**, your main donor page, promotes **AmazonSmile**, which Amazon shut down in
-  February 2023.
+  February 2023. The section ends "Click on the link below," and there is nothing below it.
 - **Recharter** describes a "NEW PROCESS... beginning March 1, 2024" two and a half years on.
 - **Contact Us** lists a North Star District Executive your own Facebook page replaced this week.
+
+![AmazonSmile section](audit-screenshots/web-09-amazonsmile.png)
+
+*The donations page. The instruction to click a link remains; the link itself is already gone.*
 
 **About 30 to 40 minutes total, and it splits neatly into four separate ten-minute jobs.**
 
@@ -116,7 +151,8 @@ Google is writing your search snippets for you. There are no Open Graph tags, wh
 to Facebook appear as bare URLs with no image or description. No page title contains Kokomo, Lafayette,
 Logansport or Indiana. One of the two sitemaps is empty; the other was generated in May 2014.
 
-What we saw when we searched:
+What we saw when we searched (these were checked by hand rather than captured, so they are worth
+re-running yourself):
 
 - "scouts Logansport Indiana" does not surface the council at all
 - "cub scouts Lafayette Indiana" returns four individual packs, on free platforms, above the council in
@@ -140,6 +176,11 @@ available.** Meta descriptions for the same three pages, another 20.
 - **Mobile menu.** The menu control is built as a heading rather than a button, so it cannot be opened
   with a keyboard at all. Homepage event links are 19 pixels tall, below Apple's and Google's guidance
   for tap targets.
+![Contact page](audit-screenshots/web-10-contact-broken-markup.png)
+
+*The Camp Ranger line on the Contact page, with stray code visible and the email address exposed in plain
+text. The line directly beneath it renders correctly.*
+
 - **A few broken links.** `www.new.campbuffalo.com` has no DNS record, so dropping "new." fixes it. On
   Contact Us, the Camp Ranger line renders as visible broken code and exposes a staff email in plain
   text; the same pattern appears on ten pages. One district executive phone number uses a Tennessee area
