@@ -5,6 +5,23 @@
 > Constraints it is built against: **$0 marketing budget, organic only, one person posting, ~30 min/day
 > in 10-minute blocks across ~6 pages** (Bryon, Jul 20 call).
 
+## ⚠ Reconciled against the social audit, same night — read this first
+
+`sagamore-social-audit-2026-08-04.md` landed after this file was written and it **reweights the whole
+thing.** Measured on his own page, in his own last four days: posts with a named human and no link got
+**58, 55 and 77** reactions; posts with a registration or shop link got **2 and 10**. And his 10
+Facebook Reels average far higher reach than anything else he makes, with the best hitting **9,300
+views against a 3,512 follower count** on an unedited phone pan of a room.
+
+**So the batch-graphics pipeline below is the SECOND priority, not the first.** It is still worth
+building — it removes real grind from the 52 event-promo and 24 education rows, which have to exist
+because events have to be promoted. But it optimises the low-performing half of the feed. The
+high-performing half is a phone camera and a person's name, and it needs no tooling at all.
+
+**Correct order of work: (1) one raw vertical Reel at every event he already attends, (2) the weekly
+"Friday Name" post plus replying to commenters by name, (3) this pipeline for the graphics that remain.**
+The audit's three-thing list runs under 45 minutes a week and none of it needs Canva.
+
 ## The problem with the calendar as it stands
 
 156 dated rows is 156 sessions. At 30 min/day that is roughly **15 hours a month**, and it front-loads
