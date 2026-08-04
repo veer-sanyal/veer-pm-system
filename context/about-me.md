@@ -134,3 +134,12 @@ Reward specificity and honesty. Do not reward polished but empty responses.
 The measurable pillar success criteria (shipped product, 20+ informational interviews, 10+ mocks, metrics/stats fluency, late rounds at 4-6 programs) are owned by `direction.md` — read them there.
 
 The criterion this file owns, because it is about who Veer is and not about strategy: **life intact — friendships, health, identity his own.** Not decorative. Sustainable consistency outperforms heroic surges; a hollowed-out optimized life is a real failure mode, and protecting the relational substrate is a hard constraint on the plan, not a reward for finishing it.
+
+- **Writing to a client or anyone he is doing work for: describe and offer, do not instruct.** Flagged
+  Aug 3 2026 on the Bryon calendar email, whose draft read "Start on the Posting Schedule tab. Find
+  today's date, post what it says," then told him which questions did not block him and prescribed how
+  to answer them. His read: it sounded like telling the client what to do rather than being of
+  assistance. The fix pattern: say what a thing does rather than what he should do with it, put open
+  questions where the client's own knowledge is genuinely better than the team's, leave the method of
+  replying up to them, and close with an offer of help rather than a due date. This is about stance,
+  not softness. Do not swing into apologising or hedging the work itself.
