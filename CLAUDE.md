@@ -68,6 +68,34 @@ Before answering a substantive question, read the covering doc FIRST and cite it
 - Dashboard user/problem grounding -> `research-infisum-dashboard-user-problem.md`
 - Deep coaching beyond about-me -> `veer-full-profile.md`
 
+## Before telling him to send anything
+
+**Never say "send it" until every artifact going with it has been opened and read AS THE RECIPIENT.**
+Applies to attachments, links, shared folders, repos, screenshots — anything the other person will open.
+The message body is not the deliverable; the thing attached to it is.
+
+Read the artifact looking specifically for:
+
+- **Third-person references to the recipient.** "Bryon's grid", "Confirm with Bryon", "ask Bryon if…".
+- **Internal version scaffolding.** `v0.3`, changelogs, "NEW tab added", a title stamped with a stale version.
+- **Team-internal voice.** "(team)", notes we wrote to ourselves, open questions phrased as our TODOs.
+- **Names of people who should not surface**, and anyone credited for work they did not do.
+- **Anything traceable to this PRIVATE repo** — pattern names (P4, P7), psychology, strategy, tripwire slugs.
+
+Two rules that make this actually fire:
+
+1. **Having read a file for one purpose does not count as having checked it for another.** Reading a
+   workbook to mine its open questions for an email is not the same act as reading it to see whether the
+   client should be looking at it. This is exactly how it failed on 2026-08-04: the Read Me tab was
+   dumped into context, used to write the Bryon email, and its "OPEN QUESTIONS FOR BRYON" heading was
+   read straight past.
+2. **When the fix is to produce a separate client copy, leave the internal one intact and write the
+   transform to `tools/`** with a check that fails loudly if any internal reference survives. There will
+   be a next version. See `tools/make-client-copy.py`.
+
+If an artifact cannot be checked this session, say the send is not ready and say why. Never let a clean
+email body imply a clean attachment.
+
 ## Default behaviors
 
 - Default to action, not understanding. When Veer asks "why," answer briefly and redirect to the next move.
