@@ -471,3 +471,45 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 - **P2: 27 days dark** (state.json still Jul 3 17:32). No calendar backfill needed — no future block is already done.
 - **WhatsApp came back after the reconcile was written, and it changed two things.** **(a) The Naveen same-day thank-you was never sent.** The call detail is also corrected: Naveen asked at 7:55pm "Morning Veer. Sorry, can we connect at 9?", Veer agreed, pinged at 8:30, and **Naveen voice-called in at 8:31pm PT**. The thread ends at that call — nothing from either side in the 21 hours since. The note drafted at the Jul-29 debrief, the one that finally names STICK and answers his "what's your interest" question, is still unsent on the one thread where the other side has already apologised for being the slow one. Opened as `naveen-thankyou-jul29`; it is Friday morning in Hyderabad, so tonight still lands well. **(b) Two channel facts worth keeping:** there is **no externship group and no Neal chat on WhatsApp at all** (Neal Parekh is a saved contact with zero message history), so both ride iMessage — which is still blind. **Today's deep block was the Neal conversation and this system has no way to see whether it happened.** The Mama thread is quiet on WhatsApp since his Jul 24 10:28pm message; his "6mm" reply came by email Jul 25 and is unanswered at ~5 days.
 - **Process note: the WhatsApp read took ~6 minutes and finished after the rest of the reconcile had been persisted.** Yesterday it took under a minute. Both times it paid — yesterday it found a call nobody knew was scheduled, today it found a send that had not happened. Keep it, but launch it first rather than alongside.
+
+### 2026-08-03 (Mon) — /reconcile after a 4-day gap: the Sunday session did not run, and every message owed to a human is unsent (~22:30 EST)
+
+- **Trigger:** Veer typed "run a reconcile" and volunteered three facts the system could not see — **he is in Riviera Maya, Mexico (Hyatt Zilara)**, he "couldn't get on a call," and he has sent nothing to Naveen or Sudip Uncle. Sources: stick-dev git + STATE.md, Calendar Jul 30 – Aug 9, Gmail 3-scan, Neal's PM feed, and **iMessage read for the first time — via a screenshot Veer supplied**, which is a workable substitute for the blind channel. WhatsApp blind this session.
+- **No travel event exists on any calendar.** The system planned nothing around a trip it did not know about. Worth fixing as a habit: a trip is a calendar entry, not a fact the reconcile has to be told.
+
+**The Sunday session did not run. W5 is unplanned.**
+
+- A `/sunday` block sat on the calendar Aug 2 16:00–16:45 and was not taken. No commit, no telemetry line, no ledger regeneration. Aug 4–9 is the bare recurring template — untitled "Deep work block" / "Secondary block" — and **no Morning Briefings exist for any day this week.**
+- **Second unplanned week on record** after W2, and it lands on the worst one available: **Aug 7 is the "sophomore summer ends, ~12-week build window closes" marker and Aug 8 is "Phase 2 — fall recruiting opens."** Classes start ~Aug 24.
+
+**Every outbound message owed to a human is unsent. Four of them at once, while 35 commits landed.**
+
+- **Bryon Haverstick: 14 days, seventh naming.** Draft `r-2984936810873573256` confirmed still in Drafts.
+- **Mihir Ahlawat (RCAC): 4 days.** He asked for times "next week" and next week is now (Aug 3–7). The highest-value inbound of the fortnight is being spent by not answering it. Under two minutes.
+- **Naveen: 5 days, and the shape of this one is the tell.** The note was written as a file on Jul 30 23:20 and then **edited twice more on Aug 1** (06:00 "name Nextdoor, cut 'that's honest'"; 06:37 "state the STICK omission plainly, drop the apology") **and still not sent.** Two revision passes, zero sends.
+- **Sudip Uncle: never messaged at all.** He brokered the intro; the call ran Jul 29; he has had no word. Not previously tracked — opened as `sudip-call-update`.
+- **Storie Pedley alumni-mentor reply: 4 days.** Two minutes.
+- Total send time across all five: **under ten minutes.** This is not four incidents, it is one behaviour, and it went to `patterns.md` as a single P4 instance rather than four.
+
+**STICK: 35 commits in four days, two touching `app/` → 68/532 all-time.**
+
+- **Aug 2 was the largest single research day on record:** a **148-agent workflow**, three graded reports — **U** (Purdue document topology), **W** (multi-topic algorithm design), **X** (the update-rule adjudication) — a **3-rater inter-rater reliability study returning κ=0.915**, and a 76-item corpus count. All of it to decide a mastery-blame update rule (D267: credit all tagged topics on correct, distribute one item's worth of blame ∝ (1−mastery) on wrong).
+- The work is genuinely good. Research U's headline is a real finding — **6 of 7 verified Purdue Math syllabi contain no week-by-week grid**, which is the document shape the setup lane has no concept of. The inter-rater test corrected Veer's own 46% figure down to 34–38% and he published the correction against himself.
+- **And no human has opened the app.** Day eight. Grep of all 35 commits for student / professor / pilot / user-test / enroll: **zero hits.** STATE.md's measured dev DB on 08-03: **sections 0 · enrollments 0 · attempts 0** — the five-minute re-enroll named Jul 29 as the smallest physical next action is five days old.
+- **The honest read, stated once and not softened: the constraint is not effort, capability, or available time.** A κ=0.915 inter-rater study got done on a Sunday. Four messages totalling ten minutes did not. Logged as the highest-amplitude P7 instance recorded — the effort did not drop, it routed into the most unrejectable available form, which is academic research with statistical validation attached.
+
+**The externship blew past its Aug 1 handoff and is still unfinished.**
+
+- The Jul-30 question — is the handoff an email or a meeting — **was never settled, so neither happened.** No meeting exists on any calendar Jul 30 – Aug 9. No email went out. **Bryon has heard nothing since Jul 20.**
+- The work is not done either. iMessage (Veer's screenshot, Aug 3): Veer 15:22 **"I can't do td but I can do tmrw if everyone is chill w that"**; **Izzy** 18:24 **"I can do tomorrow at 6:30 if I finish my stuff"** — she is on a train to Baltimore and has camp tomorrow; **Prisha** **"I can't do tmr until like 8/9 est… so if u want we can j do Wednesday?"**; Izzy closes **"we dont have a ton of time before school starts."** Nobody has confirmed a time, and Veer is the team's Timeline & PM.
+- Two actions, both doable from a hotel: **pick Wednesday and say so in the thread** (it is the only slot all three can make), and **send Bryon a one-paragraph status note with a date for the final proposal.** The recap draft is stale as written. Fourteen days of client silence is the part that costs reputation; the lateness is recoverable.
+
+**Neal's feed produced its first genuine Summer-2027 hit.**
+
+- 33 roles as of Aug 3 19:29 UTC. **Pentair — Product Management Leadership Development Internship Program, Summer 2027**, term stated explicitly, multi-site (Golden Valley MN / Delavan WI / North Aurora IL / Brookfield WI / Apex NC / New Brighton MN). A rotational PM leadership program is a different shape from the big-tech APM track and is not obviously CS-gated, which is the eligibility worry that killed Databricks.
+- **Microsoft — Product Manager Intern (Redmond)** appears twice with no term field; worth a 60-second term check before it earns a row.
+- Surfaced to Veer for accept-or-kill. No pipeline rows written — the feed proposes, it never writes.
+
+**Quiet elsewhere.** No LinkedIn DM digests in the window (the `messaging-digest-noreply` sender returned zero). Zero recruiting replies. Nothing from Bryon, Shawn or any teammate by email. Nothing on the Mama nozzle thread — his "6mm diameter change will be very important" is now **9 days** unanswered. **P2 study: 31 days dark**, state.json still Jul 3.
+
+**Telemetry gap repaired.** The Aug 1 session (Naveen note drafting, `about-me` edit; commits `dae2981`, `52149fe`, `67e53dc`) ended without a log line. Backfilled as a reconstruction.
