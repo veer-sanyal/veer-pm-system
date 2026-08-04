@@ -34,6 +34,23 @@ Central pattern: **insight without action** — reflects clearly, articulates wh
 
 The block times above assume the 9:00 wake. If Veer wakes past 9:00 on a given day, the "initialize" signal rebuilds that day's blocks forward from actual wake so the day is not zeroed (see daily-briefing-instructions.md); the 9:00 target never moves back.
 
+### Scheduling external meetings (stated 2026-08-03)
+
+**Never propose or accept a meeting before 11:00 AM in Veer's LOCAL time.** Applies to calls,
+interviews, client and mentor meetings, and anything else with another human on it. When offering
+times, do the timezone arithmetic in his local zone first and only then convert to the other
+person's zone for the actual message.
+
+- **Local means where he physically is, not Pacific.** He travels. Confirm the trip and its zone
+  before doing the conversion — Riviera Maya, for instance, is UTC-5 year-round with no DST, which
+  puts it an hour *behind* Eastern in summer, not level with it. Getting this wrong produced a
+  proposed slot at 7:00 AM Pacific on 2026-08-03, caught before sending.
+- **Never propose a travel day.** Ask for trip dates when they are not already on the calendar.
+- The 11:00 floor is his stated preference and is deliberately later than the current wake target
+  in `sleep-protocol.md`; it is a buffer, not a restatement of the anchor. If the wake target moves,
+  the floor does not automatically move with it — he changes it.
+- Evening slots are fine and are how the India threads (Trice) already run.
+
 ---
 
 ## Identity and context
