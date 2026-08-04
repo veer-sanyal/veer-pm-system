@@ -2,6 +2,16 @@
 
 > **INTERNAL VERSION. Do not send as-is.** Needs the client-facing pass (CLAUDE.md, "Before telling him
 > to send anything"). Audited read-only, logged out of every platform.
+>
+> **Screenshots in `networking/audit-screenshots/`** (captured 2026-08-04, headless Chrome, every file
+> visually verified). Two corrections the capture forced, both applied below: **(a)** Takachsin has
+> **two** truly bare-URL posts, not three — the third has one sentence above the same link. **(b)** The
+> Facebook embed reports **likes**, while the figures in this audit are **all reaction types**, which is
+> why the embed shows 44/48 where the audit says 58/55. Both are correct; cite whichever matches the
+> evidence being shown.
+>
+> **Not evidenced by any screenshot and must not be sourced to one:** Instagram's 59-post count (not
+> rendered logged out) and Facebook's 3,512 followers (clipped in every embed layout tried).
 
 ## The inventory is wrong in the brief. There are 11 accounts, not 6.
 
@@ -40,6 +50,10 @@ either audit.
 
 **2. The Eagle Scout post is a format, and he already ran it again.** Last five council posts:
 
+![Three consecutive posts on the council page](audit-screenshots/soc-06-facebook-embed.png)
+*`soc-06-facebook-embed.png` — the whole argument in one frame. Three consecutive posts: Abby Thatcher (named people, no link) **44 likes / 18 comments / 8 shares**, then "The fall is JAM PACKED with Cub Scout activities! Head to www.sagamorecouncil.org" **2 / 0 / 2**, then the Eagle Scout ask **48 / 8 / 27**. The link post sits between two named-person posts, same page, same week. Post images render black because the embed lazy-loads them and headless never fires the load; text and counts are crisp.*
+
+
 | Date | Post | React | Comments | Shares |
 |---|---|---|---|---|
 | Aug 4 | New DE Abby Thatcher, real photo, named people, **no link** | 58 | 21 | 8 |
@@ -59,13 +73,16 @@ shared to all five satellites: North Star 1, Wabash Valley 2, Camp Buffalo 1, Ca
 **Total 4 reactions, 3 comments, from 2,863 followers**, against 55/8/27 on the council page. Between
 shares, Wabash Valley reposts *other organizations* including an engagement-farm page ("Dig the Games,"
 135,770 followers, "One-Hand Ball Challenge #partygames"). North Star: 5 posts in six months. Takachsin:
-**three of its last five posts are a bare URL with no text at all** — 0, 2, 0 reactions. The exception is
+**two of its last five posts are a bare URL with no text at all**, and three consecutive posts push the identical link `scoutingevent.com/162-102811` (the third carries one sentence above it) — 0, 2, 0 reactions. Evidence: `audit-screenshots/soc-07-takachsin-bare-url.png`. The exception is
 **Cary Camp**, unmanaged and the best-written page they own ("Huge shoutout to Owen Babiak for mowing at
 camp today"). Nonprofit Marketing Guide's 2026 Trends Report (n=322, Dec 2025) finds effectiveness peaks
 at four to six goals and quotes a solo communicator: "We end up spreading our efforts across too many
 channels." **Fix: 80% of time on the council page; leave Cary Camp and Camp Buffalo alone; stop
 cross-posting to the three district pages and have district volunteers share to their personal feeds
 instead. Saves 1.5-2 hrs/month.**
+
+![The Linktree in full](audit-screenshots/soc-01-linktree.png)
+*`soc-01-linktree.png` — proves the finding by exhaustion: the entire list fits in frame with empty space beneath it. Camp Buffalo 80th RSVP (expired), National Jamboree Sign Up, Jamboree Info, Website, then four social icons. **No Join. No Donate.***
 
 **4. The link in bio contains no way to join and no way to donate.** Instagram's only clickable link is
 `linktr.ee/sagamore.scouting`. Complete contents: Camp Buffalo 80th RSVP (past), **National Jamboree
@@ -81,6 +98,12 @@ Cline 2019 Troop 527 Russiaville/Kokomo." **No page reply found on any of them.*
 investment in public. **That is the Friends of Scouting list building itself and nobody is harvesting
 it.** Fix: 10 min, ~24 hrs after any post that asks a question, reply by name, then screenshot the thread
 into a list for development.
+
+![X profile with the old logo](audit-screenshots/soc-02-x-old-logo.png)
+*`soc-02-x-old-logo.png` — the profile picture is unambiguously the pre-rebrand Boy Scouts of America mark while the cover photo is current. 645 followers, 229 posts, joined Sept 2009, last post Jan 19.*
+
+![Instagram profile](audit-screenshots/soc-04-instagram-profile.png)
+*`soc-04-instagram-profile.png` — display name "SagamoreBSA", bio reading only "Prepared. For Life.", 179 followers, and the "PROMO COMING SOON!" tile in the grid. Captured tall so the grid clears the signup modal.*
 
 **6. Instagram dead 199 days; X still carries the old BSA logo.** Instagram display name is
 "SagamoreBSA", bio is "Prepared. For Life." and nothing else — no city, no age range, no indication it

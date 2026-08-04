@@ -1,7 +1,8 @@
 # Sagamore Council Social Media Review
 
 **Prepared by the Purdue Daniels externship team | August 2026**
-Reviewed from the outside, the way a parent or donor sees the accounts.
+Reviewed from the outside, the way a parent or donor sees the accounts. Screenshots throughout were captured on
+4 August 2026.
 
 ---
 
@@ -83,6 +84,10 @@ August 1, and it worked again. Your last five council posts:
 | World Scarf Day + shop link | **10** | 0 | 5 |
 | Jamboree Day 10, photos, five named leaders | 77 | 1 | 1 |
 
+![Three consecutive posts on the council page](audit-screenshots/soc-06-facebook-embed.png)
+
+*Three consecutive posts on your page, captured 4 August. Welcoming Abby Thatcher, named people and no link: 44 likes, 18 comments, 8 shares. Then the Cub Scout activities post with a registration link: 2 likes, no comments, 2 shares. Then the Eagle Scout post: 48 likes, 8 comments, 27 shares. (These counts are likes only, which is why they sit below the all-reactions figures in the table above.) The photographs render as black boxes here because of how the preview loads images, not because anything is wrong with the posts.*
+
 Posts with a named person and no outbound link: 58, 55 and 77. Posts with a registration or shop link: 2
 and 10. That is a twentyfold gap on the same page in the same four days, and it matches what the wider
 data shows: across 130,683 business pages, plain posts earn roughly four times the engagement of link
@@ -156,9 +161,9 @@ Your August 1 Eagle Scout post was shared to five other pages. Between them thos
 followers. The shares produced **four reactions and three comments in total**, against 55 reactions, 8
 comments and 27 shares on the council page.
 
-Between those shares, several of the pages are posting other organizations' content, and one has posted a
-bare link with no text at all three times in a week, which is the lowest-performing thing it is possible
-to post.
+Between those shares, several of the pages are posting other organizations' content, and one has posted the
+same link three times in a week, twice with no text at all, which is the lowest-performing thing it is
+possible to post.
 
 The exception is **Cary Camp**, which is the best-written page in the family and appears to be run
 locally: *"Huge shoutout to Owen Babiak for mowing at camp today while I worked on maintenance items -
@@ -174,6 +179,10 @@ hours a month.
 ---
 
 ## 5. Your only clickable link offers no way to join and no way to give
+
+![Your Linktree](audit-screenshots/soc-01-linktree.png)
+
+*Your Linktree in full, captured 4 August. Everything on it fits in this frame.*
 
 The single link on your Instagram profile goes to a Linktree containing, in this order: a Camp Buffalo
 80th Anniversary RSVP that has passed, a **National Jamboree sign-up**, Jamboree information, your
@@ -192,9 +201,17 @@ a five-minute check on the first Monday of the month.
 
 ## 6. Instagram and X
 
+![X profile](audit-screenshots/soc-02-x-old-logo.png)
+
+*Your X profile. The cover image is current; the profile picture is still the previous Boy Scouts of America logo.*
+
 **Instagram** has not posted since January 18. The profile name reads "SagamoreBSA" and the bio is
 "Prepared. For Life." and nothing else, so a parent cannot tell what the organization is, who it serves,
 or where it operates. The grid includes a tile reading "PROMO COMING SOON!"
+
+![Instagram profile](audit-screenshots/soc-04-instagram-profile.png)
+
+*The Instagram profile as a visitor sees it: the name reads SagamoreBSA, the bio is "Prepared. For Life." and nothing more, and the "PROMO COMING SOON!" tile sits in the grid.*
 
 **Our honest recommendation is to park it properly rather than try to revive it.** At 179 followers, a
 typical nonprofit post there earns well under one interaction. The wider pattern supports this: 31% of
