@@ -549,3 +549,10 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 - **W5 remains unplanned** (bare template Aug 4–8, no Morning Briefings), but a Sunday block now exists Aug 9 4:00pm. Calendar markers: Aug 8 sophomore summer ends, Aug 9 Phase 2 opens.
 - **Neal's feed produced its first explicit Summer-2027 posting: TikTok AI Product Manager Intern (Product-Content Ecosystem), San Jose.** Amex PM Intern NY needs a 60-second term check. Surfaced for accept/kill, no rows written.
 - **Blind spots this session:** iMessage read was denied by the permission classifier despite the README opt-in (needs a settings allowlist rule if Veer wants it back); WhatsApp blind as always — so the Naveen note (day 6), the Sudip update, and whether the Wed team meeting happened are all unverified.
+
+### 2026-08-05 (Wed) — WhatsApp opened to the system, and the last two sends were already out (~19:20 EST)
+
+- **New standing capability, Veer's call: WhatsApp Web is now read via his real Chrome (claude-in-chrome), read-only, wired into `/reconcile` step 4.** The channel that hid the Naveen thread's three-day-unread stretch in July is no longer blind.
+- **First read closed the board.** The Naveen thank-you went out today 5:57 PM — the full rewritten note, STICK named plainly — **and Naveen reacted 👍 within the hour.** The Sudip update + Maya-call ask went out 5:58 PM ("what works for you this week or next?"). With Bryon, RCAC, and Storie confirmed earlier tonight, **all five owed sends are done, and both humans who have replied so far came back warm.**
+- Worth saying plainly for the pattern ledger: the Aug-3 read ("this is one behaviour, not four incidents") resolved as one behaviour too — everything went out within ~48 hours of being named, and the world's response was uniformly positive. That is the P4 counter-evidence to cite next time the dread argument runs.
+- Slugs closed: `naveen-thankyou-jul29`, `sudip-call-update`. Ball with Sudip on `sudip-maya-seller-call`.
