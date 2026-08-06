@@ -1,5 +1,7 @@
 # RCAC / GenAI Studio call prep: Mihir Ahlawat
 
+> **HISTORICAL — the meeting RAN Thu Aug 6, 2026.** Outcome in `ledgers.md` (Ahlawat entry) and PROGRESS.md 2026-08-06. Thank-you: `ahlawat-thankyou-2026-08-06.md`.
+
 **Thu Aug 6, 2026 · 12:00-12:30 PM ET (11:00 AM Riviera Maya) · Microsoft Teams**
 Join: https://teams.microsoft.com/meet/258962435270761?p=FQVKuikV9gfYFyI6n3 (also on the Outlook invite and mirrored Google event)
 
