@@ -64,6 +64,7 @@ All read copies are in `context/`. A `files/` entry means the full uncompressed 
 | Dashboard user problem | `research-infisum-dashboard-user-problem.md` | — (context-only) |
 | Sleep / circadian (2026-06-25) | operational protocol in `sleep-protocol.md` | `files/sleep-circadian-research-2026-06-25.md` |
 | Emotional regulation (2026-06-25; evidence base only, no build decision yet) | `emotional-regulation/research-emotional-regulation-synthesis.md` | — (context-only) |
+| Verbal communication / articulacy (2026-08-07) | `research-verbal-communication.md` | — (context-only) |
 
 ---
 
