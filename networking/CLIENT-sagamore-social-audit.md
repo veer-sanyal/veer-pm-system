@@ -31,9 +31,14 @@ of everything you publish. You are posting mostly to fill events, and that is th
 
 We found eleven accounts across five platforms.
 
+![The council Facebook page](audit-screenshots/v3-soc-fb-page-header.png)
+
+*The council page, captured 7 August: 3.5K followers, 187 following, and a 100% recommendation rate
+across 14 reviews. This is the channel that matters — the other ten together do not come close.*
+
 | Account | Followers | Last post | State |
 |---|---|---|---|
-| Facebook, council | ~3,500 | Current | Active, and the only channel that matters |
+| Facebook, council | 3.5K | Current | Active, and the only channel that matters |
 | Facebook, Camp Buffalo | 1,030 | Aug 1 | Semi-active |
 | Facebook, Cary Camp | 770 | Current | Active, and the best-written page you own |
 | Facebook, Takachsin Lodge | 613 | Aug 2 | Active |
@@ -184,10 +189,22 @@ because it is the clearest picture of a channel running with nobody on the other
 
 That is a Friends of Scouting list identifying itself, and it is currently scrolling past.
 
-**And there is a second, more urgent version of this.** Your **6 August membership fee update** drew 29
-reactions, 26 shares and **19 comments** — the second-most-discussed post in the sample. Several of those
-comments are parents asking plainly what the fee is and how renewal works. **None of them has been
+**And there is a second, more urgent version of this.** Your **6 August membership fee update** has drawn
+**31 reactions, 27 shares and 19 comments** — the most-discussed post on your page right now. Several of
+those comments are parents asking plainly what the fee is and how renewal works. **None of them has been
 answered.**
+
+![The membership fee post](audit-screenshots/v3-soc-fb-page-full.png)
+
+*Your page as it stands on 7 August. Three things are visible in this one frame. The Buffalo Stampede
+patch post at the top carries a link and has **1 reaction**. The Buffalo Stampede promo video below
+carries a YouTube link and has **1 reaction**. Between them, the membership renewal update, which carries
+no link, has **31 reactions, 19 comments and 27 shares**. And under it a parent has asked, in public,
+whether the prorated fees run through February 2028 or through 2027 — a specific, answerable question,
+sitting unanswered with "View more comments" beneath it.*
+
+That comment is the whole argument of this review in one place: **a parent trying to give you money and
+not being able to find out how much.**
 
 That one is not a missed list, it is a missed service moment, and it connects to something the website
 review found independently: the membership cost appears on none of your 34 web pages, and you do not
