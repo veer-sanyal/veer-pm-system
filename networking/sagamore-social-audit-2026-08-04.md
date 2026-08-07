@@ -1,5 +1,14 @@
 # Sagamore Council social media audit — 2026-08-04
 
+> **⚠ SUPERSEDED IN PART — read `audit-verification-pass-2026-08-07.md` before quoting anything here.**
+> Captured logged out via Meta's embed renderer. **Corrected on 2026-08-07 against a signed-in
+> twenty-post sample: the "named human + no link" thesis does not hold** (a photo full of Scouts scored
+> 5; two person-free posts scored 29 and 56) — the link penalty is the real and absolute finding. **The
+> Aug 1 Eagle post is a UGC prompt, not a named-Eagle post. Content mix is 25% event promotion, not 55%.
+> Satellite pages total ~2,779, not 2,863, and there is no University of Scouting page.** The 3,512
+> follower figure is unsourceable; Facebook shows only "3.5K". This file has not been rewritten,
+> deliberately, so the method failure stays legible.
+
 > **INTERNAL VERSION. Do not send as-is.** Needs the client-facing pass (CLAUDE.md, "Before telling him
 > to send anything"). Audited read-only, logged out of every platform.
 >

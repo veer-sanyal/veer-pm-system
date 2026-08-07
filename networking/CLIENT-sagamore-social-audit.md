@@ -1,8 +1,9 @@
 # Sagamore Council Social Media Review
 
 **Prepared by the Purdue Daniels externship team | August 2026**
-Reviewed from the outside, the way a parent or donor sees the accounts. Screenshots throughout were captured on
-4 August 2026.
+Reviewed the way a parent or donor sees the accounts. Screenshots were captured 4 August 2026; every
+figure was **re-checked on 7 August 2026** against a fuller sample of twenty posts. Where the second look
+changed a conclusion, we have changed it here rather than softened it.
 
 ---
 
@@ -11,11 +12,18 @@ Reviewed from the outside, the way a parent or donor sees the accounts. Screensh
 You already know what works. It is in your own numbers, twice, and it is not the thing most of the
 posting time currently goes to.
 
-Two formats on your Facebook page dramatically out-perform everything else: **a short raw video shot on a
-phone at an event**, and **a post about a named person with no link in it.** Both are cheaper to make
-than what you are making now.
+Across your last twenty posts, one rule holds without exception: **every post containing an outside link
+underperformed.** All five of them landed between 1 and 11 reactions, on a page of roughly 3,500 people.
 
-Everything in this review points at doing more of those two things and less of the rest.
+What works instead is not one format but three, and they are all cheaper than what you are making now:
+
+- **Showing something that already happened.** Your Jamboree recaps took 279, 128, 92 and 68 reactions.
+- **News about a person.** Welcoming your new District Executive took 69 reactions and 22 comments.
+- **Asking readers to tell you something about themselves.** The August 1 Eagle Scout post took 27 shares,
+  more than any other post in the sample, because it asked people to name their own Eagle Scout.
+
+And the thing that performs *worst* among your link-free posts is **event promotion** — which is a quarter
+of everything you publish. You are posting mostly to fill events, and that is the part that is not landing.
 
 ---
 
@@ -25,7 +33,7 @@ We found eleven accounts across five platforms.
 
 | Account | Followers | Last post | State |
 |---|---|---|---|
-| Facebook, council | 3,512 | Current | Active, and the only channel that matters |
+| Facebook, council | ~3,500 | Current | Active, and the only channel that matters |
 | Facebook, Camp Buffalo | 1,030 | Aug 1 | Semi-active |
 | Facebook, Cary Camp | 770 | Current | Active, and the best-written page you own |
 | Facebook, Takachsin Lodge | 613 | Aug 2 | Active |
@@ -37,9 +45,13 @@ We found eleven accounts across five platforms.
 | LinkedIn | 85 | June | Barely active |
 | YouTube | 51 subscribers, 95 videos | July 22 | Used as a training archive |
 
-Two notes on this list. Your website footer links to `twitter.com/SagamoreBSA`, which does not exist and
-returns a 404; the live account is **@SagamoreCouncil**. And we could not find a University of Scouting
-Facebook page under any name we tried, so the roughly 600-follower page may be Takachsin Lodge.
+Three notes on this list. Your website footer links to `twitter.com/SagamoreBSA`, which does not exist and
+returns a 404; the live account is **@SagamoreCouncil**. There is **no University of Scouting Facebook
+page** — that is an event, not an account, and the roughly 600-follower page is Takachsin Lodge.
+
+And one pattern only visible once the list is laid out: **Instagram and X both went silent on the same
+day, 18 and 19 January 2026.** That is a single moment when the extra channels were let go, not two
+separate lapses — which is worth knowing, because it means there is one decision to revisit, not five.
 
 ---
 
@@ -49,18 +61,18 @@ Your page has published ten Facebook Reels in total. Here is what they did:
 
 | Views | What it was |
 |---|---|
-| **9,300** | "Good Morning from the Purdue Armory at University of Scouting!!!" |
+| **9,400** | "Good Morning from the Purdue Armory at University of Scouting!!!" |
 | 3,500 | "University of Scouting at Purdue University presented by IU Health was AMAZING!" |
-| 3,500 | "Lunchtime at University of Scouting!" |
+| 3,400 | "Lunchtime at University of Scouting!" |
 | 2,300 | "To God and our Country... scene from today's opening ceremony" |
-| **206** | Opens with a pasted registration link, then asks people to sign up |
+| **207** | Opens with a pasted registration link, then asks people to sign up |
 
-The 9,300 view Reel is a phone pan of a room. It reached more than double your entire follower count,
-which means it went well beyond the families who already follow you, and that is the only way new
-families find you. The 206 view Reel is the one that opens with a link and an ask.
+The 9,400 view Reel is a phone pan of a room, and it carries 189 reactions. It reached nearly three times
+your entire follower count, which means it went well beyond the families who already follow you, and that
+is the only way new families find you. The 207 view Reel is the one that opens with a link and an ask.
 
-All four of the big ones were shot **on a single day, at one event, in December.** The format has not been
-used since.
+The four big ones sit **consecutively in your Reels history**, which means they were made in one burst at
+one event and the format has not been used since. Ten Reels total, on a page you have had since 2009.
 
 **What we would suggest.** At every event you are already attending, take one **fifteen to thirty second
 vertical video**, unedited, with people and noise in it, and post it that day with a one-line caption and
@@ -86,16 +98,34 @@ August 1, and it worked again. Your last five council posts:
 
 ![Three consecutive posts on the council page](audit-screenshots/soc-06-facebook-embed.png)
 
-*Three consecutive posts on your page, captured 4 August. Welcoming Abby Thatcher, named people and no link: 44 likes, 18 comments, 8 shares. Then the Cub Scout activities post with a registration link: 2 likes, no comments, 2 shares. Then the Eagle Scout post: 48 likes, 8 comments, 27 shares. (These counts are likes only, which is why they sit below the all-reactions figures in the table above.) The photographs render as black boxes here because of how the preview loads images, not because anything is wrong with the posts.*
+*Three consecutive posts on your page, captured 4 August, and the clearest picture of the link penalty we found. Welcoming your new District Executive: 44 likes, 18 comments, 8 shares. Then the Cub Scout activities post carrying a registration link: 2 likes, no comments, 2 shares. Then the Eagle Scout prompt: 48 likes, 8 comments, 27 shares. The post with the link sits between two that do not have one and takes a twentieth of the engagement. (These counts are likes only, which is why they sit below the all-reactions figures in the table above.) The photographs render as black boxes here because of how the preview loads images, not because anything is wrong with the posts.*
 
-Posts with a named person and no outbound link: 58, 55 and 77. Posts with a registration or shop link: 2
-and 10. That is a twentyfold gap on the same page in the same four days, and it matches what the wider
-data shows: across 130,683 business pages, plain posts earn roughly four times the engagement of link
-posts.
+Looking at twenty posts rather than five sharpens this, and it is worth being precise because the precise
+version is more useful to you.
+
+**The link penalty is absolute.** Every one of your last five posts carrying an outside link scored
+between 1 and 11 reactions. No exceptions. That matches the wider data: across 130,683 business pages,
+plain posts earn roughly four times the engagement of link posts.
+
+**But "put a person in it" is not by itself the trick.** A July 31 photograph full of Scouts, no link,
+drew five reactions. What separates your winners is that the reader is given something to *do* or someone
+to *know*:
+
+| | Reactions | What it gave the reader |
+|---|---|---|
+| June 28 Eagle Scout, named, with his story | **770** | A specific person to be glad about |
+| Jamboree Day 5 recap | 279 | Something that actually happened |
+| New District Executive | 69 | A name to put to the council |
+| August 1 Eagle prompt | 56, **27 shares** | An invitation to name their own |
+| Membership fee update | 29, **19 comments** | Information they needed |
+| Photo of Scouts, unnamed | 5 | A nice picture |
+
+So: a name plus a story is your strongest asset, a question is your strongest share-driver, and a link is
+a reliable way to be ignored.
 
 The uncomfortable part is that your recruitment and fundraising posts are the ones nobody is seeing. The
-Cub Scout activities post, which is the closest thing in the feed to a recruitment message for young
-families, reached two reactions on a page of 3,512.
+Cub Scout activities post, the closest thing in your feed to a recruitment message for young families,
+reached two reactions on a page of roughly 3,500.
 
 ### The format, written out
 
@@ -149,6 +179,18 @@ comments, over ten months.
 
 That is a Friends of Scouting list identifying itself, and it is currently scrolling past.
 
+**And there is a second, more urgent version of this.** Your **6 August membership fee update** drew 29
+reactions, 26 shares and **19 comments** — the second-most-discussed post in the sample. Several of those
+comments are parents asking plainly what the fee is and how renewal works. **None of them has been
+answered.**
+
+That one is not a missed list, it is a missed service moment, and it connects to something the website
+review found independently: the membership cost appears on none of your 34 web pages, and you do not
+appear at all in Google results for "how much does scouting cost," where four peer councils do. **Parents
+cannot find the number on your site, cannot find it in search, so they ask you in public — and hear
+nothing.** Answering those nineteen comments is ten minutes and it is the highest-value ten minutes in
+this document.
+
 **What we would suggest.** Ten minutes, about a day after any post that asks a question. Reply to each
 comment **by name**, one line each: *"Congratulations to Nathaniel, Charmaine. Troop 816 has turned out
 some great ones."* Then keep the list of names for the development conversation.
@@ -157,9 +199,10 @@ some great ones."* Then keep the list of names for the development conversation.
 
 ## 4. The extra Facebook pages are costing time and returning very little
 
-Your August 1 Eagle Scout post was shared to five other pages. Between them those pages have 2,863
-followers. The shares produced **four reactions and three comments in total**, against 55 reactions, 8
-comments and 27 shares on the council page.
+Your August 1 Eagle Scout post was shared to five other pages. Between them those pages have roughly
+**2,800 followers** — Takachsin Lodge 613, Camp Buffalo about 1,000, Wabash Valley 376, North Star 358,
+Peshewa 332, Wood Badge 100. The shares produced **four reactions and three comments in total**, against
+56 reactions, 8 comments and 27 shares on the council page.
 
 Between those shares, several of the pages are posting other organizations' content, and one has posted the
 same link three times in a week, twice with no text at all, which is the lowest-performing thing it is
@@ -234,6 +277,9 @@ Facebook, and leaving it there. Ten minutes.
 
 - The Twitter link in your website footer returns a 404
 - The old Boy Scouts of America logo is your X profile picture
+- **Your August 1 neckerchief post carries Facebook's "AI content" label.** For an organization asking
+  parents to trust it with their children, an AI tag on a post selling them something is worth avoiding.
+  It is not a penalty, it is a perception point, and it costs nothing to shoot the product yourself.
 - The Jamboree sign-up and an expired Camp Buffalo RSVP are the top two items on your Linktree
 - The Peshewa District page has no username, so it cannot easily be found or linked to
 - Your Facebook page's website field uses `http://` rather than `https://`
@@ -257,19 +303,24 @@ recommendation, would move that number quickly. It is the cheapest credibility a
 
 ## What the content is currently doing
 
-Estimated from what is publicly visible:
+Counted across your last twenty posts, 27 July to 7 August:
 
 | | Now | Your stated goal |
 |---|---|---|
-| Event promotion and registration | ~55% | 25% |
-| Achievements and celebration | ~30% | 25% |
-| Storytelling | ~10% | 25% |
-| Community education | ~5% | 25% |
-| Aimed at parents who are not yet involved | **~0%** | 25% |
+| Achievements and celebration | 45% | 25% |
+| Event promotion and registration | 25% | 25% |
+| Merchandise and camp life | 15% | — |
+| Service and administrative information | 10% | 25% |
+| Aimed at parents who are not yet involved | **0%** | 25% |
 
-The last row is the one we would flag. Every post we could see assumes the reader already has a Scout.
-The audience you named as the priority, a young parent with a kindergartener, is not addressed on any
-account.
+Two honest caveats on this table. Six of the twenty posts were a single Jamboree recap series, so this
+particular fortnight overstates celebration and understates event promotion. And event promotion at 25% is
+already at your stated target, so the problem there is not volume — it is that those posts are the ones
+that perform worst.
+
+**The last row is the one we would flag, and it is the one number that needs no caveat. Zero of twenty.**
+Every post assumes the reader already has a Scout. The audience you named as the priority, a young parent
+with a kindergartener, is addressed nowhere on any account.
 
 ---
 
@@ -282,7 +333,7 @@ The good news is that the hard part is already done. Your display names are alre
 seven Facebook pages, Instagram, LinkedIn and Linktree. The only place the old brand appears as branding
 is the X profile picture, which is a ten-minute fix.
 
-If and when you do change the Facebook username: nothing resets. Your page, your 3,512 followers, your
+If and when you do change the Facebook username: nothing resets. Your page, your ~3,500 followers, your
 post history, your reviews and your check-ins all survive. What breaks is every existing link pointing at
 the old address, including your website footer and your Linktree, so **change the username and update
 those links in the same sitting.** One thing worth knowing: a released username can be claimed by someone
@@ -295,9 +346,14 @@ Changing the **username** at 179 followers is not worth the disruption.
 
 ## If you only do three things
 
-1. **One raw vertical video at every event you are already attending.** Ten minutes per event.
-2. **The weekly named-person post, and reply to every comment by name.** Twenty-five minutes a week.
-3. **Rewrite the Linktree so Join and Donate are the top two links.** Fifteen minutes, once.
+1. **Answer the nineteen comments on your membership fee post.** Ten minutes, today. Parents are asking
+   you what Scouting costs, in public, and the answer exists nowhere else they can reach.
+2. **One raw vertical video at every event you are already attending.** Ten minutes per event.
+3. **The weekly named-person post, ending with a question that invites readers to name their own.** That
+   last line is what produced 27 shares. Twenty-five minutes a week, replies included.
+
+If there is a fourth, it is rewriting the Linktree so Join and Donate are the top two links — fifteen
+minutes, once.
 
 That comes to under forty-five minutes a week, inside the time you already spend, and it replaces work
 currently going to pages that return four reactions a post.

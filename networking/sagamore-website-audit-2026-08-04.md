@@ -1,5 +1,13 @@
 # Sagamore Council website audit — 2026-08-04
 
+> **⚠ SUPERSEDED IN PART — read `audit-verification-pass-2026-08-07.md` before quoting anything here.**
+> This audit was captured headless and logged out, which bot-blocked several checks and turned the
+> blocks into findings. **Killed on 2026-08-07: the "join button 403s" finding (it 301s and works), the
+> "a parent searching cannot find the join path" finding (`/join/` ranks #1 and #2), the 375px
+> horizontal-overflow finding (no overflow), and the "largest header text reads BOY SCOUTS OF AMERICA"
+> finding (largest is "Sagamore Council").** The client copy has been corrected; this file has not been
+> rewritten, deliberately, so the method failure stays legible.
+
 > **INTERNAL VERSION. Do not send as-is.** Run the same pass the workbook got before this reaches
 > Bryon: no third-person references, no meta-commentary, no notes about our own process. See CLAUDE.md
 > "Before telling him to send anything."

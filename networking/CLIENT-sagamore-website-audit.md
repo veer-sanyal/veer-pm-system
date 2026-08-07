@@ -1,8 +1,10 @@
 # Sagamore Council Website Review
 
 **Prepared by the Purdue Daniels externship team | August 2026**
-Reviewed sagamorecouncil.org on desktop and on a phone, since most parents will arrive on a phone.
-Screenshots throughout were captured on 4 August 2026.
+Reviewed sagamorebsa.org on desktop and at phone width, since most parents will arrive on a phone.
+Screenshots were captured 4 August 2026. Every measurement and search result below was **re-checked on
+7 August 2026** in a normal signed-in browser; a handful of first-pass findings did not survive that
+check and have been removed rather than softened.
 
 ---
 
@@ -23,10 +25,11 @@ parent can and cannot find.
 *The homepage as it appears on a phone. Below the header: a menu button, a second copy of the logo, then
 "Fun Things Happening in Sagamore Council" and a list of event links.*
 
-One measurement worth sitting with: **the word "join" does not appear anywhere in the text of the
-homepage as it renders on a phone.** The navigation collapses behind a Menu button, and the homepage
-content itself offers a popcorn sale, a Trade-o-Ree and a merit badge workshop. The Donate button is
-there, but it sits about five full screens down once the page stacks for mobile.
+One measurement worth sitting with: **at phone width, the word "join" appears nowhere on the homepage
+until a parent taps the Menu button.** The word is in the page, but the navigation is hidden below 600
+pixels, so the visible homepage offers a popcorn sale, a Trade-o-Ree and a merit badge workshop and no
+route in. Tapping Menu brings it back. The Donate button is present but sits **4,384 pixels down a
+5,599-pixel page — 78% of the way to the bottom**, about five and a half screens.
 
 Neither of your two goals, raising money and getting new kids, has a visible path on the device your
 priority audience uses. Most of what follows is small, and several of the fixes take ten minutes.
@@ -35,22 +38,20 @@ priority audience uses. Most of what follows is small, and several of the fixes 
 
 ## The three we would do first
 
-### 1. The main "Join Now" button returns an error
+### 1. Your join page's content is a picture, so nothing can read it
 
-The Cub Scouts page and the join page both link to `http://www.beascout.org/`, which returns a **403
-error page**. The correct address is `https://beascout.scouting.org/`, which your top navigation already
-uses. So the highest-intent click on the website currently ends on an error, with no way back.
+The main content of `/join/` is a single 768 × 1024 image file (`Cub-Scouts-Rocks.jpg`) with **no alt
+text**. Everything written on that flyer — the invitation, the details, the reasons to sign up — exists
+only as pixels.
 
-![The error page](audit-screenshots/web-05-beascout-403.png)
+That has two consequences. **Google cannot read a word of it**, which is a large part of why the best
+page on your site does not pull its weight in search. And **a parent using a screen reader gets nothing
+at all**: both images on the page have empty alt attributes, so the page is effectively blank to them.
 
-*What a parent currently sees after tapping "CLICK HERE TO JOIN NOW!"*
+The fix is not to remove the flyer. It is to type the flyer's words onto the page as ordinary text
+underneath it, and to describe the image in its alt text.
 
-One thing worth noting alongside it: the body text on the join page also tells parents to "sign-up NOW by
-going to www.beascout.org," so the same dead address appears in the writing as well as the button. Your
-top navigation already uses the working address, so both the working path and the broken one are live on
-the site at the same time.
-
-**Two link edits plus one line of copy, about 10 minutes.**
+**About 20 minutes, and it makes an existing good page work for the first time.**
 
 ### 2. Your best page has nothing linking to it
 
@@ -87,6 +88,16 @@ answers it with a number several times too high. For comparison, Atlanta Area Co
 dues "typically range from $40 to $85 annually, and more depending on the level of adventure activities."
 Simon Kenton Council lists the national fee and the council fee as separate line items.
 
+**This is the one finding that shows up in all three places we looked, and it is worth seeing together:**
+
+- The price is on **none** of your 34 web pages.
+- You do not appear at all on **"how much does scouting cost,"** where four peer councils do.
+- Your **6 August Facebook post about the membership fee update drew 19 comments**, several of them
+  parents asking plainly what the fee is and how renewal works — **and none of them has an answer.**
+
+Parents cannot find the number on the site, cannot find it in search, so they ask you in public and hear
+nothing back. One page ends all three, and answering those comments takes about ten minutes today.
+
 **One page, "What Scouting Costs in Sagamore Council," plus a line on the Cub Scouts page clarifying
 that $225 is an optional camp. Most of the hour is confirming the current council fee internally.**
 
@@ -96,17 +107,19 @@ that $225 is an optional camp. Most of the hour is confirming the current counci
 
 ![The header on a phone](audit-screenshots/web-01-mobile-header-overlap.png)
 
-*The header at phone width. The patch covers the end of "America" and part of "Council," and the words
-that read most clearly are BOY SCOUTS. The page also runs off the right edge of the screen, so a phone
-visitor gets a sideways scroll.*
+*The header at phone width. The patch image overlaps the wordmark and cuts it off mid-word.*
 
-On a phone, the council patch image overlaps the "Scouting America / Sagamore Council" wordmark, covering
-about 57% of it and cutting it off mid-word. The image sitting on top is the patch, whose largest, boldest
-text is **BOY SCOUTS OF AMERICA**. So on a phone, the biggest words in your header are the old name.
+At phone width the council patch image **overlaps the "Scouting America / Sagamore Council" wordmark**,
+covering part of it. To be precise about what this is and is not: the largest visible text in the header
+is still "Sagamore Council," and "BOY SCOUTS OF AMERICA" appears only as small curved text inside the
+patch itself. The header is not shouting the old name at parents. It is simply broken-looking on the
+device most of them use.
 
-Alongside that: the main logo's alt text still reads "Boy Scouts of America," which is what Google and
-screen readers see; all 28 content pages carry "Trademark 2013 Boy Scouts of America" in the footer; and
-the Google Business Profile still lists the organization as "Sagamore Council - Boy Scouts of America."
+The renaming issue is real, but it lives elsewhere: the main logo's alt text still reads **"Boy Scouts of
+America,"** which is exactly what Google and screen readers see; all 28 content pages carry "Trademark
+2013 Boy Scouts of America" in the footer; the Google Business Profile still lists the organization as
+"Sagamore Council - Boy Scouts of America"; and your X/Twitter account still uses the old round BSA
+avatar.
 
 Scouting America's own *Digital Renaming Guidance* asks that council websites be updated no later than
 **February 8, 2025**, and that new domains not contain "bsa."
@@ -151,16 +164,23 @@ Google is writing your search snippets for you. There are no Open Graph tags, wh
 to Facebook appear as bare URLs with no image or description. No page title contains Kokomo, Lafayette,
 Logansport or Indiana. One of the two sitemaps is empty; the other was generated in May 2014.
 
-What we saw when we searched (these were checked by hand rather than captured, so they are worth
-re-running yourself):
+We re-ran these searches properly on 7 August, and the news is better than our first pass suggested.
+**You rank well on your own name and on your programs:**
 
-- "scouts Logansport Indiana" does not surface the council at all
-- "cub scouts Lafayette Indiana" returns four individual packs, on free platforms, above the council in
-  its own second-largest city
-- "boy scouts Kokomo Indiana" returns eight results above the council
+| Search | Where you appear |
+|---|---|
+| sagamore council | Homepage, **#1** |
+| sagamore council join | Your `/join/` page, **#1** |
+| boy scouts lafayette indiana | Your `/join/` page, **#2** |
+| cub scouts lafayette indiana | Your Cub Scouts page, **#1** |
+| **how much does scouting cost** | **You do not appear at all** |
 
-The encouraging read is that nobody is competing for these searches. They are open, which is why the
-fixes are cheap.
+So a parent who already knows your name finds you immediately. **The gap is the question a parent
+actually asks first.** On cost searches you are invisible, while Capitol Area, W.D. Boyce, Greater Los
+Angeles and Atlanta Area councils all rank — because each of them has published a page that answers it.
+
+This connects directly to the finding below: the cost page you do not have is also the search result you
+do not have. One page fixes both.
 
 **Adding city names to three page titles is about 15 minutes and is the single biggest search improvement
 available.** Meta descriptions for the same three pages, another 20.
@@ -208,9 +228,11 @@ text. The line directly beneath it renders correctly.*
 
 | | Minutes |
 |---|---|
-| Repoint the two beascout.org links to `https://beascout.scouting.org/` | 10 |
+| Answer the 19 unanswered comments on the 6 August membership fee post | 10 |
 | Point the "Join Scouting" menu item at your own `/join/` page | 10 |
 | Remove the `chrome-extension//` prefix from the New Parents link | 5 |
+| Add alt text to the two images on `/join/` | 5 |
+| Update the two `http://www.beascout.org` links to `https://beascout.scouting.org/` (they redirect and work today, but the old address is unencrypted) | 10 |
 | Change the logo alt text | 2 |
 | Update the footer trademark line | 5 |
 | Delete the AmazonSmile paragraph | 5 |
