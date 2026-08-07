@@ -5,7 +5,28 @@
 > Constraints it is built against: **$0 marketing budget, organic only, one person posting, ~30 min/day
 > in 10-minute blocks across ~6 pages** (Bryon, Jul 20 call).
 
-## ⚠ Reconciled against the social audit, same night — read this first
+## ⚠ CORRECTED 2026-08-07 — the reweighting below was built on a finding that did not survive
+
+**Read this before the banner underneath it.** `audit-verification-pass-2026-08-07.md` re-ran the
+numbers in a signed-in browser and **killed the "named human" half of the finding this file's
+priority order rests on.** What actually holds up:
+
+- **The link penalty is real and brutal, confirmed.** Across 20 posts, all five carrying an external
+  link scored 1, 1, 2, 4 and 11.
+- **The "named human" half is dead.** A photo full of Scouts scored **5**, while two person-free
+  posts scored **29** and **56**.
+- **What actually performs:** live recaps of things that happened (Jamboree Day 5 = **279**), people
+  news (new District Executive = 69/22/8), and service information (fee update = 29/19/26).
+- **Event promotion is 25% of his output and among the worst-performing content he makes**
+  (Trade-O-Ree 7, Eagle Reception 2). That is a calendar-mix problem worth telling him about, and
+  it does not change what this pipeline is for.
+
+**Net effect on this file: the graphics pipeline is worth MORE than the banner below claims, not
+less.** Person-free graphics are not the dead format the original read assumed. Build the two
+templates. Keep the no-link rule, keep the Reels recommendation, drop the "named human" framing.
+
+<details>
+<summary>Original 2026-08-04 banner, superseded — kept for the reasoning trail</summary>
 
 `sagamore-social-audit-2026-08-04.md` landed after this file was written and it **reweights the whole
 thing.** Measured on his own page, in his own last four days: posts with a named human and no link got
@@ -21,6 +42,8 @@ high-performing half is a phone camera and a person's name, and it needs no tool
 **Correct order of work: (1) one raw vertical Reel at every event he already attends, (2) the weekly
 "Friday Name" post plus replying to commenters by name, (3) this pipeline for the graphics that remain.**
 The audit's three-thing list runs under 45 minutes a week and none of it needs Canva.
+
+</details>
 
 ## The problem with the calendar as it stands
 

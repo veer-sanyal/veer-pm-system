@@ -1,3 +1,9 @@
+> **HISTORICAL — the meeting ran Fri 2026-08-07 and was debriefed the same session.**
+> Outcome lives in `ledgers.md` (Bryon entry + the new externship-teammates entry) and memory.md tripwire 1.
+> Two headline flags below were retired by `audit-verification-pass-2026-08-07.md` before the call:
+> the join-link 403 was a headless bot-block, and "a parent searching cannot find the join path" was false.
+> The Eagle-photo consent flag did NOT get raised and is still open.
+
 # Externship team meeting — prep, Fri 2026-08-07
 
 **6:30–7:30 PM ET · 5:30 PM your local (Riviera Maya) · 3:30 PM PT · Teams**
