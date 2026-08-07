@@ -88,10 +88,17 @@ Its "New Parents, Click HERE" link also has a stray prefix in it (`chrome-extens
 when a URL gets copied out of a PDF viewer. That link is currently dead for every visitor. The fix is
 deleting the first 52 characters.
 
-![The join page](audit-screenshots/web-07-join-page.png)
+![The join page on desktop](audit-screenshots/v2-web-desktop-join-page.png)
 
-*The join page. The button is well above the fold and the photograph shows real children, including a
-girl at the front. Nothing on the site links here.*
+*The join page on a computer, captured 7 August. The button is well above the fold, the photograph shows
+real children including a girl at the front, and the copy welcomes the whole family. This is the best
+page you have, and nothing on the site links to it.*
+
+![The homepage on desktop](audit-screenshots/v2-web-desktop-homepage.png)
+
+*And this is the homepage on the same screen. Compare the two: Donate is visible top-right here, and the
+navigation offers "JOIN SCOUTING" — but that menu item leaves for the national site rather than going to
+the page above.*
 
 **Pointing the menu at your own join page, plus that link fix, is about 15 minutes and is probably the
 highest-value quarter hour available on the site.**
@@ -224,6 +231,12 @@ available.** Meta descriptions for the same three pages, another 20.
   white text on mid-blue at a contrast ratio of 3.1 to 1. The accessibility standard for text that size
   is 4.5 to 1. Legible in good light, hard in sunlight or for anyone with reduced vision, which matters
   for parents reading on a phone outdoors. Darkening the blue fixes all four at once, about 20 minutes.
+
+![The sidebar buttons](audit-screenshots/web-11-cta-contrast.png)
+
+*The four buttons in question. The blue is a little too light behind white text — a small darkening fixes
+every one of them at once.*
+
 - **Mobile menu.** The menu control is built as a heading rather than a button, so it cannot be opened
   with a keyboard at all. Homepage event links are 19 pixels tall, below Apple's and Google's guidance
   for tap targets.

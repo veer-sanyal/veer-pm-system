@@ -177,6 +177,11 @@ they care about Scouting. In public. Unprompted.
 We could not find a reply from the page on any of them. On LinkedIn it is absolute: five posts, zero
 comments, over ten months.
 
+![LinkedIn](audit-screenshots/soc-05-linkedin.png)
+
+*The LinkedIn page. Five posts over ten months and not a single comment on any of them — worth seeing
+because it is the clearest picture of a channel running with nobody on the other end of it.*
+
 That is a Friends of Scouting list identifying itself, and it is currently scrolling past.
 
 **And there is a second, more urgent version of this.** Your **6 August membership fee update** drew 29
@@ -207,6 +212,11 @@ Peshewa 332, Wood Badge 100. The shares produced **four reactions and three comm
 Between those shares, several of the pages are posting other organizations' content, and one has posted the
 same link three times in a week, twice with no text at all, which is the lowest-performing thing it is
 possible to post.
+
+![Takachsin Lodge posting bare links](audit-screenshots/soc-07-takachsin-bare-url.png)
+
+*Takachsin Lodge. The same registration link posted repeatedly, twice with no words above it at all. A
+bare URL gives a reader no reason to stop scrolling and gives Facebook nothing to show anyone else.*
 
 The exception is **Cary Camp**, which is the best-written page in the family and appears to be run
 locally: *"Huge shoutout to Owen Babiak for mowing at camp today while I worked on maintenance items -
@@ -293,8 +303,14 @@ Facebook, and leaving it there. Ten minutes.
 - The Jamboree sign-up and an expired Camp Buffalo RSVP are the top two items on your Linktree
 - The Peshewa District page has no username, so it cannot easily be found or linked to
 - Your Facebook page's website field uses `http://` rather than `https://`
-- A public YouTube video is titled "2026 Popcorn Training Raw Video"
+- A public YouTube video is titled "2026 Popcorn Training Raw Video" — see below
 - Facebook lists sagamorecouncil.org while X and LinkedIn list sagamorebsa.org; worth picking one
+
+![YouTube channel](audit-screenshots/soc-03-youtube-channel.png)
+
+*The YouTube channel. It is working as a training archive rather than a public channel, which is a
+reasonable use — the only thing to change is the titles, since "2026 Popcorn Training Raw Video" is
+public and reads as unfinished to anyone who lands on it.*
 
 **Clearing most of this is one thirty-minute sitting.**
 

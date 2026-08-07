@@ -10,6 +10,12 @@ browser.
 **Save each one into `networking/audit-screenshots/` with the filename given.** Then tell me and I will
 wire them into the audits with captions.
 
+**Where things stand without them.** The website review carries **12 images** and every claim in it that
+can be photographed now is. The social review carries **8**, and it is the one with holes — the six below
+are all Facebook, and Facebook is where its strongest findings live. Until they land, the Reels numbers,
+the fee-post comments, the follower counts and the satellite-page figures are stated as numbers we read
+rather than shown. That is honest but weaker, and the fee-post one especially deserves the picture.
+
 ---
 
 ## The redaction rule, before you shoot anything
