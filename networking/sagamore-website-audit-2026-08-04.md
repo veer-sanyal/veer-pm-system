@@ -70,7 +70,7 @@ dead domain is in the prose as well as the button. Meanwhile the top nav points 
 `https://beascout.scouting.org/`, which works. **The working path and the dead path coexist on the same
 site.** Highest-intent click, dead, no recovery. **10 min.**
 
-![CloudFront 403](audit-screenshots/web-05-beascout-403.png)
+![CloudFront 403](audit-screenshots/WRONG-web-05-beascout-403-was-a-botblock.png)
 *`web-05` — what a parent gets after tapping CLICK HERE TO JOIN NOW.*
 
 ![Cub Scouts pricing](audit-screenshots/web-06-cubscouts-price.png)

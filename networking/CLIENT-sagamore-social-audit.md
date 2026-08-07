@@ -223,9 +223,11 @@ hours a month.
 
 ## 5. Your only clickable link offers no way to join and no way to give
 
-![Your Linktree](audit-screenshots/soc-01-linktree.png)
+![Your Linktree](audit-screenshots/v2-soc-linktree.png)
 
-*Your Linktree in full, captured 4 August. Everything on it fits in this frame.*
+*Your Linktree in full, captured 7 August. Everything on it fits in this frame. Read the first two items
+in order: an RSVP for an event that has passed, then a Jamboree sign-up. Then look for a way to join, or
+a way to give.*
 
 The single link on your Instagram profile goes to a Linktree containing, in this order: a Camp Buffalo
 80th Anniversary RSVP that has passed, a **National Jamboree sign-up**, Jamboree information, your
@@ -244,17 +246,25 @@ a five-minute check on the first Monday of the month.
 
 ## 6. Instagram and X
 
-![X profile](audit-screenshots/soc-02-x-old-logo.png)
+![X profile](audit-screenshots/v2-soc-x-profile.png)
 
-*Your X profile. The cover image is current; the profile picture is still the previous Boy Scouts of America logo.*
+*Your live X account, @SagamoreCouncil, captured 7 August. The cover image is current; the profile
+picture is still the previous Boy Scouts of America logo.*
+
+![The footer link](audit-screenshots/v2-soc-x-footer-link-404.png)
+
+*And this is where the Twitter link in your website footer goes. It points at `@SagamoreBSA`, a handle
+that does not exist, so every visitor who clicks it lands here rather than on the account above.*
 
 **Instagram** has not posted since January 18. The profile name reads "SagamoreBSA" and the bio is
 "Prepared. For Life." and nothing else, so a parent cannot tell what the organization is, who it serves,
 or where it operates. The grid includes a tile reading "PROMO COMING SOON!"
 
-![Instagram profile](audit-screenshots/soc-04-instagram-profile.png)
+![Instagram profile](audit-screenshots/v2-soc-instagram-profile.png)
 
-*The Instagram profile as a visitor sees it: the name reads SagamoreBSA, the bio is "Prepared. For Life." and nothing more, and the "PROMO COMING SOON!" tile sits in the grid.*
+*The Instagram profile as a visitor sees it, captured 7 August: 59 posts, 179 followers, the name reads
+SagamoreBSA, and the bio is "Prepared. For Life." and nothing more — no town, no county, no indication of
+what the organization does or who it serves.*
 
 **Our honest recommendation is to park it properly rather than try to revive it.** At 179 followers, a
 typical nonprofit post there earns well under one interaction. The wider pattern supports this: 31% of

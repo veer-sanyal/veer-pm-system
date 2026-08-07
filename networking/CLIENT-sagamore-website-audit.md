@@ -2,9 +2,13 @@
 
 **Prepared by the Purdue Daniels externship team | August 2026**
 Reviewed sagamorebsa.org on desktop and at phone width, since most parents will arrive on a phone.
-Screenshots were captured 4 August 2026. Every measurement and search result below was **re-checked on
+Screenshots are dated where they appear. Every measurement and search result below was **re-checked on
 7 August 2026** in a normal signed-in browser; a handful of first-pass findings did not survive that
 check and have been removed rather than softened.
+
+One address note that matters if you go looking: your homepage answers at `sagamorebsa.org`, but every
+interior page lives under **`sagamorebsa.org/htdocs/wordpress/`**. So `sagamorebsa.org/join/` is a hard
+404, while `sagamorebsa.org/htdocs/wordpress/join/` is your real join page.
 
 ---
 
@@ -20,10 +24,15 @@ parent can and cannot find.
 | The nearest pack or troop | Not named anywhere on the site |
 | When it meets | Not stated anywhere on the site |
 
-![The site on a phone](audit-screenshots/web-02-mobile-homepage-fold.png)
+![The site on a phone](audit-screenshots/v2-web-mobile-homepage-fold.png)
 
-*The homepage as it appears on a phone. Below the header: a menu button, a second copy of the logo, then
-"Fun Things Happening in Sagamore Council" and a list of event links.*
+*The homepage at phone width, captured 7 August. Below the header: a menu button, then "Fun Things
+Happening in Sagamore Council" and a list of event links. No route to joining, and no cost.*
+
+![The whole homepage on a phone](audit-screenshots/v2-web-mobile-homepage-full.png)
+
+*The same page, full length. This is where the Donate button lives — 4,384 pixels down a 5,599-pixel
+page, about five and a half phone screens from the top.*
 
 One measurement worth sitting with: **at phone width, the word "join" appears nowhere on the homepage
 until a parent taps the Menu button.** The word is in the page, but the navigation is hidden below 600
@@ -44,9 +53,21 @@ The main content of `/join/` is a single 768 × 1024 image file (`Cub-Scouts-Roc
 text**. Everything written on that flyer — the invitation, the details, the reasons to sign up — exists
 only as pixels.
 
+![The join page on a phone](audit-screenshots/v2-web-mobile-join-page.png)
+
+*Your join page at phone width, captured 7 August. The "CLICK HERE TO JOIN NOW!" button is well placed
+and above the fold. Everything below it is the image file — and as far as Google and a screen reader are
+concerned, that space is empty.*
+
+This is the actual markup on the page:
+
+```html
+<img width="768" height="1024" src=".../Cub-Scouts-Rocks-768x1024.jpg" alt="" />
+```
+
 That has two consequences. **Google cannot read a word of it**, which is a large part of why the best
 page on your site does not pull its weight in search. And **a parent using a screen reader gets nothing
-at all**: both images on the page have empty alt attributes, so the page is effectively blank to them.
+at all**: both images on the page carry `alt=""`, so the page is effectively blank to them.
 
 The fix is not to remove the flyer. It is to type the flyer's words onto the page as ordinary text
 underneath it, and to describe the image in its alt text.
@@ -83,6 +104,11 @@ What a parent does find on the Cub Scouts page is **"$225 early bird price runs 
 normal price after June 2nd"** for an optional day camp. A parent reading that page concludes Cub Scouts
 costs $225 to $250.
 
+![The Cub Scouts page](audit-screenshots/v2-web-desktop-cubscouts-price.png)
+
+*The Cub Scouts page, captured 7 August. These are the only two dollar figures anywhere on the site, and
+they are for an optional summer camp — but they are the only price a prospective parent will ever meet.*
+
 Cost is usually the first question a parent asks, and right now the site either does not answer it or
 answers it with a number several times too high. For comparison, Atlanta Area Council states that pack
 dues "typically range from $40 to $85 annually, and more depending on the level of adventure activities."
@@ -105,7 +131,7 @@ that $225 is an optional camp. Most of the hour is confirming the current counci
 
 ## Branding
 
-![The header on a phone](audit-screenshots/web-01-mobile-header-overlap.png)
+![The header on a phone](audit-screenshots/v2-web-mobile-header.png)
 
 *The header at phone width. The patch image overlaps the wordmark and cuts it off mid-word.*
 
@@ -181,6 +207,11 @@ Angeles and Atlanta Area councils all rank — because each of them has publishe
 
 This connects directly to the finding below: the cost page you do not have is also the search result you
 do not have. One page fixes both.
+
+*(No screenshots for this section, deliberately. Search engines serve automated browsers a challenge page
+instead of results, and the machine we captured from geolocates outside Indiana, which would skew any
+local result anyway. These positions were read by hand. They are worth thirty seconds of your own
+re-checking, from your own computer, before you act on them.)*
 
 **Adding city names to three page titles is about 15 minutes and is the single biggest search improvement
 available.** Meta descriptions for the same three pages, another 20.
@@ -258,6 +289,12 @@ line.
 ---
 
 ## Two things worth checking that we could not
+
+![Where your join links land](audit-screenshots/v2-web-beascout-resolves.png)
+
+*Where your "CLICK HERE TO JOIN NOW!" button lands, captured 7 August. It works — the old `beascout.org`
+address redirects correctly to the current one. An earlier draft of this review reported it as broken;
+that was our testing tool being blocked, not your link, and we have removed the claim.*
 
 **The BeAScout unit search.** We did not submit a ZIP search, so we do not know whether packs actually
 appear for Kokomo, Lafayette and Logansport, or whether the pins, meeting times and contacts are current.

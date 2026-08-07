@@ -6,7 +6,9 @@
 
 **Two tooling limits found here, worth carrying forward:**
 - `resize_window` reports success and does nothing when the Chrome window is maximized on macOS. It failed identically with one agent and with two. **A "mobile" number obtained by trusting that success message is a desktop number.** The workaround that does work: a same-origin iframe at 375x812, verified with `innerWidth` and `matchMedia('(max-width:600px)')` before trusting any measurement.
-- `save_to_disk: true` returned capture IDs and wrote no files, on all three runs. **This pass produced no screenshot files.** The Aug-4 screenshots in `audit-screenshots/` are still the only images on disk, and several of them illustrate claims this pass has killed.
+- `save_to_disk: true` returned capture IDs and wrote no files, on all three runs of the MCP browser. **Resolved a different way:** `tools/capture-audit-screenshots.sh` drives headless Chrome directly and writes real files, which is how the Aug-4 images were made in the first place. Thirteen `v2-` captures now back the public claims. What headless cannot reach — Facebook behind its login wall — is listed in `MANUAL-SHOT-LIST.md` for Veer to shoot himself. **Do not solve that by loading a browser profile; cookie stores are credentials.**
+- **`web-05-beascout-403.png` has been renamed `WRONG-web-05-beascout-403-was-a-botblock.png`.** It is a picture of our own tooling being blocked, it was sitting in the evidence folder under a name that invited reuse, and a false image is more dangerous than a false sentence because nobody argues with a screenshot.
+- **The capture script found a real defect on its first run:** `sagamorebsa.org/join/` is a hard 404. Every interior page is served from `sagamorebsa.org/htdocs/wordpress/`. The web-root misconfiguration was already noted as a low-priority item; it turns out to also mean the obvious URL for the join page does not resolve.
 
 ---
 
