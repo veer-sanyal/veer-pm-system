@@ -101,10 +101,6 @@ August 1, and it worked again. Your last five council posts:
 | World Scarf Day + shop link | **10** | 0 | 5 |
 | Jamboree Day 10, photos, five named leaders | 77 | 1 | 1 |
 
-![Three consecutive posts on the council page](audit-screenshots/soc-06-facebook-embed.png)
-
-*Three consecutive posts on your page, captured 4 August, and the clearest picture of the link penalty we found. Welcoming your new District Executive: 44 likes, 18 comments, 8 shares. Then the Cub Scout activities post carrying a registration link: 2 likes, no comments, 2 shares. Then the Eagle Scout prompt: 48 likes, 8 comments, 27 shares. The post with the link sits between two that do not have one and takes a twentieth of the engagement. (These counts are likes only, which is why they sit below the all-reactions figures in the table above.) The photographs render as black boxes here because of how the preview loads images, not because anything is wrong with the posts.*
-
 Looking at twenty posts rather than five sharpens this, and it is worth being precise because the precise
 version is more useful to you.
 
@@ -182,11 +178,6 @@ they care about Scouting. In public. Unprompted.
 We could not find a reply from the page on any of them. On LinkedIn it is absolute: five posts, zero
 comments, over ten months.
 
-![LinkedIn](audit-screenshots/soc-05-linkedin.png)
-
-*The LinkedIn page. Five posts over ten months and not a single comment on any of them — worth seeing
-because it is the clearest picture of a channel running with nobody on the other end of it.*
-
 That is a Friends of Scouting list identifying itself, and it is currently scrolling past.
 
 **And there is a second, more urgent version of this.** Your **6 August membership fee update** has drawn
@@ -229,11 +220,6 @@ Peshewa 332, Wood Badge 100. The shares produced **four reactions and three comm
 Between those shares, several of the pages are posting other organizations' content, and one has posted the
 same link three times in a week, twice with no text at all, which is the lowest-performing thing it is
 possible to post.
-
-![Takachsin Lodge posting bare links](audit-screenshots/soc-07-takachsin-bare-url.png)
-
-*Takachsin Lodge. The same registration link posted repeatedly, twice with no words above it at all. A
-bare URL gives a reader no reason to stop scrolling and gives Facebook nothing to show anyone else.*
 
 The exception is **Cary Camp**, which is the best-written page in the family and appears to be run
 locally: *"Huge shoutout to Owen Babiak for mowing at camp today while I worked on maintenance items -
@@ -287,11 +273,9 @@ that does not exist, so every visitor who clicks it lands here rather than on th
 "Prepared. For Life." and nothing else, so a parent cannot tell what the organization is, who it serves,
 or where it operates. The grid includes a tile reading "PROMO COMING SOON!"
 
-![Instagram profile](audit-screenshots/v2-soc-instagram-profile.png)
-
-*The Instagram profile as a visitor sees it, captured 7 August: 59 posts, 179 followers, the name reads
-SagamoreBSA, and the bio is "Prepared. For Life." and nothing more — no town, no county, no indication of
-what the organization does or who it serves.*
+*(No screenshot: Instagram serves logged-out visitors a sign-up wall over a dimmed grid, so any capture
+shows the wall rather than your profile. The figures above are read from the live page — check them at
+[instagram.com/sagamorebsa](https://www.instagram.com/sagamorebsa/).)*
 
 **Our honest recommendation is to park it properly rather than try to revive it.** At 179 followers, a
 typical nonprofit post there earns well under one interaction. The wider pattern supports this: 31% of

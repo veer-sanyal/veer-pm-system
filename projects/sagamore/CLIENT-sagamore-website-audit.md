@@ -93,10 +93,8 @@ http://chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://scoutingevent
 
 That link is dead for every visitor. The fix is deleting the first 52 characters.
 
-![What the New Parents link does](audit-screenshots/v2-web-deadlink-chrome-extension.png)
-
-*What a parent gets when they click "New Parents, Click HERE" — the browser tries to resolve
-"chrome-extension" as a website, because that prefix was never meant to be part of the address.*
+Clicking it produces a browser error, because "chrome-extension" is not a website and never was — the
+prefix belongs to a PDF reader extension and was carried along when the address was copied.
 
 ![The join page on desktop](audit-screenshots/v2-web-desktop-join-page.png)
 
@@ -152,11 +150,11 @@ that $225 is an optional camp. Most of the hour is confirming the current counci
 
 *The header at phone width. The patch image overlaps the wordmark and cuts it off mid-word.*
 
-At phone width the council patch image **overlaps the "Scouting America / Sagamore Council" wordmark**,
-covering part of it. To be precise about what this is and is not: the largest visible text in the header
-is still "Sagamore Council," and "BOY SCOUTS OF AMERICA" appears only as small curved text inside the
-patch itself. The header is not shouting the old name at parents. It is simply broken-looking on the
-device most of them use.
+At phone width the council patch image **crowds the "Scouting America / Sagamore Council" wordmark** and
+is itself cut off by the edge of the screen. To be precise about what this is and is not: the largest
+text in the header is **"Scouting America"**, with "Sagamore Council" in red beneath it, and "BOY SCOUTS
+OF AMERICA" appears only as small curved text around the patch. The header is not shouting the old name
+at parents. It is simply untidy on the device most of them use.
 
 The renaming issue is real, but it lives elsewhere: the main logo's alt text still reads **"Boy Scouts of
 America,"** which is exactly what Google and screen readers see; all 28 content pages carry "Trademark
@@ -218,10 +216,14 @@ text.*
 
 ## Being found on Google
 
-The site currently gives search engines very little to work with. There are no meta descriptions, so
-Google is writing your search snippets for you. There are no Open Graph tags, which is why links you post
-to Facebook appear as bare URLs with no image or description. No page title contains Kokomo, Lafayette,
-Logansport or Indiana. One of the two sitemaps is empty; the other was generated in May 2014.
+The site currently gives search engines very little to work with. We crawled 41 pages: **40 of them have
+no meta description**, so Google is writing your search snippets for you. There are no Open Graph tags,
+which is why links you post to Facebook appear as bare URLs with no image or description. No page title
+contains Kokomo, Lafayette, Logansport or Indiana. One of the two sitemaps is empty; the other was
+generated in May 2014. And **31 of the 41 pages still contain `http://` links**, which browsers
+increasingly flag.
+
+The single hardest number from that crawl: **not one of the 41 pages links to your join page.**
 
 We re-ran these searches properly on 7 August, and the news is better than our first pass suggested.
 **You rank well on your own name and on your programs:**
@@ -258,10 +260,6 @@ available.** Meta descriptions for the same three pages, another 20.
   is 4.5 to 1. Legible in good light, hard in sunlight or for anyone with reduced vision, which matters
   for parents reading on a phone outdoors. Darkening the blue fixes all four at once, about 20 minutes.
 
-![The sidebar buttons](audit-screenshots/web-11-cta-contrast.png)
-
-*The four buttons in question. The blue is a little too light behind white text — a small darkening fixes
-every one of them at once.*
 
 - **Mobile menu.** The menu control is built as a heading rather than a button, so it cannot be opened
   with a keyboard at all. Homepage event links are 19 pixels tall, below Apple's and Google's guidance
@@ -280,7 +278,7 @@ the "new." loads fine, so this is a five-character fix.*
   Contact Us, the Camp Ranger line renders as visible broken code and exposes a staff email in plain
   text; the same pattern appears on ten pages. One district executive phone number uses a Tennessee area
   code and may be a typo. About 30 minutes for all of these.
-- **Images.** 39 of 44 images have no alt text. The homepage contains no photographs of young people at
+- **Images.** We crawled 41 pages: **166 of 248 images carry no alt text — two thirds of them.** The homepage contains no photographs of young people at
   all: every image is a logo, an icon or an event graphic. The Scouts BSA page's only real photograph is
   from 2012. The University of Scouting graphic has its date, venue and sponsors baked into the image, so
   none of that text is searchable or readable by a screen reader.
