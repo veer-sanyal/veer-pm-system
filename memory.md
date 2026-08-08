@@ -3,15 +3,14 @@
 > Keep it a snapshot (~1,500 words max): closed items compress to one line; the story is already in PROGRESS.md.
 > The session-start hook now measures this. If it prints a SIZE line, compressing is the session's first move.
 
-**Last reconciled: 2026-08-07 (Fri) ~13:00 PT — FULL.** Sources: stick-dev git + STATE.md, Calendar (Aug 1–10), Gmail, Neal's feed, WhatsApp via Chrome. Prior reconciles (Aug 5, Aug 6) and the full delta narrative: `PROGRESS.md` entries of those dates. Live deltas:
+**Last reconciled: 2026-08-08 (Sat) ~16:30 PT — FULL.** Sources: stick-dev git + STATE.md, Calendar, Gmail (drafts/inbound/LinkedIn), Neal's feed, WhatsApp via Chrome (iMessage blind — Full Disk Access still not actually granted despite README "Status: ON"). Prior reconciles (Aug 5–7) and full delta narrative: `PROGRESS.md`. Live deltas:
 
-- **STICK's code ratio is real and the gate is still shut.** 170 commits Aug 5–7, 52 touching `app/` (123/741 all-time) — ~31% product code, the best sustained stretch measured, against a Jul-16 baseline of 1/250. STATE.md phase is **"TESTING / TUNING (D327), not pilot production"**; dev DB reads **verified 14 · topics 36 · live 0 · attempts 0 · enrollments 0**. Extraction accuracy 52/54 is an automated scorer over a test corpus. **Day 12, zero humans.** The pattern changed shape, not outcome: effort now routes to *tuning*, and owner-verify still stands in for a student.
-- **stick-spec CI is RED on master** (~22 failure/cancel emails Aug 6–7). Recurrence of the July 8-build streak. stick-dev's to fix; a red master during "testing/tuning" is the wrong combination.
-- **Two stale Bryon drafts still sit in Gmail Drafts** (`r-2984936810873573256`, `r1375487513162206080`, both Aug 4, "Scouting America meeting" thread), superseded by the Outlook send Bryon praised. **Kill both, send neither.**
-- **Build window ends Aug 22, not Aug 24** — Alaska flight to Indianapolis confirmed Sat Aug 22, against classes ~Aug 24.
-- **Inbound empty across every tracked thread** since Aug 6 noon. Neal's feed: 28 roles, 2 new, neither earns a row.
-- **Calendar structurally unchanged:** Aug 3–8 and Aug 10 are the bare recurring template, no Morning Briefings. The Sun Aug 9 4:00 PM planning block stands. W5 was never planned and is now over — Sunday's data, not a mid-week fix.
-- **Diagnostic worth keeping:** Documents-ok + Desktop-denied + Downloads-denied is the macOS TCC signature, not a git or chmod problem. It blinds stick-dev reads too, so a reconcile in that state is not a real reconcile. (Incident Aug 7, resolved.)
+- **STICK phase moved to "TWO WEEKS TO A DEMO."** 62 commits since Aug 7 13:00; `app/` ratio stable at 139/851 (16.3%, was 123/741). **D362: first real exam ingested** (2024fa-exam1-v11.pdf) — 12/12 questions, zero Unclassified, 100% extraction confidence, all 12 verified against the published answer key. Real progress, still **zero humans** — the gate (tripwire 0) is unmoved.
+- **Neal's feed: 32 roles, 6 new since Aug 7** — Infineon (El Segundo), Mobility Global (Southfield MI), Threekit (Chicago), Audible, 2x TikTok "AI Agent PM Intern" (San Jose, one explicitly Summer 2027). All need term/degree verification before earning a `key-dates.md` row; none auto-added. Handed to Veer this session.
+- **Two stale Bryon "Scouting America meeting" drafts still unsent** (`r-2984936810873573256`, `r1375487513162206080`) — still superseded, still should be killed, not sent.
+- **Inbound silent across every tracked thread** (Bryon, Sudip, Mama, Ahlawat, Naveen/Trice, Purdue, all pipeline applications) since Aug 7 13:00. No LinkedIn replies.
+- **WhatsApp (Sudip/Naveen/Mama): no new messages.** Read successfully this session, but the scan subagent flagged its own broad click-through beyond the 3 named threads — worth a tighter prompt next time, nothing sensitive surfaced in the report.
+- **One unexplained new calendar event: "Train to Washington DC," Aug 8 01:52–03:58 PT, added via Gmail import at 02:25 UTC.** Not a known travel plan — verify it's real and not a promo email auto-added; asked Veer.
 
 ---
 
