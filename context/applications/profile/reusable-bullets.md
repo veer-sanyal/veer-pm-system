@@ -30,12 +30,14 @@ metadata:
 
 **STICK (CURRENT product — default over StudyFlowForge for AI/technical roles; re-verify numbers vs `~/Desktop/stick-dev/STATE.md`):**
 > Building STICK end-to-end as sole developer: a deployed web app (React/TypeScript + Supabase) that converts course material into a daily, exam-aware spaced-retrieval study plan using bounded LLM steps rather than an open chatbot.
-> Designed an LLM extraction pipeline (Deno edge functions) that ingested a real 14-page exam into structured questions and auto-proposed 11 of 12 answer keys at ~35¢ end-to-end (n=1 dogfooding).
-> Designed the Postgres data model and data-access security — 11 migrations, 27 row-level-security policies verified by a 62/62 probe suite — and wired an FSRS spaced-repetition scheduler to per-question correctness.
+> Designed and shipped an LLM extraction pipeline (Deno edge functions) that ingested a real 14-page, 12-question exam end-to-end with 100% extraction confidence and zero manual-review fallbacks; all 12 auto-proposed answer keys matched the instructor's published key on first pass.
+> Built the full student-facing practice loop end-to-end — auth, a daily FSRS-scheduled plan, a question player with server-graded feedback, and automatic re-scheduling — verified working via an automated end-to-end test against a seeded account.
+> Designed the Postgres data model and data-access security: 46 migrations and 33+ row-level-security policies, checked by a dedicated automated RLS probe script.
 
 **Daniels Externship (CURRENT):**
 > As project manager of a 4-person consulting team, scoped and drove a communications/marketing plan for a ~$1.6M nonprofit (Scouting America, 14-county territory); ran client discovery with the COO and set the delivery timeline.
-> Translated the client's 12-month event grid into a 156-row dated posting calendar (Aug 2026–Jul 2027) across 4 content types and 5 audiences, plus a weekly cadence and a reusable Canva template system.
+> Translated the client's 12-month event grid into a 156-row dated posting calendar (Aug 2026–Jul 2027) across 4 content types and 5 audiences, plus a weekly cadence and a reusable Canva template system; delivered it Aug 4 to a client reaction of "an amazing start... unbelievable work."
+> Audited the client's Facebook and website presence with screenshots and named sources; quantified content-performance gaps (best-performing post style outscored the worst by roughly 25x) and turned them into prioritized, data-backed recommendations.
 
 **StudyFlowForge — LEGACY (superseded by STICK; use only when its shipped scope reads better than STICK's earlier stage). Full-stack:**
 > Designed and shipped 18 user-facing screens (study, analytics, onboarding) end-to-end as sole developer; defined UX flows, component library, and information architecture.

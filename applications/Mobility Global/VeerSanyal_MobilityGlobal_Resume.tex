@@ -1,0 +1,84 @@
+% Mobility Global (S&P Global Mobility) -- Product Management Intern (Early Careers), Southfield, MI
+% Tailored for a generalist early-career PM role: market/customer research, requirement
+% generation, cross-functional coordination, product documentation, GTM activities.
+% Degree line is explicitly non-technical (Business, Marketing, Economics, Data/Analytics,
+% Communications, or related field) -- lead with PM process + client/stakeholder proof, not code.
+% Compile: pdflatex VeerSanyal_MobilityGlobal_Resume.tex
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.6in,right=0.6in,top=0.55in,bottom=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\hrule\vspace{3pt}]
+\titlespacing{\section}{0pt}{6pt}{2pt}
+
+\setlist[itemize]{leftmargin=1.3em,topsep=1pt,itemsep=1pt,parsep=0pt,label=\textbullet}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\[1pt]
+  \textit{#3}\hfill \textit{#4}\\[2pt]
+}
+
+\begin{document}
+
+% ===== HEADER =====
+\begin{center}
+  {\LARGE \textbf{Veer Sanyal}}\\[3pt]
+  Sammamish, WA $\cdot$ 360-643-9424 $\cdot$ vsanyal@purdue.edu $\cdot$ linkedin.com/in/veersanyal
+\end{center}
+
+% ===== EDUCATION =====
+\section*{Education}
+\textbf{Purdue University --- Mitch Daniels School of Business}\hfill West Lafayette, IN\\[1pt]
+\textit{B.S. Integrated Business and Engineering (IBE), Expected May 2028}\hfill \textit{Aug. 2024 -- Present}
+\begin{itemize}
+  \item Integrated Business and Engineering: a selective business + engineering hybrid degree. Relevant coursework: Statistics, Engineering Design \& Project Execution, Managerial Accounting.
+\end{itemize}
+
+% ===== EXPERIENCE =====
+\section*{Experience}
+\entry{Firmly}{Remote}{Product and Engineering Intern}{Jun. 2025 -- Aug. 2025}
+\begin{itemize}
+  \item Shipped a PayPal checkout failure-recovery flow end-to-end: interviewed engineering and support to define requirements, then partnered with senior engineers and UX to launch a guided recovery experience replacing a generic error page.
+  \item Validated fixes across \textasciitilde15 high-risk payment edge cases; built and tracked product metrics (error rate, recovery rate) via server-side logging to drive data-driven decisions.
+  \item Built a repeatable QA workflow (edge-case matrix + release checklist, 20+ test cases) adopted as the team standard; authored structured handoff documentation that reduced cross-functional back-and-forth.
+\end{itemize}
+
+\entry{Purdue Daniels Summer Externship --- Scouting America (Sagamore Council)}{Remote}{Project Manager, 4-person consulting team}{Jul. 2026 -- Present}
+\begin{itemize}
+  \item Ran client discovery with the client's COO for a \textasciitilde\$1.6M nonprofit (14-county territory); scoped and set the delivery timeline for a communications/marketing plan.
+  \item Translated a 12-month event calendar into a 156-row, dated posting plan across 4 content types and 5 audiences; delivered it to the client, who called it \emph{``an amazing start... unbelievable work.''}
+  \item Audited the client's website and social presence with screenshots and named sources; quantified content-performance gaps (best-performing post style outscored the worst by roughly 25x) into prioritized, data-backed recommendations.
+\end{itemize}
+
+% ===== PROJECTS =====
+\section*{Projects}
+\entry{STICK --- AI-Powered Study Platform}{}{Independent product build, sole developer (React, TypeScript, Supabase)}{2026 -- Present}
+\begin{itemize}
+  \item Defined the product strategy for an exam-prep app -- bounded, admin-curated AI over an open chatbot -- and scoped a single-course Purdue pilot as the first real-user test.
+  \item Designed and shipped an LLM extraction pipeline that ingested a real 14-page, 12-question exam end-to-end with 100\% extraction confidence; all 12 auto-proposed answer keys matched the instructor's published key on first pass.
+  \item Built the full student-facing practice loop end-to-end -- auth, an FSRS-scheduled daily plan, and a server-graded question player -- verified working via an automated end-to-end test.
+\end{itemize}
+
+% ===== LEADERSHIP =====
+\section*{Leadership \& Activities}
+\entry{Engineering Projects in Community Service (EPICS)}{West Lafayette, IN}{Communications Officer \& Build Lead}{Aug. 2025 -- Dec. 2025}
+\begin{itemize}
+  \item Led a 7-person cross-functional team building a rotating museum billboard prototype; translated requirements into build specs and presented design tradeoffs in two formal reviews to faculty, sponsors, and museum stakeholders.
+\end{itemize}
+
+% ===== SKILLS =====
+\section*{Skills}
+\textbf{Product \& Strategy:} product strategy \& roadmaps, market \& customer research, requirement definition, product documentation, GTM activities, cross-functional coordination (eng / design)\\[2pt]
+\textbf{Data \& AI:} product performance analysis, SQL data modeling, LLM / generative-AI integration (Gemini API), Claude Code (AI-assisted development)\\[2pt]
+\textbf{Tools:} Python, HTML/CSS, Git/GitHub; Microsoft Office (PowerPoint, Excel, Word, Teams)
+
+\end{document}

@@ -6,7 +6,7 @@ metadata:
   type: user
 ---
 
-> **CURRENCY NOTE.** STICK is the live Pillar-1 product and its build state moves constantly. The authoritative source is `~/Desktop/stick-dev/STATE.md` (never mirrored into this repo). The numbers below are a point-in-time honest snapshot (last refreshed 2026-07-23) — re-verify against STATE.md before putting a fresh metric on a resume. STICK is a **from-scratch rebuild, not a rename of StudyFlowForge** (no code reused; see [[user-project-studyflowforge]], now a superseded past project).
+> **CURRENCY NOTE.** STICK is the live Pillar-1 product and its build state moves constantly. The authoritative source is `~/Desktop/stick-dev/STATE.md` (never mirrored into this repo). The numbers below are a point-in-time honest snapshot (last refreshed 2026-08-08) — re-verify against STATE.md before putting a fresh metric on a resume. STICK is a **from-scratch rebuild, not a rename of StudyFlowForge** (no code reused; see [[user-project-studyflowforge]], now a superseded past project).
 
 **STICK** — Independent product build (Pillar 1) — 2026 – Present
 *Subtitles that fit: "AI-Powered Study Platform", "AI Study App (deployed)", "Independent Product Build"*
@@ -21,14 +21,14 @@ metadata:
 
 **Headline proof bullets (defensible, quizzable):**
 - Building STICK end-to-end as sole developer: a deployed web app (React/TypeScript + Supabase) that converts course material into a daily, exam-aware spaced-retrieval study plan using bounded LLM steps rather than an open chatbot.
-- Designed and shipped an LLM extraction pipeline (Deno edge functions) that ingested a real 14-page exam into structured questions and auto-proposed 11 of 12 answer keys at ~35¢ end-to-end (n=1 dogfooding run).
-- Designed the Postgres data model and data-access security: 11 migrations and 27 row-level-security policies, verified by a 62/62 RLS probe suite.
-- Wired an FSRS spaced-repetition scheduler (`ts-fsrs`) to per-question correctness to generate each day's practice queue; built a 6-page app (auth, enroll, plan, player, admin).
+- Designed and shipped an LLM extraction pipeline (Deno edge functions) that ingested a real 14-page, 12-question college exam end-to-end with 100% extraction confidence and zero questions falling into the unclassified/manual-review path; all 12 auto-proposed answer keys matched the instructor's published key on first pass.
+- Built the full student-facing practice loop end-to-end — auth + role-gated routing, a daily plan generated from FSRS spaced-repetition scheduling, a question player with server-graded, per-choice-rationale feedback, and automatic re-scheduling on each attempt — verified working via an automated end-to-end test against a seeded account.
+- Designed the Postgres data model and data-access security: 46 migrations and 33+ row-level-security policies, checked by a dedicated automated RLS probe script.
 - Defined the product strategy — bounded, admin-curated AI over an open chatbot — and scoped a single-course Purdue pilot as the first real-user test.
 
 **Skills demonstrated:** product strategy/scoping, LLM pipeline design + prompt/step design, data modeling (Postgres), row-level-security / data-access design, React/TypeScript (built-with), Supabase/Deno edge functions (built-with), FSRS/spaced-repetition, AI-assisted development (Claude Code).
 
-**Would be INFLATION (never claim at current stage):** "piloted with students" / "users" (zero students); any retention/mastery/engagement outcome numbers; "18 screens" or "operational dashboards" (that was StudyFlowForge, not STICK); extraction accuracy as a *measured rate* (single exam, n=1); calling it "production" (it is a dev deployment).
+**Would be INFLATION (never claim at current stage):** "piloted with students" / "users" (zero students — pipeline verified against a seeded test account, not a real one); any retention/mastery/engagement outcome numbers; "18 screens" or "operational dashboards" (that was StudyFlowForge, not STICK); extraction accuracy as a *measured rate across exams* (this is one real exam, n=1 — say "one exam," never "the accuracy"); the 12/12 answer-key match as a "certification" (it's agreement between two independently-built sources, not a validated ground truth); calling it "production" (it is a dev deployment).
 
 **Tailoring notes:**
 - AI/ML/technical-PM: lead with the LLM extraction pipeline + bounded-AI product decision + data model.
