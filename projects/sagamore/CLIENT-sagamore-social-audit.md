@@ -185,21 +185,23 @@ That is a Friends of Scouting list identifying itself, and it is currently scrol
 those comments are parents asking plainly what the fee is and how renewal works. **None of them has been
 answered.**
 
-![The membership fee post](audit-screenshots/v3-soc-fb-page-full.png)
+![The membership fee post](audit-screenshots/v3-soc-fb-link-penalty.png)
 
-*Your page as it stands on 7 August. Three things are visible in this one frame. The Buffalo Stampede
-patch post at the top carries a link and has **1 reaction**. The Buffalo Stampede promo video below
-carries a YouTube link and has **1 reaction**. Between them, the membership renewal update, which carries
-no link, has **31 reactions, 19 comments and 27 shares**. And under it a parent has asked, in public,
-whether the prorated fees run through February 2028 or through 2027, a specific, answerable question,
-sitting unanswered with "View more comments" beneath it.*
+*Two consecutive posts on your page on 7 August, and the clearest picture of the link penalty we found.
+Above: the Buffalo Stampede patch post, which carries a link, at **1 reaction**. Below: the membership
+renewal update, which carries no link, at **31 reactions, 19 comments and 27 shares**. Same page, same
+audience, same week.*
+
+Under that second post, a parent has asked in public whether the prorated fees run through February 2028
+or through 2027. It is a specific, answerable question, and it is sitting there unanswered with "View
+more comments" beneath it. We have deliberately not reproduced her name or photograph here.
 
 That comment is the whole argument of this review in one place: **a parent trying to give you money and
 not being able to find out how much.**
 
 That one is not a missed list, it is a missed service moment, and it connects to something the website
 review found independently: the membership cost appears on none of your 34 web pages, and you do not
-appear at all in Google results for "how much does scouting cost," where four peer councils do. **Parents
+have anything written down for a search engine to find when a parent goes looking. **Parents
 cannot find the number on your site, cannot find it in search, so they ask you in public, and hear
 nothing.** Answering those nineteen comments is ten minutes and it is the highest-value ten minutes in
 this document.

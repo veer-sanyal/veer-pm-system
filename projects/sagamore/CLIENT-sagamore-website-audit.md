@@ -132,7 +132,7 @@ Simon Kenton Council lists the national fee and the council fee as separate line
 **This is the one finding that shows up in all three places we looked, and it is worth seeing together:**
 
 - The price is on **none** of your 34 web pages.
-- You do not appear at all on **"how much does scouting cost,"** where four peer councils do.
+- When a parent does go looking, there is nothing on your site for a search engine to return, because the answer is not written down anywhere.
 - Your **6 August Facebook post about the membership fee update drew 19 comments**, several of them
   parents asking plainly what the fee is and how renewal works, **and none of them has an answer.**
 
@@ -234,14 +234,15 @@ We re-ran these searches properly on 7 August, and the news is better than our f
 | sagamore council join | Your `/join/` page, **#1** |
 | boy scouts lafayette indiana | Your `/join/` page, **#2** |
 | cub scouts lafayette indiana | Your Cub Scouts page, **#1** |
-| **how much does scouting cost** | **You do not appear at all** |
 
-So a parent who already knows your name finds you immediately. **The gap is the question a parent
-actually asks first.** On cost searches you are invisible, while Capitol Area, W.D. Boyce, Greater Los
-Angeles and Atlanta Area councils all rank, because each of them has published a page that answers it.
+**Search is not your problem.** A parent who knows your name, or who searches for Scouting in Lafayette,
+finds you at the top. We are not going to dress that up as a weakness.
 
-This connects directly to the finding below: the cost page you do not have is also the search result you
-do not have. One page fixes both.
+One thing worth noticing in that table, though. The query you rank #2 on is **"boy scouts lafayette
+indiana"**, using the name you are moving away from. As parents increasingly search "scouting america" or
+just "cub scouts near me", the phrase your pages are strongest on is the one that is being retired. That
+is an argument for putting **"Scouting America"** and your town names into your page titles, which
+currently contain neither.
 
 *(No screenshots for this section, deliberately. Search engines serve automated browsers a challenge page
 instead of results, and the machine we captured from geolocates outside Indiana, which would skew any
