@@ -1,0 +1,454 @@
+<title>Sagamore Council Website Review</title>
+<style>
+  :root{
+    --paper:#FAF7F1; --card:#FFFFFF; --ink:#16232B; --ink-2:#3C4A50;
+    --muted:#6E7C79; --rule:#E2DCD1;
+    --forest:#2E5A4B; --forest-soft:#EAF1ED;
+    --amber:#B5661F; --amber-soft:#FBF0E4;
+    --rust:#9E2B20; --rust-soft:#FBEAE7;
+    --shadow:0 1px 2px rgba(22,35,43,.05), 0 8px 24px -12px rgba(22,35,43,.18);
+    --display:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    --body:system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+    --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --paper:#121A1E; --card:#1A2429; --ink:#E9EEEB; --ink-2:#B4C0BC;
+      --muted:#8C9A96; --rule:#2A363B;
+      --forest:#7FBBA3; --forest-soft:#1B2A26;
+      --amber:#E0A264; --amber-soft:#2A2119;
+      --rust:#E28A7E; --rust-soft:#2C1D1B;
+      --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#121A1E; --card:#1A2429; --ink:#E9EEEB; --ink-2:#B4C0BC;
+    --muted:#8C9A96; --rule:#2A363B;
+    --forest:#7FBBA3; --forest-soft:#1B2A26;
+    --amber:#E0A264; --amber-soft:#2A2119;
+    --rust:#E28A7E; --rust-soft:#2C1D1B;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+  :root[data-theme="light"]{
+    --paper:#FAF7F1; --card:#FFFFFF; --ink:#16232B; --ink-2:#3C4A50;
+    --muted:#6E7C79; --rule:#E2DCD1;
+    --forest:#2E5A4B; --forest-soft:#EAF1ED;
+    --amber:#B5661F; --amber-soft:#FBF0E4;
+    --rust:#9E2B20; --rust-soft:#FBEAE7;
+    --shadow:0 1px 2px rgba(22,35,43,.05), 0 8px 24px -12px rgba(22,35,43,.18);
+  }
+
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+       font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:60rem;margin:0 auto;padding:0 1.5rem 6rem}
+  a{color:var(--forest);text-underline-offset:3px}
+  a:focus-visible,summary:focus-visible{outline:2px solid var(--forest);outline-offset:3px;border-radius:3px}
+
+  /* ---------- masthead ---------- */
+  .masthead{border-bottom:1px solid var(--rule);padding:3.5rem 0 2rem;margin-bottom:2.5rem}
+  .eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
+           color:var(--muted);margin:0 0 1rem}
+  h1{font-family:var(--display);font-weight:600;font-size:clamp(2.1rem,5vw,3.1rem);
+     line-height:1.08;margin:0 0 1rem;text-wrap:balance;letter-spacing:-.01em}
+  .standfirst{font-size:1.16rem;color:var(--ink-2);margin:0;max-width:38em;text-wrap:pretty}
+
+  /* ---------- counters ---------- */
+  .counters{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));gap:1px;
+            background:var(--rule);border:1px solid var(--rule);border-radius:10px;
+            overflow:hidden;margin:2.5rem 0 3rem}
+  .counter{background:var(--card);padding:1.1rem 1.2rem}
+  .counter b{display:block;font-family:var(--display);font-size:1.9rem;line-height:1;
+             font-variant-numeric:tabular-nums;margin-bottom:.35rem}
+  .counter span{font-size:.8rem;color:var(--muted);line-height:1.35;display:block}
+
+  /* ---------- sections ---------- */
+  h2{font-family:var(--display);font-weight:600;font-size:1.7rem;margin:3.5rem 0 .5rem;
+     letter-spacing:-.005em;text-wrap:balance}
+  .section-note{color:var(--muted);font-size:.95rem;margin:0 0 1.75rem;max-width:44em}
+
+  /* ---------- finding cards ---------- */
+  .finding{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--muted);
+           border-radius:8px;padding:1.5rem 1.6rem;margin-bottom:1.25rem;box-shadow:var(--shadow)}
+  .finding.critical{border-left-color:var(--rust)}
+  .finding.warn{border-left-color:var(--amber)}
+  .finding.ok{border-left-color:var(--forest)}
+  .fhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:.6rem;margin-bottom:.6rem}
+  .chip{font-family:var(--mono);font-size:.68rem;letter-spacing:.09em;text-transform:uppercase;
+        padding:.24rem .55rem;border-radius:4px;white-space:nowrap}
+  .chip.critical{background:var(--rust-soft);color:var(--rust)}
+  .chip.warn{background:var(--amber-soft);color:var(--amber)}
+  .chip.ok{background:var(--forest-soft);color:var(--forest)}
+  .chip.time{background:transparent;color:var(--muted);border:1px solid var(--rule)}
+  .finding h3{font-family:var(--display);font-weight:600;font-size:1.22rem;margin:0;
+              flex:1 1 18rem;line-height:1.3;text-wrap:balance}
+  .finding p{margin:.75rem 0}
+  .finding p:first-of-type{margin-top:.4rem}
+
+  .where{font-family:var(--mono);font-size:.78rem;display:inline-block;margin:.3rem 0 .2rem;
+         padding:.3rem .5rem;background:var(--forest-soft);border-radius:4px;
+         word-break:break-all;color:var(--forest);text-decoration:none}
+  .where:hover{text-decoration:underline}
+
+  .fix{background:var(--forest-soft);border-radius:6px;padding:.9rem 1.1rem;margin-top:1rem}
+  .fix strong{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
+              color:var(--forest);display:block;margin-bottom:.35rem}
+  .fix p{margin:0;font-size:.97rem}
+
+  code{font-family:var(--mono);font-size:.84em;background:var(--paper);padding:.12rem .35rem;
+       border-radius:3px;border:1px solid var(--rule)}
+  pre{font-family:var(--mono);font-size:.78rem;background:var(--paper);border:1px solid var(--rule);
+      border-radius:6px;padding:.85rem;overflow-x:auto;margin:.9rem 0}
+  pre code{background:none;border:none;padding:0}
+
+  /* ---------- figures ---------- */
+  figure{margin:1.2rem 0 .4rem}
+  .shot{position:relative;display:block;border:1px solid var(--rule);border-radius:6px;overflow:hidden;
+        background:var(--paper)}
+  .shot img{display:block;width:100%;height:auto}
+  .shot.phone{max-width:300px}
+  .marker{position:absolute;width:1.65rem;height:1.65rem;border-radius:50%;background:var(--rust);
+          color:#fff;font-family:var(--mono);font-size:.8rem;font-weight:700;display:grid;
+          place-items:center;box-shadow:0 0 0 3px rgba(255,255,255,.9),0 2px 6px rgba(0,0,0,.3);
+          transform:translate(-50%,-50%)}
+  figcaption{font-size:.87rem;color:var(--muted);margin-top:.6rem;line-height:1.5;text-wrap:pretty}
+  .callouts{list-style:none;padding:0;margin:.7rem 0 0;font-size:.9rem}
+  .callouts li{display:flex;gap:.6rem;margin-bottom:.4rem;color:var(--ink-2)}
+  .callouts b{font-family:var(--mono);font-size:.72rem;background:var(--rust);color:#fff;
+              width:1.3rem;height:1.3rem;border-radius:50%;display:grid;place-items:center;flex:none;
+              margin-top:.15rem}
+
+  /* ---------- tables ---------- */
+  .tablewrap{overflow-x:auto;border:1px solid var(--rule);border-radius:8px;margin:1.25rem 0}
+  table{border-collapse:collapse;width:100%;font-size:.92rem;background:var(--card)}
+  th,td{text-align:left;padding:.62rem .85rem;border-bottom:1px solid var(--rule);vertical-align:top}
+  th{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;
+     color:var(--muted);background:var(--paper);white-space:nowrap}
+  tr:last-child td{border-bottom:none}
+  td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+  .bad{color:var(--rust);font-weight:600}
+  .good{color:var(--forest);font-weight:600}
+
+  /* ---------- checklist ---------- */
+  .checklist{list-style:none;padding:0;margin:1.25rem 0;border:1px solid var(--rule);
+             border-radius:8px;overflow:hidden;background:var(--card)}
+  .checklist li{display:flex;gap:.85rem;align-items:flex-start;padding:.85rem 1.1rem;
+                border-bottom:1px solid var(--rule)}
+  .checklist li:last-child{border-bottom:none}
+  .checklist .box{width:1.05rem;height:1.05rem;border:1.5px solid var(--muted);border-radius:3px;
+                  flex:none;margin-top:.32rem}
+  .checklist .task{flex:1}
+  .checklist .mins{font-family:var(--mono);font-size:.74rem;color:var(--muted);
+                   font-variant-numeric:tabular-nums;white-space:nowrap;margin-top:.2rem}
+
+  details{border:1px solid var(--rule);border-radius:8px;padding:.9rem 1.1rem;margin:1.25rem 0;
+          background:var(--card)}
+  summary{cursor:pointer;font-weight:600;font-size:.97rem}
+  details p{margin:.75rem 0 0;font-size:.94rem;color:var(--ink-2)}
+
+  footer{border-top:1px solid var(--rule);margin-top:4rem;padding-top:1.5rem;
+         font-size:.86rem;color:var(--muted)}
+</style>
+
+<div class="wrap">
+
+<header class="masthead">
+  <p class="eyebrow">Purdue Daniels externship &middot; prepared for Bryon Haverstick &middot; August 2026</p>
+  <h1>What a parent finds when they look for Scouting in Sagamore Council</h1>
+  <p class="standfirst">We walked sagamorebsa.org the way a twenty-five-year-old parent of a kindergartener would, on a phone. Most of what is wrong is small, specific, and fixable in ten minutes. Every link below goes to the exact page.</p>
+</header>
+
+<div class="counters">
+  <div class="counter"><b>41</b><span>pages crawled</span></div>
+  <div class="counter"><b>0</b><span>of them link to your join page</span></div>
+  <div class="counter"><b>166</b><span>of 248 images have no alt text</span></div>
+  <div class="counter"><b>40</b><span>of 41 pages have no search description</span></div>
+  <div class="counter"><b>136</b><span>broken links on your own site</span></div>
+  <div class="counter"><b>$0</b><span>membership cost stated anywhere</span></div>
+</div>
+
+<h2>The four things a parent cannot find</h2>
+<p class="section-note">This is the whole review in one table. Everything after it is detail and repair instructions.</p>
+
+<div class="tablewrap">
+<table>
+  <thead><tr><th>What they came for</th><th>What happens</th></tr></thead>
+  <tbody>
+    <tr><td>What it costs</td><td class="bad">Not stated on any of 41 pages</td></tr>
+    <tr><td>How to join</td><td>Two taps, then they leave for the national BeAScout site</td></tr>
+    <tr><td>The nearest pack or troop</td><td class="bad">No pack, troop or town named anywhere</td></tr>
+    <tr><td>When it meets</td><td class="bad">No meeting day, time or cadence on any page</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Start here: five fixes, forty minutes</h2>
+<p class="section-note">Ordered by value per minute. None of these needs a developer or a budget.</p>
+
+<ul class="checklist">
+  <li><span class="box"></span><span class="task"><strong>Point the &ldquo;Join Scouting&rdquo; menu at your own join page</strong> instead of the national site, so you find out who was interested.</span><span class="mins">10 min</span></li>
+  <li><span class="box"></span><span class="task"><strong>Delete the stray prefix</strong> from the &ldquo;New Parents, Click HERE&rdquo; link. It is dead for every visitor today.</span><span class="mins">5 min</span></li>
+  <li><span class="box"></span><span class="task"><strong>Answer the fee questions on Facebook.</strong> Nineteen comments, several asking what membership costs, none answered.</span><span class="mins">10 min</span></li>
+  <li><span class="box"></span><span class="task"><strong>Fix the Camp Buffalo link.</strong> Drop &ldquo;new.&rdquo; from the address and it works.</span><span class="mins">3 min</span></li>
+  <li><span class="box"></span><span class="task"><strong>Change the logo&rsquo;s alt text</strong> from &ldquo;Boy Scouts of America&rdquo;. It is what Google and screen readers read aloud.</span><span class="mins">2 min</span></li>
+</ul>
+
+<h2>The findings</h2>
+<p class="section-note">Severity is about a prospective parent, not about tidiness. Critical means it stops someone joining or giving.</p>
+
+<!-- 0 -->
+<article class="finding critical">
+  <div class="fhead">
+    <span class="chip critical">Critical</span>
+    <h3>136 links on your own site lead nowhere, and 122 of them are your camps</h3>
+    <span class="chip time">2 hrs</span>
+  </div>
+  <p>We tested every link on all 43 pages: 469 of them, one at a time. Two clear patterns account for almost all the damage, and both are one-time fixes rather than 136 separate jobs.</p>
+
+  <p><strong>1. Your entire camp facilities directory is dead.</strong> 122 links point at a reservation system at <code>sagamorebsa.org/162/&hellip;</code> that no longer exists. Every one returns a 404. That includes every campsite at both camps (Raven, Acorn, Hickory, Pioneer, Whispering Pines, Blue Racer Flats), both dining halls, every cabin and shelter, the swimming pool, the rifle, shotgun and archery ranges, the canoes, kayaks, mountain bikes and inner tubes, the chapel, the ATV course, and every photo gallery attached to them.</p>
+  <p>A unit leader trying to book a campsite, or a parent deciding whether your camp is worth it, hits a 404 on every single one. For a council whose camps are the product, this is the most expensive thing on the list.</p>
+
+  <p><strong>2. Thirteen links are missing the <code>/htdocs/wordpress/</code> part of the address</strong> and 404 for that reason alone. These are not obscure pages:</p>
+  <div class="tablewrap">
+  <table>
+    <thead><tr><th>Link text on your site</th><th>Where it points</th></tr></thead>
+    <tbody>
+      <tr><td>Contact Us</td><td><code>/contactus/</code></td></tr>
+      <tr><td class="bad">Ways to Give</td><td><code>/how-to-give</code></td></tr>
+      <tr><td class="bad">Guide to Safe Scouting</td><td><code>/health-and-safety/gss</code></td></tr>
+      <tr><td class="bad">Barriers to Abuse</td><td><code>/health-and-safety/gss/gss01/#a</code></td></tr>
+      <tr><td class="bad">Youth Protection: Cub Scout, Scouts BSA, Venturing, Bullying Awareness</td><td><code>/training/youth-protection/&hellip;</code></td></tr>
+      <tr><td>Infinite Pathways Archive</td><td><code>/newsletter-archive/</code></td></tr>
+      <tr><td>Foundation News</td><td><code>/foundation-news/</code></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Two of those are worth pausing on. <strong>&ldquo;Ways to Give&rdquo; is a dead link on a donor page</strong>, which is money walking away. And <strong>every youth protection link 404s</strong>, which for a youth-serving organisation is the one category where a broken link is more than an inconvenience.</p>
+
+  <div class="fix"><strong>The fix</strong><p>The thirteen are a find-and-replace: insert <code>/htdocs/wordpress</code> into each address. Perhaps twenty minutes. The 122 camp links come from one system that moved, so the real question for your web volunteer is where camp reservations live now, and then it is one template change rather than 122 edits.</p></div>
+
+  <details>
+    <summary>How we counted, and why the number is not larger</summary>
+    <p>Our first automated pass reported 196 broken links. It was wrong. Nine council pages came back as failures purely because we were requesting them too quickly, and they load perfectly when asked one at a time. A further 51 were third-party sites (scouting.org, Facebook, Scout Shop) that block automated requests, which is not evidence that the link is dead for a person. We re-tested every council-owned suspect sequentially, with retries and a normal browser identity, and 136 survived. Those are the ones above. The 51 third-party links are recorded as unverified rather than broken, because we could not honestly check them.</p>
+  </details>
+</article>
+
+<!-- 1 -->
+<article class="finding critical">
+  <div class="fhead">
+    <span class="chip critical">Critical</span>
+    <h3>Your join page is a picture, so nothing can read it</h3>
+    <span class="chip time">20 min</span>
+  </div>
+  <a class="where" href="https://sagamorebsa.org/htdocs/wordpress/join/" target="_blank" rel="noopener">sagamorebsa.org/htdocs/wordpress/join/</a>
+  <p>The main content of the page is a single image file. Everything written on that flyer, the invitation and the details and the reasons to sign up, exists only as pixels. This is the actual markup:</p>
+  <pre><code>&lt;img width="768" height="1024" src=".../Cub-Scouts-Rocks-768x1024.jpg" alt="" /&gt;</code></pre>
+  <p>Google cannot read a word of it, which is much of why the best page on your site does not pull its weight in search. A parent using a screen reader gets nothing at all: both images on the page carry an empty <code>alt</code>, so the page is effectively blank to them.</p>
+  <figure>
+    <span class="shot phone"><img src="{{IMG:v2-web-mobile-join-page}}" alt="The Sagamore Council join page at phone width, showing a red Click Here To Join Now button above a photograph of children at an activity table"></span>
+    <figcaption>The join page at phone width. The button is well placed and above the fold. Everything below it is the image file.</figcaption>
+  </figure>
+  <div class="fix"><strong>The fix</strong><p>Keep the flyer. Type its words onto the page underneath it as ordinary text, and write a sentence describing the photo into its alt attribute.</p></div>
+</article>
+
+<!-- 2 -->
+<article class="finding critical">
+  <div class="fhead">
+    <span class="chip critical">Critical</span>
+    <h3>Nothing on the site links to your best page</h3>
+    <span class="chip time">10 min</span>
+  </div>
+  <p>The join page is the strongest thing you have: a clear button above the fold, a real photograph of real children that visibly includes a girl, a den-by-grade breakdown, and the line <em>&ldquo;Scouting is for the whole family! Boys, girls, moms, dads, step-parents, grandparents.&rdquo;</em></p>
+  <p>We crawled 41 pages. <strong>Not one of them links to it.</strong> Not the navigation, not the mobile menu, not your own sitemap. The &ldquo;Join Scouting&rdquo; menu item skips it and sends people to the national site, which means you never learn who was interested and cannot follow up with anyone who hesitated.</p>
+  <figure>
+    <span class="shot"><img src="{{IMG:v2-web-desktop-join-page}}" alt="The join page on a desktop browser showing the join button, a photograph of children, and a breakdown of dens by school grade"></span>
+    <figcaption>The page almost nobody reaches.</figcaption>
+  </figure>
+  <div class="fix"><strong>The fix</strong><p>Repoint the &ldquo;Join Scouting&rdquo; menu item at your own page. Let it be the place that then sends people to BeAScout, so the visit is yours first.</p></div>
+</article>
+
+<!-- 3 -->
+<article class="finding critical">
+  <div class="fhead">
+    <span class="chip critical">Critical</span>
+    <h3>Nobody can find out what Scouting costs</h3>
+    <span class="chip time">1 hr</span>
+  </div>
+  <p>The membership fee appears on none of your 41 pages. What a parent does find, on the Cub Scouts page, is <strong>&ldquo;$225 early bird price runs until June 1st&rdquo;</strong> and <strong>&ldquo;$250 normal price after June 2nd&rdquo;</strong> for an optional day camp. They reasonably conclude that Cub Scouts costs $225.</p>
+  <a class="where" href="https://sagamorebsa.org/htdocs/wordpress/cub-scouts/" target="_blank" rel="noopener">sagamorebsa.org/htdocs/wordpress/cub-scouts/</a>
+  <figure>
+    <span class="shot"><img src="{{IMG:v2-web-desktop-cubscouts-price}}" alt="The Cub Scouts page showing day camp pricing of 225 dollars early bird and 250 dollars normal"></span>
+    <figcaption>The only two dollar figures on the site, both for an optional summer camp, and the only price a prospective parent will ever meet.</figcaption>
+  </figure>
+  <p>This one finding turned up in all three places we looked, and the three together are the argument:</p>
+  <ul class="callouts">
+    <li><b>1</b><span>The price is on none of your 41 web pages.</span></li>
+    <li><b>2</b><span>You do not appear at all in Google for <em>how much does scouting cost</em>, where four peer councils rank.</span></li>
+    <li><b>3</b><span>Your 6 August Facebook post about the fee update drew 19 comments, several asking plainly what the fee is, and none has an answer.</span></li>
+  </ul>
+  <p>Parents cannot find the number on your site, cannot find it in search, so they ask you in public and hear nothing back.</p>
+  <div class="fix"><strong>The fix</strong><p>One page titled &ldquo;What Scouting Costs in Sagamore Council&rdquo;, plus a line on the Cub Scouts page making clear that $225 is an optional camp. Most of the hour is confirming the current council fee internally. Atlanta Area Council words it well: pack dues &ldquo;typically range from $40 to $85 annually&rdquo;.</p></div>
+</article>
+
+<!-- 4 -->
+<article class="finding warn">
+  <div class="fhead">
+    <span class="chip warn">Broken</span>
+    <h3>Two links are dead right now</h3>
+    <span class="chip time">8 min</span>
+  </div>
+  <p><strong>The &ldquo;New Parents, Click HERE&rdquo; link on the join page</strong> carries a prefix that gets picked up when an address is copied out of a PDF reader:</p>
+  <pre><code>http://chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://scoutingevent.com/.../Parent_Guide_2022.pdf</code></pre>
+  <p>Deleting the first 52 characters fixes it.</p>
+  <p><strong>The Camp Buffalo link</strong> points at <code>www.new.campbuffalo.com</code>, which has no DNS record at all. <code>campbuffalo.com</code> without the &ldquo;new.&rdquo; loads fine, so this is a five-character fix.</p>
+  <figure>
+    <span class="shot"><img src="{{IMG:v2-web-deadlink-campbuffalo}}" alt="Browser error page reading This site can not be reached, DNS_PROBE_FINISHED_NXDOMAIN, for www.new.campbuffalo.com"></span>
+    <figcaption>What a visitor gets today.</figcaption>
+  </figure>
+</article>
+
+<!-- 5 -->
+<article class="finding ok">
+  <div class="fhead">
+    <span class="chip ok">Correction</span>
+    <h3>Your main join button works, and an earlier draft said otherwise</h3>
+  </div>
+  <p>A first pass on 4 August reported that &ldquo;CLICK HERE TO JOIN NOW&rdquo; returned an error. That was our testing tool being blocked, not your link. The old <code>beascout.org</code> address redirects correctly to the current one and the page loads properly.</p>
+  <figure>
+    <span class="shot"><img src="{{IMG:v2-web-beascout-resolves}}" alt="The BeAScout unit finder page reading Let us find your Scouting home with a ZIP code field"></span>
+    <figcaption>Where your join button actually lands. We have removed the earlier claim rather than soften it.</figcaption>
+  </figure>
+  <div class="fix"><strong>Worth doing anyway</strong><p>Update the two links from <code>http://www.beascout.org</code> to <code>https://beascout.scouting.org</code>. They work today via a redirect, but the old address is unencrypted.</p></div>
+</article>
+
+<!-- 6 -->
+<article class="finding warn">
+  <div class="fhead">
+    <span class="chip warn">Stale</span>
+    <h3>Four pages still advertise things that already happened</h3>
+    <span class="chip time">35 min</span>
+  </div>
+  <p>Each of these is its own ten-minute job, and they can be done in any order.</p>
+  <div class="tablewrap">
+  <table>
+    <thead><tr><th>Page</th><th>What it still says</th></tr></thead>
+    <tbody>
+      <tr><td><a href="https://sagamorebsa.org/htdocs/wordpress/buffalo-stampede/" target="_blank" rel="noopener">Buffalo Stampede</a></td><td>&ldquo;Next event: Saturday, October 25, <span class="bad">2025</span>&rdquo;, with 2025 registration deadlines. A cyclist landing here concludes the ride stopped running.</td></tr>
+      <tr><td><a href="https://sagamorebsa.org/htdocs/wordpress/recharter-information/" target="_blank" rel="noopener">Recharter</a></td><td>&ldquo;2024 NEW PROCESS&hellip; beginning March 1, <span class="bad">2024</span>&rdquo;, two and a half years on.</td></tr>
+      <tr><td><a href="https://sagamorebsa.org/htdocs/wordpress/friends-of-scouting/" target="_blank" rel="noopener">Friends of Scouting</a></td><td>Promotes <span class="bad">AmazonSmile</span>, which Amazon shut down in February 2023. The section ends &ldquo;Click on the link below&rdquo; and there is nothing below it.</td></tr>
+      <tr><td><a href="https://sagamorebsa.org/htdocs/wordpress/contact-us/" target="_blank" rel="noopener">Contact Us</a></td><td>Lists the North Star District Executive your own Facebook page replaced this week.</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <figure>
+    <span class="shot"><img src="{{IMG:v2-web-friends-of-scouting}}" alt="The Friends of Scouting donations page showing an AmazonSmile section that ends with the words click on the link below and no link beneath it"></span>
+    <figcaption>The donations page. The instruction to click a link remains; the link is already gone.</figcaption>
+  </figure>
+</article>
+
+<!-- 7 -->
+<article class="finding warn">
+  <div class="fhead">
+    <span class="chip warn">Visible defect</span>
+    <h3>A staff email address is exposed in broken code</h3>
+    <span class="chip time">10 min</span>
+  </div>
+  <a class="where" href="https://sagamorebsa.org/htdocs/wordpress/contact-us/" target="_blank" rel="noopener">sagamorebsa.org/htdocs/wordpress/contact-us/</a>
+  <p>The Camp Ranger line renders as visible code with the address sitting outside the link, in plain text where address-harvesting bots read it. The same pattern appears on ten pages.</p>
+  <figure>
+    <span class="shot"><img src="{{IMG:v2-web-contact-us}}" alt="The Contact Us page with a Camp Ranger line showing stray markup characters and an email address in plain text"></span>
+    <figcaption>The line directly beneath it renders correctly, which is what makes this a copy-paste slip rather than a theme problem.</figcaption>
+  </figure>
+</article>
+
+<!-- 8 -->
+<article class="finding warn">
+  <div class="fhead">
+    <span class="chip warn">Branding</span>
+    <h3>The old name is still in the places machines read</h3>
+    <span class="chip time">15 min</span>
+  </div>
+  <p>To be precise, because an earlier draft of this review overstated it: the largest text in your phone header reads <strong>&ldquo;Scouting America&rdquo;</strong>, and &ldquo;Boy Scouts of America&rdquo; appears only as small curved text on the patch. Your header is not shouting the old name at parents. It is simply untidy, with the patch crowding the wordmark and clipped by the screen edge.</p>
+  <figure>
+    <span class="shot phone"><img src="{{IMG:v2-web-mobile-header}}" alt="The site header at phone width, with the Scouting America wordmark and the council patch crowding it at the right edge"></span>
+    <figcaption>The header at phone width.</figcaption>
+  </figure>
+  <p>The renaming issue is real, but it lives where people do not look:</p>
+  <ul class="callouts">
+    <li><b>1</b><span>The logo&rsquo;s alt text is literally <code>alt="Boy Scouts of America"</code>, which is what Google indexes and a screen reader reads aloud.</span></li>
+    <li><b>2</b><span>All 28 content pages carry &ldquo;Trademark 2013 Boy Scouts of America&rdquo; in the footer, one template edit.</span></li>
+    <li><b>3</b><span>Your Google Business Profile still reads &ldquo;Sagamore Council &ndash; Boy Scouts of America&rdquo;.</span></li>
+    <li><b>4</b><span>Your X account still uses the old round BSA avatar.</span></li>
+  </ul>
+  <p>Scouting America&rsquo;s own renaming guidance asked that council sites be updated no later than <strong>8 February 2025</strong>. Since girls are roughly a fifth to a quarter of new members, this is worth more than tidiness.</p>
+</article>
+
+<!-- 9 -->
+<article class="finding warn">
+  <div class="fhead">
+    <span class="chip warn">Search</span>
+    <h3>You rank well on your own name and vanish on the question parents actually ask</h3>
+  </div>
+  <p>The good news first, because our first pass got this wrong and said you were invisible:</p>
+  <div class="tablewrap">
+  <table>
+    <thead><tr><th>Search</th><th>Where you appear</th></tr></thead>
+    <tbody>
+      <tr><td>sagamore council</td><td class="good">Homepage, #1</td></tr>
+      <tr><td>sagamore council join</td><td class="good">Your join page, #1</td></tr>
+      <tr><td>boy scouts lafayette indiana</td><td class="good">Your join page, #2</td></tr>
+      <tr><td>cub scouts lafayette indiana</td><td class="good">Your Cub Scouts page, #1</td></tr>
+      <tr><td>how much does scouting cost</td><td class="bad">You do not appear at all</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>A parent who already knows your name finds you immediately. The gap is the question a parent asks <em>first</em>. Capitol Area, W.D. Boyce, Greater Los Angeles and Atlanta Area councils all rank on cost, because each has published a page answering it.</p>
+  <p>Underneath that, the site gives search engines very little: <strong>40 of 41 pages have no description</strong>, so Google writes your snippets for you. There are no preview tags, which is why links you post to Facebook appear as bare addresses with no image. No page title contains Kokomo, Lafayette, Logansport or Indiana. One sitemap is empty and the other was generated in May 2014.</p>
+  <details>
+    <summary>Why there are no screenshots in this section</summary>
+    <p>Search engines serve automated browsers a challenge page instead of results, and the computer we captured from is not in Indiana, so local results would be wrong even if it passed. These positions were read by hand. They are worth thirty seconds of your own checking from your own computer, and we would rather say that than show you a picture we could not honestly take.</p>
+  </details>
+</article>
+
+<!-- 10 -->
+<article class="finding warn">
+  <div class="fhead">
+    <span class="chip warn">Accessibility</span>
+    <h3>Two thirds of your images are invisible to screen readers and to Google</h3>
+  </div>
+  <p>Across the 41 pages we crawled, <strong>166 of 248 images carry no alt text</strong>. Alt text is the sentence a screen reader speaks and the only thing a search engine can read inside a picture. On a site whose best page <em>is</em> a picture, this compounds.</p>
+  <p>Also worth knowing: <strong>31 of the 41 pages still contain <code>http://</code> links</strong>, which browsers increasingly flag, and the homepage contains no photographs of young people at all. Every image on it is a logo, an icon or an event graphic.</p>
+  <div class="fix"><strong>Where to start</strong><p>Do not try to fix all 166. Write alt text for the images on the homepage, the join page and the Cub Scouts page. That is the path a prospective parent walks.</p></div>
+</article>
+
+<h2>One address quirk worth knowing</h2>
+<p class="section-note">It will confuse anyone you hand this to.</p>
+<p>Your homepage answers at <code>sagamorebsa.org</code>, but every interior page is served from <code>sagamorebsa.org/htdocs/wordpress/</code>. So <code>sagamorebsa.org/join/</code> is a hard 404, while <code>sagamorebsa.org/htdocs/wordpress/join/</code> is your real join page. It is not urgent and moving off it is a project rather than a task, but it explains why addresses look the way they do.</p>
+
+<h2>What we would not spend time on</h2>
+<div class="tablewrap">
+<table>
+  <thead><tr><th>Thing</th><th>Why not</th></tr></thead>
+  <tbody>
+    <tr><td>Site speed</td><td>The homepage is 92KB and loads in under half a second. It is genuinely fine.</td></tr>
+    <tr><td>Moving off the <code>/htdocs/wordpress/</code> addresses</td><td>Real benefit, but it needs hosting changes and a full redirect map. A partial migration leaves you worse off than today.</td></tr>
+    <tr><td>Changing the domain off sagamorebsa.org</td><td>Expected eventually. A project, not a task, and nothing we found suggests &ldquo;bsa&rdquo; in an address is costing you a member.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>One asset worth knowing about</h2>
+<p>Your Google Business Profile carries <strong>4.6 stars across 18 reviews</strong>, with a correct address, hours, phone and category. The only two defects are the organisation name and the website link, both five-minute fixes. Nothing else on this list buys that much credibility that cheaply.</p>
+
+<h2>How we checked</h2>
+<details>
+  <summary>Method, and the three claims that carry no screenshot</summary>
+  <p>We crawled 41 pages and tested every link on them by requesting it and reading the response code. Screenshots were captured at phone width and desktop width in a real browser at retina resolution on 7 August 2026, and every one was reviewed before use. Several first-pass findings did not survive that review and have been removed rather than softened, including a claim that your join button was broken.</p>
+  <p>Three claims deliberately have no picture. <strong>Search positions and the Google Business Profile</strong> could not be captured: search engines show automated browsers a challenge page, and our machine geolocates outside Indiana. <strong>The alt-text count and the mobile menu being built as a heading rather than a button</strong> live in the page&rsquo;s code, so a screenshot would show a normal-looking page, which is exactly the problem. It is invisible to a sighted mouse user and total for everyone else.</p>
+</details>
+
+<footer>
+  <p>Prepared by the Purdue Daniels externship team for Sagamore Council, August 2026. Every figure was verified on 7 August 2026 and every link above goes to the live page, so anything you fix will stop matching this document, which is the point.</p>
+</footer>
+
+</div>

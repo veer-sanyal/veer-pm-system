@@ -22,7 +22,7 @@ What works instead is not one format but three, and they are all cheaper than wh
 - **Asking readers to tell you something about themselves.** The August 1 Eagle Scout post took 27 shares,
   more than any other post in the sample, because it asked people to name their own Eagle Scout.
 
-And the thing that performs *worst* among your link-free posts is **event promotion** — which is a quarter
+And the thing that performs *worst* among your link-free posts is **event promotion**, which is a quarter
 of everything you publish. You are posting mostly to fill events, and that is the part that is not landing.
 
 ---
@@ -34,7 +34,7 @@ We found eleven accounts across five platforms.
 ![The council Facebook page](audit-screenshots/v3-soc-fb-page-header.png)
 
 *The council page, captured 7 August: 3.5K followers, 187 following, and a 100% recommendation rate
-across 14 reviews. This is the channel that matters — the other ten together do not come close.*
+across 14 reviews. This is the channel that matters: the other ten together do not come close.*
 
 | Account | Followers | Last post | State |
 |---|---|---|---|
@@ -52,11 +52,11 @@ across 14 reviews. This is the channel that matters — the other ten together d
 
 Three notes on this list. Your website footer links to `twitter.com/SagamoreBSA`, which does not exist and
 returns a 404; the live account is **@SagamoreCouncil**. There is **no University of Scouting Facebook
-page** — that is an event, not an account, and the roughly 600-follower page is Takachsin Lodge.
+page**: that is an event, not an account, and the roughly 600-follower page is Takachsin Lodge.
 
 And one pattern only visible once the list is laid out: **Instagram and X both went silent on the same
 day, 18 and 19 January 2026.** That is a single moment when the extra channels were let go, not two
-separate lapses — which is worth knowing, because it means there is one decision to revisit, not five.
+separate lapses, which is worth knowing, because it means there is one decision to revisit, not five.
 
 ---
 
@@ -181,7 +181,7 @@ comments, over ten months.
 That is a Friends of Scouting list identifying itself, and it is currently scrolling past.
 
 **And there is a second, more urgent version of this.** Your **6 August membership fee update** has drawn
-**31 reactions, 27 shares and 19 comments** — the most-discussed post on your page right now. Several of
+**31 reactions, 27 shares and 19 comments**, the most-discussed post on your page right now. Several of
 those comments are parents asking plainly what the fee is and how renewal works. **None of them has been
 answered.**
 
@@ -191,7 +191,7 @@ answered.**
 patch post at the top carries a link and has **1 reaction**. The Buffalo Stampede promo video below
 carries a YouTube link and has **1 reaction**. Between them, the membership renewal update, which carries
 no link, has **31 reactions, 19 comments and 27 shares**. And under it a parent has asked, in public,
-whether the prorated fees run through February 2028 or through 2027 — a specific, answerable question,
+whether the prorated fees run through February 2028 or through 2027, a specific, answerable question,
 sitting unanswered with "View more comments" beneath it.*
 
 That comment is the whole argument of this review in one place: **a parent trying to give you money and
@@ -200,7 +200,7 @@ not being able to find out how much.**
 That one is not a missed list, it is a missed service moment, and it connects to something the website
 review found independently: the membership cost appears on none of your 34 web pages, and you do not
 appear at all in Google results for "how much does scouting cost," where four peer councils do. **Parents
-cannot find the number on your site, cannot find it in search, so they ask you in public — and hear
+cannot find the number on your site, cannot find it in search, so they ask you in public, and hear
 nothing.** Answering those nineteen comments is ten minutes and it is the highest-value ten minutes in
 this document.
 
@@ -213,7 +213,7 @@ some great ones."* Then keep the list of names for the development conversation.
 ## 4. The extra Facebook pages are costing time and returning very little
 
 Your August 1 Eagle Scout post was shared to five other pages. Between them those pages have roughly
-**2,800 followers** — Takachsin Lodge 613, Camp Buffalo about 1,000, Wabash Valley 376, North Star 358,
+**2,800 followers**: Takachsin Lodge 613, Camp Buffalo about 1,000, Wabash Valley 376, North Star 358,
 Peshewa 332, Wood Badge 100. The shares produced **four reactions and three comments in total**, against
 56 reactions, 8 comments and 27 shares on the council page.
 
@@ -274,7 +274,7 @@ that does not exist, so every visitor who clicks it lands here rather than on th
 or where it operates. The grid includes a tile reading "PROMO COMING SOON!"
 
 *(No screenshot: Instagram serves logged-out visitors a sign-up wall over a dimmed grid, so any capture
-shows the wall rather than your profile. The figures above are read from the live page — check them at
+shows the wall rather than your profile. The figures above are read from the live page. Check them at
 [instagram.com/sagamorebsa](https://www.instagram.com/sagamorebsa/).)*
 
 **Our honest recommendation is to park it properly rather than try to revive it.** At 179 followers, a
@@ -304,13 +304,13 @@ Facebook, and leaving it there. Ten minutes.
 - The Jamboree sign-up and an expired Camp Buffalo RSVP are the top two items on your Linktree
 - The Peshewa District page has no username, so it cannot easily be found or linked to
 - Your Facebook page's website field uses `http://` rather than `https://`
-- A public YouTube video is titled "2026 Popcorn Training Raw Video" — see below
+- A public YouTube video is titled "2026 Popcorn Training Raw Video" (see below)
 - Facebook lists sagamorecouncil.org while X and LinkedIn list sagamorebsa.org; worth picking one
 
 ![YouTube channel](audit-screenshots/soc-03-youtube-channel.png)
 
 *The YouTube channel. It is working as a training archive rather than a public channel, which is a
-reasonable use — the only thing to change is the titles, since "2026 Popcorn Training Raw Video" is
+reasonable use: the only thing to change is the titles, since "2026 Popcorn Training Raw Video" is
 public and reads as unfinished to anyone who lands on it.*
 
 **Clearing most of this is one thirty-minute sitting.**
@@ -336,13 +336,13 @@ Counted across your last twenty posts, 27 July to 7 August:
 |---|---|---|
 | Achievements and celebration | 45% | 25% |
 | Event promotion and registration | 25% | 25% |
-| Merchandise and camp life | 15% | — |
+| Merchandise and camp life | 15% | Not stated |
 | Service and administrative information | 10% | 25% |
 | Aimed at parents who are not yet involved | **0%** | 25% |
 
 Two honest caveats on this table. Six of the twenty posts were a single Jamboree recap series, so this
 particular fortnight overstates celebration and understates event promotion. And event promotion at 25% is
-already at your stated target, so the problem there is not volume — it is that those posts are the ones
+already at your stated target, so the problem there is not volume. It is that those posts are the ones
 that perform worst.
 
 **The last row is the one we would flag, and it is the one number that needs no caveat. Zero of twenty.**
@@ -379,7 +379,7 @@ Changing the **username** at 179 followers is not worth the disruption.
 3. **The weekly named-person post, ending with a question that invites readers to name their own.** That
    last line is what produced 27 shares. Twenty-five minutes a week, replies included.
 
-If there is a fourth, it is rewriting the Linktree so Join and Donate are the top two links — fifteen
+If there is a fourth, it is rewriting the Linktree so Join and Donate are the top two links. Fifteen
 minutes, once.
 
 That comes to under forty-five minutes a week, inside the time you already spend, and it replaces work
