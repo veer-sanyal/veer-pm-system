@@ -12,7 +12,7 @@
 > **INTERNAL VERSION. Do not send as-is.** Needs the client-facing pass (CLAUDE.md, "Before telling him
 > to send anything"). Audited read-only, logged out of every platform.
 >
-> **Screenshots in `networking/audit-screenshots/`** (captured 2026-08-04, headless Chrome, every file
+> **Screenshots in `audit-screenshots/`** (captured 2026-08-04, headless Chrome, every file
 > visually verified). Two corrections the capture forced, both applied below: **(a)** Takachsin has
 > **two** truly bare-URL posts, not three — the third has one sentence above the same link. **(b)** The
 > Facebook embed reports **likes**, while the figures in this audit are **all reaction types**, which is

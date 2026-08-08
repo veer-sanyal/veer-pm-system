@@ -6,7 +6,7 @@ metadata:
   type: user
 ---
 
-> **CURRENCY NOTE.** Live engagement (Jul 6 – Aug 1, 2026). Static facts owner: `context/externship-scouting-america.md`; running narrative in `PROGRESS.md`. Snapshot last refreshed 2026-07-23 — re-check those before adding a fresh claim. Final presentation (Aug 1) and client sign-off had NOT happened at snapshot time.
+> **CURRENCY NOTE.** Live engagement (Jul 6 – Aug 1, 2026). Static facts owner: `projects/sagamore/externship-scouting-america.md`; running narrative in `PROGRESS.md`. Snapshot last refreshed 2026-07-23 — re-check those before adding a fresh claim. Final presentation (Aug 1) and client sign-off had NOT happened at snapshot time.
 
 **Purdue Daniels School of Business — Summer Externship** — Remote
 *Timeline & Project Manager* — Jul. 2025 – Aug. 2026 (4-week team consulting engagement)

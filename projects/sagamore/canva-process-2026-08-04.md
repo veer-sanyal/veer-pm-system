@@ -64,7 +64,7 @@ This is the part Veer does and hands over.
 Create auto-matches by name. Get this right and it is one click; get it wrong and it is dragging fields
 by hand across 52 designs.
 
-The columns, from `tools/make-bulk-create-csv.py`:
+The columns, from `projects/sagamore/tools/make-bulk-create-csv.py`:
 
 ```
 DATE · KICKER · HEADLINE · STORY_ANGLE · OBSERVANCE · NOTE
@@ -117,7 +117,7 @@ important 24 rows in the file.
 Already done, and re-runnable whenever the calendar changes:
 
 ```bash
-python3 tools/make-bulk-create-csv.py \
+python3 projects/sagamore/tools/make-bulk-create-csv.py \
   ~/Downloads/"Sagamore Council Promotional Calendar - Draft.xlsx" \
   ~/Downloads
 ```

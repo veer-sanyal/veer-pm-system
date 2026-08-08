@@ -11,7 +11,7 @@
 > **INTERNAL VERSION. Do not send as-is.** Run the same pass the workbook got before this reaches
 > Bryon: no third-person references, no meta-commentary, no notes about our own process. See CLAUDE.md
 > "Before telling him to send anything."
-> **Screenshots in `networking/audit-screenshots/`** (captured 2026-08-04, headless Chrome, all visually
+> **Screenshots in `audit-screenshots/`** (captured 2026-08-04, headless Chrome, all visually
 > verified). **Three findings the capture added, folded in below:** the `/join/` page's own body copy
 > sends parents to the 403 domain · the mobile page overflows 375px horizontally · Buffalo Stampede's
 > 2025 dates sit beside a live sidebar calendar reading August 05, 2026.

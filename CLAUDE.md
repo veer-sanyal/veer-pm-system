@@ -32,6 +32,15 @@ Full protocols live in `.claude/commands/` and load only when invoked. If Veer d
 
 Each fact has exactly one owner; everything else points, never restates. If you find a fact restated in a non-owner file, replace the copy with a pointer.
 
+**Two axes, not one.** The table below owns facts by KIND (current state, narrative, strategy, dates). That axis alone has a hole, and it cost real money: through 2026-08-07 there was no owner for AN ENTITY — a client, a project, a person — so a new one had its facts sharded across the type-files and its artifacts dumped into whichever folder was nearest in spirit. `networking/` reached 26 flat entries holding call preps, send queues, client deliverables and 13MB of mechanical CAD; `tools/` was 8-of-9 single-project scripts; one client project occupied 7 locations including two outside the repo. Worst of all, **live entity state with no home defaults to `memory.md`**, which loads every session — one entity was 10,570 bytes of it.
+
+**So: any entity with its own artifacts gets a directory, and that directory owns its own live state.** The pattern is not new here — it is exactly what already works for STICK, generalized from "the one big project" to "any entity."
+
+- `projects/<name>/STATE.md` is authoritative for that entity: phase, owner-actions, open queue. **`memory.md` holds a pointer and the pillar-level read only** — is it moving, is someone waiting, what is the next physical action. Point, never mirror.
+- The entity's artifacts, scripts and build outputs live with it. Scripts go in `projects/<name>/tools/`; root `tools/` is for genuinely cross-project utilities only. Generated deliverables go to `projects/<name>/build/` (gitignored — the source is versioned, the deliverable is one command). Never leave the only copy on the Desktop.
+- **When to allocate one:** an entity crosses ~3 artifacts, or its live state starts growing inside `memory.md`. The second is the real trigger and the hook makes it visible — if the session-start SIZE warning fires and the overflow is one entity's state, the fix is a home for it, not a tighter paragraph.
+- **When to fold one back:** an entity that has gone quiet compresses to a one-line pointer, same as any closed item. Directories are allocated because they earn it, and they stop earning it.
+
 | Owner | Owns |
 |---|---|
 | `memory.md` | Current state: what's shipped, active focus, next moves, live tripwires. |
@@ -44,16 +53,19 @@ Each fact has exactly one owner; everything else points, never restates. If you 
 | `context/sleep-protocol.md` | Wake-time target and the live sleep-fix config. Never hard-code a wake time elsewhere. |
 | `context/study/state.json` | Learning state (Pillars 2 and 4). memory.md only mirrors a regenerated summary. |
 | Google Calendar (primary, Pacific) | The live operational schedule AND the delivery channel for the daily plan (`context/daily-briefing-instructions.md`). Gmail can only draft, never send. |
+| `projects/sagamore/STATE.md` | **The Scouting America / Sagamore client engagement.** Live phase, owner-actions, open queue, what is delivered. Statics in `externship-scouting-america.md` beside it; its audits, screenshots and build scripts live in the same directory. memory.md points, never mirrors. |
+| `projects/nozzle/` | The Mama nozzle side-project: design review, parametric CAD, call preps. Bounded sideline; never displaces Pillar 1. |
 | `~/Desktop/stick-dev` | **The Pillar-1 product (STICK).** Owns ALL its own build state: `STATE.md` (phase + owner-actions), `DECISIONS.md` / `OPEN-DECISIONS.md` (D/OD numbers), `HISTORY.md`, `BACKLOG.md`. This repo POINTS at it and never mirrors it; memory.md holds only the pillar-level read (moving or not, in front of a user or not, next physical action). It has its own session protocol (`LOOP.md`, `START-HERE.md`) — do not commit there from this system. |
 | `DECISIONS.md` (india-msme repo) | Curated product decisions with trade-offs for the **banked** dashboard artifact. Historical; no longer the active product. |
 
-Reading tiers: `context/` holds the working copies read day-to-day (one canonical copy per doc); `files/` holds the full deep-research originals, opened only when a `context/` copy lacks a needed detail. New or edited docs get their `context/` copy updated in the same session and a row in `file-index.md`.
+Reading tiers: `projects/<name>/` holds everything belonging to one entity, its `STATE.md` first; `context/` holds the working copies read day-to-day (one canonical copy per doc); `networking/` holds actual outreach — call preps, thank-yous, send queues, target lists — and nothing else; `files/` holds the full deep-research originals, opened only when a `context/` copy lacks a needed detail. New or edited docs get their `context/` copy updated in the same session and a row in `file-index.md`.
 
 ## Routing
 
 Before answering a substantive question, read the covering doc FIRST and cite it specifically (named studies and stats, never "the research says"). All paths in `context/` unless noted. Before trusting a research doc for a time-sensitive fact (deadlines, program existence, interview formats), check its tier in `context/knowledge-freshness.md`: LIVING docs carry a verified-as-of date and an event trigger; STATIC docs are durable.
 
 - **STICK build / pilot / next product step (Pillar 1) -> `~/Desktop/stick-dev`** — read its `STATE.md` FIRST (authoritative, self-updating: phase, owner-actions, open queue), then `OPEN-DECISIONS.md` for what's unresolved. Anything deeper goes to parallel subagents (its CodeGraph is initialized; the docs are ~1.1MB, do not pull them into main context). This system points, never mirrors.
+- **Externship / Sagamore / Bryon / the client audits -> `projects/sagamore/STATE.md` FIRST** (authoritative: phase, owner-actions, open queue), then the statics beside it. Do not reconstruct its state from memory.md or PROGRESS.md.
 - India MSME dashboard -> **banked, finished artifact** (live site + DECISIONS through Entry 014); `infisum-dashboard-roadmap.md` is historical. The US-version track was killed 2026-07-16.
 - Metrics / statistics / what to learn -> `research-metrics-fluency-curriculum.md`
 - Interview loops / mock prep / company rounds -> `PM_Internship_Interview_Reality_Check.md`
@@ -91,7 +103,7 @@ Two rules that make this actually fire:
    read straight past.
 2. **When the fix is to produce a separate client copy, leave the internal one intact and write the
    transform to `tools/`** with a check that fails loudly if any internal reference survives. There will
-   be a next version. See `tools/make-client-copy.py`.
+   be a next version. See `projects/sagamore/tools/make-client-copy.py`.
 
 If an artifact cannot be checked this session, say the send is not ready and say why. Never let a clean
 email body imply a clean attachment.

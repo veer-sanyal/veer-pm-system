@@ -129,6 +129,44 @@ caveat in the header about un-swept dates does not apply to Run 2.
 
 **Suppressed:** 5 of 6 generated edge cases, as unreachable or low-blast.
 
+### G11 — follow-on, same day: the ownership map was missing an axis
+
+Raised by Veer after the fixes landed, and it is the cause of which G3 was the symptom. The
+ownership map had 11 rows and **every one owned a KIND OF FACT** — current state, narrative,
+ledgers, strategy, dates, patterns, profile. No row owned an ENTITY, so a new client/project/person
+had no home to be allocated: its facts sharded across the type-files by rule, and its artifacts
+landed in whichever directory was nearest in spirit.
+
+Measured before the fix: `networking/` was 26 flat entries holding call preps, send queues, client
+deliverables and 13MB of mechanical CAD · `tools/` was 8-of-9 single-project scripts under a
+general-utilities name · the Sagamore engagement occupied **7 locations**, two outside the repo,
+including the one holding the actual client deliverables (0 files tracked).
+
+**The internal control is what makes it a finding rather than an aesthetic complaint.** Same system,
+same weeks: STICK got a home (own repo, own STATE/DECISIONS/HISTORY, "point never mirror") and costs
+memory.md 7 lines. The externship got none and cost it **10,570 bytes** — tripwire 1, the exact thing
+G3 compressed by hand. Homeless live state defaults to the file that loads every session.
+
+Fixed by allocating `projects/sagamore/` and `projects/nozzle/` (82 renames, git history preserved),
+giving each a `STATE.md` on the stick-dev contract, and adding the second axis to CLAUDE.md's
+ownership map with allocate/deallocate triggers. memory.md's three externship tripwires collapsed to
+one pointer. Enforcement per G1's lesson: the hook now flags `networking/` regrowth past 15 entries,
+which is the cheap mechanical signal that an entity is being sorted in place instead of housed.
+Verified end-to-end — both client-deliverable builders run from the new location and produce
+byte-identical output, and a dangling-reference sweep over every live file is clean. `PROGRESS.md`
+and `session-log.jsonl` were deliberately NOT rewritten: they are the dated record of what was true
+at the time, and git holds the old paths.
+
+**Third instance of the meta-pattern, now worth naming:** the system correctly predicts its own
+needs and files the prediction in its least-run flow — `tripwires.json` (armed Jul 8), per-contact
+files (armed Jul 8, 19 named people), and the size budgets. G1 moved one to the hook; `contacts/`
+remains armed and unbuilt, which is the right call at 19 contacts but should be checked, not
+forgotten.
+
+A plugin-level version of this finding — cairn instances cannot grow their own filesystem; review's
+consolidation offers SKIP/MERGE/INSERT and no operation that creates a file — is written up as a
+pasteable prompt in `specs/2026-08-07-cairn-plugin-filesystem-growth-prompt.md`.
+
 **The test of this run is not the diff, it is Aug 21.** Run 1 looked identically successful on the
 day it was applied. If `memory.md` is over 1,800 words two weeks from now, the hook is being
 dismissed and the finding is a P19 rubber-stamp problem, not a size problem.

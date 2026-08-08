@@ -14,7 +14,7 @@
 # to disk.
 #
 # Usage:  bash tools/capture-facebook-screenshots.sh
-# Output: networking/audit-screenshots/v3-*.png
+# Output: audit-screenshots/v3-*.png
 #
 # AFTERWARDS: delete the profile. It contains a live Facebook session.
 #   rm -rf "<PROFILE path printed at the end>"
@@ -23,7 +23,7 @@ set -u
 
 CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 PROFILE="/private/tmp/claude-501/-Users-veersanyal-Desktop-veer-pm-project/2bda583d-5c64-4f3b-a703-eabffe47de39/scratchpad/fbprofile"
-OUT="$(cd "$(dirname "$0")/.." && pwd)/networking/audit-screenshots"
+OUT="$(cd "$(dirname "$0")/.." && pwd)/audit-screenshots"
 PAGE="https://www.facebook.com/141862791402"   # Sagamore Council page ID
 
 mkdir -p "$OUT"

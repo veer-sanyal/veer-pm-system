@@ -31,6 +31,16 @@ if [ "${mem_words:-0}" -gt 1800 ] 2>/dev/null; then
   echo "SIZE: memory.md is ${mem_words} words, budget ~1,500 (sunday.md maintenance table)."
   echo "ACTION REQUIRED: compress it THIS session -- closed items to one line, narrative to PROGRESS.md. It is read every session; every word is paid for every session."
 fi
+# Catch-all regrowth. networking/ is for outreach only (call preps, thank-yous, send queues,
+# target lists). It reached 26 flat entries by 2026-08-07 holding client deliverables and 13MB of
+# mechanical CAD, because entities with no home land in whatever folder is nearest in spirit.
+# Restructured to 10. If it climbs back past ~15 the entity axis is being skipped again.
+net_files=$(ls -1 networking 2>/dev/null | wc -l | tr -d ' ')
+if [ "${net_files:-0}" -gt 15 ] 2>/dev/null; then
+  echo "SIZE: networking/ holds ${net_files} entries (outreach only; ~10 is healthy)."
+  echo "  Something in there probably belongs to an entity. Give it projects/<name>/ with its own STATE.md (CLAUDE.md ownership map), do not sort it in place."
+fi
+
 prog_bytes=$(wc -c < PROGRESS.md | tr -d ' ')
 if [ "${prog_bytes:-0}" -gt 120000 ] 2>/dev/null; then
   echo "SIZE: PROGRESS.md is $((prog_bytes / 1024))KB; the monthly roll into PROGRESS-archive.md is overdue (archive last touched $(date -r PROGRESS-archive.md '+%Y-%m-%d'))."

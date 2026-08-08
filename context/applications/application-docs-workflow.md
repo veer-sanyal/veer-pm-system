@@ -74,7 +74,7 @@ Never leave a stray PDF without its source `.tex`.
      its large docs into context — spawn a subagent to return honest, quizzable resume facts +
      current numbers, then update `profile/project-stick.md` if it drifted. STICK ≠ StudyFlowForge
      (from-scratch rebuild); never carry StudyFlowForge's "18 screens"/dashboards into STICK.
-   - **Externship** → `context/externship-scouting-america.md` + `PROGRESS.md` tail; refresh
+   - **Externship** → `projects/sagamore/externship-scouting-america.md` + `PROGRESS.md` tail; refresh
      `profile/experience-externship.md`.
    - Any NEW experience/project Veer mentions that has no profile file yet → gather real facts
      (subagent if noisy), create the `profile/*.md`, then use it. Never invent metrics to fill a gap.

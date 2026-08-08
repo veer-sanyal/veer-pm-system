@@ -16,7 +16,7 @@
 
 set -eu
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-SRC="$ROOT/networking"
+SRC="$ROOT"
 BUILD="$ROOT/build"
 TMP="$BUILD/.tmp"
 

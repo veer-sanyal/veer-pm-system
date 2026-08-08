@@ -2,7 +2,7 @@
 
 **Updated 2026-08-07 after the logged-in capture run.** Was six, now three.
 
-The throwaway-profile approach worked: `tools/capture-facebook-screenshots.sh` ran against a Chrome
+The throwaway-profile approach worked: `projects/sagamore/tools/capture-facebook-screenshots.sh` ran against a Chrome
 profile Veer logged into himself and pulled two captures that carried the session cleanly. **The profile
 has since been deleted** — it held a live Facebook login and there was no reason to keep it.
 

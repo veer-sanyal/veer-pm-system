@@ -17,12 +17,12 @@
 # false findings into the Aug 4 audit.
 #
 # Usage:  bash tools/capture-audit-screenshots.sh
-# Output: networking/audit-screenshots/
+# Output: audit-screenshots/
 
 set -u
 
 CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-OUT="$(cd "$(dirname "$0")/.." && pwd)/networking/audit-screenshots"
+OUT="$(cd "$(dirname "$0")/.." && pwd)/audit-screenshots"
 mkdir -p "$OUT"
 
 [ -x "$CHROME" ] || { echo "Chrome not found at $CHROME"; exit 1; }

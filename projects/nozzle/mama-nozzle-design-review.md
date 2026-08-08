@@ -105,7 +105,7 @@ What Bangalore *verifiably* offers is **the first half of the job**: printing th
 
 He needs a STEP file to hand a vendor. The part is a solid of revolution with every dimension already in his spec, so it did not need hand-modelling in CAD software — it is generated from code.
 
-**Built and verified: `networking/nozzle-cad/nozzle.py`** (Python + CadQuery). Generates all four spec variants:
+**Built and verified: `projects/nozzle/nozzle-cad/nozzle.py`** (Python + CadQuery). Generates all four spec variants:
 
 | File | Flange | Nose projection | Verified |
 |---|---|---|---|

@@ -9,7 +9,7 @@ Only the rows that actually need a graphic are exported. The `Real photo, no gra
 `Phone camera` rows are deliberately left out - those are the posts that carry the engagement, and
 running them through a template would be a downgrade.
 
-    python3 tools/make-bulk-create-csv.py ~/Downloads/"Sagamore Council Promotional Calendar - Draft.xlsx" ~/Downloads
+    python3 projects/sagamore/tools/make-bulk-create-csv.py ~/Downloads/"Sagamore Council Promotional Calendar - Draft.xlsx" ~/Downloads
 
 Re-run after Bryon answers the open questions and the calendar changes.
 """

@@ -9,7 +9,7 @@ Fonts are deliberately Calibri and Calibri Light — Word's own defaults. A pret
 that is not installed on the client's machine silently substitutes into something worse.
 
 Run:  python3 tools/make-audit-reference-docx.py
-Out:  networking/audit-reference.docx
+Out:  audit-reference.docx
 """
 
 import re
@@ -19,7 +19,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "networking" / "audit-reference.docx"
+OUT = ROOT / "audit-reference.docx"
 TMP = ROOT / "build" / ".ref"
 
 INK = "1F2A37"       # near-black, softer than pure black on paper

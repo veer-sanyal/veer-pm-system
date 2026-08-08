@@ -8,7 +8,7 @@ ADDED", "New 'Observances' tab"). Both read badly when the client is the one ope
 Run this after regenerating the workbook. It rewrites those cells to second person, drops the
 version scaffolding, and writes a separate output file so the internal copy stays intact.
 
-    python3 tools/make-client-copy.py \\
+    python3 projects/sagamore/tools/make-client-copy.py \\
         ~/Downloads/"Sagamore Promotional Calendar DRAFT v0.3.xlsx" \\
         ~/Downloads/"Sagamore Council Promotional Calendar - Draft.xlsx"
 """
