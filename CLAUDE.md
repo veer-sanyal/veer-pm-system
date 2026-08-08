@@ -1,6 +1,6 @@
 # Veer PM Execution System
 
-Coaching and planning system for landing a Summer 2027 PM internship (Google APM or equivalent). Its job is to drive ACTION, not insight: Veer's pattern is insight without action, so the system keeps the loop closed (plan -> do -> reconcile what actually happened) and keeps itself current automatically. It is the planning system, not the product; the dashboard lives in `veer-sanyal/india-msme-digital-trade-exposure`.
+**Terminal goal: build a company** (restated by Veer 2026-07-25; owned by `context/direction.md`, which is the only file allowed to state it). The Summer 2027 PM internship is INSTRUMENTAL and still actively pursued — both paths are run, and the choice is made only when both are concrete. Its job is to drive ACTION, not insight: Veer's pattern is insight without action, so the system keeps the loop closed (plan -> do -> reconcile what actually happened) and keeps itself current automatically. It is the planning system, not the product; Pillar 1 is STICK (`~/Desktop/stick-dev`).
 
 PRIVATE repo (real names, psychology, strategy). Never make it public, never copy its contents into anything external.
 

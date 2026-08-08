@@ -7,14 +7,34 @@ cd "$CLAUDE_PROJECT_DIR" 2>/dev/null || cd "$(dirname "$0")/../.." || exit 0
 echo "=== veer-pm-system status ($(date '+%Y-%m-%d %H:%M %Z')) ==="
 
 stamp_line=$(grep -m1 "Last reconciled:" memory.md)
-echo "$stamp_line"
+# Print the head only. The stamp is one LINE by contract but grew to 10KB by Aug 2026
+# (three nested reconciles), and echoing it verbatim cost ~10KB of every session's context.
+echo "${stamp_line:0:400}"
 stamp_date=$(echo "$stamp_line" | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1)
-if [ "$stamp_date" != "$(date '+%Y-%m-%d')" ]; then
+if [ -z "$stamp_date" ]; then
+  # Fail CLOSED: no parseable stamp means staleness is unknown, not fresh.
+  echo "STALE: no parseable 'Last reconciled: YYYY-MM-DD' stamp in memory.md -> treat as stale, run /reconcile."
+elif [ "$stamp_date" != "$(date '+%Y-%m-%d')" ]; then
   echo "STALE: memory.md was last reconciled $stamp_date -> auto-run /reconcile as the first action (CLAUDE.md session-start rule), then answer."
 fi
 
 echo "--- live tripwires (headers from memory.md) ---"
 awk '/^\*\*Live tripwires/{f=1;next} /^---/{f=0} f && /^[0-9]+\./' memory.md | cut -c1-140
+
+# Size budgets, enforced here rather than in sunday.md's maintenance table.
+# WHY HERE: the budgets lived only in /sunday, which fired 3 times in 46 sessions, while
+# /reconcile writes these files ~daily. Between the 2026-07-24 audit (which compressed both
+# by hand) and 2026-08-07, memory.md went 17KB -> 53KB and PROGRESS.md 101KB -> 176KB, both
+# worse than the state that raised the finding. A budget nobody measures is not a budget.
+mem_words=$(wc -w < memory.md | tr -d ' ')
+if [ "${mem_words:-0}" -gt 1800 ] 2>/dev/null; then
+  echo "SIZE: memory.md is ${mem_words} words, budget ~1,500 (sunday.md maintenance table)."
+  echo "ACTION REQUIRED: compress it THIS session -- closed items to one line, narrative to PROGRESS.md. It is read every session; every word is paid for every session."
+fi
+prog_bytes=$(wc -c < PROGRESS.md | tr -d ' ')
+if [ "${prog_bytes:-0}" -gt 120000 ] 2>/dev/null; then
+  echo "SIZE: PROGRESS.md is $((prog_bytes / 1024))KB; the monthly roll into PROGRESS-archive.md is overdue (archive last touched $(date -r PROGRESS-archive.md '+%Y-%m-%d'))."
+fi
 
 # Makes silently-unpersisted study sessions visible (the Jun 23 / Jul 7 ambiguity).
 [ -f context/study/state.json ] && echo "study state.json last write: $(date -r context/study/state.json '+%Y-%m-%d %H:%M')"

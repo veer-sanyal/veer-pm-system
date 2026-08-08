@@ -29,6 +29,8 @@ The weekly structural session. Everything mid-week sessions refuse to do (replan
 
 Every living file has a size budget so context stays lean as the system ages. Git history is the archive of record: compression never loses information, it moves it out of the per-session read path. Check whichever files this week touched; the full sweep is monthly (below).
 
+**The first two budgets are no longer enforced here.** `memory.md` and `PROGRESS.md` are measured by the session-start hook every session, because between the 2026-07-24 audit and 2026-08-07 both regressed to worse than pre-audit while this table sat in a command that fired 3 times in 46 sessions. A budget nobody measures is not a budget. The rest of the table is still a Sunday judgement call.
+
 | File | Budget | When over |
 |---|---|---|
 | `memory.md` | ~1,500 words | Compress closed items to one line each; the narrative already lives in PROGRESS.md. |
@@ -60,14 +62,14 @@ Read `session-log.jsonl` and answer, briefly, in the Sunday summary:
 
 1. Session mix: counts by type (reconcile / quick / coaching / sunday / tutor / apply / debrief). Is the system being used for what it was built for?
 2. Reconcile yield: how often did a reconcile actually find drift or a tripwire? If it is mostly no-ops, lengthen the cadence; if it keeps catching late replies, shorten it.
-3. Tripwire latency: median days from a slug appearing in `tripwires_opened` to the same slug in `tripwires_closed`. This is the system's core KPI (it exists to close loops).
+3. Tripwire latency: run `tools/kpi.sh 30`. This is the system's core KPI (the system exists to close loops), so it is a script now, not a hand-computation gated behind this session — it had never once been computed before 2026-08-07. **Read the still-open list, not just the median:** the median only measures loops that close, so it flatters. A slug open across the whole window (e.g. `stick-first-user-shown`) is the finding, and duplicate slugs for one thread are the `tripwires.json` trigger below.
 4. Dead weight: files no session consulted this month are candidates to compress or retire; capabilities never invoked are candidates to cut.
 5. Size budgets: run the full maintenance-table sweep above; archive/prune what is over.
 6. **One live experiment.** The system improves by testing, not accreting: at most ONE structural experiment at a time (e.g. "briefing refresh at reconcile vs Sunday-only", "every-other-day reconcile"). It gets a hypothesis, the single metric that decides it, and a verdict date; record it in the `ledgers.md` System signals section and close it with a verdict before opening the next. No live experiment is also a valid state — do not invent one to fill the slot.
 
 **Architecture watch (armed 2026-07-08; review with each health check, build ONLY when the trigger fires):**
 
-- Tripwires → `tripwires.json` (slug, opened, due, next physical action, status; memory.md narrates on top, the banner and latency KPI read the file). Trigger: slugs prove inconsistent across sessions, or an open tripwire gets lost between memory.md prose and the telemetry log.
+- Tripwires → `tripwires.json` (slug, opened, due, next physical action, status; memory.md narrates on top, the banner and latency KPI read the file). Trigger: slugs prove inconsistent across sessions, or an open tripwire gets lost between memory.md prose and the telemetry log. **THE TRIGGER FIRED 2026-08-07:** the first `tools/kpi.sh` run showed three live slugs for one thread (`mama-6mm-reply`, `mama-nozzle-6mm-reply`, `mama-nozzle-reply`) plus July opens never closed in the log (`externship-thankyou-bryon`, `mentor-meeting-jul15`, `w2-unplanned-jul12`). Build it, or first do one cheap pass reconciling slugs by hand and see whether drift returns — decide which at the next health check, do not leave it armed-and-fired.
 - Per-contact files (`contacts/<name>.md` owning the tracker row + prep sheet + relationship history). Trigger: a reconcile misattributes state between people, or live contacts exceed ~25.
 - Daily-generated Morning Briefing (headless ~8:45am run writing the real done-check into that day's 9:00 briefing). Trigger: phone-/initialize has had a fair trial AND briefing done-checks are still stale when Veer reads them.
 
