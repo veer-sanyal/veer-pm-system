@@ -68,6 +68,11 @@ map would be a second copy of the routing table and the commands' own contracts,
 the next thing to rot. AUDIT.md is dated and historical by nature, which is the honest home for a
 point-in-time map. This is a knowing deviation from the cairn audit skill's Stage 1.
 
+Corroborated after the fact: a map already exists at `specs/system-map.tex` / `.pdf`, written
+2026-07-15 and frozen since — it predates the founder-primary restatement, so it states the retired
+goal. Built as a document rather than a maintained file, it rotted in 23 days. A third copy would
+have rotted the same way.
+
 | id | Trigger | Writes | Verification | Boundary | Fires |
 |---|---|---|---|---|---|
 | `session-start` | every session | `git push` | staleness · git-dirty · telemetry-gap · **(new) size budgets** | act | 46/46 |
