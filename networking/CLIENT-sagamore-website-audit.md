@@ -84,9 +84,19 @@ photograph of real children that visibly includes a girl, a den-by-grade breakdo
 The "Join Scouting" menu item skips it and sends people to the national site instead, which means you
 never find out who was interested and cannot follow up with anyone who hesitated.
 
-Its "New Parents, Click HERE" link also has a stray prefix in it (`chrome-extension//...`), which happens
-when a URL gets copied out of a PDF viewer. That link is currently dead for every visitor. The fix is
-deleting the first 52 characters.
+Its "New Parents, Click HERE" link also has a stray prefix in it, which happens when a URL gets copied
+out of a PDF viewer. The full address currently reads:
+
+```
+http://chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://scoutingevent.com/.../Parent_Guide_2022.pdf
+```
+
+That link is dead for every visitor. The fix is deleting the first 52 characters.
+
+![What the New Parents link does](audit-screenshots/v2-web-deadlink-chrome-extension.png)
+
+*What a parent gets when they click "New Parents, Click HERE" — the browser tries to resolve
+"chrome-extension" as a website, because that prefix was never meant to be part of the address.*
 
 ![The join page on desktop](audit-screenshots/v2-web-desktop-join-page.png)
 
@@ -154,6 +164,11 @@ America,"** which is exactly what Google and screen readers see; all 28 content 
 "Sagamore Council - Boy Scouts of America"; and your X/Twitter account still uses the old round BSA
 avatar.
 
+![The full homepage including the footer](audit-screenshots/v2-web-desktop-homepage-full.png)
+
+*The homepage end to end. The footer at the bottom carries "Trademark 2013 Boy Scouts of America" — and
+it appears on all 28 content pages, so this is one edit in one template rather than 28 separate jobs.*
+
 Scouting America's own *Digital Renaming Guidance* asks that council websites be updated no later than
 **February 8, 2025**, and that new domains not contain "bsa."
 
@@ -182,9 +197,20 @@ deadline sit directly beside the site's own calendar showing August 2026.*
 - **Recharter** describes a "NEW PROCESS... beginning March 1, 2024" two and a half years on.
 - **Contact Us** lists a North Star District Executive your own Facebook page replaced this week.
 
-![AmazonSmile section](audit-screenshots/web-09-amazonsmile.png)
+![Friends of Scouting](audit-screenshots/v2-web-friends-of-scouting.png)
 
-*The donations page. The instruction to click a link remains; the link itself is already gone.*
+*Your Friends of Scouting page, captured 7 August. The AmazonSmile section is still here, and it still
+ends "Click on the link below" with nothing below it. Amazon shut the programme down in February 2023.*
+
+![Recharter](audit-screenshots/v2-web-recharter.png)
+
+*The Recharter page, still describing a "NEW PROCESS" beginning March 1, 2024.*
+
+![Contact Us](audit-screenshots/v2-web-contact-us.png)
+
+*Contact Us, still listing the North Star District Executive your own Facebook page replaced this week —
+and the Camp Ranger line below, which renders as visible broken code with a staff email exposed in plain
+text.*
 
 **About 30 to 40 minutes total, and it splits neatly into four separate ten-minute jobs.**
 
@@ -244,6 +270,11 @@ every one of them at once.*
 
 *The Camp Ranger line on the Contact page, with stray code visible and the email address exposed in plain
 text. The line directly beneath it renders correctly.*
+
+![The Camp Buffalo link](audit-screenshots/v2-web-deadlink-campbuffalo.png)
+
+*The Camp Buffalo link. `www.new.campbuffalo.com` has no DNS record at all — `campbuffalo.com` without
+the "new." loads fine, so this is a five-character fix.*
 
 - **A few broken links.** `www.new.campbuffalo.com` has no DNS record, so dropping "new." fixes it. On
   Contact Us, the Camp Ranger line renders as visible broken code and exposes a staff email in plain
@@ -324,3 +355,22 @@ you already have, and we could not see it from outside.
 Your Google Business Profile carries **4.6 stars across 18 reviews**, with a correct address, hours,
 phone and category. The only two defects are the organization name and the website link, both five-minute
 fixes. Nothing else on this list buys that much credibility that cheaply.
+
+*(No screenshot here, for the same reason as the search section: Google serves automated browsers a
+challenge page rather than results. This was read by hand and takes you ten seconds to confirm — it is
+the panel on the right when you search your own council name.)*
+
+---
+
+## A note on the evidence in this document
+
+Almost every claim above has a screenshot under it, captured on 7 August. Three do not, and it is worth
+saying why rather than leaving you to wonder:
+
+- **Search positions and the Google Business Profile.** Search engines show automated browsers a
+  challenge page instead of results, and the machine we captured from is not in Indiana, so local results
+  would be wrong even if it passed. Read by hand, stated as such, and worth thirty seconds of your own
+  checking.
+- **The alt-text count (39 of 44 images) and the mobile menu being built as a heading.** These live in the
+  page's code rather than on the screen. A screenshot would show you a normal-looking page, which is
+  precisely the problem — the defect is invisible to a sighted mouse user and total for everyone else.

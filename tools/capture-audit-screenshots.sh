@@ -70,10 +70,24 @@ shot v2-soc-x-profile                 1440 900  "https://x.com/SagamoreCouncil"
 shot v2-soc-x-footer-link-404         1440 900  "https://twitter.com/SagamoreBSA"
 shot v2-soc-instagram-profile         1440 1200 "https://www.instagram.com/sagamorebsa/"
 
-echo "== search: EXPECT BOT CHALLENGES. Inspect before trusting. =="
-shot v2-search-cost-question          1440 1600 "https://duckduckgo.com/?q=how+much+does+scouting+cost"
-shot v2-search-sagamore-join          1440 1600 "https://duckduckgo.com/?q=sagamore+council+join"
+echo "== website: pages still advertising things that already happened =="
+shot v2-web-recharter                 1440 1600 "$APP/recharter-information/"
+shot v2-web-contact-us                1440 2000 "$APP/contact-us/"
+shot v2-web-friends-of-scouting       1440 2400 "$APP/friends-of-scouting/"
+
+echo "== website: footer (trademark line sits at the bottom of every page) =="
+shot v2-web-desktop-homepage-full     1440 5200 "$SITE/"
+
+echo "== website: the two genuinely dead links =="
+# www.new.campbuffalo.com is NXDOMAIN; campbuffalo.com without the "new." resolves fine.
+shot v2-web-deadlink-campbuffalo      1440 700  "http://www.new.campbuffalo.com/"
+# The New Parents link on /join/ carries a pasted Adobe Acrobat extension prefix.
+shot v2-web-deadlink-chrome-extension 1440 700  "http://chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://scoutingevent.com/Download/16296778/OR/Parent_Guide_2022.pdf"
+
+# NO SEARCH SHOTS. Google and DuckDuckGo serve this a bot challenge, and the machine
+# geolocates outside Indiana so local-intent results would be wrong even if it passed.
+# Search positions in the audit are hand-read and the document says so. Do not fake them.
 
 echo
 echo "Done. Files in $OUT"
-echo "REVIEW EVERY SEARCH SHOT BY EYE before citing it — a challenge page is not a result page."
+echo "REVIEW EVERY IMAGE BY EYE before citing it. An error page or a challenge page is not evidence."
