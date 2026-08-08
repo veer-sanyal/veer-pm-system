@@ -11,3 +11,4 @@
 *.log
 *.out
 build.log
+build/
