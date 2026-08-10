@@ -3,16 +3,13 @@
 > Keep it a snapshot (~1,500 words max): closed items compress to one line; the story is already in PROGRESS.md.
 > The session-start hook now measures this. If it prints a SIZE line, compressing is the session's first move.
 
-**Last reconciled: 2026-08-09 (Sun) ~23:45 PT — FULL, /sunday.** Sources: stick-dev git + STATE.md, sagamore STATE.md, Calendar, Gmail, Neal's feed, WhatsApp via Chrome. Prior reconciles: `PROGRESS.md`. Live deltas:
+**Last reconciled: 2026-08-10 (Mon) ~13:20 PT — light, same-day /reconcile off last night's full /sunday.** Sources: stick-dev git + STATE.md, sagamore STATE.md, Calendar, Gmail, WhatsApp via Chrome. Prior reconciles: `PROGRESS.md`. Live deltas since last night:
 
-- **STICK: `app/` ratio 21.4% last 14d (was 16.3%), 923 commits all-time. Still zero humans, day 13.** D52 blocks pilot-scale diagnostics only, not the single gate action.
-- **Sagamore: Bryon confirmed Thu Aug 13 6:30pm by email for the closing call — not yet calendar-locked by Izzy.** Two stale Bryon drafts confirmed dead, kill don't send.
-- **Gmail/LinkedIn: only the Bryon/Izzy scheduling thread moved.** Everything else silent.
-- **WhatsApp: nothing moved. Sudip's alternate windows also expired (3 dead now); Mama still unsent (16 days).** Both hit the 3-session naming rule — Veer chose to send both tonight (Mama drafted into Gmail `r6350260301157660326`; Sudip's text is his to tap, no WhatsApp send tool here).
-- **"Train to Washington DC" calendar event confirmed bogus** (recurs yearly from a Gmail promo import) — deleted.
-- **Calendar bug found and fixed: the recurring spine was still firing at the pre-Jul-19 times (9:45/11:45/2:30), never retimed to the ~11:00 wake anchor** — deep block was firing before Veer wakes. Fixed this week's 6 instances; the recurring master series itself still needs a one-time fix, flagged not touched.
-- **Neal's feed: 2 new, term-unverified, low priority** (Eko Health, Audible).
-- **Slug hygiene done by hand:** Mama's thread consolidated to one slug; three stale July opens closed as moot. `tripwires.json` build decision deferred to the Sept 6 monthly check.
+- **Neither of last night's "send tonight" actions actually went out.** Sudip's WhatsApp text (Maya seller call) is still un-sent — thread's last message is still his own Wed reply, nothing from Veer since. The Mama Gmail draft (`r6350260301157660326`) is also still sitting unsent. Ball is on Veer today.
+- **STICK: no new commits, nothing changed** — day 13, still zero humans, tripwire unchanged (Wed Aug 12 target).
+- **Sagamore STATE.md was stale (last touched Aug 7)** — didn't have Sunday night's Bryon confirmation. Synced it in this session: Thu Aug 13 6:30pm is a real reply from Bryon, but still only a self-created placeholder on Veer's calendar, not a real invite from Izzy. `sagamore-package-monday` guard may be live today — flagged in STATE.md for Veer to re-check.
+- **Calendar: today's blocks confirmed correct** (11:30 deep / 2:30 secondary / 3:30 small item — the wake-anchored spine fix held).
+- **Gmail/LinkedIn: nothing new overnight** besides the already-known Bryon/Izzy thread. Inbox is retail noise otherwise.
 
 ---
 

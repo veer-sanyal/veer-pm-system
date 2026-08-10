@@ -7,7 +7,7 @@ mirror). Two copies means one of them is lying by Tuesday.
 Static brief (client, team, plan params, locked decisions): `externship-scouting-america.md`.
 Narrative and reasoning trail: `PROGRESS.md` on the dates named below.
 
-**Last updated: 2026-08-07** (post final-package team meeting)
+**Last updated: 2026-08-10** (reconcile — Bryon confirmation synced in)
 
 ## Phase
 
@@ -34,14 +34,15 @@ of silence.
 
 ## Open queue
 
-- **Package delivery has a target, not a date.** The Aug 7 team meeting produced "all moving parts
-  done by Tuesday" and an intention — Izzy will *try* to book Bryon for Wed Aug 12 or Thu Aug 13.
-  Izzy holds Client Communicator so she is the correct sender, and a call beats an emailed folder
-  for these findings. But "will try to book" has no deadline on it, and the Aug 1 handoff died in
-  exactly this shape.
+- **Package delivery now has a date, not just a target.** Izzy emailed Bryon Sun Aug 9 asking for the
+  closing call; he replied same day, "I can do Thursday at 6:30!" — **confirmed Thu Aug 13, 6:30pm.**
+  This is a real reply from Bryon, but still not a real calendar invite from Izzy — a placeholder
+  event exists on Veer's own calendar only, self-created, not sent by her. Worth Veer confirming
+  with Izzy that she's locked it (books the room / sends the actual invite).
 - **GUARD (`sagamore-package-monday`), checked Sunday Aug 9 night:** if no invite to Bryon exists on
-  any calendar, the package emails Monday with the call offered inside it. Delivery never depends on
-  a booking.
+  any calendar, the package emails Monday with the call offered inside it. As of Mon Aug 10 morning
+  no real invite exists yet (see above) — re-check whether this guard should fire today, or whether
+  Bryon's email reply counts as enough to hold off. Delivery never depends on a booking either way.
 - **Unconfirmed:** whether Prisha's Canva templates are DONE with a date. "The templates are good"
   is not that claim.
 - **Veer's synthesis, still to be written into the calendar:** keep-alive posts and membership-moving
