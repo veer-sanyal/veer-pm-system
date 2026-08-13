@@ -7,7 +7,7 @@ mirror). Two copies means one of them is lying by Tuesday.
 Static brief (client, team, plan params, locked decisions): `externship-scouting-america.md`.
 Narrative and reasoning trail: `PROGRESS.md` on the dates named below.
 
-**Last updated: 2026-08-10** (reconcile — Bryon confirmation synced in)
+**Last updated: 2026-08-12** (closing call moved off Thu Aug 13 — Veer traveling; new time proposed to Bryon)
 
 ## Phase
 
@@ -34,11 +34,14 @@ of silence.
 
 ## Open queue
 
-- **Package delivery now has a date, not just a target.** Izzy emailed Bryon Sun Aug 9 asking for the
-  closing call; he replied same day, "I can do Thursday at 6:30!" — **confirmed Thu Aug 13, 6:30pm.**
-  This is a real reply from Bryon, but still not a real calendar invite from Izzy — a placeholder
-  event exists on Veer's own calendar only, self-created, not sent by her. Worth Veer confirming
-  with Izzy that she's locked it (books the room / sends the actual invite).
+- **Closing call being MOVED — Thu Aug 13 6:30pm is off, awaiting Bryon's reply on the new time.**
+  Veer travels Thu–Fri Aug 13–14, raised it in the team iMessage Wed Aug 12; Izzy and Prisha agreed
+  (Izzy: free all day Mon, has a 6pm ET call; Prisha: either works). Veer replied on the "Final
+  meeting" thread Wed Aug 12 evening (from Purdue Outlook, cc Izzy + Prisha) proposing **Mon Aug 17
+  4:00pm ET, backup all-day Tue Aug 18** (Izzy is free all Tuesday too). Bryon's history: replies
+  same-day. When he confirms: update the calendar event (the Thu placeholder on Veer's calendar is
+  now wrong — move or delete it), and make sure a real invite goes to Bryon this time, not another
+  self-created placeholder.
 - **GUARD (`sagamore-package-monday`), checked Sunday Aug 9 night:** if no invite to Bryon exists on
   any calendar, the package emails Monday with the call offered inside it. As of Mon Aug 10 morning
   no real invite exists yet (see above) — re-check whether this guard should fire today, or whether
