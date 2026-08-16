@@ -82,6 +82,8 @@ Before answering a substantive question, read the covering doc FIRST and cite it
 
 ## Before telling him to send anything
 
+**VEER PRESSES SEND — hard rule, set by Veer 2026-08-15.** Nothing is sent, submitted, published, or otherwise shown to another person — email, calendar invite, chat message, comment, anything — until the exact final content has been shown to Veer in-session and he has approved THAT artifact. "Pilot it," "set it up," "handle it," and other authorization-sounding phrasing mean STAGE TO ONE CLICK and stop; they never mean send. This applies to sub-agents too: an agent driving a browser or mail client stops at the filled-out, unsent form and reports back. The only exception is Veer explicitly saying to send a specific item whose final content he has already seen. (Origin: a sub-agent sent an Outlook invite Veer wanted to review first.)
+
 **Never say "send it" until every artifact going with it has been opened and read AS THE RECIPIENT.**
 Applies to attachments, links, shared folders, repos, screenshots — anything the other person will open.
 The message body is not the deliverable; the thing attached to it is.
