@@ -37,10 +37,11 @@ of silence.
 - **Closing call CONFIRMED: Mon Aug 17, 4:00 PM ET (1:00 PM PT).** Bryon replied Thu Aug 13
   2:57 AM ET on the "Final meeting" thread (Gmail thread `19fe6a87fd853589`): "I can do Monday at
   4:00 PM." Izzy cc'd throughout. **This is the last team meeting — agenda below.**
-- **No meeting link exists anywhere on the thread, and still no real calendar invite** — only the
-  now-wrong Thu Aug 13 6:30pm self-created placeholder on Veer's calendar. Next physical action:
-  create a real invite for Mon 4:00 PM ET with a Meet link, attendees Bryon + Izzy + Prisha (pull
-  addresses from the thread), and retire the stale Thu event. Not another self-created placeholder.
+- **DONE 2026-08-15 ~9pm PT: real Teams invite SENT from Veer's Purdue Outlook** (organizer
+  vsanyal@purdue.edu) for Mon Aug 17 4:00–4:45 PM ET, attendees Bryon.Haverstick@Scouting.org +
+  iyura@purdue.edu + pgoswami@purdue.edu, Teams join link attached, client-facing agenda in the
+  body (body was recipient-checked per the send protocol). Google Calendar synced: stale Thu
+  placeholder retitled as moved (it was also 3h timezone-wrong), Mon 1:00 PM PT block created.
 - **Final-call agenda (covering everything, since this closes the engagement):** (1) walk the
   delivered set — promotional calendar, both audit halves (Veer's conversion/cost/accessibility +
   Izzy's design markup), posting toolkit/templates; (2) the mix recommendation — keep-alive posts

@@ -5,7 +5,7 @@
 
 **Last reconciled: 2026-08-15 (Sat) ~20:30 PT — full /reconcile after 5 dark days (Veer traveled Aug 11–14, came back sick).** Sources: stick-dev git + STATE.md, sagamore STATE.md, Calendar, Gmail, WhatsApp via Chrome. iMessage blind (visibility not opted in). Prior reconciles: `PROGRESS.md`. Live deltas since Aug 10:
 
-- **Sagamore closing call is CONFIRMED for Mon Aug 17, 4:00 PM ET (1:00 PM PT)** — Bryon: "I can do Monday at 4:00 PM" (Thu Aug 13, "Final meeting" thread). NOT tomorrow (Sun Aug 16), which Veer misremembered. No meeting link exists on the thread and no real invite exists yet; stale Thu Aug 13 placeholder still on the calendar. Agenda + next actions: `projects/sagamore/STATE.md`.
+- **Sagamore closing call CONFIRMED Mon Aug 17, 4:00 PM ET (1:00 PM PT)** — Bryon: "I can do Monday at 4:00 PM" (Thu Aug 13, "Final meeting" thread). **Real Teams invite SENT Sat night from Purdue Outlook** (sub-agent piloted, Veer-authorized) to Bryon + Izzy + Prisha with agenda in body; Google Calendar synced (stale Thu placeholder retitled, Mon 1pm PT block created). Remaining prep: `projects/sagamore/STATE.md`.
 - **STICK moved hard while he was away: 135 commits Aug 10–15, 31 touching `app/`. The demo path now runs end-to-end** (driven twice; phase D362 "two weeks to a demo"). Still zero humans shown — day 18.
 - **Neither Aug-9 "send live" item went out** (Sudip 10 days, Mama 21 days) — logged as P4 evidence 2026-08-15; per the Jul-26 binary rule both go FIRST next working session or get killed.
 - **W6 Wed–Sat blocks all lost to the trip + illness**; Mon Aug 10's Canva/Bulk-Create deadline and the two app submissions are UNVERIFIED — ask Veer.
