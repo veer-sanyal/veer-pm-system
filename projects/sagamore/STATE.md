@@ -18,19 +18,19 @@ of silence.
 
 ## Owner actions (Veer)
 
-1. **MON AUG 10 — hard deadline, he travels Tue Aug 11.** Build exactly TWO Canva templates with
-   field names matching the CSV columns, then run Bulk Create. Not one template per row: 76 of 156
-   rows need a graphic, the other 80 stay untemplated on purpose. Field spec and the two row-types:
-   `sagamore-posting-toolkit-2026-08-04.md`. Both CSVs already generated (Aug 7), currently in
+1. **Canva templates + Bulk Create — the Aug 10 deadline was MISSED (Veer confirmed 2026-08-15; trip
+   + illness). Now slotted: Sun Aug 16, before the Mon final call.** Build exactly TWO Canva
+   templates with field names matching the CSV columns, then run Bulk Create. Not one template per
+   row: 76 of 156 rows need a graphic, the other 80 stay untemplated on purpose. Field spec and the
+   two row-types: `sagamore-posting-toolkit-2026-08-04.md`. Both CSVs generated Aug 7, in
    `~/Downloads/`: `sagamore-bulk-event-posts.csv` (52 rows), `sagamore-bulk-education-posts.csv`
-   (24). Regenerate with `tools/make-bulk-create-csv.py` if lost.
-2. **Send the two audits to Izzy** — he said on the Aug 7 call he would. Send the rendered HTML from
-   `build/` (regenerate with `tools/build-audit-html.sh`); the raw `.md` uses relative image paths
-   and is unreadable outside this directory. Frame them as complementary halves: hers is design and
-   information architecture, his is conversion, cost transparency and accessibility.
+   (24). Regenerate with `tools/make-bulk-create-csv.py` if lost. If Sunday slips, the fallback is
+   honest: demo one template live on the call and hand over the CSVs + instructions, do not claim
+   finished graphics.
+2. ~~Send the two audits to Izzy~~ **DONE — Veer confirmed sent (2026-08-15).**
 3. **The Eagle-photo consent liability — second skip, does not get a third.** The benchmark Eagle
    post used a photo taken off a dad's personal Facebook page: consent and copyright, on an image of
-   a child, for a youth org. It rides the package or the call. Queued and skipped once already.
+   a child, for a youth org. It rides Monday's call agenda.
 
 ## Open queue
 
@@ -50,9 +50,8 @@ of silence.
   after: where the files live for him, who he contacts, the thank-you/close.
 - `sagamore-package-monday` guard: retired 2026-08-15 — the call is confirmed and booked-by-email;
   delivery rides the call itself now.
-- **UNVERIFIED after Veer's Aug 11–14 trip + illness:** whether the Mon Aug 10 Canva templates +
-  Bulk Create run actually happened before travel, and whether the two audits ever went to Izzy.
-  Ask him; both may need to land before Monday's call.
+- ~~UNVERIFIED after the trip~~ **Resolved 2026-08-15 by Veer directly: audits went to Izzy;
+  Canva/Bulk-Create did not happen** — see owner action 1.
 - **Unconfirmed:** whether Prisha's Canva templates are DONE with a date. "The templates are good"
   is not that claim.
 - **Veer's synthesis, still to be written into the calendar:** keep-alive posts and membership-moving
