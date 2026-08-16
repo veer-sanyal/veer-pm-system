@@ -36,7 +36,9 @@ Scan targets are read from the live files, never hard-coded here: the Applicatio
 
 4. **iMessage + WhatsApp — the hard channels.** The iMessage DB read runs ONLY while the README automation section says visibility is ON (Veer's explicit opt-in): when ON, query `~/Library/Messages/chat.db` read-only for recent messages matching the live tracked names and the externship team thread. **WhatsApp: read it via WhatsApp Web in Veer's real Chrome (the claude-in-chrome connector), read-only — Veer opted in 2026-08-05.** Load the Chrome tools, open/select a tab at `web.whatsapp.com`, and read the chat list + the tracked threads (Naveen/Trice, Sudip Uncle, Mama). Open a thread only to read it; never type, send, or mark-up anything. If Chrome isn't running, WhatsApp Web is logged out, or the connector is unavailable, the channel is blind this session — say so. **When a channel is blind, do not just annotate it — actively ask Veer.** Real relationship state lives here: the Trice/Naveen WhatsApp thread, the externship team iMessage, the family side-thread. Close the scan with ONE short question naming the specific open threads that ride on these channels, and fold his answer in. Note which channels were actually read in the stamp; never treat absence as evidence nothing happened.
 
-5. **PM-internship openings feed (Neal's scraper — borrowed, not built).** Neal (`nealtheseal108`) runs an ATS + tracker scraper on GitHub Actions every 8h and commits the merged PM feed to his repo. Read it, do not rebuild it:
+5. **Openings scan — MULTI-SOURCE during recruiting season (widened 2026-08-15 at Veer's request: "maximum information so the reason I don't apply is never that we didn't see it").** Season = now through the cycle's close (~Nov 2026); re-scope at the monthly health check. Run the whole step in ONE subagent (cheap model) and keep only its findings. Four sources, none authoritative alone — on 2026-08-15 Neal's feed missed Amex/Appian/Tesla/Oracle that the trackers carried, and Indeed surfaced a TikTok req none of the others had:
+
+   a. **Neal's scraper feed** (borrowed, not built — `nealtheseal108` runs an ATS + tracker scraper on GitHub Actions every 8h):
 
    ```bash
    curl -sL "https://raw.githubusercontent.com/nealtheseal108/neal-pm-system/neal/Downloads/veer-pm-system-master/recruiting/feed-pm.json" | jq -r --argjson since <epoch of last reconcile> '"feed \(.updated|todate), \(.count) roles", (.roles[] | select(.firstSeen > $since) | select((.term // "") | test("2026") | not) | "\(.company) — \(.title) [\(.location)] \(.url)")'
@@ -44,11 +46,17 @@ Scan targets are read from the live files, never hard-coded here: the Applicatio
 
    Third-party and unpinned: default branch is `neal`, the path carries `veer-pm-system-master` from the zip Neal forked, and either can move. If the curl or the jq returns nothing parseable, say "openings feed unreachable" and move on — never infer that no roles opened.
 
+   b. **SimplifyJobs Summer2027-Internships tracker** (GitHub, community + automated, updated daily): fetch the raw README from `SimplifyJobs/Summer2027-Internships` and diff the Product-Management-relevant rows against the pipeline in `key-dates.md`. New-open rows are candidates.
+
+   c. **apmlist.org** (APM-specific, refreshed hourly): fetch and check for newly opened APM/PM-intern programs and posted deadlines; it is the earliest reliable tell for the Google APM window.
+
+   d. **Indeed MCP** (connected; `search_jobs`): one query, `search="product manager intern summer 2027"`, `location="United States"`, `job_type="internship"`. Catches ATS-posted reqs the trackers lag on; expect noise (non-PM roles), filter by title.
+
    **Relevance is a judgment call, not a field.** The feed filters on title keywords only; it carries no major or eligibility data, which is exactly Veer's CS-major worry. Two filters in order: (a) **term** — Veer needs Summer 2027; explicit 2026 rows are the wrong cycle and are already excluded above, and `unspecified` rows are usually 2026 long-tail, so verify the term on the posting before it earns a pipeline row. (b) **degree line** — "CS or related technical field" is defensible for IBE (precedent: the Databricks P-982 and Salesforce JR348039 rows in `key-dates.md`); "CS/EE required" plus coding deliverables is a skip, and say so rather than adding the row.
 
-   **Do not auto-write pipeline rows.** Surface Summer-2027 hits that pass both filters as a short list for Veer to accept or kill; only accepted ones get a row in `context/key-dates.md`.
+   **Row policy (amended by Veer 2026-08-15):** a hit that passes both filters (term verified Summer 2027 + degree line defensible for IBE) gets a **Researching** row in `context/key-dates.md` immediately, so nothing is lost between reconciles. Veer's accept/kill decision governs whether it ever advances past Researching; hits that fail a filter are surfaced in the session summary and NOT rowed. Never advance a row's Stage without his say.
 
-   **Expect it quiet until ~mid-September** (as of Jul 29: 30 roles, exactly 2 Summer 2027, both already closed rows). Quiet is the correct output in July, not a broken scan. It goes live with the Google APM posting, which is the same trigger that wakes Pillar 4.
+   **Season note (updated 2026-08-15): the feed is live.** ~46 roles, multiple verified Summer-2027 PM postings, and postings are appearing daily. The Google APM posting (~mid-Sept) remains the trigger that wakes Pillar 4.
 
 ## Closed-loop checks (while scanning)
 
