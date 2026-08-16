@@ -7,7 +7,7 @@ mirror). Two copies means one of them is lying by Tuesday.
 Static brief (client, team, plan params, locked decisions): `externship-scouting-america.md`.
 Narrative and reasoning trail: `PROGRESS.md` on the dates named below.
 
-**Last updated: 2026-08-12** (closing call moved off Thu Aug 13 — Veer traveling; new time proposed to Bryon)
+**Last updated: 2026-08-15** (Bryon CONFIRMED the new time: closing call is Mon Aug 17, 4:00 PM ET)
 
 ## Phase
 
@@ -34,18 +34,25 @@ of silence.
 
 ## Open queue
 
-- **Closing call being MOVED — Thu Aug 13 6:30pm is off, awaiting Bryon's reply on the new time.**
-  Veer travels Thu–Fri Aug 13–14, raised it in the team iMessage Wed Aug 12; Izzy and Prisha agreed
-  (Izzy: free all day Mon, has a 6pm ET call; Prisha: either works). Veer replied on the "Final
-  meeting" thread Wed Aug 12 evening (from Purdue Outlook, cc Izzy + Prisha) proposing **Mon Aug 17
-  4:00pm ET, backup all-day Tue Aug 18** (Izzy is free all Tuesday too). Bryon's history: replies
-  same-day. When he confirms: update the calendar event (the Thu placeholder on Veer's calendar is
-  now wrong — move or delete it), and make sure a real invite goes to Bryon this time, not another
-  self-created placeholder.
-- **GUARD (`sagamore-package-monday`), checked Sunday Aug 9 night:** if no invite to Bryon exists on
-  any calendar, the package emails Monday with the call offered inside it. As of Mon Aug 10 morning
-  no real invite exists yet (see above) — re-check whether this guard should fire today, or whether
-  Bryon's email reply counts as enough to hold off. Delivery never depends on a booking either way.
+- **Closing call CONFIRMED: Mon Aug 17, 4:00 PM ET (1:00 PM PT).** Bryon replied Thu Aug 13
+  2:57 AM ET on the "Final meeting" thread (Gmail thread `19fe6a87fd853589`): "I can do Monday at
+  4:00 PM." Izzy cc'd throughout. **This is the last team meeting — agenda below.**
+- **No meeting link exists anywhere on the thread, and still no real calendar invite** — only the
+  now-wrong Thu Aug 13 6:30pm self-created placeholder on Veer's calendar. Next physical action:
+  create a real invite for Mon 4:00 PM ET with a Meet link, attendees Bryon + Izzy + Prisha (pull
+  addresses from the thread), and retire the stale Thu event. Not another self-created placeholder.
+- **Final-call agenda (covering everything, since this closes the engagement):** (1) walk the
+  delivered set — promotional calendar, both audit halves (Veer's conversion/cost/accessibility +
+  Izzy's design markup), posting toolkit/templates; (2) the mix recommendation — keep-alive posts
+  vs membership-moving posts are different jobs, label them so Bryon knows which rows he can phone
+  in; (3) **the Eagle-photo consent flag — third listing, cannot skip again** (photo of a child
+  taken off a dad's personal Facebook page; consent + copyright for a youth org); (4) what happens
+  after: where the files live for him, who he contacts, the thank-you/close.
+- `sagamore-package-monday` guard: retired 2026-08-15 — the call is confirmed and booked-by-email;
+  delivery rides the call itself now.
+- **UNVERIFIED after Veer's Aug 11–14 trip + illness:** whether the Mon Aug 10 Canva templates +
+  Bulk Create run actually happened before travel, and whether the two audits ever went to Izzy.
+  Ask him; both may need to land before Monday's call.
 - **Unconfirmed:** whether Prisha's Canva templates are DONE with a date. "The templates are good"
   is not that claim.
 - **Veer's synthesis, still to be written into the calendar:** keep-alive posts and membership-moving

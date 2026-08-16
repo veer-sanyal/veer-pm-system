@@ -84,6 +84,8 @@ A living ledger of Veer's recurring behavioral patterns, each with dated evidenc
 
 - 2026-08-09 (**the binary rule actually fires**): both Sudip (3 expired windows) and Mama (16 days) hit the "named 3+ sessions" threshold at the Sunday reconcile, and instead of a fourth re-draft, Veer chose to send both live rather than kill either — the rule worked as designed for the first time since it was written Jul 26. Worth watching whether the sends actually go out (Mama is one Gmail click away; Sudip has no send tool in this system and needs Veer's own tap), since choosing to send in-session and the send actually happening are not the same event, per the Jul-25 lesson.
 
+- 2026-08-15 (**the Aug-9 watch item resolves: neither send happened**): the Sunday-session choice to "send both live" produced zero sends. Sudip's thread still ends at his own Aug 5 reply (10 days, ball with Veer, 3+ windows dead); the Mama Gmail draft is still in Drafts (21 days). Mitigation is real and should be said plainly — Veer traveled Aug 11–14 and came back sick — but both were already unsent at the Mon Aug 10 reconcile, before the trip started. Per the Jul-26 binary rule, neither gets a re-naming: they go first in the next working session, before any other work, or get explicitly killed.
+
 **Cost.** The last 10% carries most of the value (the sent message, the submitted app), so stalling there forfeits the payoff of work already done.
 
 **Build-around.** Name the single smallest physical last action and make it the tripwire ("open the draft, change one sentence, hit send before 9:15"). Do not re-list the whole task; decompose to the final move.

@@ -3,13 +3,14 @@
 > Keep it a snapshot (~1,500 words max): closed items compress to one line; the story is already in PROGRESS.md.
 > The session-start hook now measures this. If it prints a SIZE line, compressing is the session's first move.
 
-**Last reconciled: 2026-08-10 (Mon) ~13:20 PT — light, same-day /reconcile off last night's full /sunday.** Sources: stick-dev git + STATE.md, sagamore STATE.md, Calendar, Gmail, WhatsApp via Chrome. Prior reconciles: `PROGRESS.md`. Live deltas since last night:
+**Last reconciled: 2026-08-15 (Sat) ~20:30 PT — full /reconcile after 5 dark days (Veer traveled Aug 11–14, came back sick).** Sources: stick-dev git + STATE.md, sagamore STATE.md, Calendar, Gmail, WhatsApp via Chrome. iMessage blind (visibility not opted in). Prior reconciles: `PROGRESS.md`. Live deltas since Aug 10:
 
-- **Neither of last night's "send tonight" actions actually went out.** Sudip's WhatsApp text (Maya seller call) is still un-sent — thread's last message is still his own Wed reply, nothing from Veer since. The Mama Gmail draft (`r6350260301157660326`) is also still sitting unsent. Ball is on Veer today.
-- **STICK: no new commits, nothing changed** — day 13, still zero humans, tripwire unchanged (Wed Aug 12 target).
-- **Sagamore STATE.md was stale (last touched Aug 7)** — didn't have Sunday night's Bryon confirmation. Synced it in this session: Thu Aug 13 6:30pm is a real reply from Bryon, but still only a self-created placeholder on Veer's calendar, not a real invite from Izzy. `sagamore-package-monday` guard may be live today — flagged in STATE.md for Veer to re-check.
-- **Calendar: today's blocks confirmed correct** (11:30 deep / 2:30 secondary / 3:30 small item — the wake-anchored spine fix held).
-- **Gmail/LinkedIn: nothing new overnight** besides the already-known Bryon/Izzy thread. Inbox is retail noise otherwise.
+- **Sagamore closing call is CONFIRMED for Mon Aug 17, 4:00 PM ET (1:00 PM PT)** — Bryon: "I can do Monday at 4:00 PM" (Thu Aug 13, "Final meeting" thread). NOT tomorrow (Sun Aug 16), which Veer misremembered. No meeting link exists on the thread and no real invite exists yet; stale Thu Aug 13 placeholder still on the calendar. Agenda + next actions: `projects/sagamore/STATE.md`.
+- **STICK moved hard while he was away: 135 commits Aug 10–15, 31 touching `app/`. The demo path now runs end-to-end** (driven twice; phase D362 "two weeks to a demo"). Still zero humans shown — day 18.
+- **Neither Aug-9 "send live" item went out** (Sudip 10 days, Mama 21 days) — logged as P4 evidence 2026-08-15; per the Jul-26 binary rule both go FIRST next working session or get killed.
+- **W6 Wed–Sat blocks all lost to the trip + illness**; Mon Aug 10's Canva/Bulk-Create deadline and the two app submissions are UNVERIFIED — ask Veer.
+- **Openings feed woke up: ~6 real Summer-2027 hits since Aug 10** (IBM, Vertiv x2, Chamberlain, TikTok Scaled Growth, Sparrow) awaiting Veer's accept/kill — list in PROGRESS 2026-08-15. No pipeline rows written.
+- **Mummert email staged and ready** at `networking/mummert-send-2026-08-10.md` — one gate left (60-sec myPurdue lookup confirming he coordinates MA 16100 Fall 2026), send from Purdue Outlook. Veer stated intent to send Aug 15.
 
 ---
 
@@ -27,13 +28,13 @@
 
 **Live tripwires** — slug · state · next physical action. Reasoning trails live in `PROGRESS.md` on the dates named.
 
-0. **`stick-first-user-shown` — THE ONLY GATE LEFT, and the top of the board.** Day 13, zero humans. Every excuse layer is gone: demo-blocking defects closed Jul 30, professor target named (**Dr. Philip Mummert, `pmummert@purdue.edu`, MATH 846** — strong lead, not yet verified for Fall 2026; the 60-second myPurdue lookup is Veer's alone to run), `app/` ratio now 21.4% last 14d. **D52 (nobody can read student data) blocks pilot-scale diagnostics but not this single action.** **Do not accept owner-verify as a substitute.** Next physical action: the myPurdue lookup, THEN one student, screen in front of them, say nothing, write down what they DID. Set as Wed Aug 12's full deep block. Trail: PROGRESS Jul 16 / Jul 30 / Aug 2 / Aug 7.
-1. **`ahlawat-buildsystem-repo` — owed to a warm contact, day 4, untouched.** Veer promised Mihir Ahlawat (RCAC, `mahlawat@purdue.edu`) the open-sourced build system on GitHub, spec stripped, live on the Aug 6 call. Decomposed this session: set as Wed Aug 12's secondary block, first move is just picking what gets stripped.
-2. **Externship / Sagamore — state is owned by `projects/sagamore/STATE.md`. Read it, do not mirror it here.** Pillar-level read: **Bryon confirmed Thu Aug 13 6:30 PM by email (Aug 9) for the closing call — not yet calendar-invited by Izzy, worth Veer confirming she's locked it.** Three things still ride on Veer this week: **Mon Aug 10 Canva templates + Bulk Create (hard deadline, travels Tue)**, the two audits to Izzy (may already be sent — check STATE.md), and the **twice-skipped Eagle-photo consent flag, now explicitly slotted into Thu's call agenda so it can't skip a third time.**
-3. **`sudip-maya-seller-call` — BALL WITH VEER, now 3 dead windows.** He replied Wed Aug 5 offering "after 10 PM IST tonight or tomorrow"; that window AND the Sat/Sun Aug 8-9 alternate both expired unanswered. **Veer chose to send tonight (Aug 9 /sunday session)** — text is in `networking/sends-2026-08-07.md`, no send tool for WhatsApp so it's his to tap. What the call is for: have him walk through what he did the last time he had something to sell, out loud — the workaround moments are the note worth sending Naveen.
-4. **`naveen-show-not-tell` — blocked on the Sudip call, correctly.** Naveen hands over work once Veer shows value; silent since the 👍 (Aug 5), which is expected. Detail in `ledgers.md`.
-5. **`mama-6mm-reply` — 16 days unanswered.** Consolidated from two earlier slug variants (`mama-nozzle-reply`, `mama-nozzle-6mm-reply` — same loop, now superseded). **Drafted straight into a Gmail reply this session (`r6350260301157660326`) — Veer chose to send tonight, just needs to hit send.** Bounded sideline; does not displace STICK.
-6. **`sleep-anchor` — fixed ~11:00** (Veer, Jul 16); melatonin CLOSED (HOLD). Walk back toward 9:00 before classes ~Aug 24 (15 days out, Alaska flight back Aug 22) — **no real wake-stamp data surfaced this reconcile, so the walk-back has not started; raise it explicitly next Sunday.** Config in `sleep-protocol.md`.
+0. **`stick-first-user-shown` — THE ONLY GATE LEFT, and the top of the board.** Day 18, zero humans — but the excuse surface shrank again while he was away: **the demo path now runs end-to-end** (STATE.md, driven twice) and the Mummert email is written (`networking/mummert-send-2026-08-10.md`, target **Dr. Philip Mummert, `pmummert@purdue.edu`, MA 16100 coordinator lead**). One gate on the send: the 60-second myPurdue lookup confirming he's attached to MA 16100 for Fall 2026 (if it's someone else, same body goes to them, drop the award line). Send from Purdue Outlook. **Do not accept owner-verify as a substitute for a human at the screen.** Trail: PROGRESS Jul 16 / Jul 30 / Aug 2 / Aug 7 / Aug 15.
+1. **`ahlawat-buildsystem-repo` — owed to a warm contact, day 9, untouched** (Wed Aug 12's secondary block was lost to the trip). First move unchanged and still under 2 minutes: pick what gets stripped from the spec.
+2. **Externship / Sagamore — state owned by `projects/sagamore/STATE.md`. Read it, do not mirror it here.** Pillar-level read: **closing call CONFIRMED Mon Aug 17 4:00 PM ET (1:00 PM PT) — the final meeting.** Next physical action: real calendar invite with a Meet link to Bryon + Izzy + Prisha (none exists). Riding the call: the full-delivery walkthrough, the mix recommendation, and the **Eagle-photo consent flag (third listing — cannot skip again)**. Unverified after the trip: Mon Aug 10 Canva/Bulk-Create, audits-to-Izzy.
+3. **`sudip-maya-seller-call` — BALL WITH VEER, day 10, 3+ dead windows.** Per the Jul-26 P4 rule this does not get re-named: it goes first in the next working session (his tap, text in `networking/sends-2026-08-07.md`, opener re-timed) or gets explicitly killed. The call's purpose is unchanged: Maya walks through his last real sale out loud; the workaround moments are the note for Naveen.
+4. **`naveen-show-not-tell` — blocked on the Sudip call, correctly.** Silent since the 👍 (Aug 5), expected. Detail in `ledgers.md`.
+5. **`mama-6mm-reply` — 21 days unanswered.** Gmail draft `r6350260301157660326` still one click from send; same Jul-26 rule applies — send-as-is or kill. Bounded sideline; does not displace STICK.
+6. **`sleep-anchor` — fixed ~11:00** (Veer, Jul 16); melatonin CLOSED (HOLD). **Walk-back toward 9:00 still not started and now urgent: classes start Aug 24 (9 days), flight home Aug 22.** No wake-stamp data again this reconcile. Must be a top item at tomorrow's Sunday session. Config in `sleep-protocol.md`.
 
 *Slug hygiene done by hand this session (see delta above); `tripwires.json` build decision deferred to the Sept 6 monthly health check.*
 
@@ -47,16 +48,12 @@
 
 ---
 
-**Next moves — W6 (Aug 10–16), planned Sun Aug 9 ~11:45 PM (late; Sunday cadence watch item, see patterns.md)**
+**Next moves — W6 close (reconciled Sat Aug 15 night; W7 gets planned at tomorrow's Sunday session)**
 
-- **Tonight, still open:** send the Sudip WhatsApp text (drafted, his to tap) and hit send on the Mama Gmail draft (`r6350260301157660326`, ready). Both hit the 3-session naming rule this session.
-- **Mon Aug 10 (home, hard deadline before Tue travel):** deep block = Sagamore Canva templates + Bulk Create; secondary = first P2 rep in 5+ weeks; small item = submit Mobility Global + TikTok AI Agent PM apps (both Ready, just login).
-- **Tue Aug 11 (travel day):** light/flex blocks only; Cosentino case class 8-9pm is a free rep.
-- **Wed Aug 12 (home):** deep block = close `stick-first-user-shown` — the whole day is the Mummert lookup + finding one human, nothing else on STICK until this closes; secondary = decompose + start the Ahlawat repo promise.
-- **Thu Aug 13, 6:30pm:** Sagamore closing call with Bryon (Izzy leads) — confirmed by email, not yet calendar-locked by her. Eagle-photo consent ask rides this call.
-- **Fri/Sat:** P2 reps 2 and 3, alumni sends toward the 3/week baseline, Sat closes with a 10-min review feeding next Sunday.
-- **Calendar fix applied this session:** the recurring Deep/Secondary/Small-item spine was still firing at the pre-Jul-19 times (9:45/11:45/2:30) instead of the wake-anchored 11:30/2:30/3:30 — fixed for this week's instances; the recurring master series itself still needs a one-time fix, flagged to Veer.
-- **Sleep walk-back toward 9:00** has not started (no wake-stamp data this reconcile) — raise explicitly next Sunday, 12 days out from Aug 24.
+- **W6 verdict: Mon may have landed (unverified), Tue was travel by design, Wed–Sat were lost to the trip + illness.** That includes the Wed deep block reserved for `stick-first-user-shown`, the P2 reps 2–3 (the first-real-test week of the Jul 25 re-point produced at most 1 rep — carry the verdict question to Sunday), the Ahlawat block, and all alumni sends.
+- **Tonight/now:** Veer sends the Mummert email himself (gate: myPurdue lookup first, from Outlook). Sagamore invite + Meet link for Monday goes out once he OKs it.
+- **Sun Aug 16, 4:00pm: Sunday planning session.** Must cover: W7 plan around the Mon 1pm PT closing call, sleep walk-back (9 days to classes), P2 re-point verdict, feed accept/kill, the recurring calendar master series still firing at pre-Jul-19 times for Aug 17+ (visible on Mon/Tue: generic titles at 9:45/11:45).
+- **Mon Aug 17, 1:00 PM PT: Sagamore closing call (final).** Prep riding it is in `projects/sagamore/STATE.md`. Note it collides with the recurring Workout+lunch block — resolve when writing W7.
 
 ---
 
