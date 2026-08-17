@@ -7,61 +7,49 @@ mirror). Two copies means one of them is lying by Tuesday.
 Static brief (client, team, plan params, locked decisions): `externship-scouting-america.md`.
 Narrative and reasoning trail: `PROGRESS.md` on the dates named below.
 
-**Last updated: 2026-08-15** (Bryon CONFIRMED the new time: closing call is Mon Aug 17, 4:00 PM ET)
+**Last updated: 2026-08-17** (final closing call RAN — engagement in closeout)
 
 ## Phase
 
-**Overtime delivery.** The externship's official window was Jul 6 – Aug 1; the Aug 1 handoff passed
-with no client contact, and the work resumed. The client relationship is warm — Bryon replied to the
-Aug 4 promotional-calendar send with "This is an amazing start!!! Unbelievable work!!" after 15 days
-of silence.
+**Closeout.** The final closing call RAN Mon Aug 17, 1:00 PM PT (Teams: Veer + Bryon + Izzy +
+Prisha). Went well: Bryon grateful, said the work will actually be used to make improvements and
+that the team's input "would have a lasting impact." One deliverable-shaped promise came out of it:
+**Bryon asked for a final consolidated ZIP of all deliverables.** That ZIP + the thank-you email
+that carries it is the last owed artifact; when it sends, the engagement is closed.
+
+Call honesty notes (Veer's own debrief, 2026-08-17): he did NOT go deep on the two audits — he
+mentioned they exist as documents; Izzy did not walk her markup either. So **the ZIP and its email
+carry the audit depth the call skipped** — the email should explicitly point Bryon at the two audit
+reports as the place the recommendations are argued with numbers.
 
 ## Owner actions (Veer)
 
-1. **Canva templates + Bulk Create — the Aug 10 deadline was MISSED (Veer confirmed 2026-08-15; trip
-   + illness). Now slotted: Sun Aug 16, before the Mon final call.** Build exactly TWO Canva
-   templates with field names matching the CSV columns, then run Bulk Create. Not one template per
-   row: 76 of 156 rows need a graphic, the other 80 stay untemplated on purpose. Field spec and the
-   two row-types: `sagamore-posting-toolkit-2026-08-04.md`. Both CSVs generated Aug 7, in
-   `~/Downloads/`: `sagamore-bulk-event-posts.csv` (52 rows), `sagamore-bulk-education-posts.csv`
-   (24). Regenerate with `tools/make-bulk-create-csv.py` if lost. If Sunday slips, the fallback is
-   honest: demo one template live on the call and hand over the CSVs + instructions, do not claim
-   finished graphics.
-2. ~~Send the two audits to Izzy~~ **DONE — Veer confirmed sent (2026-08-15).**
-3. **The Eagle-photo consent liability — second skip, does not get a third.** The benchmark Eagle
-   post used a photo taken off a dad's personal Facebook page: consent and copyright, on an image of
-   a child, for a youth org. It rides Monday's call agenda.
+1. **`sagamore-final-zip` — assemble + send the consolidated deliverables ZIP with the thank-you
+   email, from Purdue Outlook.** Contents = CLIENT copies only: promotional calendar xlsx, the two
+   `CLIENT-*` audit HTMLs (and/or docx) from `build/`, the two Bulk Create CSVs + posting-toolkit
+   instructions, Izzy's markup (her call whether it's included — ask her). **Every file gets
+   recipient-checked per the send protocol before the ZIP is zipped** — this project is where that
+   rule failed on Aug 4. Draft email staged in `networking/sends-2026-08-17.md`. Veer presses send.
+2. **UNCONFIRMED from the call — ask Veer:** (a) did the Eagle-photo consent flag actually get said
+   (it was the third listing)? (b) what was shown for the templates — did the Canva/Bulk-Create run
+   happen Sunday, or did the honest fallback (demo + CSVs) run? Both answers gate what the ZIP can
+   claim.
+3. ~~Send the two audits to Izzy~~ **DONE (2026-08-15).**
 
 ## Open queue
 
-- **Closing call CONFIRMED: Mon Aug 17, 4:00 PM ET (1:00 PM PT).** Bryon replied Thu Aug 13
-  2:57 AM ET on the "Final meeting" thread (Gmail thread `19fe6a87fd853589`): "I can do Monday at
-  4:00 PM." Izzy cc'd throughout. **This is the last team meeting — agenda below.**
-- **DONE 2026-08-15 ~9pm PT: real Teams invite SENT from Veer's Purdue Outlook** (organizer
-  vsanyal@purdue.edu) for Mon Aug 17 4:00–4:45 PM ET, attendees Bryon.Haverstick@Scouting.org +
-  iyura@purdue.edu + pgoswami@purdue.edu, Teams join link attached, client-facing agenda in the
-  body (body was recipient-checked per the send protocol). Google Calendar synced: stale Thu
-  placeholder retitled as moved (it was also 3h timezone-wrong), Mon 1:00 PM PT block created.
-- **Final-call agenda (covering everything, since this closes the engagement):** (1) walk the
-  delivered set — promotional calendar, both audit halves (Veer's conversion/cost/accessibility +
-  Izzy's design markup), posting toolkit/templates; (2) the mix recommendation — keep-alive posts
-  vs membership-moving posts are different jobs, label them so Bryon knows which rows he can phone
-  in; (3) **the Eagle-photo consent flag — third listing, cannot skip again** (photo of a child
-  taken off a dad's personal Facebook page; consent + copyright for a youth org); (4) what happens
-  after: where the files live for him, who he contacts, the thank-you/close.
-- `sagamore-package-monday` guard: retired 2026-08-15 — the call is confirmed and booked-by-email;
-  delivery rides the call itself now.
-- ~~UNVERIFIED after the trip~~ **Resolved 2026-08-15 by Veer directly: audits went to Izzy;
-  Canva/Bulk-Create did not happen** — see owner action 1.
-- **Unconfirmed:** whether Prisha's Canva templates are DONE with a date. "The templates are good"
-  is not that claim.
-- **Veer's synthesis, still to be written into the calendar:** keep-alive posts and membership-moving
-  posts are different jobs and must be labelled differently, so Bryon knows which rows he is allowed
-  to phone in. (From Prisha's point that Bryon does not have to originate every post — reposts,
-  holidays and seasonal touches keep the page alive at near-zero effort.)
+- **`sagamore-final-zip` is the only live item** — see owner action 1. Everything else below is
+  residue to clear when convenient.
+- **Closing call RAN 2026-08-17, 1:00 PM PT** (confirmed Aug 13 on thread `19fe6a87fd853589`;
+  Bryon formally Accepted the Outlook invite Aug 16). Outcome in Phase above. Call-prep one-pager:
+  `call-prep-2026-08-17.html` — historical now.
+- **Team close message staged** in `networking/sends-2026-08-17.md` — Veer wanted to say "good
+  job" live but everyone dropped off when Bryon did; the group-chat message is the substitute.
 - **Two stale Bryon drafts still in Gmail Drafts** (`r-2984936810873573256`, `r1375487513162206080`,
-  both Aug 4, "Scouting America meeting" thread), superseded by the Outlook send Bryon praised.
-  Kill both, send neither.
+  both Aug 4), superseded twice over. Kill both, send neither.
+- Retired with the call: the final-call agenda (delivered), the `sagamore-package-monday` guard,
+  the keep-alive vs membership-moving labelling question (presented on the call as the mix
+  recommendation).
 
 ## What is delivered
 
