@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sagamore Final Call — 1:00 PM PT</title>
+<style>
+  :root {
+    --bg: #fbfaf7; --card: #ffffff; --ink: #1a1a1a; --muted: #6b6b6b;
+    --accent: #b45309; --danger: #b91c1c; --ok: #15803d; --line: #e5e2da;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16161a; --card: #1f1f24; --ink: #ececec; --muted: #9a9a9a;
+      --accent: #f59e0b; --danger: #f87171; --ok: #4ade80; --line: #33333a; }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--bg); color: var(--ink);
+    font: 16px/1.45 -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 760px; margin: 0 auto; padding: 20px 18px 60px; }
+  header { margin-bottom: 18px; }
+  h1 { font-size: 21px; }
+  .meta { color: var(--muted); font-size: 14px; margin-top: 3px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 14px 16px; margin-bottom: 12px; }
+  .num { display: inline-block; background: var(--accent); color: #fff; border-radius: 6px;
+    font-weight: 700; font-size: 14px; padding: 1px 8px; margin-right: 8px; }
+  h2 { font-size: 17px; display: flex; align-items: center; margin-bottom: 8px; }
+  li { margin: 6px 0 6px 4px; }
+  ul { padding-left: 20px; }
+  label { display: flex; gap: 9px; align-items: baseline; margin: 7px 0; cursor: pointer; }
+  input[type=checkbox] { transform: scale(1.25); flex-shrink: 0; position: relative; top: 2px; }
+  input:checked + span { opacity: .45; text-decoration: line-through; }
+  .flag { border-left: 5px solid var(--danger); }
+  .flag h2 { color: var(--danger); }
+  .say { background: color-mix(in srgb, var(--danger) 8%, var(--card)); border-radius: 7px;
+    padding: 9px 12px; margin-top: 8px; font-size: 15px; }
+  .dont { border-left: 5px solid var(--danger); }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 8px; margin-top: 6px; }
+  .stat { border: 1px solid var(--line); border-radius: 7px; padding: 8px 10px; }
+  .stat b { display: block; font-size: 18px; }
+  .stat span { color: var(--muted); font-size: 13px; }
+  .tag { font-size: 12px; font-weight: 700; letter-spacing: .04em; color: var(--danger);
+    text-transform: uppercase; margin-left: auto; }
+  .ok { color: var(--ok); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Sagamore Final Call</h1>
+  <div class="meta">Mon Aug 17 · 1:00–1:45 PM PT (4:00 ET) · Teams · Bryon + Izzy + Prisha · closes the engagement</div>
+</header>
+
+<section>
+  <h2><span class="num">1</span> Walk the delivered set <span class="tag" style="color:var(--muted)">~15 min</span></h2>
+  <label><input type="checkbox"><span><b>Promotional calendar</b> — 156 rows, observance layer, Status column reads as a menu, not a commitment. Bryon already called it "an amazing start."</span></label>
+  <label><input type="checkbox"><span><b>Your audits</b> — website (conversion/cost) + social (the stronger one)</span></label>
+  <label><input type="checkbox"><span><b>Izzy's design markup</b> — let her walk her own half</span></label>
+  <label><input type="checkbox"><span><b>Posting toolkit / templates</b> — see Canva box below FIRST</span></label>
+  <div class="stats">
+    <div class="stat"><b>0 / 34</b><span>pages state cost; "join" absent from mobile homepage text</span></div>
+    <div class="stat"><b>9,300 vs 3,512</b><span>best Reel views vs followers — Reels are an abandoned reach machine</span></div>
+    <div class="stat"><b>0 replies</b><span>parents comment their kids' names, nobody answers — that's the FOS list</span></div>
+    <div class="stat"><b>11, not 6</b><span>accounts found; Linktree has no Join, no Donate</span></div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">2</span> The mix recommendation</h2>
+  <ul>
+    <li><b>Keep-alive posts</b> vs <b>membership-moving posts</b> are different jobs.</li>
+    <li>Labels tell Bryon which rows he can phone in — reposts, holidays, seasonal touches keep the page alive at near-zero effort.</li>
+  </ul>
+</section>
+
+<section class="flag">
+  <h2><span class="num">3</span> Eagle-photo consent flag <span class="tag">must say — 3rd listing</span></h2>
+  <div class="say">The benchmark Eagle post's photo came off a dad's personal Facebook page. That's a consent <i>and</i> copyright problem on an image of a child, for a youth org. Recommend: only photos with documented consent, ideally council-taken.</div>
+</section>
+
+<section>
+  <h2><span class="num">4</span> Handoff &amp; close</h2>
+  <label><input type="checkbox"><span>Where the files live for him (SharePoint xlsx, audit HTMLs, CSVs)</span></label>
+  <label><input type="checkbox"><span>Who he contacts after today</span></label>
+  <label><input type="checkbox"><span>Thank-you — his time, Izzy's + Prisha's work, the council</span></label>
+</section>
+
+<section class="dont">
+  <h2>Do NOT say</h2>
+  <ul>
+    <li>The join-link 403 (was a bot-block) or "a parent can't find the join path" — <b>both retired as false Aug 7</b>.</li>
+    <li>"Templates are finished" — unless Canva/Bulk Create actually ran Sunday. Fallback if not: <b>demo ONE template live, hand over the two CSVs + instructions</b> (~/Downloads: <code>sagamore-bulk-event-posts.csv</code> 52 rows, <code>sagamore-bulk-education-posts.csv</code> 24 rows). Honest beats finished.</li>
+    <li>Prisha's templates as done — "the templates are good" is not that claim. Confirm with her on the call before presenting.</li>
+  </ul>
+</section>
+</body>
+</html>
