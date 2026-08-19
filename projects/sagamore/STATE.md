@@ -7,7 +7,7 @@ mirror). Two copies means one of them is lying by Tuesday.
 Static brief (client, team, plan params, locked decisions): `externship-scouting-america.md`.
 Narrative and reasoning trail: `PROGRESS.md` on the dates named below.
 
-**Last updated: 2026-08-17** (final closing call RAN — engagement in closeout)
+**Last updated: 2026-08-19** (deliverables package assembled and recipient-checked; thank-you staged to Veer's click)
 
 ## Phase
 
@@ -24,16 +24,28 @@ reports as the place the recommendations are argued with numbers.
 
 ## Owner actions (Veer)
 
-1. **`sagamore-final-zip` — assemble + send the consolidated deliverables ZIP with the thank-you
-   email, from Purdue Outlook.** Contents = CLIENT copies only: promotional calendar xlsx, the two
-   `CLIENT-*` audit HTMLs (and/or docx) from `build/`, the two Bulk Create CSVs + posting-toolkit
-   instructions, Izzy's markup (her call whether it's included — ask her). **Every file gets
-   recipient-checked per the send protocol before the ZIP is zipped** — this project is where that
-   rule failed on Aug 4. Draft email staged in `networking/sends-2026-08-17.md`. Veer presses send.
-2. **UNCONFIRMED from the call — ask Veer:** (a) did the Eagle-photo consent flag actually get said
-   (it was the third listing)? (b) what was shown for the templates — did the Canva/Bulk-Create run
-   happen Sunday, or did the honest fallback (demo + CSVs) run? Both answers gate what the ZIP can
-   claim.
+1. **`sagamore-final-zip` — REDEFINED 2026-08-19: the "ZIP" is Veer's OneDrive folder
+   "Scouting America Consulting Resources"** (Purdue account, assembled by Veer Mon Aug 17 after
+   the call; Bryon can download the whole set in one go). Package state as of 2026-08-19:
+   - **Every file recipient-checked** (browser preview read-throughs + local leak scans): both
+     `CLIENT-*` audits CLEAN, calendar xlsx CLEAN (flag: filename + A1 still say "- Draft" —
+     Veer's call, matches what Bryon already has on SharePoint), Templates on Canva.zip = 9
+     client-appropriate Canva PDF exports (contents unverified, names clean), Izzy's markup PDF
+     kept (judgment call, see below).
+   - **Added this session:** the two Bulk Create CSVs (were only on the Mac) and
+     `CLIENT-sagamore-posting-toolkit.docx` — a client-voiced rewrite of the internal toolkit
+     (source: `CLIENT-sagamore-posting-toolkit.md` here; build + loud-fail leak check:
+     `tools/build-toolkit-docx.sh`). The internal `sagamore-posting-toolkit-2026-08-04.md` is
+     NOT sendable and stays internal.
+   - **Removed from the folder:** `Website feedback.docx` (Izzy's raw first-person notes, "I
+     will draw a picture") — moved to OneDrive My-files root, not deleted.
+   - Folder is still unshared; access travels with the email's OneDrive-link attachments when
+     Veer sends. Thank-you email final text in `networking/sends-2026-08-17.md`. **Veer presses
+     send.** Remaining before his click: his call on (a) Izzy's OK for her markup PDF going to
+     Bryon, (b) Jiada staying in the "on behalf of" line, (c) the "- Draft" filename.
+2. **UNCONFIRMED from the call — still need Veer:** did the Eagle-photo consent flag actually get
+   said? (The templates question is ANSWERED: 9 Canva template exports exist, dated Aug 17 —
+   the email's toolkit bullet now claims exactly what the folder holds.)
 3. ~~Send the two audits to Izzy~~ **DONE (2026-08-15).**
 
 ## Open queue
@@ -46,7 +58,8 @@ reports as the place the recommendations are argued with numbers.
 - **Team close message staged** in `networking/sends-2026-08-17.md` — Veer wanted to say "good
   job" live but everyone dropped off when Bryon did; the group-chat message is the substitute.
 - **Two stale Bryon drafts still in Gmail Drafts** (`r-2984936810873573256`, `r1375487513162206080`,
-  both Aug 4), superseded twice over. Kill both, send neither.
+  both Aug 4), superseded twice over. Kill both, send neither. (Auto-delete attempt 2026-08-19 was
+  blocked by the permission layer — Veer deletes them by hand, 10 seconds in Gmail Drafts.)
 - Retired with the call: the final-call agenda (delivered), the `sagamore-package-monday` guard,
   the keep-alive vs membership-moving labelling question (presented on the call as the mix
   recommendation).

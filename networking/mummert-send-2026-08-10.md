@@ -1,10 +1,22 @@
-# Professor email — Dr. Philip Mummert (MA 16100 coordinator)
+# Professor email — MA 16100 first-instructor contact
 
-**Status: DRAFT, ready to send after ONE gate: the 60-second myPurdue lookup confirming Mummert
-is actually attached to MA 16100 for Fall 2026.** Coordinator assignments rotate; Coursicle listing
-him is a strong lead, not a fact (PROGRESS 2026-07-30). If the lookup shows someone else, the email
-goes to that person with the same body — nothing in it is Mummert-specific except the teaching-award
-line, which drops.
+**Status 2026-08-19: STAGED IN OUTLOOK DRAFTS — and the gate lookup came back NEGATIVE for
+Mummert.** Two public sources checked (Banner schedule + math.purdue.edu Fall 2026 course page):
+Mummert appears on no MA 16100 section; no coordinator is named anywhere; **Mahesh Sunkula**
+(assistant professor of practice, `msunkula@purdue.edu`) teaches the main CL50 lecture and is on
+every recitation — the coordinator-shaped person on the public record. Coursicle's Mummert listing
+is unsupported by both current sources.
+
+**Two drafts sit in Purdue Outlook, verified body-for-body, neither sent. Veer picks ONE, deletes
+the other:**
+- To pmummert@purdue.edu — the original below, verbatim. Only defensible if Veer's logged-in
+  myPurdue view shows Mummert attached in a way the public pages don't.
+- To msunkula@purdue.edu — same body with "Dear Professor Sunkula," and "Since you coordinate the
+  course" -> "Since you teach the course this fall". This is the evidence-backed choice.
+
+Original rationale below, kept for the record. (Coordinator assignments rotate; Coursicle listing
+him was a strong lead, not a fact — PROGRESS 2026-07-30. The email was written so nothing in it is
+Mummert-specific except the teaching-award line, which the Sunkula variant drops.)
 
 Send from **vsanyal@purdue.edu** (Outlook), not gmail — student-to-faculty reads better on the
 Purdue address.

@@ -676,3 +676,31 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 - **Honest debrief (Veer's own words): he did not go deep on the audits** — mentioned them as documents that exist; he'd hoped Izzy would walk her markup and she didn't raise it. Not a failure (the client left happy), but it means **the ZIP email carries the audit depth the call skipped** — drafted accordingly.
 - **Unconfirmed from the call, asked of Veer:** did the Eagle-photo consent flag get said (third listing — this was the one must-say), and did templates ship finished or via the demo+CSVs fallback? Both gate the ZIP's wording.
 - **Session mechanics:** pre-call one-pager built and used (`projects/sagamore/call-prep-2026-08-17.html`); newest calendar xlsx located for screen-share (`~/Downloads/Sagamore Council Promotional Calendar - Draft.xlsx`, the Aug-3 client copy; SharePoint copy is canonical). Debrief persisted to STATE.md, ledgers, alumni-tracker. **Staged for Veer's send (`networking/sends-2026-08-17.md`): the team group-chat close message** (the live "good job everyone" moment didn't happen — everyone dropped when Bryon did) **and the Bryon thank-you email that rides the ZIP.** Tripwire `sagamore-final-zip` opened; the ZIP contents get recipient-checked file-by-file before anything sends (the Aug-4 rule).
+
+## 2026-08-19 (Wed) — reconcile after 3 dark days; both send-lanes staged to one click
+
+- **The dark days were a person, not a stall in the usual shape:** a college friend arrived and
+  Aug 16–18 went to hosting him. Veer's own words: no workouts, no applications, no emails, not
+  much STICK. Verified: zero sends since Aug 15 (Gmail sent-scan), STICK's last commit 2026-08-16
+  00:27, the Aug-16 Sunday block existed on the calendar but produced no W7 plan and no Morning
+  Briefings for the week. P4 evidence line added (the Aug-15 "sends go first" rule did not fire).
+- **Professor email: the gate lookup finally ran, and it flipped the recipient.** Banner + the
+  math-dept Fall 2026 page both show **no Mummert anywhere on MA 16100**; Mahesh Sunkula teaches
+  the main lecture and sits on every section. Both drafts now staged in Purdue Outlook (Mummert
+  original + Sunkula variant), Veer picks one and deletes the other. Detail in
+  `networking/mummert-send-2026-08-10.md`.
+- **Sagamore package went from "assemble a ZIP" to done-pending-click.** Veer's OneDrive folder
+  "Scouting America Consulting Resources" (he assembled it Mon after the call) was inventoried and
+  recipient-checked file-by-file; the two Bulk Create CSVs and a new client-voiced posting-toolkit
+  docx (`CLIENT-sagamore-posting-toolkit.md` + `tools/build-toolkit-docx.sh`, loud-fail leak
+  check) were added; Izzy's raw internal notes doc was moved out of the folder. Templates mystery
+  resolved: 9 Canva PDF exports exist, dated Aug 17. Thank-you email final text updated
+  (`networking/sends-2026-08-17.md`) and staged in Outlook with OneDrive-link attachments.
+- **Openings sweep (4 sources, all reachable): +5 Researching rows** (Datadog NYC + 4 TikTok PM
+  intern roles); Atlassian opens ~Aug 21, HPE ~Aug 27, Duolingo ~Sep 14. Committed `879588c`.
+- **Inbound: quiet.** No pipeline replies, no LinkedIn messages, nothing new from Sagamore beyond
+  Bryon's invite accept. WhatsApp and iMessage not read this session (Chrome time went to
+  OneDrive/Outlook staging); Sudip and Mama threads remain the open asks.
+- **Ops notes:** Outlook web compose froze for one sub-agent session (stuck service worker);
+  Mummert draft staged before the freeze, Bryon + Sunkula drafts on a bounded retry. The two stale
+  Aug-4 Bryon Gmail drafts still need Veer's manual delete (auto-delete blocked by permissions).
