@@ -188,6 +188,11 @@ and updates the row here. Stage ∈ {Researching, Drafting, Ready, Submitted}.
 | Oracle — Product Manager Intern (OVIP), Summer 2027 (Kansas City, MO) | Rolling | **Researching** | simplify.jobs |
 | LinkedIn — APM Intern OR rebranded "Associate Product Builder" (Sunnyvale/MV/SF; $40–60/hr) | Unknown — **first action is verifying WHICH program the live Summer 2027 listing is** (LinkedIn retired APM, rebuilt as APB, "build it don't just spec it" — unusually good founder-story fit) | **Researching** | simplify.jobs |
 | Uline — PM Intern (WI) · LPL Financial — Product Intern (Austin/Fort Mill) | Rolling | **Researching (low priority, batch-review at a Sunday)** | simplify.jobs |
+| Datadog — Product Management Intern (NYC) | Rolling (no deadline stated; posted Aug 16) | **Researching** (new Aug 18 scan — SimplifyJobs 1d old) | careers.datadoghq.com |
+| TikTok — PM Intern (Signal and Identity Product, San Jose) | Rolling | **Researching** (new Aug 18 scan) | lifeattiktok.com |
+| TikTok — PM Intern (Commerce Ads, San Jose) | Rolling | **Researching** (new Aug 18 scan) | lifeattiktok.com |
+| TikTok — PM Intern (Ads Interface and Platform, San Jose) | Rolling | **Researching** (new Aug 18 scan) | lifeattiktok.com |
+| TikTok — PM Intern (Ads Interface and Platform, Seattle) | Rolling | **Researching** (new Aug 18 scan) | lifeattiktok.com |
 | _(12 legacy applications archived in `applications/`)_ | — | — | `applications/` |
 
 Add a row when a new target is identified; convert any relative deadline to an absolute date.
