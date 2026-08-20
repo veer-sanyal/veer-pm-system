@@ -716,3 +716,6 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 - P4 counter-evidence continues its Aug-5 shape: staged-to-one-click converted to sent inside a
   day, twice. The friction was never the send; it was the staging distance.
 - Still open after tonight: team group-chat close, Mama (day 24), Sudip close, demo-to-the-friend.
+- **Late addition: the team group-chat close message went out too** (updated text: deliverables-sent
+  lead + "great job"). Three sends in one evening; the only outbound left from the whole Sagamore
+  arc is deleting two stale drafts. Remaining open sends anywhere: Mama, Sudip.

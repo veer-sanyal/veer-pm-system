@@ -16,9 +16,10 @@ deliverables package to Bryon (Cc Izzy, Prisha) the night of Aug 19.**
 Prisha). Went well: Bryon grateful, said the work will actually be used to make improvements and
 that the team's input "would have a lasting impact." Bryon asked for a final consolidated package
 of all deliverables; it went out Aug 19 as the recipient-checked OneDrive set (8 link attachments)
-riding the thank-you email. Nothing further is owed to the client. Residue: the team group-chat
-close message is still staged and unsent (`networking/sends-2026-08-17.md`); the two stale Aug-4
-Bryon Gmail drafts still need Veer's manual delete. No reply expected or required from Bryon.
+riding the thank-you email. Nothing further is owed to the client. **Team group-chat close message SENT by Veer late Aug 19**
+(final text in `networking/sends-2026-08-17.md`) — every human loop on this engagement is now
+closed. Last residue: the two stale Aug-4 Bryon Gmail drafts still need Veer's manual delete. No
+reply expected or required from Bryon.
 
 Call honesty notes (Veer's own debrief, 2026-08-17): he did NOT go deep on the two audits — he
 mentioned they exist as documents; Izzy did not walk her markup either. So **the ZIP and its email
