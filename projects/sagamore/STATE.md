@@ -7,15 +7,18 @@ mirror). Two copies means one of them is lying by Tuesday.
 Static brief (client, team, plan params, locked decisions): `externship-scouting-america.md`.
 Narrative and reasoning trail: `PROGRESS.md` on the dates named below.
 
-**Last updated: 2026-08-19** (deliverables package assembled and recipient-checked; thank-you staged to Veer's click)
+**Last updated: 2026-08-19 (night)** — **ENGAGEMENT CLOSED. Veer sent the thank-you + full
+deliverables package to Bryon (Cc Izzy, Prisha) the night of Aug 19.**
 
 ## Phase
 
-**Closeout.** The final closing call RAN Mon Aug 17, 1:00 PM PT (Teams: Veer + Bryon + Izzy +
+**CLOSED.** The final closing call RAN Mon Aug 17, 1:00 PM PT (Teams: Veer + Bryon + Izzy +
 Prisha). Went well: Bryon grateful, said the work will actually be used to make improvements and
-that the team's input "would have a lasting impact." One deliverable-shaped promise came out of it:
-**Bryon asked for a final consolidated ZIP of all deliverables.** That ZIP + the thank-you email
-that carries it is the last owed artifact; when it sends, the engagement is closed.
+that the team's input "would have a lasting impact." Bryon asked for a final consolidated package
+of all deliverables; it went out Aug 19 as the recipient-checked OneDrive set (8 link attachments)
+riding the thank-you email. Nothing further is owed to the client. Residue: the team group-chat
+close message is still staged and unsent (`networking/sends-2026-08-17.md`); the two stale Aug-4
+Bryon Gmail drafts still need Veer's manual delete. No reply expected or required from Bryon.
 
 Call honesty notes (Veer's own debrief, 2026-08-17): he did NOT go deep on the two audits — he
 mentioned they exist as documents; Izzy did not walk her markup either. So **the ZIP and its email

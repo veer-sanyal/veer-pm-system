@@ -704,3 +704,15 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 - **Ops notes:** Outlook web compose froze for one sub-agent session (stuck service worker);
   Mummert draft staged before the freeze, Bryon + Sunkula drafts on a bounded retry. The two stale
   Aug-4 Bryon Gmail drafts still need Veer's manual delete (auto-delete blocked by permissions).
+
+## 2026-08-19 (Wed night) — BOTH SENDS WENT OUT: Sagamore engagement CLOSED, professor email live
+
+- **Veer sent the Sunkula email** (screenshot question asked and answered: no attachments, the
+  in-person demo is the meeting's reason to exist). `stick-first-user-shown` moves to reply-watch:
+  a Sunkula reply books the 15 minutes. The unused Mummert draft can be deleted.
+- **Veer sent the Bryon thank-you + OneDrive package (Cc Izzy, Prisha). The Sagamore externship
+  engagement is CLOSED** — first client engagement, opened Jul 6, closed Aug 19, ending on
+  "lasting impact." `sagamore-final-zip` closed same session it was staged to one click.
+- P4 counter-evidence continues its Aug-5 shape: staged-to-one-click converted to sent inside a
+  day, twice. The friction was never the send; it was the staging distance.
+- Still open after tonight: team group-chat close, Mama (day 24), Sudip close, demo-to-the-friend.
