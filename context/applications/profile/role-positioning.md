@@ -35,6 +35,7 @@ Similar to finance ordering but emphasize stakeholder presentation, structured a
 
 **AI / ML / Data**
 Lead StudyFlowForge with Gemini API + spaced repetition model + dashboards. Mention Claude Code usage. Use "AI & Data" as first category.
+For AI-AGENT roles specifically (agent PM, agent infra, agent tooling): STICK first (deployed product + LLM pipeline + eval story), [[user-project-cairn]] second — it is the most on-topic artifact (agent system built on PM fundamentals, public, one external adopter) — plus STICK's multi-agent build-workflow bullet. Done for TikTok AI Agent PM Intern, 2026-08-20.
 
 **AI data-rater / evaluation roles in a domain (e.g., Handshake AI "Finance Expert")**
 Pay rate is set by the domain (finance), so position as a domain expert FIRST (lead SMIF, finance coursework, financial modeling/statements), then use Veer's real AI-output-review experience as the differentiator: Firmly QA = reviewing/validating output for accuracy across edge cases; StudyFlowForge = integrated + evaluated Gemini outputs before surfacing to users. Mirror listing terms: "review AI-generated responses for accuracy/analytical rigor/clarity," "independent + asynchronous," "attention to detail," "following written guidelines." Reframe Firmly bullets toward review/validation/judgment rather than building. Done for Handshake AI Finance Expert (Bachelor's), May 2026.

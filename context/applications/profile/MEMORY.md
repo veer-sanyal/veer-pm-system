@@ -12,6 +12,7 @@ and Veer's preferences live in `../application-docs-workflow.md`.
 - [Etsy + design portfolio](experience-etsy-design.md) — Etsy digital-products shop (~50 sold), Photoshop/Illustrator/Lightroom design
 - [India MSME Dashboard project](project-msme-dashboard.md) — banked Pillar-1 artifact; live, instrumented, iterated for a real policy-research user; use for PM/product/India-commerce roles until STICK reaches real users
 - [STICK project](project-stick.md) — CURRENT AI study-platform build (React/TS/Supabase, LLM extraction pipeline); default over StudyFlowForge for AI/technical/PM roles
+- [Cairn project](project-cairn.md) — open-source agentic-system scaffolder (public repo, one verified external adopter); pair with STICK for AI-agent / agent-infra roles
 - [StudyFlowForge project](project-studyflowforge.md) — LEGACY, superseded by STICK; use only when its shipped scope ("18 screens") reads better than STICK's current stage
 - [EPICS leadership](leadership-epics.md) — Build Lead, museum billboard prototype
 - [Skills inventory](skills-inventory.md) — full list grouped by category

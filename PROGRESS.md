@@ -734,3 +734,8 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
   from MWF 8:30a to TR 3:00-4:15 sec 016 (11 seats) - clears every morning; (3) advisor email staged
   (overrides for STRT 49200 + MIS 38800, 4 audit equivalency questions, Specialty Area declaration).
   Advisor: Alec Richardson Gramm. Veer registers himself.
+
+### 2026-08-20 (Thu) — TikTok AI Agent PM resume updated with Cairn + agent-build content (~16:30 PT)
+
+- **Veer asked whether Cairn and STICK's agent-orchestrated build belong on the TikTok AI Agent PM Intern application (A115604, Stage: Ready since Aug 8). Verdict: yes, both — added and recompiled, still one page.** Cairn is the single most on-topic artifact for an "AI agent PM" listing: a public plugin (veer-sanyal/cairn) that scaffolds agentic systems around North Star / metric-tree / guardrail thinking, with one verified unprompted adopter (Neal's fork, verified Jul 29). STICK gained a bullet on the D279 coordinator + parallel-lanes build workflow (ledger verified at D406+ today). Facts verified against the public repo and stick-dev docs; no private-repo references in any bullet.
+- Fold-back done: new `profile/project-cairn.md` (with inflation guards: n=1 adopter, never "users"), STICK profile bullet, role-positioning AI-agent note, key-dates row stamped updated 2026-08-20. Submission remains Veer's step (lifeattiktok.com account).
