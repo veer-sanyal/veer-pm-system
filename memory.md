@@ -51,6 +51,7 @@
 
 - **One-click board update (Aug 19 night): (1) Sunkula email, (2) Bryon package, (3) team group-chat close — ALL SENT by Veer, three loops in one evening.** Still open: (4) Mama day-24 send-or-kill; (5) Sudip courtesy close; plus deleting the unused Mummert draft in Outlook and the two stale Aug-4 Gmail drafts.
 - **STICK before the Sat Aug 22 flight: the demo needs 6 approvals + one student-session drive (D362); show the demo to the visiting friend — that closes `stick-first-user-shown` this week.**
+- **Fall 2026 registration (opened 2026-08-20, add deadline Thu Aug 28):** 10 cr registered = under full-time. Veer's actions: add VIP 37920 (WMS, M 2:30-3:20) for 12 cr; move QM 30500 8:30am -> TR 3:00 sec 016; send the staged advisor email (overrides STRT 49200 + MIS 38800, 4 audit questions, Specialty Area). Full map: PROGRESS 2026-08-20. Mobility Global SUBMITTED same day.
 - **Sun Aug 23 session must cover:** W1-of-classes plan, sleep walk-back verdict (classes start next morning), P2 re-point verdict (still zero verified reps), pipeline accept/kill on the 18 Researching rows + Atlassian (~Aug 21 open), recurring calendar master series still on pre-Jul-19 times.
 - **Mon Aug 17, 1:00 PM PT: Sagamore closing call (final).** Prep in `projects/sagamore/STATE.md`. Collides with the recurring Workout+lunch block — resolve when writing W7.
 

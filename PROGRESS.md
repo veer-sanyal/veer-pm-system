@@ -719,3 +719,18 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 - **Late addition: the team group-chat close message went out too** (updated text: deliverables-sent
   lead + "great job"). Three sends in one evening; the only outbound left from the whole Sagamore
   arc is deleting two stale drafts. Remaining open sends anywhere: Mama, Sudip.
+
+## 2026-08-20 (Thu) — Mobility Global SUBMITTED; Fall 2026 registration mapped and re-planned
+
+- **Mobility Global PM Intern application SUBMITTED** (first Summer 2027 submission). Driven in-browser
+  to Voluntary Disclosures, Veer finished and pressed Submit. TikTok AI Agent app being tailored in a
+  parallel session.
+- **Fall 2026 registration audit (10 cr, under full-time) against the IBE plan of study** (2024 catalog
+  PDF + live seat data): junior-fall gaps = STRT 49200 (ex-MGMT 49200), first Specialty Area course,
+  2-cr Team-Based Design (EPCS 30200/VIP 37920); sophomore catch-ups owed = MIS 38800 Python (critical),
+  2nd Engineering Core selective; Seminar III (the W) is spring-only. Back-half math: 51 cr over 3
+  semesters if nothing is added. All full sections carry zero waitlists; add deadline Aug 28.
+- **Plan given to Veer:** (1) add VIP 37920 WMS M 2:30-3:20 now -> 12 cr full-time; (2) move QM 30500
+  from MWF 8:30a to TR 3:00-4:15 sec 016 (11 seats) - clears every morning; (3) advisor email staged
+  (overrides for STRT 49200 + MIS 38800, 4 audit equivalency questions, Specialty Area declaration).
+  Advisor: Alec Richardson Gramm. Veer registers himself.
