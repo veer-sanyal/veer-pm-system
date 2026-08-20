@@ -44,6 +44,16 @@ Naming:
 Never leave a stray PDF without its source `.tex`.
 
 ## Resume rules
+- **No em dashes in any deliverable (Veer, 2026-08-20).** Resumes, cover letters, emails,
+  anything another person receives. No `---` in .tex prose, no U+2014 in text artifacts, and
+  no en dashes as clause separators either; rewrite with commas, colons, or parentheses.
+  En dashes stay ONLY in date/number ranges ("Jun. 2025 -- Aug. 2025"). Grep the source
+  before compiling; this rule is checked per artifact, not assumed from the template.
+- **Skills section is technical-only and short (per ResumeDeepResearch: objective +
+  relevant + scannable; Michigan: never list soft skills without evidence; anti-stuffing).**
+  2-3 tight category lines, exact JD tool names, no soft-skill claims ("product strategy",
+  "cross-functional coordination", "communication"): those get PROVEN in bullets, never
+  listed. A crowded skills section reads as stuffing and hurts screening.
 - **One page, hard constraint.** If content overflows, cut weaker bullets — do not shrink
   fonts below 10 pt or margins below ~0.5 in.
 - One column, standard headings (Education, Experience, Projects, Skills), no
@@ -82,6 +92,9 @@ Never leave a stray PDF without its source `.tex`.
    self-heals here. Then proceed.
 1. Decode the listing: top requirements, exact keywords, must-prove skills.
 2. Read profile first (per role family); only fall back to master/prior PDFs for gaps.
+   **Re-read `ResumeDeepResearch.md` on EVERY resume task, including edits to an existing
+   tailored resume; never apply its rules from memory** (drift caught 2026-08-20: an edit
+   session skipped it and re-introduced soft-skill listing and em dashes).
 3. Match-map each top requirement to the strongest proof from profile + `reusable-bullets.md`.
 4. Draft `.tex` from the template → compile (`pdflatex VeerSanyal_<Company>_Resume.tex`, or
    `latexmk -pdf`) → verify single page → save both files in the company folder.

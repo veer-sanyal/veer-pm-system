@@ -40,7 +40,7 @@
 
 % ===== EDUCATION =====
 \section*{Education}
-\textbf{Purdue University --- Mitch Daniels School of Business}\hfill West Lafayette, IN\\[1pt]
+\textbf{Purdue University, Mitch Daniels School of Business}\hfill West Lafayette, IN\\[1pt]
 \textit{B.S. Integrated Business and Engineering (IBE), Expected May 2028}\hfill \textit{Aug. 2024 -- Present}
 \begin{itemize}
   \item Selective business + engineering hybrid degree combining CS/data coursework with product and statistics training. Coursework: Statistics, Engineering Design \& Project Execution, Managerial Accounting.
@@ -48,17 +48,17 @@
 
 % ===== PROJECTS =====
 \section*{Projects}
-\entry{STICK --- AI-Powered Study Platform}{}{Independent product build, sole developer (React, TypeScript, Supabase)}{2026 -- Present}
+\entry{STICK: AI-Powered Study Platform}{}{Independent product build, sole developer (React, TypeScript, Supabase)}{2026 -- Present}
 \begin{itemize}
-  \item Designed and shipped a structured, multi-step LLM pipeline (extract $\to$ classify $\to$ grade, on Deno edge functions) that turns raw exam PDFs into verified, structured question data -- deliberately bounded steps, not an open-ended chatbot.
+  \item Designed and shipped a structured, multi-step LLM pipeline (extract $\to$ classify $\to$ grade, on Deno edge functions) that turns raw exam PDFs into verified, structured question data: deliberately bounded steps, not an open-ended chatbot.
   \item Ingested a real 14-page, 12-question exam end-to-end with 100\% extraction confidence; all 12 auto-proposed answer keys matched the instructor's published key on first pass, and every AI answer is cross-checked against an independent source before reaching a student.
-  \item Designed the Postgres data model and access-control layer (46 migrations, 33+ row-level-security policies) and built the full user-facing loop end-to-end -- auth, an FSRS-scheduled daily plan, and a server-graded question player -- verified via an automated test.
+  \item Designed the Postgres data model and access-control layer (46 migrations, 33+ row-level-security policies) and built the full user-facing loop end-to-end (auth, an FSRS-scheduled daily plan, and a server-graded question player), verified via an automated test.
   \item Run the build itself as a multi-agent workflow: a coordinator agent makes decisions serially and dispatches parallel agent lanes (code, design, research) into isolated git worktrees, governed by a 400+-entry decision ledger.
 \end{itemize}
 
-\entry{Cairn --- Open-Source Scaffolder for Agentic AI Systems}{github.com/veer-sanyal/cairn}{Claude Code plugin, sole author}{2026}
+\entry{Cairn: Open-Source Scaffolder for Agentic AI Systems}{github.com/veer-sanyal/cairn}{Claude Code plugin, sole author}{2026}
 \begin{itemize}
-  \item Built and open-sourced a plugin that designs long-lived agentic systems around product fundamentals -- it interviews the user to define a North Star metric, metric tree, and guardrails, then scaffolds a personalized multi-agent system with tiered memory, local telemetry, and human-gated self-improvement.
+  \item Built and open-sourced a plugin that designs long-lived agentic systems around product fundamentals: it interviews the user to define a North Star metric, metric tree, and guardrails, then scaffolds a personalized multi-agent system with tiered memory, local telemetry, and human-gated self-improvement.
   \item Encoded 25 evidence-graded principles on agentic-system failure modes (context rot, objective corruption, knowledge expiry) with a bundled research engine using adversarial claim verification; adopted unprompted by an external builder who forked and extended it.
 \end{itemize}
 
@@ -79,8 +79,7 @@
 
 % ===== SKILLS =====
 \section*{Skills}
-\textbf{AI \& Data:} agentic-system design \& multi-agent orchestration (Claude Code), LLM pipeline / prompt-step design, generative-AI integration (Gemini API), SQL / Postgres data modeling, row-level access control\\[2pt]
-\textbf{Product \& Strategy:} product strategy \& scoping, requirement definition, evaluation-signal design, success metrics, cross-functional coordination (eng / design)\\[2pt]
+\textbf{AI \& Data:} agentic-system design \& multi-agent orchestration (Claude Code), LLM pipeline / prompt design, evaluation design (AI-output cross-checking), generative-AI integration (Gemini API), SQL / Postgres data modeling, row-level access control\\[2pt]
 \textbf{Tools:} Python, HTML/CSS, Git/GitHub; React / TypeScript, Node.js / Express (built with); Excel, PowerPoint
 
 \end{document}
