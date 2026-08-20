@@ -747,3 +747,9 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
   conflict-free, nothing before 3pm except Friday lab. Specialty: declare Data Analytics (ML for
   Business, Data Mining, Digital Experimentation, DB Mgmt - founder toolkit, and directly trains the
   P2 metrics gap). SYS 35000 offered as optional spring-relief lever, recommended skip. Veer registers.
+- **Plan amendment (Veer: no online async):** ME 27000 Y01 dropped; **SYS 35000 TR 9:00 (19 seats)**
+  becomes the in-person add (banks the Engineering Selective instead of the Core Selective; Core
+  Selective slides to a later term). **AIE join email drafted and staged in-chat** (to qqiu@purdue.edu
+  + wzakharov@purdue.edu, verified via ECE profile + Libraries profile); Veer sends from Purdue
+  Outlook, CCs Alec. Final fall shape: QM move + SYS 35000 + VIP AIE (or EPCS 30200 fallback)
+  + override asks = 15-17 cr, nothing before 9am TR / 3pm otherwise.
