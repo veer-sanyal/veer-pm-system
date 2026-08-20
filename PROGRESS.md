@@ -739,3 +739,11 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 
 - **Veer asked whether Cairn and STICK's agent-orchestrated build belong on the TikTok AI Agent PM Intern application (A115604, Stage: Ready since Aug 8). Verdict: yes, both — added and recompiled, still one page.** Cairn is the single most on-topic artifact for an "AI agent PM" listing: a public plugin (veer-sanyal/cairn) that scaffolds agentic systems around North Star / metric-tree / guardrail thinking, with one verified unprompted adopter (Neal's fork, verified Jul 29). STICK gained a bullet on the D279 coordinator + parallel-lanes build workflow (ledger verified at D406+ today). Facts verified against the public repo and stick-dev docs; no private-repo references in any bullet.
 - Fold-back done: new `profile/project-cairn.md` (with inflation guards: n=1 adopter, never "users"), STICK profile bullet, role-positioning AI-agent note, key-dates row stamped updated 2026-08-20. Submission remains Veer's step (lifeattiktok.com account).
+- **Registration plan FINALIZED after selective seat-scan + VIP/specialty research:** ME 27000 Statics
+  ONLINE Y01 (6 seats, zero footprint) completes the 2nd Engineering Core Selective; QM 30500 -> TR
+  3:00 sec 016; Team-Based Design via **VIP AIE (AI for Education - LLM tutors, STICK's domain)** over
+  EPICS-level-swap (fallback EPCS 30200); STRT 49200 + MIS 38800 override asks in the amended Alec
+  email (adds the EPCS 20100->30200 question + student-designed-specialty ask). Target 15-17 cr, all
+  conflict-free, nothing before 3pm except Friday lab. Specialty: declare Data Analytics (ML for
+  Business, Data Mining, Digital Experimentation, DB Mgmt - founder toolkit, and directly trains the
+  P2 metrics gap). SYS 35000 offered as optional spring-relief lever, recommended skip. Veer registers.
