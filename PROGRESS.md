@@ -800,3 +800,27 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
   (project not product), Koch and three Marketeq listings (aggregator reposts, term unverified).
   **Atlassian did NOT open** despite the ~Aug 21 expectation (apmlist still "~25 days"); HPE also not
   open; Google APM unchanged and not yet open.
+
+### 2026-08-21 (Fri, 2:02pm PT) — Alec replied to the agenda email; fall shape resolved, one new requirement surfaced
+
+- **Landed ~10 minutes after the reconcile scan closed.** Alec answered all four asks:
+  1. **STRT 49200 — no override.** Section is full with no extra seats; it moves to **senior year**.
+  2. **MIS 38800 — no override this fall either;** take it **in the IBE cohort this spring**.
+  3. **EPCS 20100: drop it, add VIP 37920.** The Team-Based Design question is settled — no substitution
+     needed, it is a straight swap.
+  4. **EPCS covers the Science, Technology & Society requirement.**
+  5. **Specialty Area: Data Analytics confirmed as the best option** — there is no sharing rule for IBE,
+     so DA costs exactly one extra course. This closes the DA-vs-student-designed comparison.
+- **NEW and not previously in the plan: IBE 29150 must be repeated in Fall 2027** (not passed in spring).
+  That is an extra semester of the seminar sequence and it lands in senior year alongside STRT 49200.
+- **Optional lever offered: STRT 352IBE this fall** if he wants another class. At 13 credits now
+  (SYS 35000 added Aug 20), dropping EPCS 20100 and adding VIP 37920 keeps him near the same number.
+- **Time discrepancy to resolve before Monday:** Veer's email says the meeting is at 11:30; the
+  BoilerConnect confirmation says **2:30-3:00pm ET**. BoilerConnect is the system of record.
+- **VIP section question answered (Purdue VIP program page):** every VIP team is a *different section*
+  of the same course number, so VIP 37920 has one section per team and there is no central CRN list.
+  The AIE (AI for Education) team's faculty are **Qiang Qiu** (qqiu@purdue.edu, primary) and **Wei
+  Zakharov** — identify the section by instructor name in the myPurdue Scheduling Assistant, not by
+  a team code. The earlier "WMS, M 2:30-3:20" section from the Aug 20 plan is a different team and is
+  the wrong one. Registration also requires **department approval**, and a section whose team meeting
+  time conflicts with another course will not be approved.
