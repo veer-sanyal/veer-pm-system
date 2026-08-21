@@ -47,8 +47,9 @@ Never leave a stray PDF without its source `.tex`.
 - **No em dashes in any deliverable (Veer, 2026-08-20).** Resumes, cover letters, emails,
   anything another person receives. No `---` in .tex prose, no U+2014 in text artifacts, and
   no en dashes as clause separators either; rewrite with commas, colons, or parentheses.
-  En dashes stay ONLY in date/number ranges ("Jun. 2025 -- Aug. 2025"). Grep the source
-  before compiling; this rule is checked per artifact, not assumed from the template.
+  En dashes stay ONLY in date/number ranges ("Jun. 2025 -- Aug. 2025"). Run
+  `tools/no-emdash-check.sh <file.tex>` before every compile; it fails loudly on violations.
+  Checked per artifact, never assumed from the template.
 - **Skills section is technical-only and short (per ResumeDeepResearch: objective +
   relevant + scannable; Michigan: never list soft skills without evidence; anti-stuffing).**
   2-3 tight category lines, exact JD tool names, no soft-skill claims ("product strategy",
@@ -96,8 +97,9 @@ Never leave a stray PDF without its source `.tex`.
    tailored resume; never apply its rules from memory** (drift caught 2026-08-20: an edit
    session skipped it and re-introduced soft-skill listing and em dashes).
 3. Match-map each top requirement to the strongest proof from profile + `reusable-bullets.md`.
-4. Draft `.tex` from the template → compile (`pdflatex VeerSanyal_<Company>_Resume.tex`, or
-   `latexmk -pdf`) → verify single page → save both files in the company folder.
+4. Draft `.tex` from the template → `tools/no-emdash-check.sh` on it → compile (`pdflatex
+   VeerSanyal_<Company>_Resume.tex`, or `latexmk -pdf`) → verify single page → save both
+   files in the company folder.
 5. Cover letter requested → repeat with `CoverLetterDeepResearch.md` loaded.
 6. Update profile memory with anything new surfaced (new project, metric, bullet, skill) —
    edit the relevant `profile/*.md` in place; correct, don't append duplicates.
