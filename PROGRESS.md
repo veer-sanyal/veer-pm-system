@@ -892,3 +892,44 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 - **STRT 35200IBE (Alec's optional offer) looked up:** 19639-016 MWF 3:30-4:20 LILY G420 fits;
   30640-012 TR 10:30-11:45 does not matter since SYS cannot move. Recommendation: skip it, 14 credits
   plus a VIP team plus recruiting is enough. Veer's call.
+
+### 2026-08-21 (Fri, night) — IBE plan of study pulled; the schedule question turns out to be a sequencing question
+
+- **Two subagents: the IBE degree requirements (catalog + live Banner prereqs) and a full Fall-2026
+  section sweep via the public purdue.io API (term 202710).**
+- **Subject-code decoder, which unblocked the whole read:** the 2024 Daniels catalog still writes every
+  business course as MGMT; live Banner and the registration system use the new Daniels codes. MGMT 30500
+  = **QM 30500**, MGMT 30600 = QM 30600, MGMT 35200 = STRT 35200, MGMT 36100 = **SCOM 36100**,
+  MGMT 38800 = MIS 38800, MGMT 49200 = **STRT 49200**, MGMT 47300/47400/47200/38900 = QM equivalents.
+  Also: the "IBE" suffix is a display alias, not a separate course. SCOM 36100IBE is SCOM 36100 CRNs
+  12195/12198; STRT 35200IBE is STRT 35200 CRNs 19639/30640. Same sections, same times.
+- **IBE junior-fall per the catalog's own 8-semester plan:** SCOM 36100 (Operations), STRT 49200 (IP
+  Mgmt, 2cr), one Business Method Selective (QM 30600 / 46600 / QM 47200 / QM 47400), **one Specialty
+  Area course**, and the Team-Based Design start (EPCS 30200 or VIP 37920).
+- **Scored against Veer's cart: he is ON PLAN except for one gap.** SCOM 36100 ✓, QM 30600 ✓ (counts as
+  the Business Method Selective), VIP 37920 ✓, IBE 29150 ✓ (required every semester sophomore + junior).
+  STRT 49200 is junior-fall but Alec confirmed it is full. **SYS 35000 is the Engineering Selective and
+  the plan puts it in junior SPRING, so it is early, not required now.** **The one true gap is a
+  Specialty Area course: the plan wants one this fall and he has zero.**
+- **QM 30500 is NOT a junior course. The plan puts Business Statistics in sophomore year, so he is
+  behind on it, which is exactly why Alec kept it.** It is required Business Core, so dropping it defers
+  a requirement rather than removing one.
+- **The prereq answer, from live Banner (the only public source that publishes prereq text):** QM 30500
+  is NOT the exclusive gate for the Data Analytics specialty. QM 47300, QM 47400 and QM 38900 each
+  accept any ONE of ECON 26000, ECON 36000, **QM 30500, or STAT 35000**. QM 30600 accepts the same list
+  **and allows it concurrently**. Since IBE already requires STAT 35000, whether Veer can take a
+  specialty course this fall depends entirely on whether STAT 35000 is already done.
+- **THE OPEN QUESTION, and it blocks the decision: his transcript.** If QM 30500 is currently serving as
+  QM 30600's concurrent stats prereq, dropping it may invalidate QM 30600 as well. Need the myPurduePlan
+  degree audit. Asked Veer for it.
+- **Fall-only flag: MIS 38800 (Python for Business) is fall-only per the catalog.** Alec routed it to the
+  spring IBE cohort. Worth re-asking him on Monday, because a fall-only course pushed to spring can slip
+  a full year.
+- **Specialty-course sections that fit around the VIP lab** (avoiding VIP Thu 3:30-4:20, SCOM TR 4:30-5:45,
+  SYS TR 9:00-10:15): QM 47400 Predictive Analytics 12273 TR 1:30-2:45 or 19682 MWF 10:30-11:20;
+  QM 47300 Data Mining 19963 TR 12:00-1:15 or 23759 TR 1:30-2:45; QM 47200 12260 MWF 10:30-11:20 or
+  23926 MWF 11:30-12:20. Dead on arrival: QM 38900 (both meetings TR 4:30, hits SCOM) and QM 47800
+  (TR 9:00, hits SYS).
+- **Recommendation recorded: KEEP QM 30500.** It is required core, he is already behind on it, and it is
+  the prereq key to the Data Analytics specialty he just declared. Trading it for a strategy elective to
+  gain a later start is a bad trade. The MWF 8:30 stands.
