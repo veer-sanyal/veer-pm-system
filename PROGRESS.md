@@ -753,3 +753,8 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
   + wzakharov@purdue.edu, verified via ECE profile + Libraries profile); Veer sends from Purdue
   Outlook, CCs Alec. Final fall shape: QM move + SYS 35000 + VIP AIE (or EPCS 30200 fallback)
   + override asks = 15-17 cr, nothing before 9am TR / 3pm otherwise.
+
+### 2026-08-20 (Thu, late) — TikTok application driven to fully-complete; only Submit remains
+
+- **All optional sections filled in-browser (Veer's go-ahead, in his Chrome tab):** Work Samples = live MSME dashboard URL + honest description; Language Skills = English, Native or bilingual; Self-introduction = 5-sentence agent-builder framing written fresh (no em dashes, all claims profile-traceable); SNS = LinkedIn + GitHub. Honors and Awards left empty on purpose: nothing verified exists in the profile, and inventing one is exactly what the integrity rules exist to stop.
+- Earlier same evening: parse garbling cleaned from both project descriptions, work-auth answered Yes/No from the Claude Corps confirmed precedent, source = Recruitment Website, correct resume confirmed attached. Final sweep shows zero unanswered dropdowns, zero garbled text. **Veer presses Submit.**
