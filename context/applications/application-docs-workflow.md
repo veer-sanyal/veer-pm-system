@@ -91,21 +91,43 @@ Never leave a stray PDF without its source `.tex`.
      (subagent if noisy), create the `profile/*.md`, then use it. Never invent metrics to fill a gap.
    This is the "keep the apply stream current" guarantee: even if nobody synced the profile, apply
    self-heals here. Then proceed.
-1. Decode the listing: top requirements, exact keywords, must-prove skills.
+1. Decode the listing: top requirements, exact keywords, must-prove skills. **Save the
+   posting verbatim to `applications/<Company>/listing.md` in the same step** (postings
+   vanish; re-tailoring, the reviewer, and interview prep all need the exact text). If only
+   a summary is available, the file says so at the top and gets replaced with the verbatim
+   text the moment Veer has the posting open.
 2. Read profile first (per role family); only fall back to master/prior PDFs for gaps.
    **Re-read `ResumeDeepResearch.md` on EVERY resume task, including edits to an existing
    tailored resume; never apply its rules from memory** (drift caught 2026-08-20: an edit
    session skipped it and re-introduced soft-skill listing and em dashes).
 3. Match-map each top requirement to the strongest proof from profile + `reusable-bullets.md`.
-4. Draft `.tex` from the template → `tools/no-emdash-check.sh` on it → compile (`pdflatex
-   VeerSanyal_<Company>_Resume.tex`, or `latexmk -pdf`) → verify single page → run the ATS
-   extraction test the research mandates for LaTeX PDFs (`pdftotext <file>.pdf -` extracts
-   in reading order, no garbled characters, contact in body) → save both files in the
-   company folder.
-5. Cover letter requested → repeat with `CoverLetterDeepResearch.md` loaded.
-6. Update profile memory with anything new surfaced (new project, metric, bullet, skill) —
+   **Persist it to `applications/<Company>/match-map.md`**: one row per top requirement with
+   the chosen proof (bullet + source profile file), alternatives considered and why they
+   lost, and any requirement honestly NOT claimable (named, never faked). This file is what
+   the reviewer audits against, and it is the interview-prep sheet.
+4. Draft `.tex` from the template → compile (`pdflatex VeerSanyal_<Company>_Resume.tex`,
+   or `latexmk -pdf`) → run `tools/resume-check.sh <file.tex>` (one gate: dash rules, 1-page,
+   ATS text extraction; it must print clean) → save both files in the company folder.
+   Eyeball the pdftotext output for reading order once per new layout.
+5. **Independent review (required for every deliverable, including edits to an existing
+   one).** Spawn a FRESH subagent — clean context is the point; it must not inherit the
+   drafting conversation's assumptions. Its prompt names only file paths; it reads them
+   itself: `research/ResumeDeepResearch.md`, the FULL default profile set, the company
+   folder's `listing.md`, `match-map.md`, the `.tex`, and the pdftotext extraction. It
+   returns findings in three buckets, each with a concrete fix:
+   - **Rule violations** vs the research checklist + this doc's rules (dashes, tense
+     consistency, bullet length 1-2 lines, skills stuffing / soft-skill listing,
+     quantification share >= 50%, top-third strength, keyword-in-context).
+   - **Match-map gaps**: any top JD requirement without a proof bullet, and any case where
+     the profile holds STRONGER proof than what was used.
+   - **Integrity**: any resume claim not traceable to a profile file (inflation), and any
+     leak of private-repo language.
+   The main session applies or explicitly waives each finding (waivers noted in the company
+   folder's match-map.md). Re-run the reviewer only if the fixes were structural.
+6. Cover letter requested → repeat with `CoverLetterDeepResearch.md` loaded (the reviewer step applies to it too).
+7. Update profile memory with anything new surfaced (new project, metric, bullet, skill) —
    edit the relevant `profile/*.md` in place; correct, don't append duplicates.
-7. Update `applications/README.md` inventory; if the listing has a deadline, add/update its
+8. Update `applications/README.md` inventory; if the listing has a deadline, add/update its
    row in `context/key-dates.md` (Application Pipeline table).
 
 ## Deadlines

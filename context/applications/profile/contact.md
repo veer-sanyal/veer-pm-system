@@ -8,6 +8,6 @@ metadata:
 ---
 
 Veer Sanyal
-Sammamish, WA — 360-643-9424 — vsanyal@purdue.edu — linkedin.com/in/veersanyal
+Sammamish, WA — 360-643-9424 — vsanyal@purdue.edu — linkedin.com/in/veersanyal $\cdot$ github.com/veer-sanyal
 
 Standard one-line header format used across all tailored resumes. Keep in document body (not in PDF header/footer) for ATS parsing.
