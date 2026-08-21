@@ -933,3 +933,28 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 - **Recommendation recorded: KEEP QM 30500.** It is required core, he is already behind on it, and it is
   the prereq key to the Data Analytics specialty he just declared. Trading it for a strategy elective to
   gain a later start is a bad trade. The MWF 8:30 stands.
+
+### 2026-08-21 (Fri, night) — FALL 2026 REGISTERED. The AI for Education lab is his.
+
+- **Veer pressed Submit (confirmed by him in-session). VIP 37920 Lab CRN 11958-022 went from `1 / 18` to
+  `0 / 18`: he took the last seat.** `vip-aie-seat` CLOSED, same day it opened.
+- **Registered, 14 credits:** SYS 35000 16418-001 TR 9:00-10:15 · STRT 35200IBE 30640-012 TR 10:30-11:45
+  (also the last seat, now 0/47) · **VIP 37920 Lab 11958-022 R 3:30-4:20 WALC 3084, AI for Education** ·
+  SCOM 36100IBE 12198-010 TR 4:30-5:45 · QM 30600 20881-004 MWF 4:30-5:20 · IBE 29150 18179-001 async.
+  **Mon, Wed and Fri are single-class days starting 4:30pm. Nothing before 9:00 any day.**
+- **Changes made this session, all before submit:** dropped QM 30500 (MWF 8:30, the only early block),
+  added STRT 35200IBE (required Business Core, previously untaken). Both stuck.
+- **EPCS 20100 did NOT survive the submit** and is off the schedule. The original staged drop won over
+  the re-add. **Veer's call: VIP replaces EPICS, no need for both, he raises it with Alec Monday.** He is
+  right on Team-Based Design (the audit says EPCS 30200 **or** VIP 37920, not both) and almost certainly
+  on EPICS II (VIP 17912 is the listed VIP equivalent). **The genuinely open one is UCC Science,
+  Technology & Society** — EPCS 20100 was the only thing covering it, and whether VIP 37920 carries the
+  same attribute is unverified. That is now a Monday question, not a blocker.
+- **QM 30500 verdict, asked and answered: safe to defer.** It gates nothing (STAT 35000, B, Spring 2026
+  already satisfies every prereq it would have unlocked), it runs fall/spring/summer, and the credit math
+  holds (69 done + 15 fall, 36 across three semesters to May 2028). **Correction on record: earlier this
+  session the advice was to keep it because it was the prereq key to the Data Analytics specialty. The
+  degree audit showed STAT 35000 already complete, which removed that argument.** Caveat given: spring is
+  crowded and QM 30500 should be sequenced with Alec, not defaulted into.
+- **STRT section time change abandoned at Veer's call** (he holds the last seat on 30640; switching risked
+  ending up with neither).
