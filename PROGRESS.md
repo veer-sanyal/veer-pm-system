@@ -859,3 +859,36 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
     the Indianapolis roster and not joinable. Also note a junior belongs in EPCS 30200, not the
     20100 Veer is registered in, so staying in EPICS would mean a level correction too.
   - Alec already ruled on this Aug 21: drop EPCS 20100, add VIP 37920. The scan agrees with him.
+
+### 2026-08-21 (Fri, late) — Fall schedule driven in UniTime: zero changes possible, the cart is already optimal
+
+- **Drove the Student Scheduling Assistant in Veer's Chrome (read plus section-alternatives only; nothing
+  submitted).** Corrected two of this session's earlier errors in the process.
+- **Correction 1: the AIE section was already in his cart.** VIP 37920 Lab CRN 11958-022, R 3:30-4:20p,
+  WALC 3084, W Zakharov and Q Qiu, note field reads **"AI for Education"** verbatim. The CRN inferred
+  from the purdue.io API was right, and it is now confirmed from the authoritative source.
+- **Correction 2: the QM 30500 conflict I flagged does not exist.** He never moved QM 30500 to TR 3:00;
+  it is still 21053-011 MWF 8:30-9:20. The Aug-20 plan's section move was never executed.
+- **Actual cart (Total Credit 14, unsubmitted):** SCOM 36100IBE 12198-010 TR 4:30-5:45 · QM 30500
+  21053-011 MWF 8:30-9:20 · QM 30600 20881-004 MWF 4:30-5:20 · IBE 29150 18179-001 async · SYS 35000
+  16418-001 TR 9:00-10:15 · VIP 37920 Lec 10527-PD1 (arrange) + Lab 11958-022 R 3:30-4:20. EPCS 20100
+  Lec and Lab both staged for drop, exactly as Alec directed. **Verified pairwise: zero conflicts.**
+- **SEAT SCARCITY IS THE REAL RISK. VIP Lab shows `1 / 18` available and QM 30600 shows `3 / 64`.**
+  The Avail column is available seats, not enrolled: the Assistant shows QM 30500 21053-011 at 28/64
+  against a published catalog capacity of 65. Recommendation given: submit now, tune later.
+- **Tried to move three sections. All three are immovable, and the reason is the VIP lock:**
+  - **SYS 35000: no alternatives at all**, even with "include conflicting suggestions" checked. The
+    TR 10:30-11:45 section (15079-003) exists in the catalog but is not offered to him. Full or restricted.
+  - **QM 30500: exactly four alternatives, every one conflicts.** 12275-014 TR 9:00 hits SYS;
+    23772-002 and 12277-016 TR 3:00-4:15 both hit the VIP lab; 23773-003 TR 4:30 hits SCOM. Filtering
+    `day: MWF` and `time: 1200` both returned nothing, so the catalog's MWF 9:30 / 10:30 / 11:30 sections
+    and the TR noon section are all unavailable to him despite appearing in Lookup Classes.
+  - **QM 30600: both TR sections conflict** (16144-002 TR 4:30 hits SCOM, 23776-001 TR 3:00 hits VIP),
+    and it already sits at 4:30pm, which satisfies the no-mornings preference anyway.
+- **SCOM 36100IBE is forced to TR 4:30-5:45**: its only other section, 12195-009 TR 3:00-4:15, collides
+  with the VIP lab. That single fact cascades into everything above.
+- **Verdict: the 8:30am MWF is the price of the AI for Education lab, and it is worth paying.** Nothing
+  was changed in the cart. Submitting is Veer's click.
+- **STRT 35200IBE (Alec's optional offer) looked up:** 19639-016 MWF 3:30-4:20 LILY G420 fits;
+  30640-012 TR 10:30-11:45 does not matter since SYS cannot move. Recommendation: skip it, 14 credits
+  plus a VIP team plus recruiting is enough. Veer's call.
