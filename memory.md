@@ -3,14 +3,14 @@
 > Keep it a snapshot (~1,500 words max): closed items compress to one line; the story is already in PROGRESS.md.
 > The session-start hook now measures this. If it prints a SIZE line, compressing is the session's first move.
 
-**Last reconciled: 2026-08-19 (Wed) ~03:00 PT — /reconcile after 3 dark days (college friend visiting since ~Aug 16; hosting displaced everything).** Sources: stick-dev git + STATE.md, sagamore STATE.md + Purdue OneDrive via Chrome, Calendar, Gmail, Google Drive, openings 4-source. WhatsApp + iMessage NOT read this session (Chrome time went to staging). Prior reconciles: `PROGRESS.md`. Live deltas since Aug 15:
+**Last reconciled: 2026-08-21 (Fri) ~14:00 PT.** Sources: stick-dev git + STATE.md, Calendar (Aug 15-29), Gmail (drafts/inbound/LinkedIn digest), openings 4-source. **WhatsApp + iMessage NOT read — third reconcile blind on both.** Prior reconciles: `PROGRESS.md`. Live deltas since Aug 19:
 
-- **Aug 16–18 produced zero sends, zero applications, no W7 plan.** The Sunday Aug-16 block sat on the calendar but no weekly plan or Morning Briefings were written; recurring blocks fire on pre-Jul-19 times. STICK's last commit is Aug 16 00:27. P4 evidence line added 2026-08-19.
-- **Sagamore is done-pending-one-click:** the OneDrive folder "Scouting America Consulting Resources" is inventoried, recipient-checked, gap-filled (CSVs + client toolkit docx added, Izzy's internal notes moved out) and the thank-you email is staged in Purdue Outlook with OneDrive-link attachments. Detail: `projects/sagamore/STATE.md`.
-- **Professor email flipped recipient:** public record shows NO Mummert on MA 16100 Fall 2026; **Mahesh Sunkula (msunkula@purdue.edu) teaches every section**. Two drafts staged in Outlook (Mummert original + Sunkula variant); Veer picks one, deletes the other. `networking/mummert-send-2026-08-10.md`.
-- **Openings: +5 Researching rows Aug 19** (Datadog + 4 TikTok) on top of the 13 from Aug 15; Atlassian opens ~Aug 21, HPE ~Aug 27, Duolingo ~Sep 14. Inbound quiet everywhere (no pipeline replies, no LinkedIn).
-- **Still unsent and now overdue by the Jul-26 rule: Mama (day 24, Gmail draft one click) and the Sudip courtesy close.** Send or kill, first working minute.
-- **Flight home Sat Aug 22 (AS 500, departs 9:13 AM) collides with that day's Deep/Secondary blocks; classes start Mon Aug 24.** Sleep walk-back never started; wake data absent all week.
+- **STICK is the loudest signal in weeks and it is CODE, not prose: 231/1258 `app/` commits all-time, 108/517 in the last 14 days.** HEAD today. Sessions s23-s25 ran Aug 19-21: auto-publish fired live twice unattended, the D412 yield collapse root-caused and fixed (8/8 vs 1/5·0/8), D408-D411 deployed, approvals complete (53 verified / 0 unverified), 30 topics live. Detail: `~/Desktop/stick-dev/STATE.md`. **The gate is unchanged: still zero humans at the screen.**
+- **TWO NEW PURDUE LOOPS, both gated by an account hold.** (a) **wzakharov@purdue.edu replied Aug 21** on AIE: cap raised twice, register ASAP — a live yes on VIP 37920, expiring against the Aug 28 add deadline. (b) **BoilerConnect appointment CONFIRMED with Alec Gramm, Mon Aug 24 2:30-3:00pm ET** (not on Google Calendar; Veer is Eastern by then). (c) **Purdue account hold** (emergency contact + financial-responsibility affirmation) outstanding since Aug 20 — clear it first, it blocks registration changes.
+- **No Sunkula reply. No pipeline replies. No LinkedIn messages.** Inbound is quiet everywhere except Purdue.
+- **Three stale Gmail drafts, all still unsent:** Mama `r6350260301157660326` (day 26 on the original question), plus the two Aug-4 Bryon drafts that are now pure residue and get deleted.
+- **Calendar has drifted and this week is when it bites:** no Morning Briefing after Aug 15; Sat Aug 22 Deep + Secondary blocks sit on top of the AS 500 flight (9:13am-1:24pm); Mon Aug 24 classes start with **zero class events on the calendar**; every recurring block is still Pacific while Veer moves to Eastern tomorrow. New: **Daniels Internship Kickoff Fri Aug 28, 6:00am-2:00pm.**
+- **Openings +3 Researching rows** (Goldman Sachs AWM PM NYC + Dallas, third Vertiv req). **Atlassian did NOT open** (apmlist ~25 days out); HPE not open; Google APM unchanged.
 
 ---
 
@@ -28,12 +28,13 @@
 
 **Live tripwires** — slug · state · next physical action. Reasoning trails live in `PROGRESS.md` on the dates named.
 
-0. **`stick-first-user-shown` — THE ONLY GATE LEFT, and the top of the board.** Day 21, zero humans — but **the professor email SENT (Veer, Aug 19 night, to Sunkula)**: the rejectable artifact finally left the building. Now on **reply-watch**: a Sunkula reply -> book the 15 minutes that week (that meeting is the gate-closer). **Nearer and still open: the visiting friend is a live human at the screen — a 15-minute demo closes this tripwire before any reply lands.** Do not accept owner-verify as a substitute for a human at the screen. Trail: PROGRESS Jul 16 / Jul 30 / Aug 2 / Aug 7 / Aug 15 / Aug 19.
-1. **`ahlawat-buildsystem-repo` — owed to a warm contact, day 9, untouched** (Wed Aug 12's secondary block was lost to the trip). First move unchanged and still under 2 minutes: pick what gets stripped from the spec.
-2. **Externship / Sagamore — CLOSED 2026-08-19 (night): thank-you + OneDrive package to Bryon AND the team group-chat close both sent by Veer.** `sagamore-final-zip` closed; every human loop on the engagement closed. Residue only: the two stale Aug-4 Gmail drafts to hand-delete. State: `projects/sagamore/STATE.md`.
+0. **`stick-first-user-shown` — THE ONLY GATE LEFT, and the top of the board.** Day 23, zero humans. The Sunkula email is sent and on **reply-watch** (nothing back as of Aug 21) — a reply means booking the 15 minutes that week, and that meeting is the gate-closer. **The visiting friend leaves with tomorrow's flight: a 15-minute demo today is the last cheap shot at this.** The product side is not the blocker (see the STICK delta above); the ask is. Do not accept owner-verify as a substitute for a human at the screen. Trail: PROGRESS Jul 16 / Jul 30 / Aug 2 / Aug 7 / Aug 15 / Aug 19 / Aug 21.
+1. **`ahlawat-buildsystem-repo` — owed to a warm contact, day 11, untouched across 3 sessions.** This has now been re-listed rather than done twice; the avoidance is that "strip the spec" is a judgment call and judgment calls get deferred. Decomposed to a single physical action: open the spec, delete every section that is not the build loop, save. Under 2 minutes to start.
+2. **Externship / Sagamore — CLOSED 2026-08-19 (night): thank-you + OneDrive package to Bryon AND the team group-chat close both sent by Veer.** `sagamore-final-zip` closed; every human loop on the engagement closed. Residue only: the two stale Aug-4 Gmail drafts (`r1375487513162206080`, `r-2984936810873573256`), still sitting in Drafts as of Aug 21 — hand-delete. State: `projects/sagamore/STATE.md`.
 3. **Trice lane KILLED by Veer 2026-08-15** (`sudip-maya-seller-call`, `naveen-show-not-tell` both closed — reasons + consequence in `ledgers.md`). **Residual: the courtesy close to Sudip Uncle, required, staged in `networking/sends-2026-08-15.md`** (send-as-is, no second editing pass). Naveen note optional. P3 funnel now has zero live lanes — Sunday agenda item.
-4. **`mama-6mm-reply` — 24 days unanswered.** Gmail draft `r6350260301157660326` still one click from send (verified in Drafts 2026-08-19); same Jul-26 rule applies — send-as-is or kill. Bounded sideline; does not displace STICK.
-5. **`sleep-anchor` — fixed ~11:00** (Veer, Jul 16); melatonin CLOSED (HOLD). **Walk-back toward 9:00 still not started and now urgent: classes start Aug 24 (9 days), flight home Aug 22.** No wake-stamp data again this reconcile. Must be a top item at tomorrow's Sunday session. Config in `sleep-protocol.md`.
+4. **`mama-6mm-reply` — day 26.** Gmail draft `r6350260301157660326` (to dr.maneesh@nuhospitals.com, "Re: Nozzle Review") re-verified unsent Aug 21. Jul-26 rule: send-as-is or kill, no second editing pass. Bounded sideline; does not displace STICK.
+5. **`sleep-anchor` — fixed ~11:00** (Veer, Jul 16); melatonin CLOSED (HOLD). **Walk-back never started and it is now out of runway: classes start Mon Aug 24 (3 days), and the Aug 22 flight moves him to Eastern, which shifts an 11:00 PT anchor to 2:00pm ET.** Still no wake-stamp data. Top item at the Sun Aug 23 session. Config in `sleep-protocol.md`.
+6. **`purdue-fall-registration` — OPENED 2026-08-21, hard deadline Thu Aug 28 (add deadline).** Three stacked items in order: (a) clear the **Purdue account hold** (emergency contact + financial-responsibility affirmation, outstanding since Aug 20) — it blocks registration changes; (b) **register VIP 37920 AIE now** — Zakharov replied Aug 21 that the cap has been raised twice and to register ASAP; (c) **Alec Gramm academic-planning appointment, Mon Aug 24 2:30-3:00pm ET** (BoilerConnect-confirmed, not on Google Calendar) — the override asks for STRT 49200 / MIS 38800 land there. Full map: PROGRESS 2026-08-20.
 
 *Slug hygiene done by hand this session (see delta above); `tripwires.json` build decision deferred to the Sept 6 monthly health check.*
 
@@ -47,13 +48,13 @@
 
 ---
 
-**Next moves — reconciled Wed Aug 19 ~03:00 (no W7 plan exists; the Aug-16 Sunday session never ran as a session. Structural replan happens Sun Aug 23, the last one before classes)**
+**Next moves — reconciled Fri Aug 21 ~14:00.** No W7 plan exists; the structural replan is Sun Aug 23, the last one before classes.
 
-- **One-click board update (Aug 19 night): (1) Sunkula email, (2) Bryon package, (3) team group-chat close — ALL SENT by Veer, three loops in one evening.** Still open: (4) Mama day-24 send-or-kill; (5) Sudip courtesy close; plus deleting the unused Mummert draft in Outlook and the two stale Aug-4 Gmail drafts.
-- **STICK before the Sat Aug 22 flight: the demo needs 6 approvals + one student-session drive (D362); show the demo to the visiting friend — that closes `stick-first-user-shown` this week.**
-- **Fall 2026 registration (opened 2026-08-20, add deadline Thu Aug 28):** 10 cr registered = under full-time. Veer's actions: add VIP 37920 (WMS, M 2:30-3:20) for 12 cr; move QM 30500 8:30am -> TR 3:00 sec 016; send the staged advisor email (overrides STRT 49200 + MIS 38800, 4 audit questions, Specialty Area). Full map: PROGRESS 2026-08-20. Mobility Global SUBMITTED same day.
-- **Sun Aug 23 session must cover:** W1-of-classes plan, sleep walk-back verdict (classes start next morning), P2 re-point verdict (still zero verified reps), pipeline accept/kill on the 18 Researching rows + Atlassian (~Aug 21 open), recurring calendar master series still on pre-Jul-19 times.
-- **Mon Aug 17, 1:00 PM PT: Sagamore closing call (final).** Prep in `projects/sagamore/STATE.md`. Collides with the recurring Workout+lunch block — resolve when writing W7.
+- **Today, before the flight, in this order:** (1) show STICK to the visiting friend — 15 minutes, closes tripwire 0, and he is gone tomorrow; (2) clear the Purdue account hold and register VIP 37920 AIE; (3) Mama draft — send or kill; (4) delete the two Aug-4 Bryon drafts and the unused Mummert draft in Outlook.
+- **Still open from the Aug-19 board:** the Sudip courtesy close (staged, `networking/sends-2026-08-15.md`), and `ahlawat-buildsystem-repo`.
+- **Sat Aug 22 is a travel day and the calendar does not know it:** the Deep and Secondary blocks sit on top of AS 500 (9:13am-1:24pm). Decide at the Sunday session whether they move or die.
+- **Sun Aug 23 session must cover:** W1-of-classes plan with the actual class schedule written to the calendar (there are zero class events on it), the Pacific→Eastern shift of every recurring block, the sleep walk-back verdict, the P2 re-point verdict (still zero verified reps, state.json cold since Jul 3), and accept/kill on the now-21 Researching pipeline rows.
+- **Fri Aug 28: Daniels Internship Kickoff, 6:00am-2:00pm** (new on the calendar this scan) — same day as the course add deadline.
 
 ---
 

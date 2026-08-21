@@ -193,6 +193,9 @@ and updates the row here. Stage ∈ {Researching, Drafting, Ready, Submitted}.
 | TikTok — PM Intern (Commerce Ads, San Jose) | Rolling | **Researching** (new Aug 18 scan) | lifeattiktok.com |
 | TikTok — PM Intern (Ads Interface and Platform, San Jose) | Rolling | **Researching** (new Aug 18 scan) | lifeattiktok.com |
 | TikTok — PM Intern (Ads Interface and Platform, Seattle) | Rolling | **Researching** (new Aug 18 scan) | lifeattiktok.com |
+| Goldman Sachs — Summer Analyst Intern, AWM Product Management, Summer 2027 (New York, NY) | Rolling (none stated) | **Researching** (new 2026-08-21 scan, SimplifyJobs) — business/finance-track PM, no CS line ✓; JD not yet read end-to-end | higher.gs.com/roles/182389 |
+| Goldman Sachs — AWM Product Management Analyst Intern, Summer 2027 (Dallas, TX) | Rolling (none stated) | **Researching** (new 2026-08-21 scan) — same program, second location; pick ONE location before applying | higher.gs.com/roles/171513 |
+| Vertiv — Product Management Intern, Product Marketing, Summer 2027 (Delaware, OH) | Rolling (none stated) | **Researching** (new 2026-08-21 scan) — third distinct Vertiv PM req; no CS/coding requirement ✓ | Oracle Cloud req 20279047 |
 | _(12 legacy applications archived in `applications/`)_ | — | — | `applications/` |
 
 Add a row when a new target is identified; convert any relative deadline to an absolute date.

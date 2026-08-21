@@ -760,3 +760,43 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
 - Earlier same evening: parse garbling cleaned from both project descriptions, work-auth answered Yes/No from the Claude Corps confirmed precedent, source = Recruitment Website, correct resume confirmed attached. Final sweep shows zero unanswered dropdowns, zero garbled text. **Veer presses Submit.**
 
 - **SUBMITTED: TikTok AI Agent PM Intern (A115604), 2026-08-20 night, by Veer.** Second Summer 2027 application in (after Mobility Global this morning). Cap discovered at the confirm dialog: 2 applications total per candidate for the whole 2027-start intern project including referrals; 1 slot now remains, and the rule written into key-dates is that it only gets spent after a deliberate cross-comparison at a Sunday session. The 7 other TikTok Researching rows are now competing for one slot.
+
+### 2026-08-21 (Fri) — /reconcile (~14:00 PT): STICK is the loudest signal in weeks; two new Purdue loops opened
+
+- **Sources reached:** stick-dev git + STATE.md, Google Calendar (Aug 15-29), Gmail (drafts + inbound
+  + LinkedIn digest), openings 4-source (Neal feed 57 roles, SimplifyJobs dev 41 PM rows, apmlist,
+  Indeed MCP). **WhatsApp and iMessage NOT read** (blind third reconcile running).
+- **STICK: the pattern is not running. 231 of 1258 all-time commits touch `app/`; 108 of 517 in the
+  last 14 days.** HEAD is today (2026-08-21, ADM-02 conform folded). Sessions s23/s24/s25 all ran
+  Aug 19-21. From `STATE.md`: **auto-publish fired live twice with no human touch**, the D412 yield
+  collapse was root-caused and fixed (8/8 post-fix vs 1/5 and 0/8 before), D408-D411 all built and
+  deployed, approvals complete at 53 verified / 2 rejected / 0 unverified, 30 topics live. `D362`
+  ("two weeks to a demo") holds. Product code is where the effort went this week; say it out loud.
+- **Still zero humans at the screen.** No Sunkula reply in Gmail (professor email sent Aug 19 night).
+  The visiting friend is still the nearest path and the flight is tomorrow morning.
+- **Gmail inbound — two NEW Purdue loops, both time-boxed:**
+  - **wzakharov@purdue.edu replied 2026-08-21** to the AIE join email: AIE is popular, the enrollment
+    cap has been raised twice, register ASAP. This is a live yes-shaped reply on VIP 37920 and it
+    expires against the Aug 28 add deadline.
+  - **BoilerConnect confirmed an "Academic Planning" appointment with Alec Gramm, Mon 2026-08-24
+    2:30-3:00pm ET.** Not on Google Calendar. Note the timezone: Veer is Eastern from Aug 22.
+  - **Purdue account hold** (noreply@purdue.edu, Aug 20): emergency-contact / financial-responsibility
+    affirmation outstanding. A hold blocks registration changes, so it gates both items above.
+- **Gmail drafts — three stale, all still unsent.** Mama nozzle draft `r6350260301157660326`
+  (dr.maneesh@nuhospitals.com, "Re: Nozzle Review", written Aug 10, now day 26 on the original
+  question). Two Sagamore drafts to Bryon from Aug 4 (`r1375487513162206080`,
+  `r-2984936810873573256`) — engagement is closed, these are residue and get deleted.
+- **Inbound otherwise silent:** zero replies on any pipeline row, zero LinkedIn "just messaged you"
+  digests in 4 days.
+- **Calendar drift, and it matters this week:** no Morning Briefing exists after Aug 15. Sat Aug 22
+  still carries a Deep block (9:45-11:15) and Secondary (11:45-1:00) sitting on top of the AS 500
+  flight (9:13am-1:24pm). Mon Aug 24 classes start and **no class events exist on the calendar at
+  all** — the generic weekday template is still there. New event found: **Daniels Internship Kickoff,
+  Fri Aug 28 6:00am-2:00pm.** And every recurring block is still on Pacific times while Veer moves to
+  Eastern tomorrow. All of it is Sunday-session work (Aug 23), except the Aug 22 collision.
+- **Openings: +3 Researching rows** — Goldman Sachs AWM Product Management Summer Analyst (NYC,
+  role 182389) and the Dallas twin (171513), plus a third Vertiv req (Product Management Intern,
+  Product Marketing, Delaware OH). Rejected without rowing: Amazon PMT (CS/EE + coding), Hubbell
+  (project not product), Koch and three Marketeq listings (aggregator reposts, term unverified).
+  **Atlassian did NOT open** despite the ~Aug 21 expectation (apmlist still "~25 days"); HPE also not
+  open; Google APM unchanged and not yet open.
