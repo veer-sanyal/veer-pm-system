@@ -824,3 +824,38 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
   a team code. The earlier "WMS, M 2:30-3:20" section from the Aug 20 plan is a different team and is
   the wrong one. Registration also requires **department approval**, and a section whose team meeting
   time conflicts with another course will not be approved.
+
+### 2026-08-21 (Fri, evening) — AIE section found by CRN; it conflicts with QM 30500
+
+- **Correction to the earlier advice in this session: "find the section by instructor" does not work
+  for VIP.** Zoltowski and Lynch are the VIP program directors and appear as instructors of record on
+  most sections; the team faculty often do not appear at all. Veer confirmed he saw only Zoltowski and
+  Lynch in the Scheduling Assistant.
+- **CRN found: 11958.** Recovered from the public purdue.io OData API (Fall 2026, term 202710, VIP
+  37920) by cross-referencing instructor lists: 11958 is the only one of ~90 Fall-2026 VIP 37920 CRNs
+  carrying BOTH Qiang Qiu and Wei Zakharov alongside the program staff. **Lab meets Thursday 3:30,
+  WALC 3084.** Not officially labeled "AI for Education" anywhere public, so treat it as a strong lead
+  and confirm with Zakharov or vip_wl@purdue.edu, not as settled fact. Banner's public schedule search
+  needs a browser session; BoilerClasses exposes CRN history but no term-to-team mapping.
+- **HARD CONFLICT, and it is the real finding: the Thursday 3:30 AIE lab overlaps QM 30500 section
+  016, which meets TR 3:00 to 4:15.** The VIP registration page states that course conflicts with the
+  team meeting time will not be approved. So the Aug-20 plan's two moves (QM to TR 3:00 sec 016, and
+  join AIE) are mutually exclusive as written. QM is the piece that moves.
+- **Email to Zakharov staged in `networking/sends-2026-08-21.md`** (cc Qiu): confirm the CRN, raise the
+  conflict, ask whether there is a second meeting time or whether he should move QM. Em-dash check
+  passed. Veer sends.
+- **VIP vs EPICS scan run (two subagents).** Verdict: stay on VIP.
+  - VIP alternates if AIE falls through, both directly STICK-adjacent: **LabTA_AI** (Gupta/Kulkarni,
+    AI lab teaching assistant with human escalation, no prior AI experience required) and **EdTechDev**
+    (John Cole, AI automated grading and personalized assessment). Then **OptiChat** (Can Li, agentic
+    AI with Chewy as industry partner, explicitly recruits industrial engineering students) and
+    **NanoHUB** (Klimeck, the only team doing literal PM work: user growth, UX, business model on a
+    platform with 18,000 users a year, but requires resume plus interview). Meeting times are not
+    published for any VIP team and must be checked per CRN.
+  - **EPICS West Lafayette has nothing STICK-adjacent.** 44 teams; the best software fit is IMS
+    (software for nonprofits and educational agencies) and its lab is Tue 1:30 to 3:20, which also
+    conflicts with QM. Next feasible are HDR (data viz for Standing Rock, Wed 1:30) and IDEA GLASS
+    (Mon 3:30). The one true analog, an app tracking student growth for parents and teachers, is on
+    the Indianapolis roster and not joinable. Also note a junior belongs in EPCS 30200, not the
+    20100 Veer is registered in, so staying in EPICS would mean a level correction too.
+  - Alec already ruled on this Aug 21: drop EPCS 20100, add VIP 37920. The scan agrees with him.
