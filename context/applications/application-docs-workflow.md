@@ -98,8 +98,10 @@ Never leave a stray PDF without its source `.tex`.
    session skipped it and re-introduced soft-skill listing and em dashes).
 3. Match-map each top requirement to the strongest proof from profile + `reusable-bullets.md`.
 4. Draft `.tex` from the template → `tools/no-emdash-check.sh` on it → compile (`pdflatex
-   VeerSanyal_<Company>_Resume.tex`, or `latexmk -pdf`) → verify single page → save both
-   files in the company folder.
+   VeerSanyal_<Company>_Resume.tex`, or `latexmk -pdf`) → verify single page → run the ATS
+   extraction test the research mandates for LaTeX PDFs (`pdftotext <file>.pdf -` extracts
+   in reading order, no garbled characters, contact in body) → save both files in the
+   company folder.
 5. Cover letter requested → repeat with `CoverLetterDeepResearch.md` loaded.
 6. Update profile memory with anything new surfaced (new project, metric, bullet, skill) —
    edit the relevant `profile/*.md` in place; correct, don't append duplicates.

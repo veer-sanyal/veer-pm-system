@@ -25,7 +25,7 @@ metadata:
 - Built the full student-facing practice loop end-to-end — auth + role-gated routing, a daily plan generated from FSRS spaced-repetition scheduling, a question player with server-graded, per-choice-rationale feedback, and automatic re-scheduling on each attempt — verified working via an automated end-to-end test against a seeded account.
 - Designed the Postgres data model and data-access security: 46 migrations and 33+ row-level-security policies, checked by a dedicated automated RLS probe script.
 - Defined the product strategy — bounded, admin-curated AI over an open chatbot — and scoped a single-course Purdue pilot as the first real-user test.
-- Run the build itself as a multi-agent workflow: a coordinator agent makes decisions serially and dispatches parallel agent lanes (code, design, research) into isolated git worktrees, governed by a 400+-entry decision ledger. (Source: stick-dev CONCURRENCY-DESIGN D279; ledger count verified 2026-08-20 at D406+. For AI-agent roles.)
+- Orchestrated the build itself as a multi-agent workflow: a coordinator agent makes decisions serially and dispatches parallel agent lanes (code, design, research) into isolated git worktrees, governed by a 400+-entry decision ledger. (Source: stick-dev CONCURRENCY-DESIGN D279; ledger count verified 2026-08-20 at D406+. For AI-agent roles.)
 
 **Skills demonstrated:** product strategy/scoping, LLM pipeline design + prompt/step design, data modeling (Postgres), row-level-security / data-access design, React/TypeScript (built-with), Supabase/Deno edge functions (built-with), FSRS/spaced-repetition, AI-assisted development (Claude Code).
 

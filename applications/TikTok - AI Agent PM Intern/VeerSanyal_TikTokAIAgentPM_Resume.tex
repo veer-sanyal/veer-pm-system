@@ -35,7 +35,7 @@
 % ===== HEADER =====
 \begin{center}
   {\LARGE \textbf{Veer Sanyal}}\\[3pt]
-  Sammamish, WA $\cdot$ 360-643-9424 $\cdot$ vsanyal@purdue.edu $\cdot$ linkedin.com/in/veersanyal
+  Sammamish, WA $\cdot$ 360-643-9424 $\cdot$ vsanyal@purdue.edu $\cdot$ linkedin.com/in/veersanyal $\cdot$ github.com/veer-sanyal
 \end{center}
 
 % ===== EDUCATION =====
@@ -52,13 +52,13 @@
 \begin{itemize}
   \item Designed and shipped a structured, multi-step LLM pipeline (extract $\to$ classify $\to$ grade, on Deno edge functions) that turns raw exam PDFs into verified, structured question data: deliberately bounded steps, not an open-ended chatbot.
   \item Ingested a real 14-page, 12-question exam end-to-end with 100\% extraction confidence; all 12 auto-proposed answer keys matched the instructor's published key on first pass, and every AI answer is cross-checked against an independent source before reaching a student.
-  \item Designed the Postgres data model and access-control layer (46 migrations, 33+ row-level-security policies) and built the full user-facing loop end-to-end (auth, an FSRS-scheduled daily plan, and a server-graded question player), verified via an automated test.
-  \item Run the build itself as a multi-agent workflow: a coordinator agent makes decisions serially and dispatches parallel agent lanes (code, design, research) into isolated git worktrees, governed by a 400+-entry decision ledger.
+  \item Designed the Postgres data model and access-control layer (46 migrations, 33+ row-level-security policies); built the full user loop (auth, FSRS-scheduled daily plan, server-graded question player), verified by an automated end-to-end test.
+  \item Orchestrated the build itself as a multi-agent workflow: a coordinator agent makes decisions serially and dispatches parallel agent lanes (code, design, research) into isolated git worktrees, governed by a 400+-entry decision ledger.
 \end{itemize}
 
 \entry{Cairn: Open-Source Scaffolder for Agentic AI Systems}{github.com/veer-sanyal/cairn}{Claude Code plugin, sole author}{2026}
 \begin{itemize}
-  \item Built and open-sourced a plugin that designs long-lived agentic systems around product fundamentals: it interviews the user to define a North Star metric, metric tree, and guardrails, then scaffolds a personalized multi-agent system with tiered memory, local telemetry, and human-gated self-improvement.
+  \item Built and open-sourced a plugin that designs long-lived agentic systems around product fundamentals: it interviews the user to define a North Star metric, metric tree, and guardrails, then scaffolds a multi-agent system with tiered memory, telemetry, and human-gated self-improvement.
   \item Encoded 25 evidence-graded principles on agentic-system failure modes (context rot, objective corruption, knowledge expiry) with a bundled research engine using adversarial claim verification; adopted unprompted by an external builder who forked and extended it.
 \end{itemize}
 
