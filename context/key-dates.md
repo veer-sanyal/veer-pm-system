@@ -339,3 +339,43 @@ site license through the career center BEFORE paying retail.
 plus real client consulting) has NO Purdue chapter. Founding one is the highest-ceiling item found in
 any scan and also the largest lift. **Spring item at the earliest, and only if STICK has users** -
 starting an organization before the product has a single user is the P6 failure mode with a nicer name.
+
+### Pipeline programs - second pass (verified 2026-08-22, primary sources only)
+
+**THE NEGATIVE FINDING, stated plainly: no product-management-specific fellowship or cohort program
+for undergraduates exists from any primary source.** What exists is (a) company APM/PM internships
+applied to directly, (b) paid interview-prep vendors, (c) generic pipelines with some PM employers
+among their partners. Stop looking for a PM fellowship; there isn't one.
+
+**Open and worth applying (read the stated criteria and judge fit yourself):**
+- **INROADS - Nov 1 2026 priority deadline.** Places into an ACTUAL PAID corporate internship, not a
+  certificate. Stated: full-time undergrad with 1 summer or 27 cr remaining, 2.8 GPA, Business/STEM/
+  Liberal Arts interest; "selection process is not based on citizenship status." Highest-yield item found.
+- **SEO Career - rolling**, reviewed monthly Oct-Apr, Success Class closes ~mid-April. Junior explicitly
+  in-window. 3.2 GPA (3.0 may be considered). Routes to 200+ corporate partners.
+- **SHPE National Convention, Oct 28-31 2026, INDIANAPOLIS.** In-state, so near-zero cost. SHPE states
+  it is "open to everyone." Engineering-skewed fair, but geography makes the expected value positive.
+
+**Confirmed OUT OF WINDOW or DEAD - stop considering these:**
+- **MLT Career Prep**: wants sophomores graduating Fall 2028 / Spring 2029 / Summer 2029. May 2028 is
+  a year ahead of the gate.
+- **Girls Who Invest**: expects graduation between fall 2028 and spring 2030. Also finance, not product.
+  (Notable: explicitly open to all gender identities including male-identifying students.)
+- **Google STEP and Microsoft Explore**: both SOFTWARE ENGINEERING, and STEP is first/second-year only.
+- **Meta University**: freshman/sophomore. **Meta RPM**: new-grad full-time, not an internship.
+- **Code2040**: DISSOLVED, final program concluded May 31. **Jopwell**: gone, redirects to trueplatform.com.
+- **Braven**: school-gated, Purdue is not a partner university.
+- **Lime Connect Fellowship** and **Disability:IN NextGen**: 2026 cycles closed.
+
+**Forage - settled, do not use as a PM credential.** Full sitemap pulled: 280 simulations, ~85 company
+slugs, 16 categories, and **no product-management category exists**. The only PM sim on the platform is
+Forage's own house-brand one (fictional mobile-gaming company), not employer-branded. Zero selection,
+no stated interview mechanism, and its "2.6x more employable" claim is self-generated and
+self-selecting. The signal in a credential is its rejection rate; Forage's is zero.
+
+**Founder-track fellowships are NOT internship vehicles**, and several are actively hostile to a degree:
+Thiel Fellowship pays $250k to leave school; Z Fellows is rolling with an optional $10k investment at a
+$1B cap; ODF (ex-On Deck) kicks off Q1 2027 and is founder-oriented. **Kleiner Perkins Fellows is the
+one genuinely internship-shaped selective fellowship** and it is currently CLOSED with no reopen date
+published - set a tripwire. Contrary's /talent page 404s and its sitemap has no fellows page; Venture
+For America's site fails TLS handshake. Both flagged as possibly wound down.
