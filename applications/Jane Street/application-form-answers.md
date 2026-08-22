@@ -29,55 +29,92 @@ Note there is no GPA field and no work-authorization question on this form.
 
 ## Free-text box
 
-Their prompt: "We don't need a cover letter, but if there's additional information that could be
-helpful to us when reviewing your application, use the space below to tell us. Things like: Why
-you're interested in Jane Street / How you heard about us / If you have a job now, why you're
-looking for a new one."
+**Researched 2026-08-21 against Jane Street's own words. The first draft in this file was wrong
+and has been replaced.**
 
-Third prompt does not apply; he is a full-time student. Draft below answers the other two.
+### What they actually say
+
+Jane Street's hiring FAQ, verbatim:
+
+> "If there's something you think we should know about that doesn't fit nicely onto your
+> resume/CV, feel free to include it in the text box at the bottom of our application. If not,
+> feel free to leave this blank."
+
+And on their interviewing page, asked whether a cover letter is needed: **"Nope!"**
+
+The form itself repeats it: "We don't need a cover letter, but if there's additional information
+that could be helpful..."
+
+**So the box is an exceptions box, not a persuasion surface.** It exists to catch information the
+resume format cannot hold. It is not a short-form cover letter, and a polished four-paragraph
+essay with a thesis and a closing line is precisely the thing they said twice they do not want.
+Submitting one signals that the applicant did not read the instruction, at a firm that lists
+"exceptional attention to detail" as one of four named traits. That is a real cost, not a
+theoretical one.
+
+The first draft in this file was exactly that mistake: a cover letter wearing a text box.
+
+### The test to apply
+
+Their test, used literally: **does this thing belong on the resume, and did it fail to fit?**
+
+| Candidate content | Passes? | Why |
+|---|---|---|
+| Cairn (github.com/veer-sanyal/cairn) | **Yes** | Genuinely cut from the resume for space this session, verifiable in `match-map.md`. Public artifact, unprompted external adopter. Cannot be seen any other way. |
+| Interest in the London and Hong Kong offices | **Yes** | The form explicitly names this box as where to indicate interest in other roles or offices. Literally the stated use. |
+| "How I handle being wrong" narrative | No | Persuasion, not information. This is interview material. |
+| IBE degree, SMIF, STICK, the externship | No | All on the resume. Repeating them wastes the one signal the box carries. |
+| How he heard about them | Only if the dropdown is incomplete | There is a dropdown for it. Worth a line only if the true answer has detail the dropdown cannot express, e.g. a specific person. |
+
+### Draft, informational register, no thesis and no closing flourish
 
 ---
 
-Strategy and Product is described as a merged business development and technical PM role, which is
-the first posting I have read that matches how I actually work instead of one half of it. My
-degree is Purdue's Integrated Business and Engineering program, and my two most-used artifacts sit
-on opposite sides of that line: an equity report I defended in front of a 30+ member investment
-committee, and a study app I built and deployed myself, data model and LLM pipeline included.
+One thing that did not fit on my resume: I open-sourced Cairn
+(github.com/veer-sanyal/cairn), a tool that scaffolds long-lived AI agent systems around a North
+Star metric, an input-lever metric tree, and guardrails. The part I spent the most time on is a
+research engine that tries to refute its own claims before it will use them. Someone I have never
+met found it, used it, and forked it to extend it further.
 
-The thing worth telling you that a resume cannot show is how I handle being wrong.
-
-Building the study app, I found that my own manual review had let 24+ defects through, so I
-stopped trusting the review and added mechanical gates, which turned review escapes from an
-impression into a number. On a policy dashboard, I computed every figure from WTO and Indian
-government source data rather than reusing published ones, and that surfaced a published statistic
-that was off by roughly 3x. I also open-sourced a tool that scaffolds long-lived AI agent systems,
-and the piece I spent the most time on was a research engine that tries to refute its own claims
-before it will use them (github.com/veer-sanyal/cairn). Someone I have never met found it, used
-it, and forked it to extend it further.
-
-The pattern is that I build systems that assume I am wrong, because I usually am somewhere. That
-instinct is the thing I would bring to an SP team.
-
-I found the role through [FILL: match the dropdown above].
+I applied to the New York posting and would be glad to be considered for London or Hong Kong as
+well.
 
 ---
 
-**Optional add-on line, Veer's call.** Since one application is considered for all offices, add
-this only if it is true:
+**Use the second paragraph only if it is true.** Drop it if he wants New York specifically.
 
-> I applied to the New York posting, and I would be glad to be considered for the London or Hong
-> Kong offices as well.
+**If the whole thing feels thin, that is correct and intended.** Blank is an answer Jane Street
+explicitly endorses. Two accurate sentences beat four persuasive paragraphs here.
 
-## What the draft is doing, and what it refuses to do
+## The thing that actually decides this application
 
-- **Does not restate the resume.** The two paragraphs they will actually read are about a trait
-  the posting names ("eager to ask questions, admit mistakes, and constantly deepen your
-  understanding") that most applicants will only assert. The draft evidences it three times
-  instead, with things that are checkable.
-- **Cairn appears here rather than on the resume.** It was cut from the page for space, and this
-  box is free. The adversarial-verification detail is the most Jane Street thing about it.
-- **Adoption phrased at n=1, honestly.** "Someone I have never met found it, used it, and forked
-  it," never "users," never a count.
+Not the resume, and not the box.
+
+Jane Street's own SP interviewing page describes the first stage as an **online assessment,
+multiple-choice and short-answer, about an hour.** Third-party guides (interviewquery,
+aptitudeprep, candidate reports) consistently characterize the SP version as **HackerRank, roughly
+4 modules and ~10 questions in 60 minutes, math / probability / reasoning rather than coding,
+weighted toward expected-value intuition and problems built to reward cleverness over brute
+force.** First-party confirms the format and length; the probability-heavy characterization is
+third-party and should be treated as likely but unverified.
+
+**This matters more than anything else in this folder.** Submitting starts that clock, and
+`context/study/state.json` has been cold since 2026-07-03, with significance and confidence
+intervals sitting at 0.15 mastery, the weakest active topic. Expected value under time pressure is
+a trainable skill and the single highest-leverage prep for this application. Route it through
+`/tutor` before submitting, not after the OA link arrives.
+
+Jane Street also states there is **no GPA or degree requirement** and that they "hire students of
+all tenures from many different universities," which removes the last thing that could have
+screened him out.
+
+Sources: janestreet.com/join-jane-street/interviewing, .../sp/interviewing, the Gradcracker Jane
+Street hub FAQ, interviewquery, aptitudeprep. Verified 2026-08-21.
+
+## What the resume-side draft refuses to do
+
 - **No inflation.** The study app is "built and deployed," never in production and never with
   students, which it does not have. Every number traces to a profile file.
+- **Cairn adoption phrased at n=1**, honestly: "someone I have never met found it, used it, and
+  forked it," never "users," never a count.
 - **No em dashes**, per the outbound-artifact rule.
