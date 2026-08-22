@@ -1079,3 +1079,45 @@ list above ~3.5 and omit otherwise, and Amex states no GPA cutoff.
 
 **State at handoff:** Amex all four sections filled, sitting one click from submit. IBM at 40%,
 resume uploaded, personal and address blocks complete, blocked only on the consent tick.
+
+## 2026-08-22 — Amex SUBMITTED; IBM driven to 60% and handed back
+
+**Veer submitted the Amex GCS PM Intern application (26011916).** Third Summer-2027 submission of the
+cycle, and the first one filed against a hard deadline (Sep 30) instead of a rolling posting.
+
+**IBM req 128509 continued.** Veer ticked the privacy consent, which unlocked the sections that had
+been hidden behind it. He reported the education dates and work experience were empty; they were,
+because those blocks only render after the consent tick.
+
+Filled this session:
+- **Education:** Bachelor's Degree, Purdue University, 08/2024 to 05/2028, **Completed = No.**
+- **Work history, three entries.** The parser had produced them half-empty: the Externship entry was
+  complete, EPICS had a blank company, and **Firmly had a blank company too**, with only a start date
+  and title. All three now read correctly (Externship 07/2026-08/2026, EPICS 08/2025-12/2025,
+  Firmly 06/2025-08/2025), none marked current.
+- Work authorization Yes, sponsorship No, prior IBM employment No, permanent address same, resident
+  of China/South Korea No, source Job Board, university attended Yes.
+- **Locations per Veer: San Jose CA > Austin TX > Durham NC**, willing to relocate Yes, open to other
+  locations Yes, hybrid Yes. **Security-clearance eligibility Yes: Veer confirmed he is a US citizen**,
+  which is now recorded in the profile.
+- **Skill self-assessments, answered honestly rather than flatteringly.** IBM asked for a level on
+  Agile Software Development, and the answer given is **"I have no experience in performing this work
+  behavior, but I am willing to learn"** exactly as `skills-inventory.md` requires. Data Analytics =
+  limited experience. Machine Learning = limited. Data Visualization = routine-with-minimal-guidance
+  (backed by the MSME Plotly work). Product development and management = demonstrated experience.
+- Re-uploaded the tailored resume to the separate required Resume/CV field on this step.
+
+**A second near-miss of the same class as yesterday's.** Setting the EPICS company wrote into the
+Externship entry instead, because the ref pointed at the first record. Caught it from the tool's
+previous-value report and restored the original string immediately. **The IBM form aliases refs
+across repeated blocks exactly like the Amex one did; the reliable method is to resolve the field by
+its real DOM id, read its on-screen position, and click there.** That is what the rest of the entries
+used.
+
+**Left for Veer, deliberately, and verified as the only remaining gaps:** date of birth, the five EEO
+self-identification groups (gender, ethnicity, race, veteran, disability), the two EEO consent
+checkboxes, the "I certify my answers are accurate" attestation, and submit. Protected
+characteristics and personal attestations do not get filled on his behalf.
+
+**Profile gained three durable facts** so future applications stop asking: US citizenship, the
+default multi-site location ordering, and the GPA bracket with the rule that it stays off the resume.

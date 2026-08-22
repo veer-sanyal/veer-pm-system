@@ -19,9 +19,19 @@ Amex form blocked on a missing street address.
 
 - **Home address:** 3240 198th Pl SE, Sammamish, WA 98075, United States. County: **King**.
   (ZIP 98075 maps to both Issaquah and Sammamish in address pickers: choose **Sammamish**.)
-- **Work authorization:** legally authorized to work in the United States, and **does NOT now or in
-  the future require employment sponsorship** (no visa or work permit needed). Confirmed by Veer
-  2026-08-21. Answer sponsorship questions "No" and authorization questions "Yes".
+- **Work authorization:** **US citizen** (confirmed by Veer 2026-08-21 when IBM asked the
+  security-clearance eligibility question). Legally authorized to work in the United States, and
+  **does NOT now or in the future require employment sponsorship** (no visa or work permit needed).
+  Answer sponsorship questions "No", authorization questions "Yes", and clearance-eligibility
+  questions "Yes".
+- **Location preferences (multi-site reqs):** default order used on IBM 128509 was
+  **San Jose CA > Austin TX > Durham NC**, willing to relocate = Yes, open to other locations = Yes.
+  Re-confirm per role; do not assume it carries.
+- **GPA: 3.3** (bracket 3.0-3.49). Enter it when a form requires a GPA. **Keep it OFF the resume:**
+  the convention is to list above ~3.5 and omit otherwise, and omitting is not a red flag.
+- **NEVER fill on his behalf:** date of birth, and all EEO self-identification (gender, ethnicity,
+  race, veteran status, disability). Those are protected characteristics and his to answer. Same for
+  any "I certify my answers are accurate" attestation.
 - **Application email:** use `vsanyal@purdue.edu`, the address printed on the resume, so a recruiter
   can tie the form to the document.
 - **Standard attestation set** for these portals (confirmed by Veer 2026-08-21, re-confirm if
