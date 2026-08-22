@@ -1152,3 +1152,61 @@ follow-up tripwire: these are cold portal applications, not networked introducti
   company calls: **IBM will not find an Agile claim** (answered "no experience, willing to learn"),
   and **Amex has no business-case proof**, which its posting explicitly asks for. Both are documented
   as deliberate non-claims with prepared honest answers.
+
+---
+
+## 2026-08-21 (Fri, night) — `/apply` Jane Street: Strategy and Product Internship
+
+**Fifth Summer-2027 package built, and the first one that is not a conventional PM req.** Jane
+Street's SP internship is their merged Business Development + Tech PM program: an analytical
+generalist who sits between markets, product, and internal operations. NYC, May-August,
+base $225,000, London and Hong Kong also posted.
+
+**Why this one is a real fit rather than a stretch.** Two screens that killed Databricks and
+Salesforce are simply absent here. There is no CS-or-related-technical-field line, and the posting
+says outright that a finance background is not expected ("If you've never thought about a career in
+finance, you're in good company"). The eligibility anchor is the full-time start date, **September
+2028**, which lines up exactly with a May 2028 graduation. Deadline is soft: Sept 30 is
+"encouraged," they review rolling, and they state they treat all applications equally regardless of
+when you apply.
+
+**Positioning call: SMIF leads Experience for the first time on a PM-family resume.** The posting
+names its three learning domains in order (global market dynamics, technical systems and tooling,
+operational infrastructure), and markets comes first. Veer has a real artifact in each of the three,
+which is unusual, so the resume is ordered to show all three above the fold: SMIF for markets,
+Firmly for payment infrastructure and instrumentation, the externship for driving a client project.
+STICK and the MSME dashboard carry the build-and-framework proof underneath. This deviates from the
+default PM ordering in `role-positioning.md`, deliberately, and the reasoning is written into
+`applications/Jane Street/match-map.md`.
+
+**The independent reviewer earned its keep this time.** Two findings that would have cost something:
+
+1. **An integrity break the match-map had already declared clean.** `SQL/Postgres data modeling` and
+   `Plotly` were sitting bare on the Skills line, outside the `(built with)` qualifier, in direct
+   violation of the calibration rule in `skills-inventory.md` and in contradiction of the
+   "not claimable" section this same session had written. Both moved behind the qualifier. This is
+   the exact stack-inflation failure mode `direction.md` names as a top rejection signal, and it got
+   in anyway.
+2. **An ATS reading-order defect that `resume-check.sh` structurally cannot catch.** Raw `pdftotext`
+   was emitting location and dates BEFORE the employer name on the first entry after a section rule.
+   The gate script reads `-layout` mode, which renders fine, so it passed clean while a parser
+   pairing employer to dates could have misassigned them. Fixed and re-verified in raw mode.
+
+Also applied: named the client (Scouting America) and changed "rebuilt" to "delivered" on the
+externship bullet; restored the SMIF bullet's "refined the framing from what came back," which is
+what the profile actually says and what the posting's admit-mistakes requirement needs; reworded
+STICK's review-queue bullet off "between model and student" since STICK has zero students.
+
+**Waived, on the record:** the Postgres/RLS bullet (46 migrations, 33+ row-level-security policies,
+automated probe script) is stronger "technical systems and tooling" proof than anything on the page,
+but the page is at its one-page limit and buying the space would cost the MSME framework bullet.
+**It is the best answer available if Jane Street asks what he has actually built, so it goes to
+interview prep instead of the resume.**
+
+**Stage: Ready, not submitted.** Pipeline row added to `key-dates.md`. Nothing is owed to anyone
+until Veer decides to file it.
+
+**Clock discrepancy worth a look at the Sunday session:** the system clock reads Fri 2026-08-21
+23:08 PDT, but `session-log.jsonl` already carries three lines stamped 2026-08-22 and `key-dates.md`
+records IBM as submitted 2026-08-22. One of the two is wrong, and since tripwire latency is computed
+off those timestamps, a bad stamp corrupts the system's core KPI.

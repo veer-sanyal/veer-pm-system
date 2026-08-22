@@ -1,0 +1,95 @@
+% Jane Street, Strategy and Product Internship (May-August), NYC.
+% Posting saved verbatim in listing.md. Requirement mapping in match-map.md.
+% Compile: pdflatex VeerSanyal_JaneStreet_Resume.tex
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.55in,right=0.55in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Suppress hyphenated word-breaks: some ATS parsers do not rejoin them, which would
+% split coursework and tool keywords across lines.
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\sloppy
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\hrule\vspace{3pt}]
+\titlespacing{\section}{0pt}{2pt}{1pt}
+
+\setlist[itemize]{leftmargin=1.3em,topsep=1pt,itemsep=1pt,parsep=0pt,label=\textbullet}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\[1pt]
+  \textit{#3}\hfill \textit{#4}\\[2pt]
+}
+
+\begin{document}
+
+% ===== HEADER =====
+\begin{center}
+  {\LARGE \textbf{Veer Sanyal}}\\[3pt]
+  Sammamish, WA $\cdot$ 360-643-9424 $\cdot$ vsanyal@purdue.edu $\cdot$ linkedin.com/in/veersanyal $\cdot$ github.com/veer-sanyal
+\end{center}
+
+% ===== EDUCATION =====
+\section*{Education}
+\textbf{Purdue University, Mitch Daniels School of Business}\hfill West Lafayette, IN\\[1pt]
+\textit{B.S. Integrated Business and Engineering (IBE), Expected May 2028}\hfill \textit{Aug. 2024 -- Present}
+\begin{itemize}
+  \item Combined business and engineering curriculum. Coursework: Statistics, Microeconomics, Financial Accounting, Engineering Design \& Project Execution.
+\end{itemize}
+
+% ===== EXPERIENCE =====
+\section*{Experience}
+\entry{Student Managed Investment Fund}{West Lafayette, IN}{Equity Research Analyst}{Jan. 2025 -- Present}
+\begin{itemize}
+  \item Built a 3-statement model in Excel (DCF, comps, sensitivity analysis) for U.S. Bancorp in a \textasciitilde\$400K AUM real-money portfolio; co-authored the 20-page report recommending Buy at a \$57.35 target, \textasciitilde11.5\% implied upside.
+  \item Distilled segment-level analysis into a 10-slide pitch, presented the thesis to a 30+ member investment committee, defended the assumptions in live questioning, and refined the revenue and risk framing from what came back.
+\end{itemize}
+
+\entry{Firmly}{Remote}{Product and Engineering Intern}{Jun. 2025 -- Aug. 2025}
+\begin{itemize}
+  \item Shipped a PayPal checkout failure-recovery flow end-to-end: defined the requirements with engineering and support, then replaced a generic error page with a guided flow validated across \textasciitilde15 high-risk payment edge cases.
+  \item Instrumented the payment path with server-side error logging (Node.js/Express), then tracked error rate and recovery rate to judge whether the fix worked; built a 20+ test-case QA workflow adopted as the team standard.
+\end{itemize}
+
+\entry{Purdue Daniels School of Business Summer Externship}{Remote}{Timeline \& Project Manager}{Jul. 2026 -- Aug. 2026}
+\begin{itemize}
+  \item Project-managed a 4-person consulting team for Scouting America, a \textasciitilde\$1.6M nonprofit: ran discovery with the COO, set the timeline, and delivered a 156-row dated posting calendar built from its event grid across 4 content types and 5 audiences.
+  \item Audited the client's website and social presence against sourced screenshots, quantified a roughly 25x performance gap between best and worst content styles, and turned it into prioritized recommendations for a non-technical executive.
+\end{itemize}
+
+% ===== PROJECTS =====
+\section*{Projects}
+\entry{STICK: AI-Powered Study Platform}{}{Independent product build; sole developer of a deployed web app (React, TypeScript, Supabase)}{2026 -- Present}
+\begin{itemize}
+  \item Made bounded AI steps, not an open chatbot, the core product decision and shipped that pipeline on Deno edge functions; it read a real 14-page, 12-question exam and auto-proposed 12 of 12 answer keys matching the instructor's.
+  \item Kept a human review queue over the model's output rather than shipping it directly (53 verified, 2 rejected, none unreviewed across 30 topics); root-caused a generation-quality failure that lifted question yield from 1/5 and 0/8 to 8/8.
+\end{itemize}
+
+\entry{India MSME Digital-Trade Exposure Dashboard}{github.com/veer-sanyal/india-msme-digital-trade-exposure}{Sole builder, live for a policy researcher (Python, pandas, Plotly)}{2026 -- Present}
+\begin{itemize}
+  \item Built a framework ranking which of India's small-business service sectors are most exposed to a given digital-trade policy, computing every figure from WTO and government source data, which surfaced a published statistic off by roughly 3x.
+\end{itemize}
+
+% ===== LEADERSHIP =====
+\section*{Leadership \& Activities}
+\entry{Engineering Projects in Community Service (EPICS)}{West Lafayette, IN}{Communications Officer \& Build Lead}{Aug. 2025 -- Dec. 2025}
+\begin{itemize}
+  \item Led a 7-person cross-functional team building a rotating museum billboard prototype; settled an 18 versus 22 prism decision on measured tolerance and manufacturability data, and presented the tradeoffs in two formal design reviews.
+\end{itemize}
+
+% ===== SKILLS =====
+\section*{Skills}
+\textbf{Quantitative \& Modeling:} Excel financial modeling, DCF, comps, sensitivity and scenario analysis, statistics\\[2pt]
+\textbf{Data \& Analytics:} Usage telemetry and event instrumentation, KPI dashboarding, data visualization\\[2pt]
+\textbf{Technical:} Python, HTML/CSS, Git/GitHub; React/TypeScript, Node.js, SQL/Postgres, Plotly, Supabase (built with)
+
+\end{document}

@@ -34,6 +34,7 @@ inventory only** — application deadlines and pipeline status live in
 | Tiktok - Category Mgmt Intern (ACTIVE) | VeerSanyal_TikTok_CategoryMgmt_Resume.tex + .pdf | Yes |
 | Mobility Global (ACTIVE — S&P Global Mobility, PM Intern Early Careers) | VeerSanyal_MobilityGlobal_Resume.tex + .pdf | Yes |
 | TikTok - AI Agent PM Intern (ACTIVE — Summer 2027, Job Code A115604) | VeerSanyal_TikTokAIAgentPM_Resume.tex + .pdf | Yes |
+| Jane Street (ACTIVE — Strategy and Product Internship, May-August, NYC) | VeerSanyal_JaneStreet_Resume.tex + .pdf, listing.md, match-map.md | Yes |
 
 New applications: create `applications/<Company>/`, save `.tex` + `.pdf` (see workflow), and
 add a row here. For consistency, prefer the `VeerSanyal_<Company>_Resume.{tex,pdf}` naming on
