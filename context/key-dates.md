@@ -299,3 +299,43 @@ product-shaped half of an AI research team.
   in MGMT 20000, A- or above in MGMT 35100/35300.
 - **QM 30500** - 5 grader slots, 10 hr/wk, undergrads only. Gate: A- or above in MGMT 30500.
 (Econ UGTA and PURCE assistantship both closed Jun 30, 2026.)
+
+## PM Pipeline - adjacent paths (verified 2026-08-22)
+
+**STRUCTURAL FINDING: the class-year wall, not selectivity, is what excludes him.** MLT Career Prep
+wants sophomores graduating Fall 2028 / Spring 2029 / Summer 2029. Meta University is freshman and
+sophomore only. Crowe's case competition is freshman and sophomore only. **Veer graduates May 2028, so
+he is AHEAD of these windows, not behind them** - and the myPurduePlan "Sophomore at 69 credits"
+classification does not help, because these gate on GRADUATION DATE. Applying to the pipeline-program
+tier is mostly wasted effort. What stays open: competitions, externships, and direct applications.
+
+**Artifact-first screens - these reward having shipped, which is the whole P7 build-around:**
+- **LinkedIn Associate Product Builder replaced the resume with a 60-SECOND DEMO VIDEO.** Same asset
+  as the Moonshot 2-minute pitch. Record once, cut twice.
+- Roblox APM screens with an in-game assessment. Uber APM screens with a graded take-home.
+- Duolingo Thrive is noted as rare in being open to sophomores.
+- Source: `apmlist.org` (free, live-stamped Aug 18 2026, 37 open roles). **Weekly check surface** -
+  cheapest fix available for the thin pipeline.
+
+**Live competition:** AMA Collegiate Case Competition - intent to participate **Aug 20 - Nov 11 2026**,
+written plan due **Dec 4 2026**, finals Apr 8-10 2027 New Orleans. Undergrad only. **Gate: active paid
+membership in an AMA-affiliated collegiate chapter** - check whether Purdue Marketing Association is it.
+
+**Free practice utilities (zero credential value, real reps).** Pillar 4 has been dormant since Jul 3;
+these are the cheapest restart: **ADPList** (free forever, 38,000+ mentors incl. Amazon PMs, mock
+interviews and resume review) and **Exponent** free peer mock interviews - check whether Purdue holds a
+site license through the career center BEFORE paying retail.
+
+**DO NOT BUY - these are P7 in credential form (work that cannot reject you):**
+- **Forage** - free but zero selection, open access, certificate. No PM simulation exists anyway.
+- **ProductHood "APM Fellowship"** - ~$310 USD, open enrollment, no selection, explicitly no placement
+  guarantee, aimed at career-changers. It calls a paid course a fellowship.
+- **Product Alliance** ($570-650), **RocketBlocks** ($35/mo). Prep material, not signal.
+- **Jopwell is gone** - jopwell.com now 301-redirects to trueplatform.com. Do not plan around it.
+
+**Kleiner Perkins Fellows** - applications CLOSED, page says to watch for next year. No date published.
+
+**Deferred, not rejected:** Product Space (national student PM org, ~10 chapters, seven-week fellowship
+plus real client consulting) has NO Purdue chapter. Founding one is the highest-ceiling item found in
+any scan and also the largest lift. **Spring item at the earliest, and only if STICK has users** -
+starting an organization before the product has a single user is the P6 failure mode with a nicer name.
