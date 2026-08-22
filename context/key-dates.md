@@ -434,3 +434,13 @@ but that costs two semesters of meetings for a line that matters less than a shi
 exception that IS leverage: new-org registration runs Aug 1 - Feb 28 and needs only two officers.** If
 STICK would benefit from a campus-recognized shell (room booking, SOGAB funding, a recruiting surface
 for collaborators), founding one makes him president by construction.
+
+**Engineering 4+1 / combined degrees: CLOSED to IBE, verified against the catalog's official approved
+list.** ME, ECE, CCE and AAE each restrict enrollment to their own BS majors in quoted text.
+Sustainability/Environmental Engineering is the only one admitting outside majors and it publishes an
+explicit eligible-degree list from which **IBE is absent**. No MS Industrial Engineering or Engineering
+Management combined degree exists at all. **So: no junior-year action is owed on any of this.**
+The realistic non-business graduate route is the standard-admission **MS Engineering Management
+(1-year Accelerated), applying Jan 15 2028 first round for Fall 2028** - senior year, nothing due now.
+Open question if it ever matters: whether an IBE degree satisfies its ABET-engineering-or-STEM
+eligibility bar. The page names its own contact, purduemem@purdue.edu. One email, someday, not now.
