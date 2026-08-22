@@ -550,3 +550,57 @@ Thiel is invented.** Do not let a fabricated number talk you out of applying.
 and in-person in San Francisco. Those are summer or leave-of-absence decisions. Pre-traction is NOT the
 blocker most people assume: Z Fellows, Neo, SPC, Antler, YC, Thiel, 1517 and Emergent Ventures all
 explicitly accept idea stage. **The scarce input is application hours, not milestones.**
+
+## Summer 2027 PM pipeline - LIVE DEADLINES (verified 2026-08-22). This is the section that matters.
+
+**The early-ID / insight / discovery track is a SOPHOMORE instrument and he has aged out of ~80% of it.**
+Fall-2026 early-ID cycles recruit the class of 2029. Two programs built exactly for a May-2028 grad
+already closed: **Uber Career Prep** (grad window "Dec 2027 to Aug 2028," closed Nov 12 2025) and
+**Salesforce Futureforce Tech Launchpad** ("Bachelor's graduation year: 2028," closed Feb 22 2026).
+**Stop tracking early-ID.** His leverage is the junior-summer pipeline, which is open RIGHT NOW.
+
+| Deadline | Role | Eligibility read |
+|---|---|---|
+| **Sep 1** | Morgan Stanley 2027 Tech Summer Analyst, **Menlo Park** | Per-role grad-year unverified (bot check) |
+| **Sep 20** | Blackstone 2027 Summer Analyst | "Anticipated graduation date: Fall 2027 - Spring 2028" EXACT MATCH |
+| **Sep 30, 8:55pm** | **JPM CIB Innovation Development, PRODUCT TRACK** | **"expected graduation date between December 2027 and Spring 2028" EXACT MATCH. A real PM internship: 9 wks, 2 rotations, Chicago/NY/Plano, $43.26-$48.07/hr. BEST FIT FOUND ALL SESSION.** Warns it closes early if filled. |
+| **Oct 1** | JPM Asset Management **Product** Summer Analyst (NY) | "December 2027 - June 2028" |
+| **Oct 3** | JPM Corporate Analyst Development Program | Preferred GPA 3.2 |
+| **Oct 12** | JPM Data for Good Hackathon -> Data & AI 2027 internship | "December 2027 and August 2028" |
+| **Nov 6** | JPM Code for Good Hackathon -> SWE 2027 | Majors "or related fields" |
+| **Dec 12 / Dec 31** | JPM Global Finance & Business Mgmt / Morgan Stanley NY + Alpharetta | |
+
+**Open now, no deadline published:**
+- **Appian PM Intern Summer 2027** - McLean VA, on-site 5 days, **$50.00/hr**. "we will officially begin
+  reviewing applications... starting August 2026." **Screen risk: asks for CS or CompE major and
+  "proven fluency in AI and LLMs."** IBE is not literally listed. Lead with shipped product work.
+- **Jane Street Strategy and Product Internship** - real S&P department, posting states NO class-year bar.
+- **Palantir** - "This must be your final internship before graduation... open to students who will
+  graduate with a Bachelor's or Master's degree in **2028**." Exact target class. **No PM role exists**;
+  Deployment Strategist is the PM-adjacent seat.
+- **Intuit** - Product Management is a listed role type; only gate is grad date after the internship ends.
+- **KPMG Global Advantage** - the one AUTO fast-track found: apply to a 2027 internship and eligible
+  candidates are automatically emailed the link.
+- (**IBM req 128509 ALREADY SUBMITTED by Veer on 2026-08-22** - do not re-list it as an open action.)
+
+**GOLDMAN SACHS MECHANIC, and three Goldman rows are sitting in the pipeline as Researching:** "Each
+applicant has the opportunity to apply to up to **4 separate business / location combinations** in any
+given recruiting year. **Any additional application will be auto withdrawn.**" Choose four deliberately.
+
+**Cheap unlock: Purdue Day With Industry, Sun Sep 13, 12-4pm, Co-Rec.** A career fair that runs BEFORE
+Industrial Roundtable. **Free entry requires membership in SHPE, SWE, NSBE, MAES or SASE** - so joining
+one before Sep 13 is the entire cost. SHPE's own FAQ on whether Hispanic identity is required: "Definitely
+not. We welcome everyone who believes in our mission!" SWE states events are open to all. Read each and
+pick honestly. SHPE's national convention is Oct 28-31 in **Indianapolis**, with on-site interviews.
+
+**CONFIRMED GONE (verified against the companies' own sites, not roundups):** Meta University / Above &
+Beyond / Meta Summer Academy (careerprograms 404), Amazon Propel (absent from Amazon's whole taxonomy),
+McKinsey Achieve / Emerging Scholars / Insight / Connected Leaders, BCG Growing Future Leaders, PwC
+Start / Explore / Elevate (consolidated), JPM Advancing Black Pathways / Launching Leaders / Sophomore
+Edge, Goldman Insight Series / Possibilities Summits / Market Madness, IBM Accelerate and Extreme Blue
+(URLs redirect, extremeblue.ibm.com dead), Citadel Success Academy, Twilio Hatch, Adobe (no early-ID
+program of any kind).
+
+**UNRESOLVED, needs a human with a browser: ALL of Google.** buildyourfuture is an Angular SPA that
+returned nothing to curl, WebFetch, a rendering proxy, or the browser tool. BOLD Immersion, Inside Look
+and Case Challenge all unread. Google APM remains the hard anchor and this gap must be closed manually.
