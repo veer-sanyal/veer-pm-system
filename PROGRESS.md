@@ -1121,3 +1121,34 @@ characteristics and personal attestations do not get filled on his behalf.
 
 **Profile gained three durable facts** so future applications stop asking: US citizenship, the
 default multi-site location ordering, and the GPA bracket with the rule that it stays off the resume.
+
+## 2026-08-22 — IBM SUBMITTED. Both applications closed out; cycle submissions double in two days.
+
+Veer submitted IBM req 128509 after filling the last of it himself: date of birth, the EEO
+self-identifications, the consent checkboxes, and the accuracy attestation. All four were left to him
+by rule; none of them get answered on his behalf.
+
+**Cycle count: 2 submissions -> 4, in two days.**
+- Mobility Global, PM Intern (Aug 20)
+- TikTok, AI Agent PM Intern (Aug 20)
+- **American Express, GCS PM Intern, 26011916 (Aug 21)** — first application of the cycle filed
+  against a hard deadline (Sep 30) rather than a rolling posting
+- **IBM, Product Manager Intern 2027, req 128509 (Aug 22)**
+
+**What actually moved the needle here.** The pipeline had been sitting at 20+ rows of Researching
+against 2 submissions all cycle: the exact insight-without-action pattern this system exists to break.
+What broke it was not more research. It was picking two, verifying them live, building the resumes,
+and then driving the forms to the point where only Veer's own click remained. The scan-and-log habit
+produced rows; the drive produced submissions.
+
+**Both applications are now waiting on the companies. Nothing is owed on either.** No thank-you, no
+follow-up tripwire: these are cold portal applications, not networked introductions.
+
+**Carried forward:**
+- **Second Amex PM req** (Global Merchant & Network Services, NYC) is already a Researching row and is
+  the cheapest remaining shot, since the GCS package exists and can be reused almost as-is.
+- The Sunday session still owes accept/kill on the remaining Researching rows.
+- Interview-prep notes live in each folder's `match-map.md`, and two of them matter if either
+  company calls: **IBM will not find an Agile claim** (answered "no experience, willing to learn"),
+  and **Amex has no business-case proof**, which its posting explicitly asks for. Both are documented
+  as deliberate non-claims with prepared honest answers.
