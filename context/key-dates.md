@@ -270,3 +270,32 @@ Office of Technology Commercialization / Ventures). Target "Purdue Innovates Inc
   off-platform via their own sites and Instagram.
 - **Alpha Kappa Psi** informational tabling Aug 25 and Aug 28, 10:00am, PMU. Pledge semester still
   collides with the Google APM window; recommendation to defer to spring stands.
+
+## Research / Faculty Track (verified 2026-08-22) - unlocked by ONE email
+
+**The VIP seat is already his** (registered Aug 21, tripwire 7 closed). What is NOT his yet is the
+faculty relationship, and that is the actual asset. A named faculty mentor is the ELIGIBILITY GATE for
+every item below; none of them are open without a mentored project.
+
+**The one action: email wzakharov@purdue.edu.** Wei Zakharov, Associate Professor, Purdue Libraries +
+School of Information Studies, courtesy appt in Engineering Education, office 3053P WALC. The AIE team
+has three faculty - Qiang Qiu and Yung-Hsiang Lu are the ECE/computer-vision half; **Zakharov is the
+education and learning-science half, i.e. user research, learning outcomes, adoption.** That is the
+product-shaped half of an AI research team.
+
+| Date | What | Note |
+|---|---|---|
+| Sep 10, 2:00-4:30pm | **Research Roundtable** (virtual, come-and-go) | Purdue's named mechanism for getting onto a project mid-semester. RSVP via Qualtrics. Blocked to 3:20 (VIP lab 3:30). |
+| October | OUR Undergrad Research & Professional Development Grant, up to $500 | One annual cycle, reviewed in October. Needs a mentor letter of support. |
+| **Oct 14, 11:59pm** | **Fall Research Expo abstract** via OURConnect | Expo Nov 17-18. Mentor approval step Nov 4. |
+| **Nov 15** | **JPUR Vol 16 - Research Snapshot is 250 WORDS** | Peer-reviewed, Purdue University Press. Achievable first publication off one semester of VIP. Also Feb 15. |
+| Nov 1 / Dec 1 | SURF 2027 projects post / applications open | $6,500 stipend + $2,500 housing, 2.8 GPA min. Priority deadline ~Jan 15 COLLIDES with PM interview season. 2027 dates NOT yet published. |
+| ~Nov 10 | DUIRI spring 2027 (Discovery Park) | $1,000/term fall+spring, $5,000 summer. 3.0 GPA. Interdisciplinary by design, so IBE is a fit not an outlier. Fall 2026 window closed Aug 14. Email duiri@purdue.edu to join the notify list. |
+| ~Apr 2 | OUR Scholars, $1,000 | Requires a year-long project across both semesters. |
+
+**Paid TA work, live Fall 2026 postings** (Daniels, hourly, no tuition waiver): apply via
+`business.purdue.edu/about/careers/mgmt-ta-application-form.pdf` emailed to **managementta@purdue.edu**.
+- **ACCT 20000IBE** - 1 TA/grader, 10 hr/wk, UNDERGRADS ONLY. Literally the IBE section. Gate: A or A+
+  in MGMT 20000, A- or above in MGMT 35100/35300.
+- **QM 30500** - 5 grader slots, 10 hr/wk, undergrads only. Gate: A- or above in MGMT 30500.
+(Econ UGTA and PURCE assistantship both closed Jun 30, 2026.)
