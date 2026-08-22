@@ -75,3 +75,5 @@
 - Pillar 1: `~/Desktop/stick-dev` (STICK, self-owned build state). Banked artifact repo: `veer-sanyal/india-msme-digital-trade-exposure` (public).
 - This planning repo: `veer-sanyal/veer-pm-system` (PRIVATE). `gh` CLI authenticated as veer-sanyal; git works natively.
 - `tools/kpi.sh [days]` — tripwire-latency KPI from `session-log.jsonl`. `projects/sagamore/tools/` — that project's build + client-copy scripts (each project owns its own).
+
+- Fall 2026 campus opportunity scan (2026-08-22): recruiting week, entrepreneurship pipeline, research track, org verdicts, long-lead items all live in `context/key-dates.md`. Dated items are on Google Calendar. **memory.md compression still owed (SIZE warning, 1938 words vs 1500 budget) - Sunday item.**

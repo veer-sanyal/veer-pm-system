@@ -379,3 +379,58 @@ $1B cap; ODF (ex-On Deck) kicks off Q1 2027 and is founder-oriented. **Kleiner P
 one genuinely internship-shaped selective fellowship** and it is currently CLOSED with no reopen date
 published - set a tripwire. Contrary's /talent page 404s and its sitemap has no fellows page; Venture
 For America's site fails TLS handshake. Both flagged as possibly wound down.
+
+## Long-lead items - verdicts (verified 2026-08-22)
+
+**ACT ON: Purdue Innovates Accelerator, DEADLINE Dec 20 2026, 11:59pm EST.** Up to **$100,000 as a SAFE**,
+three months, mentor + investor network, corporate pilot matchmaking. "Purdue-connected" explicitly
+includes an undergraduate core founding team member; named target industries include Digital Tech
+(AI, SaaS, EdTech). Evaluated on team, market size, progress, uniqueness, "priority in that order."
+**The application asks for product status, validation, traction, runway and 6-month milestones - so
+preparing it IS shipping the product.** Nothing to do now; by December, a demo link and named users.
+
+**DECIDE, DO NOT DRIFT: study abroad, by Mar 1 2027.** Deadlines are **Sep 15** (spring programs) and
+**Mar 1** (all fall + academic-year). The Daniels program (Nancy H. Handel, $3.2M, 80+ semester
+programs, 25+ countries, exchange keeps you on Purdue tuition) is genuinely good. **The problem:
+Fall 2027 abroad collides head-on with full-time new-grad recruiting for a May 2028 grad, and Spring
+2027 sits on Summer-2027 internship interviews.** Recommendation NO, but as a defensible decision.
+Confirm dates with businessstudyabroad@purdue.edu (the table is published on the Global Engineering
+page, not the Daniels one).
+
+**CO-OP: skip, with one cheap question.** Daniels IS a participating college - coordinator **Kristin
+Deckard Dawson, kedeckar@purdue.edu, 765-494-4382**. Min GPA 2.6, registration is a zero-credit FREE
+course, only 8 semesters of tuition ever. But it needs 3-5 rotations including **at least one fall or
+spring** work session, and the published norm is **4.5-5 years to graduate** - that breaks May 2028.
+The pipeline is built for first-years (invitation email at end of first semester, callout in January).
+**The one worth an email: "Learning While Working," the only variant OPP says still graduates in four
+years.** No co-op application deadline is published anywhere; the dated hooks are the January career
+fair and February Professional Practice Days.
+
+**COMBINED DEGREES: clean no.** The only junior-year deadline is **BS/MS Human Resource Management,
+apply Jan 1-31 2027** (3.0 GPA, 108 cr by end of junior year) - right shape, wrong field. **All
+Daniels-to-Daniels Pathways CLOSED as of Fall 2026** (BAIM, MBT, Finance, Global Supply Chain,
+Marketing); only the MS Accounting pathway survives and it requires an accounting major or minor.
+Everything else is a senior-year application. For later reference the most IBE-shaped option is the
+**One-Year MBA** (>3.5 GPA any major, 1-2 internships, strong technical background, no junior action).
+
+**NATIONALLY COMPETITIVE SCHOLARSHIPS: apply to none, and here is why, so it is a decision not a miss.**
+Office is NISO (niso@purdue.edu, HCRS 1056). **Structural trap worth knowing: the campus deadlines for
+senior-year awards fall in MID-AUGUST, before senior year starts** - Rhodes/Marshall Aug 13,
+Fulbright/Knight-Hennessy Aug 21. So the real decision point is ~March 2027, and people discover this
+in September of senior year, three weeks late.
+- **Truman** (the junior-year one): recipients must work in public service 3 of 7 post-graduate years
+  **or repay the funding.** Structurally incompatible with founding a company.
+- **Goldwater**: the Foundation "does not support students pursuing... engineering design work."
+  Building products IS engineering design work. Not eligible in spirit.
+- **Boren**: one-year federal service requirement, and it eats either the internship summer or a
+  senior semester.
+- Udall / Beinecke / Astronaut: ineligible on substance. Rhodes / Marshall / Gates / Churchill /
+  Schwarzman: senior-year, ~60-100 hrs each, and Fulbright and Schwarzman each cost a full year.
+- **Knight-Hennessy** is the only one whose shape fits a founder (Stanford, leadership, no service
+  obligation). Park it; revisit senior fall only if grad school genuinely enters the plan.
+
+**Student orgs: do not join one to farm a title.** Spring 2027 elections would seat him for senior year,
+but that costs two semesters of meetings for a line that matters less than a shipped product. **The
+exception that IS leverage: new-org registration runs Aug 1 - Feb 28 and needs only two officers.** If
+STICK would benefit from a campus-recognized shell (room booking, SOGAB funding, a recruiting surface
+for collaborators), founding one makes him president by construction.
