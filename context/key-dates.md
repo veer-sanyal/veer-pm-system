@@ -494,3 +494,59 @@ polished deck about a hypothetical client with no users and nothing shipped. PM 
 evidence you put something in front of real people and can explain the tradeoffs. **A shipped product
 with real users outranks every item in this section, and it is not close.** The only two actions here
 that do not displace `stick-first-user-shown` are the two emails, both under two minutes.
+
+## National founder fellowships (verified 2026-08-21/22) - the category that actually fits the terminal goal
+
+**CORRECTION to the entry above: VentureWell E-Team was mis-scoped.** Its FAQ explicitly excludes
+"**Web or mobile apps without strong innovation or impact**," requires a Principal Investigator, and
+**grant funding is awarded to the college or university**, administered through sponsored programs -
+the money never touches the student. Only worth it if STICK can be honestly framed as an engineering
+invention with hard technical novelty AND a faculty PI is already aboard. Do not treat it as free money.
+
+**THE STRUCTURAL UNLOCK NOBODY KNOWS ABOUT: YC Early Decision for Students.**
+https://www.ycombinator.com/early-decision - verbatim: "If you're accepted, we'll fund you immediately
+and hold your place for after you graduate." And: "if you're not in your final year, you can still
+apply for Early Decision. You'll be able to finish the school year you're currently in." **No leave of
+absence, no dropping out, no relocation while enrolled. No deadline published.** This dissolves the
+accelerator-versus-degree tradeoff that makes every other program on this list a summer-or-nothing
+decision. Standard YC batch is $500k.
+
+**Open now, rolling, compatible with staying enrolled - four applications, zero deadlines:**
+| Program | Terms | Application cost |
+|---|---|---|
+| **Human Capital Fellowship** | **$50k per founding team member (up to $250k).** Page says they don't take a percentage now or in future - but it never says "equity-free" and it is a VC firm, so **get the no-equity term in writing.** No dropout, no relocation. | Rolling form |
+| **Z Fellows** | $10k as investment at a **$1B cap** (dilution nominal); can decline the money and still do it. One week, mostly virtual. "There's no such thing as too early." Solo fine. | ~10 fields + 500 chars |
+| **1517 Fund Medici** | $1k, truly no strings ("It's a Venmo payment," no IP, no equity). The $1k is irrelevant; the point is a named backer and a two-week path into a fund that writes $50k-$1M later. | **Email a partner a 5-minute Loom.** No form. |
+| **Emergent Ventures** (Mercatus) | Grants, no equity, **no published range** (ignore aggregator figures). Response typically within a week. | 1,500 words max |
+
+**Watch, not apply:**
+- **Kleiner Perkins Fellows** - closed, historically opens in fall. **12-week PAID summer internship at
+  a portfolio company with an explicit PRODUCT track.** The only founder-fellowship that also serves the
+  PM internship goal. Weekly calendar check runs Sept 14 - Nov 2.
+- **Neo Scholars/Residency** - closed, dates unpublished. **"Open to undergrads who graduate Winter 2026
+  or later"** so he qualifies. $40k equity-free grant per person, explicit "feel no pressure to drop out."
+  Gated on a technical assessment + live technical interview.
+- **Contrary Venture Partner** - 2026 post not yet up. **Published selectivity: ~20 of ~1,500 (1.3%).**
+
+**Dated but SKIP: Dorm Room Fund Investment Partner, Sept 17** (NY & Midwest, Indiana included). It is
+investor-track, **10-15 hrs/week, and no compensation is mentioned anywhere on the page.** That is a
+straight trade of build hours for network at exactly the wrong moment.
+
+**Requires DROPPING OUT - flagged, not actionable: Thiel Fellowship.** $250k over two years, no equity,
+no relocation, rolling, pre-traction fine. But the page says twice that acceptance requires dropping out.
+
+**DEAD - stop looking:** Pioneer ("We stopped making new investments in 2024"), Buildspace (shut down
+Aug 2024), Open Philanthropy Century Fellowship (closed 2023), Bessemer Fellows (paused on their own
+page), Kairos Society, a16z START and TxO (both 404), Sequoia Open Source Fellowship (404),
+Village Global Network Catalyst, Overtime VC / Alt Capital / Comet (domains do not resolve).
+
+**Epistemic note worth keeping:** across every program researched, only THREE selectivity numbers are
+published anywhere - Contrary VP (~1.3%), O'Shaughnessy (11,812 applicants for 30 awards, ~0.25%), and
+GC Venture Fellows (~5%, third-party). **Any acceptance rate quoted for YC, Neo, Z Fellows, speedrun or
+Thiel is invented.** Do not let a fabricated number talk you out of applying.
+
+**The dominant constraint is TIME, not eligibility.** Nearly every founder program with real money
+(a16z speedrun, South Park Commons, Afore, Antler, Founders Inc, YC standard batch) demands full-time
+and in-person in San Francisco. Those are summer or leave-of-absence decisions. Pre-traction is NOT the
+blocker most people assume: Z Fellows, Neo, SPC, Antler, YC, Thiel, 1517 and Emergent Ventures all
+explicitly accept idea stage. **The scarce input is application hours, not milestones.**
