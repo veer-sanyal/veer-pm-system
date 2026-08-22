@@ -142,3 +142,31 @@ to advance — the only structural change is the ~Jul 9 escalation check above.
   advance 11:00 toward ~9:00 in mid-August. **Sunday re-verifies** from a real week of wake
   stamps; the block-schedule reflow to an 11:00 base (about-me.md's 9:45/11:45 table) is a
   Sunday task, not done here.
+
+---
+
+## 2026-08-22: the anchor is now BROKEN BY THE CLASS SCHEDULE. Decision owed.
+
+The live config above (fixed ~11:00, set Jul 16) does not survive fall 2026 and this file must not be
+left silently wrong.
+
+**The arithmetic.** Veer flies to Eastern on Aug 22. An 11:00 Pacific anchor is **2:00pm Eastern**.
+**SYS 35000 meets Tue/Thu at 9:00am Eastern.** That is a five-hour gap, with the first class three days
+after the flight.
+
+**Recommendation, NOT yet confirmed by Veer: 7:30am Eastern, hard fixed, all seven days.** Rationale is
+unchanged from the top of this file - the fixed wake is the lever, and the protocol explicitly
+prescribes cold turkey over a ramp, with the roughest nights (2-4) being the mechanism rather than
+failure. Two things make this the cheapest week of the year to do it:
+1. **The eastbound flight does the first four hours for free.** Landing tired in a zone four hours
+   ahead means Saturday night is the one night the shift costs nothing.
+2. Classes provide the external forcing function the summer never had.
+
+Wind-down cue moves with it: roughly 11:00pm Eastern, not 12:30am.
+
+**Still no wake-stamp data has ever been collected** - the two tracked indicators (actual wake time,
+time he decides to sleep) remain unlogged since the protocol started Jun 25. Any verdict on whether
+the fixed-wake lever is working is unfalsifiable until that changes.
+
+**This is the top item at the Sunday session.** Do not hard-code any wake time elsewhere until Veer
+sets it here.
