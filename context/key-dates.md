@@ -202,3 +202,71 @@ and updates the row here. Stage ∈ {Researching, Drafting, Ready, Submitted}.
 Add a row when a new target is identified; convert any relative deadline to an absolute date.
 
 **Feed sources (multi-source since 2026-08-15; Neal's feed alone missed Amex/Appian/Tesla/Oracle that the trackers had):** new-posting discovery runs during `/reconcile` (step 5 there owns the sources, the filter, and the eligibility test) across: Neal's PM scraper feed, the SimplifyJobs Summer2027-Internships GitHub tracker, apmlist.org, and the connected Indeed MCP (`search_jobs`). Discovery proposes candidates; Veer accepts or kills each one before it becomes a row. Exception per Veer 2026-08-15: verified Summer-2027 PM hits get a Researching row immediately so nothing is lost between reconciles — the accept/kill decision then governs whether it advances past Researching.
+
+---
+
+## Fall 2026 On-Campus Recruiting (verified 2026-08-22, public sources)
+
+**Sep 14-17 is the entire campus recruiting year compressed into four days**, and it lands directly on
+top of the Google APM window. Treat that week as immovable.
+
+| Date | Event | Read |
+|---|---|---|
+| Fri Aug 28 | Daniels Internship Kickoff, 1-4pm ET | Already on calendar. Best place to collect callout dates. |
+| **Wed Sep 2, 8:00am** | **IR appointment slots open (Career Fair Plus app)** | **Hard deadline.** Company roster + booth map live only in the app, not the public web. |
+| Tue Sep 8 | IR Prep Night, 6-9pm, Stewart Center | Resume/pitch review before IR. |
+| Mon Sep 14 | CS Dept Career Fair, 3-8pm, CoRec | **Google, Microsoft, Amazon, Capital One all attend.** Stated as CS/Data Science/AI majors ONLY. Whether IBE's engineering half qualifies is UNRESOLVED and worth asking BCS. |
+| **Tue Sep 15 + Wed Sep 16** | **Industrial Roundtable**, 9am-4pm, Memorial Mall | ~400 companies. **Go Wednesday** (Tuesday collides with SYS + STRT; Wednesday is clear until QM at 4:30). |
+| Wed Sep 16 | Daniels STEM + Business Career Connect, 5-7pm | Closest thing on the calendar to a PM-shaped audience. |
+| Wed Sep 16 | Daniels Alumni Networking Night, 7-9pm | Referral surface. Same night, no conflict. |
+| Thu Sep 17 | Daniels Fall Career Fair, 12-4pm | Main business fair. Blocked to 3:20 (VIP lab 3:30). |
+| Thu Sep 17 | IR virtual day (Symplicity) + Purdue Consulting Career Fair | Both collide with the Daniels fair. Daniels wins. |
+| Wed Oct 7 | Purdue Computing Career Fair, 9am-3pm, CoRec | Polytechnic computing majors; UX/product-adjacent employers. |
+
+**Purdue Career Gateway** (Symplicity) has REPLACED Handshake for Daniels students. It unifies the CCO,
+Daniels BCS, Experiential Education, and the Office of Professional Practice. Login via Purdue Career
+Account. Individual company info sessions are visible only after login and are not indexed publicly.
+
+Sources: `cco.purdue.edu/Employers/CareerFairs` (fall tab), `purdueesc.org/ir-for-students`,
+`cs.purdue.edu/corporate/student-careerfair-details.html`, `business.purdue.edu/careers/employers/campus-events.php`.
+
+Not verifiable publicly: a Daniels "Business Opportunities Fair" (does not appear on any fall 2026
+list; the spring equivalent is Co-op/Internship Opportunity Days in January), and the "Quantum Leap
+Career Nexus" listed on business.purdue.edu but absent from the CCO calendar.
+
+## Fall 2026 Entrepreneurship Pipeline (verified 2026-08-22)
+
+Purdue Foundry no longer exists as a front door; it folded into **Purdue Innovates** (Incubator /
+Office of Technology Commercialization / Ventures). Target "Purdue Innovates Incubator."
+
+| Deadline | Program | Verdict |
+|---|---|---|
+| **Aug 31, 11:59pm** | **Moonshot Pitch Challenge** - 2-min video, any idea, no business model required. $5,500 pool. Finalist workshop Sep 4, finals Sep 10 6-8:30pm. | **DO IT.** Cheapest rejectable artifact of the semester. Verified on-page 2026-08-22. AI voiceover = auto-DQ. |
+| Aug 25 - Sep 13 | Firestarter, 7-week cohort, gate to New Venture Challenge | **DEAD: Tuesdays 10:00am-1:00pm, Sept 22 - Nov 10, collides head-on with STRT 35200 (TR 10:30-11:45).** Not attendable this fall. Revisit spring. |
+| Sept, date unpublished | Burton D. Morgan Venture Concept Competition - 10 weeks, $50k across 13 teams, 120+ teams, all colleges, finals mid-December | Registration page 404s. **Action: email Kostas Grigoriou (Daniels) in week 1.** |
+| Passed Jul 12 | HIVE workspace (Duncan Annex, engineering-run) | Fall access closed; post-Jul-12 applications considered for **spring**. Apply now for spring. |
+| ~Nov 2026 | New Venture Challenge, $50k | Gated on Firestarter-equivalent stage. Prior cycle opened Nov 17. |
+| Dec 20, 2026 | Purdue Innovates Accelerator - up to $100k via SAFE, takes equity | Only with real traction. Not an idea-stage program. |
+| Nov 2026 (apps) | BoilerLaunch (The Anvil), event April 2027, Chicago | Prize figure inconsistent on their own site. |
+| Rolling / open | The Anvil, buildpurdue - open events, no application | Fall dates land on Instagram first. |
+
+## Campus Orgs - resolved verdicts (2026-08-22)
+
+- **Project Management at Purdue: SKIP.** Not product management, and its "client projects for Nike,
+  Apple, Rolls-Royce" carry an on-site disclaimer that they are educational concept exercises with no
+  company affiliation; judged by the PMI Central Indiana chapter. Costs essays + resume + behavioral
+  interview for a simulation. No published outcomes. Exception: attend a callout only if TPM/program
+  management becomes a fallback path.
+- **Product Management Club of Purdue (PMCP): the real one, possibly dormant.** Teardowns, mock
+  interviews, alumni mentorship, Product Lab speakers from Google/Microsoft/Meta/Walmart/Amazon, 2nd
+  nationally at a PM hackathon (S2025). BUT BoilerLink status is `Frozen`, Instagram silent since
+  Feb 2025. **One email to kumar462@purdue.edu resolves it.** Highest upside of any org found.
+- **Purdue Hackers: zero-barrier, confirmed dates.** Fridays 8pm, Bechtel, ~80 people, explicitly open
+  to non-CS and non-technical students. Fall: Aug 28, Sep 4, 11, 18, 25, Oct 2, 9, 16, 23, 30, Nov 6, 13.
+- **Startup Consulting at Purdue** - tabling Aug 31, Sep 1 (x2), Sep 3, Sep 4, Centennial Mall.
+- **The Data Mine** - a program, not a club. 1700+ students, **60+ corporate partners**, application
+  based, real partner project work. Strongest real-client option found in the entire sweep.
+- **Boilermaker Consulting and 180 Degrees Consulting** post nothing on BoilerLink; they recruit
+  off-platform via their own sites and Instagram.
+- **Alpha Kappa Psi** informational tabling Aug 25 and Aug 28, 10:00am, PMU. Pledge semester still
+  collides with the Google APM window; recommendation to defer to spring stands.
