@@ -444,3 +444,53 @@ The realistic non-business graduate route is the standard-admission **MS Enginee
 (1-year Accelerated), applying Jan 15 2028 first round for Fall 2028** - senior year, nothing due now.
 Open question if it ever matters: whether an IBE degree satisfies its ABET-engineering-or-STEM
 eligibility bar. The page names its own contact, purduemem@purdue.edu. One email, someday, not now.
+
+## Case & product competitions (verified 2026-08-22) - mostly a no, with three exceptions
+
+**THREE STRUCTURAL FINDINGS that delete most of this category:**
+1. **No national US undergraduate PM case competition exists.** The PM-branded ones are India-hosted,
+   charge entry fees, and carry no recognition with a US recruiter. The US "product competitions" are
+   single-school internal events (UW's AIMS is MSIM-only; Foster's is a senior capstone course).
+2. **Consulting-firm undergrad comps are FRESHMAN/SOPHOMORE funnels.** Deloitte NUCC says "freshmen and
+   sophomores"; Accenture Innovation Challenge says "second-year students"; PwC historically the same.
+   As a four-year junior he is out. (Thin caveat: his registrar classification still reads Sophomore at
+   69 credits. If a campus round gates on registrar classification rather than year-in-program that is
+   one email, but do not count on it.)
+3. **Several flagships are DEAD:** KPMG Ideation Challenge (domains dead, absent from KPMG's careers
+   list), PwC Challenge (now only archived teaching materials), P&G CEO Challenge (**domain now serves
+   an online-casino review site**), Unilever Future Leaders' League (expired TLS, 404 careers URL), and
+   ALL THREE Adobe student programs - ADAA, Creative Jam, and the Analytics Challenge.
+
+**THE THREE WORTH DOING, in order:**
+1. **Purdue CBC internal try-out - ONE EMAIL to buscasecomps@purdue.edu.** Not a competition, a GATE.
+   Daniels now routes all national competitions through internal selection. It unlocks the **Wisconsin
+   Invitational**, whose sponsors are Accenture, Deloitte, EY, KPMG, McKinsey, Protiviti, AlixPartners
+   and Spaulding Ridge, and which includes an employer showcase and 1:1 coffee chats. Cost: one email.
+2. **NRF Foundation University Challenge - DEADLINE Sep 22.** Wayfair circular-retail case. Sophomore+,
+   any major, teams of 3-4, free. 25-slide deck + 90-second video. $30k/$20k/$20k tuition scholarships.
+   Finals Jan 7 2027 NYC inside the NRF Student Program (a recruiter event). **Purdue IS an NRF member
+   school.** Blocker needing lead time: entry runs through Purdue's NRF Advisor. Email scholarships@nrf.com.
+3. **Purdue Spirit of 1776 - registration closes Sep 7**, event Sep 29 Stewart Center, FREE, prizes
+   $5,000/$2,500/$1,000. Register at apps.it.purdue.edu/Pitch/Competition. Cornerstone for Business
+   closes the same day (Cornerstone@Purdue.edu).
+
+**Venture comps that take STICK AS-IS rather than demanding a new artifact:**
+- **VentureWell E-Team - Sep 29.** $5,000 non-dilutive, then up to $20,000 more. Needs 2+ students AND
+  A FACULTY ADVISOR - which is a second reason the Zakharov email matters. Framing: education access.
+- **Baylor New Venture Competition - Oct 1.** Round 1 is a TWO-PAGE exec summary. $50k/$25k/$10k.
+  Flag: Round 2 requires establishing a legal entity plus cap table.
+- **Microsoft Imagine Cup** - artifact is a working MVP, so only worth it AS STICK. 2027 dates unpublished.
+
+**HARD FLAGS:**
+- **Hult Prize takes ~10% EQUITY in the winning startup.** Read that clause before entering anything.
+- **Global Case Competition "at Harvard"** states on its own page that it "operates independently of
+  Harvard University." The name is doing marketing work the organizers disclaim; anyone who checks will
+  discount it.
+- **Rice Business Plan Competition requires a graduate student founder** - ineligible.
+- A' Design / Red Dot Concept / iF Talent are pay-to-enter, and several charge again to publish a win.
+
+**The honest read, and it matches every other scan this session:** case competitions optimize for a
+polished deck about a hypothetical client with no users and nothing shipped. PM recruiters scan for
+evidence you put something in front of real people and can explain the tradeoffs. **A shipped product
+with real users outranks every item in this section, and it is not close.** The only two actions here
+that do not displace `stick-first-user-shown` are the two emails, both under two minutes.
