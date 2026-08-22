@@ -1,0 +1,94 @@
+% American Express, Campus Undergraduate Summer Internship Program 2027:
+% Product Management, Global Commercial Services. Job ID 26011916, New York, NY (hybrid).
+% Apply before 09/30/2026. Posting saved verbatim in listing.md; mapping in match-map.md.
+% Compile: pdflatex VeerSanyal_AmericanExpress_Resume.tex
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.55in,right=0.55in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Suppress hyphenated word-breaks: some ATS parsers do not rejoin them.
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\sloppy
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\hrule\vspace{3pt}]
+\titlespacing{\section}{0pt}{4pt}{2pt}
+
+\setlist[itemize]{leftmargin=1.3em,topsep=1pt,itemsep=1pt,parsep=0pt,label=\textbullet}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\[1pt]
+  \textit{#3}\hfill \textit{#4}\\[2pt]
+}
+
+\begin{document}
+
+% ===== HEADER =====
+\begin{center}
+  {\LARGE \textbf{Veer Sanyal}}\\[3pt]
+  Sammamish, WA $\cdot$ 360-643-9424 $\cdot$ vsanyal@purdue.edu $\cdot$ linkedin.com/in/veersanyal $\cdot$ github.com/veer-sanyal
+\end{center}
+
+% ===== EDUCATION =====
+\section*{Education}
+\textbf{Purdue University, Mitch Daniels School of Business}\hfill West Lafayette, IN\\[1pt]
+\textit{B.S. Integrated Business and Engineering (IBE), Expected May 2028}\hfill \textit{Aug. 2024 -- Present}
+\begin{itemize}
+  \item Coursework: Financial Accounting, Managerial Accounting, Microeconomics, Statistics, Engineering Design.
+\end{itemize}
+
+% ===== EXPERIENCE =====
+\section*{Experience}
+\entry{Firmly}{Remote}{Product and Engineering Intern (fintech and e-commerce platform)}{Jun. 2025 -- Aug. 2025}
+\begin{itemize}
+  \item Shipped a PayPal checkout failure-recovery flow end-to-end: defined requirements with engineering, UX, and support across time zones, then replaced a generic error page with a guided recovery flow across \textasciitilde15 payment edge cases.
+  \item Built and tracked product metrics (error rate, recovery rate) via server-side logging to assess whether the fix worked; documented a 20+ test-case QA process adopted as the team standard.
+\end{itemize}
+
+\entry{Student Managed Investment Fund}{West Lafayette, IN}{Equity Research Analyst, \textasciitilde\$400K AUM fund}{Jan. 2025 -- Present}
+\begin{itemize}
+  \item Built a 3-statement financial model in Excel (DCF, comps, sensitivity) for U.S. Bancorp and researched its competitive landscape and revenue drivers, recommending Buy at a \$57.35 target (roughly 11.5\% implied upside) in a 20-page report.
+  \item Distilled segment-level analysis into a 10-slide PowerPoint pitch and presented the thesis to a 30+ member investment committee, defending assumptions in live questioning.
+\end{itemize}
+
+\entry{Purdue Daniels School of Business Summer Externship}{Remote}{Timeline \& Project Manager}{Jul. 2026 -- Aug. 2026}
+\begin{itemize}
+  \item Project-managed a 4-person team delivering a communications and marketing plan for a \textasciitilde\$1.6M nonprofit client: ran discovery with the COO, set the timeline, and built a 156-row dated posting calendar across 4 content types and 5 audiences.
+  \item Analyzed the client's website and social presence, quantified a roughly 25x gap between best and worst content styles, and turned it into prioritized recommendations for a non-technical executive.
+\end{itemize}
+
+% ===== PROJECTS =====
+\section*{Projects}
+\entry{India MSME Digital-Trade Exposure Dashboard}{github.com/veer-sanyal}{Sole builder, live for a policy researcher}{2026}
+\begin{itemize}
+  \item Shipped a live tool that flags which of India's small-business service sectors are most exposed to a given digital-trade policy; computed every figure from source-linked WTO and Indian government data against a public decision log, catching a published figure off by roughly 3x.
+\end{itemize}
+
+\entry{STICK: AI-Powered Study Platform}{}{Independent product build; sole developer, built with AI-assisted development}{2026 -- Present}
+\begin{itemize}
+  \item Shipped a deployed web app and a multi-step LLM pipeline (extract, classify, grade), placing a human review queue between the model and the user: 53 questions verified, 2 rejected, none unreviewed.
+\end{itemize}
+
+% ===== LEADERSHIP =====
+\section*{Leadership \& Activities}
+\entry{Engineering Projects in Community Service (EPICS)}{West Lafayette, IN}{Communications Officer \& Build Lead}{Aug. 2025 -- Dec. 2025}
+\begin{itemize}
+  \item Led a 7-person cross-functional team building a museum billboard prototype; presented design tradeoffs in two formal reviews to faculty, sponsors, and museum stakeholders.
+\end{itemize}
+
+% ===== SKILLS =====
+\section*{Skills}
+\textbf{Analytical \& Presentation:} MS Excel (3-statement modeling, DCF, comps, sensitivity analysis), PowerPoint\\[2pt]
+\textbf{Product \& Data:} SQL/Postgres (built with), Python, Git/GitHub\\[2pt]
+\textbf{AI:} AI-assisted development (Claude Code), LLM pipeline design
+
+\end{document}

@@ -15,6 +15,8 @@ inventory only** — application deadlines and pipeline status live in
 |---|---|---|
 | Claude Corps (ACTIVE) | VeerSanyal_ClaudeCorps_Resume.tex + .pdf, Claude-Corps-Application.md (essays + form answer key) | Yes |
 | Trice (ACTIVE — warm intro) | VeerSanyal_Trice_Resume.tex + .pdf | Yes |
+| American Express (ACTIVE — GCS PM Intern Summer 2027, 26011916) | VeerSanyal_AmericanExpress_Resume.tex + .pdf, listing.md, match-map.md | Yes |
+| IBM (ACTIVE — PM Intern 2027, req 128509) | VeerSanyal_IBM_Resume.tex + .pdf, listing.md, match-map.md | Yes |
 | Cisco | VeerSanyal_Cisco_Resume.pdf | No — regenerate on demand |
 | Databricks (ACTIVE — PM Intern Summer 2027) | VeerSanyal_Databricks_Resume.tex + .pdf | Yes |
 | Salesforce (ACTIVE — Summer 2027 APM Intern, JR348039) | VeerSanyal_Salesforce_Resume.tex + .pdf | Yes |

@@ -958,3 +958,70 @@ Reconcile (~9:40am PT). Connectors: Gmail + Calendar (Chrome not used). Product 
   crowded and QM 30500 should be sequenced with Alec, not defaulted into.
 - **STRT section time change abandoned at Veer's call** (he holds the last seat on 30640; switching risked
   ending up with neither).
+
+## 2026-08-21 (Fri, later) — Two Summer-2027 PM applications built to Ready: IBM and American Express
+
+**Ask:** "what internships are open that I can apply to right now" -> then "pick two, verify them live
+in the browser, run /apply on both."
+
+**Verified live in-browser (both):**
+- **IBM, Product Manager Intern 2027, req 128509.** 1 of 1 in IBM's own job search.
+  `careers.ibm.com/en_US/careers/JobDetail?jobId=128509`. IBM Software, AI-enabled and data-driven
+  products. Required education is a HIGH SCHOOL diploma; no CS screen anywhere. Program runs
+  May 24 to Aug 13, 2027 (semester system). Rolling, no stated deadline.
+- **American Express, Campus Undergraduate Summer Internship 2027, Product Management, Global
+  Commercial Services, NYC hybrid, Job ID 26011916.** $24.05 to $63/hr plus sign-on.
+  `careers.americanexpress.com/en/sites/CX_1/job/26011916/`.
+
+**Two pipeline corrections came out of the verification, both material:**
+1. **Amex deadline is EXACT: 2026-09-30 21:00**, read off the posting. The apmlist "~Sep 28" estimate
+   was close but was an estimate. This is the only hard-dated deadline in the whole pipeline.
+2. **Amex eligibility is CONFIRMED, not a stretch.** The req reads "expected graduation date between
+   December 2027 and June 2028." Veer is May 2028, inside the window, and there is no CS or
+   technical-field line anywhere on the posting. That matters because the two most recent
+   comparable roles died on exactly that line: Databricks was DECLINED 2026-07-25 for being too
+   CS-skewed to position IBE defensibly, and Salesforce needed IBE read as a "similar technical
+   field." Amex needs neither reading. Also surfaced a **second Amex PM req** (Global Merchant &
+   Network Services, NYC) in the same program, now a Researching row.
+
+**Both resumes built through the full workflow** (Step 0 currency check, verbatim listing.md,
+match-map.md, .tex plus compiled .pdf, `resume-check.sh` clean, fresh-context reviewer subagent).
+
+**Deliberately positioned differently, from the same profile, on the same day:**
+- **IBM** leads with STICK. IBM's own words are "AI enabled and data-driven software products," so
+  the LLM pipeline, the human-in-the-loop review queue, and the yield fix carry the page. SMIF
+  dropped entirely; Cairn cut on the one-page cap.
+- **Amex** leads with Firmly's PayPal payments work and brings **SMIF back into Experience**, because
+  "synthesize data, analytics, and financial insights" has no other honest proof on the profile.
+  STICK drops to a single bullet aimed at the AI-tools preferred qual.
+
+**Step 0 self-healing fired, as designed.** `project-stick.md` was 13 days stale. Refreshed against
+stick-dev STATE.md with the verified Aug 21 numbers (53 verified / 2 rejected / 0 unreviewed across
+30 live topics; yield 1/5 and 0/8 to 8/8 after the root-cause fix; auto-publish ran unattended
+twice; commit gate since Aug 11) and its do-not-claim block extended (11 of 14 practice-flow slices
+unbuilt, exam-aware scheduling parked, only Gemini live).
+
+**The reviewer subagents earned their keep on both.** Findings applied, not waived:
+- **IBM: one real inflation caught.** The draft said Veer "wrote the specification" at Firmly. No
+  profile file supports a named spec document; both `experience-firmly.md` and `reusable-bullets.md`
+  say "defined requirements." Corrected. Also folded in the 12/12 answer-key match, which the draft
+  had left out entirely, and killed an unsupported "rare" in the Education line.
+- **Amex: a rendering defect and a set of floating skill claims.** A compressed Leadership entry was
+  breaking its own date range across two lines (severing it for an ATS); Skills was listing market
+  research, telemetry, KPI dashboarding and Plotly with no bullet on that page proving any of them.
+  Both fixed. Also caught a **profile-file bug**: `experience-externship.md` header read "Jul. 2025"
+  against its own Jul 2026 currency note. Patched.
+
+**Honest non-claims recorded in both match-maps** (these are the interview-prep sheets):
+- IBM REQUIRES "experience with Agile practices." **Not claimed. The word appears nowhere on the
+  resume.** `skills-inventory.md` has forbidden it since 2026-06-15 because Veer cannot defend the
+  framework if quizzed. The collaborative-environments half of that requirement is proven; the
+  framework half is not, and bluffing it is the stack-inflation rejection signal.
+- Amex: **"develop business cases" is NOT covered.** Nothing in the profile is a product business
+  case. Downgraded to adjacent-proof-only and flagged as the likeliest interview probe.
+- Amex: **"commercial" in the B2B sense is not covered** either. Firmly is consumer checkout; GCS
+  serves business customers.
+
+**Pipeline state: 2 rows moved from Researching to READY.** Both are Veer-presses-submit. That is
+the first time this cycle two applications have been staged in one session; the standing problem is
+still 20+ rows sitting at Researching against 2 submissions all cycle.

@@ -9,7 +9,7 @@ metadata:
 > **CURRENCY NOTE.** Engagement ran Jul 6 – Aug 1, 2026; delivery continued past that date ("overtime") because the Aug 1 handoff meeting didn't happen. Authoritative source: `projects/sagamore/STATE.md`; static facts in `externship-scouting-america.md`; running narrative in `PROGRESS.md`. Snapshot last refreshed 2026-08-08 — re-check those before adding a fresh claim. The full final package (both audits + recommendations) has a target, not yet a delivered date or client sign-off; the calendar deliverable below IS delivered and did get a client reaction.
 
 **Purdue Daniels School of Business — Summer Externship** — Remote
-*Timeline & Project Manager* — Jul. 2025 – Aug. 2026 (4-week team consulting engagement)
+*Timeline & Project Manager* — Jul. 2026 – Aug. 2026 (4-week team consulting engagement)
 <!-- date: engagement runs Jul 6–Aug 1, 2026; write dates per resume convention -->
 
 **Program:** A 4-week, virtual, team-based consulting externship. Veer is **project manager** of a 4-person student team (role won uncontested at kickoff). Alumni mentor: Shawn Heggland (hands-off).

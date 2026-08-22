@@ -1,0 +1,91 @@
+% IBM, Product Manager Intern 2027, req 128509, multiple US cities, IBM Software.
+% Posting saved verbatim in listing.md. Requirement mapping in match-map.md.
+% Compile: pdflatex VeerSanyal_IBM_Resume.tex
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.55in,right=0.55in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Suppress hyphenated word-breaks: some ATS parsers do not rejoin them, which would
+% split coursework and tool keywords across lines.
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\sloppy
+
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{1pt}\hrule\vspace{3pt}]
+\titlespacing{\section}{0pt}{4pt}{2pt}
+
+\setlist[itemize]{leftmargin=1.3em,topsep=1pt,itemsep=1pt,parsep=0pt,label=\textbullet}
+
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill #2\\[1pt]
+  \textit{#3}\hfill \textit{#4}\\[2pt]
+}
+
+\begin{document}
+
+% ===== HEADER =====
+\begin{center}
+  {\LARGE \textbf{Veer Sanyal}}\\[3pt]
+  Sammamish, WA $\cdot$ 360-643-9424 $\cdot$ vsanyal@purdue.edu $\cdot$ linkedin.com/in/veersanyal $\cdot$ github.com/veer-sanyal
+\end{center}
+
+% ===== EDUCATION =====
+\section*{Education}
+\textbf{Purdue University, Mitch Daniels School of Business}\hfill West Lafayette, IN\\[1pt]
+\textit{B.S. Integrated Business and Engineering (IBE), Expected May 2028}\hfill \textit{Aug. 2024 -- Present}
+\begin{itemize}
+  \item Combined business and engineering curriculum. Coursework: Statistics, Engineering Design \& Project Execution, Managerial Accounting.
+\end{itemize}
+
+% ===== PROJECTS =====
+\section*{Projects}
+\entry{STICK: AI-Powered Study Platform}{2026 -- Present}{Independent product build; sole developer and product decision-maker (React, TypeScript, Supabase)}{}
+\begin{itemize}
+  \item Defined the product strategy, bounded AI steps over an open chatbot, and shipped a multi-step LLM pipeline (extract, classify, grade) on Deno edge functions that ingested a real 14-page, 12-question exam, all 12 auto-proposed answer keys matching the instructor's published key.
+  \item Applied responsible-AI practice by placing a human review queue between the model and the student: 53 questions verified and 2 rejected, none left unreviewed, across 30 live topics, measured by direct database query.
+  \item Root-caused a generation-quality failure, lifting question yield from 1/5 and 0/8 on consecutive runs to 8/8; added automated release gates after tracking 24+ defects manual review had missed.
+\end{itemize}
+
+\entry{India MSME Digital-Trade Exposure Dashboard}{github.com/veer-sanyal}{Sole builder, live for a policy researcher (Python, pandas, Plotly)}{2026}
+\begin{itemize}
+  \item Shipped a live tool that flags which of India's small-business service sectors are most exposed to a given digital-trade policy, with the central modeled-assumption caveat surfaced in the interface rather than buried.
+  \item Instrumented the site with usage telemetry across five custom events to measure real use; computed every figure from WTO and Indian government source data rather than hardcoding, catching a published statistic off by roughly 3x.
+\end{itemize}
+
+% ===== EXPERIENCE =====
+\section*{Experience}
+\entry{Firmly}{Remote}{Product and Engineering Intern}{Jun. 2025 -- Aug. 2025}
+\begin{itemize}
+  \item Shipped a PayPal checkout failure-recovery flow end-to-end: defined the requirements with engineering and support, then partnered with senior engineers to replace a generic error page with a guided recovery flow across \textasciitilde15 high-risk payment edge cases.
+  \item Built and tracked product metrics (error rate, recovery rate) via server-side logging (Node.js/Express) to assess whether the fix worked; built a 20+ test-case QA workflow adopted as the team standard.
+\end{itemize}
+
+\entry{Purdue Daniels School of Business Summer Externship}{Remote}{Timeline \& Project Manager}{Jul. 2026 -- Aug. 2026}
+\begin{itemize}
+  \item Project-managed a 4-person consulting team for a \textasciitilde\$1.6M nonprofit: ran discovery with the COO, set the delivery timeline, and delivered a 12-month event grid rebuilt as a 156-row dated posting calendar across 4 content types and 5 audiences.
+  \item Audited the client's website and social presence with sourced screenshots, quantified a roughly 25x gap between best and worst content styles, and turned it into prioritized recommendations for a non-technical executive.
+\end{itemize}
+
+% ===== LEADERSHIP =====
+\section*{Leadership \& Activities}
+\entry{Engineering Projects in Community Service (EPICS)}{West Lafayette, IN}{Communications Officer \& Build Lead}{Aug. 2025 -- Dec. 2025}
+\begin{itemize}
+  \item Led a 7-person cross-functional team building a rotating museum billboard prototype; translated requirements into build specifications and presented design tradeoffs in two formal design reviews to faculty, sponsors, and museum stakeholders.
+\end{itemize}
+
+% ===== SKILLS =====
+\section*{Skills}
+\textbf{AI \& Data:} LLM pipeline and prompt design, Gemini API, data modeling, evaluation datasets\\[2pt]
+\textbf{Product Analytics:} usage telemetry and custom event instrumentation, Plotly, KPI dashboarding\\[2pt]
+\textbf{Tools:} Python, HTML/CSS, Git/GitHub; React/TypeScript, Node.js, REST APIs, SQL/Postgres, Supabase (built with)
+
+\end{document}
