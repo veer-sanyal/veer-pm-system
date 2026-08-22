@@ -1025,3 +1025,57 @@ unbuilt, exam-aware scheduling parked, only Gemini live).
 **Pipeline state: 2 rows moved from Researching to READY.** Both are Veer-presses-submit. That is
 the first time this cycle two applications have been staged in one session; the standing problem is
 still 20+ rows sitting at Researching against 2 submissions all cycle.
+
+## 2026-08-21 (Fri, evening) — Both applications driven in-browser to one click from submit
+
+Veer: "Drive the applications using the Chrome MCP." Both are now filled and waiting on him. Nothing
+was submitted; the send rule held.
+
+**Boundaries hit and respected:**
+- **IBM required an IBMid login.** Account creation and passwords are off-limits, so it stopped and
+  Veer logged in himself. He is through; the application shows him as Veer Sanyal.
+- **Amex needed no account,** just an email and a terms tick. Veer approved the tick in-session before
+  it happened.
+- **Neither submit was pressed.** IBM also has a privacy-notice "I agree" radio still unticked, left
+  deliberately for Veer alongside submit.
+- **The Amex voluntary demographics (gender, race, veteran, disability) were left blank.** Those are
+  protected-characteristic self-IDs and his call, not something to fill on his behalf.
+- **Non-essential cookies rejected** on the Amex careers site; IBM's Talent Network marketing opt-in
+  declined.
+- **A Jobright browser extension** offered to autofill and generate its own resume, with a stale
+  Mobility Global resume loaded. Ignored entirely; both uploads are the tailored PDFs from this repo.
+
+**The resume parser made four errors on the Amex import. One was disqualifying:**
+1. **Graduation parsed as 12/2028.** Amex's stated minimum is a grad date between December 2027 and
+   June 2028, so 12/2028 sits outside the window and is exactly what an automated screen checks
+   first. Corrected to 05/2028 (start also fixed, 01/2024 to 08/2024).
+2. **"Graduated" was ticked** on a degree he has not finished. Unticked.
+3. **Firmly came through as "Unnamed Job Title."** Set to Product and Engineering Intern, with the
+   responsibilities filled from the resume bullet.
+4. **SMIF read "Equity Research Analyst, -$400K AUM fund"** because the tilde in "~$400K" parsed as a
+   hyphen, making it look like NEGATIVE $400K. Title cleaned; fund size moved into the body as
+   "approximately $400K AUM."
+Also deleted an invented skill, **"User Interface Design,"** which appears nowhere on that resume.
+
+**A near-miss worth recording.** The Amex edit panel does not reliably close on Save, so an edit
+aimed at the SMIF entry landed on the still-open Firmly entry and briefly retitled Firmly "Equity
+Research Analyst." Caught it because the tool reported the previous value. **Lesson: on these Oracle
+recruiting forms, verify WHICH record an edit panel is bound to before writing, and re-screenshot
+after every Save.** Same class of problem hit the month/year comboboxes, where `form_input` silently
+reverted and dropdown clicks landed one row off (start month briefly September, graduation briefly
+"I am currently not attending school"). Every one was caught by screenshotting after the write.
+
+**Two facts were missing from the system and blocked progress, now persisted to
+`context/applications/profile/contact.md`** under a new "Application-form fields" section: the home
+address (3240 198th Pl SE, Sammamish, WA 98075, King County, with a note that ZIP 98075 offers both
+Issaquah and Sammamish in pickers) and **work authorization: authorized, no sponsorship needed ever**,
+confirmed by Veer. Also recorded the standard attestation set and the May 2028 / graduated-unchecked
+convention, so no future application has to stop and ask.
+
+**GPA: 3.3.** Veer asked whether to include it. On the Amex form it is a required field, so
+"Not Applicable" would have been false and reads evasive from an enrolled undergrad; entered as
+3.0-3.49. **On the resume it stays off**, which is what both resumes already do: the convention is to
+list above ~3.5 and omit otherwise, and Amex states no GPA cutoff.
+
+**State at handoff:** Amex all four sections filled, sitting one click from submit. IBM at 40%,
+resume uploaded, personal and address blocks complete, blocked only on the consent tick.
